@@ -760,16 +760,34 @@ focus.upgrade.architect.text=Dieses Upgrade gibt viel mehr Kontrolle über den B
 ###################
 recipe.return=Zurück
 recipe.clickthrough=Klicke für Forschung
+recipe.unknown=Du kannst das noch nicht herstellen
 recipe.type.workbench=Werkbank
 recipe.type.smelting=Schmelzen
 recipe.type.workbenchshapeless=Werkbank (Formlos)
 recipe.type.arcane=Arkane Werkbank
+recipe.type.arcane.shapeless=Arkane Werkbank (Formlos)
 recipe.type.crucible=Tiegel
 recipe.type.infusion=Arkane Infusion
 recipe.type.construct=Mystisches Konstrukt
 wandtable.text1=Viskosten
 wandtable.text2=Erfahrungskosten
 wandtable.text3=Upgrade starten
+wandtable.text4=Erforderliche Kristalle
+button.turretfocus.1=Tiere angreifen
+button.turretfocus.2=Wesen angreifen
+button.turretfocus.3=Spieler angreifen
+button.turretfocus.4=Freundlich gesinntes angreifen
+button.category.1=Filter
+button.category.2=Bereich
+button.category.3=Optionen
+button.category.4=Anforderungen
+button.caption.x=Ost / West
+button.caption.y=Oben / Unten
+button.caption.z=Nord / Süd
+button.bl=Blacklist
+button.wl=Whitelist
+button.caption.required=Erfordert
+button.caption.forbidden=Verboten
 
 #
 tile.researchtable.noink.0=Du hast keine Tinte mehr!
