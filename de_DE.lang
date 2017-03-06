@@ -1,0 +1,570 @@
+#
+# Items
+###################################
+#
+# Curios
+#
+item.thaumonomicon.normal.name=Thaumonomikon
+item.thaumonomicon.cheat.name=Schummler-Thaumonomikon
+item.curio.arcane.name=Arkane Kuriosität
+item.curio.preserved.name=Alte Kuriosität
+item.curio.eldritch.name=Unnatürliche Kuriosität
+item.curio.ancient.name=Antike Kuriosität
+item.curio.twisted.name=Seltsame Kuriosität
+item.curio.knowledge.name=Erleuchtende Kuriosität
+item.curio.rites.name=Karmesinriten
+item.curio.text=Welch Wissen mag es halten?
+item.loot_bag.common.name=Gewöhnlicher Schatz
+item.loot_bag.uncommon.name=Ungewöhnlicher Schatz
+item.loot_bag.rare.name=Seltener Schatz
+tc.lootbag=Klicke zum Öffnen oder behalte zum Handeln
+item.primordial_pearl.mote.name=Primordialstaub
+item.primordial_pearl.nodule.name=Primordialnodulus
+item.primordial_pearl.pearl.name=Primordialperle
+#
+# Resources
+#
+item.amber.name=Bernstein
+item.quicksilver.name=Quecksilber
+item.crystal_essence.name=Viskristall
+item.ingot.thaumium.name=Thaumiumbarren
+item.ingot.void.name=Leermetallbarren
+item.ingot.brass.name=Alchemiemessingbarren
+item.nugget.iron.name=Eisennugget
+item.nugget.copper.name=Kupfernugget
+item.nugget.tin.name=Zinnnugget
+item.nugget.silver.name=Silbernugget
+item.nugget.lead.name=Bleinugget
+item.nugget.quicksilver.name=Quecksilbertropfen
+item.nugget.thaumium.name=Thaumiumnugget
+item.nugget.void.name=Leermetallnugget
+item.nugget.brass.name=Alchemiemessingnugget
+item.nugget.quartz.name=Quarzsplitter
+item.cluster.iron.name=Nativer Eisenklumpen
+item.cluster.copper.name=Nativer Kupferklumpen
+item.cluster.tin.name=Nativer Zinnklumpen
+item.cluster.silver.name=Nativer Silberklumpen
+item.cluster.lead.name=Nativer Bleiklumpen
+item.cluster.cinnabar.name=Nativer Zinnoberklumpen
+item.cluster.gold.name=Nativer Goldklumpen
+item.cluster.quartz.name=Nativer Quarzklumpen
+item.filter.name=Essentiafilter
+item.morphic_resonator.name=Morphresonator
+item.tallow.name=Magischer Talg
+item.void_seed.name=Leersaat
+item.salis_mundus.name=Salis Mundus
+item.primal_charm.name=Ursprungstalisman
+item.mirrored_glass.name=Spiegelndes Glas
+item.plate.brass.name=Messingplatte
+item.plate.iron.name=Eisenplatte
+item.plate.thaumium.name=Thaumiumplatte
+item.plate.void.name=Leermetallplatte
+item.gear.brass.name=Messingzahnrad
+item.gear.thaumium.name=Thaumiumzahnrad
+item.gear.void.name=Leermetallzahnrad
+item.fabric.name=Verzauberter Stoff
+item.mind.clockwork.name=Uhrwerk-Verstand
+item.mind.biothaumic.name=Biothaumverstand
+item.vis_resonator.name=Visresonator
+#
+# Consumables
+#
+item.alumentum.name=Alumentum
+item.chunk.chicken.name=Hähnchennugget
+item.chunk.beef.name=Rindernugget
+item.chunk.pork.name=Schweinsnugget
+item.chunk.fish.name=Fischnugget
+item.chunk.rabbit.name=Kaninchennugget
+item.chunk.mutton.name=Schafsnugget
+item.brain.name=Zombiehirn
+item.triple_meat_treat.name=Dreifacher Fleischmix
+item.phial.empty.name=Glasphiole
+item.phial.filled.name=Essentiaphiole
+item.label.blank.name=Leeres Schildchen
+item.label.filled.name=Markiertes Schildchen
+item.jar_brace.name=Messingdeckelklammer
+#
+# Armor
+#
+item.goggles.name=Brille der Enthüllung
+item.fortress_helm.name=Thaumiumbollwerkhelm
+item.fortress_helm.mask.0=Grinsender Teufel
+item.fortress_helm.mask.1=Zürnender Geist
+item.fortress_helm.mask.2=Zehrender Dämon
+item.fortress_chest.name=Thaumiumbollwerkkürass
+item.fortress_legs.name=Thaumiumbollwerkbeinschutz
+item.thaumium_helm.name=Thaumiumhelm
+item.thaumium_chest.name=Thaumiumbrustplatte
+item.thaumium_legs.name=Thaumiumbeinschutz
+item.thaumium_boots.name=Thaumiumschaufel
+item.cloth_chest.name=Thaumaturgenrobe
+item.cloth_legs.name=Thaumaturgengamaschen
+item.cloth_boots.name=Thaumaturgenstiefel
+item.void_helm.name=Leerhelm
+item.void_chest.name=Leerharnisch
+item.void_legs.name=Leerbeinschutz
+item.void_boots.name=Leerstiefel
+item.void_robe_helm.name=Leerthaumaturgenhaube
+item.void_robe_chest.name=Leerthaumaturgenrobe
+item.void_robe_legs.name=Leerthaumaturgengamaschen
+item.crimson_boots.name=Karmesinkultstiefel
+item.crimson_robe_helm.name=Karmesinkulthaube
+item.crimson_robe_chest.name=Karmesinkultrobe
+item.crimson_robe_legs.name=Karmesinkultgamaschen
+item.crimson_plate_helm.name=Karmesinkulthelm
+item.crimson_plate_chest.name=Karmesinkultbrustschutz
+item.crimson_plate_legs.name=Karmesinkultbeinschienen
+item.crimson_praetor_helm.name=Karmesinprätorenhelm
+item.crimson_praetor_chest.name=Karmesinprätorenbrustschutz
+item.crimson_praetor_legs.name=Karmesinprätorenbeinschutz
+item.thaumostatic_harness.name=Thaumostatisches Geschirr
+item.traveller_boots.name=Stiefel des Reisenden
+#
+# Tools
+#
+item.scribing_tools.name=Schreibset
+item.thaumium_shovel.name=Thaumiumschaufel
+item.thaumium_axe.name=Thaumiumaxt
+item.thaumium_sword.name=Thaumiumschwert
+item.thaumium_pick.name=Thaumiumspitzhacke
+item.thaumium_hoe.name=Thaumiumhacke
+item.elemental_shovel.name=Schaufel des Erdschürfers
+item.elemental_pick.name=Spitzhacke des Erdkerns
+item.elemental_axe.name=Axt des Stroms
+item.elemental_hoe.name=Hacke des Wachstums
+item.elemental_sword.name=Schwert des Zephir
+item.void_shovel.name=Leerschaufel
+item.void_axe.name=Leeraxt
+item.void_sword.name=Leerschwert
+item.void_pick.name=Leerspitzhacke
+item.void_hoe.name=Leerhacke
+item.crimson_blade.name=Karmesinklinge
+item.primal_crusher.name=Arkaner Zermalmer
+item.hand_mirror.name=Magischer Handspiegel
+item.thaumometer.name=Thaumometer
+item.sanity_checker.name=Sanity Checker
+item.resonator.name=Essentiaresonator
+#
+# Baubles
+#
+item.baubles.amulet_mundane.name=Gewöhnliches Amulett
+item.baubles.ring_mundane.name=Gewöhnlicher Ring
+item.baubles.girdle_mundane.name=Gewöhnlicher Gürtel
+item.baubles.ring_apprentice.name=Lehrlingsring
+item.baubles.amulet_fancy.name=Schickes Amulett
+item.baubles.ring_fancy.name=Schicker Ring
+item.baubles.girdle_fancy.name=Schicker Gürtel
+item.amulet_vis.text=Lädt gehaltene Stäbe auf
+item.amulet_vis.found.name=Visstein
+item.amulet_vis.crafted.name=Visamulett
+item.girdle_hover.name=Thaumostatischer Gürtel
+item.verdant_charm.name=Talisman eines weiten Herzens
+item.verdant_charm.life.text=Lebensspender
+item.verdant_charm.sustain.text=Erhalter
+#
+# Casters & Foci
+#
+#
+#
+item.Focus.cost1=Vis pro Zauber
+#
+# Misc
+#
+#
+# Golem
+#
+# Blocks
+###################################
+#
+# World
+#
+#
+# Devices
+#
+#
+# Doodads
+#
+# Misc
+#
+# Enchantments
+###################################
+enchantment.haste=Hast
+enchantment.repair=Reparieren
+enchantment.special.sapless=Leichtes Zehren
+enchantment.special.sapgreat=Starkes Zehren
+#
+# Infusion Enchantments
+###################################
+#
+# Potions
+###################################
+potion.fluxtaint=Fluxvergiftung
+potion.soulshatter=Seelensplittern
+potion.visexhaust=Fluxgrippe
+potion.infvisexhaust=Fluxphage
+potion.unhunger=Unnatürlicher Hunger
+potion.warpward=Warpbann
+potion.deathgaze=Tödlicher Blick
+potion.blurred=Verschwommene Sicht
+potion.sunscorned=Sonnenscheu
+potion.thaumarhia=Thaumarhoe
+#
+# Warp
+###################################
+warp.text.1=Du fühlst dich auf seltsam leer.
+warp.text.2=Ein spontaner und unnatürlicher Hunger sucht dich heim.
+warp.text.hunger.1=Dein Hunger kann mit gewöhnlicher Nahrung nicht gestillt werden.
+warp.text.hunger.2=Dein Hunger scheint gestillt zu werden.
+warp.text.3=Selsame Stimmen enthüllen dir Geheimnisse.
+warp.text.4=Deine Sicht wird seltsam und schummerig.
+warp.text.5=Das Licht wird auf einmal unglaublich hell und verbrennt deine Haut.
+warp.text.6=Ein dichter Nebel kommt aus dem Nichts. Irgendetwas rührt sich in seinen Tiefen.
+warp.text.7=Sie sind überall! Lauf!
+warp.text.8=Es muss doch irgendeinen Weg geben, diese Kopfschmerzen zu loszuwerden... Oder?
+warp.text.9=Du fühlst dich plötzlich schlecht dabei, Dinge abzubauen.
+warp.text.10=Deine Wahrnehmung erweitert sich plötzlich.
+warp.text.11=Was war das für ein Geräusch? Etwas ist hinter dir.
+warp.text.12=Irgendetwas folgt dir.
+warp.text.13=Etwas beobachtet dich. Vielleicht solltest du aufhören.
+warp.text.14=Du findest einen Moment der Klarheit.
+warp.text.15=Dein Magen fängt plötzlich an, seltsam zu gurgeln.
+warp.text.16=In der Nähe hörst du leise... Gesang.
+#
+# Entities
+###################################
+entity.thaumcraft.AuraNode.name=Auranodie
+entity.trunk.guiname='s Koffer
+entity.trunk.move=Der Koffer wird dir nun folgen
+entity.trunk.stay=Der Koffer wird bleiben, wo er ist
+#
+#
+tc.boss.crimson=Ein Rubinportal öffnet sich in der Nähe, die Ankunft des Karmesinkultes ankündigend. Du musst das Portal schnell verschließen!
+tc.boss.golem=Ein einsamer Wächter steht wie festgefroren in diesem Raum, aber als Energie beginnt, durch seine antike Gestalt zu dringen, weißt du, dass er nicht mehr für lange eingefroren bleibt.
+tc.boss.warden=Schwarze Energie brodelt auf den entfernten Sockeln. Irgendetwas naht...
+tc.boss.taint=Ein seltsames Rascheln kommt aus dem angrenzenden Raum. Das Geräusche von etwas... Falschem... etwas Wachsendem...
+#
+# Blocks
+###################################
+# World
+
+
+
+
+
+
+
+
+
+
+#
+# Misc
+
+
+#
+# Machines
+
+
+
+
+
+
+#
+# Items
+###################################
+# Raw Materials
+
+
+#
+# Resources
+
+#
+# Consumables
+
+
+
+
+
+
+#
+# Misc
+
+
+
+
+#
+# Text
+item.runic.charge=Runenschutz
+item.warping=Warping
+item.capacity.text=Kapazität
+item.chargebonus.text=Ladung
+#
+# Golems 
+########################
+# Traits
+#
+# Props 
+#
+#
+#
+#
+#
+#
+# Fluids
+##############################
+fluid.fluxGoo=Fluxschleim
+fluid.fluxGas=Fluxgas
+#
+# General Focus Upgrades
+##############################
+focus.upgrade.potency.name=Macht
+focus.upgrade.potency.text=Dieses Upgrade erhöht Schaden oder Stärke der Fähigkeiten des Fokus. Der tatsächliche Schadensbonus variiert von Fokus zu Fokus, ist aber für gewöhnlich etwa 20% je Level.
+focus.upgrade.frugal.name=Sparsamkeit
+focus.upgrade.frugal.text=Dieses Upgrade verringert die Viskosten, die die Aktivierung der Fokusfähigkeiten benötigt, um 10% je Level.
+focus.upgrade.treasure.name=Schatz
+focus.upgrade.treasure.text=Dieses Upgrade fungiert wie die Verzauberungen "Glück" und "Plünderung". Es erhöht die Chance, mehr/bessere Beute zu bekommen.
+focus.upgrade.enlarge.name=Vergrößern
+focus.upgrade.enlarge.text=Dieses Upgrade vergößert den Bereich der Fokuseffekte, oder erhöht die Anzahl an betroffenen Zielen.
+focus.upgrade.extend.name=Erweitern
+focus.upgrade.extend.text=Dieses Upgrade erhöht die Dauer jeglicher Effekte, die das Upgrade verursachen könnte.
+focus.upgrade.architect.name=Architekt
+focus.upgrade.architect.text=Dieses Upgrade gibt viel mehr Kontrolle über den Bereich, den gewisse Foki beeinflussen. Der exakte Bereich wird angezeigt; dir wird auch möglich sein, die Größe mit dem Stab-Umschaltknopf (standardmäßig G) zu verändern. Schleichen+G schaltet die Dimension um, die du veränderst.
+#
+# Specific Focus Upgrades
+##############################
+#
+#
+#
+# GUI
+###################
+recipe.return=Zurück
+recipe.clickthrough=Klicke für Forschung
+recipe.type.workbench=Werkbank
+recipe.type.smelting=Schmelzen
+recipe.type.workbenchshapeless=Werkbank (Formlos)
+recipe.type.arcane=Arkane Werkbank
+recipe.type.crucible=Tiegel
+recipe.type.infusion=Arkane Infusion
+recipe.type.construct=Mystisches Konstrukt
+wandtable.text1=Viskosten
+wandtable.text2=Erfahrungskosten
+wandtable.text3=Upgrade starten
+
+#
+tile.researchtable.noink.0=Du hast keine Tinte mehr!
+tile.researchtable.noink.1=Fülle dein Schreibset nach.
+text.spa.mix.true=Mische mit Zutat
+text.spa.mix.false=Nur Flüssigkeit verwenden
+#
+#
+# Other
+###################
+itemGroup.thaumcraft=Thaumcraft
+#
+#
+
+#
+tc.taint_item_poison=Ein sich auflösendes %s hat dich mit Beschmutzung infiziert
+death.attack.taint=%1$s wurde durch Beschmutzung getötet
+death.attack.taint.player=%1$s wurde durch Beschmutzung getötet, während er %2$s bekämpfte
+death.attack.tentacle=%1$s wurde von %2$s zerquetscht
+death.attack.swarm=%1$s ist von %2$s befallen worden
+death.attack.swarm.item=%1$s ist von %2$s, %3$s nutzend, befallen worden
+death.attack.dissolve=%1$s hat sich aufgelöst
+death.attack.dissolve.player=%1$s hat sich, %2$s bekämpfend, aufgelöst
+tc.handmirrorlinkedto=Verbunden mit
+tc.handmirrorlinked=Verbindung hergestellt.
+tc.handmirrorerror=Zielspiegel wurde entfernt oder ist falsch angebracht. Verbindung aufgelöst.
+tc.researcherror=Dir fehlt das benötigte Wissen, um dies zu verstehen.
+tc.researchexists=Du bist bereits im Besitz dieses Wissens.
+tc.discoveryerror=Um dies zu verstehen, musst du %1$s studieren.
+tc.discoveryunknown=Unbekannte Theorie
+tc.discoveryprogress=% komplett
+tc.portableholeerror=Das Tragbare Loch hat nicht genug Ladung, um das zu tun.
+tc.key1=Der Schlüssel wurde mit dieser Arkanen Tür verbunden.
+tc.key2=Der Schlüssel wurde mit dieser Arkanen Druckplatte verbunden.
+tc.key3=Du kannst diese Tür nun öffnen.
+tc.key4= Du kannst auch anderen Zugriff gewähren.
+tc.key5=Du wirst nun diese Druckplatte auslösen als wärst du ihr Eigentümer.
+tc.key6= Du kannst auch anderen Zugriff gewähren und seine Einstellungen verändern.
+tc.key7=Dieser Schlüssel ist nicht hiermit verbunden.
+tc.key8=Du hast bereits Zugriff.
+tc.key9=Dieser Schlüssel gewährt Zugriff auf eine
+tc.key10=Arkane Tür bei
+tc.key11=Arkane Druckplatte bei
+tc.wandnocharge=Der Zauberstab ist nicht ausreichend geladen um das zu tun.
+tc.wandcharge=Dieser Stab hält momentan %s Vis
+tc.jaressentia=Hält %s Essentia
+tc.jarname=Glas mit
+tc.markedloc=markierte Orte
+tc.addclue=Du hast einen Hinweis auf neue Forschung entdeckt!
+tc.addwarp=§5Du hast permanent Warp erhalten!§0
+tc.addwarptemp=§5Du hast temporär Warp erhalten!§0
+tc.addwarpsticky=§5Du hast Warp erhalten!§0
+tc.removewarp=§5Du bist permanenten Warp losgeworden!§0
+tc.removewarpsticky=§5Du bist Warp losgeworden!§0
+tc.removewarptemp=§5Du bist temporären Warp losgeworden!§0
+tc.forbidden=§l§5Verbotenes Wissen (%n)§0
+tc.forbidden.level.1=Relativ harmlos
+tc.forbidden.level.2=Gerinfügig gefährlich
+tc.forbidden.level.3=Mäßig gefährlich
+tc.forbidden.level.4=Gefährlich
+tc.forbidden.level.5=Tabu
+tc.unknownobject=Nichts kann hiervon gelernt werden.
+tc.markerchange=Setze Markerfarbe auf %n
+tc.markerchangeany=Setze auf beliebige Farbe
+tc.researchmissing=Fehlende erforderliche Forschung!
+tc.discount=Reduktion
+tc.visdiscount=Visreduktion
+tc.vis.cost=Viskosten
+tc.inst=Instabilität:
+tc.inst.0=§1Unbedeutend§0
+tc.inst.1=§9Gering§0
+tc.inst.2=§5Mäßig§0
+tc.inst.3=§eHoch§0
+tc.inst.4=§6Sehr Hoch§0
+tc.inst.5=§4Gefährlich§0
+tc.adv=Fortgeschritten
+tc.resonator1=§9Enthält %1$s %2$s Essentia§0
+tc.resonator2=§5Saugkraft %1$s %2$s §0
+tc.resonator3=Unspezifisch
+tc.research.purchase=Klicke, um diese Forschung zu erkaufen
+tc.research.short=Du hast nicht genügend Aspekte, um dies zu erkaufen
+tc.primalcharm.0=Er erscheint undicht
+tc.primalcharm.1=Du glaubst, ein Flüstern zu hören
+tc.primalcharm.2=Er vibriert heftig
+tc.primalcharm.3=Sein Summen ist ziemlich beruhigend
+tc.primalcharm.4=Warte, zeigte er gerade eine siebte Farbe?
+tc.primalcharm.trigger=Für einen Moment umrahmen seltsame Energien den Ursprungstalisman. Die verschwinden schnell wieder, aber du fühlst dich nun seltsam inspiriert...
+tc.break.fly=Irgendetwas verhindert, dass du fliegst.
+tc.boss.enrage=ist durch deine kraftvollen Schläge wütend geworden.
+#
+# Aspects
+tc.aspect.primal=Primärer Aspekt
+tc.aspect.unknown=Unbekannter Aspekt
+tc.aspect.aer=Luft
+tc.aspect.terra=Erde
+tc.aspect.ignis=Feuer
+tc.aspect.aqua=Wasser
+tc.aspect.ordo=Ordnung, Gleichmäßigkeit, Reinheit
+tc.aspect.perditio=Chaos, Entropie, Zerstörung
+tc.aspect.vacuos=Leere
+tc.aspect.auram=Aura, Vis
+tc.aspect.vitium=Taint, Veränderung, Mutation
+tc.aspect.lux=Licht
+tc.aspect.potentia=Energie
+tc.aspect.motus=Bewegung, Animation
+tc.aspect.victus=Leben
+tc.aspect.mortuus=Tod
+tc.aspect.volatus=Flug
+tc.aspect.tenebrae=Dunkelheit
+tc.aspect.herba=Pflanze
+tc.aspect.spiritus=Seele
+tc.aspect.humanus=Mensch
+tc.aspect.bestia=Biest
+tc.aspect.exanimis=Untot
+tc.aspect.cognitio=Verstand, Erinnerung, Erkenntnis
+tc.aspect.sensus=Sinne
+tc.aspect.metallum=Metall
+tc.aspect.instrumentum=Werkzeug, Instrument
+tc.aspect.aversio=Abneigung, Konflikt
+tc.aspect.gelum=Eis, Frost, Kälte
+tc.aspect.vitreus=Kristall, Glas, Klarheit
+tc.aspect.alienis=Fremd, Seltsam, Das Unheimliche
+tc.aspect.praemunio=Befestigen, Schützen, Beschützen
+tc.aspect.fabrico=Herstellen
+tc.aspect.desiderium=Wunch, Verlangen, Sehnsucht, Bedürfnis
+tc.aspect.machina=Mechanismus, Maschine
+tc.aspect.vinculum=Falle, Gefängnis
+tc.aspect.permutatio=Austausch, Tauschhandel
+tc.aspect.praecantatio=Magie
+tc.aspect.alkimia=Alchemie, Chemie
+#  
+# Research categories
+tc.research_category.BASICS=Basisinformation
+tc.research_category.THAUMATURGY=Thaumaturgie
+tc.research_category.ALCHEMY=Alchemie
+tc.research_category.ARTIFICE=Artefakte
+tc.research_category.GOLEMANCY=Golemantik
+tc.research_category.ELDRITCH=Unnatürliches
+#  
+# Knowledge Types
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <PAGE> or <PAGE/>     Skip to a new page.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+##########################################
+# BASICS
+##########################################
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+##########################################
+# ALCHEMY
+##########################################
+#
+#
+#
+#
+#
+##########################################
+# ARTIFICE
+##########################################
+#
+#
+#
+##########################################
+# THAUMATURGY
+##########################################
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+##########################################
+# GOLEMANCY
+##########################################
+#
+#
+##########################################
+# ELDRITCH
+##########################################
+#
+#
