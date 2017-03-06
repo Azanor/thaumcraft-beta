@@ -291,6 +291,7 @@ tile.arcane_workbench.name=Arkane Werkbank
 tile.arcane_workbench_charger.name=Arkanes Werkbankladerelais
 tile.wand_workbench.name=Fokusmanipulator
 tile.crucible.name=Tiegel
+tile.pattern_crafter.name=Arkane Strukturbank
 tile.redstone_relay.name=Redstone-Relais
 tile.research_table.name=Forschungstisch
 tile.arcane_ear.name=Arkanes Ohr
@@ -432,10 +433,73 @@ warp.text.16=In der Nähe hörst du leise... Gesang.
 # Entities
 ###################################
 entity.thaumcraft.AuraNode.name=Auranodie
+entity.thaumcraft.Golem.name=Golem
+entity.thaumcraft.ThaumSlime.name=Thaumischer Schleim
+entity.thaumcraft.GolemDart.name=Golemdart
+entity.thaumcraft.PrimalArrow.name=Ursprungspfeil
+entity.thaumcraft.FrostShard.name=Frostscherbe
+entity.thaumcraft.ExplosiveOrb.name=Explosiver Feuerball
+entity.thaumcraft.ShockOrb.name=Shockierender Orb
+entity.thaumcraft.GolemOrb.name=Energie-Orb
+entity.thaumcraft.BottleTaint.name=Abgefüllter Schmutz
+entity.thaumcraft.Firebat.name=Flammfledermaus
+entity.thaumcraft.Wisp.name=Wisp
+entity.thaumcraft.Alumentum.name=Alumentum
+entity.thaumcraft.GiantBrainyZombie.name=Tobender Zombie
+entity.thaumcraft.BrainyZombie.name=Zürnender Zombie
+entity.thaumcraft.FollowItem.name=Verfolgendes Item
+entity.thaumcraft.SpecialItem.name=Magisches Item
+entity.thaumcraft.FallingTaint.name=Beschmutzte Kruste
+entity.thaumcraft.AspectOrb.name=Aspektorb
+entity.thaumcraft.TaintCrawler.name=Verseuchtes Kriechtier
+entity.thaumcraft.Taintacle.name=Schmutztentakel
+entity.thaumcraft.TaintacleTiny.name=Schmutzranke
+entity.thaumcraft.TaintacleGiant.name=Riesiger Schmutztentakel
+entity.thaumcraft.TaintSeed.name=Schmutzspore
+entity.thaumcraft.TaintSeedPrime.name=Riesige Schmutzspore
+entity.thaumcraft.TaintSwarm.name=Schmutzschwarm
+entity.thaumcraft.Pech.name=Pechsammler
+entity.thaumcraft.Pech.1.name=Pechmagier
+entity.thaumcraft.Pech.2.name=Pechjäger
+entity.thaumcraft.PrimalOrb.name=Orb aus Ursprungsenergie
+entity.thaumcraft.TravelingTrunk.name=Reisekoffer
 entity.trunk.guiname='s Koffer
 entity.trunk.move=Der Koffer wird dir nun folgen
 entity.trunk.stay=Der Koffer wird bleiben, wo er ist
+entity.thaumcraft.MindSpider.name=Geistesspinne
+entity.thaumcraft.EldritchGuardian.name=Unheimlicher Wächter
+entity.thaumcraft.EldritchWarden.name=Unheimlicher Aufseher
+entity.thaumcraft.EldritchWarden.name.custom=%s der %d
+entity.thaumcraft.EldritchGolem.name=Unheimliches Konstrukt
+entity.thaumcraft.EldritchGolem.name.custom=%ss Unheimliches Konstrukt
+entity.thaumcraft.EldritchOrb.name=Unnatürlicher Orb
+entity.thaumcraft.CultistKnight.name=Karmesinritter
+entity.thaumcraft.CultistCleric.name=Karmesinkleriker
+entity.thaumcraft.CultistLeader.name=Karmesinprätor
+entity.thaumcraft.CultistLeader.name.custom=Prätor %s der %d
+entity.thaumcraft.CultistPortalGreater.name=Großes Karmesinportal
+entity.thaumcraft.CultistPortalLesser.name=Kleines Karmesinportal
+entity.thaumcraft.EldritchCrab.name=Unheimliche Krabbe
+entity.thaumcraft.InhabitedZombie.name=Wandelnde Hülle
+entity.thaumcraft.TurretBasic.name=Automatische Armbrust
+entity.thaumcraft.TurretAdvanced.name=Verbesserte Automatische Armbrust
+entity.thaumcraft.TurretFocus.name=Automagier
+entity.thaumcraft.TurretEldritch.name=Antiker Automagier
+entity.thaumcraft.NodeMagnet.name=Nodienmagnet
 #
+champion.mod.bold=Mutige
+champion.mod.spine=Schaurige
+champion.mod.armor=Gepanzerte
+champion.mod.mighty=Mächtige
+champion.mod.grim=Grimmige
+champion.mod.warded=Verbannte
+champion.mod.warp=Verzerrte
+champion.mod.undying=Unvergängliche
+champion.mod.fiery=Feurige
+champion.mod.sickly=Kränkliche
+champion.mod.venomous=Giftige
+champion.mod.vampiric=Vampirische
+champion.mod.infested=Verseuchte
 #
 tc.boss.crimson=Ein Rubinportal öffnet sich in der Nähe, die Ankunft des Karmesinkultes ankündigend. Du musst das Portal schnell verschließen!
 tc.boss.golem=Ein einsamer Wächter steht wie festgefroren in diesem Raum, aber als Energie beginnt, durch seine antike Gestalt zu dringen, weißt du, dass er nicht mehr für lange eingefroren bleibt.
@@ -448,17 +512,46 @@ tc.boss.taint=Ein seltsames Rascheln kommt aus dem angrenzenden Raum. Das Geräu
 
 
 
+tile.bloom.name=Ätherblüte
+
+tile.eldritch.altar.name=Unheimlicher Altar
+tile.eldritch.obelisk_base.name=Unheimlicher Obelisk
+tile.eldritch.obelisk_body.name=Unheimlicher Obelisk
+tile.eldritch.cap.name=Unheimlicher Schlussstein
+tile.eldritch.lock.name=Antiker Verriegelungsmechanismus
+tile.eldritch.door.name=Antiker Eingang
+tile.eldritch.teleporter.name=Unheimliches Portal 
+tile.eldritch.crabspawner.name=Verkrustete Öffnung
 
 
-
+tile.banner.cultist.name=Karmesinkultbanner
+tile.banner.white.name=Weißes Banner
+tile.banner.orange.name=Oranges Banner
+tile.banner.magenta.name=Magentafarbenes Banner
+tile.banner.light_blue.name=Hellblaues Banner
+tile.banner.yellow.name=Gelbes Banner
+tile.banner.lime.name=Hellgrünes Banner
+tile.banner.pink.name=Pinkes Banner
+tile.banner.gray.name=Graues Banner
+tile.banner.silver.name=Hellgraues Banner
+tile.banner.cyan.name=Türkises Banner
+tile.banner.purple.name=Violettes Banner
+tile.banner.blue.name=Blaues Banner
+tile.banner.brown.name=Braunes Banner
+tile.banner.green.name=Grünes Banner
+tile.banner.red.name=Rotes Banner
+tile.banner.black.name=Schwarzes Banner
 
 
 
 
 #
 # Misc
+tile.hole.name=Dimensionsriss
+tile.vacuum.name=Tödliche Leere
 
 
+tile.barrier.name=Bannaura
 #
 # Machines
 
@@ -466,7 +559,25 @@ tc.boss.taint=Ein seltsames Rascheln kommt aus dem angrenzenden Raum. Das Geräu
 
 
 
+tile.arcane_bore_base.name=Arkane Bohrerbasis
+tile.arcane_bore.name=Arkaner Bohrer
+tile.thaumatorium.name=Thaumatorium
+tile.brain_box.name=Mnemomatrix
 
+tile.aura_totem.push.name=Auratotem der Zerstreuung
+tile.aura_totem.pull.name=Auratotem der Anziehung
+tile.aura_totem.pole_inner.name=Totempfahlinneres
+tile.aura_totem.pole_outer.name=Totempfahläußeres
+tile.aura_totem.pole_pure.name=Stabilisierender Totempfahl
+tile.centrifuge.name=Essentiazentrifuge
+tile.crystallizer.name=Essentiakristallisator
+tile.spa.name=Arkanes Bad
+tile.mirror.name=Zauberspiegel
+tile.mirror_essentia.name=Essentiaspiegel
+tile.golem_builder.name=Golempresse
+tile.node_stabilizer.name=Nodienstabilisator
+tile.essentia_input.name=Füllender Essentiaüberträger
+tile.essentia_output.name=Leerender Essentiaüberträger
 #
 # Items
 ###################################
@@ -480,14 +591,38 @@ tc.boss.taint=Ein seltsames Rascheln kommt aus dem angrenzenden Raum. Das Geräu
 # Consumables
 
 
+item.bath_salts.name=Reinigendes Badesalz
+item.bucket_death.name=Eimer mit Flüssigem Tod
+item.bucket_pure.name=Eimer mit Reinigender Flüssigkeit
+item.bottle_taint.name=Abgefüllter Schmutz
+item.sanity_soap.name=Säubernde Seife
 
+item.turret.basic.name=Automatische Armbrust
+item.turret.advanced.name=Verbesserte Automatische Armbrust
+item.turret.focus.name=Automagier
+item.turret.magnet.name=Nodienmagnet
 
 
 
 #
 # Misc
+item.tainted.slime.name=Schmutzschleim
+item.tainted.tendril.name=Schmutzranke
+item.coin.name=Goldmünze
 
+item.knowledge_fragment.name=Wissensfragment
+item.knowledge_fragment.help=Klicke, um Erfahrung zu sammeln
+item.eldritch_eye.name=Unheimliches Auge
+item.crimson_rites.text.0=Das Buch voller seltsamer Symbole.
+item.crimson_rites.text.1=Klicke, um es zu studieren.
+item.runed_tablet.name=Runentafel
+item.runed_tablet.text=Es scheint Teil von etwas Größerem zu sein.
+item.research_notes.name=Forschungsnotizen
+item.research_notes.discovery.name=Entdeckung
+item.researchnotes.learn=Klicke, um diese Entdeckung zu studieren.
+item.creative_placer.obelisk.name=Obeliskplatzierer
 
+item.creative_placer.caster.name=Platzierer für Antike Automagier
 
 
 #
@@ -500,18 +635,64 @@ item.chargebonus.text=Ladung
 # Golems 
 ########################
 # Traits
+golem.trait.deft=Geschickt
+golem.trait.clumsy=Ungeschickt
+golem.trait.smart=Schlau
+golem.trait.wheeled=Rollend
+golem.trait.light=Leichtes Gehäuse
+golem.trait.heavy=Schweres Gehäuse
+golem.trait.fragile=Fragil
+golem.trait.armored=Gepanzert
+golem.trait.repair=Verbesserte Selbstreparatur
+golem.trait.fighter=Kämpfer
+golem.trait.flyer=Flieger
+golem.trait.climber=Kletterer
+golem.trait.scout=Kundschafter
+golem.trait.fireproof=Feuerfest
+golem.trait.brutal=Brutal
+golem.trait.breaker=Zermalmer
+golem.trait.hauler=Sammler
+golem.trait.ranged=Scharfschütze
+golem.trait.blastproof=Explosionssicher
 #
 # Props 
+golem.material.wood=Großholz
+golem.material.iron=Eisen
+golem.material.brass=Messing
+golem.material.clay=Lehm
+golem.material.thaumium=Thaumium
+golem.material.void=Leermetall
 #
+golem.head.basic=Uhrwerkkopf
+golem.head.smart=Schlauer Kopf
+golem.head.smart_armored=Gepanzerter schlauer Kopf
+golem.head.scout=Scharfsinniger Kopf
+golem.head.smart_scout=Biothaumkopf
 #
+golem.arm.basic=Normale Arme
+golem.arm.fine=Feinmotorik
+golem.arm.claws=Klauenarme
+golem.arm.breakers=Zermalmarme
+golem.arm.darts=Pfeilgeschütz
 #
+golem.leg.walker=Normale Beine
+golem.leg.roller=Einrad
+golem.leg.climber=Kletterbeine
+golem.leg.flyer=Schwebemodul
 #
+golem.addon.armored=Panzerplatten
+golem.addon.fighter=Aggressionsmodul
+golem.addon.hauler=Trägerrahmen
 #
+golem.follow=Ich komme, Meister
+golem.stay=Ich werde hier bleiben, Meister
 #
 # Fluids
 ##############################
 fluid.fluxGoo=Fluxschleim
 fluid.fluxGas=Fluxgas
+fluid.purifying_fluid=Reinigende Flüssigkeit
+fluid.liquid_death=Flüssiger Tod
 #
 # General Focus Upgrades
 ##############################
