@@ -164,20 +164,120 @@ item.verdant_charm.sustain.text=Erhalter
 #
 # Casters & Foci
 #
+item.caster_basic.name=Zaubererhandschuh
+item.focus_fire.name=Stabfokus: Feuer
+item.focus_hellbat.name=Stabfokus: Neun Höllen
+item.focus_shock.name=Stabfokus: Schock
+item.focus_equal_trade.name=Stabfokus: Blocktausch
+item.focus_frost.name=Stabfokus: Frost
+item.focus_excavation.name=Stabfokus: Graben
+item.focus_hole.name=Stabfokus: Tragbares Loch
+item.focus_pech.name=Stabfokus: Pech's Fluch
+item.focus_warding.name=Stabfokus: Schützen
+item.focus_primal.name=Stabfokus: Ursprung
+item.focus_shard.name=Stabfokus: Vissplitter
+item.focus_grapple.name=Stabfokus: Greifen
+item.focus_builder.name=Stabfokus: Konstruktion
 #
+item.focus_pouch.name=Fokusbeutel
 #
 item.Focus.cost1=Vis pro Zauber
 #
 # Misc
 #
+item.creative_flux_sponge.name=Fluxschwamm
+item.creative_placer.node.name=Nodienplatzierer
 #
 # Golem
+item.module.vision.name=Sichtmodul
+item.module.aggression.name=Aggressionsmodul
+item.golem_bell.name=Golemantenglocke
+item.golem.name=Golem
+item.seal.blank.name=Leeres Siegel
+item.seal.pickup.name=Kontrollsiegel: Sammeln
+item.seal.pickup_advanced.name=Verbessertes Kontrollsiegel: Sammeln
+item.seal.fill.name=Kontrollsiegel: Lagern
+item.seal.fill_advanced.name=Verbessertes Kontrollsiegel: Lagern
+item.seal.empty.name=Kontrollsiegel: Leeren
+item.seal.empty_advanced.name=Berbessertes Kontrollsiegel: Leeren
+item.seal.harvest.name=Kontrollsiegel: Ernten
+item.seal.butcher.name=Kontrollsiegel: Schlachten
+item.seal.guard.name=Kontrollsiegel: Bewachen
+item.seal.guard_advanced.name=Verbessertes Kontrollsiegel: Bewachen
+item.seal.lumber.name=Kontrollsiegel: Holzfällen
+item.seal.breaker.name=Kontrollsiegel: Blöcke Abbauen
+item.seal.use.name=Kontrollsiegel: Verwenden
+item.seal.provider.name=Kontrollsiegel: Anbieten
 #
 # Blocks
 ###################################
 #
 # World
 #
+tile.ore_amber.name=Bernstein
+tile.ore_cinnabar.name=Zinnobererz
+tile.ore_quartz.name=Quarzerz
+tile.crystal_aer.name=Luftkristall
+tile.crystal_ignis.name=Feuerkristall
+tile.crystal_aqua.name=Wasserkristall
+tile.crystal_terra.name=Erdkristall
+tile.crystal_ordo.name=Ordnungskristall
+tile.crystal_perditio.name=Chaoskristall
+tile.crystal_vitium.name=Fluxkristall
+tile.log.greatwood.name=Großholz
+tile.log.silverwood.name=Silberholz
+tile.leaf.greatwood.name=Großholzlaub
+tile.leaf.silverwood.name=Silberholzlaub
+tile.taint_log.name=Schmutzholz
+tile.sapling.greatwood.name=Großholzsetzling
+tile.sapling.silverwood.name=Silberholzsetzling
+tile.plank.greatwood.name=Großholzbretter
+tile.plank.silverwood.name=Silberholzbretter
+tile.greatwood_stairs.name=Großholztreppe
+tile.silverwood_stairs.name=Silberholztreppe
+tile.stone.arcane.name=Arkaner Steinblock
+tile.stone.arcane_brick.name=Arkane Steinziegel
+tile.stone.ancient.name=Antiker Stein
+tile.stone.ancient_rock.name=Antiker Fels
+tile.stone.eldritch.name=Bizarrer Stein
+tile.stone.ancient_tile.name=Antike Steinfliese
+tile.stone.crust.name=Verkrusteter Stein
+tile.stone.crust_glow.name=Schimmernder Verkrusteter Stein
+tile.stone.matrix_speed.name=Infusionsgeschwindigkeitsstein
+tile.stone.matrix_cost.name=Infusionskostenstein
+tile.stone.ancient_doorway.name=Antikes Metall
+tile.stone.glyphed.name=Glyphenstein
+tile.stone.bedrock.name=Leere voller Sterne
+tile.stone.porous.name=Poröser Stein
+tile.arcane_stairs.name=Arkane Steintreppe
+tile.arcane_brick_stairs.name=Arkane Ziegeltreppe
+tile.ancient_stairs.name=Antike Steintreppe
+tile.translucent.amber_block.name=Bernsteinblock
+tile.translucent.amber_brick.name=Bernsteinziegel
+tile.translucent.empty.name=Leerer Raum
+tile.slab_wood.greatwood.name=Großholzstufe
+tile.slab_wood.silverwood.name=Silberholzstufe
+tile.slab_stone.arcane.name=Arkane Steinstufe
+tile.slab_stone.arcane_brick.name=Arkane Ziegelstufe
+tile.slab_stone.ancient.name=Antike Steinstufe
+tile.slab_stone.eldritch.name=Bizarre Steinstufe
+tile.shimmerleaf.name=Schimmerblatt
+tile.cinderpearl.name=Aschperle
+tile.vishroom.name=Vispilz
+tile.grass_ambient.name=Umgebungsgrasblock
+tile.loot_urn.common.name=Gewöhnliche Urne
+tile.loot_urn.uncommon.name=Ungewöhnliche Urne
+tile.loot_urn.rare.name=Seltene Urne
+tile.loot_crate.common.name=Gewöhnliche Kiste
+tile.loot_crate.uncommon.name=Ungewöhnliche Kiste
+tile.loot_crate.rare.name=Seltene Kiste
+tile.flux_goo.name=Fluxschleim
+tile.taint_fibre.name=Faseriger Schmutz
+tile.taint.crust.name=Verkrusteter Schmutz
+tile.taint.soil.name=Beschmutze Erde
+tile.taint.geyser.name=Schmutzgeysir
+tile.taint.rock.name=Beschmutzter Stein
+tile.taint_feature.name=Geschwollener Schmutz
 #
 # Devices
 #
@@ -439,7 +539,8 @@ tc.break.fly=Irgendetwas verhindert, dass du fliegst.
 tc.boss.enrage=ist durch deine kraftvollen Schläge wütend geworden.
 #
 # Aspects
-tc.aspect.primal=Primärer Aspekt
+tc.aspect.name=Essentia-Aspekte
+tc.aspect.primal=Primäraspekt
 tc.aspect.unknown=Unbekannter Aspekt
 tc.aspect.aer=Luft
 tc.aspect.terra=Erde
@@ -469,7 +570,7 @@ tc.aspect.instrumentum=Werkzeug, Instrument
 tc.aspect.aversio=Abneigung, Konflikt
 tc.aspect.gelum=Eis, Frost, Kälte
 tc.aspect.vitreus=Kristall, Glas, Klarheit
-tc.aspect.alienis=Fremd, Seltsam, Das Unheimliche
+tc.aspect.alienis=Fremd, Seltsam, Das Unnatürliche
 tc.aspect.praemunio=Befestigen, Schützen, Beschützen
 tc.aspect.fabrico=Herstellen
 tc.aspect.desiderium=Wunch, Verlangen, Sehnsucht, Bedürfnis
@@ -480,7 +581,7 @@ tc.aspect.praecantatio=Magie
 tc.aspect.alkimia=Alchemie, Chemie
 #  
 # Research categories
-tc.research_category.BASICS=Basisinformation
+tc.research_category.BASICS=Grundlegendes
 tc.research_category.THAUMATURGY=Thaumaturgie
 tc.research_category.ALCHEMY=Alchemie
 tc.research_category.ARTIFICE=Artefakte
@@ -488,6 +589,17 @@ tc.research_category.GOLEMANCY=Golemantik
 tc.research_category.ELDRITCH=Unnatürliches
 #  
 # Knowledge Types
+tc.type.field_note=Feldbuch
+tc.type.theory=Theorie
+tc.type.observation=Beobachtung
+tc.type.epiphany=Erleuchtung
+tc.field.magic=Magie
+tc.field.nature=Natur
+tc.field.man=Mensch
+tc.field.mechanisms=Mechanismen
+tc.field.death=Tod
+tc.field.alchemy=Alchemie
+tc.field.elements=Elemente
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
