@@ -363,9 +363,9 @@ itemGroup.thaumcraft=Thaumcraft
 #
 
 #
-tc.taint_item_poison=Ein sich auflösendes %s hat dich mit Beschmutzung infiziert
-death.attack.taint=%1$s wurde durch Beschmutzung getötet
-death.attack.taint.player=%1$s wurde durch Beschmutzung getötet, während er %2$s bekämpfte
+tc.taint_item_poison=Ein sich auflösendes %s hat dich mit Taint infiziert
+death.attack.taint=%1$s wurde durch Taint getötet
+death.attack.taint.player=%1$s wurde durch Taint getötet, während er %2$s bekämpfte
 death.attack.tentacle=%1$s wurde von %2$s zerquetscht
 death.attack.swarm=%1$s ist von %2$s befallen worden
 death.attack.swarm.item=%1$s ist von %2$s, %3$s nutzend, befallen worden
