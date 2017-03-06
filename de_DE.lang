@@ -281,10 +281,102 @@ tile.taint_feature.name=Geschwollener Schmutz
 #
 # Devices
 #
+tile.dioptra.name=Thaumisches Dioptra
+tile.pillar.normal.name=Infusionssäule
+tile.pillar.ancient.name=Antike Infusionssäule
+tile.pillar.eldritch.name=Unnatürliche Infusionssäule
+tile.infusion_matrix.name=Runenmatrix
+tile.bellows.name=Arkaner Blasebalg
+tile.arcane_workbench.name=Arkane Werkbank
+tile.arcane_workbench_charger.name=Arkanes Werkbankladerelais
+tile.wand_workbench.name=Fokusmanipulator
+tile.crucible.name=Tiegel
+tile.redstone_relay.name=Redstone-Relais
+tile.research_table.name=Forschungstisch
+tile.arcane_ear.name=Arkanes Ohr
+tile.levitator.name=Arkaner Levitator
+tile.water_jug.name=Immervolle Urne
+tile.lamp_arcane.name=Arkane Lampe
+tile.lamp_growth.name=Lampe des Wachstums
+tile.lamp_fertility.name=Lampe der Fruchtbarkeit
+tile.jar_normal.name=Bannglas
+tile.jar_void.name=Leerglas
+tile.jar_brain.name=Gehirn im Glas
+tile.tube.name=Essentiaröhre
+tile.tube_valve.name=Essentiaventil
+tile.tube_filter.name=Filternde Essentiaröhre
+tile.tube_restrict.name=Restriktive Essentiaröhre
+tile.tube_oneway.name=Essentia-Richtungsröhre
+tile.tube_buffer.name=Essentiapuffer
+tile.smelter_basic.name=Essentiaschmelzerei
+tile.smelter_thaumium.name=Thaumium-Essentiaschmelzerei
+tile.smelter_void.name=Leermetall-Essentiaschmelzerei
+tile.alembic.normal.name=Arkaner Alambik
+tile.smelter_aux.name=Hilfsschlackepumpe
+tile.smelter_vent.name=Hilfabzugsport
+tile.recharge_pedestal.name=Aufladesockel
+tile.hungry_chest.name=Hungrige Truhe
 #
 # Doodads
+tile.table_stone.name=Steintisch
+tile.table_wood.name=Holztisch
+tile.candle.white.name=Weiße Talgkerze
+tile.candle.orange.name=Orange Talgkerze
+tile.candle.magenta.name=Magentafarbene Talgkerze
+tile.candle.light_blue.name=Hellblaue Talgkerze
+tile.candle.yellow.name=Gelbe Talgkerze
+tile.candle.lime.name=Hellgrüne Talgkerze
+tile.candle.pink.name=Pinke Talgkerze
+tile.candle.gray.name=Graue Talgkerze
+tile.candle.silver.name=Hellgraue Talgkerze
+tile.candle.cyan.name=Türkise Talgkerze
+tile.candle.purple.name=Violette Talgkerze
+tile.candle.blue.name=Blaue Talgkerze
+tile.candle.brown.name=Braune Talgkerze
+tile.candle.green.name=Grüne Talgkerze
+tile.candle.red.name=Rote Talgkerze
+tile.candle.black.name=Schwarze Talgkerze
+tile.pedestal.normal.name=Arkaner Sockel
+tile.pedestal.eldritch.name=Unnatürlicher Sockel
+tile.pedestal.ancient.name=Antiker Sockel
+tile.nitor.white.name=Weißer Nitor
+tile.nitor.orange.name=Oranger Nitor
+tile.nitor.magenta.name=Magentafarbener Nitor
+tile.nitor.light_blue.name=Hellblauer Nitor
+tile.nitor.yellow.name=Gelber Nitor
+tile.nitor.lime.name=Hellgrüner Nitor
+tile.nitor.pink.name=Pinker Nitor
+tile.nitor.gray.name=Grauer Nitor
+tile.nitor.silver.name=Hellgrauer Nitor
+tile.nitor.cyan.name=Türkiser Nitor
+tile.nitor.purple.name=Violetter Nitor
+tile.nitor.blue.name=Blauer Nitor
+tile.nitor.brown.name=Brauner Nitor
+tile.nitor.green.name=Grüner Nitor
+tile.nitor.red.name=Roter Nitor
+tile.nitor.black.name=Schwarzer Nitor
+tile.metal.thaumium.name=Thaumiumblock
+tile.metal.void.name=Leermetallblock
+tile.metal.alchemical.name=Alchemiekonstrukt
+tile.metal.advanced_alchemical.name=Verbessertes Alchemiekonstrukt
+tile.metal.brass.name=Messingblock
+tile.flesh_block.name=Fleischblock
+tile.paving_stone.barrier.name=Bannstein
+tile.paving_stone.travel.name=Pflasterstein des Reisens
+tile.paving_stone.travel_lit.name=Schimmernder Pflasterstein des Reisens
 #
 # Misc
+tile.effect.shock.name=Statikfeld
+tile.effect.sapping.name=Zehrendes Feld
+tile.effect.glimmer.name=Schimmer
+tile.purifying_fluid.name=Reinigende Flüssigkeit
+tile.liquid_death.name=Flüssiger Tod
+tile.placeholder.furnace_brick.name=Höllenofen
+tile.placeholder.furnace_obsidian.name=Höllenofen
+tile.placeholder.gb_anvil.name=Golempresse
+tile.placeholder.gb_table.name=Golempresse
+tile.placeholder.gb_bars.name=Golempresse
+tile.placeholder.gb_cauldron.name=Golempresse
 #
 # Enchantments
 ###################################
@@ -295,6 +387,13 @@ enchantment.special.sapgreat=Starkes Zehren
 #
 # Infusion Enchantments
 ###################################
+enchantment.infusion.COLLECTOR=Sammler
+enchantment.infusion.DESTRUCTIVE=Zerstörung
+enchantment.infusion.BURROWING=Bau
+enchantment.infusion.SOUNDING=Lotung
+enchantment.infusion.REFINING=Aufreinigung
+enchantment.infusion.ARCING=Bogenschlag
+enchantment.infusion.ESSENCE=Essenzsammler
 #
 # Potions
 ###################################
