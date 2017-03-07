@@ -234,7 +234,7 @@ tile.sapling.silverwood.name=Silverwood Sapling
 tile.plank.greatwood.name=Greatwood Planks
 tile.plank.silverwood.name=Silverwood Planks
 tile.greatwood_stairs.name=Greatwood Stairs
-tile.silverwood_stairs.name=Silverwood stairs
+tile.silverwood_stairs.name=Silverwood Stairs
 tile.stone.arcane.name=Arcane Stone
 tile.stone.arcane_brick.name=Arcane Stone Brick
 tile.stone.ancient.name=Ancient Stone
@@ -254,7 +254,7 @@ tile.arcane_brick_stairs.name=Arcane Brick Stairs
 tile.ancient_stairs.name=Ancient Stone Stairs
 tile.translucent.amber_block.name=Amber Block
 tile.translucent.amber_brick.name=Amber Bricks
-tile.translucent.empty.name=Empty space
+tile.translucent.empty.name=Empty Space
 tile.slab_wood.greatwood.name=Greatwood Slab
 tile.slab_wood.silverwood.name=Silverwood Slab
 tile.slab_stone.arcane.name=Arcane Stone Slab
@@ -407,14 +407,14 @@ potion.warpward=Warp Ward
 potion.deathgaze=Deadly Gaze
 potion.blurred=Blurred Vision
 potion.sunscorned=Sun Scorned
-potion.thaumarhia=Thaumarhia
+potion.thaumarhia=Thaumarhea
 #
 # Warp
 ###################################
 warp.text.1=You feel oddly drained.
 warp.text.2=A sudden and unnatural hunger consumes you.
 warp.text.hunger.1=Your hunger cannot be satisfied with normal food.
-warp.text.hunger.2=You hunger begins to fade.
+warp.text.hunger.2=Your hunger begins to fade.
 warp.text.3=Strange whispers reveal secrets to you.
 warp.text.4=Your vision becomes strange and grim.
 warp.text.5=The light suddenly becomes overwhelmingly bright and burns your skin.
