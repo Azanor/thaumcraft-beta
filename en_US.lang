@@ -5,7 +5,7 @@
 # Curios
 #
 item.thaumonomicon.normal.name=Thaumonomicon
-item.thaumonomicon.cheat.name=Cheaters Thaumonomicon
+item.thaumonomicon.cheat.name=Cheater's Thaumonomicon
 item.curio.arcane.name=Arcane Curiosity
 item.curio.preserved.name=Preserved Curiosity
 item.curio.eldritch.name=Eldritch Curiosity
@@ -150,7 +150,7 @@ item.resonator.name=Essentia Resonator
 item.baubles.amulet_mundane.name=Mundane Amulet
 item.baubles.ring_mundane.name=Mundane Ring
 item.baubles.girdle_mundane.name=Mundane Belt
-item.baubles.ring_apprentice.name=Apprentices Ring
+item.baubles.ring_apprentice.name=Apprentice's Ring
 item.baubles.amulet_fancy.name=Fancy Amulet
 item.baubles.ring_fancy.name=Fancy Ring
 item.baubles.girdle_fancy.name=Fancy Belt
@@ -658,15 +658,15 @@ golem.trait.text.fighter=The golem is capable of taking hostile action against o
 golem.trait.flyer=Flyer
 golem.trait.text.flyer=The golem is capable of flight, giving it greater mobility at the cost of speed.
 golem.trait.climber=Climber
-golem.trait.text.climber=Sheer cliffs to not deter this golem. It can easily scale them to get to its destination.
+golem.trait.text.climber=Sheer cliffs do not deter this golem. It can easily scale them to get to its destination.
 golem.trait.scout=Scout
 golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (32 blocks range from home location instead of 16).
 golem.trait.fireproof=Fireproof
 golem.trait.text.fireproof=The golem is immune to fire damage.
 golem.trait.brutal=Brutal
-golem.trait.text.brutal=This golem inflicts greater melee damage in combat.
+golem.trait.text.brutal=The golem inflicts greater melee damage in combat.
 golem.trait.breaker=Breaker
-golem.trait.text.breaker=This golem is capable of destroying most blocks with ease.
+golem.trait.text.breaker=The golem is capable of destroying most blocks with ease.
 golem.trait.hauler=Hauler
 golem.trait.text.hauler=Allows the golem to carry two stack of items instead of one.
 golem.trait.ranged=Ranged
@@ -695,7 +695,7 @@ golem.head.text.smart=This head contains an advanced biothaumic brain, giving th
 golem.head.smart_armored=Armored smart head
 golem.head.text.smart_armored=The smart head enhanced with additional armor and padding.
 golem.head.scout=Perceptive head
-golem.head.text.scout=The basic clockwork head enchanced with improved biothaumic eyes. 
+golem.head.text.scout=The basic clockwork head enhanced with improved biothaumic eyes. 
 golem.head.smart_scout=Biothaumic head
 golem.head.text.smart_scout=Using both biothaumic eyes and brain, this head is the pinnacle of the biothaumic art. 
 #
@@ -745,31 +745,31 @@ focus.upgrade.frugal.text=This upgrade reduces the vis cost of activating the fo
 focus.upgrade.treasure.name=Treasure
 focus.upgrade.treasure.text=This upgrade acts like the Fortune or Looting enchantments. It increases the chance of getting more/better loot.
 focus.upgrade.enlarge.name=Enlarge
-focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers effect, or increases the number of targets effected.
+focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers affect, or increases the number of targets affected.
 focus.upgrade.extend.name=Extend
 focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be affected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
 #
 # Specific Focus Upgrades
 ##############################
 focuspart.thaumcraft.BREAK.name=Break
-focuspart.thaumcraft.BREAK.text=Summon disruptive energy that breaks down most materials.
+focuspart.thaumcraft.BREAK.text=Summons disruptive energy that breaks down most materials.
 focuspart.thaumcraft.CURSE.name=Curse
-focuspart.thaumcraft.CURSE.text=Summon the powers of entropy to harm and disrupt the targeted creature.
+focuspart.thaumcraft.CURSE.text=Summons the powers of entropy to harm and disrupt the targeted creature.
 focuspart.thaumcraft.FIRE.name=Fire
 focuspart.thaumcraft.FIRE.text=Hurls flame at your target and sets it alight. 
 focuspart.thaumcraft.FROST.name=Frost
-focuspart.thaumcraft.FROST.text=Throw chilling cold at your target, causing damage and freezing it. Freezes water and will slow down creatures.
+focuspart.thaumcraft.FROST.text=Throws chilling cold at your target, causing damage and freezing it. Freezes water and will slow down creatures.
 focuspart.thaumcraft.MAGIC.name=Magic
 focuspart.thaumcraft.MAGIC.text=Conjures raw, unfocused vis that disrupts living (and dead) creatures. This energy cannot interact with inanimate objects, but this does mean that it bypasses mundane armor.
 focuspart.thaumcraft.RIFT.name=Rift
 focuspart.thaumcraft.RIFT.text=Shifts matter into an alternate reality, creating temporary 'holes' throw which you can travel.
 #
 focuspart.thaumcraft.TOUCH.name=Touch
-focuspart.thaumcraft.TOUCH.text=Allows you to effect things you can touch.
+focuspart.thaumcraft.TOUCH.text=Allows you to aMffect things you can touch.
 focuspart.thaumcraft.PROJECTILE.name=Projectile
-focuspart.thaumcraft.PROJECTILE.text=Gathers the energy of the focus into a magical orb that you can throw like a projectile. This projectile has a long range, but travels slowly and is effected by gravity.
+focuspart.thaumcraft.PROJECTILE.text=Gathers the energy of the focus into a magical orb that you can throw like a projectile. This projectile has a long range, but travels slowly and is affected by gravity.
 focuspart.thaumcraft.BOLT.name=Bolt
 focuspart.thaumcraft.BOLT.text=Hurl magic directly at your target as a concentrated bolt of energy. The effect is instantaneous, but the range is somewhat limited.
 #
@@ -988,7 +988,7 @@ tc.need.know=Knowledge that must be used
 tc.primalcharm.0=It seems to be leaking
 tc.primalcharm.1=You think you hear whispering
 tc.primalcharm.2=It is vibrating violently
-tc.primalcharm.3=It's humming is quite soothing
+tc.primalcharm.3=Its humming is quite soothing
 tc.primalcharm.4=Wait, did it just flash a seventh color?
 tc.primalcharm.trigger=For a moment strange energies surround the primal charm. They dissipate quickly, but you are left strangely inspired...
 tc.break.fly=Something disrupts your ability to fly.
@@ -1136,7 +1136,7 @@ research.m_findocean.text=Visit the endless, blue seas.
 got.deepdown=You have visited deep and dark depths and have learned much.
 got.uphigh=The world is spread out before you. Your perspective has been broadened.
 got.finddesert=You have visited the scorching desert.
-got.findocean=You have into the endless blue abyss.
+got.findocean=You have peered into the endless blue abyss.
 #
 research.UNLOCKARTIFICE.title=Discovering Artifice
 research.UNLOCKARTIFICE.stage.1=[text missing]
@@ -1200,7 +1200,7 @@ research.GOGGLES.stage.2=I have penned my own designs based on the little inform
 #
 ##########################################
 # THAUMATURGY
-##########################################
+##########################################MMM
 #
 research.BASETHAUMATURGY.title=Basic Thaumaturgy
 research.BASETHAUMATURGY.stage.1=I have the casting glove, but now I need to craft the foci. The old scrolls aren't very clear on how to go about this, so I will need to find my own way.<BR>I have played with the idea of assembling a focus from crystals and then using vis to bind them together. My initial experiments have been failures... explosive failures.<BR>I think the answer I seek lies with an alchemical process.<BR>Using an ordo crystal as a core I might be able to leverage its ordered structure to grow a focus around it. While this is happening it should absorb praecantatio and auram essentia.<BR>The result should hopefully be a crystal focus able to absorb and manipulate vis. 
