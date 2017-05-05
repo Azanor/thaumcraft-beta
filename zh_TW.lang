@@ -1,4 +1,4 @@
-#
+﻿#
 # Items
 ###################################
 #
@@ -21,6 +21,7 @@ tc.lootbag=右鍵開啟或留存等待交易
 item.primordial_pearl.mote.name=原初塵埃
 item.primordial_pearl.nodule.name=原初凝核
 item.primordial_pearl.pearl.name=原初寶珠
+item.pech_wand.name=地精法杖
 #
 # Resources
 #
@@ -28,7 +29,7 @@ item.amber.name=琥珀
 item.quicksilver.name=水銀
 item.crystal_essence.name=魔素水晶
 item.ingot.thaumium.name=靛鐵錠
-item.ingot.void.name=虛無鋼錠
+item.ingot.void.name=虛鋼錠
 item.ingot.brass.name=煉成黃銅錠
 item.nugget.iron.name=鐵粒
 item.nugget.copper.name=銅粒
@@ -37,31 +38,31 @@ item.nugget.silver.name=銀粒
 item.nugget.lead.name=鉛粒
 item.nugget.quicksilver.name=水銀液滴
 item.nugget.thaumium.name=靛鐵粒
-item.nugget.void.name=虛無鋼粒
+item.nugget.void.name=虛鋼粒
 item.nugget.brass.name=煉成黃銅粒
 item.nugget.quartz.name=石英碎片
-item.cluster.iron.name=鐵原礦簇
-item.cluster.copper.name=銅原礦簇
-item.cluster.tin.name=錫原礦簇
-item.cluster.silver.name=銀原礦簇
-item.cluster.lead.name=鉛原礦簇
-item.cluster.cinnabar.name=硃砂原礦簇
-item.cluster.gold.name=金原礦簇
-item.cluster.quartz.name=石英原礦簇
+item.cluster.iron.name=原生鐵礦簇
+item.cluster.copper.name=原生銅礦簇
+item.cluster.tin.name=原生錫礦簇
+item.cluster.silver.name=原生銀礦簇
+item.cluster.lead.name=原生鉛礦簇
+item.cluster.cinnabar.name=原生硃砂礦簇
+item.cluster.gold.name=原生金礦簇
+item.cluster.quartz.name=原生石英礦簇
 item.filter.name=源質濾管
 item.morphic_resonator.name=型態共鳴器
 item.tallow.name=魔力肉脂
 item.void_seed.name=虛無之種
 item.salis_mundus.name=世界鹽
-item.primal_charm.name=原初符咒
+item.primal_charm.name=原初之符
 item.mirrored_glass.name=鏡面玻璃
 item.plate.brass.name=黃銅板
 item.plate.iron.name=鐵板
 item.plate.thaumium.name=靛鐵板
-item.plate.void.name=虛無鋼板
+item.plate.void.name=虛鋼板
 item.gear.brass.name=黃銅齒輪
 item.gear.thaumium.name=靛鐵齒輪
-item.gear.void.name=虛無鋼齒輪
+item.gear.void.name=虛鋼齒輪
 item.fabric.name=附魔布料
 item.mind.clockwork.name=發條中樞
 item.mind.biothaumic.name=秘術生體中樞
@@ -69,13 +70,13 @@ item.vis_resonator.name=魔素共震器
 #
 # Consumables
 #
-item.alumentum.name=焰動之源
-item.chunk.chicken.name=雞肉粒
-item.chunk.beef.name=牛肉粒
-item.chunk.pork.name=豬肉粒
-item.chunk.fish.name=魚肉粒
-item.chunk.rabbit.name=兔肉粒
-item.chunk.mutton.name=羊肉粒
+item.alumentum.name=熾焰之源
+item.chunk.chicken.name=雞肉塊
+item.chunk.beef.name=牛肉塊
+item.chunk.pork.name=豬肉塊
+item.chunk.fish.name=魚肉塊
+item.chunk.rabbit.name=兔肉塊
+item.chunk.mutton.name=羊肉塊
 item.brain.name=殭屍腦袋
 item.triple_meat_treat.name=三層肉饌
 item.phial.empty.name=玻璃管型瓶
@@ -311,12 +312,16 @@ tile.tube_oneway.name=定向源質管道
 tile.tube_buffer.name=源質緩衝器
 tile.smelter_basic.name=源質熔煉爐
 tile.smelter_thaumium.name=靛鐵源質熔煉爐
-tile.smelter_void.name=虛無鋼源質熔煉爐
+tile.smelter_void.name=虛鋼源質熔煉爐
 tile.alembic.normal.name=奧術蒸餾器
 tile.smelter_aux.name=附屬黏漿泵
 tile.smelter_vent.name=輔助排放口
 tile.recharge_pedestal.name=充魔基座
 tile.hungry_chest.name=饕餮之箱
+tile.spa.name=奧法浴池
+tile.thaumatorium.name=秘術自動煉成機
+tile.thaumatorium_top.name=秘術自動煉成機
+tile.brain_box.name=記憶方體
 #
 # Doodads
 tile.table_stone.name=石桌
@@ -340,24 +345,24 @@ tile.candle.black.name=黑色肉脂蠟燭
 tile.pedestal.normal.name=奧術基座
 tile.pedestal.eldritch.name=異象基座
 tile.pedestal.ancient.name=亙古基座
-tile.nitor.white.name=白色明耀之光
-tile.nitor.orange.name=橙色明耀之光
-tile.nitor.magenta.name=洋紅色明耀之光
-tile.nitor.light_blue.name=淺藍色明耀之光
-tile.nitor.yellow.name=黃色明耀之光
-tile.nitor.lime.name=淺綠色明耀之光
-tile.nitor.pink.name=粉紅色明耀之光
-tile.nitor.gray.name=灰色明耀之光
-tile.nitor.silver.name=淺灰色明耀之光
-tile.nitor.cyan.name=青色明耀之光
-tile.nitor.purple.name=紫色明耀之光
-tile.nitor.blue.name=藍色明耀之光
-tile.nitor.brown.name=棕色明耀之光
-tile.nitor.green.name=綠色明耀之光
-tile.nitor.red.name=紅色明耀之光
-tile.nitor.black.name=黑色明耀之光
+tile.nitor.white.name=白色光耀之源
+tile.nitor.orange.name=橙色光耀之源
+tile.nitor.magenta.name=洋紅色光耀之源
+tile.nitor.light_blue.name=淺藍色光耀之源
+tile.nitor.yellow.name=黃色光耀之源
+tile.nitor.lime.name=淺綠色光耀之源
+tile.nitor.pink.name=粉紅色光耀之源
+tile.nitor.gray.name=灰色光耀之源
+tile.nitor.silver.name=淺灰色光耀之源
+tile.nitor.cyan.name=青色光耀之源
+tile.nitor.purple.name=紫色光耀之源
+tile.nitor.blue.name=藍色光耀之源
+tile.nitor.brown.name=棕色光耀之源
+tile.nitor.green.name=綠色光耀之源
+tile.nitor.red.name=紅色光耀之源
+tile.nitor.black.name=黑色光耀之源
 tile.metal.thaumium.name=靛鐵磚
-tile.metal.void.name=虛無鋼磚
+tile.metal.void.name=虛鋼磚
 tile.metal.alchemical.name=煉金構材
 tile.metal.advanced_alchemical.name=高級煉金構材
 tile.metal.brass.name=黃銅磚
@@ -370,8 +375,8 @@ tile.paving_stone.travel_lit.name=螢光旅行路磚
 tile.effect.shock.name=靜電力場
 tile.effect.sapping.name=弱化力場
 tile.effect.glimmer.name=微光
-tile.purifying_fluid.name=淨化之泉
-tile.liquid_death.name=化骨死水
+tile.purifying_fluid.name=淨化泉
+tile.liquid_death.name=亡水
 tile.placeholder.furnace_brick.name=煉獄熔爐
 tile.placeholder.furnace_obsidian.name=煉獄熔爐
 tile.placeholder.gb_anvil.name=傀儡壓製裝置
@@ -480,7 +485,7 @@ entity.thaumcraft.CultistLeader.name.custom=審判者 %s [ %d ]
 entity.thaumcraft.CultistPortalGreater.name=大型緋色傳送門
 entity.thaumcraft.CultistPortalLesser.name=小型緋色傳送門
 entity.thaumcraft.EldritchCrab.name=異象魔蟹
-entity.thaumcraft.InhabitedZombie.name=蹣跚軀殼
+entity.thaumcraft.InhabitedZombie.name=蹣跚屍軀
 entity.thaumcraft.TurretBasic.name=自動十字弩
 entity.thaumcraft.TurretAdvanced.name=強化自動十字弩
 entity.thaumcraft.TurretFocus.name=自動施術裝置
@@ -561,8 +566,7 @@ tile.barrier.name=守護之光
 
 tile.arcane_bore_base.name=奧術鑽掘機基座
 tile.arcane_bore.name=奧術鑽掘機
-tile.thaumatorium.name=秘術自動煉金機
-tile.brain_box.name=記憶方體
+
 
 tile.aura_totem.push.name=靈氣圖騰-驅散
 tile.aura_totem.pull.name=靈氣圖騰-匯聚
@@ -571,7 +575,7 @@ tile.aura_totem.pole_outer.name=外圖騰柱
 tile.aura_totem.pole_pure.name=穩定圖騰柱
 tile.centrifuge.name=源質離心器
 tile.crystallizer.name=源質結晶器
-tile.spa.name=奧術浴池
+
 tile.mirror.name=魔鏡
 tile.mirror_essentia.name=源質之鏡
 tile.golem_builder.name=傀儡壓製裝置
@@ -592,10 +596,10 @@ tile.essentia_output.name=抽取源質傳輸器
 
 
 item.bath_salts.name=淨化浴鹽
-item.bucket_death.name=化骨死水桶
-item.bucket_pure.name=淨化之泉桶
+item.bucket_death.name=亡水桶
+item.bucket_pure.name=淨化泉桶
 item.bottle_taint.name=侵蝕瓶
-item.sanity_soap.name=靜心皂
+item.sanity_soap.name=心神皂
 
 item.turret.basic.name=自動十字弩
 item.turret.advanced.name=強化自動十字弩
@@ -685,8 +689,8 @@ golem.material.clay=黏土
 golem.material.text.clay=此傀儡以黏土燒製。雖然不是相當堅固的材料，但抗火能力優秀，而且相對輕巧。
 golem.material.thaumium=靛鐵
 golem.material.text.thaumium=此傀儡以靛鐵打造，特性與鐵相似，但更加堅固耐用。
-golem.material.void=虛無鋼
-golem.material.text.void=此傀儡以虛無鋼打造。稍軟於鐵，這種金屬的優勢在於輕巧以及自我修復的能力。
+golem.material.void=虛鋼
+golem.material.text.void=此傀儡以虛鋼打造。稍軟於鐵，這種金屬的優勢在於輕巧以及自我修復的能力。
 #
 golem.head.basic=發條頭部
 golem.head.text.basic=基礎的傀儡頭部。不會特別脆弱或特別堅固。
@@ -733,8 +737,8 @@ golem.stay=我將在此待命，主人。
 ##############################
 fluid.fluxGoo=咒波黏漿
 fluid.fluxGas=咒波瓦斯
-fluid.purifying_fluid=淨化之泉
-fluid.liquid_death=化骨死水
+fluid.purifying_fluid=淨化泉
+fluid.liquid_death=亡水
 #
 # General Focus Upgrades
 ##############################
@@ -952,13 +956,13 @@ tc.forbidden.level.3=中度
 tc.forbidden.level.4=危險
 tc.forbidden.level.5=禁忌
 tc.unknownobject=您一無所獲。
+tc.knownobject=你獲取了某些新知。
 tc.markerchange=設置標記顏色為%n
 tc.markerchangeany=設置為任何顏色
 tc.researchmissing=缺失前置研究！
 tc.discount=減免
 tc.visdiscount=魔素減免
 tc.vis.cost=魔素消耗
-tc.vis.costavg=平均魔素消耗
 tc.charge=魔素容量：
 tc.inst=風險：
 tc.inst.0=§1微乎其微§0
@@ -990,7 +994,7 @@ tc.primalcharm.1=你覺得似乎聽到了耳語
 tc.primalcharm.2=一陣劇烈的抖動
 tc.primalcharm.3=它的輕聲低吟十分舒緩
 tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
-tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初符咒。它們很快便消散了，但使你受到了奇異的啟發……
+tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初之符。它們很快便消散了，但使你受到了奇異的啟發……
 tc.break.fly=有一股力量奪去了你的飛行能力。
 tc.boss.enrage=被你強力的攻擊激怒了。
 tc.levitator=範圍設定為%s格。(每分鐘消耗%d魔素)
@@ -1005,7 +1009,7 @@ tc.stage.hold=正在完成……
 tc.warp.warn=扭曲程度：%n
 #
 # Aspects
-tc.aspect.name=要素源質
+tc.aspect.name=源質要素
 tc.aspect.primal=原初要素
 tc.aspect.unknown=未知要素
 tc.aspect.aer=風
@@ -1115,20 +1119,20 @@ research.TaintSeed.stage.1=有時侵蝕體的捲鬚會纏繞成結狀。瘴氣�
 #
 research.FIRSTSTEPS.title=最初的一步
 research.FIRSTSTEPS.stage.1=誰能想像一搓粉塵居然能創造出這本奇妙的書？雖然整本書幾乎都是空白的，然而它暗示著有一種新型的強大魔法：秘術。<BR>首先我必須先研究在我眼前的這個魔法世界。為此，我將需要一項工具——書上稱之為秘術觀測鏡。<BR>然而普通的工作台無法勝任這項需要魔法能量的製程，因此我需要利用其他更細膩的手法。對普通的工作台撒上世界鹽應該能解決這個問題。這本書給了我適當的咒語，所以這步驟應該不會有什麼難度。<BR>為了確保進度，我在每個條目的第一頁記下自己必須達成的目標。
-research.FIRSTSTEPS.stage.2=有進展了！現在我有了自製的奧術工作台。它就像普通的工作台，可以用於一般的合成工作，然而有幾個關鍵性的差異。<BR>第一點，許多奧術合成配方需要用到我最近發現的那些魔法水晶。那是將魔法能量導入製程的一項重點。書中將這些魔法能量稱為魔素。<BR>理論上這些能量充滿於四周，但我卻沒有辦法感覺或觀測它的存在。<BR>製作秘術觀測鏡來研究這世界的時候到了。它應該能明確的指出我還需要加以研究的事物。<BR>我用一張書籤把秘術觀測鏡的配方記錄在右側。
+research.FIRSTSTEPS.stage.2=有進展了！現在我有了自製的奧術工作台。它就像普通的工作台，可以用於一般的合成工作，然而有幾個關鍵性的差異。<BR>首先，許多奧術合成配方需要用到我最近發現的那些魔法水晶。那是將魔法能量導入製程的一項重點。書中將這些魔法能量稱為魔素。<BR>理論上這些能量充滿於四周，但我卻沒有辦法感覺或觀測它的存在。<BR>製作秘術觀測鏡來研究這世界的時候到了。它應該能明確的指出我還需要加以研究的事物。<BR>我用一張書籤把秘術觀測鏡的配方記錄在右側。
 research.FIRSTSTEPS.stage.3=奇怪的幻境展現在我眼前。透過秘術觀測鏡，映入我眼簾的是魔法與書中所說的魔素四處流動的世界。<BR>這股能量有的如同魔力的純淨海洋般潮起潮落、四處流淌，一部分則溶入一切的生命與無機物之中。而書中將這種形態的魔素稱為源質。魔素純淨且無形；源質的性質較為固定、明確地分成各種類型，並在彼此相互混和後形成更多、更複雜的源質。<BR>我不大確定究竟是物質導致源質的特化，抑或是物質的特性取決於其中的源質。對此有必要進行更進一步的研究。<BR>我將發現到的源質記錄下來，並將進度記在左側的書籤。<BR>現在我可以把精力集中在其他方面——眼前有三條路。我接下來該先怎麼走？
 #
 research.KNOWLEDGETYPES.title=知識類別
 research.KNOWLEDGETYPES.stage.1=這邊有幾種不同類型的學術……[只需完成一次]
 #
-research.THEORYRESEARCH.title=開發理論
-research.THEORYRESEARCH.stage.1=[內文遺失]
-research.THEORYRESEARCH.stage.2=[內文遺失]
+research.THEORYRESEARCH.title=建立理論
+research.THEORYRESEARCH.stage.1=作為一位秘術使，光是觀察這個世界或是研讀古籍是無法進步的。我需要透過實驗中的發現來拓展自己的知識。而唯一的方法就是建立我自己的理論。<BR>我需要一個有充足文具（例如紙筆與墨水）的舒適工作環境。看來我需要製作一些文具並擺在桌上。
+research.THEORYRESEARCH.stage.2=現在我有了自己的工作空間，可以開始進行研究了。<BR>透過研究要素如何互相結合，我可以導出操作魔力來達成目的的理論。<IMG>thaumcraft:textures/research/research2.png:96:152:160:104:.8</IMG>在研究桌介面的左上方有兩個槽位，一個用來放置文具，另一個放紙張。每當開始進行研究的同時就會消耗墨水與紙張。研究紙上的一筆一劃也都會消耗墨水。<BR>按下紙張旁的綠色按鈕就能開始進行研究。隨時都能再次按下這個按鈕來重新開始研究（會消耗墨水與紙張）。<BR>當你開始進行研究時，墨水與紙張下方的空位會顯示出你所有可用的要素。這稱作要素庫。研究開始時要素庫中只有原初要素，點擊這些要素能把它們組合成其他較複雜的要素。<BR>每次開始研究都會獲得一些有限的要素——當要素用罄你只能使用剩下的其他要素，或是從頭開始。<BR>桌子右側的大空間則是當下正在進行的研究。開始進行研究時會浮現出一個六邊形的網格，其外圍隨機散布著六種原初要素。你可以將要素庫中的要素拖曳到任意的六角空格中。而點擊已放下的要素則能將要素消除——消除的要素不會回到你的要素庫。<BR>將研究完成的步驟很簡單，然而要得出你想要的結果卻相當複雜。首先，將六項原初要素連在一起的同時研究就會完成。而這必須透過將其他要素放在其相鄰處來達成，但只有當要素與鄰近要素為可被合成關係時鍵結才會發生。<BR>舉例來說，Ignem 和 Terra 無法互相連接，因為他們並非構成彼此的成分；而 Ignem 和 Potentia 則會形成鍵結，因為 Ignem 是 Potentia 的成分之一，而另一個成分則是 Ordo。<IMG>thaumcraft:textures/research/research2.png:128:0:128:119:.8</IMG><BR>沒有必要讓全部的原初要素都相互連結——只需要將它們連在同一個鍵結網中。<IMG>thaumcraft:textures/research/research6.png:0:0:255:255:.5</IMG>當所有的原初要素都被接上時，右下角會出現一個按鈕，按下它就能讓你的理論轉化為可供研讀的知識。然而，導出一個完整的理論只能算是完成了一半的工作。<LINE>當你在進行鍵結理論時會看到畫面右邊的研究類別旁出現一些數字。那些數字代表著在你完成理論後所能獲得的進度總量。這項分數是可以累加的，所以當你完成 1.4 個理論分數後只需要再完成 0.6 就能獲得另一個完整的理論分數。理論中所有類別的分數都能推進你的進度，但是分數最高的類別可以獲得明顯高於其他類別的加成。<BR>每個要素都與一項以上的研究類別有關，而且對不同類別的相關性也有所不同。例如 praecantatio 同時與 秘術 和 煉金 有關聯，但是相對於煉金，它對秘術增加的分數更多。<BR>這意味著當你使用較多的某類型要素來完成理論時，可以推測出哪個類別可以獲得最多的進度。必須注意的是當你使用同一種要素不只一次時，其效益會逐次遞減——上述的例子中使用 praecantatio 主要會在秘術類別獲得加成，但從再次放下這個要素開始，秘術的總分增加量會明顯低於前一次。因此你可能會想嘗試使用其他替代要素來讓增加秘術分數。<BR>最後一個獲得額外類別加成的方法是 Bonus Hex。六角網格中的其中一格會出現發光的記號。任何擺在這個位置的要素都能為其相關的類別獲得額外加成。
 #
-research.UNLOCKTHAUMATURGY.title=發現秘術
+research.UNLOCKTHAUMATURGY.title=探索秘術
 research.UNLOCKTHAUMATURGY.stage.1=製作使用魔素力量的物品使我開了眼界，然而我並未滿足於此。一定有方法能直接操作靈氣。汲取大氣中的魔素並依我的意志來驅使的方法。<BR>我應該走遍世界的邊境。肯定能在哪裡習得我所需的知識。<BR>有時我會覺得我受到我理解範圍外的力量驅使——無人能聞的聲音催促我邁向宏大的力量與知識。<BR>將魔素成形將是旅途的下一步。
 research.UNLOCKTHAUMATURGY.stage.2=緩慢而確實的，我逐漸理解了魔素的本質。對我而言魔素還有很多未解之謎，但我認為我已經得到足以讓魔素如願成形的知識。為此我需要一項工具，非常特殊的工具。<BR>我發現了由一位長眠的秘術使留下來的一些塵封卷軸。上面敘述著如何製作用以儲存與驅動魔素的魔杖。我在卷軸中所學到的知識相當有用，然而實用性似乎受到相當程度的限制。何必將四周充沛的魔素限制在法杖之中？對我而言連魔杖本身都太過不切實際。如果需要一個可以抓住靈氣並使它成形的工具，像手套那樣的形狀應該相當適合。<BR>沒有任何破舊手套能勝任——這需要用上最好的皮革，並以魔素的良導體做為繫帶，從頭開始純手工製成。鐵並非優良的魔素導體，但這對現在的我而言已算堪用。<BR>幸運的是我不需要去找什麼神奇木頭來儲存魔素，但我需要用其他方式來引導靈氣——魔素共鳴器能滿足這項需求。我也會將一片簡化的秘術觀測鏡裝在手套上，以便於隨時監控周圍的靈氣。<BR>最後，我會在手套背面加設計一個槽位。卷軸上有提到需要用特殊的晶體核心來引導法杖的魔素。其不同的晶格結構能創造各種實用性的效果。 確實，我一開始還真沒想到這個做法。幸運的是我已經想到幾種方法來改善手套的設計與形狀，使魔素的流動與操作性遠勝於舊式的魔杖。
-research.UNLOCKTHAUMATURGY.stage.3=我成功地組裝出一個基礎的魔道籠手，而我對這成果相當自豪。雖然略顯粗糙，不過作為一組原型這是可以預期的。它將證實即使是原型依舊能派上用場，能使我精確地調整或改造秘術裝置，並安全的進行各種操作。<BR>我的初步實驗顯示它只能汲取我周圍小範圍的魔素。我應該小心避免耗盡區域中的靈氣。<BR>我當下最大的障礙是目前為止它還是只能作為一個魔法板手。在我解出核心的製作秘訣前其功能性將受到限制。而我面前的道路如此的明朗……
+research.UNLOCKTHAUMATURGY.stage.3=我成功地組裝出一個基礎的魔道籠手，而我對這成果相當自豪。雖然略顯粗糙，不過作為一組原型這是可以預期的。它將證實即使是原型依舊能派上用場，能使我精確地調整或改造秘術裝置，並安全的進行各種操作。<BR>我的初步實驗顯示它只能汲取我周圍小範圍的魔素。我應該小心避免耗盡區域中的靈氣。<BR>我當下最大的障礙是目前為止它還是只能作為一個魔法板手。在我解出核心的製作秘訣之前其功能有限。而我面前的道路如此的明朗……
 research.m_deepdown.text=探訪世界下方最深的地方。
 research.m_uphigh.text=探訪你所能登上最高聳的山峰。
 research.m_finddesert.text=探訪最乾燥貧脊的荒地。
@@ -1138,14 +1142,17 @@ got.uphigh=世界在你面前展開。你的視野成長遼闊。
 got.finddesert=你見識到了灼燒般的沙漠。
 got.findocean=你越過了無盡的汪洋。
 #
-research.UNLOCKARTIFICE.title=發現匠法
-research.UNLOCKARTIFICE.stage.1=[內文遺失]
-research.UNLOCKARTIFICE.stage.2=[內文遺失]
+research.UNLOCKARTIFICE.title=探索匠法
+research.UNLOCKARTIFICE.stage.1=長我已經學到了不少事物，而其中一點是明白了我所看見的還遠遠不夠。這世界向我展現其神秘與奧妙，以及許多奇蹟……以及危險。<BR>我需要一項可以使我看見隱藏之物的工具，以幫助我在旅途中發現新知。我研讀的古老文獻提到了過去的秘術使通常會用一組護目鏡來達成這項目的。<BR>可惜文獻中並未記載它是如何運作，所以我得自己從頭開始設計。
+research.UNLOCKARTIFICE.stage.2=我藉由一些零散的資料以及過去的實驗結果寫下了自己的設計。該把把理論付諸實踐了。<BR>同時我也試著把附魔布料應用在這組護目鏡上。如此一來不只能觀測看不見的事物，還能減低秘術操作所消耗的魔素。<BR>這組護目鏡最後一項特性是能夠讓我看見物件中所包含的魔素或源質，相信這能對我有很大的幫助。
 #
-research.UNLOCKALCHEMY.title=發現煉金
+research.UNLOCKALCHEMY.title=探索煉金術
 research.UNLOCKALCHEMY.stage.1=釀造出簡單有其功效，然而單純把怪物的器官搗在一起可不能稱為真正的煉成反應。<BR>我認為源質在一個更加複雜的物質操作手法中扮演相當重要的關鍵。<BR>我應該嘗試深入研究煉金術，了解它在這魔法世界中扮演的角色。<BR>有了這些知識以及一些靈感，我相信我能妥善掌握秘術煉金。
 research.UNLOCKALCHEMY.stage.2=我最近的研究使我對世界的組成有了進一步的理解，我覺得似乎找到了能透過操作源質來改變物質的方法。<BR>這方法需要能夠容納煉金基質的物品來進行實驗。簡單的釀造台無法達成目的——我需要的是一個神祕的坩堝。<BR>鍋釜的尺寸與形狀符合需求，然而這樣的一個大鐵碗可沒辦法容納我想操作的魔法能量。<BR>對這鍋釜也用上世界鹽應該能解決這問題。
-research.UNLOCKALCHEMY.stage.3=我的坩堝完成了！是時候來加以實驗了，而碰巧有項物品完美勝任第一個煉金實驗。我經常徹夜研讀秘術，而閃爍的火炬並不是良好的閱讀光源。我現在需要的正是個穩定的魔法光源。<BR>螢石是一種穩定的光源，但是我需要充沛的光源，而且它缺乏……格調。我很確定我可以把它變得更好。<BR>坩堝需要放置在熱源上並裝滿水。當水沸騰後我就可以開始添加我需要的東西。我寫出了一份配方，我認為應該能夠創造出我稱為明耀之光的物質。以能量、火、以及光來驅動小小的螢光核心，應該能使它永不熄滅。其重量應該輕盈地能讓我擺在任何位置——甚至是飄在半空中。<BR>我只需要找到帶有所需源質的那些物件（按住 shift 並將游標指向物品應該能有所幫助）並將它們投入坩堝。<BR>坩堝會將這些物件分解成構成它們的源質。我可能無法湊到剛好的源質組合，但只要總量足夠一切應該不會有問題。<BR>當一切就緒的最後我只需要投入觸媒。在這個例子下是指螢石粉。<BR>如果一切順利螢石會吸收源質而轉變成明耀之光。<BR>我不確定多餘的源質會造成什麼現象，但我也只能假設它們最後會無害地消散。<BR>[空手按住 shift 右鍵可以清空坩堝。由於每次操作都會消耗一些水，所以你必須一再地重新為它添水。]
+research.UNLOCKALCHEMY.stage.3=我的坩堝完成了！是時候來加以實驗了，而碰巧有項物品完美勝任第一個煉金實驗。我經常徹夜研讀秘術，而閃爍的火炬並不是良好的閱讀光源。我現在需要的正是個穩定的魔法光源。<BR>螢石是一種穩定的光源，但是我需要充沛的光源，而且它缺乏……格調。我很確定我可以把它變得更好。<BR>坩堝需要放置在熱源上並裝滿水。當水沸騰後我就可以開始添加我需要的東西。我寫出了一份配方，我認為應該能夠創造出我稱為光耀之源的物質。以能量、火、以及光來驅動小小的螢光核心，應該能使它永不熄滅。其重量應該輕盈地能讓我擺在任何位置——甚至是飄在半空中。<BR>我只需要找到帶有所需源質的那些物件（按住 shift 並將游標指向物品應該能有所幫助）並將它們投入坩堝。<BR>坩堝會將這些物件分解成構成它們的源質。我可能無法湊到剛好的源質組合，但只要總量足夠一切應該不會有問題。<BR>當一切就緒的最後我只需要投入觸媒。在這個例子下是指螢石粉。<BR>如果一切順利螢石會吸收源質而轉變成光耀之源。<BR>我不確定多餘的源質會造成什麼現象，但我也只能假設它們最後會無害地消散。<BR>[空手按住 shift 右鍵可以清空坩堝。由於每次操作都會消耗一些水，所以你必須一再地重新為它添水。]
+#
+research.UNLOCKGOLEMANCY.title=探索傀儡術
+research.UNLOCKGOLEMANCY.stage.1=
 #
 research.FLUX.warn=靈氣中似乎累積了一些東西。不大好的東西。
 research.FLUX.title=咒波
@@ -1162,11 +1169,11 @@ research.WARP.stage.1=許多人認為不應該涉足魔法，沒什麼能比扭�
 ##########################################
 #
 research.BASEALCHEMY.title=基礎煉金
-research.BASEALCHEMY.stage.1=坩堝煉成指南<BR>一）放置坩堝熱源（火、熔岩、明耀之光或其他類似的東西）。<BR>二）加入水並等到它沸騰。<BR>三）投入帶有所需源質的物質，你可以直接丟在上方或是以該物件點擊坩堝的頂面。<BR>四）投入觸媒。<PAGE>注意事項<BR>- 空手按住 shift 右鍵可以清空坩堝。<BR>- 每次操作都會消耗一些水，所以你必須一再地重新為它添水。管道機械可以在這裡派上用場。<BR>- 可以透過足夠的源質與觸媒同時煉成多項成品。<BR>- 源質會隨時間而分解，因此不該在煉成時發呆太久。我不清楚這種時候飄出的紫色煙霧意味著什麼？大概不是什麼需要擔心的事。<LINE>煉成結晶<BR>源質結晶應該相當容易煉成。我只需要將石英結晶打碎，以作為晶體成長的晶核。<BR>碎片一投入坩堝就會開始吸收源質，並成長為結晶。<BR>然而這項製程效益不怎麼好——它會消耗掉雙倍的源質，而且還需要消耗石英這種並不常見的資源。而且我也不確定如何妥善使用這些結晶化的源質。
+research.BASEALCHEMY.stage.1=坩堝煉成指南<BR>一）放置坩堝熱源（火、熔岩、光耀之源或其他類似的東西）。<BR>二）加入水並等到它沸騰。<BR>三）投入帶有所需源質的物質，你可以直接丟在上方或是以該物件點擊坩堝的頂面。<BR>四）投入觸媒。<PAGE>注意事項<BR>- 空手按住 shift 右鍵可以清空坩堝。<BR>- 每次操作都會消耗一些水，所以你必須一再地重新為它添水。管道機械可以在這裡派上用場。<BR>- 可以透過足夠的源質與觸媒同時煉成多項成品。<BR>- 源質會隨時間而分解，因此不該在煉成時發呆太久。我不清楚這種時候飄出的紫色煙霧意味著什麼？大概不是什麼需要擔心的事。<LINE>煉成結晶<BR>源質結晶應該相當容易煉成。我只需要將石英結晶打碎，以作為晶體成長的晶核。<BR>碎片一投入坩堝就會開始吸收源質，並成長為結晶。<BR>然而這項製程效益不怎麼好——它會消耗掉雙倍的源質，而且還需要消耗石英這種並不常見的資源。而且我也不確定如何妥善使用這些結晶化的源質。
 #
-research.ALUMENTUM.title=焰動之源
-research.ALUMENTUM.stage.1=明耀之光是個實用的物質。它提供光和熱，而且富有美感。但是它所能提供的熱能只比火把稍多——足以慢慢煮水或是驅散夜晚的寒冷，卻無法用於熔煉礦物這類實際用途。<BR>我要的物質必須更具有……反應性。<BR>我應該要花些時間來彙整想法，並研究這些元素。或許我可以像改造螢石一樣對煤炭進行加工。
-research.ALUMENTUM.stage.2=果然沒錯！我應該可以在煤炭中添加更多其本身所包含的源質……或許還需要一些 perditio 作為臨門一腳。<BR>依照我的計算，這項我稱為焰動之源的物質燃燒時間應該能比普通煤炭高出三倍。<BR>計算結果也指出這項物質相當具有活性，我應該小心避免失手把它拋出去……除非我找到一個適當的理由。
+research.ALUMENTUM.title=熾焰之源
+research.ALUMENTUM.stage.1=光耀之源是個實用的物質。它提供光和熱，而且富有美感。但是它所能提供的熱能只比火把稍多——足以慢慢煮水或是驅散夜晚的寒冷，卻無法用於熔煉礦物這類實際用途。<BR>我要的物質必須更具有……反應性。<BR>我應該要花些時間來彙整想法，並研究這些元素。或許我可以像改造螢石一樣對煤炭進行加工。
+research.ALUMENTUM.stage.2=果然沒錯！我應該可以在煤炭中添加更多其本身所包含的源質……或許還需要一些 perditio 作為臨門一腳。<BR>依照我的計算，這項我稱為熾焰之源的物質燃燒時間應該能比普通煤炭高出三倍。<BR>計算結果也指出這項物質相當具有活性，我應該小心避免失手把它拋出去……除非我找到一個適當的理由。
 #
 research.METALLURGY.title=煉成金屬
 research.METALLURGY.stage.1=黃銅是一種低摩擦係數的堅固金屬，非常適合用來製作複雜的機械設備。<BR>不幸的是我所處的這個宇宙性質使我難以確保自己能找出這種金屬。<BR>應該有辦法可以利用煉金轉換煉成這種金屬。而我現在只需要找出這個方法。
@@ -1176,27 +1183,58 @@ research.METALLURGY.stage.4=我在寫下這條目時手在顫抖。我在調查�
 research.METALLURGY.stage.5=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
 research.voidstuff.text=一種詭異的金屬
 #
+research.METALPURIFICATION.title=金屬純化
+research.METALPURIFICATION.stage.1=天然的礦簇含有難得的高純度金屬。冶煉這些礦簇可以獲得雙倍的金屬錠。<BR>若能透過煉金術找到生產天然礦簇的方法，將能省下我花在挖礦上的時間。
+#
 research.HEDGEALCHEMY.title=煉成雜項
 research.HEDGEALCHEMY.stage.1=用我學到的煉金原理來煉成其他的平凡物質應該相當容易。<BR>這對我而言很難說是項挑戰，但多加練習可以精進自我。<BR>我忽然意識到我已經囤積了規模驚人的大量腐肉，天知道什麼原故。或許我現在應該要把它們熬成油脂。除了做成手工蠟燭以外這應該也沒有其他用途了。<BR>用上有些麻煩的魔法應該還能將這些腐肉製成皮革。
 research.HEDGEALCHEMY.stage.2=有些物質只需要單純的添加其包含的源質就可以進行複製。雖然這非適用於所有物品，但是這種現象被證實相當有效。
 research.HEDGEALCHEMY.stage.3=有些東西是你必須從頭開始煉成的——只需要取其基礎材料，添加源質，並靠著一些運氣我就能生產出一些雖普遍卻不易取得的材料。
 research.HEDGEALCHEMY.stage.4=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
 #
+research.LIQUIDDEATH.title=亡水
+research.LIQUIDDEATH.stage.1=好奇心使我走上了黑暗之道。我想知道充滿混沌與死亡能量的液體能有怎樣的功能。然而似乎沒什麼好用途。<BR>至少可以當作一種方便的除草劑或殺蟲劑。
+research.LIQUIDDEATH.stage.2=噢親愛的，看看我做出了什麼～？ 這個液體非常的危險且致命，幾乎沒有東西能阻止它溶解肉塊與骨骼，甚至是其他更堅硬的物質。沒有任何生命體，或是像是生物的東西能承受它。<BR>除了一般的用法外，這個詭異的液體還有一項有趣的特性：被溶解的生物身上所有的源質都會化為可供採集的晶體。
+#
+research.BOTTLETAINT.title=侵蝕瓶
+research.BOTTLETAINT.stage.1=我應該能夠重現咒波產生的侵蝕現象。我不清楚為何我想這麼做，但畢竟進步往往都伴隨著風險。<BR>這項製程相當單純——我只需要製作一團高濃度的咒波混合物，應該就能輕易的與任何物質反應並發生侵蝕。
+#
+research.BATHSALTS.title=淨化浴鹽
+research.BATHSALTS.stage.1=扭曲即使在最謹慎的秘術使眼中也是一大威脅。尤其在身上累積了多次扭曲後其影響可能不只是心煩意亂的程度。<BR>我應該要優先解決這個問題。即使無法解除身上的扭曲，至少可以舒緩它造成的症狀。
+research.BATHSALTS.stage.2=我擬定了一項配方，用來製作一種清爽且令人放鬆的浴鹽。只要將它投入水中，就能使之化為銀白色且具有淨化力的液體，能夠舒緩一整天的壓力，並減緩扭曲所造成的影響。必須注意的是當身上的扭曲愈嚴重，其保護效果的持續時間就會愈短。<BR>浴鹽的成分不大穩定，若隨意亂丟的話很容易潮解。
+#
+research.SANESOAP.title=心神皂
+research.SANESOAP.stage.1=我似乎在偶然中發現了解決方案。浴鹽可以放鬆身心，並緩解扭曲的症狀，但是我需要更根本的解決方案。用來徹底清除我身上的扭曲。<BR>帶有善意的魔力可以派上用場。香皂可以清洗身體，若是賦予它適當的信念或許能使它同時淨化心靈？
+research.SANESOAP.stage.2=εὕρηκα（我發現啦）！！ 我解出了一道配方以合成我所命名的心神皂（專利申請中）<BR>這塊香皂可以清洗肉體，但是它特別的地方在於心理上的效果。使用這塊香皂會低機率的減少非永久性的扭曲，並清除所有暫時性的扭曲。<BR>若使用時處於扭曲防護的狀態下或是站在淨化泉中，可以增加消除扭曲的機率。
+#
+research.ARCANESPA.title=奧法浴池
+research.ARCANESPA.stage.1=把浴鹽投入水中有點麻煩，幸運的是利用一點魔法與小聰明可以輕易解決這個問題。
+research.ARCANESPA.stage.1=我製作了一台方便的機器，當其中裝有水與浴鹽時會自動將它們混合並泵到其上方的一定範圍內。液體能填滿裝置上方的 5x5 空間。<BR>另外，設計上這台機器可以用同樣的方式將任何裝在其中的液體送到上方。可以用自動化系統為這台機器添加液體，也可以容器手動裝填。可以用紅石信號使它暫停運作。
+#
+research.ESSENTIASMELTER.title=源質熔煉
+research.ESSENTIASMELTER.stage.1=看來在在不遠的將來我會用到各種不同源質，我必須為此做點準備。為此，我需要找些來源，而能從中找到源質的東西有……那個，任何東西。<BR>藉由煉金法則應該能夠將物體分解並轉化成源質。在這之前，我必須先對我所知最純粹的源質——魔素結晶進行研究。<BR>透過利用這些晶體進行一些……呃、「破壞性測試」，應該能讓我掌握它們在各種極端狀空下的反應以及保持其純度的最佳方案。<BR>應該先從原初源質起手。
+research.ESSENTIASMELTER.stage.2=這項實驗前景光明，然而卻有些難以預料。幸運的是火勢能及時撲滅，幾天後頭髮應該就會長回來了。<BR>看來利用特殊的煉金手法將物件融解會是我的首選。不幸的是一直以來我都只用原初結晶進行測試。我也該找出次級源質——由兩種原初要素組成的源質結晶進行試驗。<BR>當然也有被稱為三級源質的第三階源質。這是由原初與次級要素，或是兩種次級要素混合而成。 
+research.ESSENTIASMELTER.stage.3=我已經將我所有的初級與次級源質樣本分解為液態，然而這手續既緩慢又無聊。在我將這道手續簡化之前永遠無法進行大規模的利用。<BR>幸運的是從物件中提煉源質與冶煉金屬的原理非常接近。或許我能以熔爐為基礎製作一台能自動溶解物品並分離各種源質的源質融煉爐。
+research.ESSENTIASMELTER.stage.4=我畫了源質熔煉爐的藍圖。熔煉爐與普通熔爐一樣能燃燒煤炭產生熱能，但是不是用來冶煉金屬，而是將物體分解為單純、原始的源質漿。這道製程效益不是很好，少部分源質會轉變為咒波，目前看來大約在20%上下。<BR>下一個步驟是以奧術蒸餾器將源質漿純化。<BR>奧術蒸餾器必須安裝在熔煉爐的上方才運作。可以疊加多層蒸餾器來增加儲存量，但是不會影響提煉速度。源質漿會慢慢被吸進蒸餾器，並分離成不同要素的源質。<BR>使用熾焰之源作為熔煉爐的燃料可以大幅加快提煉速度。<BR>可以利用管型瓶、玻璃罐或是其他複雜的手法從蒸餾器取出源質。<BR>把風箱安置在熔煉爐旁可以大幅提高其溫度，加快物品被分解的速度。
+#
+research.ESSENTIASMELTERTHAUMIUM.title=靛鐵源質熔煉爐
+research.ESSENTIASMELTERTHAUMIUM.stage.1=[TBD]
+research.ESSENTIASMELTERTHAUMIUM.stage.2=[TBD]
+#
+research.ESSENTIASMELTERVOID.title=虛鋼源質熔煉爐
+research.ESSENTIASMELTERVOID.stage.1=[TBD]
+research.ESSENTIASMELTERVOID.stage.2=[TBD]
+#
 ##########################################
 # ARTIFICE
 ##########################################
 #
 research.BASEARTIFICE.title=基礎匠法
-research.BASEARTIFICE.stage.1=[內文遺失]
+research.BASEARTIFICE.stage.1=我已經準備好要製作附魔物件與工具了——現在只需思考要做出怎樣的東西。<BR>該動手時進行實作了。
 #
 research.ENCHFABRIC.title=附魔布料
 research.ENCHFABRIC.stage.1=在開始設計真正的神奇裝置之前，我應該先好好磨練自己的基礎工藝技巧。<BR>我想把平凡的材料織成魔法布料將會是我的起點。這不僅能磨練我的手藝，布料本身也能夠派上用場。
 research.ENCHFABRIC.stage.2=我織出的布料柔軟而細緻，且易於附魔。我設計了一套由這種布料製成的服裝。<BR>它不僅舒適時尚，穿著時還能減低某些秘術操作的魔素消耗。這套服裝應該會像皮甲一樣易於染色。<BR>總之我對我所完成的一切都相當滿意。
-#
-research.GOGGLES.title=重新看見
-research.GOGGLES.stage.1=我已經學到了不少事物，而其中一點是明白了我所看見的還遠遠不夠。這世界向我展現其神秘與奧妙，以及許多奇蹟……以及危險。<BR>我需要一項可以使我看見隱藏之物的工具，以幫助我在旅途中發現新知。我研讀的古老文獻提到了過去的秘術使通常會用一組護目鏡來達成這項目的。<BR>可惜文獻中並未記載它是如何運作，所以我得自己從頭開始設計。
-research.GOGGLES.stage.2=我藉由一些零散的資料以及過去的實驗結果寫下了自己的設計。該把把理論付諸實踐了。<BR>同時我也試著把附魔布料應用在這組護目鏡上。如此一來不只能觀測看不見的事物，還能減低秘術操作所消耗的魔素。<BR>這組護目鏡最後一項特性是能夠讓我看見物件中所包含的魔素或源質，這對我而言有很大的幫助。
-#
 #
 ##########################################
 # THAUMATURGY
@@ -1204,10 +1242,10 @@ research.GOGGLES.stage.2=我藉由一些零散的資料以及過去的實驗結�
 #
 research.BASETHAUMATURGY.title=基礎秘術
 research.BASETHAUMATURGY.stage.1=在煉成手套完成後我必須製作核心。古老的卷軸裡對此並沒有詳盡的描述，所以我必須找出我自己的方法。<BR>我有個想法，透過用魔素將水晶相互組合以組成核心。我最初的實驗失敗了……爆炸性的失敗。<BR>我認為應該能從煉金術中找出解法。<BR>若將秩序水晶作為晶核應該就能藉由其規制性質組成核心。而這道程序需要吸收 praecantatio 與 auram 源質。<BR>最後得到的成品希望是一顆能吸收、駕馭魔素的晶體核心。
-research.BASETHAUMATURGY.stage.2=利用煉金術來製作核心確實可行。核心既穩定又乾淨——現在我只需要印上妥善的紋章。為此，我需要核心操作台。<BR>我擬定了一張核心操作台的藍圖。其作用機制各方面都與奧術工作台雷同，但魔素並非用於合成物品，而是用來將紋章印上核心。<BR>要印上核心的紋章也必須經過設計。我希望能用一種紋章來放出火焰，但是我還需要多做些研究。
-research.BASETHAUMATURGY.stage.3=一切都就緒了。現在我要製作我第一顆核心。<BR>透過將處理過的魔素結晶安置在空白的核心上，我能用紋章決定核心的作用效果。目前為止我只知道「火焰」與「接觸」兩種紋章。<BR>我將「火焰」稱為效應紋章，它可以決定喚出何種元素或法術。我應該可以將多種效果相互結合，而每個效果額外增加施放法術的總消耗。<BR>「接觸」被我稱為媒介紋章，他決定如何把效應作用於目標物上。每個術式中只能有一道媒介，而且紋章必須安置在中央。媒介能決定所有連結效應的效力與消耗。舉個例子，「接觸」可以讓法術更便宜且有效。<BR>此外還有第三種紋章能控制其他紋章的效應，例如改變消耗與威力或是其作用形式。至今我仍對這一無所知，但終有一天我應該能再現「接觸」的消耗輕減以及效果強化的功能。<BR>紋章的安排必須彼互相連結才能生效，但能以一個紋章影響多個紋章的形式來排放。相同的紋章在一顆核心的製造過程中只能使用一次。<BR>構成紋章的魔素結晶在製程開始時會被消耗，而我也必須以經驗值的形式獻出自己的生命能量。最後，你必須花點時間等待它從靈氣中汲取魔素以將紋章刻入核心。
-research.f_onfire.text=貼近火源進行研究。
-got.onfire=你摸清了火焰的觸感。
+research.BASETHAUMATURGY.stage.2=利用煉金術來製作核心確實可行。核心既穩定又乾淨——現在我只需要印上妥善的紋章。為此，我需要核心操作台。<BR>我擬定了一張核心操作台的藍圖。其作用機制各方面都與奧術工作台雷同，但魔素並非用於合成物品，而是用來將紋章印上核心。<BR>要印上核心的紋章也必須經過設計。我希望能用一種紋章來放出火焰，但是我還需要多做些研究。 
+research.BASETHAUMATURGY.stage.3=一切都就緒了。現在我要製作我第一顆核心。<BR>將處理過的魔素結晶安置在空白的核心上，我能透過紋章決定核心的作用效果。目前為止我只知道「火焰」與「接觸」兩種紋章。<BR>我將「火焰」稱為效應紋章，它可以決定喚出何種元素或法術。我應該可以將多種效果相互結合，而每個效果額外增加施放法術的總消耗。<BR>「接觸」被我稱為媒介紋章，他決定如何把效應作用於目標物上。每個術式中只能有一道媒介，而且紋章必須安置在中央。媒介能決定所有連結效應的效力與消耗。舉個例子，「接觸」可以讓法術更便宜且有效。<BR>此外還有第三種紋章能控制其他紋章的效應，例如改變消耗與威力或是其作用形式。至今我仍對這一無所知，但終有一天我應該能再現「接觸」的消耗輕減以及效果強化的功能。<BR>紋章的安排必須彼互相連結才能生效，但能以一個紋章影響多個紋章的形式來排放。相同的紋章在一顆核心的製造過程中只能使用一次。<BR>構成紋章的魔素結晶在製程開始時會被消耗，而我也必須以經驗值的形式獻出自己的生命能量。最後，你必須花點時間等待它從靈氣中汲取魔素以將紋章刻入核心。
+research.f_onfire.text=貼近火進行研究。
+got.onfire=你知悉了火焰的觸感。
 #
 research.FOCUSBASICMODS.title=基礎核心修飾
 research.FOCUSBASICMODS.stage.1=我應該能夠將「接觸」紋章的節約與強效性質複製到其他紋章上。<BR>我想先試著在不減少效力的前提下減低紋章的消耗。
