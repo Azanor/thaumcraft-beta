@@ -155,7 +155,7 @@ item.baubles.ring_apprentice.name=Apprentices Ring
 item.baubles.amulet_fancy.name=Fancy Amulet
 item.baubles.ring_fancy.name=Fancy Ring
 item.baubles.girdle_fancy.name=Fancy Belt
-item.amulet_vis.text=Recharges wands in hotbar
+item.amulet_vis.text=Recharges items that hold vis in hotbar
 item.amulet_vis.found.name=Vis Stone
 item.amulet_vis.crafted.name=Amulet of Vis
 item.girdle_hover.name=Thaumostatic Girdle
@@ -166,23 +166,11 @@ item.verdant_charm.sustain.text=Sustainer
 # Casters & Foci
 #
 item.caster_basic.name=Caster's Gauntlet 
-item.focus_fire.name=Wand Focus: Fire
-item.focus_hellbat.name=Wand Focus: Nine Hells
-item.focus_shock.name=Wand Focus: Shock
-item.focus_equal_trade.name=Wand Focus: Equal Trade 
-item.focus_frost.name=Wand Focus: Frost
-item.focus_excavation.name=Wand Focus: Excavation
-item.focus_hole.name=Wand Focus: Portable Hole
-item.focus_pech.name=Wand Focus: Pech's Curse
-item.focus_warding.name=Wand Focus: Warding
-item.focus_primal.name=Wand Focus: Primal
-item.focus_shard.name=Wand Focus: Vis Shard
-item.focus_grapple.name=Wand Focus: Grappler
-item.focus_builder.name=Wand Focus: Builder
-#
+item.focus.name=Caster Focus
+item.focus_blank.name=Blank Caster Focus
+item.Focus.cost1=Vis per cast
 item.focus_pouch.name=Focus Pouch
 #
-item.Focus.cost1=Vis per cast
 #
 # Misc
 #
@@ -322,6 +310,8 @@ tile.spa.name=Arcane Spa
 tile.thaumatorium.name=Thaumatorium
 tile.thaumatorium_top.name=Thaumatorium
 tile.brain_box.name=Mnemonic Matrix
+tile.essentia_input.name=Filling Essentia Transfuser
+tile.essentia_output.name=Emptying Essentia Transfuser
 #
 # Doodads
 tile.table_stone.name=Stone Table
@@ -370,6 +360,10 @@ tile.flesh_block.name=Block of Flesh
 tile.paving_stone.barrier.name=Barrier Stone
 tile.paving_stone.travel.name=Paving Stone of Travel
 tile.paving_stone.travel_lit.name=Glowing Paving Stone of Travel
+tile.centrifuge.name=Essentia Centrifuge
+tile.mirror.name=Magic Mirror
+tile.mirror_essentia.name=Essentia Mirror
+tile.golem_builder.name=Golem Press
 #
 # Misc
 tile.effect.shock.name=Static Field
@@ -573,15 +567,9 @@ tile.aura_totem.pull.name=Aura Totem of Attraction
 tile.aura_totem.pole_inner.name=Totem Pole Inner
 tile.aura_totem.pole_outer.name=Totem Pole Outer
 tile.aura_totem.pole_pure.name=Stabilizing Totem Pole
-tile.centrifuge.name=Essentia Centrifuge
-tile.crystallizer.name=Essentia Crystallizer
 
-tile.mirror.name=Magic Mirror
-tile.mirror_essentia.name=Essentia Mirror
-tile.golem_builder.name=Golem Press
-tile.node_stabilizer.name=Node Stabilizer
-tile.essentia_input.name=Filling Essentia Transfuser
-tile.essentia_output.name=Emptying Essentia Transfuser
+
+
 #
 # Items
 ###################################
@@ -753,7 +741,7 @@ focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's 
 focus.upgrade.extend.name=Extend
 focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
 #
 # Specific Focus Upgrades
 ##############################
@@ -935,13 +923,14 @@ tc.key8=You already have access.
 tc.key9=This key grants access to the
 tc.key10=arcane door at
 tc.key11=arcane pressure plate at
-tc.wandnocharge=The wand does not have enough charge to do that.
-tc.wandcharge=This wand currently holds %s vis
+tc.wandnocharge=The casting tool does not have enough charge to do that.
+tc.wandcharge=This casting tool currently holds %s vis
 tc.jaressentia=Holds %s essentia
 tc.jarname=Jar of
 tc.markedloc=marked locations
 tc.addclue=§aYou have discovered something that could aid future research§0
-tc.addpage=§aYou have discovered something new about %1$s§0
+tc.addaddendum=§aAddendum added to %1$s§0
+tc.addendumtext=§oAddendum %1$s§r
 tc.addaspect=§aYou have gained practical knowledge of %1$s§0
 tc.addwarp=§5You have gained permanent Warp!§0
 tc.addwarptemp=§5You have gained temporary Warp!§0
@@ -985,9 +974,9 @@ tc.research.purchase=Click to purchase this research with %1$s experience level(
 tc.research.short=You need %1$s experience level(s) to purchase this.
 tc.research.read=Click to read this research.
 tc.research.add=Click to consume fragment and add 1 of each primal.
-tc.need.research=Other research that must be known
+tc.need.research=Things that need to be discovered
 tc.need.craft=Items that need to be crafted
-tc.need.obtain=Items that are needed
+tc.need.obtain=Items that will be consumed
 tc.need.know=Knowledge that must be used
 tc.primalcharm.0=It seems to be leaking
 tc.primalcharm.1=You think you hear whispering
@@ -1073,7 +1062,8 @@ tc.field.elements=Elements
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
-# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <LINE> or <LINE/>     Insert a fancy centered linebreak between sections of text.
+# <DIV> or <DIV/>     Insert a fancy left-justified linebreak between sections of text.
 # <PAGE> or <PAGE/>     Skip to a new page.
 # <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
 #                    - mod resource location name
@@ -1118,7 +1108,7 @@ research.TaintSwarm.stage.1=Sometimes purple hive-like growths will form on the 
 research.TaintSeed.stage.1=Occasionally tight knots of Tainted tendrils will form. From out of this 'seed' foul tainted air will spew which acts as the basis for new Taint growth.<BR>These seeds can lash out to defend themselves, but the risk must be taken if you wish to rid an area of taint.<BR>Without the foul air these seeds create, tainted growth soon withers and dies. 
 #
 research.FIRSTSTEPS.title=First Steps
-research.FIRSTSTEPS.stage.1=Who would have thought that a few sprinkles of dust could have created this marvelous book? It is mostly blank, but it hints at a powerful new form of magic: Thaumaturgy.<BR>Firstly I will need to study the magical world that has been shown to me. For that I will need a tool - a Thaumometer the book calls it.<BR>A normal crafting table won't do however since the magical energies I need to channel while crafting it are quite delicate. A sprinkling of Salis Mundus on a mundane crafting table should solve that. The book has taught me the proper incantation to use so it should be a simple matter.<BR>To keep myself on track I will make note of all my required goals on the first page of every project. 
+research.FIRSTSTEPS.stage.1=Who would have thought that a few sprinkles of dust could have created this marvellous book? It is mostly blank, but it hints at a powerful new form of magic: Thaumaturgy.<BR>Firstly I will need to study the magical world that has been shown to me. For that I will need a tool - a Thaumometer the book calls it.<BR>A normal crafting table won't do however since the magical energies I need to channel while crafting it are quite delicate. A sprinkling of Salis Mundus on a mundane crafting table should solve that. The book has taught me the proper incantation to use so it should be a simple matter.<BR>To keep myself on track I will make note of all my required goals on the first page of every project. 
 research.FIRSTSTEPS.stage.2=Progress! I now have an Arcane Workbench at my disposal. It works much like a mundane crafting table and can even be used as such, however there are a few key differences.<BR>Firstly, many arcane recipes will require the use of those vis crystals I've been finding of late. They act as a focus for the magical energy I need to channel into the items I craft. The book calls this magical energy Vis.<BR>Supposedly this energy is all around me, but as yet I cannot perceive or measure it.<BR>It is time I craft the Thaumometer and use it to study the world around me. It should clearly mark those things I still need to examine.<BR>I have placed a bookmark to the Thaumometer recipe on the right.
 research.FIRSTSTEPS.stage.3=Such strange wonders are being revealed to me. Peering through the lens of the Thaumometer shows me a world coursing with magic, Vis as the books calls it.<BR>Normally this energy is a pure ocean of magic that ebbs and flows, but it also permeates all things, both animate and inanimate. The books calls Vis in this state Essentia. Where Vis is formless and pure, Essentia is more rigid in its nature and falls into a multitude of clearly defined types, each mixing together with others to form greater and more complex types of essentia.<BR>I am not quite sure if the matter it is bound to gives Essentia its nature, or that the very nature of matter depends on the Essentia it contains. This bears further study.<BR>I am keeping a log of all the types of essentia I discover. A bookmark on the left will show my current knowledge.<BR>For now I need to focus my energies elsewhere - three paths have opened before me. Which will I take first?
 #
@@ -1133,14 +1123,6 @@ research.UNLOCKTHAUMATURGY.title=Discovering Thaumaturgy
 research.UNLOCKTHAUMATURGY.stage.1=Crafting objects of power with Vis has opened a whole now world for me, yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
 research.UNLOCKTHAUMATURGY.stage.2=Slowly but surely I am beginning to understand the nature of Vis. So much is still hidden to me, but I think I now know enough to begin moulding it to my will. For this I will need a tool. A very special tool.<BR>I have stumbled upon some dusty scrolls penned by a long dead thaumaturge. It describes how to craft wands that are used to store and channel vis. The insights I learned from the scrolls were useful, but the application seems so limiting. Why trap vis in a wand when it is all around you? Even the wand itself seems impractical to me. If you need something to grasp and shape the aura it should be something appropriate. Something like a glove.<BR>Any old glove will not do - it will need to be handcrafted from the finest leather and laced with vis conductive materials. Iron is a poor vis conductor, but it is all I have available to me at this time.<BR>Luckily there will be no mucking about with magical woods and so forth to store the vis, but I will need some way of channeling vis directly from the aura - a vis resonator if you will. I will also attach a stripped-down thaumometer to the glove so I can monitor the local aura.<BR>Lastly I will place a receptacle on the back of the glove. The scrolls mentioned using special crystalline foci to channel the vis from the wands. Their crystalline lattice shapes the vis into different configurations to create all manner of useful effects. Brilliant actually. It irks me that I did not think of it first. Fortunately I have already thought of several ways to improve on the design and the shape of the glove lends itself on manipulating the flow of vis much more than the old style wands could.  
 research.UNLOCKTHAUMATURGY.stage.3=I have managed to put together a basic casting gauntlet and I am quite pleased with the result. It is still a bit rough, but that is to be expected from a prototype. Even as a prototype it will prove useful, allowing me to make delicate adjustments or alteration to thaumaturgical devices and safely manipulate them in all manner of ways.<BR>My initial experiments have shown that it is only able to draw vis from a relatively small area around me. I should be careful not to deplete the aura.<BR>My main stumbling block now is that in its current state it is little more than a magical wrench. Until I crack the secret of crafting foci its utility will be limited. The path before me is clear...
-research.m_deepdown.text=Visit the lowest depths of the world.
-research.m_uphigh.text=Visit the highest peaks you can find.
-research.m_finddesert.text=Visit dry and barren wastes.
-research.m_findocean.text=Visit the endless, blue seas.
-got.deepdown=You have visited deep and dark depths and have learned much.
-got.uphigh=The world is spread out before you. Your perspective has been broadened.
-got.finddesert=You have visited the scorching desert.
-got.findocean=You have into the endless blue abyss.
 #
 research.UNLOCKARTIFICE.title=Discovering Artifice
 research.UNLOCKARTIFICE.stage.1=I have learned much and one of those things is how much more I still have to learn. The worlds revealed to me are arcane and mysterious with many invisible wonders... and dangers.<BR>I need a tool that will allow me to see the unseen and ease my journey of discovery. The old texts I have read make mention of a set of goggles commonly used by thaumaturges for just this purpose.<BR>Alas the text does not mention exactly how they work, so I will need to design my own from first principles.
@@ -1163,6 +1145,12 @@ research.toomuchflux.text=Let the the Flux build
 research.WARP.warn=My mind reels from the knowledge I have gained
 research.WARP.title=Warp
 research.WARP.stage.1=Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even me keel is at the moment.
+#
+research.ORE.title=Ores
+research.ORE.stage.1=There are many unique ores and minable blocks that are useful to a Thaumaturge. I should make a note of all those I come across.
+research.ORE.amber=§oAmber Ore§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
+research.ORE.cinnabar=§oCinnabar§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
+research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in an aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You know of no way to only harvest some of the crystals. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
 #
 ##########################################
 # ALCHEMY
@@ -1209,25 +1197,53 @@ research.SANESOAP.stage.2=Eureka! I have formulated a recipe for what I have nam
 #
 research.ARCANESPA.title=Arcane Spa
 research.ARCANESPA.stage.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic and ingenuity.
-research.ARCANESPA.stage.1=I have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, I have designed it in such a way that it can be used to pump nearly any liquid I can fill it with. It can be filled with with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
+research.ARCANESPA.stage.2=I have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, I have designed it in such a way that it can be used to pump nearly any liquid I can fill it with. It can be filled with with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
+#
+research.WARDEDJARS.title=Warded Jars & labels
+research.WARDEDJARS.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in, well, everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to, um, "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
 #
 research.ESSENTIASMELTER.title=Essentia Smelting
 research.ESSENTIASMELTER.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in, well, everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to, um, "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
 research.ESSENTIASMELTER.stage.2=My experiments are promising if a bit unpredictable. Fortunately the fires where easily quenched and my hair should grow back in a few days.<BR>It seems melting objects down in a special alchemical process is my best option. Unfortunately my tests so far has been on primal crystals. I should also test my finding on crystals containing secondary essentia - that is essentia made up of a combination of two primal aspects.<BR>A third tier known as tertiary essentia also exists. That is essentia made up of a mixture of primal and secondary aspects, or two secondary aspects. 
 research.ESSENTIASMELTER.stage.3=I have managed to break down all my samples of primary and secondary essentia into a liquid state. The process has been slow and tedious however. Until I simplify the process it will never be practical for large scale usage.<BR>Luckily extracting essentia from objects has a lot in common with the smelting of metals. Using a furnace as a base I might be able to create an essentia smeltery that automatically melts down items and separates out individual types of essentia. 
-research.ESSENTIASMELTER.stage.4=I have drawn up the plans for an Essentia Smelter. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an Arcane Alembic.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.<BR>The essentia can then be extracted out of an alembic using phials, jars or more complex means.<BR>Bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
+research.ESSENTIASMELTER.stage.4=I have drawn up the plans for an Essentia Smelter. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an Arcane Alembic.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.<BR>The essentia can then be extracted out of an alembic using phials, jars or more complex means.
+research.ESSENTIASMELTER.bellows=Bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
 #
 research.ESSENTIASMELTERTHAUMIUM.title=Thaumium Essentia Smelter
-research.ESSENTIASMELTERTHAUMIUM.stage.1=[TBD]
-research.ESSENTIASMELTERTHAUMIUM.stage.2=[TBD]
+research.ESSENTIASMELTERTHAUMIUM.stage.1=The basic essentia smelter is quite crude if I have to be honest with myself. It is extremely inefficient and rather slow. I chalk this up to the low quality of the materials it is crafted from.<BR>I believe Thaumium could prove useful in improving the smelting process. I should run some experiments to see how it effective it would be at containing essentia slurry.<BR>I should probably also improve the plumbing inside the smelter itself. 
+research.ESSENTIASMELTERTHAUMIUM.stage.2=Thaumium has proven to be a good choice, though not quite as effective as I had hoped.<BR>The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%. Not nearly the improvement I was hoping for, but better than nothing I suppose.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed.
 #
 research.ESSENTIASMELTERVOID.title=Void Metal Essentia Smelter
-research.ESSENTIASMELTERVOID.stage.1=[TBD]
-research.ESSENTIASMELTERVOID.stage.2=[TBD]
+research.ESSENTIASMELTERVOID.stage.1=I need to go back to the drawing board. Using Thaumium did improve the smelting process, but not to the degree I had hoped.<BR>My recent discovery of Void Metal has opened up a new avenue of research for me. It is much more resilient an malleable than Thaumium. I should but it through the same batteries of tests I did for Thaumium and see how the two compare.<BR>It might also be worth changing the internal plumbing to incorporate Void Metal in some manner.
+research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing. I expect the Void Metal Smeltery will work much like the basic smeltery, but at roughly 95% efficiency instead of 80%.<BR>It should break down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.
 #
-research.ESSENTIASMELTERVOID.title=Void Metal Essentia Smelter
-research.ESSENTIASMELTERVOID.stage.1=[TBD]
-research.ESSENTIASMELTERVOID.stage.2=[TBD]
+research.THAUMATORIUM.title=Alchemical Automation
+research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw, liquid essentia available to me I should improve the entire alchemical process.
+research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have don this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+#
+research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
+research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable. 
+research.ESSENTIATRANSPORT.stage.2=I have cracked the method of keeping aerated essentia stable outside of infusion.<BR>I have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.<BR>The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type.
+#
+research.CENTRIFUGE.title=Essentia Centrifuge
+research.CENTRIFUGE.stage.1=I often find myself with complex essentia I have no real need for. I need to find a way to put all that unused essentia to a practical use.
+research.CENTRIFUGE.stage.2=The alchemical centrifuge is a wondrous invention that allows me to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a Essentia Buffer to the top of the centrifuge.
+#
+research.TUBES.title=Essentia Tubes
+research.TUBES.stage.1=I can transport essentia around in jars and flasks, but that is not useful for large scale alchemical operations. The obvious answer is to transport essentia with pipes or tubes, but due to its volatile nature no mundane pipe will be able to transport it.<BR>I should gather some exotic essentia samples and use them to test various materials.
+research.TUBES.stage.2=I have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either dissolve or simply pass right through it. By wrapping the glass in iron and treating it with quicksilver I have managed to protect it from even the most volatile types of essentia. Brass fittings finish off the piping system and makes it visually appealing.<PAGE>The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented from a tube, it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction that is causing the problem.<LINE>Tubes can be connected and disconnected from their neighbors by clicking on a section of tubing with a Caster.<BR>The Caster can also be used to click on the central section to rotate certain tubes like the valve.<PAGE><IMG>thaumcraft:textures/items/resonator.png:0:0:255:255:.125</IMG>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying.<PAGE><IMG>thaumcraft:textures/items/tube_valve.png:0:0:255:255:.125</IMG>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<PAGE><IMG>thaumcraft:textures/items/tube_filter.png:0:0:255:255:.125</IMG>Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels, phials or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.<PAGE><IMG>thaumcraft:textures/items/tube_restrict.png:0:0:255:255:.125</IMG>Restricted essentia tubes work like normal tubes, except they halve the any suction passing through them.<PAGE><IMG>thaumcraft:textures/items/tube_oneway.png:0:0:255:255:.125</IMG>Directional essentia tubes only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.<PAGE><IMG>thaumcraft:textures/items/tube_buffer.png:0:0:255:255:.125</IMG>The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.<BR>Additionally you can toggle individual connections on and off as with a normal tube, but if you shift click a connection, it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
+#
+research.IMPROVEDSMELTING.title=Improved Essentia Distillation (part 1)
+research.IMPROVEDSMELTING.stage.1=While essentia smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>It should be a simple matter for me to speed up this process.
+research.IMPROVEDSMELTING.stage.2=I have discovered a way to make essentia smelting faster and more efficient: Auxiliary Slurry Pumps.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
+#
+research.IMPROVEDSMELTING2.title=Improved Essentia Distillation (part 2)
+research.IMPROVEDSMELTING2.stage.1=Designing the the slurry pumps have given me an idea to reduce the amount of flux generated during the smelting process.<BR>I should follow up on those ideas as soon as possible.
+research.IMPROVEDSMELTING2.stage.2=I have discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of venting ports fitted with filters I am able to separate out the flux and safely vent it as harmless steam.<BR>Like the slurry pumps, the vents need to be placed on the side of the smelter.<BR>This process will reduce flux produced by about a third and additional vents will increase this, though there are diminishing returns.
+#
+research.EVERFULLURN.title=Everfull Urn
+research.EVERFULLURN.stage.1=Alchemical creation has proven to be much easier than I expected. If I can somehow automate this process to create something simple and practical it will go a long way toward further alchemical breakthroughs.<BR>Maybe something like an infinite water source would be a good start?
+research.EVERFULLURN.stage.2=A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill my buckets, bottles or other liquid containers.<BR>The urn will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles, but has other uses as well.<BR>Every bucket full of water created costs 1 Aqua vis which is drawn directly from the aura.<BR>The water does taste a bit... odd. Nothing to worry about I'm sure.
 #
 ##########################################
 # ARTIFICE
@@ -1240,6 +1256,68 @@ research.ENCHFABRIC.title=Enchanted Fabric
 research.ENCHFABRIC.stage.1=Before I can start designing truly wondrous devices I should practice my fundamental skills.<BR>I thought I would start by weaving magical cloth from mundane materials. Not only will this hone my skills, but the fabric itself could prove useful.
 research.ENCHFABRIC.stage.2=The fabric I crafted is soft, supple and easy to enchant. I have designed patterns for a set of clothing made from this fabric.<BR>It will not only be comfortable and stylish, but while worn it will reduce the vis cost of certain types of thaumaturgical tasks. The clothing should also be easily dyeable much like leather armor.<BR>All in all I am quite pleased with what I have done here. 
 #
+research.REDSTONERELAY.title=Redstone Relay
+research.REDSTONERELAY.stage.1=I have always been curious about the seemingly negative reaction between mystical devices and redstone signals. I should study this phenomenon further and find a practical use for its effects.
+research.REDSTONERELAY.stage.2=I have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, I have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.<BR>Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters, relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.<BR>This way, for example, you could have the relay emit a signal of strength 7 once it receives a signal of at least strength 2.
+#
+research.ARCANEEAR.title=Arcane Ear
+research.ARCANEEAR.stage.1=I should investigate the creation of arcane sensors that can react to things in the world. Maybe sound is a good place to start.
+research.ARCANEEAR.stage.2=I have succeeded! The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognises, it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed against.<BR>Arcane ears can be placed against any surface.
+#
+research.BOOTSTRAVELLER.title=Boots of the Traveler
+research.BOOTSTRAVELLER.stage.1=I need to create something that will ease my travels. I should examine the mechanics of movement and how one can go about improving it.
+research.BOOTSTRAVELLER.stage.2=I have designed a pair of enchanted boots that will ease the journey of any traveler.<BR>They will allow one to move faster, jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
+research.m_walker.text=Walk a lot.
+research.m_runner.text=Run a lot.
+research.m_swimmer.text=Swim a lot.
+research.m_jumper.text=Jump a lot.
+#
+research.PAVINGSTONES.title=Arcane Paving Stones
+research.PAVINGSTONES.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
+research.PAVINGSTONES.stage.2=<PAGE>§oPaving Stone of Travel§r<DIV>By altering the magical structure of arcane stone I am able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.<PAGE>§oBarrier Stone§r<DIV>I have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.<BR>The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
+#
+research.DIOPTRA.title=Thaumic Dioptra
+research.DIOPTRA.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
+research.DIOPTRA.stage.2=As I expected it was not hard to expand on the workings of the thaumometer to design the Thaumic Dioptra.<BR>This device allows a thaumaturge to see the surrounding aura in a simple and clear manner. It will render the aura in a 13 chunk diameter area around it as a simple height map. It will also detect flux in the aura and color the aura purple in effected areas - the darker the purple, the more flux is present.<BR>A comparator can be connected if you want to monitor the aura level of the chunk in which it is placed.
+#
+research.LEVITATOR.title=Arcane Levitator
+research.LEVITATOR.stage.1=I have always been fascinated by the power of flight. I am sure flying is almost within my grasp, but first I need to learn the fundamentals.<BR>I need to study simple levitation first. 
+research.LEVITATOR.stage.2=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 8 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>While levitating something it consumes 1 aer vis per second from the aura.<BR>The levitator can be placed in any orientation, and when placed horizontally will push creatures along while keeping them aloft.<BR>A toggle on the back of the device allows you to alter the range at which it operates, but also changes the amount of vis it uses.
+#
+research.ELEMENTALTOOLS.title=Elemental Tools
+research.ELEMENTALTOOLS.stage.1=With the discovery of infusion, I should experiment with binding primal elements into tools and weapons. If I am correct this will grant them unique and powerful properties.<BR>For my initial experiments I should stick to working with thaumium tools - they will be easy to infuse and will be a good base for future experiments.
+research.ELEMENTALTOOLS.stage.2=I have drawn up the required rites to infuse the thaumium tools I have created. If my calculations are correct they will have some unique and interesting abilities.<PAGE>§oAxe of the Stream§r<DIV>By combining water shards and a thaumium axe, I have designed a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block.<BR>Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.<PAGE>§oPickaxe of the Core§r<DIV>By infusing a thaumium pickaxe with fire shards, I have designed a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be used to sound out any surface you right click against to find out what valuable ores, lava or water can be found nearby.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal pickaxe.<PAGE>§oSword of the Zephyr§r<DIV>I have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near your main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.<PAGE>§oShovel of the Earthmover§r<DIV>Combining earth shards with a thaumium shovel I have designed a peerless digging implement.<BR>When used to dig earth, sand and similar materials it will dig a 3x3 area.<BR>If you right click on the side of a block, it will attempt to place a 3x3 section of the same material in the world as long as you have sufficient blocks in your inventory.<BR>The orientation of both the digging and construction depends on the face you dug or clicked.<BR>If shift is pressed you can see where blocks will be placed in the world and you can change the orientation of how blocks are placed by pressing 'G' on the keyboard. Blocks can be placed either parallel to the block face selected, or extending out of the face vertically or horizontally.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal shovel.<PAGE>§oHoe of Growth§r<DIV>By merging the magical energy from order and entropy shards with a thaumium hoe, I have created a farming implement with few equals.<BR>When used to till fields, it will till a 3x3 area instead of just a single block.<BR>When used to crops or other plants it will act as bonemeal to promote its growth, though at a higher cost to its durability. It might even be able to grow plants that normal bonemeal can't.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal hoe.
+#
+research.INFUSIONENCHANTMENT.title=Infusion Enchantment
+research.INFUSIONENCHANTMENT.stage.1=The elemental tools have proven quite useful, but the method I use to enchant them is inflexible. I must discover a way to apply many of the same abilities to nearly any tool or weapon, not just thaumium tools.<BR>A good place to start would be to study normal enchantment and see how I can apply some of those primitive principles to the infusion process.
+research.INFUSIONENCHANTMENT.stage.2=I have cracked the problem and should now be able to add infusion enchantments to most tools or weapons. Some enchantments can be applied multiple times to the same item, but each rank has an increased essentia cost when crafted.<BR>Each different infusion enchantment on the item also increases the cost by 33% and has an increased chance of giving it the Warping property.<BR>Certain infusion enchantments can only be applied to specific tools or weapons. This will be listed under each individual entry that follows.<BR>Tools with infusion enchantments can still be enchanted with the normal enchanting table and visa versa.<BR>Like with the elemental tools, sneaking while using an infusion enchanted tool will suppress its abilities.<PAGE>§oCollector§r<DIV>Whenever this tool harvests an item it will automatically float towards you.<DIV>§oRanks§r: none<BR>§oTarget§r: axe, pickaxe, shovel, weapon<PAGE>§oBurrowing§r<DIV>When you try to harvest a tree or ore the furthest block will be harvested, instead of the one you are trying to break.<DIV>§oRanks§r: none<BR>§oTarget§r: axe, pickaxe<PAGE>§oRefining§r<DIV>Whenever you harvest ore there is a chance of gaining a native cluster instead. Increasing the rank of the enchant will improve the chance.<DIV>§oRanks§r: 1-4<BR>§oTarget§r: pickaxe<PAGE>§oSounding§r<DIV>You can right click on a block with this tool to send out a sounding pulse. This pulse will reveal any ores hidden nearby. Using this ability will cause some damage to the tool.<DIV>§oRanks§r: 1-4<BR>§oTarget§r: pickaxe<PAGE>§oDestructive§r<DIV>When you harvest a block the 8 blocks surrounding (3x3 area) it will also be harvested if they are normally harvestable by the tool. Each additional block harvested causes durability loss as if you had harvested them by hand.<DIV>§oRanks: none<BR>§oTarget§r: axe, pickaxe, shovel<PAGE>§oArcing§r<DIV>When you strike an enemy with a weapon enchanted with this, an arc of biting wind will hit an additional target nearby for half your weapons damage. Additional ranks will increase the number of additional targets and the range.<DIV>§oRanks§r: 1-4<BR>§oTarget§r: weapon<PAGE>§oEssence Harvester§r<DIV>When you you kill a creature with a weapon enchanted with this it has a chance of dropping some of its essence in crystal form. Increasing the rank of this enchantment increases the chance of crystals dropping and may also increase the number dropped.<DIV>§oRanks§r: 1-5<BR>§oTarget§r: weapon
+#
+research.INFERNALFURNACE.title=Infernal Furnace
+research.INFERNALFURNACE.stage.1=I have found that a large part of my day tends to be taken up with smelting things in a furnace. Surely there is a way I can make this less of a chore?<BR>Time to go somewhere hot for inspiration. Somewhere really hot. 
+research.INFERNALFURNACE.stage.2=I took a trip to the nether and was inspired by what I found there. By harnessing raw §cIgnis§0 within a furnace crafted from obsidian, netherbrick and a pinch of Salis Mundus I will be able to make a highly efficient and fuel free furnace. So efficient in fact, that occasionally it will produce bonus materials in the form of nuggets or other items.<BR>While this is essentially free, it is also very slow unless the furnace gets a steady supply of vis from the aura.<LINE>Anything dropped into the top of the furnace will be smelted down and spit out the front - if the object is not normally smeltable it will be destroyed.<BR>I can place a chest or other container directly in front of the furnace to have it eject items into it.
+research.INFERNALFURNACE.bellows=Attaching an arcane bellows to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
+#
+research.INFUSION.title=Infusion
+research.INFUSION.stage.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>You believe that it should be possible to infuse objects with essentia directly. You could, for example, infuse a stone with §6Aer§0 vis and a feather and it would result in a very light stone.<BR>At least, that is my theory.
+research.INFUSION.stage.2=Unsurprisingly, infusion crafting is proving to be a lot more complex than I expected. Simply trying to infuse aspects into something does not work. I will need a relatively complex system to stabilize the entire process. I have drawn up plans for a Runic Matrix that will allow me to do this. 
+research.INFUSION.stage.3=To even get started with infusion crafting there are several things I will need: The Runic Matrix (which I now have), arcane pedestals and a ready supply of magic in the form of essentia.<BR>Once you have your Runic Matrix properly placed into a structure commonly known as an Infusion Altar, you can begin to craft. The altar is crafted with the use of Salis Mundus like most other mystical structures. Once the pillars have formed the runic matrix can be activated using a casting tool.<BR>The central pedestal located under the matrix is where the item you wish to infuse will go. You will also need several more pedestals placed around the altar where you can place the blocks and items you wish to infuse into the target object. Lastly you will need warded jars or similar essentia containers holding the requisite amount of vis.<BR>Once all this is gathered you can click on the Runic Matrix with a casting tool to start the crafting process.<BR>During the first stage of crafting essentia will be drained from nearby sources. Crafting will stall if there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
+#
+research.INFUSIONBOOST.title=Infusion Boosting
+research.INFUSIONBOOST.stage.1=There should be a way to improve the function of the Infusion Altar. I should investigate this.
+research.INFUSIONBOOST.stage.2=I have found a way to improve infusion altars through the use of special blocks placed under one or more of the four altar pillars.<BR>The §5Infusion Speed Stone§0 will increase the speed at which the altar operates, but at a slight increase to costs.<BR>The §5Infusion Cost Stone§0 will decrease infusion costs, but at a slight reduction to operating speed.<BR>These stones must be placed directly under an altar pillar, but they need not be balanced for instability purposes.
+#
+research.INFUSIONANCIENT.title=Infusion: Ancient Stone
+research.INFUSIONANCIENT.stage.1=The strange, ancient stone I have found has some interesting mystical properties. I think it might be useful in the infusion process.
+research.INFUSIONANCIENT.stage.2=I believe that when this ancient stone is used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>I you find pedestals crafted from the same material as each one will also help reduce essentia costs.
+#
+research.INFUSIONELDRITCH.title=Infusion: Eldritch Stone
+research.INFUSIONELDRITCH.stage.1=The dark, eldritch stone I have discovered has some strange properties. I think it might be useful in the infusion process.
+research.INFUSIONELDRITCH.stage.2=I believe that when this eldritch stone is used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Pedestals made from the same material it should have the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability.
+#
+research.RUNICSHIELDING.title=Runic Shielding
+research.RUNICSHIELDING.stage.1=It has proven simple enough to enchant objects with offensive and utilitarian abilities, but some defensive abilities would be useful as well. I should investigate this.
+research.RUNICSHIELDING.stage.2=My research into protective magics have led me to discover Runic Shielding. This is not armor in the traditional sense, but a way of enchanting most baubles and armor to create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal. The pool replenishes over time and requires vis to replenish its charge which it draws from the aura.<BR>An object can be enchanted multiple times to increase the amount of protection it offers, though it becomes more expensive each time.<BR>The armor offers no protection from damage suffered due to certain environmental hazards.
+#
 ##########################################
 # THAUMATURGY
 ##########################################
@@ -1249,7 +1327,6 @@ research.BASETHAUMATURGY.stage.1=I have the casting glove, but now I need to cra
 research.BASETHAUMATURGY.stage.2=Using Alchemy to create the focus was indeed the path to success. The focus is stable and clear - now I simply need to imprint the proper patterns into it. For this I will need a Focal Manipulator<BR>I have already drawn up plans for a Focal Manipulator. The way it functions is similar to an arcane workbench in many ways, but instead of using vis to craft items it instead imprints patterns into the focus crystal.<BR>I must also design the patterns that I will need to imprint. I have and idea for a pattern to create flame, but I need to do some more research.
 research.BASETHAUMATURGY.stage.3=I have everything I need. All I need to do is craft my first focus.<BR>By arranging specially prepared vis crystals around the blank focus I can set up patterns that will determine what function the focus will perform. For now I only know the patterns for 'Fire' and 'Touch'.<BR>'Fire' is what I am calling an Effect pattern and it determines what element or magical effect will be called upon. I should be able to combine multiple effects together, though each effect increases the overall cost of casting the spell.<BR>'Touch' is a Medium pattern and it determines how the effect will be delivered to a target. You can only have one medium per spell and it has to be placed at the centre of the overall pattern. Mediums can alter the cost and effectiveness of effects they are linked to. 'Touch', for example, makes effects cheaper to cast and slightly more potent.<BR>There is a third type of pattern that will be able to modify the effect of other patterns, by either altering their cost and potency, or by altering the way they function. As yet I do not know any of these, but I should eventually be able to replicate the discounting and boosting effect that 'Touch' seems to have.<BR>Placed patterns need to connect to at least one neighbouring pattern to be effective, but they can also be arranged in such a way that one pattern influences more than one neighbour. It is not possible to use a pattern more than once when creating a focus.<BR>The vis crystals that form the pattern will be consumed when I start the process and I also need to provide some of my own vital energy in the form of experience. Lastly the entire process takes some time as it draws vis from the aura to inscribe the pattern into the focus.
 research.f_onfire.text=Examine fire very closely.
-got.onfire=You have felt the touch of flame.
 #
 research.FOCUSBASICMODS.title=Basic Focus Modifications
 research.FOCUSBASICMODS.stage.1=I should be able to replicate the effects of the 'Touch' pattern to enable me to alter the cost and effectiveness of other patterns.<BR>I will first attempt to make linked patterns cheaper without making them any less effective.
@@ -1286,6 +1363,14 @@ research.FOCUSCHARGE.title=Focus Effect: Charge
 research.FOCUSCHARGE.stage.1=I Learned much about modifying focus patterns to increase or decrease their potency.<BR>I think I might be able to tweak a patterns cost and potency on the fly by modulating the amount of vis I channel through it.
 research.FOCUSCHARGE.stage.2=I have been proven right yet again! The Charge pattern allows me to delay the casting of focus effects - while doing so more and more vis will be drawn into focus and when I eventually release the energy it will be a lot more powerful.<BR>Initially however the pattern is a lot weaker - about half as powerful as it would normally by, but as long as I delay releasing the spell I should be able to charge it up to almost double its normal strength.<BR>Vis costs will be modified in the same way.
 #
+research.RECHARGEPEDESTAL.title=Recharge Pedestal
+research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function, but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
+research.RECHARGEPEDESTAL.stage.2=This specially crafted pedestal can recharge vis storing items. Any rechargeable item placed in it will automatically draw vis from the aura to fill itself. Simply click on the pedestal with the item you wish to recharge. Use the pedestal again to retrieve the item.
+#
+research.VISAMULET.title=Vis Amulet
+research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items. 
+research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura, allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
+#
 research.WORKBENCHCHARGER.title=Arcane Workbench Charger
 research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far, I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis, the more vis will be available for crafting.
 research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench. This framework allows the workbench to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
@@ -1293,16 +1378,39 @@ research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be plac
 research.FOCUSCURSE.title=Focus Effect: Curse
 research.FOCUSCURSE.stage.1=The pech wand I discovered is strange and unusable, but its workings bear some striking similarities to thaumaturgical foci.<BR>I should be able to reverse engineer it.
 research.FOCUSCURSE.stage.2=As I suspected the pech wand is thaumaturgical in nature. Unfortunately this discovery leaves me with more questions than answers.<BR>At least I was able to decipher the wands magic into a usable focus pattern. The Curse pattern magically cripples and poisons anything it hits. It even curses the target with a streak of bad luck. Quite nasty and probably devastating if combined with other effects. 
-not.pechwand=You cannot fathom the workings of this yet.
-got.pechwand=Hmmm, curious. I should investigate this further.
 #
 ##########################################
 # GOLEMANCY
 ##########################################
 #
+research.BELLOWS.title=Arcane Bellows
+research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
+research.BELLOWS.stage.2=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>As I had hoped they can be attached to furnances to increase their smelting speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>I am confident more uses will reveal themselves eventually. 
+#
+research.HUNGRYCHEST.title=Hungry Chest
+research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
+research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories. 
 #
 ##########################################
 # ELDRITCH
 ##########################################
 #
 #
+##########################################
+# MISC
+##########################################
+not.pechwand=You cannot fathom the workings of this yet.
+got.pechwand=Hmmm, curious. I should investigate this further.
+got.onfire=You have felt the touch of flame.
+research.m_deepdown.text=Visit the lowest depths of the world.
+research.m_uphigh.text=Visit the highest peaks you can find.
+research.m_finddesert.text=Visit dry and barren wastes.
+research.m_findocean.text=Visit the endless, blue seas.
+got.deepdown=You have visited deep and dark depths and have learned much.
+got.uphigh=The world is spread out before you. Your perspective has been broadened.
+got.finddesert=You have visited the scorching desert.
+got.findocean=You have into the endless blue abyss.
+got.hellandback=You have visited the Nether.
+got.endoftheworld=You have visited the End.
+research.m_hellandback.text=Visit a hellish place.
+research.m_endoftheworld.text=Find the end of everything.
