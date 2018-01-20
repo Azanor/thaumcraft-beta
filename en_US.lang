@@ -701,7 +701,7 @@ focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's 
 focus.upgrade.extend.name=Extend
 focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be affected is displayed and you can change the size using the misc toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
 #
 # Specific Focus Upgrades
 ##############################
