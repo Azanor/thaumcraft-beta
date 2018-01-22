@@ -17,7 +17,7 @@ item.curio.text=What knowledge does this hold?
 item.loot_bag.common.name=평범한 보물
 item.loot_bag.uncommon.name=희귀한 보물
 item.loot_bag.rare.name=범상찮은 보물
-tc.lootbag=교환을 위해 보관 또는 보상 휙득
+tc.lootbag=교환을 위해 보관 또는 보상 획득
 item.primordial_pearl.mote.name=태초의 Mote
 item.primordial_pearl.nodule.name=태초의 Nodule
 item.primordial_pearl.pearl.name=태초의 진주
@@ -215,7 +215,7 @@ item.seal.provider.name=행동의 인장: 제공
 #
 # World
 #
-tile.ore_amber.name=호박을 함유한 돌
+tile.ore_amber.name=호박이 박힌 돌
 tile.ore_cinnabar.name=진사 광석
 tile.ore_quartz.name=석영 광석
 tile.crystal_aer.name=공기의 결정
@@ -563,7 +563,7 @@ item.tainted.tendril.name=테인트 촉수
 item.coin.name=금화
 
 item.knowledge_fragment.name=지식의 조각
-item.knowledge_fragment.help=사용해 경험치 휙득
+item.knowledge_fragment.help=사용해 경험치 획득
 item.eldritch_eye.name=이계의 눈
 item.crimson_rites.text.0=이상한 기호들로 가득한 책입니다.
 item.crimson_rites.text.1=열어서 공부해 봅시다.
@@ -1038,10 +1038,10 @@ tc.research.stage=Current stage:
 tc.research.begin=You have not yet begun this research
 tc.research.newpage=Â§aNew page addedÂ§0
 tc.research.newresearch=Â§6Newly discovered researchÂ§0
-tc.research.purchase=%1$s 경험치 레벨을 사용해 해당 연구 휙득
-tc.research.short=휙득에 필요한 %1$s 경험치 레벨이 없습니다
+tc.research.purchase=%1$s 경험치 레벨을 사용해 해당 연구 획득
+tc.research.short=획득에 필요한 %1$s 경험치 레벨이 없습니다
 tc.research.read=눌러서 연구 읽기
-tc.research.add=클릭해 조각을 소모하여 태초의 위상 각 1개씩 휙득
+tc.research.add=클릭해 조각을 소모하여 태초의 위상 각 1개씩 획득
 tc.need.research=Things that need to be discovered
 tc.need.craft=Items that need to be crafted
 tc.need.obtain=Items that will be consumed
@@ -1178,7 +1178,7 @@ research.KNOWLEDGETYPES.stage.1=지식에는 세가지 주요한 타입이 있�
 #
 research.THEORYRESEARCH.title=이론 제작
 research.THEORYRESEARCH.stage.1=사우머터지처럼 어떠한 진보를 이루려면 단순히 주변 세계를 공부하거나 고대의 지식에 의존할 수는 없습니다. 자기 자신의 발견을 만들고 실험을 통해 지식을 확장시킬 필요가 있습니다. 이론을 만드는 것만히 유일한 방법입니다.<BR>필기도구나 종이같은 풍부한 재료를 가지고 연구를 하기 위해 편안한 작업 공간을 만들어야 할 것입니다. 필기도구를 만들어서 테이블 위에 올려놓으세요.
-research.THEORYRESEARCH.stage.2=이제 작업 공간이 생겼으니 연구를 시작할 시간입니다. 이제 마법을 자기 방식대로 조작하는 방법에 대한 이론을 세울 수 있습니다.<BR>우선 책상 위에 종이와 필기도구의 상태가 충분한지 확인한 다음, 연구를 시작하세요.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>페이지 상단에는 얼마나 많은 (전구 아이콘으로 로 표시되는)영감을 이용할 수 있는지 볼 수 있다. 이것을 이용할 경우 종이 뭉치가 왼쪽에 나타납니다. 이것을 선택할 경우 이어나갈 수 있는 두 연구 경로가 나오게 됩니다. 각 경로는 어떤 지식을 제공하며 어떤 연구 분야를 제공하는지 명시할 것입니다.<BR>일부 사항은 아이템을 요구하며, 이러한 아이템은 대부분 소비됩니다.<BR>일반적으론 해금한 연구만 진행할 수 있겠지만, 간혹 완전히 새로운 연구 경로를 발견할 수도 있습니다.<BR>더 많은 연구를 위해 계속 끌어갈 수는 있지만, 모든 선택에는 영감이 어느 정도 필요하다는 것에 주목해야 합니다. 일단 연구를 끝마치면 완성될 것입니다. 마법에 대한 지식을 늘림에 따라 이용할 수 있는 초기 영감의 수는 증가할 것입니다.<BR>연구 분야에서 이룬 성과는 백분율로 나타납니다. 100%는 하나의 완전한 이론을 나타냅니다. 다만 한 범주에서 100% 미만을 얻는 것도 쳐주며, 일단 연구를 완성하면 현재 지식에 추가될 것입니다. 한 범주에서 100% 이상을 얻는 것이 가능합니다. 현재 진행 중인 연구의 최고수준을 달성하면 상당한 보너스를 받게 될 것입니다.<BR><PAGE>Â§n연구 보조기구Â§r<BR>보통 연구는 산만합니다. 연구 보조 도구를 사용하여 연구를 지도할 수 있습니다. 만약 연구 중에 특정한 근처 블럭, 아이템, 골동품 등을 사용한다면 그것을 특정한 방향으로 연구에 집중할 수 있게 해줍니다.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>예를 들어 책장에 접근할 수 있으면 연구 중에 사용이 가능한 참고 자료를 얻게 될 것입니다. 이것들은 평소보다 확률이 더 높고 제한적인 특별한 형태로 나오며, 구별을 위해 도금 테두리를 가지게 될 것입니다. 예를 들어 책장은 Balance 연구 옵션과 이 책장을 사용할 때만 얻을 수 있는 2기회의 표기법 연구 옵션을 줍니다.<BR>초기 연구를 시작할 때 어떤 연구 보조 도구를 사용할 지 선택할 수는 있지만, 이 도움은 초기 영감을 하나씩 줄여 준다는 점에 유의해야 합니다.<BR>연구 보조 자료로 사용될 수 있는 잠재적으로 많은 것들이 있으니, 실험을 해야 합니다.
+research.THEORYRESEARCH.stage.2=이제 작업 공간이 생겼으니 연구를 시작할 시간입니다. 이제 마법을 자기 방식대로 조작하는 방법에 대한 이론을 세울 수 있습니다.<BR>우선 책상 위에 종이와 필기도구의 상태가 충분한지 확인한 다음, 연구를 시작하세요.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>페이지 상단에는 얼마나 많은 (전구 아이콘으로 로 표시되는)영감을 이용할 수 있는지 볼 수 있습니다. 이것을 이용할 경우 종이 뭉치가 왼쪽에 나타납니다. 이것을 선택할 경우 이어나갈 수 있는 두 연구 경로가 나오게 됩니다. 각 경로는 어떤 지식을 제공하며 어떤 연구 분야를 제공하는지 명시할 것입니다.<BR>일부 사항은 아이템을 요구하며, 이러한 아이템은 대부분 소비됩니다.<BR>일반적으론 해금한 연구만 진행할 수 있겠지만, 간혹 완전히 새로운 연구 경로를 발견할 수도 있습니다.<BR>더 많은 연구를 위해 계속 써나갈 수는 있지만, 모든 선택에는 영감이 어느 정도 필요하다는 것에 주목해야 합니다. 일단 연구를 끝마치면 완성될 것입니다. 마법에 대한 지식을 늘림에 따라 이용할 수 있는 초기 영감의 수는 증가할 것입니다.<BR>연구 분야에서 이룬 성과는 백분율로 나타납니다. 100%는 하나의 완전한 이론을 나타냅니다. 다만 한 범주에서 100% 미만을 얻는 것도 쳐주며, 일단 연구를 완성하면 현재 지식에 추가될 것입니다. 한 범주에서 100% 이상을 얻는 것이 가능합니다. 현재 진행 중인 연구의 최고수준을 달성하면 상당한 보너스를 받게 될 것입니다.<BR><PAGE>Â§n연구 보조기구Â§r<BR>보통 연구는 산만합니다. 연구 보조 도구를 사용하여 연구를 지도할 수 있습니다. 만약 연구 중에 특정한 근처 블럭, 아이템, 골동품 등을 사용한다면 그것을 특정한 방향으로 연구에 집중할 수 있게 해줍니다.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>예를 들어 책장에 접근할 수 있으면 연구 중에 사용이 가능한 참고 자료를 얻게 될 것입니다. 이것들은 평소보다 확률이 더 높고 제한적인 특별한 형태로 나오며, 구별을 위해 도금 테두리를 가지게 될 것입니다. 예를 들어 책장은 Balance 연구 옵션과 이 책장을 사용할 때만 얻을 수 있는 2기회의 표기법 연구 옵션을 줍니다.<BR>초기 연구를 시작할 때 어떤 연구 보조 도구를 사용할 지 선택할 수는 있지만, 이 도움은 초기 영감을 하나씩 줄여 준다는 점에 유의해야 합니다.<BR>연구 보조 자료로 사용될 수 있는 잠재적으로 많은 것들이 있으니, 실험을 해야 합니다.
 #
 research.UNLOCKAUROMANCY.title=Discovering Auromancy
 research.UNLOCKAUROMANCY.stage.1=Crafting objects of power with Vis has opened a whole now world for me, yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
