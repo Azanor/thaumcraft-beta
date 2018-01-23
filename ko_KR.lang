@@ -25,7 +25,7 @@ item.pech_wand.name=펙의 완드
 #
 # Resources
 #
-item.amber.name=Amber
+item.amber.name=호박
 item.quicksilver.name=수은
 item.crystal_essence.name=결정화 비스
 item.ingot.thaumium.name=사우뮴 주괴
@@ -171,7 +171,7 @@ item.verdant_charm.sustain.text=지지자
 item.voidseer_charm.name=Voidseer's Pearl
 item.voidseer_charm.text=You peer into the inky blackness... you could swear you saw something staring back...
 item.curiosity_band.name=호기심의 머리띠
-item.nimbus_ring.name=Nimbus Ring
+item.nimbus_ring.name=불화의 반지
 #
 # Casters & Foci
 #
@@ -1036,16 +1036,16 @@ tc.search=검색
 tc.search.more=...결과가 너무 많습니다! 내용을 수정해주세요.
 tc.research.stage=Current stage:
 tc.research.begin=You have not yet begun this research
-tc.research.newpage=Â§aNew page addedÂ§0
-tc.research.newresearch=Â§6Newly discovered researchÂ§0
+tc.research.newpage=Â§a새 페이지 추가됨Â§0
+tc.research.newresearch=Â§6새로 발견된 연구Â§0
 tc.research.purchase=%1$s 경험치 레벨을 사용해 해당 연구 획득
 tc.research.short=획득에 필요한 %1$s 경험치 레벨이 없습니다
 tc.research.read=눌러서 연구 읽기
 tc.research.add=클릭해 조각을 소모하여 태초의 위상 각 1개씩 획득
-tc.need.research=Things that need to be discovered
-tc.need.craft=Items that need to be crafted
-tc.need.obtain=Items that will be consumed
-tc.need.know=Knowledge that must be used
+tc.need.research=발견해야 할 것
+tc.need.craft=제작에 필요한 아이템
+tc.need.obtain=소모될 아이템
+tc.need.know=필요한 지식
 tc.primalcharm.0=무언가 새어나오는 듯 있습니다
 tc.primalcharm.1=무언가 속삭이는 듯 같습니다
 tc.primalcharm.2=격렬하게 진동합니다
@@ -1053,14 +1053,14 @@ tc.primalcharm.3=부드럽게 웅웅거리는 소리가 납니다
 tc.primalcharm.4=잠깐, 방금 7번째 빛깔이 보였는데?
 tc.primalcharm.trigger=태초의 부적에서 이상한 에너지가 느껴집니다. 에너지는 얼마 못가 사라졌지만, 그 강렬한 인상은 쉽게 잊을 수 없을 듯 합니다...
 tc.break.fly=무언가가 당신의 비행 능력을 방해하고 있습니다.
-tc.boss.enrage=is enraged by your powerful blows.
+tc.boss.enrage=이(가) 강력한 공격에 격노하고 있다!
 tc.levitator=높이 %s블럭으로 설정 (%d 비스/뷴)
 tc.dioptra.1=%s 오라의 양을 봅니다. 
 tc.dioptra.2=가장 높은 오라를 봅니다.
 tc.dioptra.3=오라의 비율을 봅니다.
 tc.notowned=This does not belong to you.
-tc.fluxevent.1=The nearby aura suddenly twists and warps, leaving your thoughts in a shambles.
-tc.fluxevent.2=The local aura momentarily becomes unstable, hampering your magical ability.
+tc.fluxevent.1=근처의 오라가 갑자기 뒤틀리며 당신의 생각을 망쳐놓는다.
+tc.fluxevent.2=이 지역의 오라가 순간적으로 불안해지며 마법적인 능력을 방해한다.
 tc.stage.complete=Complete
 tc.stage.hold=Completing...
 tc.warp.warn= 워프 레벨: %n
@@ -1108,8 +1108,8 @@ tc.aspect.praecantatio=마법, 주문, 마법부여
 tc.aspect.alkimia=연금술, 화학
 #  
 # Research categories
-tc.research_category.BASICS=Fundamentals
-tc.research_category.AUROMANCY=Auromancy
+tc.research_category.BASICS=기본 정보
+tc.research_category.AUROMANCY=마도학
 tc.research_category.ALCHEMY=연금술
 tc.research_category.ARTIFICE=마공학
 tc.research_category.INFUSION=아케인 인퓨전
@@ -1157,7 +1157,7 @@ research.EldritchGuardian.stage.1=이 유령같은 인물은 위험천만한 위
 research.EldritchCrab.stage.1=엘드리치 게 또는 헬멧 게는 가장 특이하고 비자연스러운 생물입니다. 나는 이 생물이 마법 땜장이의 결과물이라고 확신합니다.<BR>한 쌍의 강력한 집게발은 전투에 직면하기 어렵게 만드는데, 이게 바로 끔찍하고도 잔인한 집게발의 사용법입니다. 우선 그들은 목표물을 참수시키기 위해 머리 위로 도약합니다. 성공한다면 그들은 어떻게든 희생자를 파헤치고 남은 몸뚱아리를 조종할 수 있습니다. 그들의 배는 조종 중인 것의 본질을 위장할 수 있도록 헬멧을 쓴 머리처럼 보입니다.<BR>이 허스크는 정상적인 좀비보단 크게 강하지 않기 때문에, 어째서 그들이 이 행동을 하는진 알 수 없습니다 - 그들은 '탑승'하지 않을 때가 훨씬 위협적입니다. 어떤 공포스러운 발명가에 의해 태러의 무기로 만들어진 존재라도 되는 걸까요?
 #
 research.CrimsonCultist.title=크림슨 컬트
-research.CrimsonCultist.stage.1=이 붉은 옷을 입은 숭배자들은 꽤 늦게 나타난 존재입니다. 그들의 목표는 나에게 알려지지 않았기에 말하는 것을 꺼려합니다. 그들은 어떻게든간에 뭔가 잘못된 것처럼 보입니다. 그들은 제정신인 것처럼 보이지만, 그릇된 무언가는 그것보다 훨씬 깊습니다. 설명하기가 어렵군요.<BR>나의 존재는 그들을 격노케하는 것처럼 보이며, 그것은 사우머터지에 대한 나의 능력과 관련이 있어보입니다.<BR>그들의 성직자는 마법을 부리는 힘이 있으며 오라에서 그 힘을 이끌어낸다는 것을 느낄 수 있지만, 마법 자체는 사우머터지로 보이지 않습니다. 그것이 무엇이든간에, 그것이 내 피부를 타고 흐르며 매번 오라가 뒤틀리고 찢어지는 것을 느낍니다.<BR>그들 중 일부는 책을 가지고 다니는 것으로 보입니다. 그 중 하나를 손에 넣게 된다면, 어쩌면 이 이상한 단체에 대한 지식을 알 수 있을 겁니다. 어떤 지식은 위험할 수 있기에, 조심해야 합니다.
+research.CrimsonCultist.stage.1=이 붉은 옷을 입은 숭배자들은 꽤 늦게 나타난 존재입니다. 그들의 목표는 나에게 알려지지 않았기에 말하는 것을 꺼려합니다. 그들은 어떻게든간에 뭔가 잘못된 것처럼 보입니다. 그들은 제정신인 것처럼 보이지만, 그릇된 무언가는 그것보다 훨씬 깊습니다. 설명하기가 어렵군요.<BR>나의 존재는 그들을 격노케하는 것처럼 보이며, 그것은 마도학에 대한 나의 능력과 관련이 있어보입니다.<BR>그들의 성직자는 마법을 부리는 힘이 있으며 오라에서 그 힘을 이끌어낸다는 것을 느낄 수 있지만, 마법 자체는 일반적인 마도학으로 보이지 않습니다. 그것이 무엇이든간에, 그것이 내 피부를 타고 흐르며 매번 오라가 뒤틀리고 찢어지는 것을 느낍니다.<BR>그들 중 일부는 책을 가지고 다니는 것으로 보입니다. 그 중 하나를 손에 넣게 된다면, 어쩌면 이 이상한 단체에 대한 지식을 알 수 있을 겁니다. 어떤 지식은 위험할 수 있기에, 조심해야 합니다.
 research.CrimsonCultist.stage.2=이 책의 대부분은 알 수 없는 기호들과 문자로 가득하지만, 크림슨 컬트의 목표에 대한 어떤 이상한 통찰력을 제공합니다.<BR>그들의 기원은 베일에 쌓여있지만, 그들의 목표는 아퍼리스 오큘리스 - 눈을 여는 의식인 것 같습니다. 무슨 의식인지는 불분명하지만, 그것이 과연 좋은 일인지엔 의심이 갑니다.<BR>흥미롭게도, 당신은 저주 마법의 누락된 조각을 이들에게서 찾을 수 있을지도 모릅니다. 하지만 그걸 시도하는 사람은 아마 미치광이밖에 없을겁니다.
 #
 research.TaintCrawler.stage.1=이 역겨운 땅벌레들은 어디로 가든간에 테인트를 퍼뜨려 오염시킵니다. 테인트가 테인트 성장의 핵심에서 너무 멀리 떨어지게 되면 수명이 짧지만, 다르게 보자면 테인트가 평상시보다 훨씬 빨리 퍼질 수도 있습니다.<BR>이것들은 보이자마자 제거해버리는 것이 가장 좋습니다.
@@ -1169,7 +1169,7 @@ research.TaintSwarm.stage.1=때로는 보라색 벌통과 같은 성장형태가
 research.TaintSeed.stage.1=때로는 꽉 짜인 덩굴손의 매듭 같은 형태가 형성됩니다. 이 '씨앗'에서 부패한 테인트 기체가 뿜어져 나와 새로운 테인트 성장의 토태가 됩니다.<BR>이 씨앗들은 스스로를 방어할 힘이 있기 때문에, 테인트 지역을 치우기 위해선 위험을 감수해야 합니다.<BR>이 씨앗이 만드는 테인트 기체가 없으면 테인트의 성장은 곧 사라지고 말라죽어갑니다.
 #
 research.FIRSTSTEPS.title=첫걸음
-research.FIRSTSTEPS.stage.1=약간의 먼지를 뿌려서 이런 놀라운 책을 만들 수 있다고 누가 생각할 수 있겠습니까? 책은 대부분 공백이지만, 강력하고도 새로운 마법 - 사우머터지를 암시해줍니다.<BR>우선 이 마법의 세계를 연구할 필요가 있습니다. 이를 위해선 책에 사우모미터라고 쓰여있는 이 도구가 필요합니다.<BR>하지만 이걸 만들려면 마법의 에너지를 보내는 꽤 섬세한 작업이 요구되기 때문에 일반적인 작업대는 쓸 수 없습니다. 이것은 작업대에 정화의 소금을 뿌리면 해결할 수 있습니다. 이 책이 나에게 적절한 주문을 가르쳐주므로 간단한 문제일 수밖에 없을 겁니다.<BR>진행을 이어나가기 위해 모든 프로젝트의 첫 페이지에 필요한 항목들을 기록할 것입니다.
+research.FIRSTSTEPS.stage.1=약간의 먼지를 뿌려서 이런 놀라운 책을 만들 수 있다고 누가 생각할 수 있겠습니까? 책은 대부분 공백이지만, 강력하고도 새로운 마법 - 마도학을 암시해줍니다.<BR>우선 이 마법의 세계를 연구할 필요가 있습니다. 이를 위해선 책에 사우모미터라고 쓰여있는 이 도구가 필요합니다.<BR>하지만 이걸 만들려면 마법의 에너지를 보내는 꽤 섬세한 작업이 요구되기 때문에 일반적인 작업대는 쓸 수 없습니다. 이것은 작업대에 정화의 소금을 뿌리면 해결할 수 있습니다. 이 책이 나에게 적절한 주문을 가르쳐주므로 간단한 문제일 수밖에 없을 겁니다.<BR>진행을 이어나가기 위해 모든 프로젝트의 첫 페이지에 필요한 항목들을 기록할 것입니다.
 research.FIRSTSTEPS.stage.2=야호! 이제 아케인 작업대를 사용할 수 있습니다. 평범한 작업대처럼 사용할 수도 있지만, 몇가지 중요한 차이점이 있습니다.<BR>먼저,수많은 아케인 제작들은 최근에 발견했던 비스 결정들을 요구할 것입니다. 이것들은 제작한 아이템에 마법 에너지의 초점을 연결할 것입니다. 이 책에 따르면, 이 마법 에너지를 비스라고 부릅니다.<BR>아마 이 에너지는 주위에 있는 것 같지만, 아직 느끼거나 측정할 수는 없습니다.<BR>이제 사우모미터를 만들어서 이 세계를 연구할 시간입니다. 아직은 조사한 것들을 계속 기록할 필요가 있습니다.<BR>사우모미터 조합법 오른쪽에 북마크를 추가했습니다.
 research.FIRSTSTEPS.stage.3=꽤 이상한 경이가 밝혀지고 있습니다. 사우모미터의 렌즈를 들여다보는 것으로 나에게 세계관과 비스 마법을 가르쳐줍니다.<BR>일반적으로 이 에너지는 흐르는 순수한 바다의 마법과 같지만, 생물과 무생물 모두의 내부에 스며들어 있기도 합니다. 책에 따르면 이렇게 스며든 상태의 비스는 에센시아라고 부릅니다. 비스는 순수하며 형체가 없지만, 에센시아는 본질적으로 더 단단하고 다른 종류와 섞여 더 복잡한 형태를 형성하며 명확하게 정의된 여러 유형으로 분류됩니다.<BR>이 물질들이 이 에센시아를 제공하기로 되어있는 것인지, 혹은 물질의 본질이 그것이 포함하고 있는 에센시아에 달려 있는 것인지는 확신할 수 없습니다. 더 연구할 필요가 있겠군요.<BR>지금껏 발견한 모든 에센시아 종류를 계속 기록하고 있습니다. 왼쪽의 북마크는 현제 알고 있는 지식을 보여줄 것입니다.<BR>이제는 다른 방향으로도 에너지를 집중할 수 있습니다 - 3가지 길이 열려 있습니다. 어느 것을 먼저 할까요?
 #
@@ -1177,21 +1177,21 @@ research.KNOWLEDGETYPES.title=지식의 종류
 research.KNOWLEDGETYPES.stage.1=지식에는 세가지 주요한 타입이 있습니다: 관찰, 이론, 직관입니다. 관찰과 이론은 연금술과 마공학과 같은 주요한 연구 범주로 더 세분화됩니다.<LINE>관찰은 실제로 물체를 스캔함으로써 했던 관찰입니다. 실제 관찰을 통해 이것이 어떻게 작동하는가를 이해할 수 있으며 이러한 내용을 기록함으로써 연구에 필요한 지식 기반을 서서히 구축할 수 있습니다.<LINE>이론은, 간단히 말하자면 관찰이나 이성적인 사고, 실제 실험을 통해서 사물을 이해하는 방법입니다. 많은 사실적인 연구는 더 잘 이해하기 위해 이론을 만들어야 합니다.<LINE>직관은 특정한 연구를 완성하는데 필요한 통찰력과 이해력의 귀한 섬광과 같은 존재입니다.
 #
 research.THEORYRESEARCH.title=이론 제작
-research.THEORYRESEARCH.stage.1=사우머터지처럼 어떠한 진보를 이루려면 단순히 주변 세계를 공부하거나 고대의 지식에 의존할 수는 없습니다. 자기 자신의 발견을 만들고 실험을 통해 지식을 확장시킬 필요가 있습니다. 이론을 만드는 것만히 유일한 방법입니다.<BR>필기도구나 종이같은 풍부한 재료를 가지고 연구를 하기 위해 편안한 작업 공간을 만들어야 할 것입니다. 필기도구를 만들어서 테이블 위에 올려놓으세요.
+research.THEORYRESEARCH.stage.1=어떠한 진보를 이루려면 단순히 주변 세계를 공부하거나 고대의 지식에 의존할 수는 없습니다. 자기 자신의 발견을 만들고 실험을 통해 지식을 확장시킬 필요가 있습니다. 이론을 만드는 것만히 유일한 방법입니다.<BR>필기도구나 종이같은 풍부한 재료를 가지고 연구를 하기 위해 편안한 작업 공간을 만들어야 할 것입니다. 필기도구를 만들어서 테이블 위에 올려놓으세요.
 research.THEORYRESEARCH.stage.2=이제 작업 공간이 생겼으니 연구를 시작할 시간입니다. 이제 마법을 자기 방식대로 조작하는 방법에 대한 이론을 세울 수 있습니다.<BR>우선 책상 위에 종이와 필기도구의 상태가 충분한지 확인한 다음, 연구를 시작하세요.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>페이지 상단에는 얼마나 많은 (전구 아이콘으로 로 표시되는)영감을 이용할 수 있는지 볼 수 있습니다. 이것을 이용할 경우 종이 뭉치가 왼쪽에 나타납니다. 이것을 선택할 경우 이어나갈 수 있는 두 연구 경로가 나오게 됩니다. 각 경로는 어떤 지식을 제공하며 어떤 연구 분야를 제공하는지 명시할 것입니다.<BR>일부 사항은 아이템을 요구하며, 이러한 아이템은 대부분 소비됩니다.<BR>일반적으론 해금한 연구만 진행할 수 있겠지만, 간혹 완전히 새로운 연구 경로를 발견할 수도 있습니다.<BR>더 많은 연구를 위해 계속 써나갈 수는 있지만, 모든 선택에는 영감이 어느 정도 필요하다는 것에 주목해야 합니다. 일단 연구를 끝마치면 완성될 것입니다. 마법에 대한 지식을 늘림에 따라 이용할 수 있는 초기 영감의 수는 증가할 것입니다.<BR>연구 분야에서 이룬 성과는 백분율로 나타납니다. 100%는 하나의 완전한 이론을 나타냅니다. 다만 한 범주에서 100% 미만을 얻는 것도 쳐주며, 일단 연구를 완성하면 현재 지식에 추가될 것입니다. 한 범주에서 100% 이상을 얻는 것이 가능합니다. 현재 진행 중인 연구의 최고수준을 달성하면 상당한 보너스를 받게 될 것입니다.<BR><PAGE>Â§n연구 보조기구Â§r<BR>보통 연구는 산만합니다. 연구 보조 도구를 사용하여 연구를 지도할 수 있습니다. 만약 연구 중에 특정한 근처 블럭, 아이템, 골동품 등을 사용한다면 그것을 특정한 방향으로 연구에 집중할 수 있게 해줍니다.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>예를 들어 책장에 접근할 수 있으면 연구 중에 사용이 가능한 참고 자료를 얻게 될 것입니다. 이것들은 평소보다 확률이 더 높고 제한적인 특별한 형태로 나오며, 구별을 위해 도금 테두리를 가지게 될 것입니다. 예를 들어 책장은 Balance 연구 옵션과 이 책장을 사용할 때만 얻을 수 있는 2기회의 표기법 연구 옵션을 줍니다.<BR>초기 연구를 시작할 때 어떤 연구 보조 도구를 사용할 지 선택할 수는 있지만, 이 도움은 초기 영감을 하나씩 줄여 준다는 점에 유의해야 합니다.<BR>연구 보조 자료로 사용될 수 있는 잠재적으로 많은 것들이 있으니, 실험을 해야 합니다.
 #
-research.UNLOCKAUROMANCY.title=Auromancy의 발견
+research.UNLOCKAUROMANCY.title=마도학의 발견
 research.UNLOCKAUROMANCY.stage.1=Crafting objects of power with Vis has opened a whole now world for me, yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
 research.UNLOCKAUROMANCY.stage.2=Slowly but surely I am beginning to understand the nature of Vis. So much is still hidden to me, but I think I now know enough to begin moulding it to my will. For this I will need a tool. A very special tool.<BR>I have stumbled upon some dusty scrolls penned by a long dead thaumaturge. It describes how to craft wands that are used to store and channel vis. The insights I learned from the scrolls were useful, but the application seems so limiting. Why trap vis in a wand when it is all around you? Even the wand itself seems impractical to me. If you need something to grasp and shape the aura it should be something appropriate. Something like a glove.<BR>Any old glove will not do - it will need to be handcrafted from the finest leather and laced with vis conductive materials. Iron is a poor vis conductor, but it is all I have available to me at this time.<BR>Luckily there will be no mucking about with magical woods and so forth to store the vis, but I will need some way of channeling vis directly from the aura - a vis resonator if you will. I will also attach a stripped-down thaumometer to the glove so I can monitor the local aura.<BR>Lastly I will place a receptacle on the back of the glove. The scrolls mentioned using special crystalline foci to channel the vis from the wands. Their crystalline lattice shapes the vis into different configurations to create all manner of useful effects. Brilliant actually. It irks me that I did not think of it first. Fortunately I have already thought of several ways to improve on the design and the shape of the glove lends itself on manipulating the flow of vis much more than the old style wands could.  
 research.UNLOCKAUROMANCY.stage.3=I have managed to put together a basic casting gauntlet and I am quite pleased with the result. It is still a bit rough, but that is to be expected from a prototype. Even as a prototype it will prove useful, allowing me to make delicate adjustments or alteration to thaumaturgical devices and safely manipulate them in all manner of ways.<BR>My initial experiments have shown that it is only able to draw vis from a relatively small area around me. I should be careful not to deplete the aura.<BR>My main stumbling block now is that in its current state it is little more than a magical wrench. Until I crack the secret of crafting foci its utility will be limited. The path before me is clear...
-research.m_deepdown.text=Visit the lowest depths of the world.
-research.m_uphigh.text=Visit the highest peaks you can find.
-research.m_finddesert.text=Visit dry and barren wastes.
-research.m_findocean.text=Visit the endless, blue seas.
-got.deepdown=You have visited deep and dark depths and have learned much.
-got.uphigh=The world is spread out before you. Your perspective has been broadened.
-got.finddesert=You have visited the scorching desert.
-got.findocean=You have peered into the endless blue abyss.
+research.m_deepdown.text=세계에서 가장 깊은 곳을 찾아라
+research.m_uphigh.text=가능한 높은 곳을 찾아라
+research.m_finddesert.text=건조하고 메마른 황야를 찾아라
+research.m_findocean.text=끝없이 푸른 바다를 찾아라
+got.deepdown=깊고 어두운 곳을 방문하여 많은 것을 배웠다.
+got.uphigh=눈앞에 세상이 펼쳐져 있다. 관점이 확장되는 것 같다.
+got.finddesert=이글거리는 사막에 당도했다.
+got.findocean=끝이 없는 푸른 심연 속으로 스며들어 왔다.
 #
 research.UNLOCKARTIFICE.title=마공학 & 인퓨전의 발견
 research.UNLOCKARTIFICE.stage.1=I have learned much and one of those things is how much more I still have to learn. The worlds revealed to me are arcane and mysterious with many invisible wonders... and dangers.<BR>I need a tool that will allow me to see the unseen and ease my journey of discovery. The old texts I have read make mention of a set of goggles commonly used by thaumaturges for just this purpose.<BR>Alas the text does not mention exactly how they work, so I will need to design my own from first principles.
@@ -1200,35 +1200,35 @@ research.UNLOCKARTIFICE.stage.2=I have penned my own designs based on the little
 research.UNLOCKALCHEMY.title=연금술의 발견
 research.UNLOCKALCHEMY.stage.1=Brewing simple potions has its uses, but true alchemical interactions require more than mixing a few monster parts together.<BR>I think Essentia holds the key to a much more sophisticated way of manipulating matter.<BR>I should try and learn more about alchemy and how it fits into the magical world.<BR>Armed with that knowledge and a little bit of inspiration I am sure Thaumaturgic Alchemy will be within my grasp.
 research.UNLOCKALCHEMY.stage.2=My recent discoveries have given me a new insight into how the world is put together and I think I might know a way to transform matter by altering its Essentia.<BR>This will require experimentation and something to hold the alchemical substrate. A simple brewing stand will not do - what I need is a mystical crucible.<BR>A cauldron is the right shape and size, but what is effectively a big metal bowl will never be able to hold the magical energies I wish to manipulate.<BR>Once again applying some Salis Mundus to a cauldron should resolve my problems.
-research.UNLOCKALCHEMY.stage.3=I have my crucible! Now I need something to experiment with, and I happen to have the perfect thing. I have spent many a late-night studying 사우머터지 and flickering torchlight is not the best thing to read by. A steady magical light is exactly what I need now.<BR>Glowstone is a steady source of light, but I require large handfuls of it for a light source and it lacks... style. I am sure I can alter it into something better.<BR>The crucible needs to be placed over a source of heat and filled with water. Once the water boils I can start adding the things I need. I have jotted down a recipe that I think will create a substance I have named Nitor. A small core of energized glowstone empowered with energy, fire and light should burn forever. It should be naturally buoyant, allowing it to be placed wherever I choose - even floating in mid-air.<BR>I simply need to find objects with the required essentia (pressing shift whilst hovering over an item might help here) and throw them into the crucible.<BR>The crucible will render them down into their constituent essentia. I might not be able to gather the exact combination of essentia I require, but if there are enough of the types I need everything should be fine.<BR>Once I have enough all I need to do is throw in the catalyst. In this case a handful of glowstone dust.<BR>If all goes well the glowstone will absorb the essentia and transform into nitor.<BR>I am not sure what will happen to the excess essentia, but I can only assume it will eventually dissolve harmlessly.<BR>[Shift-right clicking with an empty hand will empty a crucible. Each crafting operation will consume some of the water so you will have to replenish it now and again.]
+research.UNLOCKALCHEMY.stage.3=I have my crucible! Now I need something to experiment with, and I happen to have the perfect thing. I have spent many a late-night studying 마도학 and flickering torchlight is not the best thing to read by. A steady magical light is exactly what I need now.<BR>Glowstone is a steady source of light, but I require large handfuls of it for a light source and it lacks... style. I am sure I can alter it into something better.<BR>The crucible needs to be placed over a source of heat and filled with water. Once the water boils I can start adding the things I need. I have jotted down a recipe that I think will create a substance I have named Nitor. A small core of energized glowstone empowered with energy, fire and light should burn forever. It should be naturally buoyant, allowing it to be placed wherever I choose - even floating in mid-air.<BR>I simply need to find objects with the required essentia (pressing shift whilst hovering over an item might help here) and throw them into the crucible.<BR>The crucible will render them down into their constituent essentia. I might not be able to gather the exact combination of essentia I require, but if there are enough of the types I need everything should be fine.<BR>Once I have enough all I need to do is throw in the catalyst. In this case a handful of glowstone dust.<BR>If all goes well the glowstone will absorb the essentia and transform into nitor.<BR>I am not sure what will happen to the excess essentia, but I can only assume it will eventually dissolve harmlessly.<BR>[Shift-right clicking with an empty hand will empty a crucible. Each crafting operation will consume some of the water so you will have to replenish it now and again.]
 #
 research.UNLOCKGOLEMANCY.title=골렘학의 발견
 research.UNLOCKGOLEMANCY.stage.1=This book has taught me many things: How to manipulate matter and magic on a fundamental level, how to imbue objects with magical properties and even how to draw magic from the very air around me. Still some things elude me.<BR>There are some very basic, but amazingly magical things almost anyone can do. Just stacking a few blocks together in the right pattern will cause them to transform into semi-sentient animated golems. How is this possible? Why would it even happen. Is the aura somehow responsible for this?<BR>I should study this phenomenon more closely.
 research.UNLOCKGOLEMANCY.stage.2=My findings are confusing to say the least.<BR>The 'natural' golems that can be created are indeed infused with vis, but I do not believe their creation is thaumaturgical in nature. Whatever force animates them seems to come from elsewhere.<BR>Still, my research has at least borne some fruit. I have studied this animating force and I believe I can recreate it using thaumaturgical principles. I should further my studies as soon as possible.
 #
-research.FLUX.warn=Something seems to be building up in the aura. Something bad.
+research.FLUX.warn=기운이 고조되는 것 같습니다. 뭔가 잘못되었습니다.
 research.FLUX.title=플럭스
 research.FLUX.stage.1=I have been monitoring a strange buildup of magical energy in the aura. It seems to be a form of 'dirty' vis that I have named Flux. It shows as an ominous dark bar on my thaumometer.<BR>I now know what those purple puffs are I occasionally see when I am being careless - it is essentia spilling into the atmosphere and becoming Flux. Pure essentia, it seems, should not be directly exposed to the aura.<BR>I'm not exactly sure what negative effects this will cause, but I have noticed that Flux seems to clog the local aura preventing Vis from replenishing naturally.<BR>Picture it as a thick layer of scum on a natural pool of clean water.<BR>The local aura has a point at which it is 'filled' and Flux seems to count towards this capacity.<BR>More alarmingly, it seems to take precedence over vis and I suspect it can probably exceed this natural limit. I am not sure what will happen when Flux overflows.
 research.FLUX.stage.2=Note to self: Do NOT let the flux build. It is bad.<BR>Very, very bad.<BR>If Flux builds high enough it seem to cause a tear in the very fabric of magic itself. The flux escapes through this tear, but usually raw, chaotic magic spills through into our world causing all manner of calamity.<BR>I should be a lot more careful of causing flux in the future. In fact, i should start looking into ways to neutralise Flux.
-research.toomuchflux.text=Let the the Flux build
+research.toomuchflux.text=플럭스가 쌓여? 내버려 둬...
 #
-research.WARP.warn=My mind reels from the knowledge I have gained
+research.WARP.warn=나의 마음이 내가 얻은 지식으로 동요한다.
 research.WARP.title=워프
 research.WARP.stage.1=Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even my keel is at the moment.
 #
-research.ORE.title=Ores
+research.ORE.title=광물
 research.ORE.stage.1=There are many unique ores and minable blocks that are useful to a Thaumaturge. I should make a note of all those I come across.
-research.ORE.amber=Â§oAmber OreÂ§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
-research.ORE.cinnabar=Â§oCinnabarÂ§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
-research.ORE.crystal=Â§oVis CrystalsÂ§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in 사우머터지.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
+research.ORE.amber=Â§o호박Â§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
+research.ORE.cinnabar=Â§o진사Â§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
+research.ORE.crystal=Â§o비스 결정Â§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in 마도학.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
 #
-research.PLANTS.title=Ores
+research.PLANTS.title=식물
 research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=Â§oSilverwoodÂ§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-research.PLANTS.greatwood=Â§oGreatwoodÂ§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
-research.PLANTS.cinderpearl=Â§oCinderpearls§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-research.PLANTS.shimmerleaf=Â§oShimmerleafÂ§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
-research.PLANTS.vishroom=Â§oVishroomÂ§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
+research.PLANTS.silverwood=Â§o실버우드Â§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
+research.PLANTS.greatwood=Â§o그레이트우드Â§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
+research.PLANTS.cinderpearl=Â§o신더펄Â§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
+research.PLANTS.shimmerleaf=Â§o시머리프Â§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
+research.PLANTS.vishroom=Â§o비쉬룸Â§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
 #
 research.CRYSTALFARMER.title=결정 농사
 research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow over time, but once I harvest them they seem to lose this ability. I am hoping to discover what exactly is lost and how to reinvigorate the crystals.
@@ -1260,7 +1260,7 @@ research.voidstuff.text=A strange metal
 research.METALPURIFICATION.title=금속 정화
 research.METALPURIFICATION.stage.1=Native clusters are rare concentrations of metals in its purest form. When smelted these clusters produces twice the normal amount of ingots.<BR>If I can find a way of producing native clusters alchemically it would greatly reduce my need to constantly go mining.
 #
-research.HEDGEALCHEMY.title=Hedge Alchemy
+research.HEDGEALCHEMY.title=연금 융합
 research.HEDGEALCHEMY.stage.1=It should be a fairly simple process to apply the alchemical principles I've learned to creating common materials.<BR>It will hardly be a challenge for me, but the practice should do me good.<BR>I realised that I have gathered an alarmingly large stock of rotten flesh for who knows what reason. Maybe it is time I put it to use and render it into tallow. It should be handy for crafting candles if nothing else.<BR>I should also be able to turn it into leather with a little bit of magical elbow grease.
 research.HEDGEALCHEMY.stage.2=Some substances are simple enough that just adding more of the same essentia it contains is enough to create more of that substance. This isn't true for everything, but the phenomenon will probably prove useful.
 research.HEDGEALCHEMY.stage.3=Some things you simply have to craft from scratch - all I need is a base material to add essentia to and with a bit of luck I can manufacture a few relatively common, but annoying to get materials.
@@ -1387,7 +1387,7 @@ research.FORTRESSMASK.title=전투헬멧 가면
 research.FORTRESSMASK.stage.1=I designed the faceplate used by fortress armor to be removable. I might be able to create specially enchanted faceplates that gives the armor additional abilities.
 research.FORTRESSMASK.stage.2=I have drawn up designs for several magical masks that will replace the standard faceplate used by fortress armor.<PAGE>Â§nHelm of RevealingÂ§r<BR>Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with the other masks.<PAGE>Â§nGrinning Devil FaceplateÂ§r<BR>When worn, this mask has an interesting damping effect on those suffering from Warp. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards.<PAGE>Â§nAngry Ghost FaceplateÂ§r<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.<PAGE>Â§nSipping Fiend FaceplateÂ§r<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
 #
-research.NIMBUSRING.title=Nimbus Ring
+research.NIMBUSRING.title=불화의 반지
 research.NIMBUSRING.stage.1=I should get my feet wet by creating a simple bauble. After some thought I decided to create a ring that will reduce falling damage and possibly help my mobility.<BR>It should be fairly simple to draw up plans for something like that.
 research.NIMBUSRING.stage.2=I have made plans for a bauble I am calling the Nimbus Ring. It makes the wearer lighter greatly reducing falling damage. Additionally it can create a momentary puff of air below the wearer when they jump, allowing them to perform a second jump in mid-air. 
 #
@@ -1456,7 +1456,7 @@ research.LAMPFERTILITY.stage.2=Any living creatures bathed in the gentle pink gl
 # AUROMANCY
 ##########################################
 #
-research.BASEAUROMANCY.title=사우머터지의 기본
+research.BASEAUROMANCY.title=마도학의 기본
 research.BASEAUROMANCY.stage.1=I have the casting glove, but now I need to craft the foci. The old scrolls aren't very clear on how to go about this, so I will need to find my own way.<BR>I have played with the idea of assembling a focus from crystals and then using vis to bind them together. My initial experiments have been failures... explosive failures.<BR>I think the answer I seek lies with an alchemical process.<BR>Using an ordo crystal as a core I might be able to leverage its ordered structure to grow a focus around it. While this is happening it should absorb praecantatio and auram essentia.<BR>The result should hopefully be a crystal focus able to absorb and manipulate vis. 
 research.BASEAUROMANCY.stage.2=Using Alchemy to create the focus was indeed the path to success. The focus is stable and clear - now I simply need to imprint the proper patterns into it. For this I will need a Focal Manipulator<BR>I have already drawn up plans for a Focal Manipulator. The way it functions is similar to an arcane workbench in many ways, but instead of using vis to craft items it instead imprints patterns into the focus crystal.<BR>I must also design the patterns that I will need to imprint. I have and idea for a pattern to create flame, but I need to do some more research.
 research.BASEAUROMANCY.stage.3=I have everything I need. All I need to do is craft my first focus.<BR>By arranging specially prepared vis crystals around the blank focus I can set up patterns that will determine what function the focus will perform. For now I only know the patterns for 'Fire' and 'Touch'.<BR>'Fire' is what I am calling an Effect pattern and it determines what element or magical effect will be called upon. I should be able to combine multiple effects together, though each effect increases the overall cost of casting the spell.<BR>'Touch' is a Medium pattern and it determines how the effect will be delivered to a target. You can only have one medium per spell and it has to be placed at the centre of the overall pattern. Mediums can alter the cost and effectiveness of effects they are linked to. 'Touch', for example, makes effects cheaper to cast and slightly more potent.<BR>There is a third type of pattern that will be able to modify the effect of other patterns, by either altering their cost and potency, or by altering the way they function. As yet I do not know any of these, but I should eventually be able to replicate the discounting and boosting effect that 'Touch' seems to have.<BR>Placed patterns need to connect to at least one neighbouring pattern to be effective, but they can also be arranged in such a way that one pattern influences more than one neighbour. It is not possible to use a pattern more than once when creating a focus.<BR>The vis crystals that form the pattern will be consumed when I start the process and I also need to provide some of my own vital energy in the form of experience. Lastly the entire process takes some time as it draws vis from the aura to inscribe the pattern into the focus.
@@ -1558,7 +1558,7 @@ research.MATSTUDVOID.stage.1=Void metal is relatively light, but quite soft whic
 research.f_MATVOID.text=Examine void metal 
 #
 research.MINDCLOCKWORK.title=시계태엽 정신
-research.MINDCLOCKWORK.stage.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If I am going to create intelligent magical servants then I will have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by 사우머터지.<BR>Designing one will be no simple feat however.
+research.MINDCLOCKWORK.stage.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If I am going to create intelligent magical servants then I will have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by 마도학.<BR>Designing one will be no simple feat however.
 research.MINDCLOCKWORK.stage.2=I hava managed to crack artificial intelligence in the form of a magically powerer clockwork mind. It has its limitations and very little autonomy, but it is a start.<BR>Of course, now that you have a mind it is time to put it to use. I should draw up some designs for golems along with a way to craft them.
 research.MINDCLOCKWORK.stage.3=I have designed a special press that will allow me to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem I simply need to access the Golem Press and select the components I wish to craft the golem from. For now the selection is fairly limited, but I am sure I will develop more.<PAGE>Actually designing a golem is fairly straightforward: Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.<PAGE>You can now place the golem wherever you wish, but it will not do much unless you also place down a Â§5Golem Control SealÂ§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it while sneaking.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
 #
@@ -1571,7 +1571,7 @@ research.GOLEMDIRECT.stage.2=I can now right click on a golem with the Â§5Gole
 #
 research.MINDBIOTHAUMIC.title=자연마법 정신
 research.MINDBIOTHAUMIC.stage.1=As predicted the clockwork minds I have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so I turning to something I already know will work - living brains.<BR>By studying them I might be able to unlock the secret behind true intelligence and autonomy. 
-research.MINDBIOTHAUMIC.stage.2=Though hesitant at first, I soon overcame any trepidation I felt and delved into Bio사우머터지 - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and I am now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.<BR>This has also allowed me to create more complex versions of seals I already know.<BR>Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
+research.MINDBIOTHAUMIC.stage.2=Though hesitant at first, I soon overcame any trepidation I felt and delved into Bio마도학 - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and I am now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.<BR>This has also allowed me to create more complex versions of seals I already know.<BR>Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
 #
 research.SEALCOLLECT.title=행동의 인장: 수집 
 research.SEALCOLLECT.stage.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
