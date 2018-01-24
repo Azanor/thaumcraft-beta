@@ -796,8 +796,8 @@ golem.prop.provision=제공 요청
 golem.prop.provision.wl=화이트리스트의 항목 제공 요청
 golem.rank=랭크
 golem.prop.priority=일 우선순위
-golem.prop.color=Set for %s golems
-golem.prop.colorall=All golems
+golem.prop.color=%s 골렘을 위해 설정
+golem.prop.colorall=모든 골렘
 golem.prop.owner=이 인장은 당신 소유입니다
 golem.prop.lock=이 인장의 주인 골렘만이 이 일을 할 수 있습니다
 golem.prop.unlock=모든 골렘이 이 일을 할 수 있습니다
@@ -843,112 +843,112 @@ button.down=스크롤 다운
 #
 # GENERAL
 card.study.name=%1$s 배우기
-card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 10 progress.
+card.study.text=연구의 많은 부분은 단순히 열심히 공부하고 노력하는거죠. %1$s 이론 10포인트를 얻습니다.
 #
-card.reject.name=Reject %1$s findings
-card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
+card.reject.name=%1$s 버리기
+card.reject.text=%1$s는 지금 중요하지 않다는 것을 깨달았습니다. 더 이상 %1$s 이론을 진행하지 않으며 관련 카드도 나오지 않습니다. 진행 상황은 사라지지 않습니다.
 #
-card.experimentation.name=Experimentation
-card.experimentation.text=You perform some random experiments to see if something could be discovered. You gain 10 to 25 progress in a completely random category.
+card.experimentation.name=실험
+card.experimentation.text=어떤 것이 발견되길 바라며 무작위 실험을 합니다. 완전히 무작위 이론 항목에서 10~25포인트를 얻습니다.
 #
-card.analyze.name=Analyze %1$s
-card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
+card.analyze.name=%1$s 분석
+card.analyze.text=%1$s의 관찰 내용을 철저히 분석한 정보를 기반으로 이론을 세울 수 있습니다. %1$s 관찰내용 1개를 잃고 %1$s 이론 25~50포인트를 얻고 %2$s 이론 5포인트를 얻습니다.
 #
-card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration. You may also gain a bonus draw.
+card.rethink.name=다시 생각하기
+card.rethink.text=한걸음 물러서서 진행을 재평가합니다. 잘못된 결론을 버리고 새로운 이해를 준비합니다. 현재 연구의 10~20포인트를 골고루 잃지만, 영감 1개를 얻고 추가 페이지를 얻습니다.
 #
-card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories.
+card.ponder.name=숙고하기
+card.ponder.text=배운 것을에 대해 신중히 생각합니다. 현재 진행중인 연구가 20포인트를 골고루 얻습니다.
 #
-card.notation.name=Notation
-card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
+card.notation.name=메모하기
+card.notation.text=내용을 기록하면서 몇가지 오류를 발견하고 수정할 수 있습니다. %1$s의 모든 진행도를 잃지만, 잃은 진행도의 대부분은 %2$s가 얻습니다.
 #
-card.balance.name=Universal Theory
-card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories.
+card.balance.name=보편적인 이론
+card.balance.text=순간적인 계시가 지금 연구하고 있는 것들의 공통적인 관계를 알려줍니다. 현재 진행중인 모든 것이 균등하게 재분배됩니다.
 #
-card.curio.name=Study Curio
-card.curio.text=While examining a curio often reveals some interesting information it is much better to study it as part of controlled research.
+card.curio.name=호기심 연구
+card.curio.text=호기심을 연구하는 것은 종종 흥미로운 정보를 알아낼 수 있지만 통제된 연구의 일환으로 공부하는 것이 더 낫습니다.
 #
-card.inspired.name=Inspired
-card.inspired.text=Inspired by the progress you have made so far, your mind explores paths you have not considered before. You gain %1$s %2$s.
+card.inspired.name=영감
+card.inspired.text=지금까지 이뤄낸 것에서 영감을 받아, 당신의 생각이 이전에는 생각치도 못한 곳에 당도합니다. %2$s 이론 %1$s포인트를 얻습니다.
 #
-card.enchantment.name=Study Enchantment
-card.enchantment.text=You study normal enchantment to see how it functions at a fundamental level. You are sure that is shares a lot in common with the enchantment methods used in Infusion and Artifice. You lose 5 experience levels, but will gain 10 to 15 progress in both Infusion and Auromancy. 
+card.enchantment.name=마법부여 학습
+card.enchantment.text=레벨이 어떻게 작동하는지 보기 위해 마법부여를 연구합니다. 마법부여는 인퓨전 및 마도학과 상당한 공통점이 있다고 생각합니다. 5레벨을 잃고, 인퓨전과 마도학 이론 15포인트를 얻습니다. 
 #
-card.beacon.name=Aural Influence
-card.beacon.text=You believe that the beacon interacts in some way with the mystical aura. You carefully study this and while you cannot find anything concrete this time you have been inspired. You regain 2 inspiration and gain 1 bonus draw. 
+card.beacon.name=오라 유도
+card.beacon.text=이 신호기는 오라와 어떻게든 상호작용하는 것으로 보입니다. 영감을 받은 구체적인 것도 찾을 수 없는 와중 이것을 천천히 공부합니다. 영감 2개를 얻고 추가 페이지를 얻습니다. 
 #
-card.dragonegg.name=Draconic Studies
-card.dragonegg.text=The aura around the egg swirls with strange and chaotic energies. Occasionally you glimpse strange order in the chaos. 
+card.dragonegg.name=용의 학습
+card.dragonegg.text=알 주변이 이상하고 혼란스러운 기운으로 가득 차 있습니다. 이따금 혼란 사이에서 이상한 질서가 슬쩍 보이곤 합니다.
 #
 # ALCHEMY
-card.concentrate.name=Concentrate
-card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Essentia is already a  pure substance, but there is no harm in trying. Often failing at doing something teaches you as much as succeeding. Attempt to concentrate some %1$s essentia. Gain 10 Alchemy and 1 bonus draw.
+card.concentrate.name=집중
+card.concentrate.text=종종 물질을 가장 순수한 형태로 집중시킴으로써 많은 것을 배울 수 있습니다. 에센시아는 이미 순수한 물질이지만, 시도하는데 나쁠 건 없습니다. 가끔 실패하는 것조차도 성공만큼 많은 것을 가르쳐줍니다. %1$s 에센시아를 집중시켜. 연금술 이론 10포인트를 얻고 추가 페이지를 얻습니다.
 #
-card.reactions.name=Reactions
-card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 20 Alchemy.
+card.reactions.name=반응
+card.reactions.text=두 비스 사이의 반응을 연구하는 것이 유용하다는 것이 입증되어야 합니다. %1$s 에센시아와 %2$s 에센시아 사이의 반응을 연구합니다. 연금술 이론 20포인트를 얻습니다.
 #
-card.synthesis.name=Synthesis
-card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 30 Alchemy.
+card.synthesis.name=통합
+card.synthesis.text=에센시아가 결합할 땐 흥미롭고 복잡한 반응이 일어납니다. %1$s 에센시아와 %2$s 에센시아의 결합을 연구하면 많은 것을 알 수 있습니다. 연금술 이론 30포인트를 얻습니다.
 #
 # INFUSION
-card.measure.name=Measure
-card.measure.text=You take some time to make detailed measurements of various types of essentia and the potential vis they contain. Gain 10 Infusion and 1 bonus draw.
+card.measure.name=측정
+card.measure.text=에센시아의 다양한 유형과 잠재적으로 포함된 비스에 대한 상세한 측정을 합니다. 인퓨전 이론 10포인트를 얻고 추가 페이지를 얻습니다.
 #
-card.channel.name=Channel %1$s Essentia
-card.channel.text=You set up a simple experiment to examine what happens when you channel %1$s during infusion. Gain 15 Infusion.
+card.channel.name=%1$s 에센시아 공급
+card.channel.text=인퓨전 중에 %1$s에 무슨 일이 일어나는지 실험해봅니다. 인퓨전 이론 10포인트를 얻습니다.
 #
-card.infuse.name=Experimental Infusion
-card.infuse.text=By making assumptions on the results of infusing certain objects with essentia and then testing those results valuable insight may be gained. You will learn much by combining %1$s essentia with %2$s and then studying the result. Gain %3$s Infusion.
+card.infuse.name=인퓨전 실험
+card.infuse.text=특정 물체에 에센시아를 주입한 결과에 대한 가정을 하고 실험하는 것은 통찰력에 도움을 줍니다. %1$s 에센시아를 %2$s에 주입합니다. 인퓨전 이론 %3$s포인트를 얻습니다.
 #
 # ARTIFICE
-card.calibrate.name=Calibrate
-card.calibrate.text=You take some time to properly calibrate your instruments and tools. Gain 10 Artifice and a bonus draw.
+card.calibrate.name=보정
+card.calibrate.text=기기와 장비를 적절히 보정해봅니다. 마공학 이론 10포인트를 얻고 추가 페이지를 얻습니다.
 #
-card.mindmatter.name=Mind over Matter
-card.mindmatter.text=You carefully examine and take apart some basic components in the hopes of finding new ways to assemble them into more complex creations. Gain %1$s Artifice. 
+card.mindmatter.name=정신력의 문제
+card.mindmatter.text=간단한 재료들만 가지고 더 복잡한 창조물을 만드는 법을 연구합니다. 마공학 이론 %1$s포인트를 얻습니다.
 #
-card.tinker.name=Tinker
-card.tinker.text=You start tinkering with some devices to find new ways of incorporating them into magical creations. Gain %1$s to %2$s Artifice.
+card.tinker.name=수선
+card.tinker.text=몇 장비들을 마법적인 창조물로 결합시키는 새로운 방법을 찾아봅니다. 마공학 이론 %1$s~%2$s포인트를 얻습니다.
 #
 # AUROMANCY
-card.spellbinding.name=Spellbinding
-card.spellbinding.text=You bind various test enchantments to small pieces of leftover crystal. They have no practical purpose, but grant you invaluable knowledge. Lose up to 5 experience levels, but gain 5 Auromancy per level lost.
+card.spellbinding.name=주문 구속
+card.spellbinding.text=남아있는 결정을 다양한 실험기구에 연결해봅니다. 실용적인 목적은 없지만 귀중한 지식을 줄 수 있습니다. 경험치를 5레벨까지 잃을 수 있지만, 잃은 만큼 마공학 이론 5포인트를 얻습니다.
 #
-card.awareness.name=Awareness
-card.awareness.text=You open yourself to the flows of vis around you. You gain a deeper understanding of how it works and the underlying nature of things, but this leaves you metaphysically vulnerable. Gain 15 Auromancy. There is a chance you gain Eldritch knowledge and Warp. 
+card.awareness.name=인식
+card.awareness.text=주위 비스의 흐름에 몸을 맡깁니다. 이것이 어떻게 작동하는지 그리고 사물의 근본적인 본성에 대해 더 깊이 이해하게 되지만, 이것은 당신을 형이상학적으로 취약하게 만듭니다. 마공학 이혼 15포인트를 얻습니다. 이계의 지식과 일반 워프를 얻을 확률이 있습니다.
 #
-card.focus.name=Spiritual Focus
-card.focus.text=You focus your mind on the magical and spiritual energy around you, hoping to grow more attuned to its ebb and flow. Gain 10 Auromancy and a bonus draw.
+card.focus.name=영적 초점
+card.focus.text=주변의 마법적이고 영적인 에너지에 마음을 집중하며 그것의 흐름에 잘 적응하기를 바랍니다. 마공학 이론 10포인트를 얻고 추가 페이지를 얻습니다.
 #
 # GOLEMANCY
-card.sculpting.name=Sculpting
-card.sculpting.text=By creating simple and short lived animated figurines you can hone your knowledge. Gain 15 Golemancy.
+card.sculpting.name=조각하기
+card.sculpting.text=살아 있는 단순하고 수명이 짧은 골렘을 만들어 봄으로써 지식을 연마할 수 있습니다. 골렘학 이론 15포인트를 얻습니다.
 #
-card.scripting.name=Scripting
-card.scripting.text=A large part of Golemancy is creating intricate arcane texts to control your creations. By creating some test scripts you can further your understanding. Gain 20 Golemancy. This consumes additional paper and ink from the research table. 
+card.scripting.name=입안하기
+card.scripting.text=골렘학의 많은 부분이 창작물들을 통제하기 위해 복잡하고 난해한 텍스트를 만듭니다. 일부 테스트 스크립트를 만들면 이것을 더 잘 이해할 수 있습니다. 골렘학 이론 20포인트를 얻습니다. 추가적인 종이와 잉크를 소모합니다.
 #
-card.synergy.name=Synergy
-card.synergy.text=At its root Golemancy is a blend of alchemy, artifice and infusion. Only by fully understanding how these three disciplines interact with each other will you be able to master Golemancy. Lose 15 points divided evenly between Alchemy, Artifice and Infusion to gain 30 Golemancy.
+card.synergy.name=협력
+card.synergy.text=골렘학의 근본에는 연금술, 마공학, 인퓨전이 포함되어 있습니다. 이 세 분야가 어떻게 상호작용하는지 완전히 이해함으로써 골렘학을 숙달할 수 있을 것입니다. 연금술과 마공학과 인퓨전 이론에서 20포인트를 나눠 잃고, 골렘학 이론 30포인트를 얻습니다.
 #
 # ELDRITCH
-card.darkwhisper.name=Dark Whispers
-card.darkwhisper.text=The brain in a jar has been very talkative lately. It promises you ancient secrets for all your experience. Can you trust it?
+card.darkwhisper.name=어둠의 목소리
+card.darkwhisper.text=최근 병 속에 든 뇌가 말을 많이 합니다. 당신의 모든 경험에 대한 고대의 비밀을 보장해 준다고 합니다. §o믿을 수 있는 거야?§r
 #
-card.glyph.name=Study Glyphs
-card.glyph.text=You study the ancient glyphs. What Eldritch secrets do they hold? You find the ancient language difficult to understand, but now and again some nugget of truth reveals itself to you.
+card.glyph.name=상형문자 학습
+card.glyph.text=고대 상형 문자를 공부합니다. 엘드리치의 비밀이 가진 것이 과연 무엇일까요? 고대의 언어를 이해하기 어렵다는 것을 깨닫게 되지만, 때때로 약간의 진실이 눈앞에 나타납니다...
 #
-card.portal.name=Voices from Beyond
-card.portal.text=Bathed in the light of this strange portal you find strange thoughts invading your mind. Most are incomprehensible, but some fills your mind with strange inspirations.
+card.portal.name=저 너머의 목소리
+card.portal.text=이 이상한 포탈에 비추어 볼 때, 이상한 생각들이 당신의 마음을 침범한다는 것을 발견할 수 있습니다. 대부분은 이해할 수 없지만, 어떤 사람들은 이상한 영감으로 마음이 꽉 차게 됩니다.
 #
-card.revelation.name=Revelation
-card.revelation.text=Studying the Eldritch is a dangerous pursuit, but the knowledge you can uncover is often worth it. You gain 25 Eldritch progress and 5 progress a random category. You will also gain some temporary and normal Warp.
+card.revelation.name=계시
+card.revelation.text=엘드리치를 공부하는 것은 위험한 일이지만, 그곳에서 발견할 수 있는 지식은 종종 그만한 가치가 있습니다. 이계의 지식 이론 25포인트를 얻고, 무작위 항목에서 5포인트를 얻습니다. 일반 워프 및 일시적인 워프를 얻게 됩니다.
 #
-card.realization.name=Sudden Realization
-card.realization.text=While pondering the nature of the Eldritch you come to a sudden and shocking realization on the true nature of the universe. You gain 10 Eldritch progress and 5 progress in two random categories. You will also gain some temporary Warp. There is a chance you may gain some normal Warp as well.
+card.realization.name=급작스런 깨달음
+card.realization.text=엘드리치의 본성에 대해서 생각하는 동안에, 세계의 진정한 본성에 대해 갑작스럽고 충격적인 깨달음을 얻습니다. 이계의 지식 이론 10포인트와 무작위 두 항목에서 5포인트를 얻습니다. 약간의 일시적인 워프를 얻습니다. 일반 워프를 얻을 확률도 있습니다.
 #
-card.truth.name=Find Truth
-card.truth.text=You desperately try and find the truth behind the Eldritch and what it could mean for the world. You gain 5 to 15 Eldritch progress and a bonus draw. You will also gain some temporary Warp.
+card.truth.name=진실의 발견
+card.truth.text=필사적으로 엘드리치 뒤에 숨어 있는 진실과 그것이 세상에 무엇을 의미할 수 있는지를 찾으려고 노력합니다. 이계의 지식 5~15포인트를 얻고 추가 페이지를 얻습니다. 일시적인 워프를 얻을 확률이 있습니다.
 #
 # Other
 ###################
@@ -998,7 +998,7 @@ tc.jarname=단지:
 tc.markedloc=표시된 위치
 tc.addclue=§a새로운 연구에 대한 단서를 발견했습니다!§0
 tc.addaddendum=§a%1$s에 새로운 부록이 추가되었습니다!§0
-tc.addendumtext=<BR>§o부록: %1$s§r
+tc.addendumtext=§o부록: %1$s§r
 tc.addaspect=§aYou have gained practical knowledge of %1$s§0
 tc.addwarp=§5영구적인 워프 수치가 증가하였습니다!§0
 tc.addwarptemp=§5일시적인 워프 수치가 증가하였습니다!§0
@@ -1112,13 +1112,13 @@ tc.research_category.BASICS=기본 정보
 tc.research_category.AUROMANCY=마도학
 tc.research_category.ALCHEMY=연금술
 tc.research_category.ARTIFICE=마공학
-tc.research_category.INFUSION=아케인 인퓨전
+tc.research_category.INFUSION=인퓨전
 tc.research_category.GOLEMANCY=골렘학
 tc.research_category.ELDRITCH=이계의 지식
 #  
 # Knowledge Types
 tc.type.theory=이론
-tc.type.observation=Observation
+tc.type.observation=관찰
 tc.type.epiphany=Epiphany
 #  
 # Special formatting codes:
@@ -1235,7 +1235,7 @@ research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow 
 research.CRYSTALFARMER.stage.2=I have found a way to reinvigorate vis crystals in such a way that I can replant them.<BR>I am hoping this means I can grow my own steady supply of primal vis crystals.
 #
 research.UNLOCKELDRITCH.title=엘드리치 탐구
-research.UNLOCKELDRITCH.stage.1=§kasdfghjk§r<BR>쟌넨! 엘드리치는 아직 미완성 상태입니다! 아직 베타버전이니 그러려니 하세요!<BR>- 2hh8899<BR>§kasdfghjk§r
+research.UNLOCKELDRITCH.stage.1=
 research.UNLOCKELDRITCH.stage.2=
 #
 ##########################################
@@ -1673,3 +1673,6 @@ got.hellandback=You have visited the Nether.
 got.endoftheworld=You have visited the End.
 research.m_hellandback.text=Visit a hellish place.
 research.m_endoftheworld.text=Find the end of everything.
+
+research.BASEELDRITCH.title=엘드리치?
+research.BASEELDRITCH.stage.2=쟌넨! 엘드리치는 아직 미완성 상태입니다! 아직 베타버전이니 그러려니 하세요!<BR>- 2hh8899
