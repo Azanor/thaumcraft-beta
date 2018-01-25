@@ -165,7 +165,7 @@ item.amulet_vis.text=핫바 내의 비스 사용도구를 충전합니다.
 item.amulet_vis.found.name=비스석
 item.amulet_vis.crafted.name=비스 저장의 목걸이
 item.girdle_hover.name=사우모스태틱 허리띠
-item.verdant_charm.name=젊은 심장의 반지
+item.verdant_charm.name=젊은 심장의 장신구
 item.verdant_charm.life.text=생명공학
 item.verdant_charm.sustain.text=지지자
 item.voidseer_charm.name=공허시야의 진주
@@ -292,7 +292,7 @@ tile.redstone_relay.name=레드스톤 릴레이
 tile.research_table.name=연구 탁자
 tile.arcane_ear.name=아케인 이어
 tile.levitator.name=아케인 부양기
-tile.water_jug.name=영원한 항아리
+tile.everfull_urn.name=영원한 항아리
 tile.lamp_arcane.name=아케인 램프
 tile.lamp_growth.name=성장의 램프
 tile.lamp_fertility.name=산출의 램프
@@ -345,22 +345,22 @@ tile.candle.black.name=검은색 수지 양초
 tile.pedestal.normal.name=아케인 주각
 tile.pedestal.eldritch.name=엘드리치 주각
 tile.pedestal.ancient.name=고대의 주각
-tile.nitor.white.name=흰색 나이터
-tile.nitor.orange.name=주황색 나이터
-tile.nitor.magenta.name=다홍색 나이터
-tile.nitor.light_blue.name=하늘색 나이터
-tile.nitor.yellow.name=노란색 나이터
-tile.nitor.lime.name=연두색 나이터
-tile.nitor.pink.name=분홍색 나이터
-tile.nitor.gray.name=회색 나이터
-tile.nitor.silver.name=밝은 회색 나이터
-tile.nitor.cyan.name=청록색 나이터
-tile.nitor.purple.name=보라색 나이터
-tile.nitor.blue.name=파란색 나이터
-tile.nitor.brown.name=갈색 나이터
-tile.nitor.green.name=초록색 나이터
-tile.nitor.red.name=붉은색 나이터
-tile.nitor.black.name=검은색 나이터
+tile.nitor.white.name=흰색 니토르
+tile.nitor.orange.name=주황색 니토르
+tile.nitor.magenta.name=다홍색 니토르
+tile.nitor.light_blue.name=하늘색 니토르
+tile.nitor.yellow.name=노란색 니토르
+tile.nitor.lime.name=연두색 니토르
+tile.nitor.pink.name=분홍색 니토르
+tile.nitor.gray.name=회색 니토르
+tile.nitor.silver.name=밝은 회색 니토르
+tile.nitor.cyan.name=청록색 니토르
+tile.nitor.purple.name=보라색 니토르
+tile.nitor.blue.name=파란색 니토르
+tile.nitor.brown.name=갈색 니토르
+tile.nitor.green.name=초록색 니토르
+tile.nitor.red.name=붉은색 니토르
+tile.nitor.black.name=검은색 니토르
 tile.metal.thaumium.name=사우뮴 블럭
 tile.metal.void.name=공허합금 블럭
 tile.metal.alchemical.name=연금 구조물
@@ -479,14 +479,14 @@ entity.trunk.stay=상자가 그 자리에 대기합니다
 entity.thaumcraft.MindSpider.name=환영 거미
 entity.thaumcraft.EldritchGuardian.name=엘드리치 가디언
 entity.thaumcraft.EldritchWarden.name=엘드리치 수호자
-entity.thaumcraft.EldritchWarden.name.custom=%s the %d
+entity.thaumcraft.EldritchWarden.name.custom=%d %s
 entity.thaumcraft.EldritchGolem.name=엘드리치 골렘
 entity.thaumcraft.EldritchGolem.name.custom=%s 엘드리치 골렘
 entity.thaumcraft.EldritchOrb.name=엘드리치 구체
 entity.thaumcraft.CultistKnight.name=크림슨 기사
 entity.thaumcraft.CultistCleric.name=크림슨 사제
 entity.thaumcraft.CultistLeader.name=크림슨 고위 성직자
-entity.thaumcraft.CultistLeader.name.custom=고위 성직자 %s the %d
+entity.thaumcraft.CultistLeader.name.custom=%d 고위 성직자 %s
 entity.thaumcraft.CultistPortalGreater.name=거대 크림슨 포탈
 entity.thaumcraft.CultistPortalLesser.name=크림슨 포탈
 entity.thaumcraft.EldritchCrab.name=엘드리치 게
@@ -1045,7 +1045,7 @@ tc.research.short=획득에 필요한 %1$s 경험치 레벨이 없습니다
 tc.research.read=눌러서 연구 읽기
 tc.research.add=클릭해 조각을 소모하여 태초의 위상 각 1개씩 획득
 tc.need.research=발견해야 할 것
-tc.need.craft=제작에 필요한 아이템
+tc.need.craft=제작해야 할 아이템
 tc.need.obtain=소모될 아이템
 tc.need.know=필요한 지식
 tc.primalcharm.0=무언가 새어나오는 듯 있습니다
@@ -1063,8 +1063,8 @@ tc.dioptra.3=오라의 비율을 봅니다.
 tc.notowned=This does not belong to you.
 tc.fluxevent.1=근처의 오라가 갑자기 뒤틀리며 당신의 생각을 망쳐놓는다.
 tc.fluxevent.2=이 지역의 오라가 순간적으로 불안해지며 마법적인 능력을 방해한다.
-tc.stage.complete=Complete
-tc.stage.hold=Completing...
+tc.stage.complete=완료
+tc.stage.hold=처리중...
 tc.warp.warn= 워프 레벨: %n
 #
 # Aspects
@@ -1176,7 +1176,7 @@ research.FIRSTSTEPS.stage.2=야호! 이제 아케인 작업대를 사용할 수 
 research.FIRSTSTEPS.stage.3=꽤 이상한 경이가 밝혀지고 있습니다. 사우모미터의 렌즈를 들여다보는 것으로 나에게 세계관과 비스 마법을 가르쳐줍니다.<BR>일반적으로 이 에너지는 흐르는 순수한 바다의 마법과 같지만, 생물과 무생물 모두의 내부에 스며들어 있기도 합니다. 책에 따르면 이렇게 스며든 상태의 비스는 에센시아라고 부릅니다. 비스는 순수하며 형체가 없지만, 에센시아는 본질적으로 더 단단하고 다른 종류와 섞여 더 복잡한 형태를 형성하며 명확하게 정의된 여러 유형으로 분류됩니다.<BR>이 물질들이 이 에센시아를 제공하기로 되어있는 것인지, 혹은 물질의 본질이 그것이 포함하고 있는 에센시아에 달려 있는 것인지는 확신할 수 없습니다. 더 연구할 필요가 있겠군요.<BR>지금껏 발견한 모든 에센시아 종류를 계속 기록하고 있습니다. 왼쪽의 북마크는 현제 알고 있는 지식을 보여줄 것입니다.<BR>이제는 다른 방향으로도 에너지를 집중할 수 있습니다 - 3가지 길이 열려 있습니다. 어느 것을 먼저 할까요?
 #
 research.KNOWLEDGETYPES.title=지식의 종류
-research.KNOWLEDGETYPES.stage.1=지식에는 세가지 주요한 타입이 있습니다: 관찰, 이론, 직관입니다. 관찰과 이론은 연금술과 마공학과 같은 주요한 연구 범주로 더 세분화됩니다.<LINE>관찰은 실제로 물체를 스캔함으로써 했던 관찰입니다. 실제 관찰을 통해 이것이 어떻게 작동하는가를 이해할 수 있으며 이러한 내용을 기록함으로써 연구에 필요한 지식 기반을 서서히 구축할 수 있습니다.<LINE>이론은, 간단히 말하자면 관찰이나 이성적인 사고, 실제 실험을 통해서 사물을 이해하는 방법입니다. 많은 사실적인 연구는 더 잘 이해하기 위해 이론을 만들어야 합니다.<LINE>직관은 특정한 연구를 완성하는데 필요한 통찰력과 이해력의 귀한 섬광과 같은 존재입니다.
+research.KNOWLEDGETYPES.stage.1=지식에는 세가지 주요한 타입이 있습니다: 관찰, 이론, 직관입니다. 관찰과 이론은 연금술과 마공학과 같은 주요한 연구 범주로 더 세분화됩니다.<LINE>관찰은 실제로 물체를 분석함으로써 했던 관찰입니다. 실제 관찰을 통해 이것이 어떻게 작동하는가를 이해할 수 있으며 이러한 내용을 기록함으로써 연구에 필요한 지식 기반을 서서히 구축할 수 있습니다.<LINE>이론은, 간단히 말하자면 관찰이나 이성적인 사고, 실제 실험을 통해서 사물을 이해하는 방법입니다. 많은 사실적인 연구는 더 잘 이해하기 위해 이론을 만들어야 합니다.<LINE>직관은 특정한 연구를 완성하는데 필요한 통찰력과 이해력의 귀한 섬광과 같은 존재입니다.
 #
 research.THEORYRESEARCH.title=이론 제작
 research.THEORYRESEARCH.stage.1=어떠한 진보를 이루려면 단순히 주변 세계를 공부하거나 고대의 지식에 의존할 수는 없습니다. 자기 자신의 발견을 만들고 실험을 통해 지식을 확장시킬 필요가 있습니다. 이론을 만드는 것만이 유일한 방법입니다.<BR>필기도구나 종이같은 풍부한 재료를 가지고 연구를 하기 위해 편안한 작업 공간을 만들어야 할 것입니다. 필기도구를 만들어서 테이블 위에 올려놓으세요.
@@ -1196,45 +1196,46 @@ got.finddesert=이글거리는 사막에 당도했다.
 got.findocean=끝이 없는 푸른 심연 속으로 스며들어 왔다.
 #
 research.UNLOCKARTIFICE.title=마공학 & 인퓨전의 발견
-research.UNLOCKARTIFICE.stage.1=나는 많은 것을 배웠고, 그 중 하나는 내가 얼마나 더 배워야 하는지이다. 나에게 나타난 세상은 상당히 불가사의하며 보이지 않는 수많은 경이로움...과 위험들을 가지고 있습니다.<BR>이 눈에 보이지 않는 것들을 보이게 하여 내 발견의 여정을 편하게 해줄 도구가 필요합니다. 예전에 읽었던 낡은 글에서, 이 기능만을 하기 위해 흔히 사용되는 고글 세트를 언급했습니다.<BR>이게 정확히 어떻게 작용하는지는 언급되지 않았기 때문에, 처음 원칙을 디자인할 필요가 있습니다.
+research.UNLOCKARTIFICE.stage.1=나는 많은 것을 배웠고, 그 중 하나는 내가 얼마나 더 배워야 하는지입니다. 나에게 나타난 세상은 상당히 불가사의하며 보이지 않는 수많은 경이로움...과 위험들을 가지고 있습니다.<BR>이 눈에 보이지 않는 것들을 보이게 하여 내 발견의 여정을 편하게 해줄 도구가 필요합니다. 예전에 읽었던 낡은 글에서, 이 기능만을 하기 위해 흔히 사용되는 고글 세트를 언급했습니다.<BR>이게 정확히 어떻게 작용하는지는 언급되지 않았기 때문에, 처음 원칙을 디자인할 필요가 있습니다.
 research.UNLOCKARTIFICE.stage.2=찾을 수 있는 약간의 정보와 실험 결과를 바탕으로 나만의 디자인을 만들었습니다. 이론을 실행할 시간입니다.<BR>고글은 보이지 않던 것을 보여줄 뿐만 아니라, 제작에 필요한 비스도 절약해줄 것입니다.<BR>또한 물체에 저장된 비스나 에센시아의 양을 직접 볼 수 있게 해줍니다.<PAGE>배운 것 중 가장 중요한 것은 마법을 이용해 정교한 기계 장치를 만들고 그것에 신비한 힘을 불어넣을 수 있는 가능성입니다. 이 두가지 학습 경로는 분리되어 있지만, 미묘하고 신비하게도 서로 연결되어 있습니다. 자세히 연구할 필요가 있습니다.
 #
 research.UNLOCKALCHEMY.title=연금술의 발견
-research.UNLOCKALCHEMY.stage.1=Brewing simple potions has its uses, but true alchemical interactions require more than mixing a few monster parts together.<BR>I think Essentia holds the key to a much more sophisticated way of manipulating matter.<BR>I should try and learn more about alchemy and how it fits into the magical world.<BR>Armed with that knowledge and a little bit of inspiration I am sure Thaumaturgic Alchemy will be within my grasp.
-research.UNLOCKALCHEMY.stage.2=My recent discoveries have given me a new insight into how the world is put together and I think I might know a way to transform matter by altering its Essentia.<BR>This will require experimentation and something to hold the alchemical substrate. A simple brewing stand will not do - what I need is a mystical crucible.<BR>A cauldron is the right shape and size, but what is effectively a big metal bowl will never be able to hold the magical energies I wish to manipulate.<BR>Once again applying some Salis Mundus to a cauldron should resolve my problems.
-research.UNLOCKALCHEMY.stage.3=I have my crucible! Now I need something to experiment with, and I happen to have the perfect thing. I have spent many a late-night studying 마도학 and flickering torchlight is not the best thing to read by. A steady magical light is exactly what I need now.<BR>Glowstone is a steady source of light, but I require large handfuls of it for a light source and it lacks... style. I am sure I can alter it into something better.<BR>The crucible needs to be placed over a source of heat and filled with water. Once the water boils I can start adding the things I need. I have jotted down a recipe that I think will create a substance I have named Nitor. A small core of energized glowstone empowered with energy, fire and light should burn forever. It should be naturally buoyant, allowing it to be placed wherever I choose - even floating in mid-air.<BR>I simply need to find objects with the required essentia (pressing shift whilst hovering over an item might help here) and throw them into the crucible.<BR>The crucible will render them down into their constituent essentia. I might not be able to gather the exact combination of essentia I require, but if there are enough of the types I need everything should be fine.<BR>Once I have enough all I need to do is throw in the catalyst. In this case a handful of glowstone dust.<BR>If all goes well the glowstone will absorb the essentia and transform into nitor.<BR>I am not sure what will happen to the excess essentia, but I can only assume it will eventually dissolve harmlessly.<BR>[Shift-right clicking with an empty hand will empty a crucible. Each crafting operation will consume some of the water so you will have to replenish it now and again.]
+research.UNLOCKALCHEMY.stage.1=단순한 양조는 그 자체의 용도가 있으며, 완전히 다른 분야인 진정한 연금술적인 상호작용은 몇개의 큰 재료들을 함께 섞는 것 이상을 요구합니다.<BR>에센시아가 물질을 다루는 더 정교한 방법의 열쇠를 가지고 있다고 봅니다.<BR>연금술을 더 시도하고 이것이 어떻게 마법의 세계에 적용되는지 배울 필요가 있습니다.<BR>이런 지식과 약간의 영감으로 무장하면 연금술 정도는 손아귀 안에 있을 것이라고 확신합니다.
+research.UNLOCKALCHEMY.stage.2=최근 발견한 것들은 어떻게 세상이 융합되는 지에 대한 새로운 통찰력을 주었고, 이젠 아마도 세상의 본질을 바꿈으로써 물질을 변화시킬 수 있는 방법을 알고 있을지도 모릅니다.<BR>이건 실험 및 연금술적인 기질을 유지하기 위한 무언가가 필요할 것으로 보입니다. 단순한 양조대로는 안됩니다 - 마법의 도가니가 필요합니다.<BR>가마솥은 모양과 크기가 적당하지만, 단순히 큰 금속 통 정도로는 다루려고 하는 마법 에너지를 담을 수 없을 것입니다.<BR>정화의 소금을 가마솥에 뿌리면 이 문제를 해결할 수 있을 것입니다.
+research.UNLOCKALCHEMY.stage.3=나만의 도가니를 얻었습니다! 이제 이걸로 실험할 것이 필요하며, 마침 할만한 완벽한 게 하나 있습니다. 늦은 밤 오랫동안 마도학을 공부하면서, 불빛이 너무 깜빡여서 집중이 잘 안된다는 생각이 들었습니다. 지금 필요한 것은 바로 지속적인 마법같은 불빛입니다.<BR>발광석은 일정한 광원이지만, 광원을 위해선 대량이 필요하며 이러면... 스타일도 살지 않죠. 더 좋은 것으로 바꿀 수 있다고 확신합니다.<BR>도가니는 열원 위에 있어야 하며 물을 채워야 합니다. 물이 끓기 시작하면 필요한 것을 넣을 수 있습니다. 니토르라고 이름 지은 이 물질의 조합법을 기록했습니다. 에너지, 불, 그리고 빛에서 힘을 받은 이 작은 코어는 영원히 타오를 것이며, 부유력도 있어 공중에 설치할 수 있을 것입니다.<BR>필요한 에센시아가 있는 물건을 찾아 도가니에 넣기만 하면 됩니다. (아이템에 커서를 올리고 Shift 키를 누르는 것이 도움이 될 겁니다.)<BR>도가니는 들어간 아이템들을 에센시아 성분으로 분해할 겁니다. 필요로 하는 에센시아를 정확하게 맞출 수는 없겠지만, 필요로 하는 에센시아가 충분하기만 하면 모든 것이 괜찮을 것입니다.<BR>모든 에센시아가 준비되면 촉매를 넣으면 됩니다. 이 경우에는 발광석 가루입니다.<BR>완벽하게 이행했다면, 발광석 가루는 에센시아를 흡수하고 니토르가 될 것입니다.<BR>남은 에센시아에는 무슨 일이 일어날지 확실한 수는 없지만, 아직은 이것들이 무해하게 증발할 것이라고 가정할 수밖에 없겠군요.<BR>[빈 손으로 우클릭하면 도가니를 비울 수 있습니다. 아이템을 제작할 때마다 물을 소모하게 되므로, 때때로 물을 보충해야 할 것입니다.]
 #
 research.UNLOCKGOLEMANCY.title=골렘학의 발견
-research.UNLOCKGOLEMANCY.stage.1=This book has taught me many things: How to manipulate matter and magic on a fundamental level, how to imbue objects with magical properties and even how to draw magic from the very air around me. Still some things elude me.<BR>There are some very basic, but amazingly magical things almost anyone can do. Just stacking a few blocks together in the right pattern will cause them to transform into semi-sentient animated golems. How is this possible? Why would it even happen. Is the aura somehow responsible for this?<BR>I should study this phenomenon more closely.
-research.UNLOCKGOLEMANCY.stage.2=My findings are confusing to say the least.<BR>The 'natural' golems that can be created are indeed infused with vis, but I do not believe their creation is thaumaturgical in nature. Whatever force animates them seems to come from elsewhere.<BR>Still, my research has at least borne some fruit. I have studied this animating force and I believe I can recreate it using thaumaturgical principles. I should further my studies as soon as possible.
+research.UNLOCKGOLEMANCY.stage.1=이 책은 나에게 많은 것을 가르쳐 주었습니다. 기본적인 지식부터 물질과 마법을 다루는 법, 마법적인 특성으로 물건을 채우는 법, 심지어 주변 공기로부터 마법을 뽑아오는 법까지. 그래도 뭔가 부족한 것이 있습니다.<BR>매우 기본적이지만, 놀랍게도 거의 모든 사람이 할 수 있는 마법 같은 일이 있죠. 몇 블럭을 올바른 패턴으로 쌓기만 하면 비감정적인 살아있는 골렘으로 변환됩니다. 이게 어떻게 가능한 걸까요? 어떻게 이런 일이 일어나는 걸까요. 오라가 어떻게든 관여하는 걸까요?<BR>자세히 알아볼 필요가 있습니다.
+research.UNLOCKGOLEMANCY.stage.2=찾아낸 것이 최소한의 정보 뿐이라 혼란스럽습니다.<BR>만들어질 수 있는 '자연' 골렘은 사실 비스 주입과 함께 탄생하지만, 이 창조물들이 마법적인 것으로 믿어지진 않습니다. 그것의 힘은 다른 곳에서 나오는 것 같습니다.<BR>그래도 연구에 최소한의 성과는 있습니다. 이 움직임의 힘을 연구해 왔고 마도학의 원직을 사용하여 이것을 만들 수 있다고 생각합니다. 가능한 빠르게 공부를 더 해봐야 합니다.
+research.f_golem.text=원시적인 골렘을 분석하세요.
 #
 research.FLUX.warn=기운이 고조되는 것 같습니다. 뭔가 잘못되었습니다.
 research.FLUX.title=플럭스
-research.FLUX.stage.1=I have been monitoring a strange buildup of magical energy in the aura. It seems to be a form of 'dirty' vis that I have named Flux. It shows as an ominous dark bar on my thaumometer.<BR>I now know what those purple puffs are I occasionally see when I am being careless - it is essentia spilling into the atmosphere and becoming Flux. Pure essentia, it seems, should not be directly exposed to the aura.<BR>I'm not exactly sure what negative effects this will cause, but I have noticed that Flux seems to clog the local aura preventing Vis from replenishing naturally.<BR>Picture it as a thick layer of scum on a natural pool of clean water.<BR>The local aura has a point at which it is 'filled' and Flux seems to count towards this capacity.<BR>More alarmingly, it seems to take precedence over vis and I suspect it can probably exceed this natural limit. I am not sure what will happen when Flux overflows.
-research.FLUX.stage.2=Note to self: Do NOT let the flux build. It is bad.<BR>Very, very bad.<BR>If Flux builds high enough it seem to cause a tear in the very fabric of magic itself. The flux escapes through this tear, but usually raw, chaotic magic spills through into our world causing all manner of calamity.<BR>I should be a lot more careful of causing flux in the future. In fact, i should start looking into ways to neutralise Flux.
-research.toomuchflux.text=플럭스가 쌓여? 내버려 둬...
+research.FLUX.stage.1=오라에 이상하게 축적된 마법의 기운이 느껴집니다. 플럭스라고 부르는 '더러운' 것 같습니다. 사우모미터에는 불길한 어두운 색의 막대로 나타나 있습니다.<BR>이제 작업이 부주의할 때 종종 보게 되는 그 보라색 솜털 같은 것이 무엇인지 알게 되었습니다. 이것이 대기로 흘러 들어가 플럭스가 되고 있던 것이었습니다. 순수한 에센시아는 비스에 직접적으로 노출되면 안 되는 것 같습니다.<BR>이것이 어떤 부정적인 영향을 끼칠지 정확히는 확신할 수 없지만, 플럭스가 그 지역의 오라를 가로막아 비스가 자연적으로 충전되는 것을 막아버리는 것 같다는 것을 알아냈습니다.<BR>넓은 바다 위에 깔려 빛의 공급을 차단하는 시커먼 기름막을 상상하면 딱 들어맞습니다.<BR>오라는 지역마다 '최대치'를 가지고 있으며 플럭스는 이 저장량에 대해 우선순위를 가지고 있는 것으로 보입니다.<BR>더욱 놀라운 것은, 이것이 비스보다 우선시되는 듯 보인다는 점이고 아마 이 자연적인 한계를 초과할 수 있다고 의심합니다. 플럭스가 넘치면 무슨 일이 일어날지는 아직 잘 모르겠습니다.
+research.FLUX.stage.2=자기 주의 사항 : §l절대로 플럭스가 넘치게 하지 마세요. 나쁜 일이 일어납니다.§r<BR>§l정말로, 정말로 나쁜 일이 일어납니다.§r<BR>만약 플럭스가 충분히 쌓이면, 마법의 구조 자체에 균열을 일으키는 것으로 보입니다. 플럭스는 이 균열을 통해 빠져나가지만, 원시적이고 혼란스러운 마법이 모든 종류의 재앙을 야기하면서 이쪽 세계로 흘러 들어옵니다.<BR>앞으로는 플럭스 방출에 대해 훨씬 더 조심해야 할 겁니다. 아니, 완전히 중화시킬 수 있는 방법을 찾아야 합니다.
+research.f_toomuchflux.text=플럭스가 쌓이게 내버려 둬라
 #
 research.WARP.warn=나의 마음이 내가 얻은 지식으로 동요한다.
 research.WARP.title=워프
-research.WARP.stage.1=Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even my keel is at the moment.
+research.WARP.stage.1=많은 사람들은 인간이 마법에 간섭할 이유가 없다고 믿고 있으며, 이를 가장 신뢰할 수 있는 부분이 바로 워프의 존재입니다.<BR>금지된 마법을 연구하거나 의심스런 자연의 물체를 만드는 것은 마음과 몸을 비틀면서 현실에 대한 관점을 왜곡하는 경향이 있습니다. 이런 효과를 워프라고 부릅니다.<BR>약간의 워프는 일시적이며 시간이 지나면 증상이 줄어들겠지만, 일단 얻게 된 영구적인 워프를 제거하는 법은 알려지지 않았고, 권력을 위해 위험을 무시하기로 선택한 마도학자들은 미끄러운 비탈과 같은 길을 걷게 됩니다.<BR>워프는 보통 집중력 저하, 육체적 고통, 환각 등으로 나타납니다.<BR>그러나 이러한 것들은 단순한 정신 질환이 아닙니다. 때때로 유용한 지식을 주거나, 환각으로 보이는 것들이 소름끼치는 현실인 것으로 판명되기도 하기 때문입니다.<BR>정신 상태를 감시하며 워프가 얼마나 쌓였는지 확인하기 위한 장치를 고안했습니다.
 #
 research.ORE.title=광물
-research.ORE.stage.1=There are many unique ores and minable blocks that are useful to a Thaumaturge. I should make a note of all those I come across.
-research.ORE.amber=§o호박§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
-research.ORE.cinnabar=§o진사§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
-research.ORE.crystal=§o비스 결정§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in 마도학.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
+research.ORE.stage.1=마도학에 유용한, 많은 독특한 광석과 블럭이 있습니다. 마주치는 모든 것들을 기록합니다...
+research.ORE.amber=§o호박§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>이 광석은 지표면 근처에서 발견되며 캐면 호박이 떨어집니다.
+research.ORE.cinnabar=§o진사§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>이 불그스름한 광석은 땅속 깊숙한 곳에서 발견되며, 녹이면 수은이 나옵니다.
+research.ORE.crystal=§o비스 결정§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>때때로 오라에 너무 많은 에너지가 들어 있는 탓에 돌에서 비스를 머금은 결정체가 자라기도 합니다. 이것들은 비스를 빨아들이며 성장하고 심지어 옆으로 퍼지기도 합니다.<BR>만약 오라가 상당히 적을 경우, 에너지가 다시 결정에서 빠져나가며, 오라를 보충하고 결정체는 부서집니다. 이러한 효과로, 이것들은 초자연적인 베터리라고 할 수 있습니다. 결코 완전히 붕괴하지는 않을 것이며 최소한의 작은 결정체는 남아있을 겁니다.<BR>이 결정체들은 마도학에서 많은 용도로 쓰기 위해 채집할 수 있습니다.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>아직은 결정체를 하나씩 뽑아 수확하는 방법을 찾지 못했습니다. 중요한 문제일 수도 있고, 아닐 수도 있습니다.<BR>테인트에서 자라는 결정체는 테인트로 오염될 수 있습니다.
 #
 research.PLANTS.title=식물
-research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=§o실버우드§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-research.PLANTS.greatwood=§o그레이트우드§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
-research.PLANTS.cinderpearl=§o신더펄§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-research.PLANTS.shimmerleaf=§o시머리프§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
-research.PLANTS.vishroom=§o비쉬룸§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
+research.PLANTS.stage.1=마도학에 유용한, 많은 식물이 있습니다. 마주치는 모든 것들을 기록합니다...
+research.PLANTS.silverwood=§o실버우드§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>이 희귀한 마법의 나무는 경이로운 광경입니다. 잎들은 마법의 에너지로 빛나고, 창백하고 부드러운 원목은 청정한 특성으로 가치가 높습니다.<BR>이 나무는 자연적으로 자라게 하면 주변의 오라를 느리게 보충해줍니다. 이 특징 하나만 보아도 실버우드는 엄청난 상을 받을 만합니다.
+research.PLANTS.greatwood=§o그레이트우드§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>이 크고 아름다운 나무는 전세계에 분포하고 있습니다.<BR>이 나무는 놀라운 양의 마법을 흡수할 수 있어서 마법 도구를 만드는데 인기 있습니다.
+research.PLANTS.cinderpearl=§o신더펄§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>정말 뜨거운 기후에서 발견되는 이 식물들은 불에 타는 것만 같습니다. 채집할 수 있으며, 갈아서 블레이즈 가루를 얻을 수 있습니다.
+research.PLANTS.shimmerleaf=§o시머리프§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>이 신비롭게 빛나는 꽃은 실버우드 그늘에서만 자랍니다. 채집할 수 있으며, 수은을 얻을 수 있습니다.
+research.PLANTS.vishroom=§o비쉬룸§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>이 빛나는 이상한 버섯은 마법숲에서만 자랍니다.<BR>환각 특성을 가지고 있기 때문에 너무 가까이 접근하지 않도록 주의해야 합니다.
 #
 research.CRYSTALFARMER.title=결정 농사
-research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow over time, but once I harvest them they seem to lose this ability. I am hoping to discover what exactly is lost and how to reinvigorate the crystals.
-research.CRYSTALFARMER.stage.2=I have found a way to reinvigorate vis crystals in such a way that I can replant them.<BR>I am hoping this means I can grow my own steady supply of primal vis crystals.
+research.CRYSTALFARMER.stage.1=비스 결정이 시간이 지나면서 자연스럽게 자라는 것을 관찰했습니다. 하지만 한번 결정을 수확하면 이 능력을 잃어버리는 것으로 보입니다. 정확히 무엇이 손실되었으며 어떻게 되살릴 수 있는지를 발견하고 싶습니다.
+research.CRYSTALFARMER.stage.2=이것들을 다시 심을 수 있도록 활력을 불어넣을 수 있는 방법을 찾았습니다.<BR>이것이 나만의 비스 결정 공급원이 되기를 바압니다.
 #
 research.UNLOCKELDRITCH.title=엘드리치 탐구
 research.UNLOCKELDRITCH.stage.1=
@@ -1389,15 +1390,15 @@ research.FORTRESSMASK.title=전투헬멧 가면
 research.FORTRESSMASK.stage.1=I designed the faceplate used by fortress armor to be removable. I might be able to create specially enchanted faceplates that gives the armor additional abilities.
 research.FORTRESSMASK.stage.2=I have drawn up designs for several magical masks that will replace the standard faceplate used by fortress armor.<PAGE>§nHelm of Revealing§r<BR>Usually a thaumaturge needs to choose between protection and utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with the other masks.<PAGE>§nGrinning Devil Faceplate§r<BR>When worn, this mask has an interesting damping effect on those suffering from Warp. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards.<PAGE>§nAngry Ghost Faceplate§r<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.<PAGE>§nSipping Fiend Faceplate§r<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their life force to strengthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that.
 #
-research.NIMBUSRING.title=불화의 반지
-research.NIMBUSRING.stage.1=I should get my feet wet by creating a simple bauble. After some thought I decided to create a ring that will reduce falling damage and possibly help my mobility.<BR>It should be fairly simple to draw up plans for something like that.
-research.NIMBUSRING.stage.2=I have made plans for a bauble I am calling the Nimbus Ring. It makes the wearer lighter greatly reducing falling damage. Additionally it can create a momentary puff of air below the wearer when they jump, allowing them to perform a second jump in mid-air. 
+research.CLOUDRING.title=구름의 반지
+research.CLOUDRING.stage.1=I should get my feet wet by creating a simple bauble. After some thought I decided to create a ring that will reduce falling damage and possibly help my mobility.<BR>It should be fairly simple to draw up plans for something like that.
+research.CLOUDRING.stage.2=I have made plans for a bauble I am calling the Nimbus Ring. It makes the wearer lighter greatly reducing falling damage. Additionally it can create a momentary puff of air below the wearer when they jump, allowing them to perform a second jump in mid-air. 
 #
 research.CURIOSITYBAND.title=호기심의 머리띠
 research.CURIOSITYBAND.stage.1=The experience orbs I gather from harvested resources and slain monsters contain both magical energy and packets of knowledge. I am certain that more can be done with them than simple enchanting.
 research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way to extract fragments of knowledge from experience orbs. These parcels of knowledge are very small but may provide useful snippets of insight into certain kinds of research.<BR>I have drawn op designs for a headband the when worn will absorb half the experience from any orbs I collect and turn it into research knowledge. The rate of return is very low, but every little bit helps.
 #
-research.VERDANTCHARMS.title=젊은 심장의 반지
+research.VERDANTCHARMS.title=젊은 심장의 장신구
 research.VERDANTCHARMS.stage.1=I occasionally find myself being affected with poisons and other nasty afflictions. I should find a way to protect myself. 
 research.VERDANTCHARMS.stage.2=I have drawn op designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<LINE>There is also two specialized enchantments I can apply to the charm to improve its function.<PAGE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
 #
@@ -1522,6 +1523,9 @@ research.FOCUSCURSE.stage.2=As I suspected the pech wand is thaumaturgical in na
 ##########################################
 # GOLEMANCY
 ##########################################
+#
+research.BASEGOLEMANCY.title=골렘학의 기본
+research.BASEGOLEMANCY.stage.1=내용이 없네요! 원문에서는 그냥 텍스트 코드만 덩그러니 있었습니다.<BR>- 2hh8899
 #
 research.BELLOWS.title=아케인 풀무
 research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
