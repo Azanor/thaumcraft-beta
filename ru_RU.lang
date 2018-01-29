@@ -845,26 +845,26 @@ button.down=Scroll down
 ###################
 #
 # GENERAL
-card.study.name=Study %1$s
-card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 10 progress.
+card.study.name=Изучать %1$s
+card.study.text=Большая часть исследований предполагает то, что нужно просто взяться за книги и окунуться в работу. Вы изучаете %1$s  и получаете 10 очков прогресса.
 #
-card.reject.name=Reject %1$s findings
-card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
+card.reject.name=Прекратить исследовать %1$s
+card.reject.text=Вы осознали что %1$s не существенно для Вашего текущего исследования. Вы больше не будете получать прогресс в %1$s или достовать связаные с этим карты. Вы не потеряете свой текущий прогресс.
 #
-card.experimentation.name=Experimentation
-card.experimentation.text=You perform some random experiments to see if something could be discovered. You gain 10 to 25 progress in a completely random category.
+card.experimentation.name=Эксперименты
+card.experimentation.text=Вы проводите ряд случайных экспериментов, чтобы посмотреть сможете ли Вы что-нибудь обнаружить. Вы получаете от 10 до 25 очков прогресса в совершенно случайной категории.
 #
-card.analyze.name=Analyze %1$s
-card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
+card.analyze.name=Проанализировать %1$s
+card.analyze.text=Тщательно проанализировав сделанные Вами наблюдения о %1$s Вы могли бы составить теорию, основанную на собранных данных. Потеряйте 1 %1$s наблюдение чтобы получить от 25 до 50 очков прогресса в %1$s и 5 очков прогресса в %2$s.
 #
-card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration. You may also gain a bonus draw.
+card.rethink.name=Переосмыслить
+card.rethink.text=Вы делаете шаг назад и пересматриваете свои результаты. Вы избавляетесь от неверных выводов и продолжаете исследование используя новый подход. Потеряйте суммарно от 10 до 20 очков прогресса во всех текущих категориях, но восстановите 1 очко вдохновения. Вы также можете получить дополнительную карту.
 #
-card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories.
+card.ponder.name=Размышления
+card.ponder.text=Вы тщательно обдумываете всё что уже успели узнать. Вы получаете 20 очков прогресса, равномерно распределенных по всем текущим категориям.
 #
-card.notation.name=Notation
-card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
+card.notation.name=Нотация
+card.notation.text=Пока Вы делали заметки о своих исследованиях, Вы заметили несколько ошибок и исправили их. Вы теряете весь прогресс в %1$s, но его большая часть добавляется к %2$s.
 #
 card.balance.name=Universal Theory
 card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories.
