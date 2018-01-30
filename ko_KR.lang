@@ -82,6 +82,7 @@ item.brain.name=좀비 뇌
 item.triple_meat_treat.name=고기 혼합물
 item.phial.empty.name=유리 용기
 item.phial.filled.name=에센시아 용기
+item.label.name=라벨
 item.label.blank.name=빈 라벨
 item.label.filled.name=표기된 라벨
 item.jar_brace.name=황동 뚜껑 받침대
@@ -178,7 +179,7 @@ item.cloud_ring.name=구름의 반지
 item.caster_basic.name=주문 건틀렛
 item.focus.name=주문 포커스
 item.focus_blank.name=빈 주문 포커스
-item.Focus.cost1=주문 당 비스 소모
+item.Focus.cost1= - 주문 1회당 소모하는 비스
 item.focus_pouch.name=포커스 파우치
 #
 #
@@ -1208,8 +1209,8 @@ research.UNLOCKALCHEMY.stage.3=나만의 도가니를 얻었습니다! 이제 �
 #
 research.UNLOCKGOLEMANCY.title=골렘학의 발견
 research.UNLOCKGOLEMANCY.stage.1=이 책은 나에게 많은 것을 가르쳐 주었습니다. 기본적인 지식부터 물질과 마법을 다루는 법, 마법적인 특성으로 물건을 채우는 법, 심지어 주변 공기로부터 마법을 뽑아오는 법까지. 그래도 뭔가 부족한 것이 있습니다.<BR>매우 기본적이지만, 놀랍게도 거의 모든 사람이 할 수 있는 마법 같은 일이 있죠. 몇 블럭을 올바른 패턴으로 쌓기만 하면 비감정적인 살아있는 골렘으로 변환됩니다. 이게 어떻게 가능한 걸까요? 어떻게 이런 일이 일어나는 걸까요. 오라가 어떻게든 관여하는 걸까요?<BR>자세히 알아볼 필요가 있습니다.
-research.UNLOCKGOLEMANCY.stage.2=찾아낸 것이 최소한의 정보 뿐이라 혼란스럽습니다.<BR>만들어질 수 있는 '자연' 골렘은 사실 비스 주입과 함께 탄생하지만, 이 창조물들이 마법적인 것으로 믿어지진 않습니다. 그것의 힘은 다른 곳에서 나오는 것 같습니다.<BR>그래도 연구에 최소한의 성과는 있습니다. 이 움직임의 힘을 연구해 왔고 마도학의 원직을 사용하여 이것을 만들 수 있다고 생각합니다. 가능한 빠르게 공부를 더 해봐야 합니다.
-research.f_golem.text=원시적인 골렘을 분석하세요.
+research.UNLOCKGOLEMANCY.stage.2=찾아낸 것이 최소한의 정보 뿐이라 혼란스럽습니다.<BR>만들어질 수 있는 '자연' 골렘은 사실 비스 주입과 함께 탄생하지만, 이 창조물들이 마법적인 것으로 믿어지진 않습니다. 그것의 힘은 다른 곳에서 나오는 것 같습니다.<BR>그래도 연구에 최소한의 성과는 있습니다. 이 움직임의 힘을 연구해 왔고 마도학의 원칙을 사용하여 이것을 만들 수 있다고 생각합니다. 가능한 빠르게 공부를 더 해봐야 합니다.
+research.f_golem.text=원시적인 골렘을 분석하라
 #
 research.FLUX.warn=기운이 고조되는 것 같습니다. 뭔가 잘못되었습니다.
 research.FLUX.title=플럭스
@@ -1272,7 +1273,7 @@ research.HEDGEALCHEMY.stage.3=몇몇은 처음부터 새로 만들어야 합니�
 research.HEDGEALCHEMY.stage.4=이제 연구가 다 끝났지만, 미래에 무엇을 더 발견하게 될지 누가 알겠습니까?
 #
 research.LIQUIDDEATH.title=액체 죽음
-research.LIQUIDDEATH.stage.1=호기심이 어두은 길로 이끌었습니다. 엔트로피와 죽음의 에너지로만 이루어진 액체가 어떤 기능을 할지 궁금해집니다. 상상해보기엔 좋은 일은 없을 것 같군요.<BR>적어도... 해충 방제나 제초제 정도론 쓸 수 있을까요?
+research.LIQUIDDEATH.stage.1=호기심이 어두운 길로 이끌었습니다. 혼돈과 죽음의 에너지로만 이루어진 액체가 어떤 기능을 할지 궁금해집니다. 상상해보기엔 좋은 일은 없을 것 같군요.<BR>적어도... 해충 방제나 제초제 정도론 쓸 수 있을까요?
 research.LIQUIDDEATH.stage.2=오 이런, 도대체 무슨 짓을 한 거죠? 이 액체는 매우 위험할 정도로 유독성이여서 사실상 그 무엇도 살, 뼈, 그것보다도 더 단단한 물질들을 전부 녹여버립니다. 아무것도 살아남을 수 없을 겁니다.<BR>명백히 실용적인 용도로, 이 불쾌한 물질은 또 다른 흥미로운 특징을 가지고 있습니다: 용해된 생물체가 가지고 있던 에센시아가 결정 상태로 남습니다.
 #
 research.BOTTLETAINT.title=테인트 병
@@ -1321,7 +1322,7 @@ research.CENTRIFUGE.stage.1=종종 정말 필요하지 않은 에센시아를 �
 research.CENTRIFUGE.stage.2=에센시아 원심분리기는 에센시아를 그 구성 요소로 분해할 수 있는 놀라운 발명품입니다.<BR>원심분리기 아래로 복합 에센시아가 들어가면, 천천히 그 구성 요소로 분해됩니다. 분해될 때는 하나의 구성 요소만 생성됩니다.<BR>결과물은 원심분리기 상단으로 나옵니다. 튜브 압력 시스템의 이상한 점 때문에, 에센시아 버퍼를 위에 설치하는 것이 좋습니다.
 #
 research.TUBES.title=에센시아 튜브
-research.TUBES.stage.1=에센시아를 단지나 플라스크에 넣고 다닐 수는 있지만, 대규모 연금술에는 쓸모가 없습니다. 파이프나 튜브를 통해 에센시아를 운반하는 것이 필요하지만, 휘발성이 있기 때문에 평범한 파이프로는 불가능합니다.<BR>에센시아 샘플들을 모아 다양한 재료들을 실험하는데 사용해봅시다.
+research.TUBES.stage.1=에센시아를 단지나 에센시아 용기에 넣고 다닐 수는 있지만, 대규모 연금술에는 쓸모가 없습니다. 파이프나 튜브를 통해 에센시아를 운반하는 것이 필요하지만, 휘발성이 있기 때문에 평범한 파이프로는 불가능합니다.<BR>에센시아 샘플들을 모아 다양한 재료들을 실험하는데 사용해봅시다.
 research.TUBES.stage.2=비교적 안정적이고 새어나오지 않는 튜브를 만드는 열쇠를 열었습니다. 평범한 화학 물질은 유리를 통해 운반될 수 있지만, 에센시아는 녹여버리거나 그냥 통과해버립니다. 유리를 철에 싸서 수은으로 처리함으로써 그러한 에센시아로부터 가까스로 보호했습니다. 황동은 배관 시스템을 마감하고 외형적으로도 좋게 만듭니다.<PAGE>튜브는 단지나 연금술적인 다른 장치와도 연결될 수 있습니다.<BR>에센시아는 단지처럼 그것을 받아들일 수 있는 무언가로 흘러들어갑니다.<BR>다른 종류의 에센시아를 가지고 있는 단지는 그 종류만 끌리게 합니다. 하지만 튜브는 한번에 한가지 종류만 운반할 수 있습니다. 즉, 가장 강한 흡입력이 우선시됩니다. 적절한 밸브 사용 없이는 배관 네트워크를 설치하는 것이 매우 어렵습니다. 밸브 사용은 필수적입니다.<BR>기체가 관에서 배출되는 현상은, 다른 종류의 흡입력이 간섭하고 있다는 뜻입니다. 기체의 색은 문제를 일으키고 있는 흡입력의 종류에 관한 단서를 제공합니다.<LINE>건틀렛으로 튜브 연결부를 클릭하여 연결을 끊거나 재연결할 수 있습니다.<BR>건틀렛으로 튜브 중심부를 클릭하면 벨브와 같은 특정한 튜브를 회전시킬 수도 있습니다.<PAGE><IMG>thaumcraft:textures/items/resonator.png:0:0:255:255:.125</IMG>에센시아 공명장치는 튜브 네트워크 문제를 해결하는 데 유용합니다. 이 도구를 튜브나 기타 요소에 사용하여 그 장치에 들어있는 에센시아와 흡입력을 확인할 수 있습니다.<PAGE><IMG>thaumcraft:textures/items/tube_valve.png:0:0:255:255:.125</IMG>에센시아 밸브는 손이나 레드스톤 신호로 끌 수 있는 것을 제외하면 일반 튜브와 동일하게 작동합니다. 밸브를 잠구면 에센시아가 지나갈 수 없게 됩니다.<PAGE><IMG>thaumcraft:textures/items/tube_filter.png:0:0:255:255:.125</IMG>에센시아 필터는 일반 튜브와 동일하게 작동하지만 라벨을 사용해 표식을 남길 수 있습니다. 이 표식이 있을 경우, 통과할 수 있는 에센시아가 그 표식의 에센시아로 제한됩니다.<PAGE><IMG>thaumcraft:textures/items/tube_restrict.png:0:0:255:255:.125</IMG>감압식 에센시아 튜브는 통상적인 흡입력을 절반으로 줄여줍니다.<PAGE><IMG>thaumcraft:textures/items/tube_oneway.png:0:0:255:255:.125</IMG>단방향 에센시아 튜브는 한 방향의 흡입력만 계산합니다. 파란색 표식은 흡입력을 계산할 방향을 나타냅니다.<PAGE><IMG>thaumcraft:textures/items/tube_buffer.png:0:0:255:255:.125</IMG>에센시아 버퍼는 에센시아를 8까지 저장할 수 있지만, 모든 종류를 저장할 수 있습니다. 병처럼 흡입력이 있지만 가능한 흡입력의 최소량(1)을 적용합니다.<BR>이는 이것에 직접적으로 붙어있는 공급원에서만 에센시아를 뽑아올 수 있다는 것을 의미합니다. 하지만 튜브는 모든 면에 연결될 수 있으며, 이는 다양한 에센시아를 포함할 수 있는 기기에서 에센시아를 뽑아내는 데 매우 유용합니다.<BR>버퍼에 풀무를 붙일 수 있으며, 개당 흡입력을 32만큼 증가시킵니다.<BR>또한 일반 튜브처럼 클릭으로 연결을 조절할 수 있지만, Shift 키와 함께 클릭하면 해당 방향으로의 흡입력을 1(파란색) 또는 0(빨간색)으로 바꿉니다.<BR>이는 에센시아를 수송할 때 유용한 가능성을 제공합니다.
 #
 research.IMPROVEDSMELTING.title=개선된 에센시아 증류
@@ -1345,7 +1346,7 @@ research.BASEINFUSION.stage.1=이제 신비한 물체와 도구를 만들 준비
 #
 research.INFUSION.title=인퓨전
 research.INFUSION.stage.1=아케인 작업과 연금술은 한계에 도달했습니다. 정말 강력하고 신비로운 물건을 만들어 내기 위해서는 더 좋은 것이 필요합니다.<BR>물건에 직접 에센시아를 주입하는 것이 가능하다고 믿습니다. 예를 들어  §6Aer§0 비스를 돌에 주입할 수 있으며, 이는 매우 가벼운 돌을 만들어 낼 수 있습니다.<BR>적어도, 이게 내 이론입니다.
-research.INFUSION.stage.2=당연하게도 기대했던 것보단 훨씬 더 복잡하다는 것이 입증되었습니다. 단순히 어떤 것에 원소를 부여하려고 하는 것은 효과가 없습니다. 이 전체 과정을 안정화시키기 위해 비교적 복잡한 시스템일 필요할 것입니다. 이것을 가능하게 해줄 루닉 매트릭스를 계획했습니다.
+research.INFUSION.stage.2=당연하게도 기대했던 것보단 훨씬 더 복잡하다는 것이 입증되었습니다. 단순히 어떤 것에 원소를 부여하려고 하는 것은 효과가 없습니다. 이 전체 과정을 안정화시키기 위해 비교적 복잡한 시스템이 필요할 것입니다. 이것을 가능하게 해줄 루닉 매트릭스를 계획했습니다.
 research.INFUSION.stage.3=인퓨전을 시작하기 위해서도 필요한 몇가지가 있습니다: 루닉 매트릭스(방금 만든 것), 아케인 주각, 그리고 에센시아 공급원입니다.<BR>루닉 매트릭스를 흔히 인퓨전 제단으로 알려진 구조물에 올바르게 배치하면, 작업을 시작할 수 있습니다. 다른 구조물처럼 정화의 소금을 뿌려 만들 수 있습니다. 기둥이 형성된 후에는 건틀렛을 사용해 루닉 매트릭스를 활성화할 수 있습니다.<BR>매트릭스 아래에 위치한 중앙 받침대에 인퓨전을 할 물건이 들어갈 것입니다. 또한 목표물에 주입하고자 하는 물건을 놓을 수 있도록 제단 둘레에 몇개의 받침대를 더 놓을 필요가 있습니다. 마지막으로 에센시아 단지 또는 그와 유사한 용기가 필요합니다.<BR>이 모든 과정이 완료되면 루닉 매트릭스를 건틀렛으로 클릭하여 제작을 시작할 수 있습니다.<BR>제작의 첫번째 단계는 주변의 에센시아 공급원으로부터 에센시아를 뽑아 주입하는 겁니다. 이용할 수 있는 에센시아가 불충분하다면, 제작은 지연될 것입니다 - 원하지 않을 만한 일을 다음 페이지에서 설명합니다.<BR>필요한 모든 에센시아가 주입되면 주변의 물건들을 주입합니다. 이 작업이 완료되어야만 제작 과정이 끝납니다.<LINE>인퓨전은 위험이 따릅니다. 이것은 거대한 에너지를 하나의 물체에 밀어넣는 것과 관련이 있습니다. 예측할 수 없는 일들이 일어나는 경향이 있습니다.<BR>보통 한두개의 물체가 주각에서 떨어지거나, 플럭스가 생산되는 등이지만, 듣도보도 못한 더 많은 재앙이 있을 수 있습니다.<BR>에센시아가 부족하거나 물건이 떨어지는 등으로 제작이 지연될 경우 이런 나쁜 일이 일어날 가능성이 더욱 커집니다.<BR>이러한 일은 다양한 방법으로 줄일 수 있습니다. 우선 인퓨전 구조를 가능한 한 대칭으로 유지하는 것이 큰 도움이 됩니다 - 주각을 놓는 위치를 주의하며 반대편의 다른 받침대와 균형을 이루도록 하세요. 인퓨전할 물건들을 놓을 때도 대칭을 유지하는 것이 좋습니다. 마지막으로, 제단 주위에 신비한 측두체(양초, 머리, 기타등등)을 대칭형으로 배치할 수 있습니다. 이것들은 불안정성을 감소시키는 효과를 가지고 있습니다.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONBOOST.title=인퓨전 강화
@@ -1373,8 +1374,8 @@ research.BOOTSTRAVELLER.stage.1=이동을 편하게 해줄 무언가를 만들�
 research.BOOTSTRAVELLER.stage.2=여행자라면 누구나 쉽게 여행할 수 있도록 마법으로 만든 신발을 디자인해 보았습니다.<BR>이것은 더 빨리 움직이고, 더 멀리 점프하고, 더 안전하게 착지할 수 있게 할 것입니다.<BR>마지막으로, 물고기처럼 물을 가르며 수영할 수 있게 합니다. 느리고 어설픈 물고기겠지만, 그래도 물고기입니다.<BR>하지만 이 일을 하려면 에너지가 필요하기 때문에 - 제 기능을 발휘하기 위해선 비스를 요구합니다.
 research.m_walker.text=수없이 걸어라
 research.m_runner.text=수없이 달려라
-research.m_swimmer.text=수없이 수영해라
-research.m_jumper.text=수없이 점프해라
+research.m_swimmer.text=수없이 수영하라
+research.m_jumper.text=수없이 점프하라
 #
 research.PAVINGSTONES.title=마법의 타일
 research.PAVINGSTONES.stage.1=사우모미터가 지역 오라를 보여주는 동안, 좀 더 넓은 지역에서 오라를 확인할 수 있게 해주는 것이 유용할 것이란 생각을 했습니다. 이런 장치는 간단히 만들 수 있을 만큼 충분히 간단해야 합니다.
@@ -1413,7 +1414,7 @@ research.BASEARTIFICE.stage.1=이제 복잡하고 마법같은 장치들을 만�
 #
 research.REDSTONERELAY.title=레드스톤 릴레이
 research.REDSTONERELAY.stage.1=마법 장치와 레드스톤 신호 사이의 부정적인 반응에 대해 항상 궁금했습니다. 이 현상을 더 연구해서 이것을 이용할 수 있는 방법을 찾아봅시다.
-research.REDSTONERELAY.stage.2=레드스톤이 마법을 억제한다는 것은 잘 알려진 현상이지만, 이 문제를 연구하면서 특정한 상황에서는 그 반대의 경우도 있다는 것을 발견했습니다.<BR>이를 실질적으로 적용할 수 있는 한가지 발법은 바로 레드스톤 릴레이입니다. 비스 결정체와 같은 마법적인 물질을 통해 레드스톤 신호를 보냄으로써 원하는 만큼 세기를 조절할 수 있습니다.<BR>릴레이는 리피터와 유사하게 배치해야 하며 출력 쪽이 레드스톤 횟불로 표시됩니다.<BR>리피터와는 다리, 릴레이에는 2개의 조절장치가 있습니다. 후방 조절장치는 입력받을 수 있는 최소 입력 신호를 결정합니다.<BR>전방 조절장치는 레드스톤 신호를 받았을 때 릴레이가 출력하는 세기를 결정합니다.<BR>예를 들어, 최소 2의 레드스톤 신호를 받으면 7의 레드스톤 신호를 방출하도록 설정할 수 있습니다.
+research.REDSTONERELAY.stage.2=레드스톤이 마법을 억제한다는 것은 잘 알려진 현상이지만, 이 문제를 연구하면서 특정한 상황에서는 그 반대의 경우도 있다는 것을 발견했습니다.<BR>이를 실질적으로 적용할 수 있는 한가지 방법은 바로 레드스톤 릴레이입니다. 비스 결정체와 같은 마법적인 물질을 통해 레드스톤 신호를 보냄으로써 원하는 만큼 세기를 조절할 수 있습니다.<BR>릴레이는 리피터와 유사하게 배치해야 하며 출력 쪽이 레드스톤 횟불로 표시됩니다.<BR>리피터와는 다리, 릴레이에는 2개의 조절장치가 있습니다. 후방 조절장치는 입력받을 수 있는 최소 입력 신호를 결정합니다.<BR>전방 조절장치는 레드스톤 신호를 받았을 때 릴레이가 출력하는 세기를 결정합니다.<BR>예를 들어, 최소 2의 레드스톤 신호를 받으면 7의 레드스톤 신호를 방출하도록 설정할 수 있습니다.
 #
 research.ARCANEEAR.title=아케인 이어
 research.ARCANEEAR.stage.1=세계의 요소에 반응할 수 있는 마법 센서를 발명할 필요성이 있습니다. 아마도 소리가 시작하기 좋은 요소일 겁니다.
@@ -1461,9 +1462,9 @@ research.LAMPFERTILITY.stage.2=아케인 램프와는 다르게, 산출의 램�
 ##########################################
 #
 research.BASEAUROMANCY.title=마도학의 기본
-research.BASEAUROMANCY.stage.1=주문 건틀렛이 있지만, 이제는 포커스를 만들 필요가 있습니다. 고대의 두루마리 기록들은 이것을 어떻게 진행해야 하는지 명확하게 알려주지 않습니다. 그렇기에 내 자신의 길을 찾아야 할 것입니다.<BR>결정체로부터 포커스를 조합하고 비스를 통해 고정시키는 아이디어를 실행했었으나 이 실험은 실패였습니다... 폭발했거든요.<BR>해답은 연금술적 과정에 달려 있다고 생각합니다.<BR>Ordo 결정을 중심으로 하여 질서적인 구조를 이용하여 포커스를 성장시킬 수 있을 지도 모릅니다. 이를 실행하기 위해선 praecantatio 와 auram 에센시아를 흡수할 필요성이 있습니다.<BR>이 결과는 비스의 힘을 흠수하고 조종할 수 있는 포커스 수정이어야만 합니다.
+research.BASEAUROMANCY.stage.1=주문 건틀렛이 있지만, 이제는 포커스를 만들 필요가 있습니다. 고대의 두루마리 기록들은 이것을 어떻게 진행해야 하는지 명확하게 알려주지 않습니다. 그렇기에 내 자신의 길을 찾아야 할 것입니다.<BR>결정체로부터 포커스를 조합하고 비스를 통해 고정시키는 아이디어를 실행했었으나 이 실험은 실패였습니다... 폭발했거든요.<BR>해답은 연금술적 과정에 달려 있다고 생각합니다.<BR>Ordo 결정을 중심으로 하여 Vitreus 에센시아를 이용하여 포커스를 성장시킬 수 있을 지도 모릅니다. 이를 실행하기 위해선 praecantatio 와 auram 에센시아를 흡수할 필요성이 있습니다.<BR>이 결과는 비스의 힘을 흡수하고 조종할 수 있는 포커스 수정이어야만 합니다.
 research.BASEAUROMANCY.stage.2=연금술을 통해 포커스를 만드는 것은 성공으로 가는 길이었습니다. 이 포커스는 안정적이고 깨끗합니다 - 이제 이 포커스를 조작할 수 있는 장치가 필요합니다.<BR>이미 포커스 조작 장치를 위한 계획을 세웠습니다. 이것은 여러모로 작업대와 유사하지만, 포커스 수정을 개조하기 위해 비스를 소모하는 차이점이 있습니다.<BR>또한 포커스에 각인시킬 패턴들을 디자인할 필요성도 있습니다. 불꽃을 만들어 낼 패턴을 생각하고는 있지만, 더 많은 연구가 필요합니다.
-research.BASEAUROMANCY.stage.3=모든 것이 준비되었습니다. 이제 할 일은 첫번째 포커스를 만드는 일 뿐입니다.<BR>빈 포커스 주변에 특별히 준비된 비스 결정체를 배치함으로써 포커스가 수행할 패턴을 설정할 수 있습니다. 지금은 '화염'과 '접촉'의 패턴만 알고 있습니다.<BR>'화염'은 효과 패턴으로, 어떤 요소나 마법적 효과를 일으킬 지 결정합니다. 여러 효과를 함께 사용할 수 있지만, 각 효과는 주문에 드는 비스 사용량을 증가시킵니다.<BR>'접촉'은 중심 패턴으로, 효과가 목표물에 전달되는 방식을 결정합니다. 포커스 당 하나의 중심 패턴만 사용할 수 있으며 전체 패턴의 중심에 배치해야만 합니다. 또한 관련된 효과의 비스 사용량 및 세기를 결정할 수 있습니다. '접촉'을 예를 들면, 더 적은 비스로도 사용이 가능하며 약간 더 강해집니다.<BR>다른 패턴을 조절할 수 잇는 3번째 유형의 패턴도 있습니다. 비스 소모량이나 세기를 변경하거나, 패턴이 기능하는 방식을 변경하는 것입니다. 아직까지 이쪽은 아무것도 알고 있는게 없지만, '접촉'이 가진 효과처럼 비스 절약 및 강화 효과를 재현할 수 있을 것입니다.<BR>배치된 패턴이 유효하려면 최소 하나 이상의 패턴과 인접해야 하지만, 하나의 패턴이 둘 이상의 인접한 패턴에 영향을 미치도록 배치할 수도 있습니다. 패턴은 중복으로 사용할 수 없습니다.<BR>패턴을 형성하는 비스 결정체들은 제작을 시작하는 순간 소비될 것이며 또한 경험치의 형태로 에너지를 제공할 필요성이 있습니다. 마지막으로 작업 과정 동안 오라에서 비스를 소모하여 포커스에 패턴을 새깁니다.
+research.BASEAUROMANCY.stage.3=모든 것이 준비되었습니다. 이제 할 일은 첫번째 포커스를 만드는 일 뿐입니다.<BR>빈 포커스 주변에 특별히 준비된 비스 결정체를 배치함으로써 포커스가 수행할 패턴을 설정할 수 있습니다. 지금은 '화염'과 '접촉'의 패턴만 알고 있습니다.<BR>'화염'은 효과 패턴으로, 어떤 요소나 마법적 효과를 일으킬 지 결정합니다. 여러 효과를 함께 사용할 수 있지만, 각 효과는 주문에 드는 비스 사용량을 증가시킵니다.<BR>'접촉'은 중심 패턴으로, 효과가 목표물에 전달되는 방식을 결정합니다. 포커스 당 하나의 중심 패턴만 사용할 수 있으며 전체 패턴의 중심에 배치해야만 합니다. 또한 관련된 효과의 비스 사용량 및 세기를 결정할 수 있습니다. '접촉'을 예를 들면, 더 적은 비스로도 사용이 가능하며 약간 더 강해집니다.<BR>다른 패턴을 조절할 수 있는 3번째 유형의 패턴도 있습니다. 비스 소모량이나 세기를 변경하거나, 패턴이 기능하는 방식을 변경하는 것입니다. 아직까지 이쪽은 아무것도 알고 있는게 없지만, '접촉'이 가진 효과처럼 비스 절약 및 강화 효과를 재현할 수 있을 것입니다.<BR>배치된 패턴이 유효하려면 최소 하나 이상의 패턴과 인접해야 하지만, 하나의 패턴이 둘 이상의 인접한 패턴에 영향을 미치도록 배치할 수도 있습니다. 패턴은 중복으로 사용할 수 없습니다.<BR>패턴을 형성하는 비스 결정체들은 제작을 시작하는 순간 소비될 것이며 또한 경험치의 형태로 에너지를 제공할 필요성이 있습니다. 마지막으로 작업 과정 동안 오라에서 비스를 소모하여 포커스에 패턴을 새깁니다.
 research.f_onfire.text=불을 매우 가까이에서 관찰하라
 #
 research.FOCUSPOUCH.title=포커스 파우치
@@ -1480,7 +1481,7 @@ research.FOCUSPROJECTILE.stage.1=적들을 직접 공격해 마법을 쓰는 것
 research.FOCUSPROJECTILE.stage.2=1발도 좋지만, 동시에 여러발의 발사체를 발사할 수 있다면 어떨까요? 이런 식으로 마법을 발사하면 강도와 정확도는 떨어지겠지만, 광역 범위로써 차지하는 이득은 그것을 보완하고도 남을 것입니다.
 #
 research.FOCUSBOLT.title=포커스 중심: 전광
-research.FOCUSBOLT.stage.1=마법 발사체를 발사하는 것은 때때로 귀찮은 일입니다. 목표를 향해 나아가는 데 거리는 시간이 걸리적거립니다.<BT>마법의 에너지가 담긴 채찍같은 번개가 훨씬 좋을 것입니다. 즉시 목표에 영향을 미칠 것이며 목표를 정하는 것 또한 훨씬 쉬울 것입니다. 불행히도 이러기 위해선 더 많은 비스를 써야겠지만, 그럴 가치는 충분합니다.
+research.FOCUSBOLT.stage.1=마법 발사체를 발사하는 것은 때때로 귀찮은 일입니다. 목표를 향해 나아가는 데 걸리는 시간이 걸리적거립니다.<BR>마법의 에너지가 담긴 채찍같은 번개가 훨씬 좋을 것입니다. 즉시 목표에 영향을 미칠 것이며 목표를 정하는 것 또한 훨씬 쉬울 것입니다. 불행히도 이러기 위해선 더 많은 비스를 써야겠지만, 그럴 가치는 충분합니다.
 research.FOCUSBOLT.stage.2='전광'이 작동하는 방식은 번개와 외관적으로 유사할 뿐만 아니라 그 이상의 가능성을 가지고 있습니다. 근처의 대상을 추가로 공격하는 능력을 만들 수 있을 것입니다. 이 추가 공격은 더 약하며 비스 소모량은 높아지겠지만, 한번의 공격으로 여러 목표물을 공격하는 기능은 매우 중요합니다.
 #
 research.FOCUSFROST.title=포커스 효과: 빙결
@@ -1533,133 +1534,133 @@ research.BELLOWS.stage.1=이론을 실험해 볼 수 있는 간단한 부분부�
 research.BELLOWS.stage.2=아케인 풀무는 일상적인 풀무의 기능과는 크게 다를 것이 없습니다. 유일한 차이점은 끝없은 공기의 흐름을 스스로 내보내는 것입니다.<BR>내가 바랐던 대로, 화로에 부착하여 작업 속도를 더 빠르게 할 수 있습니다.<BR>도가니에 붙여 물이 끓는 속도를 더 빠르게 할 수도 있습니다.<BR>풀무에 레드스톤 신호가 전달되면 풀무를 비활성화할 수 있습니다.<BR>이 풀무는 내가 생각하는 것보다 더 많은 사용법이 있을 것이라고 확신합니다.
 #
 research.HUNGRYCHEST.title=배고픈 상자
-research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
-research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories. 
+research.HUNGRYCHEST.stage.1=우선 무생물에 대한 나의 이론을 실험하는 간단한 계획부터 시작해야 합니다.<BR>그 초라한 호퍼는 충분히 값비싼 도구임이 입증되었지만, 제작에는 많은 철이 필요합니다. 때때로 물건들을 창고에 자동으로 저장할 (가장 기본적인)장치를 만드는 데 사용하는 철도 아깝습니다.<BR>만약 상자가 이런 물건들을 스스오 수집할 수 있다면 어떨까요?
+research.HUNGRYCHEST.stage.2=배고픈 상자라고 부르기로 결심한 이 상자는, 상자에 닿는 모든 물건들을 삼켜버릴 것입니다. 사실상 깔대기와 동일한 기능을 하지만, 수집한 어떤 아이템도 다른 인벤토리로 옮겨넣진 않을 겁니다.
 #
 research.JARBRAIN.title=단지 안의 뇌
-research.JARBRAIN.stage.1=Isn't it just the worst when you have a bunch of spare brain matter lying around, but nothing useful to do with it? Time to change that.
-research.JARBRAIN.stage.2=I have discovered a way to reanimate a zombie brain and put it to my own dark uses.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving the jar a good shake will make it surrender some of its ill-gotten gains for your my use.<BR>It will only hold a certain amount of experience. Particle effects will be displayed above the jar when it is full.<BR>This jar can also be used to a much greater effect than bookcases to improve mundane enchanting.
-research.f_BRAIN.text=Examine something brainy.
+research.JARBRAIN.stage.1=뇌를 잔뜩 가지고 있음에도 아무런 도움이 안 되는 것이 최악의 경우 아니겠습니까? 이를 뒤바꿀 시간입니다.
+research.JARBRAIN.stage.2=좀비 뇌를 다시 소생시켜 약간 암흑적인 방향으로 사용할 수 있는 방법을 발견했습니다.<BR>좀비 때 가지고 있던 굶주림의 일부를 그대로 간직하고 있고, 뇌를 먹을 수는 없지만 죽은 자들의 생각과 경험을 먹는 것은 여전히 즐기고 있습니다. 이 병을 잘 흔들면 부당하게 가져간 경험치를 포기하고 제공해줄 것입니다.<BR>경험치는 일정량만 보관할 수 있습니다. 병에 경험치가 가득 차면 병 위에 입자 효과가 표시됩니다.<BR>또한 이 단지는 마법부여를 하기 위한 책장보다 더 효과적인 능력을 가지고 있습니다.
+research.f_BRAIN.text=두뇌 같은 것을 관찰하라
 #
 research.MATSTUDWOOD.title=재료 연구: 나무
-research.MATSTUDWOOD.stage.1=Golemancy places great demands on my craftsmanship as it often requires intricate components with very narrow margins for error. I will need to increase my skill and knowledge of both mundane and arcane materials. My first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. I have found Greatwood to be a superior wood particularly well suited to golemancy.<BR>I should learn as much about it as I can.
+research.MATSTUDWOOD.stage.1=골렘학은 장인 정신을 많이 요구하며, 실수를 방지하기 위해 매우 제한적이고 복잡한 재료를 필요로 합니다. 평범하고 동시에 마법적인 재료들에 대한 나의 기술과 지식을 향상시킬 필요성이 있습니다. 첫번째 목표는 나무입니다.<BR>나무는 다재다능한 물질로, 약하지만 가볍고 작업하기 쉽습니다. 특히 그레이트우드가 골렘학에 뛰어난 소재라는 것을 깨달았습니다.<BR>이렇게 대해 가능한 한 많이 배워야 합니다.
 #
 research.MATSTUDIRON.title=재료 연구: 철
-research.MATSTUDIRON.stage.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
-research.f_MATIRON.text=Examine iron
+research.MATSTUDIRON.stage.1=철은 여러가지 특성을 가지고 있습니다 - 나무보다 훨씬 견고하고 나무로는 절대로 따라할 수 없는 유연함을 가지고 있습니다. 다만 작업하기는 약간 어렵고 꽤 무겁습니다.
+research.f_MATIRON.text=철을 관찰하라
 #
 research.MATSTUDCLAY.title=재료 연구: 점토
-research.MATSTUDCLAY.stage.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron.<BR>Basically, the perfect choice for a thaumaturge on a budget.
-research.f_MATCLAY.text=Examine clay
+research.MATSTUDCLAY.stage.1=점토는 특별히 강하거나 가볍거나 내구성이 있는 것은 아니지만, 다루기 쉽고 불에 강하며 철보다 가볍습니다.<BR>기본적으로, 마도학적인 연극을 찍기 위한 완벽한 선택힙니다.
+research.f_MATCLAY.text=점토를 관찰하라
 #
 research.MATSTUDBRASS.title=재료 연구: 황동
-research.MATSTUDBRASS.stage.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs.<BR>In my opinion it is the best mundane material for golemancy purposes and I would not dream of crafting intricate metals from any other material.<BR>It is quite pleasing to the eye as well.
-research.f_MATBRASS.text=Examine brass 
+research.MATSTUDBRASS.stage.1=황동은 철보다 부드럽지만, 여전히 견고하고 정교한 기계적 구조에 적합합니다.<BR>내 생각에는 골렘학 목적을 위한 최고의 평범한 소재이며 다른 어떤 소재로 복잡한 금속을 만드는 것은 꿈도 꾸지 못할 것입니다.<BR>보기에도 꽤 좋습니다.
+research.f_MATBRASS.text=황동을 관찰하라
 #
 research.MATSTUDTHAUMIUM.title=재료 연구: 사우뮴
-research.MATSTUDTHAUMIUM.stage.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision.
-research.f_MATTHAUMIUM.text=Examine thaumium 
+research.MATSTUDTHAUMIUM.stage.1=사우뮴은 마법을 스펀지처럼 흡수할 수 있는 신비한 물질입니다. 또한 철보다 상당히 더 강력합니다. 안타깝게도 철보다는 약간 더 무거우며, 견고한 만큼 작업하기도 더 힘듭니다.<BR>복잡한 시계태엽 장치 등에서는 황동을 이길 수 없지만, 사우뮴의 강력함은 정밀도를 넘어 강도를 필요로 하는 장치를 만들기 위한 유용할 재료가 될 수 있습니다.
+research.f_MATTHAUMIUM.text=사우뮴을 관찰하라
 #
 research.MATSTUDVOID.title=재료 연구: 공허합금
-research.MATSTUDVOID.stage.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
-research.f_MATVOID.text=Examine void metal 
+research.MATSTUDVOID.stage.1=공허합금은 상대적으로 가볍지만 상당히 부드러운데, 이는 보통 이 금속을 기계 장치에 적합하지 않게 만듭니다. 다행히도 이것의 형태적 특성과 자가 수리 능력은 생각의 틀을 벗어난 마도학자들에게 흥미로운 가능성을 열어 줍니다.
+research.f_MATVOID.text=공허합금을 관찰하라
 #
 research.MINDCLOCKWORK.title=시계태엽 정신
-research.MINDCLOCKWORK.stage.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If I am going to create intelligent magical servants then I will have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by 마도학.<BR>Designing one will be no simple feat however.
-research.MINDCLOCKWORK.stage.2=I hava managed to crack artificial intelligence in the form of a magically powerer clockwork mind. It has its limitations and very little autonomy, but it is a start.<BR>Of course, now that you have a mind it is time to put it to use. I should draw up some designs for golems along with a way to craft them.
-research.MINDCLOCKWORK.stage.3=I have designed a special press that will allow me to craft simple golems. It includes an anvil and forge to make assembling the parts easier.<LINE>To assemble as golem I simply need to access the Golem Press and select the components I wish to craft the golem from. For now the selection is fairly limited, but I am sure I will develop more.<PAGE>Actually designing a golem is fairly straightforward: Each golem is made up from up to 5 components: The base material, a type of head, arms, legs and an optional addon module. Simply select which of these you want to use and a list of crafting components will be displayed on the right. You need to have the listed components in your inventory before you can start the crafting process.<BR>Listed in the middle of the interface you will see the traits, hearts, armor and damage the golem will possess.<BR>Lastly you will need to supply Machina essentia to the press. Several ports are provided below the main press mechanism for this purpose.<PAGE>You can now place the golem wherever you wish, but it will not do much unless you also place down a §5Golem Control Seal§0. To learn more about them see the reseach category that will have unlocked.<BR>When they have no tasks to perform, golems will return to the spot they were originally placed. You can pick up a golem by right clicking on it while sneaking.<BR>It is also possible to assign a color to a golem by clicking on it with dye. This is useful for limiting it specific seals. Picking up the golem will clear the color assigned to it.
+research.MINDCLOCKWORK.stage.1=누구나 만들 수 있는 철 골렘, 눈 골렘, 비슷한 다른 모든 것들은 같은 공통점이 있는데, 예측할 수 없고 통제할 수 없다는 것입니다.<BR>그들을 움직이는 영혼은 야생적이고 자기 뜻대로 행동합니다. 이건 문제가 됩니다.<BR>만약 내가 똑똑하고 마법 같은 하수인을 만들고 싶다면, 명령을 따를 수 있는 정신을 주어야 할 것입니다. 가장 간단한 해결책은 마도학으로 만든 시계태엽 장비입니다.<BR>하지만 설계하는 것은 결코 쉬운 일이 아닙니다.
+research.MINDCLOCKWORK.stage.2=마법처럼 강력한 시계태엽 정신으로 인공지능을 만들 수 있었습니다. 제한이 크지만, 시작일 뿐입니다.<BR>이제 이것을 사용할 수 있는 장치가 필요합니다. 골렘을 정교하게 만들 수 있는 장치를 설계했습니다.
+research.MINDCLOCKWORK.stage.3=간단한 골렘을 만들 수 있는 특별한 프레스를 설계했습니다. 모루와 용광로 등을 포함했기 때문에 부품을 쉽게 조립할 수 있습니다.<LINE>골렘을 조립하기 위해서는 골렘 프레스를 사용해 만들고 싶은 골렘의 구성 요소를 선택하지만 하면 됩니다. 지금은 이 구성 요소가 상당히 제한적이지만, 더 발전할 것이라고 확신합니다.<PAGE>실제로 골렘을 만드는 것은 상당히 간단합니다. 각각의 골렘은 최대 5개의 구성 요소로 이루어집니다: 기본 재료, 팔, 다리, 그리고 선택사항인 추가품입니다. 사용할 부품을 선택하기만 하면 오른쪽에 요구 부품 목록이 표시됩니다. 생성 작업을 시작하려면 먼저 인벤토리에 그 요구품을 가지고 있엉 ㅑ합니다.<BR>인터페이스 중간에 나열된 목록에서 골렘이 지니고 있는 특징, 체력, 방어력 및 공격력을 볼 수 있습니다.<BR>마지막으로 Machina 에센시아를 프레스에 공급해야 합니다. 프레스 밑부분에 몇개의 파이프 구멍이 있습니다.<PAGE>이제 원하는 곳 어디에나 골렘을 배치할 수 있지만, §5골렘 행동의 인장§0을 설치하지 않는 한 많은 일을 할 수 없습니다. 이러한 기능에 대한 자세한 내용은 잠금을 해제할 수 있는 연구 범주를 참고하세요.<BR>해야 할 일이 없을 때, 골렘은 원래 배치되었던 장소로 되돌아갑니다. Shift 키와 함께 우클릭을 하면 골렘을 회수할 수 있습니다.<BR>또한 골렘에 색을 입힐 수도 있습니다. 이는 특정한 인장을 제한하는 데 유용합니다. 골렘을 회수하면 할당한 색은 삭제됩니다.
 #
 research.CONTROLSEALS.title=행동의 인장
-research.CONTROLSEALS.stage.1=Golems cannot do anything they are not told to do. For this purpose I have created Control Seals. You can place these circular clay seals against almost any surface you wish. Once you do they will become become ethereal and intangible, but you will still be able to see them as long as you hold a golem, another seal or §5Golemancer's Bell§0.<BR>The bell will be an important tool as you will use it to fine tune the settings and parameters of the command seals.<BR>Since seals are ethereal you can place down another block in the same spot as you placed a seal.<BR>Several seals can also occupy the same block space as long as the are located on different faces of a block. This should allow you to keep things quite compact.<BR>You can retrieve a seal by shift and right-clicking on it with the bell.<PAGE>Clicking on a seal with the bell will allow you to tweak its parameters. The exact parameters will vary from seal to seal, but most seals will allow you to give them a priority between -5 and +5 (default 0). Tasks created by higher priority seals will be performed first. You will also be able to see a list of required traits that a golem will need to have in order to perform tasks created by that seal.<BR>For example, a seal might require a golem to have the §5Deft§0 trait, or perhaps another seal will require that a golem NOT have the §5Clumsy§0 trait.<BR>For a practical example, look at the §5Collect Seal§0.<LINE>Seals can be set to become inactive when they recieve a redstone signal. All queued or in progress tasks from that seal will also be removed.<BR>It is also possible to assign a color to a seal. If you do so tasks from that seal will only be performed by uncolored golems or golems with the same color. Uncolored seals will assign tasks to all golems (colored and uncolored alike).<BR>You set seal colors in the same location where you set priorities.<BR>You assign a golem a color by using a dye on it. The color will be cleared if the golem is picked up.
+research.CONTROLSEALS.stage.1=골렘은 지시받지 않은 일은 하지 않습니다. 그렇기 때문에 행동의 인장을 만든 것입니다. 원하는 거의 모든 표면에 이 원형의 진흙 밀폐제를 놓을 수 있습니다. 설치하면 완전히 보이지 않게 되지만, 골렘이나 다른 인장, §5골레맨서의 종§0을 들고 있다면 여전히 볼 수  있습니다.<BR>이 종은 행동의 인장의 설정을 미세 조정하는 데 사용하기 때문에 중요한 도구가 될 것입니다.<BR>인장은 공기같은 형태기 때문에, 인장을 설치한 장소에 다른 블럭을 놓을 수도 있습니다.<BR>여러 인장이 서로 다른 면에 위치하는 한 같은 블럭 공간에 겹쳐 설치할 수도 있습니다. 이렇게 하면 꽤 정리된 모습으로 보일 것입니다. 종을 들고 Shift 우클릭을 하면 바라보고 있는 인장을 회수할 수 있습니다.<PAGE>종을 들고 인장을 클릭하면 세부 설정을 조정할 수 있습니다. 정확한 설정은 인장마다 다르지만, 대부분의 인장은 -5~+5(기본값 0) 사이의 우선순위를 부여할 수 있습니다. 우선순위가 높은 인장의 작업을 먼저 수행합니다. 또한 그 인장의 일을 수행하기 위한 필수적인 특성의 목록을 볼 수 있습니다.<BR>예를 들어, 인장은 골렘이 §5손재주§0 특성을 요구할 수도 있고, 다른 실은 §5꼴사나움§0 특성을 거부할 수도 있습니다.<BR>실질적인 예로, §5행동의 인장: 수집§0을 살펴봅시다.<LINE>인장은 레드스톤 신호를 받으면 비활성화되도록 설정할 수 있습니다. 대기중이거나 이 인상에 의해 진행되고 있는 모든 작업도 중지됩니다.<BR>인장에 색상을 할당할 수도 있습니다. 그렇게 하면 그 인장의 작업은 색이 같은 골렘들 또는 색이 없는 골렘만 수행할 수 있습니다. 색이 지정되지 않은 인장은 모든 골렘에게 작업을 요구할 수 있습니다.<BR>인장의 색은 우선순위를 설정하는 위치에서 설정이 가능합니다.<BR>골렘에는 염료를 사용하여 색을 입힐 수 있습니다. 회수하면 색이 지워질 것입니다.
 #
 research.GOLEMDIRECT.title=골렘 마스터리
-research.GOLEMDIRECT.stage.1=Having golems mindlessly following seals is not my only goal. I want them to mindlessly follow me as well.<BR>There has to be a way to make that happen.
-research.GOLEMDIRECT.stage.2=I can now right click on a golem with the §5Golemancer's Bell§0 to have it follow me. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location.
+research.GOLEMDIRECT.stage.1=목표를 맹목적으로 따르는 것이 유일한 목표는 아닙니다. 나 역시 그들이 생각 없이 나를 따르기를 바랍니다.<BR>그런 일이 일어나게 할 수 있는 방법이 분명 있을 겁니다.
+research.GOLEMDIRECT.stage.2=이제 §5골레맨서의 종§0을 들고 골렘에 우클릭해 주인을 따라갈 수 있게 할 수 있습니다. 따라다니는 동안은 인장의 행동에 복종하지 않을 것이며 전투 능력이 있다면 전투에서 주인을 방어할 것입니다.<BR>골렘을 다시 한번 클릭하면 정상적인 기능을 수행할 수 있으며 이 기능을 수행할 위치 기준은 그 위치로 설정됩니다.
 #
 research.MINDBIOTHAUMIC.title=자연마법 정신
-research.MINDBIOTHAUMIC.stage.1=As predicted the clockwork minds I have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so I turning to something I already know will work - living brains.<BR>By studying them I might be able to unlock the secret behind true intelligence and autonomy. 
-research.MINDBIOTHAUMIC.stage.2=Though hesitant at first, I soon overcame any trepidation I felt and delved into Bio마도학 - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and I am now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.<BR>This has also allowed me to create more complex versions of seals I already know.<BR>Another advantage if this mind is that it will allow a golem to learn. As it completes tasks it will gain experience and rank up. Higher ranks grants a golem additional health, speed and damage.<BR>Golems start at rank 0 and can improve up to rank 10.<BR>Golems will retain their rank if picked up.
+research.MINDBIOTHAUMIC.stage.1=시계태엽 정신을 발명했을 때 예상한 대로 추상적인 추론과 자율성의 측면에서는 거의 쓸모가 없었습니다. 더 복잡한 시계태엽을 만들어내려는 시도는 거의 성공적이지 못했습니다. 그래서 이미 알고 있는 항목으로 눈을 돌렸습니다 - 살아 있는 두뇌죠.<BR>이것을 연구함으로써 진정한 지능과 자율성 뒤에 숨겨진 비밀을 풀 수 있을지도 모릅니다.
+research.MINDBIOTHAUMIC.stage.2=처음에는 주저했지만, 곧 느꼈던 어떤 두려움도 극복했고, 살과 기계와 마법을 하나로 합쳐 자연마법을 탄생시켰습니다.<BR>결과는 고무적이며 이제 시계태엽 정신과 이를 강화할 추가품을 인퓨전하여 훨씬 더 큰 능력을 가진 정신을 만들어낼 수 있습니다.<BR>이를 통해 이미 알고 있는 인장의 더 복잡한 버전을 만들 수도 있습니다.<BR>또다른 이접으로는 골렘이 일을 하면서 학습을 한다는 것입니다. 일을 수행함에 따라 경험을 쌓고 랭크를 올리게 됩니다. 고랭크일수록 골렘에게 추가적인 체력, 속도, 공격력을 줍니다.<BR>골렘은 0랭크에서 시작하여 10랭크까지 상승할 수 있습니다.<BR>골렘을 회수해도 랭크는 유지됩니다.
 #
 research.SEALCOLLECT.title=행동의 인장: 수집 
-research.SEALCOLLECT.stage.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
-research.SEALCOLLECT.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
+research.SEALCOLLECT.stage.1=이 인장은 범위 내 떨어진 아이템을 지속적으로 검사합니다. 만약 물체가 발견되면, 근처의 모든 골렘들에게 그 물건을 집으라고 지시할 것입니다.<BR>면적 조절이 가능하며 화이트/블랙리스트를 사용하여 특정 항목으로 제한할 수 있습니다.
+research.SEALCOLLECT.stage.ADV=이제 더 많은 항목을 한번에 필터링하고 제어할 수 있는 고급 인장을 제작할 수 있습니다. 하지만 이 인장의 명령을 받으려면 더 지능적일 필요가 있습니다.<BR>항목을 필터링할때는 NBT를 무시하거나, 대미지 값은 무시하도록 하거나, ore dictionary를 사용하거나, 필터에 있는 것과 동일한 모드에서 필터링하도록 선택할 수 있습니다.
 #
 research.SEALSTORE.title=행동의 인장: 보관
-research.SEALSTORE.stage.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).<BR>If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
-research.SEALSTORE.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
+research.SEALSTORE.stage.1=이 인장은 저장소 옆에 배치해야 합니다. 주변 골렘이 가지고 있는 모든 아이템의 가능한 목적지로 저장소를 지정할 것입니다. 저장소가 받아들일 수 있는 한, 골렘은 그 물건을 배달할 것입니다.<BR>화이트/블랙리스트를 사용하여 특정 항목으로 제한할 수 있습니다.<BR>화이트리스트의 경우 인벤토리에 넣어야 하는 특정 항목의 수를 지정할 수 있습니다. 기본적으로 이 숫자는 무한대(금색 별로 표시됨)입니다.<BR>저장소가 아닌 블럭에 인장이 붙어있다면 골렘은 그 위치에 아이템을 떨어뜨립니다.<BR>인벤토리와 마찬가지로 화이트리스트를 사용해 제공받을 아이템 수를 지정할 수도 있습니다. 인장의 1블럭 반경 내에 있는 모든 아이템이 계산됩니다.
+research.SEALSTORE.stage.ADV=이제 더 많은 항목을 한번에 필터링하고 제어할 수 있는 고급 인장을 제작할 수 있습니다. 하지만 이 인장의 명령을 받으려면 더 지능적일 필요가 있습니다.<BR>항목을 필터링할때는 NBT를 무시하거나, 대미지 값은 무시하도록 하거나, ore dictionary를 사용하거나, 필터에 있는 것과 동일한 모드에서 필터링하도록 선택할 수 있습니다.<BR>화이트리스트에서 아이템의 수를 지정한 경우, 이 필터 설정과 일치하는 모든 항목이 계산됩니다.
 #
 research.SEALEMPTY.title=행동의 인장: 비우기
-research.SEALEMPTY.stage.1=I can instruct golems to pick up and store items, but I might also need to retrieve items from inventories. <BR>Designing a seal to do this should be simple enough.
-research.SEALEMPTY.stage.2=This seal is effectively the opposite of the Store seal. It will empty items from the inventory it is attached to. Any nearby golems will simply take the items and hold them. You will need to use other seals to give them instructions as to what they need to do with the items they have taken.<BR>You can filter a specific item to remove or to exclude from removal.
-research.SEALEMPTY.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>You can also have the seal only check for a single item in the filter at a time in the order they are listed.
+research.SEALEMPTY.stage.1=골렘에게 물건을 집어들고 저장하라고 지시할 수도 있지만, 도리어 회수할 수도 있어야 합니다.<BR>이를 위한 인장 설계는 충분히 간단해야 합니다.
+research.SEALEMPTY.stage.2=이 인장은 보관 인장과는 반대입니다. 부착된 저장소의 인벤토리에서 아이템을 비웁니다. 주변의 모든 골렘들은 물건을 꺼내 들고 있을 것입니다. 다른 인장을 사용하여 그 아이템에 대해 수행해야 할 작업에 대한 지침을 제공해야 합니다.<BR>비워야 할 아이템이나 비우지 말아야 할 아이템을 필터링할 수 있습니다.
+research.SEALEMPTY.stage.ADV=이제 더 많은 항목을 한번에 필터링하고 제어할 수 있는 고급 인장을 제작할 수 있습니다. 하지만 이 인장의 명령을 받으려면 더 지능적일 필요가 있습니다.<BR>항목을 필터링할때는 NBT를 무시하거나, 대미지 값은 무시하도록 하거나, ore dictionary를 사용하거나, 필터에 있는 것과 동일한 모드에서 필터링하도록 선택할 수 있습니다.<BR>또한 한번에 필터링 목록의 한 아이템만 계산할 수도 있습니다.
 #
 research.SEALPROVIDE.title=행동의 인장: 제공
-research.SEALPROVIDE.stage.1=I should design a refinement of the Empty seal that will only remove items that are specifically requested by other seals.
-research.SEALPROVIDE.stage.2=This seal is similar to the Empty seal, except it will only remove an item from the inventory if there is a specific need for it.<BR>Certain seals may request provisioning. If they require specific items for their tasks a secondary task will be created telling a nearby golem to retrieve those items from any inventories marked with a Provide seal.<BR>This task will use the requesting seals priority and the golem needs to meet the requirements for both the Provider seal and the requesting seal.<BR>The filter on the Provide seal is merely used to compare what items may be taken from the container. The filters (if any) on the requesting seal will determine the exact item taken.
+research.SEALPROVIDE.stage.1=다른 인장이 특별히 요청한 항목만 꺼내갈 수 있는 비우기 인장의 정교함을 설계해야 합니다.
+research.SEALPROVIDE.stage.2=이 인장은 비우기 인장과 비슷하지만, 특별한 필요가 있는 경우에만 아이템을 꺼내갑니다.<BR>특정 인장은 공급을 요청할 수 있습니다. 만약 그 인장이 작업을 위한 특정한 품목을 요구한다면, 제공 인장은 그 품목을 회수하도록 근처의 골렘에게 명령힙니다.<BR>이 작업은 우선순위가 고려되며, 골렘이 제공 인장 및 요청한 실에 대한 요구사항을 모두 충족해야 합니다.<BR>제공 인장의 필터는 저장소에서 어떤 항목을 선택할 수 있는지를 비교하는 데만 사용됩니다. 요청한 인장의 필터(가 있는 경우)가 정확하게 선택할 항목을 결정합니다.
 #
 research.SEALHARVEST.title=행동의 인장: 수확
-research.SEALHARVEST.stage.1=Farming is a menial task best performed by a golem and not a busy thaumaturge like myself.<BR>Designing a seal that will instruct golems to harvest crops will save me a lot of manual labor in the long run.
-research.SEALHARVEST.stage.2=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
+research.SEALHARVEST.stage.1=농업은 골렘이 가장 잘 하는 일이며 나처럼 바쁜 마법도 아닙니다.<BR>골렘들이 농작물을 수확하도록 가르쳐줄 인장을 설계하는 것은 장기적으로 많은 육체 노동을 덜어줄 것입니다.
+research.SEALHARVEST.stage.2=이 인장은 지정된 지역에서 다 자란 작물이나 다른 수확 가능한 식물을 찾을 것입니다. 일단 발견되면 골렘에게 이 식물을 수확하도록 명령할 것입니다.<BR>필요한 경우, 인장 역시 씨앗(또는 유사품목)을 이용 가능한 한, 수확된 작물을 다시 심도록 요구할 것입니다. 만약 그 씨앗이 이전에 그곳에 심어진 적이 있음에도 불구하고 경작지가 아니라면, 그 땅을 경작지로 바꾸기 위해서 명령할 수도 있습니다.
 #
 research.SEALGUARD.title=행동의 인장: 보호
-research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complext task however and I will need to carefully test the seal to avoid accidents.
-research.SEALGUARD.stage.2=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
-research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
+research.SEALGUARD.stage.1=비록 작지만, 골렘은 완벽하게 전투를 할 수 있어야 합니다.<BR>전투는 상당히 복잡한 일이지만, 사고를 방지하기 위해서라도 신중히 인장을 연구해야 할 것입니다.
+research.SEALGUARD.stage.2=이 인장을 설치하면 침입자로부터 영역보호를 할 수 있습니다. 감지하는 모든 적대적인 생명체들은 근처의 전투 능력을 가진 골렘들이 공격할 것입니다.<BR>만약 골렘이 §5손재주§0를 가지고 있다면, 살해된 모든 생명체들은 경험치를 떨어뜨립니다.<BR>§9또한 이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
+research.SEALGUARD.stage.ADV=이제 목표로 삼을 생물체를 더 잘 지정할 수 있는 고급 인장을 제작할 수 있습니다.
 #
 research.SEALBUTCHER.title=행동의 인장: 도살
-research.SEALBUTCHER.stage.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>I should refine the arcane algorithms in a guard seal to make it more suited for animal farming.
-research.SEALBUTCHER.stage.2=The butcher seal works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least a breeding pair of animals remain alive.
+research.SEALBUTCHER.stage.1=§5보호§0 인장이 동물을 죽이는데 사용될 수는 있지만, 선택적이지 못합니다.<BR>동물 농장에 더 적합하게 만들기 위해 보호 인장의 알고리즘을 개선해야 합니다.
+research.SEALBUTCHER.stage.2=도살 인장은 §5보호§0 인장과 동일하게 작동되지만, 다 자란 동물만들 대상으로 합니다. 게다가 한 쌍의 동물은 살아있는 채로 남깁니다.
 #
 research.SEALBREAK.title=행동의 인장: 블럭 파괴
-research.SEALBREAK.stage.1=Specially equipped and instructed golems should be capable of digging and breaking blocks. I just need to design the proper seal for that task.
-research.SEALBREAK.stage.2=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block does determine how quickly it can be broken.<BR>You can filter what type of blocks are to be broken (or ignored).<BR>It should be noted that due to factors like golem mobility, limited area and speed this seal probably will not make a very effective mining tool, though it could be used as such in a pinch.
+research.SEALBREAK.stage.1=특별한 장비를 갖추고 교육을 받은 골렘은 땅을 파고 블럭을 캘 수 있어야 합니다. 단순히 그 일을 위한 적절한 인장을 설계하면 됩니다.
+research.SEALBREAK.stage.2=이 인장은 영역 내의 모든 블럭을 부수라고 명령합니다.<BR>블럭의 경도는 얼마나 빨리 블럭을 깰 수 있는가를 결정합니다.<BR>부수거나 무시할 블럭을 필터링할 수 있습니다.<BR>한정된 골렘의 속도로 인한 구역 제한 및 이동성과 같은 요인들 때문에, 이것을 채광에 쓰기엔 그다지 효과적이지 않습니다.
 #
 research.SEALLUMBER.title=행동의 인장: 나무꾼
-research.SEALLUMBER.stage.1=While the §5Block Breaker§0 seal can be used to chop down trees it is not particularly effective at the task. I should do something about that.
-research.SEALLUMBER.stage.2=A refinement of the §5Block Breaker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees as it will effectively chop them from the top down.
+research.SEALLUMBER.stage.1=§5블럭 파괴§0 인장은 벌목에는 특별히 효과적이지 않습니다. 뭔가 조치를 취해야 합니다.
+research.SEALLUMBER.stage.2=§5나무꾼§0 인장은 목재의 파괴만을 요청할 수 있지만, 골렘이 부수려는 목재와 연결된 가장 먼 목재부터 캡니다.<BR>이것은 나무를 벨 때 효과적으로 벌목할 수 있기 때문에, 매우 효과적입니다.
 #
 research.SEALUSE.title=행동의 인장: 사용
-research.SEALUSE.stage.1=I should be able to design a seal that allows golems to interact with the world in more complex ways than simply carrying items around or attacking things. There are many objects that require manual operation and maybe I can have golems do that for me.
-research.SEALUSE.stage.2=This seal allows a golem to act like a player and left or right click on the block that you have marked.<BR>It can also click with any items it happens to be holding or specific items you have filtered.<BR>The seal will remain even if the block you placed it on is removed, allowing the seal to target empty air if you wish.<BR>If a whitelist items is specified you can also request it to be §5provisioned§0.
+research.SEALUSE.stage.1=그냥 물건을 나르는 것이나 목표물을 공격하는 것 외에도 좀 더 복잡한 방법으로 세상과 소통할 수 있는 인장이 필요합니다. 수작업을 필요로 하는 장치들이 많이 있기 때문에, 골렘에세 그것을 하도록 시킬 수 있을 것입니다.
+research.SEALUSE.stage.2=이 인장은 골렘이 플레이어처럼 동작하게 하고 표기한 블럭을 좌클릭 또는 우클릭하게 해줍니다.<BR>또한 보유하고 있는 아이템이나 필터링한 특정 아이템을 들고 클릭할 수도 있습니다.<BR>인장은 블럭을 부순 경우에도 그대로 유지되므로 원하는 경우에는 인장이 빈 공기를 목표로 하도록 설정할 수도 있습니다.<BR>화이트리스트가 지정된 경우, §5제공§0을 요청할 수 있습니다.
 #
 research.BASICTURRET.title=자동 쇠뇌
-research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders. 
-research.BASICTURRET.stage.2=I have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile monsters it detects within range. Unfortunately its limited mind does not allow me to fine tune its targets.<BR>It has a very limited internal inventory, but if I place it over an upward facing dispenser it will automatically reload itself from that inventory.<BR>Right clicking on it while sneaking will pick it up.<PAGE>The turrent can ride in a minecart and will reload from a dispenser placed underneath the track.<BR>Passing over an arcane activator rail will change the behaviour of the turrent. If the rail is active it will disable the turret. Passing over an inactive rail will enable it again.
-research.f_DISPENSER.text=Closely examine something that can launch objects.
+research.BASICTURRET.stage.1=떠돌아다니는 몬스터들의 공격이 최근 나의 마음을 가정 방어로 돌렸습니다. 원하지 않는 침입자로부터 거처를 보호해 줄 일종의 자동화 기기를 만들어야 합니다.
+research.BASICTURRET.stage.2=쇠뇌에 정신을 부여해 간단히 자동화된 포탑으로 바꿀 수 있는 방법을 찾았습니다.<BR>이 장치를 설치하면 감지하는 모든 적대적 목표물을 자동으로 사격합니다. 안타깝게도 한정된 정신 때문에 목표를 미세 조정하는 것은 불가능합니다.<BR>내부 인벤토리는 매우 제한적이지만, 위를 향하는 발사기의 인벤토리에 화살을 공급하면 이 위에 있는 쇠뇌는 해당 인벤토리에서 자동으로 화살을 공급받습니다.<BR>Shift 키를 누르고 우클릭하면 회수가 가능합니다.<PAGE>이 포탑은 마인카트에 탈 수 있으며 선로 밑의 발사기에서 화살을 공급받을 수 있습니다.<BR>아케인 활성화 레일을 통과면 포탑의 행동을 바꿀 것입니다. 활성화되면 포탑이 활동을 중지합니다. 활성화되지 않은 선로를 통과하면 다시 작동합니다.
+research.f_DISPENSER.text=물체를 발사할 수 있는 장치를 관찰하라
 #
 research.ADVANCEDTURRET.title=고급 자동 쇠뇌
-research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
-research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
+research.ADVANCEDTURRET.stage.1=최근에 발견한 자연마법 정신은 자동적으로 처리하는 작업에 필요한 몇가지를 개선할 수 있게 해줄 것입니다.
+research.ADVANCEDTURRET.stage.2=고급 자동 쇠뇌는 몇가지 큰 개선을 거쳐 기본적인 자동 쇠뇌와 매우 유사하게 작동합니다.<BR>철 장갑을 추가해 훨씬 견고해졌으며, 더 복잡한 하중 매커니즘 덕분에 발사 속도가 더 빠릅니다.<BR>또한 공격할 수 있는 대상의 유형을 지정할 수 있습니다.
 #
 research.GOLEMVISION.title=골렘의 자연마법 눈
-research.GOLEMVISION.stage.1=I should find a way to improve the visual acuity of my golems.
-research.GOLEMVISION.stage.2=By merging flesh and arcane constructs you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at twice the normal range (32 blocks).<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMVISION.stage.1=골렘의 시력을 향상시킬 방법을 찾아야 합니다.
+research.GOLEMVISION.stage.2=살과 마법 구조를 융합함으로써 대단히 날카로운 눈을 만들어냈습니다.<BR>이러한 안구 세트가 장착된 골렘은 정상 범위(32블럭)의 2배 거리에서 일할 수 있습니다.<BR>§9이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
 #
 research.GOLEMCLIMBER.title=골렘의 기동성: 등산
-research.GOLEMCLIMBER.stage.1=I should find a way to improve the mobility acuity of my golems. Maybe I could give them the ability to climb walls?
-research.GOLEMCLIMBER.stage.2=By equipping a golem with crampons, hooks and various other tools, it will be able to scale sheer walls and other obstacles.<BR>§9This research unlocks additional golem parts§0.
-research.f_SPIDER.text=Closely examine a climbing creature
+research.GOLEMCLIMBER.stage.1=골렘의 기동성을 향상시킬 방법을 찾아야 합니다. 벽을 오르는 능력을 줄 수 있을지도 모르겠습니다.
+research.GOLEMCLIMBER.stage.2=골렘에게 다양한 등산형 도구를 장착함으로써, 깎아지른 벽을 등반할 수 있게 만듭니다.<BR>§9이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
+research.f_SPIDER.text=벽을 타는 생명체를 관찰하라
 #
 research.GOLEMFLYER.title=골렘의 기동성: 비행
-research.GOLEMFLYER.stage.1=I should find a way to further improve the mobility acuity of my golems. Maybe I could give them the ability to fly?
-research.GOLEMFLYER.stage.2=By basically chopping off a golems legs and glueing an Arcane levitator in their place you have managed to get a golem to fly. This grants it good (if slightly erratic) mobility, though it does move slower.<BR>§9This research unlocks additional golem parts§0.
-research.f_BAT.text=Closely examine a flying creature.
+research.GOLEMFLYER.stage.1=골렘의 기동성을 더욱 향상시킬 방법을 찾아야 합니다. 비행을 하는 능력을 줄 수 있을지도 모르겠습니다.
+research.GOLEMFLYER.stage.2=다리가 장착될 곳에 아케인 부양기를 붙여서 비행이 가능한 골렘을 만들 수 있습니다. 이속이 느려지지만 기동성은 확실히 개선됩니다.<BR>§9이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
+research.f_BAT.text=비행이 가능한 생명체를 관찰하라
 #
 research.GOLEMBREAKER.title=골렘의 팔: 블럭 파괴
-research.GOLEMBREAKER.stage.1=I should increase the number of tools and abilities my golems have available to them. Maybe I could give them the ability to break blocks?
-research.GOLEMBREAKER.stage.2=By replacing a golems arms with a set of powerful, diamond tipped pneumatic grinders it will be able to break through all be the hardest material.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMBREAKER.stage.1=골렘에게 제공할 수 있는 도구와 능력의 수를 늘려야 합니다. 블럭을 부술 수 있는 능력을 줄 수 있을지도 모르겠습니다.
+research.GOLEMBREAKER.stage.2=다이아몬드 칼날 원형톱으로 무장한 이 팔은 대부분의 블럭을 뚫어버릴 수 있습니다.<BR>§9이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
 #
 research.GOLEMCOMBATADV.title=향상된 골렘 전투
-research.GOLEMCOMBATADV.stage.1=I should design improved weapons and armor for my golems.
-research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMCOMBATADV.stage.1=골렘의 향상된 무기 및 방어구를 설계해야 합니다.
+research.GOLEMCOMBATADV.stage.2=이제 특수화된 골렘의 무기와 갑옷을 만들어 전투에서 더 효과적으로 활용할 수 있습니다.<BR>§9이 연구는 추가적인 골렘 부품의 잠금을 해제합니다.§0
 #
 research.ARCANEPATTERNCRAFTER.title=아케인 패턴 작업대
-research.ARCANEPATTERNCRAFTER.stage.1=Certain objects are very simple to craft - simply place the same type of item in a pattern and you get what you want. For example combining 2 wood planks to make a stick, or a single ingot making 9 nuggets. This process is so simple that I am sure there is a way to automate it. I have some theories I need to try.
-research.ARCANEPATTERNCRAFTER.stage.2=I have designed a device I am calling the Arcane Pattern Crafter. The Arcane Pattern Crafter needs an inventory above and below it. It will search the inventory above it for components and try to combine whatever it finds in the pattern you have selected. If this results in a valid crafting operation it will place the result in the container below it.<BR>You can change the pattern by clicking on the brass dial on the front of the device.<BR>A redstone signal will disable the device.<LINE>Each crafting operation will drain 1 vis from the aura.
+research.ARCANEPATTERNCRAFTER.stage.1=특정 물체는 만들기 매우 쉽습니다 - 동일한 유형의 항목을 작업대 패턴에 배치하기만 하면 원하는 것을 만들 수 있습니다. 막대기를 만들기 위해 나무 판자 2개를 결합하거나, 9개의 주괴를 하나의 블럭으로 합치는 등의 일 말이죠. 이 과정은 너무 간단해서 자동화할 수 있는 방법이 분명히 있을 것입니다. 시도해볼만한 몇가지 이론이 있습니다.
+research.ARCANEPATTERNCRAFTER.stage.2=아케인 패턴 작업대라고 부르는 장치를 만들었습니다. 아케인 패턴 작업대는 위아래에 인벤토리가 있는 저장소가 필요합니다. 그러면 위의 인벤토리에서 아이템을 검색하여 선택한 패턴대로 아이템을 조합합니다. 조합된 아이템은 밑의 저장소로 들어갑니다.<BR>정면의 조절장치를 클릭하면 패턴을 변경할 수 있습니다.<BR>레드스톤 신호로 비활성화가 가능합니다.<LINE>각 작업을 수행할 때마다 오라에서 1비스를 소모합니다.
 #
 research.ARCANEBORE.title=아케인 보어
-research.ARCANEBORE.stage.1=I need to work out an automated way of digging out large areas. It should be a fairly simple matter to redesign one of my new turrets to target the ground instead of enemies.<BR>My discovery of the breaker focus effect should allow me to create a specialized and limited version of a caster that can be used by this mining turret. 
-research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arcane Bore. Once placed and given a redstone signal it will start digging out an area in front of it. The device requires a pickaxe to be placed inside it. Normally inanimate objects cannot use foci, but with a liberal application of sympathetic magic the focus could be 'tricked' into working.<BR>This had a unforseen benefit as well - the pickaxe is actually being used to dig on metaphysical level and any attributes and enchantments it has is actually applied to the digging process. The pickaxe will wear out however, but much slower than normal - I estimate an average pickaxe will last about 50 times longer.<BR>The size of the area dug is also determined by the material of the pickaxe. The more enchantable the material is, the more efficient the sympathetic magic is, which in turn increases the area that can be dug.<BR>Any blocks dug are ejected at the position of the bore. If there is an inventory adjacent to the bore the items will be placed in there instead.<PAGE>The bore also requires vis to function consuming 1 vis for every 4 blocks dug.<LINE>The bore can be turned to face in direction except down. To change the direction it faces simply left-click on it to make it face towards you.<BR>Like other arcane turrets the bore will also respond to arcane activator rails - passing over an inactive rail will swith it on while an active one will disable it.
+research.ARCANEBORE.stage.1=넓은 영역을 자동으로 채굴할 방법을 찾아야 합니다. 적들 대신에 땅을 목표로 하는 새로운 포탑을 설계하는 것은 꽤 간단한 일이 될 것입니다.<BR>파괴 포커스의 강력한 힘의 발견은 이 채굴 포탑에 사용할 수 있는 특수하고 제한적인 주문을 만드는 것을 가능하게 해줄 것입니다.
+research.ARCANEBORE.stage.2=아케인 보어라고 이름지은 채굴 장치를 설계했습니다. 일단 자리를 잡고 레드스톤 신호를 주면, 앞에 있는 지역을 파내기 시작할 것입니다. 곡괭이가 내부에 있어야만 합니다. 보통 무생물은 포커스를 사용할 수 없지만, 호의적인 마법을 사용해 포커스를 '속여' 작동하게 할 수 있습니다.<BR>또한 예상치 못한 장점도 가지고 있는데, 곡괭이가 실제로 채굴하는데 이용되며 모든 도구의 특성 및 마법부여가 채굴에 적용되기 때문입니다. 곡괭이의 내구도는 소모되지만 50배 정도로 훨씬 느리게 소모될 것입니다.<BR>채굴 통로의 크기 또한 곡괭이의 재료에 의해 결정됩니다. 마법부여가 더 효과적인 물질일 수록 마법은 더 효과적이여서, 결과적으로 채굴 영역이 증가하게 됩니다.<BR>채굴한 모든 블럭은 아케인 보어에서 나옵니다. 아케인 보어 주변에 인벤토리가 있는 저장소가 있을 경우 그 안에 넣어줍니다.<PAGE>아케인 보어는 4블럭을 채굴할 때마다 1비스를 소모합니다.<LINE>아케인 보어는 밑방향을 제외한 모든 방향을 향하게 할 수 있습니다. 방향을 변경하려면 좌클릭을 하기만 하면 사용자를 향하게 됩니다.<BR>다른 아케인 포탑과 마찬가지로 이 아케인 보어도 아케인 활성화 레일에 반응합니다 - 활성화된 선로는 작업을 중지시키며 비활성화된 선로는 다시 작동되게 합니다.
 #
 ##########################################
 # ELDRITCH
@@ -1669,7 +1670,7 @@ research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arc
 ##########################################
 # MISC
 ##########################################
-not.pechwand=아직 이 물건의 작동을 가늠할 수 없다.
+not.pechwand=아직 이 물건의 용도를 모르겠다.
 got.pechwand=으음, 이상하군, 더 조사해볼 필요가 있겠어.
 got.onfire=화염의 감각을 느꼈다.
 research.m_deepdown.text=세계에서 가장 깊은 곳을 찾아라
@@ -1679,7 +1680,7 @@ got.uphigh=눈앞에 세상이 펼쳐져 있다. 관점이 확장되는 것 같�
 got.hellandback=네더를 방문했다.
 got.endoftheworld=엔드를 방문했다.
 research.m_hellandback.text=지옥같은 장소를 찾아라
-research.m_endoftheworld.text=모든 것의 끝에 당도해라
+research.m_endoftheworld.text=모든 것의 끝에 당도하라
 
 research.BASEELDRITCH.title=엘드리치?
 research.BASEELDRITCH.stage.2=쟌넨! 엘드리치는 아직 미완성 상태입니다! 아직 베타버전이니 그러려니 하세요!<BR>- 2hh8899
