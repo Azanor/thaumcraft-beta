@@ -175,7 +175,7 @@ item.nimbus_ring.name=Nimbus Ring
 #
 # Casters & Foci
 #
-item.caster_basic.name=法师护手 
+item.caster_basic.name=法师护手
 item.focus.name=施术核心
 item.focus_blank.name=空白施术核心
 item.Focus.cost1=Vis/次施法
