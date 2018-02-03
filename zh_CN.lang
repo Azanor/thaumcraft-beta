@@ -175,11 +175,11 @@ item.nimbus_ring.name=Nimbus Ring
 #
 # Casters & Foci
 #
-item.caster_basic.name=法师护手
-item.focus.name=Caster Focus
-item.focus_blank.name=Blank Caster Focus
-item.Focus.cost1=Vis/单次施法
-item.focus_pouch.name=法杖核心手袋
+item.caster_basic.name=法师护手 
+item.focus.name=施术核心
+item.focus_blank.name=空白施术核心
+item.Focus.cost1=Vis/次施法
+item.focus_pouch.name=施术核心手袋
 #
 #
 # Misc
@@ -236,15 +236,15 @@ tile.plank.greatwood.name=宏伟之木木板
 tile.plank.silverwood.name=银树木板
 tile.greatwood_stairs.name=宏伟之木楼梯
 tile.silverwood_stairs.name=银树楼梯
-tile.stone.arcane.name=奥术石材
-tile.stone.arcane_brick.name=奥术石砖
-tile.stone.ancient.name=荒古石
-tile.stone.ancient_rock.name=荒古岩
-tile.stone.eldritch.name=邪术石
-tile.stone.ancient_tile.name=荒古砖块
-tile.stone.ancient_doorway.name=荒古门廊
-tile.stone.glyphed.name=雕文石头
-tile.stone.porous.name=透水石
+tile.stone_arcane.name=奥术石材
+tile.stone_arcane_brick.name=奥术石砖
+tile.stone_ancient.name=荒古石
+tile.stone_ancient_rock.name=荒古岩
+tile.stone_eldritch_tile.name=邪术石
+tile.stone_ancient_tile.name=荒古砖块
+tile.stone_ancient_doorway.name=荒古门廊
+tile.stone_ancient_glyphed.name=雕文石头
+tile.stone_porous.name=透水石
 tile.arcane_stairs.name=奥术楼梯
 tile.arcane_brick_stairs.name=奥术石砖楼梯
 tile.ancient_stairs.name=荒古楼梯
@@ -323,7 +323,7 @@ tile.activator_rail.name=Arcane Activator Rail
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
-tile.matrix_cost.name=注墨效能石
+tile.matrix_cost.name=注魔效能石
 tile.table_stone.name=石桌
 tile.table_wood.name=木桌
 tile.candle.white.name=白色油脂蜡烛
@@ -364,7 +364,7 @@ tile.nitor.black.name=黑色闪耀之光
 tile.metal.thaumium.name=神秘块
 tile.metal.void.name=虚空金属块
 tile.metal.alchemical.name=炼金构材
-tile.metal.advanced_alchemical.name=高级炼金构才
+tile.metal.advanced_alchemical.name=高级炼金构材
 tile.metal.brass.name=黄铜方块
 tile.flesh_block.name=血肉方块
 tile.paving_stone.barrier.name=屏障石
@@ -842,113 +842,113 @@ button.down=Scroll down
 ###################
 #
 # GENERAL
-card.study.name=Study %1$s
-card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 10 progress.
+card.study.name=研究 %1$s
+card.study.text=很多时候研究只不过是埋头钻研并投入其中。你研究 %1$s 并获得了10点进度。
 #
-card.reject.name=Reject %1$s findings
-card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
+card.reject.name=放弃 %1$s 发现
+card.reject.text=你意识到 %1$s 对你目前的研究而言无关紧要。你不会在 %1$s 方面取得任何进展，并且不会抽到与之相关的任何选项。你并不会失去已经获得的相关研究进度。
 #
-card.experimentation.name=Experimentation
-card.experimentation.text=You perform some random experiments to see if something could be discovered. You gain 10 to 25 progress in a completely random category.
+card.experimentation.name=实验
+card.experimentation.text=你随机地进行一些实验并试图有所发现。你在一个完全随机的分支获得10到25点进度。
 #
-card.analyze.name=Analyze %1$s
-card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
+card.analyze.name=分析 %1$s
+card.analyze.text=通过彻底分析你在 %1$s 方面的观察，你可能基于这些数据拼凑出一个理论。 失去1份 %1$s 观察来获得25到50点 %1$s 进度并获得5点 %2$s 进度。
 #
-card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories， but you regain 1 inspiration. You may also gain a bonus draw.
+card.rethink.name=反思
+card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10到20点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感。你可能还会得到一次额外的抽卡机会。
 #
-card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories.
+card.ponder.name=沉思
+card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中。
 #
-card.notation.name=Notation
-card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s， but most of the lost progress is added to %2$s.
+card.notation.name=注解
+card.notation.text=当你在记录目前所有的发现时，你发现了一些错误并纠正了它们。你失去 %1$s 方面的所有进度，并将失去的大部分进度计入 %2$s 研究。
 #
-card.balance.name=Universal Theory
-card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories.
+card.balance.name=通用理论
+card.balance.text=片刻的启发让你发现了你所研究的分支之间的联系。你的全部进度平均地分配到目前所有可用的分支当中。 
 #
-card.curio.name=Study Curio
-card.curio.text=While examining a curio often reveals some interesting information it is much better to study it as part of controlled research.
+card.curio.name=研究Curio
+card.curio.text=你在摆弄curio时往往会揭示一些有趣的信息，它可以作为一个很好的对照研究对象。
 #
-card.inspired.name=Inspired
-card.inspired.text=Inspired by the progress you have made so far， your mind explores paths you have not considered before. You gain %1$s %2$s.
+card.inspired.name=启发
+card.inspired.text=受到目前现有进度的启发，你开始考虑你未曾想到的学识。你获得%1$s点 %2$s 进度。
 #
-card.enchantment.name=Study Enchantment
-card.enchantment.text=You study normal enchantment to see how it functions at a fundamental level. You are sure that is shares a lot in common with the enchantment methods used in Infusion and Artifice. You lose 5 experience levels， but will gain 10 to 15 progress in both Infusion and Auromancy. 
+card.enchantment.name=研究附魔
+card.enchantment.text=你通过研究基础附魔来从根本探寻它运作的方式。你相信在注魔和炼化学当中的附魔与之有许多共通之处。你失去5个经验等级，以换取10到15点 注魔和炼化学 的进度。 
 #
-card.beacon.name=Aural Influence
-card.beacon.text=You believe that the beacon interacts in some way with the mystical aura. You carefully study this and while you cannot find anything concrete this time you have been inspired. You regain 2 inspiration and gain 1 bonus draw. 
+card.beacon.name=灵气作用
+card.beacon.text=你相信信标能够以某种方式影响周围神秘的灵气。你仔细地进行研究，虽然没有取得十足的进展，但也从中受到了启发。你获得了2点灵感并获得一次额外的抽卡机会。
 #
-card.dragonegg.name=Draconic Studies
-card.dragonegg.text=The aura around the egg swirls with strange and chaotic energies. Occasionally you glimpse strange order in the chaos. 
+card.dragonegg.name=龙之研究
+card.dragonegg.text=龙蛋周围萦绕着强大的灵力与混沌的能量，偶尔你也能在其中看到混沌的秩序。 
 #
 # ALCHEMY
-card.concentrate.name=Concentrate
-card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Essentia is already a  pure substance， but there is no harm in trying. Often failing at doing something teaches you as much as succeeding. Attempt to concentrate some %1$s essentia. Gain 10 Alchemy and 1 bonus draw.
+card.concentrate.name=浓缩
+card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。源质已经是一种纯净的物质了，但是也不妨一试。往往失败会告诉你成功的秘诀。尝试浓缩%1$s源质，获得10点 炼金术 进度并获得一次额外的抽卡机会。
 #
-card.reactions.name=Reactions
-card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 20 Alchemy.
+card.reactions.name=反应
+card.reactions.text=研究两种不同的Vis之间如何反应也有所裨益。你应当研究%1$s源质如何与%2$s源质进行反应。获得20点 炼金术 进度。
 #
-card.synthesis.name=Synthesis
-card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 30 Alchemy.
+card.synthesis.name=合成
+card.synthesis.text=当源质相互结合形成更复杂的形式时，总会产生许多有趣和复杂的反应。你通过研究%1$s与%2$s源质的结合学到了很多知识。获得30点 炼金术 进度。
 #
 # INFUSION
-card.measure.name=Measure
-card.measure.text=You take some time to make detailed measurements of various types of essentia and the potential vis they contain. Gain 10 Infusion and 1 bonus draw.
+card.measure.name=测量
+card.measure.text=你花费大量时间详细测量不同种类的源质以及它们所蕴含的Vis。获得10点 注魔 进度并获得一次额外的抽卡机会。
 #
-card.channel.name=Channel %1$s Essentia
-card.channel.text=You set up a simple experiment to examine what happens when you channel %1$s during infusion. Gain 15 Infusion.
+card.channel.name=引导 %1$s 源质
+card.channel.text=你通过一些简单的实验来测试注魔过程当中引导 %1$s 源质会发生什么。获得15点 注魔 进度。
 #
-card.infuse.name=Experimental Infusion
-card.infuse.text=By making assumptions on the results of infusing certain objects with essentia and then testing those results valuable insight may be gained. You will learn much by combining %1$s essentia with %2$s and then studying the result. Gain %3$s Infusion.
+card.infuse.name=注魔实验
+card.infuse.text=通过假定使用源质注魔特定物体的效果，并对成果进行测试，你获得了宝贵的见解。你通过将%1$s源质与%2$s进行结合并研究其成果，学到了很多知识。获得%3$s点 注魔 进度。
 #
 # ARTIFICE
-card.calibrate.name=Calibrate
-card.calibrate.text=You take some time to properly calibrate your instruments and tools. Gain 10 Artifice and a bonus draw.
+card.calibrate.name=校准
+card.calibrate.text=你花了一些时间来校准你的仪器与工具。获得10点 炼化学 进度并获得一次额外的抽卡机会。
 #
-card.mindmatter.name=Mind over Matter
-card.mindmatter.text=You carefully examine and take apart some basic components in the hopes of finding new ways to assemble them into more complex creations. Gain %1$s Artifice. 
+card.mindmatter.name=心态至上
+card.mindmatter.text=你仔细地检查拆分了一些基本组件，寻求将他们组装成更复杂的设计的方法。获得%1$s点 炼化学 进度。
 #
-card.tinker.name=Tinker
-card.tinker.text=You start tinkering with some devices to find new ways of incorporating them into magical creations. Gain %1$s to %2$s Artifice.
+card.tinker.name=调整
+card.tinker.text=你开始调整一些设备，希望能够找到新的方式将其纳入到自己的魔法创造当中。获得%1$s到%2$s点 炼化学 进度。
 #
 # AUROMANCY
-card.spellbinding.name=Spellbinding
-card.spellbinding.text=You bind various test enchantments to small pieces of leftover crystal. They have no practical purpose， but grant you invaluable knowledge. Lose up to 5 experience levels， but gain 5 Auromancy per level lost.
+card.spellbinding.name=结合法术
+card.spellbinding.text=你在剩下的小块结晶中测试不同的附魔。漫无目的的尝试给你带来了宝贵的知识。失去最多5个经验等级，每失去一个等级将会为你带来5点 神秘学 进度。
 #
-card.awareness.name=Awareness
-card.awareness.text=You open yourself to the flows of vis around you. You gain a deeper understanding of how it works and the underlying nature of things， but this leaves you metaphysically vulnerable. Gain 15 Auromancy. There is a chance you gain Eldritch knowledge and Warp. 
+card.awareness.name=认知
+card.awareness.text=你置身于Vis的流动之中，你对它如何运作以及事物的基本性质有了更深入的了解，但这也让你的精神变得脆弱。获得15点 神秘学 进度。同时你可能会获得 邪术学 的知识并获得扭曲。
 #
-card.focus.name=Spiritual Focus
-card.focus.text=You focus your mind on the magical and spiritual energy around you， hoping to grow more attuned to its ebb and flow. Gain 10 Auromancy and a bonus draw.
+card.focus.name=全神贯注
+card.focus.text=你将注意力集中在周围的魔法和精神能量上，希望能够与它们的波动相协调。获得10点 神秘学 进度并获得一次额外的抽卡机会。
 #
 # GOLEMANCY
-card.sculpting.name=Sculpting
-card.sculpting.text=By creating simple and short lived animated figurines you can hone your knowledge. Gain 15 Golemancy.
+card.sculpting.name=雕塑
+card.sculpting.text=通过创造简单的短时活动塑像，你磨练了你的知识。获得15点 傀儡学 进度。
 #
-card.scripting.name=Scripting
-card.scripting.text=A large part of Golemancy is creating intricate arcane texts to control your creations. By creating some test scripts you can further your understanding. Gain 20 Golemancy. This consumes additional paper and ink from the research table. 
+card.scripting.name=脚本
+card.scripting.text=傀儡学很大一部分是创造复杂的奥术文字来操控你的造物。通过创建一些测试脚本，你增进了你的学识。获得20点 傀儡学 进度。这会额外消耗研究台上的墨水与纸张。
 #
-card.synergy.name=Synergy
-card.synergy.text=At its root Golemancy is a blend of alchemy， artifice and infusion. Only by fully understanding how these three disciplines interact with each other will you be able to master Golemancy. Lose 15 points divided evenly between Alchemy， Artifice and Infusion to gain 30 Golemancy.
+card.synergy.name=协同
+card.synergy.text=从根源来说，傀儡学是炼金术、炼化学与注魔的结合。只有充分理解这三个分支如何相互作用，才能够真正精通傀儡学。 总共失去15点进度，平均分配于 炼金术、炼化学与注魔 方面，同时获得30点 傀儡学 进度。
 #
 # ELDRITCH
-card.darkwhisper.name=Dark Whispers
-card.darkwhisper.text=The brain in a jar has been very talkative lately. It promises you ancient secrets for all your experience. Can you trust it?
+card.darkwhisper.name=黑暗低语
+card.darkwhisper.text=最近缸中之脑总是口若悬河，它承诺将所有古老的秘密都告诉你。你能相信它么？
 #
-card.glyph.name=Study Glyphs
-card.glyph.text=You study the ancient glyphs. What Eldritch secrets do they hold? You find the ancient language difficult to understand， but now and again some nugget of truth reveals itself to you.
+card.glyph.name=研究雕纹
+card.glyph.text=你研究古代雕纹，不知其中蕴含了什么邪术学的奥秘。这些古代的语言晦涩难懂，但一个个细碎的事实正将它揭示于你。
 #
-card.portal.name=Voices from Beyond
-card.portal.text=Bathed in the light of this strange portal you find strange thoughts invading your mind. Most are incomprehensible， but some fills your mind with strange inspirations.
+card.portal.name=异界回响
+card.portal.text=笼罩在传送门发出的诡异光线中，诡异的思绪侵入你的大脑。其中大部分的内容都难以理解，但也有些为你带来了奇怪的灵感。
 #
-card.revelation.name=Revelation
-card.revelation.text=Studying the Eldritch is a dangerous pursuit， but the knowledge you can uncover is often worth it. You gain 25 Eldritch progress and 5 progress a random category. You will also gain some temporary and normal Warp.
+card.revelation.name=启示
+card.revelation.text=研究邪术学的道路充满了未知的危险，但为了所揭示的学识往往是值得的。你获得25点 邪术学 进度并获得5点随机分支的进度。同时你也会获得一些暂时扭曲与普通扭曲。
 #
-card.realization.name=Sudden Realization
-card.realization.text=While pondering the nature of the Eldritch you come to a sudden and shocking realization on the true nature of the universe. You gain 10 Eldritch progress and 5 progress in two random categories. You will also gain some temporary Warp. There is a chance you may gain some normal Warp as well.
+card.realization.name=顿悟
+card.realization.text=在探寻邪术学的本质时，你突然对天地万物的本质有了惊人的见解。你获得10点 邪术学 进度并获得5点两个随机分支的进度。 同时你也会获得一些暂时扭曲。你也有可能会获得一些普通扭曲。
 #
-card.truth.name=Find Truth
-card.truth.text=You desperately try and find the truth behind the Eldritch and what it could mean for the world. You gain 5 to 15 Eldritch progress and a bonus draw. You will also gain some temporary Warp.
+card.truth.name=寻求真相
+card.truth.text=你拼命寻求邪术学背后的真相以及它对于世界的意义。你获得5到15点 邪术学 进度并获得一次额外的抽卡机会。 同时你也会获得一些暂时扭曲。
 #
 # Other
 ###################
@@ -1108,7 +1108,7 @@ tc.aspect.praecantatio=形式魔法，符咒，附魔
 tc.aspect.alkimia=炼金术，化学
 #
 # Research categories
-tc.research_category.BASICS=基础学
+tc.research_category.BASICS=基础信息
 tc.research_category.AUROMANCY=神秘学
 tc.research_category.ALCHEMY=炼金术
 tc.research_category.ARTIFICE=炼化学
@@ -1156,75 +1156,75 @@ research.EldritchGuardian.stage.1=这些幽魂似的生物是危险的威胁。�
 #
 research.EldritchCrab.stage.1=邪术爪牙是最为诡异的生物。我敢肯定这些生物是邪恶的魔法造物。<BR>那对孔武有力的双螯在战斗中充满威胁，但更令人颤栗的是他们使用这门兵器的方式。他们会跳向并试图把敌人的脑袋斩下。得手后他们会入侵这具尸体并取而代之，而它们的腹部则完成了对于死者头部的拟态。<BR>实际他们控制的躯体和普通僵尸半斤八两，于是他们这么做的目的是使我大意 - 少了坐骑的他们更具有威胁。或许他们是疯狂神秘使创造的杀人兵器？ 
 #
-research.CrimsonCultist.title=The Crimson Cult
-research.CrimsonCultist.stage.1=These red-robed cultists have been popping up of late. Their goals are unknown to me and they seem unwilling to talk. They seem wrong somehow. Their grip on sanity seems tenuous at best， but the wrongness goes much deeper than that. It is hard to describe.<BR>My presence seems to enrage them and I believe it might have something to do with my capacity for thaumaturgy.<BR>Their clerics are also capable of wielding magic and I can sense that they are drawing it from the aura， but the magic itself does not seem to be thaumaturgy. Whatever it is， it makes my skin crawl and I can feel the aura buckling and tearing every time they draw upon it.<BR>Some of them seem to carry a book around. I should try and get my hand on one of those， maybe it will tell me more about this strange cult. I should be careful though， some knowledge can be dangerous.
-research.CrimsonCultist.stage.2=Much of this book is written in a spidery and unintelligible script， but what I can understand offers me some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery， but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear， but I doubt it is anything good.<BR>Interestingly enough， I think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+research.CrimsonCultist.title=血腥崇拜
+research.CrimsonCultist.stage.1=这些身着红衣的邪教徒最近来到了这个世界。我并不知道他们想要什么，看上去他们也不会愿意交谈。他们看上去也不太正常，他们对于理智的控制微不足道，不过他们还有更多诡异的地方。这一切很难形容。<BR>我的存在似乎激怒了他们，我相信这与我对神秘学的了解脱不了干系。<BR>血腥教徒也同样能够施展法术，我能够感受到他们正在吸取灵气的能量，但是他们的法术似乎并不属于神秘学的范畴。 无论如何，他们让我毛骨悚然，并且我能够感受到他们在吸取灵气时带来的扭曲和撕裂。<BR>他们中有些人似乎带着一本书，我应该想办法去搞到一本，也许其中就有更多关于这个邪教组织的信息。不过我应该谨慎一些，有些知识可能暗藏危机。
+research.CrimsonCultist.stage.2=这本书中的大部分文字都是细长的神秘符号，不过其中极小部分能看懂的文字依然让我进一步了解这个血腥教派的目标。<BR>他们的起源充满了神秘的气息，无从得知，但他们的目标似乎是为了完善一个被称作“Apertis Oculis”的仪式 — 开眼仪式。有关这个仪式的进一步信息尚不清楚，不过我相信这肯定不是什么好事<BR>有趣的是，神秘学似乎恰是他们所寻求的最后一块拼图。显然，只有一个疯子才会去追寻这样的学识。
 #
-research.TaintCrawler.stage.1=These disgusting grubs secrete corrupting Taint wherever they go. Most of the time the Taint is short-lived if they wander too far from the core of the Taint growth， but other times this can cause the Taint to spread much quicker than it normally would.<BR>It is best to destroy them on sight.
+research.TaintCrawler.stage.1=这些恶心的小虫子一路散播着污染的腐化。大多数情况下，这些远离腐化源的腐化很快就会消散，但有时它们也会让腐化扩散得远比平时快得多。<BR>我想最好还是一看到它们就把它们破坏掉吧。
 #
-research.Taintacle.stage.1=These dangerous growths look like giant tentacles. They will lash out at anything that comes nearby.<BR>Thought they are immobile keeping your distance might not keep you safe as miniature versions of them will spawn all around you should you draw their attention.
+research.Taintacle.stage.1=这些巨大的腐化生物就如同触手一样。它们对附近任何东西进行猛击。<BR>虽然它们无法移动，与它们保持一定的距离也无法确保你的安全，一旦你引起了它们的注意，它们就会在你的周围生成小触手来展开攻击。
 #
-research.TaintSwarm.stage.1=Sometimes purple hive-like growths will form on the remains of trees within Taint. Swarms of tiny biting creatures will spawn from these growths and rove around in aggressive swarms.<BR>They move fast， are hard to avoid and even harder to hit. Fortunately the individual creatures are not particularly robust so a properly prepared traveller should be able to dispatch them easily.
+research.TaintSwarm.stage.1=有时，会有紫色蜂巢状的物体滋长在腐化之地的枯木上。成群的微小生物生长在其中，极具攻击性地徘徊在其周围。<BR>它们行动灵敏，难以躲避并且很难被击中。好在个体的微小生物并不强大，一个准备充足的旅行者应当能够轻松地除掉它们。
 #
-research.TaintSeed.stage.1=Occasionally tight knots of Tainted tendrils will form. From out of this 'seed' foul tainted air will spew which acts as the basis for new Taint growth.<BR>These seeds can lash out to defend themselves， but the risk must be taken if you wish to rid an area of taint.<BR>Without the foul air these seeds create， tainted growth soon withers and dies. 
+research.TaintSeed.stage.1=有时腐化须蔓相互紧绕，使得腐化的空气从这个“种子”中不断喷出，形成新的腐化生长的基础。<BR>这些腐化的种子能够通过鞭打保护自己，如果想要去除这个区域的腐化就必须要承担一定的风险。<BR>如果没有这些种子散发腐化的空气，腐化的增长会迅速枯萎消亡。 
 #
-research.FIRSTSTEPS.title=First Steps
-research.FIRSTSTEPS.stage.1=Who would have thought that a few sprinkles of dust could have created this marvellous book? It is mostly blank， but it hints at a powerful new form of magic: Thaumaturgy.<BR>Firstly I will need to study the magical world that has been shown to me. For that I will need a tool - a Thaumometer the book calls it.<BR>A normal crafting table won't do however since the magical energies I need to channel while crafting it are quite delicate. A sprinkling of Salis Mundus on a mundane crafting table should solve that. The book has taught me the proper incantation to use so it should be a simple matter.<BR>To keep myself on track I will make note of all my required goals on the first page of every project. 
-research.FIRSTSTEPS.stage.2=Progress! I now have an Arcane Workbench at my disposal. It works much like a mundane crafting table and can even be used as such， however there are a few key differences.<BR>Firstly， many arcane recipes will require the use of those vis crystals I've been finding of late. They act as a focus for the magical energy I need to channel into the items I craft. The book calls this magical energy Vis.<BR>Supposedly this energy is all around me， but as yet I cannot perceive or measure it.<BR>It is time I craft the Thaumometer and use it to study the world around me. It should clearly mark those things I still need to examine.<BR>I have placed a bookmark to the Thaumometer recipe on the right.
-research.FIRSTSTEPS.stage.3=Such strange wonders are being revealed to me. Peering through the lens of the Thaumometer shows me a world coursing with magic， Vis as the books calls it.<BR>Normally this energy is a pure ocean of magic that ebbs and flows， but it also permeates all things， both animate and inanimate. The books calls Vis in this state Essentia. Where Vis is formless and pure， Essentia is more rigid in its nature and falls into a multitude of clearly defined types， each mixing together with others to form greater and more complex types of essentia.<BR>I am not quite sure if the matter it is bound to gives Essentia its nature， or that the very nature of matter depends on the Essentia it contains. This bears further study.<BR>I am keeping a log of all the types of essentia I discover. A bookmark on the left will show my current knowledge.<BR>For now I need to focus my energies elsewhere - three paths have opened before me. Which will I take first?
+research.FIRSTSTEPS.title=最初的摸索
+research.FIRSTSTEPS.stage.1=有谁能想到一些粉末就能够创造出这本奇异的书呢？它大部分是空白的，但是它揭示着一种强大的全新魔法形式：神秘学。<BR>首先，我需要研究这个魔法世界，为此我需要一个工具：魔导透镜，至少这本书上是这么写的。<BR>因为制作时需要引导微妙的魔法能量，普通的工作台并没有什么用处，向工作台上撒上一把世界盐应该就能解决这个问题了。这本书上写着正确的咒语，我想这一切应当是非常容易的。<BR>我在每个项目的第一页记录我的目标，这样我就能够知道自己应该怎么做了。 
+research.FIRSTSTEPS.stage.2=有所进展！我拥有属于自己的奥术工作台了！它和普通的工作台差不多，需要时也可以当工作台使用，不过其中还有一些关键的不同。<BR>首先，许多奥术配方都要用到我最近发现的那些魔力结晶，借助它们将魔法能量聚焦到我所制作的物品上。这本书将这种魔法能量称为Vis。<BR>据称这种能量在我身边无处不在，但我根本无法测量甚至察觉它的存在。<BR>是时候制作一个魔导透镜来研究周围的世界了，它应该会清楚地标记出还有待我观察的东西。<BR>我为魔导透镜的配方在右侧留下了一个书签。
+research.FIRSTSTEPS.stage.3=这些奇特的事物正向我揭示着这个世界。通过魔导透镜，我看到了一个萦绕着魔力的世界，或者按书中所说，充满了Vis。<BR>通常，这种能量是一片纯净的魔法海洋，不断地渗透、流动，但它也同时渗透到世间万物当中，无论是有生命的，还是无生命的。这本书将这种形态的Vis称为“源质”。如果说Vis是无形而纯净的，源质则固化为许多明确的类型，相互结合，形成更强大、更复杂的源质类型。<BR>我不清楚是世间万物凝聚了这些源质，还是这些源质聚合成了世间万物，这还有待我进一步的研究发现。<BR>我记录了所有我发现的源质类型，左侧的书签会显示我当前的知识水平。<BR>现在，我需要把我的精力集中到其他地方：三条新的道路出现在我的面前，我该何从下手？
 #
-research.KNOWLEDGETYPES.title=Types of Knowledge
-research.KNOWLEDGETYPES.stage.1=There are three main types of knowledge: Observations， Theories and Epiphanies. Observations and Theories are further subdivided into the main research categories like Alchemy and Artifice.<LINE>Observations are just that - observations you have made in the real world by scanning objects. Practical observation often give insights into how things work and by keeping field notes of those observations you will slowly build a solid base of knowledge to work from.<LINE>Theories， in a nutshell， are ways of understanding thing through careful observation， rational thought and practical experimentation. Much of thaumaturgical research requires crafting theories to better understand research categories.<LINE>Epiphanies are rare flashes of insight and understanding that are required to complete certain kinds of key research.
+research.KNOWLEDGETYPES.title=知识的类型
+research.KNOWLEDGETYPES.stage.1=知识分为三种主要的类型：观测、理论和顿悟。观测和理论还会进一步划分不同的研究领域，比如炼金术和炼化学。<LINE>观测，顾名思义，就是通过透镜扫描从世界中得到的知识。实际观测往往会洞悉事物的规律，并且通过观察记录你将逐渐建立起坚实的知识基础。<LINE>理论，简而言之，就是通过仔细观察、理性思考和实践经验来理解事物的方法。许多的神秘学研究的类型都需要构造理论依据来进一步开展研究。<LINE>顿悟，对于完成某些特定的研究来说，是你对知识和见解的灵光一现。
 #
-research.THEORYRESEARCH.title=Theorycrafting
-research.THEORYRESEARCH.stage.1=For me to make any progress as a thaumaturge I cannot rely on simply studying the world around me or stumbling upon ancient knowledge. I will need to make my own discoveries and expand my knowledge through experimentation. Crafting my own theories is the only way.<BR>I will need to create a comfortable workspace to do my research with ample supplies like writing materials and paper. I should craft a some scribing tools and place it upon a table. 
-research.THEORYRESEARCH.stage.2=Now that I have a workspace I should start performing some research. I can now formulate theories on how to manipulate magic to my own ends.<BR>Firstly I should make sure the table has plenty of paper and my scribing tools has ample ink. I can now choose to start researching the theory.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>At the top of the page I will see how much inspiration (represented by light bulbs) is available to me for this round of research. When I do a stack of papers will appear on the left. If I select them I will be given the choice of two research paths I can follow. Each route will state what knowledge it will grant me， divided between one or more research categories.<BR>Some of the choices will require items. These items will usually be consumed.<BR>Normally I will only be able to pursue research categories that I have unlocked， though I am sure I might occasionally be able to discover completely new avenues of research.<BR>I can keep drawing to further my knowledge. I should note however that each choice I make will cost some of my inspiration. Once I run out the research will be completed. The amount of initial inspiration available to me will increase as my knowledge of magic increases.<BR>My progress in research categories is shown as a percentage - 100% completion represents 1 full theory. Getting less than 100% in a category still counts however and will be added to your current knowledge once you complete your research. It is possible to get more than 100% in a category. The highest category in your current research will also gain a substantial bonus once you complete it.<BR><PAGE>§nResearch Aids§r<BR>Normally research is a bit scattershot. I can direct my research with the use of research aids. If I use certain nearby blocks， items and curios during the research process it will allow me to focus my research in a certain direction.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>For example having access to a bookshelf will give me reference materials that I can use during the research process. These come in the form of limited special draws that have a higher chance of occurring than normal draws. These will have a gilded border to differentiate them from normal draws. For example the bookshelf grants the Balance research option and two chances at the Notation research option that can only be gained when you use the bookshelf.<BR>When you start your initial research you can choose which research aids to use， but it should be noted that each aid you use reduces your initial inspiration by one.<BR>There are potentially a lot of things that could be used as research aids. I should experiment.
+research.THEORYRESEARCH.title=理论研究
+research.THEORYRESEARCH.stage.1=对于我这样的神秘使，仅仅通过研究周围的世界或是偶然发现古老的知识是无法取得进展的。我需要有自己的发现，并通过实验来提高我的知识水平。只有构造属于我自己的理论才是唯一的方法。<BR>我需要一个的舒适的工作空间来进行研究，并且准备好充足的书写工具和纸张。我先应该制作一个笔与魔放到桌子上。 
+research.THEORYRESEARCH.stage.2=现在我已经有一个合适的工作空间，是时候进行一些研究了。为了完成我的追求，我现在可以开始构造操纵魔法的理论了。<BR>首先，我需要确保台桌上有足够的纸张，我的书写工具有足够的墨水。我现在可以选择开始研究理论了。<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>在画面的顶部，我能够看到我在这一轮研究当中拥有多少灵感（以灯泡表示）。在我进行研究时，左侧会出现一叠纸，选择他们就会给我提供两个不同的研究路线选择。每一条道路都会指明为我提供何种知识，改变额在一种或多种分类上的见解。<BR>有些选择会需要特定的物品，这些物品在研究的过程当中往往会被消耗。<BR>通常来说，我只能推进已经解锁的研究分支，但我很肯定我偶尔也能发现全新的研究分支。<BR>我能够不断地进行研究，但值得注意的是我每次进行选择都会消耗我的灵感，当我灵感枯竭时研究就会完成。我初始可用的灵感数量会随着我的魔法知识的增进而增加。<BR>我在研究分支的进度会以百分比显示 — 达到100%完成度就会提供一份理论，即使进度没有达到100%也会在完成研究时累加到现有的进度当中，同时也有可能在某一分支的进度超过100%。当前研究进度最多的分支将会在研究完成时获得额外的进度加成。<BR><PAGE>§nResearch Aids§r<BR>研究通常表现得漫无目的，而我能够通过一些其他手段来指导研究的方向。在研究过程当中使用一些特定的临近方块或物品将能够让我把研究聚焦于一个特定的研究分支。<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>例如，使用书架能够在我的研究过程当中提供参考资料，这将会带来一些特殊的选项，它们出现的几率比普通选项更高，这些选项将会用金色的边框突出表示以作区分。比如当你选择书架辅助研究时，它会提供“平衡”和“注解”两个选项。<BR>当你开始研究时，你可以选择使用东西辅助研究，但是值得注意的是，每选择一个额外的辅助设施都会降低初始的灵感数量。<BR>可能有很多东西能够帮助我进行研究，值得我进行一些尝试。
 #
-research.UNLOCKAUROMANCY.title=Discovering Auromancy
-research.UNLOCKAUROMANCY.stage.1=Crafting objects of power with Vis has opened a whole now world for me， yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
-research.UNLOCKAUROMANCY.stage.2=Slowly but surely I am beginning to understand the nature of Vis. So much is still hidden to me， but I think I now know enough to begin moulding it to my will. For this I will need a tool. A very special tool.<BR>I have stumbled upon some dusty scrolls penned by a long dead thaumaturge. It describes how to craft wands that are used to store and channel vis. The insights I learned from the scrolls were useful， but the application seems so limiting. Why trap vis in a wand when it is all around you? Even the wand itself seems impractical to me. If you need something to grasp and shape the aura it should be something appropriate. Something like a glove.<BR>Any old glove will not do - it will need to be handcrafted from the finest leather and laced with vis conductive materials. Iron is a poor vis conductor， but it is all I have available to me at this time.<BR>Luckily there will be no mucking about with magical woods and so forth to store the vis， but I will need some way of channeling vis directly from the aura - a vis resonator if you will. I will also attach a stripped-down thaumometer to the glove so I can monitor the local aura.<BR>Lastly I will place a receptacle on the back of the glove. The scrolls mentioned using special crystalline foci to channel the vis from the wands. Their crystalline lattice shapes the vis into different configurations to create all manner of useful effects. Brilliant actually. It irks me that I did not think of it first. Fortunately I have already thought of several ways to improve on the design and the shape of the glove lends itself on manipulating the flow of vis much more than the old style wands could.  
-research.UNLOCKAUROMANCY.stage.3=I have managed to put together a basic casting gauntlet and I am quite pleased with the result. It is still a bit rough， but that is to be expected from a prototype. Even as a prototype it will prove useful， allowing me to make delicate adjustments or alteration to thaumaturgical devices and safely manipulate them in all manner of ways.<BR>My initial experiments have shown that it is only able to draw vis from a relatively small area around me. I should be careful not to deplete the aura.<BR>My main stumbling block now is that in its current state it is little more than a magical wrench. Until I crack the secret of crafting foci its utility will be limited. The path before me is clear...
+research.UNLOCKAUROMANCY.title=发现：神秘学
+research.UNLOCKAUROMANCY.stage.1=借助Vis来制作拥有魔力的物品已经为我打开了新世界的大门，但我绝不会止步于此。一定有办法直接操纵周围的灵气，一定有一种将Vis从空气中引出的方法，让它们为我所用。<BR>我应该研究我周围的世界，走到世界的边界，在那里我会学到我所需要的知识。<BR>有时我能感受到自己正受到超出我理解能力之外的力量的驱使 — 听不见的声音促使我走向强大的力量与知识。<BR>操纵Vis将会成为这个旅程上的又一大步。
+research.UNLOCKAUROMANCY.stage.2=慢慢地，我确实开始理解Vis的本质了。虽然这一切对我而言仍然无比神秘，但是我觉得我已经掌握足够的学识，可以依我的意志来开始塑造它了。<BR>我偶然发现了一张尘封已久的卷轴，似乎是一位死去已久的神秘使留下的。其中描述了如何制作用于储存和使用Vis的法杖。我从这张卷轴中获得了有用的见解，却实用性似乎非常有限。为什么要在一个充满Vis的环境当中把Vis抑制在法杖当中呢？况且一根法杖对我而言似乎也是天方夜谭。如果你需要一个合适的工具来控制并操纵灵气，我想手套就是个不错的选择。<BR>这肯定不能用旧手套来制作。它需要用最好的皮革手工制成，并且使用能够传导Vis的材料制作。铁并不是什么不错的Vis的传导物，不过这也是我现在手头仅有的材料了。<BR>好在我不需要在魔法森林里苦苦寻找储存Vis的方法，不过我还是需要一种能够直接从灵气场中抽取Vis的方法 — 一个魔力振谐器。同时，我在手套上附加了一个简化的魔导透镜，这样我就能实时注意当前灵气场的状态了。<BR>最后，我将在手套背面设置一个插槽。卷轴中提到一种结晶的核心，借此来使用法杖中的Vis。不同形式的结晶能够创造各种有用的效果。我居然一开始没有想到这种绝妙的方法。好在我已经想到了许多改进这种设计的方法，并且手套的形式比旧式魔杖能够更好地控制Vis的流动。
+research.UNLOCKAUROMANCY.stage.3=我已经成功制作了一个施术用的护手，虽然看上去有些粗糙，不过我对此也是颇为满意的，毕竟它仅仅计划为一个原型装置。即使作为一个原型装置，它也意义非凡，它能够让我精确调整改造神秘使的装置，并且以各种安全的方式操纵它们。<BR>我最初的实验表明，它只能从我周围的一小片区域中吸取Vis，我应该小心不要耗尽这片区域中所有的灵力。<BR>目前，它不过是一个魔法扳手而已，面前最大的障碍就是如何破解制作核心的奥秘，否则它的效用将受到极大的限制。我面前的道路如今无比清晰……
 #
-research.UNLOCKARTIFICE.title=Discovering Artifice & Infusion
-research.UNLOCKARTIFICE.stage.1=I have learned much and one of those things is how much more I still have to learn. The worlds revealed to me are arcane and mysterious with many invisible wonders... and dangers.<BR>I need a tool that will allow me to see the unseen and ease my journey of discovery. The old texts I have read make mention of a set of goggles commonly used by thaumaturges for just this purpose.<BR>Alas the text does not mention exactly how they work， so I will need to design my own from first principles.
-research.UNLOCKARTIFICE.stage.2=I have penned my own designs based on the little information I could find and my own experimental findings. Time to put theory into practice.<BR>Not only will the goggles reveal hidden things， but they will also reduce the vis cost of certain thaumaturgical tasks.<BR>Lastly these goggles will allow me to see the vis or essentia content of objects in the world which will prove a great boon I am sure.<PAGE>The most important thing I have learned however is the possibility of crafting delicate mechanical devices using magic and infusing them with arcane power. These two paths of study are separate， yet linked in subtle and mysterious ways. I should study them closely.
+research.UNLOCKARTIFICE.title=发现：炼化学与注魔
+research.UNLOCKARTIFICE.stage.1=我已经学习到了许多新的知识，其中之一就是我必须要进一步增进我的学识。<BR>我需要一个工具，能让我看到那些肉眼无法观察到的事物，来让我的旅途更为轻松。我从那些古老的文字中了解到，彼时的神秘使为此制作了一组常用的护目镜。<BR>遗憾的是，文中并没有提到它是怎么工作的，所以我需要从头来设计这个装置。
+research.UNLOCKARTIFICE.stage.2=我根据仅有的一些信息外加一些个人经验做出了我的设计，现在，是时候将理论付诸实践了。<BR>护目镜不仅能够揭示一些隐藏的信息，还可以降低特定操作时的Vis消耗。<BR>最后，这副护目镜能让我看到物体中蕴含的Vis及源质，我相信这也会是一个不小的帮助。<PAGE>此外，我所学到最重要的知识，便是我能够通过使用魔法并注入奥术能量来制作精致的机械装置。这两种研究道路有所区别，但又以微妙和神秘的方式相互联系。我应该对此进行仔细的研究。
 #
-research.UNLOCKALCHEMY.title=Discovering Alchemy
-research.UNLOCKALCHEMY.stage.1=Brewing simple potions has its uses， but true alchemical interactions require more than mixing a few monster parts together.<BR>I think Essentia holds the key to a much more sophisticated way of manipulating matter.<BR>I should try and learn more about alchemy and how it fits into the magical world.<BR>Armed with that knowledge and a little bit of inspiration I am sure Thaumaturgic Alchemy will be within my grasp.
-research.UNLOCKALCHEMY.stage.2=My recent discoveries have given me a new insight into how the world is put together and I think I might know a way to transform matter by altering its Essentia.<BR>This will require experimentation and something to hold the alchemical substrate. A simple brewing stand will not do - what I need is a mystical crucible.<BR>A cauldron is the right shape and size， but what is effectively a big metal bowl will never be able to hold the magical energies I wish to manipulate.<BR>Once again applying some Salis Mundus to a cauldron should resolve my problems.
-research.UNLOCKALCHEMY.stage.3=I have my crucible! Now I need something to experiment with， and I happen to have the perfect thing. I have spent many a late-night studying thaumaturgy and flickering torchlight is not the best thing to read by. A steady magical light is exactly what I need now.<BR>Glowstone is a steady source of light， but I require large handfuls of it for a light source and it lacks... style. I am sure I can alter it into something better.<BR>The crucible needs to be placed over a source of heat and filled with water. Once the water boils I can start adding the things I need. I have jotted down a recipe that I think will create a substance I have named Nitor. A small core of energized glowstone empowered with energy， fire and light should burn forever. It should be naturally buoyant， allowing it to be placed wherever I choose - even floating in mid-air.<BR>I simply need to find objects with the required essentia (pressing shift whilst hovering over an item might help here) and throw them into the crucible.<BR>The crucible will render them down into their constituent essentia. I might not be able to gather the exact combination of essentia I require， but if there are enough of the types I need everything should be fine.<BR>Once I have enough all I need to do is throw in the catalyst. In this case a handful of glowstone dust.<BR>If all goes well the glowstone will absorb the essentia and transform into nitor.<BR>I am not sure what will happen to the excess essentia， but I can only assume it will eventually dissolve harmlessly.<BR>[Shift-right clicking with an empty hand will empty a crucible. Each crafting operation will consume some of the water so you will have to replenish it now and again.]
+research.UNLOCKALCHEMY.title=发现：炼金术
+research.UNLOCKALCHEMY.stage.1=酿造基础的药水自然有它的用途，但真正的炼金术绝不仅仅是把各种怪物的器官混合在一起那么简单。<BR>我认为，源质是进一步精细操纵物质的关键。<BR>我应该尝试并学习更多炼金术的知识，并且探寻它是如何在魔法世界当中生效的。<BR>有了这些知识和一点点灵感，我相信神秘炼金术将会尽在我掌握之中。
+research.UNLOCKALCHEMY.stage.2=我最近的发现让我进一步了解世界是如何融为一体的，我想我知道一种通过改变源质来转化物质的方法。<BR>这一切都需要进一步的实验，并且需要一个能够存储炼金基质的东西。一个基础的酿造台并没有这样的功能 — 我想我需要的是一个神秘的坩埚。<BR>炼药锅的大小和容量看起来不错，但是我要如何才能够让这个巨大的金属容器保存我想要操纵的魔法能量呢。<BR>我想，再撒上一把世界盐应该就能解决我的问题了。
+research.UNLOCKALCHEMY.stage.3=我现在拥有属于自己的坩埚了！现在我需要进行一些新的常识，并且我恰好有一个不错的主意。最近我彻夜学习神秘学，那火把发出的微弱光芒太伤眼睛了，我想我现在需要一个稳定的魔法光源。<BR>萤石是一种稳定的光源，但是如果我把它们放得到处都是，这也……太丢范了……我很肯定我能够把它们变成一些更酷的东西。<BR>坩埚需要放置在热源上并且盛满水，一旦里面的水开始沸腾，我就可以开始添加我想要的东西了。我记下了一个我认为能创造出我想要的东西的配方，我将这个新东西命名为“闪耀之光”，一个微小的萤石核心包裹在魔力之中，永远发光发热。它应当能够自然地飘浮，这让我能够把它放在任何我需要的地方 — 即使是悬浮在半空中也没问题。<BR>我只需要寻找具有特定源质的物体（鼠标放在物品上按住Shift键就能够获得提示）并将他们扔进坩埚。<BR>坩埚将会把他们分解成所具备的源质，我可能没办法精确控制我所需要的源质数量，但坩埚里面只要有我所需要的所有源质应该就不会有问题了。<BR>当坩埚里有足够的源质之后，我就可以投入触媒了。而现在，我需要做的是投入一些萤石粉。<BR>如果一切顺利的话，萤石就会吸收源质并转化为闪耀之光了。<BR>我不确定多余的源质在坩埚中会发生什么，不过我只能假设它们最终会无害地消散到空气中。<BR>[按住Shift右键点击坩埚会将其清空，每个合成操作都会消耗一些坩埚中的水，所以你需要反反复复地补充坩埚中的水]
 #
-research.UNLOCKGOLEMANCY.title=Discovering Golemancy
-research.UNLOCKGOLEMANCY.stage.1=This book has taught me many things: How to manipulate matter and magic on a fundamental level， how to imbue objects with magical properties and even how to draw magic from the very air around me. Still some things elude me.<BR>There are some very basic， but amazingly magical things almost anyone can do. Just stacking a few blocks together in the right pattern will cause them to transform into semi-sentient animated golems. How is this possible? Why would it even happen. Is the aura somehow responsible for this?<BR>I should study this phenomenon more closely.
-research.UNLOCKGOLEMANCY.stage.2=My findings are confusing to say the least.<BR>The 'natural' golems that can be created are indeed infused with vis， but I do not believe their creation is thaumaturgical in nature. Whatever force animates them seems to come from elsewhere.<BR>Still， my research has at least borne some fruit. I have studied this animating force and I believe I can recreate it using thaumaturgical principles. I should further my studies as soon as possible.
+research.UNLOCKGOLEMANCY.title=发现：傀儡学
+research.UNLOCKGOLEMANCY.stage.1=这本书教会了我许多东西：如何从最基础的层面操纵物质和魔法，如何赋予物体魔法的属性，甚至是如何从周围的空气中抽取魔法。但似乎还有什么知识我没有掌握。<BR>有些非常基础，但每个人都能做到奇妙的事情引起了我的注意：只需要堆叠一些方块就能够将它们转化为有一定感知力的活动傀儡。这怎么可能呢？这一切到底是如何发生的？灵气有没有参与到这个奇妙的现象当中呢？<BR>我应该更仔细地研究这个现象。
+research.UNLOCKGOLEMANCY.stage.2=到目前为止这一切都令人疑惑。<BR>这些能够“天然”创造的傀儡确实充满了Vis，但我不认为这和神秘学有什么关系。让它们活动起来的力量似乎来自其他什么地方。<BR>不过，我的研究至少取得了一定的成果。我研究了让它们活动起来的力量，我相信我能够用神秘学的方法创造这种力量。我应该尽快继续我的研究。
 #
-research.FLUX.warn=Something seems to be building up in the aura. Something bad.
-research.FLUX.title=Flux
-research.FLUX.stage.1=I have been monitoring a strange buildup of magical energy in the aura. It seems to be a form of 'dirty' vis that I have named Flux. It shows as an ominous dark bar on my thaumometer.<BR>I now know what those purple puffs are I occasionally see when I am being careless - it is essentia spilling into the atmosphere and becoming Flux. Pure essentia， it seems， should not be directly exposed to the aura.<BR>I'm not exactly sure what negative effects this will cause， but I have noticed that Flux seems to clog the local aura preventing Vis from replenishing naturally.<BR>Picture it as a thick layer of scum on a natural pool of clean water.<BR>The local aura has a point at which it is 'filled' and Flux seems to count towards this capacity.<BR>More alarmingly， it seems to take precedence over vis and I suspect it can probably exceed this natural limit. I am not sure what will happen when Flux overflows.
-research.FLUX.stage.2=Note to self: Do NOT let the flux build. It is bad.<BR>Very， very bad.<BR>If Flux builds high enough it seem to cause a tear in the very fabric of magic itself. The flux escapes through this tear， but usually raw， chaotic magic spills through into our world causing all manner of calamity.<BR>I should be a lot more careful of causing flux in the future. In fact， i should start looking into ways to neutralise Flux.
-research.toomuchflux.text=Let the the Flux build
+research.FLUX.warn=灵气场中充满了一种力量，一种不太好的力量。
+research.FLUX.title=腐化
+research.FLUX.stage.1=我观察到灵气场中存在奇异的魔法力量在聚集。它们看上去是一种“污染”的Vis，我将它们称为“腐化”（Flux）。我能够通过魔导透镜上不详的黑色指示条来观察周围的腐化。<BR>我现在知道，当因我的粗心大意而让一些紫色的泡沫出现 — 它们渗透到空气当中，成为腐化。看来，纯净的源质并不应该直接暴露在空气当中。<BR>我不确定它到底会带来什么负面影响，不过我注意到，腐化的存在堵塞了周围的灵气场，阻碍了Vis的自然补充。<BR>设想它就像是一池清水上一层厚厚的淤泥。<BR>当地的灵气场似乎“充溢”在一个点上，而腐化也正涌向这同一个点。<BR>更令人震惊的是，腐化的流动似乎更优先于Vis的流动，我怀疑这甚至能超越自然的极限，我不知道当腐化溢出的时候会发生什么。
+research.FLUX.stage.2=告诉自己：千万不要让腐化形成，这很糟糕。<BR>非常非常非常糟糕。<BR>如果腐化聚集到一定的程度，似乎会撕裂魔法本身的结构。随着这种撕裂的产生，腐化流溢到世界中，这种原始、混沌的魔法能量将会给世界带来各种灾难。<BR>在未来我应该更加注意腐化的产生，事实上，我应该寻找一种中和腐化的方法。
+research.toomuchflux.text=让腐化不断聚集
 #
-research.WARP.warn=My mind reels from the knowledge I have gained
-research.WARP.title=Warp
-research.WARP.stage.1=Many believe man was not meant to meddle with magic， and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality， twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time， there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration， physical pain or hallucinations.<BR>These are more than merely mental though， as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even my keel is at the moment.
+research.WARP.warn=我所掌握的知识似乎让我有些神志不清
+research.WARP.title=扭曲
+research.WARP.stage.1=许多人认为，不应当人为干预魔法，扭曲（Flux）的存在就是最好的证明。<BR>进行禁忌的研究或是创造一些可疑的物品都将扭曲神秘使眼中的现实，扭曲他们的神智和肉体，这种影响就被成为扭曲（Flux）。<BR>虽然有的扭曲只是暂时的，它们会随着时间的推移慢慢褪去，但是如果神秘使无视追寻未知力量的危险而让自己染上永久扭曲，神智每况愈下，目前还没有办法能够处理这些永久扭曲。<BR>扭曲通常会让人无法集中，身体疼痛，或是出现幻觉。<BR>这些不仅仅是精神上的影响，有时幻象能够传递有用的知识，而有的幻觉却似乎是可怕的事实。<BR>我应该时刻注意自己的精神状态，为此，我设计了一个装置，它能够准确显示我目前神智的稳定程度。
 #
-research.ORE.title=Ores
-research.ORE.stage.1=There are many unique ores and minable blocks that are useful to a Thaumaturge. I should make a note of all those I come across.
-research.ORE.amber=§oAmber Ore§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
-research.ORE.cinnabar=§oCinnabar§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
-research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals， replenishing the aura and causing the crystals to crumble. In effect， they are natural， or in this case， supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
+research.ORE.title=矿物
+research.ORE.stage.1=这个世界上有许多对于神秘使有用的独特矿物与可挖掘的方块。我应当记下所有我遇到的东西。
+research.ORE.amber=§o琥珀§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>这个矿物能够在地表附近发现，在采掘时掉落大块的琥珀。
+research.ORE.cinnabar=§o朱砂§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>这个深红色的矿物能够在地下深处发现，它可以被熔炼成水银。
+research.ORE.crystal=§o魔力结晶§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>当灵气场中拥有太多原始能量时，它们会沉淀到石头中并产生Vis的结晶。只要有足够的Vis，它们就能够增长甚至蔓延。<BR>当灵气场中的能量下降到一定水平，结晶中的能量就会消散并为灵气场提供补充，并最终导致结晶消散。事实上，它们是一种自然而神奇的Vis容器。它们永远不会彻底消散，至少永远会留下一小块碎片。<BR>可以破坏这些水晶来得到元素碎片，它们在神秘学当中有不少的用途。<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>你还没有发现一种方式能够在不破坏整个晶簇的前提下取得单个晶体，所以现在如果想要获得碎片就只能把它们全部破坏了。<BR>在腐化的环境中生长的魔力结晶也会受到腐化的影响。
 #
-research.PLANTS.title=Ores
-research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale， soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
-research.PLANTS.cinderpearl=§oCinderpearlsȲ<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes， these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-research.PLANTS.shimmerleaf=§oShimmerleaf§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious， glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
-research.PLANTS.vishroom=§oVishroom§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange， glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
+research.PLANTS.title=植物
+research.PLANTS.stage.1=这个世界上有许多对于神秘使有用的独特植物。我应该研究我所见过的东西。
+research.PLANTS.silverwood=§o银树§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>这些稀有的神奇树木堪称奇景。他们的叶子闪烁着神奇的能量，而其苍白而柔软的木材因其净化的特性而备受重视。<BR>而这神奇的树木在自然生长时还能够缓慢补充周围的灵气场，这种特性也使得银树树苗价值连城。
+research.PLANTS.greatwood=§o宏伟之木§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>这些高大雄伟的树木遍布整个世界。<BR>这些木材能够吸收大量的魔力，这也使得它们成为魔法装置常用的原料。
+research.PLANTS.cinderpearl=§o火焰草Ȳ<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>这些植物生长在最炎热的环境当中，燃烧着元素之火。它们可以取得并研磨制成类似于烈焰粉的粉末。
+research.PLANTS.shimmerleaf=§o水银花§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>这些神秘而闪耀的花朵只会生长在银树的树荫之下。它们可以取得并打浆制成水银。
+research.PLANTS.vishroom=§o纤毛菇§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>这种奇异的荧光蘑菇只生长在魔法森林中。<BR>这些蘑菇会让人产生幻觉，一定要注意不要太过接近它们。
 #
-research.CRYSTALFARMER.title=Crystal Farming
-research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow over time， but once I harvest them they seem to lose this ability. I am hoping to discover what exactly is lost and how to reinvigorate the crystals.
-research.CRYSTALFARMER.stage.2=I have found a way to reinvigorate vis crystals in such a way that I can replant them.<BR>I am hoping this means I can grow my own steady supply of primal vis crystals.
+research.CRYSTALFARMER.title=结晶农场
+research.CRYSTALFARMER.stage.1=我观察到这些魔力结晶会随着时间的推移自然生长，但是一旦我采集它们，它们似乎就失去了这种能力。我希望我能知道这种能力是如何失去的，并且找到重新赋予它们这种能力的方法。
+research.CRYSTALFARMER.stage.2=我找到了一种能够让魔力结晶生长的方法，借此我能够重新种植它们。<BR>我希望这意味着我可以通过种植获得稳定的原始魔力结晶来源。
 #
 research.UNLOCKELDRITCH.title=Delving into the Eldritch
 research.UNLOCKELDRITCH.stage.1=
@@ -1656,7 +1656,7 @@ research.ARCANEBORE.stage.2=我成功造出了被我称为奥术钻探机的挖�
 ##########################################
 not.pechwand=You cannot fathom the workings of this yet.
 got.pechwand=Hmmm， curious. I should investigate this further.
-got.onfire=You have felt the touch of flame.
+got.onfire=你已经亲身感受了火焰的威力。
 research.m_deepdown.text=Visit the lowest depths of the world.
 research.m_uphigh.text=Visit the highest peaks you can find.
 got.deepdown=You have visited deep and dark depths and have learned much.
