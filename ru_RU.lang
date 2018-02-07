@@ -148,7 +148,7 @@ item.void_hoe.name=Void Hoe
 item.crimson_blade.name=Crimson Blade
 item.primal_crusher.name=Primal Crusher
 item.hand_mirror.name=Magic Hand Mirror
-item.thaumometer.name=Thaumometer
+item.thaumometer.name=Таумометр
 item.sanity_checker.name=Sanity Checker
 item.resonator.name=Essentia Resonator
 #
@@ -845,26 +845,26 @@ button.down=Scroll down
 ###################
 #
 # GENERAL
-card.study.name=Изучать %1$s
-card.study.text=Большая часть исследований предполагает то, что нужно просто взяться за книги и окунуться в работу. Вы изучаете %1$s  и получаете 10 очков прогресса.
+card.study.name=Study %1$s
+card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 10 progress.
 #
-card.reject.name=Прекратить исследовать %1$s
-card.reject.text=Вы осознали что %1$s не существенно для Вашего текущего исследования. Вы больше не будете получать прогресс в %1$s или достовать связаные с этим карты. Вы не потеряете свой текущий прогресс.
+card.reject.name=Reject %1$s findings
+card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
 #
-card.experimentation.name=Эксперименты
-card.experimentation.text=Вы проводите ряд случайных экспериментов, чтобы посмотреть сможете ли Вы что-нибудь обнаружить. Вы получаете от 10 до 25 очков прогресса в совершенно случайной категории.
+card.experimentation.name=Experimentation
+card.experimentation.text=You perform some random experiments to see if something could be discovered. You gain 10 to 25 progress in a completely random category.
 #
-card.analyze.name=Проанализировать %1$s
-card.analyze.text=Тщательно проанализировав сделанные Вами наблюдения о %1$s Вы могли бы составить теорию, основанную на собранных данных. Потеряйте 1 %1$s наблюдение чтобы получить от 25 до 50 очков прогресса в %1$s и 5 очков прогресса в %2$s.
+card.analyze.name=Analyze %1$s
+card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
 #
-card.rethink.name=Переосмыслить
-card.rethink.text=Вы делаете шаг назад и пересматриваете свои результаты. Вы избавляетесь от неверных выводов и продолжаете исследование используя новый подход. Потеряйте суммарно от 10 до 20 очков прогресса во всех текущих категориях, но восстановите 1 очко вдохновения. Вы также можете получить дополнительную карту.
+card.rethink.name=Rethink
+card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration. You may also gain a bonus draw.
 #
-card.ponder.name=Размышления
-card.ponder.text=Вы тщательно обдумываете всё что уже успели узнать. Вы получаете 20 очков прогресса, равномерно распределенных по всем текущим категориям.
+card.ponder.name=Ponder
+card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories.
 #
-card.notation.name=Нотация
-card.notation.text=Пока Вы делали заметки о своих исследованиях, Вы заметили несколько ошибок и исправили их. Вы теряете весь прогресс в %1$s, но его большая часть добавляется к %2$s.
+card.notation.name=Notation
+card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
 #
 card.balance.name=Universal Theory
 card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories.
@@ -1037,7 +1037,7 @@ tc.resonator2=§5Suction %1$s %2$s §0
 tc.resonator3=Untyped
 tc.search=Search
 tc.search.more=...too many results found. Refine your search
-tc.research.stage=Current stage:
+tc.research.stage=Текущая стадия:
 tc.research.begin=You have not yet begun this research
 tc.research.newpage=§aNew page added§0
 tc.research.newresearch=§6Newly discovered research§0
@@ -1046,9 +1046,9 @@ tc.research.short=You need %1$s experience level(s) to purchase this.
 tc.research.read=Click to read this research.
 tc.research.add=Click to consume fragment and add 1 of each primal.
 tc.need.research=Things that need to be discovered
-tc.need.craft=Items that need to be crafted
+tc.need.craft=Предметы, которые необходимо создать
 tc.need.obtain=Items that will be consumed
-tc.need.know=Knowledge that must be used
+tc.need.know=Знания, которые необходимо использовать
 tc.primalcharm.0=It seems to be leaking
 tc.primalcharm.1=You think you hear whispering
 tc.primalcharm.2=It is vibrating violently
@@ -1065,8 +1065,8 @@ tc.notowned=This does not belong to you.
 tc.fluxevent.1=The nearby aura suddenly twists and warps, leaving your thoughts in a shambles.
 tc.fluxevent.2=The local aura momentarily becomes unstable, hampering your magical ability.
 tc.fluxevent.3=It seems that there is too much flux in the local aura!
-tc.stage.complete=Complete
-tc.stage.hold=Completing...
+tc.stage.complete=Завершить
+tc.stage.hold=Завершение...
 tc.warp.warn= Warping level: %n
 #
 # Aspects
@@ -1121,9 +1121,9 @@ tc.research_category.GOLEMANCY=Golemancy
 tc.research_category.ELDRITCH=Eldritch
 #  
 # Knowledge Types
-tc.type.theory=Theory
-tc.type.observation=Observation
-tc.type.epiphany=Epiphany
+tc.type.theory=Теория
+tc.type.observation=Наблюдение
+tc.type.epiphany=Прозрение
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -1174,7 +1174,7 @@ research.TaintSeed.stage.1=Occasionally tight knots of Tainted tendrils will for
 #
 research.FIRSTSTEPS.title=Первые шаги
 research.FIRSTSTEPS.stage.1=Кто бы мог подумать, что небольшая горсть пыли сможет создать эту чудесную книгу? Она по большей части пуста, но уже намекает на новую мощную форму магии: Тауматургию.<BR>Для начала нужно изучить тот магический мир, что был показан мне. И для этого понадобится особый инструмент - Таумометр, так он зовется в книге.<BR>На обычном верстаке невозможно сделать подобные предметы, поскольку магические силы, которые я должен направлять во время их создания, требуют осторожного обращения. Но, если посыпать обычный верстак пылью Salis Mundus, это решит проблему. Книга научила меня подходящему заклинанию, поэтому это не должно составить особого труда.<BR>Чтобы отслеживать свой прогресс, я буду записывать список всех требований, которые необходимо выполнить на первой странице каждой новой записи. 
-research.FIRSTSTEPS.stage.2=Progress! I now have an Arcane Workbench at my disposal. It works much like a mundane crafting table and can even be used as such, however there are a few key differences.<BR>Firstly, many arcane recipes will require the use of those vis crystals I've been finding of late. They act as a focus for the magical energy I need to channel into the items I craft. The book calls this magical energy Vis.<BR>Supposedly this energy is all around me, but as yet I cannot perceive or measure it.<BR>It is time I craft the Thaumometer and use it to study the world around me. It should clearly mark those things I still need to examine.<BR>I have placed a bookmark to the Thaumometer recipe on the right.
+research.FIRSTSTEPS.stage.2=Прогресс! Теперь в моем распоряжении есть Магический верстак. Он очень похож на своего обычного собрата и даже может использоваться как таковой, однако у него есть несколько значимых отличий.<BR>Во-первых, большинство магических рецептов будет требовать использования тех кристаллов, что я находил в последнее время. Они нужны для фокусировки магической энергии, которую необходимо направить в создаваемые предметы. Вис - так называет эту энергию книга.<BR>По идее, она должна быть везде, но пока я не могу распознать ее или измерить.<BR>Пора мне создать Таумометр и использовать его для изучения окружающего меня мира. Он должен помечать те вещи, которые мне нужно изучить.<BR>Справа я поместил закладку с его рецептом.
 research.FIRSTSTEPS.stage.3=Such strange wonders are being revealed to me. Peering through the lens of the Thaumometer shows me a world coursing with magic, Vis as the books calls it.<BR>Normally this energy is a pure ocean of magic that ebbs and flows, but it also permeates all things, both animate and inanimate. The books calls Vis in this state Essentia. Where Vis is formless and pure, Essentia is more rigid in its nature and falls into a multitude of clearly defined types, each mixing together with others to form greater and more complex types of essentia.<BR>I am not quite sure if the matter it is bound to gives Essentia its nature, or that the very nature of matter depends on the Essentia it contains. This bears further study.<BR>I am keeping a log of all the types of essentia I discover. A bookmark on the left will show my current knowledge.<BR>For now I need to focus my energies elsewhere. Studying essentia might be a good place to start.
 #
 research.KNOWLEDGETYPES.title=Типы знаний
