@@ -284,7 +284,7 @@ tile.pillar.eldritch.name=Eldritch Infusion Pillar
 tile.infusion_matrix.name=Runic Matrix
 tile.bellows.name=Arcane Bellows
 tile.arcane_workbench.name=Магический верстак
-tile.arcane_workbench_charger.name=Arcane Workbench Charger
+tile.arcane_workbench_charger.name=Workbench Charger
 tile.wand_workbench.name=Focal Manipulator
 tile.crucible.name=Crucible
 tile.pattern_crafter.name=Arcane Pattern Crafter
@@ -293,7 +293,7 @@ tile.research_table.name=Research Table
 tile.arcane_ear.name=Arcane Ear
 tile.arcane_ear_toggle.name=Arcane Ear (Toggle)
 tile.levitator.name=Arcane Levitator
-tile.water_jug.name=Everfull Urn
+tile.everfull_urn.name=Everfull Urn
 tile.lamp_arcane.name=Arcane Lamp
 tile.lamp_growth.name=Lamp of Growth  
 tile.lamp_fertility.name=Lamp of Fertility
@@ -722,11 +722,13 @@ focuspart.thaumcraft.EXCHANGE.name=Exchange
 focuspart.thaumcraft.EXCHANGE.text=Swap one type of block in the world for another.
 #
 focuspart.thaumcraft.TOUCH.name=Touch
-focuspart.thaumcraft.TOUCH.text=Allows you to aMffect things you can touch.
+focuspart.thaumcraft.TOUCH.text=Allows you to affect things you can touch.
 focuspart.thaumcraft.PROJECTILE.name=Projectile
 focuspart.thaumcraft.PROJECTILE.text=Gathers the energy of the focus into a magical orb that you can throw like a projectile. This projectile has a long range, but travels slowly and is affected by gravity.
 focuspart.thaumcraft.BOLT.name=Bolt
 focuspart.thaumcraft.BOLT.text=Hurl magic directly at your target as a concentrated bolt of energy. The effect is instantaneous, but the range is somewhat limited.
+focuspart.thaumcraft.PLAN.name=Plan
+focuspart.thaumcraft.PLAN.text=Allows you to plan exactly which blocks will be affected.
 #
 focuspart.thaumcraft.CHAIN.name=Chaining
 focuspart.thaumcraft.CHAIN.text=Reduces the effectiveness of linked effects, but the bolt can chain to up to two additional targets.
@@ -743,12 +745,14 @@ focuspart.thaumcraft.SILKTOUCH.text=Like the enchantment of the same name, this 
 focuspart.thaumcraft.FORTUNE.name=Fortune
 focuspart.thaumcraft.FORTUNE.text=Like the enchantment of the same name, this modification give you a chance to gain gain more material from harvested blocks. Equal to Fortune II.
 focuspart.thaumcraft.CHARGE.name=Charge
-focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal), but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal). 
+focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal), but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal).
+focuspart.thaumcraft.BURST.name=Burst
+focuspart.thaumcraft.BURST.text=The linked effect will be applied to anything in an area. Targets further from the centre will receive reduced effects.
 #
 # GUI
 ###################
 recipe.return=Back
-recipe.clickthrough=Click for recipe
+recipe.clickthrough=Нажмите для просмотра рецепта
 recipe.unknown=Вы пока не можете это создать
 recipe.type.workbench=Верстак
 recipe.type.smelting=Smelting
@@ -764,6 +768,7 @@ wandtable.text3=Start Crafting
 wandtable.text4=Crystals Required
 button.create.theory=Создать теорию
 button.complete.theory=Завершить теорию
+button.scrap.theory=Scrap Theory
 button.turretfocus.1=Target Animals
 button.turretfocus.2=Target Mobs
 button.turretfocus.3=Target Players
@@ -858,10 +863,10 @@ card.analyze.name=Analyze %1$s
 card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
 #
 card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration. You may also gain a bonus draw.
+card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration and gain a bonus draw.
 #
 card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories.
+card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories and a bonus draw.
 #
 card.notation.name=Notation
 card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
@@ -886,13 +891,13 @@ card.dragonegg.text=The aura around the egg swirls with strange and chaotic ener
 #
 # ALCHEMY
 card.concentrate.name=Concentrate
-card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Essentia is already a  pure substance, but there is no harm in trying. Often failing at doing something teaches you as much as succeeding. Attempt to concentrate some %1$s essentia. Gain 10 Alchemy and 1 bonus draw.
+card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Essentia is already a pure substance, but there is no harm in trying. Often failing at doing something teaches you as much as succeeding. Attempt to concentrate some %1$s essentia. Gain 10 Alchemy and 1 bonus draw. There is also a chance you will gain 1 inspiration.
 #
 card.reactions.name=Reactions
-card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 20 Alchemy.
+card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 20 Alchemy. There is also a chance you will gain 1 inspiration.
 #
 card.synthesis.name=Synthesis
-card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 30 Alchemy.
+card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 30 Alchemy. There is also a chance you will gain 1 inspiration.
 #
 # INFUSION
 card.measure.name=Measure
@@ -1019,7 +1024,7 @@ tc.unknownobject=Nothing new can be learned from this.
 tc.knownobject=You have learned something new.
 tc.markerchange=Set marker color to %n
 tc.markerchangeany=Set to any color
-tc.researchmissing=Отсутствует необходимое исследование!
+tc.researchmissing=Отсутствует необходимое исследование:
 tc.discount=discount
 tc.visdiscount=Vis discount
 tc.vis.cost=Vis cost:
@@ -1068,6 +1073,7 @@ tc.fluxevent.3=It seems that there is too much flux in the local aura!
 tc.stage.complete=Завершить
 tc.stage.hold=Завершение...
 tc.warp.warn= Warping level: %n
+tc.knowledge.name=Knowledge Totals
 #
 # Aspects
 tc.aspect.name=Aspects of Essentia
@@ -1227,7 +1233,7 @@ research.ORE.amber=§oAmber Ore§r<IMG>thaumcraft:textures/research/research3.pn
 research.ORE.cinnabar=§oCinnabar§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
 research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
 #
-research.PLANTS.title=Ores
+research.PLANTS.title=Plants
 research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
 research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
@@ -1291,7 +1297,7 @@ research.ARCANESPA.stage.1=Pouring bath salts into water is a bit of a chore, bu
 research.ARCANESPA.stage.2=I have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, I have designed it in such a way that it can be used to pump nearly any liquid I can fill it with. It can be filled with with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
 #
 research.WARDEDJARS.title=Warded Jars & labels
-research.WARDEDJARS.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in, well, everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to, um, "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
+research.WARDEDJARS.stage.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in the world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.<BR>Shift clicking on jars and alembics with an empty hand will empty them.<PAGE>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.<BR>You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<BR>A label can be made blank again by simply placing it by itself in a crafting grid.<PAGE>You can also craft §lBrass Lid Braces§r. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
 #
 research.ESSENTIASMELTER.title=Essentia Smelting
 research.ESSENTIASMELTER.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in, well, everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to, um, "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
@@ -1310,7 +1316,7 @@ research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing
 #
 research.THAUMATORIUM.title=Alchemical Automation
 research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw, liquid essentia available to me I should improve the entire alchemical process.
-research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
 #
 research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
 research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable. 
@@ -1398,11 +1404,11 @@ research.CLOUDRING.stage.2=I have made plans for a bauble I am calling the Cloud
 #
 research.CURIOSITYBAND.title=Headband of Curiosity
 research.CURIOSITYBAND.stage.1=The experience orbs I gather from harvested resources and slain monsters contain both magical energy and packets of knowledge. I am certain that more can be done with them than simple enchanting.
-research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way to extract fragments of knowledge from experience orbs. These parcels of knowledge are very small but may provide useful snippets of insight into certain kinds of research.<BR>I have drawn op designs for a headband the when worn will absorb half the experience from any orbs I collect and turn it into research knowledge. The rate of return is very low, but every little bit helps.
+research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way to extract fragments of knowledge from experience orbs. These parcels of knowledge are very small but may provide useful snippets of insight into certain kinds of research.<BR>I have drawn up designs for a headband that when worn will absorb half the experience from any orbs I collect and turn it into research knowledge. The rate of return is very low, but every little bit helps.
 #
 research.VERDANTCHARMS.title=Verdant Charms
 research.VERDANTCHARMS.stage.1=I occasionally find myself being affected with poisons and other nasty afflictions. I should find a way to protect myself. 
-research.VERDANTCHARMS.stage.2=I have drawn op designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<LINE>There is also two specialized enchantments I can apply to the charm to improve its function.<PAGE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
+research.VERDANTCHARMS.stage.2=I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<LINE>There is also two specialized enchantments I can apply to the charm to improve its function.<PAGE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
 #
 ##########################################
 # ARTIFICE
@@ -1435,6 +1441,7 @@ research.INFERNALFURNACE.bellows=Attaching an arcane bellows to an Infernal Furn
 research.MIRROR.title=Mirror Magic
 research.MIRROR.stage.1=My thaumonomicon provides some tantalizing hints that mirrors have many mystical uses. One such use is the ability to link physical locations via mirrors and the use of sympathetic magic.<BR>The books does nothing more than provide hints however - as usual I will have to figure out things myself.
 research.MIRROR.stage.2=I am now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved (or piped) through one mirror will pass through this strange realm and emerge from the other mirror - even across dimensional boundaries.<BR>Unfortunately this realm is extremely hostile to mortal creatures like myself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. While one of the paired mirrors is picked up, you may easily relink either of them.<BR>Transporting items through mirrors places stress on the magical aura. Every now and again this causes Flux to be generated. The more items you transport, the more flux is generated.
+research.f_TELEPORT.text=Study teleportation
 #
 research.MIRRORHAND.title=Magical Hand Mirror
 research.MIRRORHAND.stage.1=I should find a way of interacting with hand mirrors while out and about. I could carry a linked mirror with me, but that seems inconvenient
@@ -1456,6 +1463,14 @@ research.LAMPGROWTH.stage.2=Unlike the Arcane lamp from which it is made, the La
 research.LAMPFERTILITY.title=Lamp of Fertility
 research.LAMPFERTILITY.stage.1=My studies of Lux has shown me that light can be used as a medium for other helpful magics.<BR>Mundane light has been proven to have both positive and negative effects on moods. I think I might be able to greatly improve that effect by adding some arcane flair.
 research.LAMPFERTILITY.stage.2=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires §dDesiderium§0 essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+#
+research.BELLOWS.title=Arcane Bellows
+research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
+research.BELLOWS.stage.2=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>As I had hoped they can be attached to furnances to increase their smelting speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>I am confident more uses will reveal themselves eventually.
+#
+research.HUNGRYCHEST.title=Hungry Chest
+research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
+research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories.
 #
 ##########################################
 # AUROMANCY
@@ -1491,20 +1506,29 @@ research.FOCUSMAGIC.title=Focus Effect: Magic
 research.FOCUSMAGIC.stage.1=Using the elements as a weapon has its benefits, but raw magic can be just as destructive - most creatures are harmed if exposed to raw, unfiltered vis. Even armor cannot protect you from this energy. 
 #
 research.FOCUSBREAK.title=Focus Effect: Break
-research.FOCUSBREAK.stage.1=Calling up the destructive power of perditio I should be able to design a pattern that can be used to safely break most blocks.
-research.FOCUSBREAK.stage.2=There is a enchantment that allows you to break blocks without actually breaking them - instead they retain their unbroken form.<BR>By studying this 'Silk Touch' Enchantment I might be able to replicate this as a focus pattern. 
+research.FOCUSBREAK.stage.1=Calling up the destructive power of perditio I should be able to design a pattern that can be used to safely break most blocks. Harder blocks will take longer to break.
+research.FOCUSBREAK.stage.2=There is a enchantment that allows you to pick up blocks without actually breaking them - instead they retain their unbroken form.<BR>By studying this 'Silk Touch' Enchantment I might be able to replicate this as a focus pattern.
 research.FOCUSBREAK.stage.3=Like I did with the Silk Touch enchantment I should be able to replicate the effect of the Fortune enchantment.<BR>By studying it I might be able to use it as a focus pattern equivalent to Fortune II.
 #
 research.FOCUSEXCHANGE.title=Focus Effect: Exchange
 research.FOCUSEXCHANGE.stage.1=While teleportation magic is beyond me at the moment, my studies of the permutatio aspect leads me to believe that I should be able to make physical objects swap positions.<BR>I should see if my theory holds any water.
-research.FOCUSEXCHANGE.stage.2=My theory has proven correct! By applying this pattern to a focus I can use it to select a type of block in the world. I simply need to sneak while right-clicking on it.<BR>When I then cast the effect on most other blocks it will exchange the target block for the one I selected earlier. Obviously I must be carrying enough of the selected blocks for the exchange to happen and the targeted block (or what it normally drops when broken) will appear in my inventory.<BR>It seems I cannot exchange particularly complex blocks, or those that cannot be broken by normal means.<BR>Apart from the cost to cast it, it seems the vis cost is also subtracted for each block exchanged in this way. I should be cautious.    
+research.FOCUSEXCHANGE.stage.2=My theory has proven correct! By applying this pattern to a focus I can use it to select a type of block in the world. I simply need to sneak while right-clicking on it.<BR>When I then cast the effect on most other blocks it will exchange the target block for the one I selected earlier. Obviously I must be carrying enough of the selected blocks for the exchange to happen and the targeted block (or what it normally drops when broken) will appear in my inventory.<BR>It seems I cannot exchange particularly complex blocks, or those that cannot be broken by normal means.<BR>Apart from the cost to cast it, it seems the vis cost is also subtracted for each block exchanged in this way. I should be cautious.
 #
 research.FOCUSRIFT.title=Focus Effect: Rift
-research.FOCUSRIFT.stage.1=I have performed a few tentative experiments with dimensional magic. Thusfar I have had mixed results, but I am able to reliably shift inanimate matter into an adjacent reality while part of that reality shifts into ours.<BR>I think. Either way, the matter returns unharmed almost every time. Living matter is a different matter - I dare not pen what I saw and I doubt I will attempt that experiment again.<BR>Luckily I think I will be able to replicate this discovery in the form a focus effect. Most inanimate objects will be shifted into this other realm temporarily like some sort of portable hole.<BR>The diameter of this hole will remain fixed at around 3 yards, but I should be able to manipulate the depth a bit. Normally it should be around 8 yards.
+research.FOCUSRIFT.stage.1=I have performed a few tentative experiments with dimensional magic. Thusfar I have had mixed results, but I am able to reliably shift inanimate matter into an adjacent reality while part of that reality shifts into ours.<BR>I think. Either way, the matter returns unharmed almost every time. Living matter is a different matter - I dare not pen what I saw and I doubt I will attempt that experiment again.<BR>Luckily I think I will be able to replicate this discovery in the form a focus effect.
+research.FOCUSRIFT.stage.2=I have managed to create a focus that manipulates dimensional magic. Most inanimate objects will be shifted into this other realm temporarily like some sort of portable hole.<BR>The diameter of this hole will remain fixed at around 3 yards, but I should be able to manipulate the depth a bit. Normally it should be around 8 yards.
 #
-research.FOCUSCHARGE.title=Focus Effect: Charge
-research.FOCUSCHARGE.stage.1=I Learned much about modifying focus patterns to increase or decrease their potency.<BR>I think I might be able to tweak a patterns cost and potency on the fly by modulating the amount of vis I channel through it.
+research.FOCUSPLAN.title=Focus Medium: Plan
+research.FOCUSPLAN.stage.1=I have learned to manipulate blocks in the world with foci effects such as Exchange, but their practical use is a bit limited.<BR>I should discover a way to fine tune exactly which blocks I can apply such foci effects to.
+research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me to plan which blocks I manipulate. This medium works much like Touch, except I will be shown a ghostly outline if which blocks will be manipulated. By pressing the focus modify key ('G' by default) I can alter the size of the area. By pressing CTRL + G I can alter the axis in which the size will be changed.<BR>Caution should be taken using as the vis cost of the effect will be subtracted for each block effected.<BR>The Potency focus modifier will increase the maximum possible size this medium can alter.	
+#
+research.FOCUSCHARGE.title=Focus Modifier: Charge
+research.FOCUSCHARGE.stage.1=I have learned much about modifying focus patterns to increase or decrease their potency.<BR>I think I might be able to tweak a patterns cost and potency on the fly by modulating the amount of vis I channel through it.
 research.FOCUSCHARGE.stage.2=I have been proven right yet again! The Charge pattern allows me to delay the casting of focus effects - while doing so more and more vis will be drawn into focus and when I eventually release the energy it will be a lot more powerful.<BR>Initially however the pattern is a lot weaker - about half as powerful as it would normally be, but as long as I delay releasing the spell I should be able to charge it up to almost double its normal strength.<BR>Vis costs will be modified in the same way.
+#
+research.FOCUSBURST.title=Focus Modifier: Burst
+research.FOCUSBURST.stage.1=I should take what I have learned and attemp to create a modifier that will allow me to target multiple foes at once.
+research.FOCUSBURST.stage.2=I have managed to create a modifier that will effect all targets within roughly 4 blocks of the point of impact. Unfortunately the effect will be lessened for targets further away from the centre, but never less than half the normal power.
 #
 research.RECHARGEPEDESTAL.title=Recharge Pedestal
 research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function, but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
@@ -1514,9 +1538,9 @@ research.VISAMULET.title=Vis Amulet
 research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items. 
 research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura, allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
-research.WORKBENCHCHARGER.title=Arcane Workbench Charger
+research.WORKBENCHCHARGER.title=Workbench Charger
 research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far, I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis, the more vis will be available for crafting.
-research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench. This framework allows the workbench to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
+research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench and the focal manipulator. This framework allows those workbenches to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
 #
 research.FOCUSCURSE.title=Focus Effect: Curse
 research.FOCUSCURSE.stage.1=The pech wand I discovered is strange and unusable, but its workings bear some striking similarities to thaumaturgical foci.<BR>I should be able to reverse engineer it.
@@ -1526,13 +1550,8 @@ research.FOCUSCURSE.stage.2=As I suspected the pech wand is thaumaturgical in na
 # GOLEMANCY
 ##########################################
 #
-research.BELLOWS.title=Arcane Bellows
-research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
-research.BELLOWS.stage.2=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>As I had hoped they can be attached to furnances to increase their smelting speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>I am confident more uses will reveal themselves eventually. 
-#
-research.HUNGRYCHEST.title=Hungry Chest
-research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
-research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories. 
+research.BASEGOLEMANCY.title=Basic Golemancy
+research.BASEGOLEMANCY.stage.1=I now understand the basic concepts that shape Golemancy, but I am sure I can improve on the primitive constructs that anyone can craft. At the very least I can use arcane science to design a simple mind that will be both dependable and predictable instead of relying on the chaotic nature of magic to direct my constructs.
 #
 research.JARBRAIN.title=Brain in a Jar
 research.JARBRAIN.stage.1=Isn't it just the worst when you have a bunch of spare brain matter lying around, but nothing useful to do with it? Time to change that.
@@ -1600,7 +1619,7 @@ research.SEALHARVEST.stage.1=Farming is a menial task best performed by a golem 
 research.SEALHARVEST.stage.2=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
 #
 research.SEALGUARD.title=Control Seal: Guard
-research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complext task however and I will need to carefully test the seal to avoid accidents.
+research.SEALGUARD.stage.1=research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task however and I will need to carefully test the seal to avoid accidents.
 research.SEALGUARD.stage.2=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
 research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
 #
@@ -1623,7 +1642,7 @@ research.SEALUSE.stage.2=This seal allows a golem to act like a player and left 
 research.BASICTURRET.title=Automated Crossbow
 research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders. 
 research.BASICTURRET.stage.2=I have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile monsters it detects within range. Unfortunately its limited mind does not allow me to fine tune its targets.<BR>It has a very limited internal inventory, but if I place it over an upward facing dispenser it will automatically reload itself from that inventory.<BR>Right clicking on it while sneaking will pick it up.<PAGE>The turrent can ride in a minecart and will reload from a dispenser placed underneath the track.<BR>Passing over an arcane activator rail will change the behaviour of the turrent. If the rail is active it will disable the turret. Passing over an inactive rail will enable it again.
-research.f_DISPENSER.text=Closely examine something that can launch objects.
+research.f_DISPENSER.text=Examine something that can launch objects.
 #
 research.ADVANCEDTURRET.title=Advanced Automated Crossbow
 research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
