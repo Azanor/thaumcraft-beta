@@ -171,7 +171,7 @@ item.verdant_charm.sustain.text=续航
 item.voidseer_charm.name=Voidseer's Pearl
 item.voidseer_charm.text=You peer into the inky blackness... you could swear you saw something staring back...
 item.curiosity_band.name=Headband of Curiosity
-item.cloud_ring.name=Cloudstepper Ring
+item.cloud_ring.name=云霄指环
 #
 # Casters & Foci
 #
@@ -284,16 +284,16 @@ tile.pillar.eldritch.name=邪术注魔柱
 tile.infusion_matrix.name=符文矩阵
 tile.bellows.name=奥术风箱
 tile.arcane_workbench.name=奥术工作台
-tile.arcane_workbench_charger.name=奥术工作台充能器
+tile.arcane_workbench_charger.name=工作台充能器
 tile.wand_workbench.name=核心镶饰台
 tile.crucible.name=坩埚
 tile.pattern_crafter.name=奥术组装器
 tile.redstone_relay.name=红石继能器
 tile.research_table.name=研究台
 tile.arcane_ear.name=奥术之耳
-tile.arcane_ear_toggle.name=Arcane Ear (Toggle)
+tile.arcane_ear_toggle.name=奥术之耳 (切换)
 tile.levitator.name=奥术悬浮台
-tile.everfull_urn.name=Everfull Urn
+tile.everfull_urn.name=无尽之瓮
 tile.lamp_arcane.name=奥术灯
 tile.lamp_growth.name=生长灯
 tile.lamp_fertility.name=育种灯
@@ -409,9 +409,9 @@ enchantment.infusion.ESSENCE=晶化
 #
 # Potions
 ###################################
-potion.flux_taint=Taint Poison
+potion.flux_taint=腐毒
 potion.soulshatter=震魂
-potion.vis_exhaust=Flux Flu
+potion.soulshatter=震魂
 potion.infvisexhaust=咒喰
 potion.unhunger=反常之饥
 potion.warpward=扭曲守护
@@ -718,8 +718,8 @@ focuspart.thaumcraft.MAGIC.name=魔流
 focuspart.thaumcraft.MAGIC.text=使用原始、纯净的Vis来摧毁一切物体，这种能量无法与无生命的物体相互作用，这也意味着它将无视普通的护甲。
 focuspart.thaumcraft.RIFT.name=裂隙
 focuspart.thaumcraft.RIFT.text=将物体转移到另一个空间，为你创造出临时穿过的通道。
-focuspart.thaumcraft.EXCHANGE.name=Exchange
-focuspart.thaumcraft.EXCHANGE.text=Swap one type of block in the world for another.
+focuspart.thaumcraft.EXCHANGE.name=更替
+focuspart.thaumcraft.EXCHANGE.text=将物体于另一个空间的物体交换。
 #
 focuspart.thaumcraft.TOUCH.name=接触
 focuspart.thaumcraft.TOUCH.text=使你能将效果施加到接触的物体上。
@@ -727,8 +727,8 @@ focuspart.thaumcraft.PROJECTILE.name=抛射
 focuspart.thaumcraft.PROJECTILE.text=将核心的能量聚集成魔法球，并像投射物一样抛射出去。这种投射物的射程很远，但飞行速度缓慢且会受到重力影响。
 focuspart.thaumcraft.BOLT.name=震击
 focuspart.thaumcraft.BOLT.text=向目标直接发出强烈的魔法冲击，瞬间击中并产生效果，但射程有限。
-focuspart.thaumcraft.PLAN.name=Plan
-focuspart.thaumcraft.PLAN.text=Allows you to plan exactly which blocks will be affected.
+focuspart.thaumcraft.PLAN.name=计划
+focuspart.thaumcraft.PLAN.text=允许你准确计划那些方块会受到影响。
 #
 focuspart.thaumcraft.CHAIN.name=联锁
 focuspart.thaumcraft.CHAIN.text=Reduces the effectiveness of linked effects， but the bolt can chain to up to two additional targets.
@@ -745,8 +745,8 @@ focuspart.thaumcraft.SILKTOUCH.text=Like the enchantment of the same name， thi
 focuspart.thaumcraft.FORTUNE.name=时运
 focuspart.thaumcraft.FORTUNE.text=Like the enchantment of the same name， this modification give you a chance to gain gain more material from harvested blocks. Equal to Fortune II.
 focuspart.thaumcraft.CHARGE.name=充能
-focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal)， but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal).
-focuspart.thaumcraft.BURST.name=Burst
+focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal), but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal).
+focuspart.thaumcraft.BURST.name=爆裂
 focuspart.thaumcraft.BURST.text=The linked effect will be applied to anything in an area. Targets further from the centre will receive reduced effects.
 #
 # GUI
@@ -768,7 +768,7 @@ wandtable.text3=开始升级
 wandtable.text4=需要水晶
 button.create.theory=创造理论
 button.complete.theory=完成理论
-button.scrap.theory=Scrap Theory
+button.scrap.theory=废料理论
 button.turretfocus.1=以动物为目标
 button.turretfocus.2=以怪物为目标
 button.turretfocus.3=以玩家为目标
@@ -863,10 +863,10 @@ card.analyze.name=分析 %1$s
 card.analyze.text=通过彻底分析你在 %1$s 方面的观察，你可能基于这些数据拼凑出一个理论。 失去1份 %1$s 观察来获得25到50点 %1$s 进度并获得5点 %2$s 进度。
 #
 card.rethink.name=反思
-card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10到20点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感。你可能还会得到一次额外的抽卡机会。
+card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10到20点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感并得到一次额外的抽卡机会。
 #
 card.ponder.name=沉思
-card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中。
+card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中并得到一次抽卡机会。
 #
 card.notation.name=注解
 card.notation.text=当你在记录目前所有的发现时，你发现了一些错误并纠正了它们。你失去 %1$s 方面的所有进度，并将失去的大部分进度计入 %2$s 研究。
@@ -891,13 +891,13 @@ card.dragonegg.text=龙蛋周围萦绕着强大的灵力与混沌的能量，偶
 #
 # ALCHEMY
 card.concentrate.name=浓缩
-card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。源质已经是一种纯净的物质了，但是也不妨一试。往往失败会告诉你成功的秘诀。尝试浓缩%1$s源质，获得10点 炼金术 进度并获得一次额外的抽卡机会。
+card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。源质已经是一种纯净的物质了，但是也不妨一试。往往失败会告诉你成功的秘诀。尝试浓缩%1$s源质，获得10点 炼金术 进度并获得一次额外的抽卡机会。还有机会获得1点灵感。
 #
 card.reactions.name=反应
-card.reactions.text=研究两种不同的Vis之间如何反应也有所裨益。你应当研究%1$s源质如何与%2$s源质进行反应。获得20点 炼金术 进度。
+card.reactions.text=研究两种不同的Vis之间如何反应也有所裨益。你应当研究%1$s源质如何与%2$s源质进行反应。获得20点 炼金术 进度。还有机会获得1点灵感。
 #
 card.synthesis.name=合成
-card.synthesis.text=当源质相互结合形成更复杂的形式时，总会产生许多有趣和复杂的反应。你通过研究%1$s与%2$s源质的结合学到了很多知识。获得30点 炼金术 进度。
+card.synthesis.text=当源质相互结合形成更复杂的形式时，总会产生许多有趣和复杂的反应。你通过研究%1$s与%2$s源质的结合学到了很多知识。获得30点 炼金术 进度。还有机会获得1点灵感。
 #
 # INFUSION
 card.measure.name=测量
@@ -1014,7 +1014,7 @@ tc.addwarpsticky=§5你身上开始出现扭曲！§0
 tc.removewarp=§5你身上的永久扭曲被祛除了！§0
 tc.removewarpsticky=§5你身上的扭曲被祛除了！§0
 tc.removewarptemp=§5你身上的临时扭曲被祛除了！§0
-tc.forbidden=§l§5禁忌知识（%n）§0
+tc.forbidden=§l§5禁忌知识 (%n)§0
 tc.forbidden.level.1=近乎无害
 tc.forbidden.level.2=略有风险
 tc.forbidden.level.3=稍有危险
@@ -1024,7 +1024,7 @@ tc.unknownobject=您一无所获。
 tc.knownobject=您学到了一些东西。
 tc.markerchange=设置标记颜色为%n
 tc.markerchangeany=设置为任何颜色
-tc.researchmissing=缺失前置研究！
+tc.researchmissing=缺失前置研究:
 tc.discount=减免
 tc.visdiscount=魔力减免
 tc.vis.cost=魔力消耗：
@@ -1073,7 +1073,7 @@ tc.fluxevent.3=It seems that there is too much flux in the local aura!
 tc.stage.complete=已完成
 tc.stage.hold=正在完成...
 tc.warp.warn=扭曲等级：%n
-tc.knowledge.name=Knowledge Totals
+tc.knowledge.name=知识总计
 #
 # Aspects
 tc.aspect.name=源质要素
@@ -1179,12 +1179,12 @@ research.TaintSwarm.stage.1=有时，会有紫色蜂巢状的物体滋长在腐�
 research.TaintSeed.stage.1=有时腐化须蔓相互紧绕，使得腐化的空气从这个“种子”中不断喷出，形成新的腐化生长的基础。<BR>这些腐化的种子能够通过鞭打保护自己，如果想要去除这个区域的腐化就必须要承担一定的风险。<BR>如果没有这些种子散发腐化的空气，腐化的增长会迅速枯萎消亡。
 #
 research.FIRSTSTEPS.title=最初的摸索
-research.FIRSTSTEPS.stage.1=有谁能想到一些粉末就能够创造出这本奇异的书呢？它大部分是空白的，但是它揭示着一种强大的全新魔法形式：神秘学。<BR>首先，我需要研究这个魔法世界，为此我需要一个工具：魔导透镜，至少这本书上是这么写的。<BR>因为制作时需要引导微妙的魔法能量，普通的工作台并没有什么用处，向工作台上撒上一把世界盐应该就能解决这个问题了。这本书上写着正确的咒语，我想这一切应当是非常容易的。<BR>我在每个项目的第一页记录我的目标，这样我就能够知道自己应该怎么做了。
+research.FIRSTSTEPS.stage.1=有谁能想到一些粉末就能够创造出这本奇异的书呢？它大部分是空白的，但是它揭示着一种强大的全新魔法形式：神秘学。<BR>首先，我需要研究这个魔法世界，为此我需要一个工具：魔导透镜，至少这本书上是这么写的。<BR>因为制作时需要引导微妙的魔法能量，普通的工作台并没有什么用处，向工作台上撒上一把世界盐应该就能解决这个问题了。这本书上写着正确的咒语，我想这一切应当是非常容易的。<BR>我在每个项目的第一页记录我所需要满足的目标，这样我就能够知道自己应该怎么做了。
 research.FIRSTSTEPS.stage.2=有所进展！我拥有属于自己的奥术工作台了！它和普通的工作台差不多，需要时也可以当工作台使用，不过其中还有一些关键的不同。<BR>首先，许多奥术配方都要用到我最近发现的那些魔力结晶，借助它们将魔法能量聚焦到我所制作的物品上。这本书将这种魔法能量称为Vis。<BR>据称这种能量在我身边无处不在，但我根本无法测量甚至察觉它的存在。<BR>是时候制作一个魔导透镜来研究周围的世界了，它应该会清楚地标记出还有待我观察的东西。<BR>我为魔导透镜的配方在右侧留下了一个书签。
-research.FIRSTSTEPS.stage.3=这些奇特的事物正向我揭示着这个世界。通过魔导透镜，我看到了一个萦绕着魔力的世界，或者按书中所说，充满了Vis。<BR>通常，这种能量是一片纯净的魔法海洋，不断地渗透、流动，但它也同时渗透到世间万物当中，无论是有生命的，还是无生命的。这本书将这种形态的Vis称为“源质”。如果说Vis是无形而纯净的，源质则固化为许多明确的类型，相互结合，形成更强大、更复杂的源质类型。<BR>我不清楚是世间万物凝聚了这些源质，还是这些源质聚合成了世间万物，这还有待我进一步的研究发现。<BR>我记录了所有我发现的源质类型，左侧的书签会显示我当前的知识水平。<BR>现在，我需要把我的精力集中到其他地方：三条新的道路出现在我的面前，我该何从下手？
+research.FIRSTSTEPS.stage.3=这些奇特的事物正向我揭示着这个世界。通过魔导透镜，我看到了一个萦绕着魔力的世界，或者按书中所说，充满了Vis。<BR>通常，这种能量是一片纯净的魔法海洋，不断地渗透、流动，但它也同时渗透到世间万物当中，无论是有生命的，还是无生命的。这本书将这种形态的Vis称为“源质”。如果说Vis是无形而纯净的，源质则固化为许多明确的类型，相互结合，形成更强大、更复杂的源质类型。<BR>我不清楚是世间万物凝聚了这些源质，还是这些源质聚合成了世间万物，这还有待我进一步的研究发现。<BR>我记录了所有我发现的源质类型，左侧的书签会显示我当前的知识水平。<BR>现在，我需要把我的精力集中到其他地方。对于源质的研究可能是一个很好的开始。
 #
 research.KNOWLEDGETYPES.title=知识的类型
-research.KNOWLEDGETYPES.stage.1=知识分为三种主要的类型：观测、理论和顿悟。观测和理论还会进一步划分不同的研究领域，比如炼金术和炼化学。<LINE>观测，顾名思义，就是通过透镜扫描从世界中得到的知识。实际观测往往会洞悉事物的规律，并且通过观察记录你将逐渐建立起坚实的知识基础。<LINE>理论，简而言之，就是通过仔细观察、理性思考和实践经验来理解事物的方法。许多的神秘学研究的类型都需要构造理论依据来进一步开展研究。<LINE>顿悟，对于完成某些特定的研究来说，是你对知识和见解的灵光一现。
+research.KNOWLEDGETYPES.stage.1=知识分为三种主要的类型：观测、理论和顿悟。观测和理论还会进一步划分不同的研究领域，比如炼金术和炼化学。<LINE>观测，顾名思义，就是通过透镜扫描从世界中得到的知识。实际观测往往会洞悉事物的规律，并且通过观察记录你将逐渐建立起坚实的知识基础。<LINE>§l理论§r，简而言之，就是通过仔细观察、理性思考和实践经验来理解事物的方法。许多的神秘学研究的类型都需要构造理论依据来进一步开展研究。<LINE>§l顿悟§r，对于完成某些特定的研究来说，是你对知识和见解的灵光一现。
 #
 research.THEORYRESEARCH.title=理论研究
 research.THEORYRESEARCH.stage.1=对于我这样的神秘使，仅仅通过研究周围的世界或是偶然发现古老的知识是无法取得进展的。我需要有自己的发现，并通过实验来提高我的知识水平。只有构造属于我自己的理论才是唯一的方法。<BR>我需要一个的舒适的工作空间来进行研究，并且准备好充足的书写工具和纸张。我先应该制作一个笔与魔放到桌子上。
@@ -1219,9 +1219,9 @@ research.f_golem.text=Study an animated construct.
 #
 research.FLUX.warn=灵气场中充满了一种力量，一种不太好的力量。
 research.FLUX.title=腐化
-research.FLUX.stage.1=我观察到灵气场中存在奇异的魔法力量在聚集。它们看上去是一种“污染”的Vis，我将它们称为“腐化”（Flux）。我能够通过魔导透镜上不详的黑色指示条来观察周围的腐化。<BR>我现在知道，当因我的粗心大意而让一些紫色的泡沫出现 — 它们渗透到空气当中，成为腐化。看来，纯净的源质并不应该直接暴露在空气当中。<BR>我不确定它到底会带来什么负面影响，不过我注意到，腐化的存在堵塞了周围的灵气场，阻碍了Vis的自然补充。<BR>设想它就像是一池清水上一层厚厚的淤泥。<BR>当地的灵气场似乎“充溢”在一个点上，而腐化也正涌向这同一个点。<BR>更令人震惊的是，腐化的流动似乎更优先于Vis的流动，我怀疑这甚至能超越自然的极限，我不知道当腐化溢出的时候会发生什么。
+research.FLUX.stage.1=我观察到灵气场中存在奇异的魔法力量在聚集。它们看上去是一种“污染”的Vis，我将它们称为“腐化”（Flux）。我能够通过魔导透镜上不详的黑色指示条来观察周围的腐化。<BR>我现在知道，当因我的粗心大意而让一些紫色的泡沫出现 — 它们渗透到空气当中，成为腐化。看来，纯净的源质并不应该直接暴露在空气当中。<BR>我不确定它到底会带来什么负面影响，不过我注意到，腐化的存在堵塞了周围的灵气场，阻碍了Vis的自然补充。<BR>设想它就像是一池清水上一层厚厚的淤泥。<BR>当地的灵气场似乎“充溢”在一个点上，而腐化也正涌向这同一个点。<BR>更令人震惊的是，腐化的流动似乎更优先于Vis的流动，我怀疑这甚至能超越自然的极限。<BR>我不知道当腐化溢出的时候会发生什么，但肯定会非常有趣。
 research.FLUX.stage.2=告诉自己：千万不要让腐化形成，这很糟糕。<BR>非常非常非常糟糕。<BR>如果腐化聚集到一定的程度，似乎会撕裂魔法本身的结构。随着这种撕裂的产生，腐化流溢到世界中，这种原始、混沌的魔法能量将会给世界带来各种灾难。<BR>在未来我应该更加注意腐化的产生，事实上，我应该寻找一种中和腐化的方法。
-research.f_toomuchflux.text=Let the the Flux build
+research.f_toomuchflux.text=让腐化不断聚集
 #
 research.WARP.warn=我所掌握的知识似乎让我有些神志不清
 research.WARP.title=扭曲
@@ -1297,7 +1297,7 @@ research.ARCANESPA.stage.1=Pouring bath salts into water is a bit of a chore， 
 research.ARCANESPA.stage.2=I have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally， I have designed it in such a way that it can be used to pump nearly any liquid I can fill it with. It can be filled with with automation， or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
 #
 research.WARDEDJARS.title=Warded Jars & labels
-research.WARDEDJARS.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in， well， everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to， um， "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
+research.WARDEDJARS.stage.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in the world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.<BR>Shift clicking on jars and alembics with an empty hand will empty them.<PAGE>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.<BR>You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<BR>A label can be made blank again by simply placing it by itself in a crafting grid.<PAGE>You can also craft §lBrass Lid Braces§r. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
 #
 research.ESSENTIASMELTER.title=Essentia Smelting
 research.ESSENTIASMELTER.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in， well， everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to， um， "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
@@ -1316,7 +1316,7 @@ research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing
 #
 research.THAUMATORIUM.title=Alchemical Automation
 research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects， degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw， liquid essentia available to me I should improve the entire alchemical process.
-research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly， every time.<BR>The crucible that forms its base does not require water， but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula， but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
 #
 research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
 research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process， but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable.
@@ -1350,7 +1350,7 @@ research.BASEINFUSION.title=基础注魔
 research.BASEINFUSION.stage.1=我已经做足了制作附魔物品和工具的准备。<LINE>我设计了一些旗帜来装饰我的实验室，我可以通过使用要素安瓿来让旗帜显示特定要素的图案。<LINE>我发现了一种如丝般柔滑的独特布料，它具有良好的附魔能力，我用这种材料设计了一套全新的护甲装备。<BR>这套装备不仅舒适而时尚，穿上它们还会降低特定操作时的Vis消耗。它们也如同皮革护甲一般易于染色。<BR>总而言之，我对目前取得的进度非常满意。
 #
 research.INFUSION.title=注魔
-research.INFUSION.stage.1=奥术合成和炼金术能达到的层次也就到此为止了。为了获得更好的东西你需要创造出更强大的魔导设备。<BR>注魔合成能够向单件物品中灌注魔力和来自其他物品的特性。比方说，你能够将风之要素以及羽毛灌注入普通石头来得到一种非常轻盈的石材。<BR>至少，我的看法是这样的。
+research.INFUSION.stage.1=奥术合成和炼金术能达到的层次也就到此为止了。为了获得更好的东西你需要创造出更强大的魔导设备。<BR>注魔合成能够向单件物品中灌注魔力和来自其他物品的特性。比方说，你能够将§6风之要素§0以及羽毛灌注入普通石头来得到一种非常轻盈的石材。<BR>至少，我的看法是这样的。
 research.INFUSION.stage.2=毫无疑问，注魔比我想象的要复杂得多。强行把要素灌注进物品是行不通的。我需要一个相对复杂的系统来稳定这个过程。我已经草拟了一个符文矩阵来完成这项工作。
 research.INFUSION.stage.3=搭建注魔台前需要做如下准备:符文矩阵，奥术基座，以及足够数量的要素源质。<BR>当你将符文矩阵正确地放置在一个名为注魔祭坛的神秘构造上后，便能够开始进行注魔合成。和其他奥术结构一样，注魔祭坛也可以通过世界盐来创建。完成搭建后，可以通过施法工具来启动符文矩阵。<BR>符文矩阵下方，坐落于正中的基座是你用于放置被注魔物品的地方。你还需要环绕祭坛放置一些基座来放置被灌注的材料。最后你还需要在附近放置一些盛放了要素源质的罐子或者其他类似的魔力存储容器。<BR>当一切就绪，你需要使用施法工具点击符文矩阵来开始注魔过程。<BR>在这个过程的第一阶段，注魔祭坛将会从附近吸取所需的要素源质。<BR>若没有足够的源质供应，注魔过程会中断 - 后文将会对这种你不希望发生的情况做进一步的阐释。<BR>当所有需求的源质被灌入目标物品后，才能开始吸收被灌注的其他物品的要素源质。仅当这些都完成后注魔才能顺利完成。<LINE>注魔合成并非毫无风险。其完整的过程实质上是把庞杂的魔法能量强制集中到单独的物品中，在这种情况下往往会发生一些不可预知的事情:<BR>比较常见的意外包括注魔过载被基座中断掉，产生咒波等，但也可能遭遇一些闻所未闻的灾难事件。<BR>由于魔力缺乏，物品掉落等未解决的问题导致而的注魔时间延迟越久，就越发有可能发生糟糕的事情。<BR>可以有多种途径来减少这些意外的影响。首先你应该尽可能对称地布置注魔祭坛 - 一定要确保你放置的基座对侧有以祭坛为原点对称的基座与之平衡。当放置被灌注材料时，也需要尽可能保证放置位置对称与平衡。最后你可以环绕祭坛对称放置一些具有神秘属性的物品(比如蜡烛，头骨，水晶等)，它们也能够减少注魔过程的风险。<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
@@ -1404,7 +1404,7 @@ research.CLOUDRING.stage.2=I have made plans for a bauble I am calling the Cloud
 #
 research.CURIOSITYBAND.title=Headband of Curiosity
 research.CURIOSITYBAND.stage.1=The experience orbs I gather from harvested resources and slain monsters contain both magical energy and packets of knowledge. I am certain that more can be done with them than simple enchanting.
-research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way to extract fragments of knowledge from experience orbs. These parcels of knowledge are very small but may provide useful snippets of insight into certain kinds of research.<BR>I have drawn op designs for a headband the when worn will absorb half the experience from any orbs I collect and turn it into research knowledge. The rate of return is very low， but every little bit helps.
+research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way to extract fragments of knowledge from experience orbs. These parcels of knowledge are very small but may provide useful snippets of insight into certain kinds of research.<BR>I have drawn up designs for a headband that when worn will absorb half the experience from any orbs I collect and turn it into research knowledge. The rate of return is very low， but every little bit helps.
 #
 research.VERDANTCHARMS.title=Verdant Charms
 research.VERDANTCHARMS.stage.1=I occasionally find myself being affected with poisons and other nasty afflictions. I should find a way to protect myself.
@@ -1423,7 +1423,7 @@ research.REDSTONERELAY.stage.2=我仔细地研究了这个问题，虽然众所�
 #
 research.ARCANEEAR.title=奥术之耳
 research.ARCANEEAR.stage.1=我想我应该从神秘传感器开始，也许声音传感器是个不错的选择。
-research.ARCANEEAR.stage.2=我成功了! 奥术之耳是一个能够检测附近的音符盒发声的设备。当它检测到给定音符时会发出短的红石脉冲。<BR>奥术之耳通过依附在不同材料上实现与不同音色的音符盒对应。<BR>奥术之耳能够依附在任意方块的表面上。
+research.ARCANEEAR.stage.2=我成功了! 奥术之耳是一个能够检测附近的音符盒发声的设备。当它检测到既定音符时会发出短的红石脉冲。<BR>奥术之耳通过依附在不同材料上实现与不同音色的音符盒对应。<BR>奥术之耳能够依附在任意方块的表面上。<LINE>I can also craft a version of the arcane ear that toggles on or off when it hears a note instead of sending a pulse.
 #
 research.DIOPTRA.title=奥术屈光仪
 research.DIOPTRA.stage.1=如果能有个仪器来显示周围的灵气分布就好了。等等，似乎这并不难实现!
@@ -1441,7 +1441,7 @@ research.INFERNALFURNACE.bellows=将奥术风箱安装在地狱熔炉侧面和�
 research.MIRROR.title=镜中奇缘
 research.MIRROR.stage.1=魔导书指引着你，镜子蕴含有链接维度与承载奥术魔法的神奇能力。<BR>可惜的是，书中没有更进一步的答案了，和往常一样，你得自己研究。
 research.MIRROR.stage.2=你尝试附魔镜子，将它变成通往世界间隙那广漠虚空的传送门。投入其(或是使用管道向镜子输入)的物品将会跨越空间甚至跨越位面，然后从另外一面镜子喷出。<BR>不幸的是空间通道对像你这样的实体生物非常排斥，因此用这种魔镜来传输生物暂时是不可能的。<BR>要链接一对魔镜，你需要将其中一面镜子安装在目标位置。并用第二面镜子右击第一名镜子，并安装在需要的位置。当两面都装好后会建立连接，镜面会出现黑洞的图案。当你将物品投入其中，物品会自动从另一个镜子被抛出。<BR>魔镜只能成对链接。当安装好后不能与第三个魔镜建立链接。当你拆卸后重新安装魔镜的时候，它能够自动回忆上次建立配对的魔镜。然而，拆卸配对的魔镜后，你也能很方便地用它建立新的链接。<BR>通过镜子传输物品会对当地的灵气平衡造成压力，每次传输物品，都会产生咒波污染，传输物品越多，污染越甚。
-research.f_TELEPORT.text=Study teleportation
+research.f_TELEPORT.text=学习传送
 #
 research.MIRRORHAND.title=魔力手镜
 research.MIRRORHAND.stage.1=你需要一种更便携的手镜，毕竟带着一整块魔镜出门实在是太不方便了。
@@ -1497,7 +1497,7 @@ research.FOCUSPROJECTILE.stage.2=能够射出单个投射物也不赖，但是�
 #
 research.FOCUSBOLT.title=核心媒介：震击
 research.FOCUSBOLT.stage.1=使用抛射魔法是一件挺痛苦的事情，它们难以瞄准，并且需要一些时间才能命中目标。<BR>向目标射出高速的魔法冲击就要好得多，它们会立刻命中目标并且让瞄准变得轻松得多。然而，我不得不为此消耗更多的Vis，不过我想这一切都非常值得。
-research.FOCUSBOLT.stage.2=我的震击法术绝不只是外观看上去和闪电相似，我也能够复现向周围目标发射电弧的能力。联锁震击中的每道震击的威力都将变得更弱，法术也将变得更为昂贵，不过同时攻击多个目标的能力是无价的。
+research.FOCUSBOLT.stage.2=我的震击法术绝不只是外观看上去和闪电相似，我也能够复现向周围目标发射电弧的能力。联锁震击中的每道震击的威力都将逐渐变得更弱，不过同时攻击多个目标的能力是无价的。
 #
 research.FOCUSFROST.title=核心效果：寒霜
 research.FOCUSFROST.stage.1=对我来说，将我所学到的知识运用到其他元素上易如反掌。<BR>火焰充满了破坏性，但是严寒也具有相似的杀伤性，并且还能够冻结敌人，降低它们的速度。
@@ -1506,7 +1506,7 @@ research.FOCUSMAGIC.title=核心效果：魔流
 research.FOCUSMAGIC.stage.1=使用元素作为武器有它的好处，但是纯粹的魔法同样具有强大的破坏力 — 大部分生物在接触到纯粹、原始的Vis时都会受到损伤,即使是护甲也不能在这样的能量流动中起到保护作用。
 #
 research.FOCUSBREAK.title=核心效果：破坏
-research.FOCUSBREAK.stage.1=借助Perditio的强大破坏力，我应该能够设计一种用来安全破坏大部分方块的符印。
+research.FOCUSBREAK.stage.1=借助Perditio的强大破坏力，我应该能够设计一种用来安全破坏大部分方块的符印。更加坚硬的方块需要更长的时间来破坏。
 research.FOCUSBREAK.stage.2=有一种附魔能够让你在没有实际破坏方块的情况下获得它们 — 掉落完好无损的方块形式。<BR>通过研究“精准采集”附魔，我应该能够以核心符印的方式进行复现。
 research.FOCUSBREAK.stage.3=既然我已经复现了精准采集附魔，那我也应该能够复现时运附魔的效果。<BR>通过研究，我应该能够以符印的方式复现等同于“时运 II”的时运效果。
 #
@@ -1538,9 +1538,9 @@ research.VISAMULET.title=Vis Amulet
 research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items.
 research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura， allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar， baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
-research.WORKBENCHCHARGER.title=Arcane Workbench Charger
+research.WORKBENCHCHARGER.title=Workbench Charger
 research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far， I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis， the more vis will be available for crafting.
-research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench. This framework allows the workbench to draw vis not only from the chunk it is located in， but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
+research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench and the focal manipulator. This framework allows those workbenches to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
 #
 research.FOCUSCURSE.title=核心效果：诅咒
 research.FOCUSCURSE.stage.1=这根岩精的法杖看上去非常奇怪，对我而言也没有什么用处，不过看起来它的工作原理与施术核心颇为相似。<BR>我应该能够对它进行一些逆向工程操作。
@@ -1642,7 +1642,7 @@ research.SEALUSE.stage.2=这个印记能使傀儡模仿玩家左右击方块的�
 research.BASICTURRET.title=自动十字弩
 research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders.
 research.BASICTURRET.stage.2=你找到一种方法能够赋予十字弩思维，使其变为一种简易的自动炮台。<BR>放置好后的自动十字弩会自动朝着射程内的所有敌对生物开火。不幸的是它有限的思维能力不允许你为其精细地设置攻击目标。<BR>它内部存储空间也非常有限，但如果有更高的需求可以将其放置在一个面朝上的发射器上，这样它就能够自动从发射器中装填弹药了。<BR>潜行右击它可以将其回收。<PAGE>这把十字弩可以坐进矿车并且可以被位于铁轨下面的发射器装填弹药<BR>经过奥术激活轨道时十字弩的工作方式会被改变。如果这轨道被充能，则十字弩会停止工作，直至移动到未充能的轨道上。
-research.f_DISPENSER.text=Closely examine something that can launch objects.
+research.f_DISPENSER.text=Examine something that can launch objects.
 #
 research.ADVANCEDTURRET.title=高级自动弩
 research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets.
