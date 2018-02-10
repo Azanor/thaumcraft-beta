@@ -719,7 +719,7 @@ focuspart.thaumcraft.MAGIC.text=使用原始、纯净的Vis来摧毁一切物体
 focuspart.thaumcraft.RIFT.name=裂隙
 focuspart.thaumcraft.RIFT.text=将物体转移到另一个空间，为你创造出临时穿过的通道。
 focuspart.thaumcraft.EXCHANGE.name=更替
-focuspart.thaumcraft.EXCHANGE.text=将物体于另一个空间的物体交换。
+focuspart.thaumcraft.EXCHANGE.text=将物体与另一个空间的物体交换。
 #
 focuspart.thaumcraft.TOUCH.name=接触
 focuspart.thaumcraft.TOUCH.text=使你能将效果施加到接触的物体上。
