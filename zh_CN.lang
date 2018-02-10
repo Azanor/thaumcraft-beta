@@ -768,7 +768,7 @@ wandtable.text3=开始升级
 wandtable.text4=需要水晶
 button.create.theory=创造理论
 button.complete.theory=完成理论
-button.scrap.theory=废料理论
+button.scrap.theory=放弃理论
 button.turretfocus.1=以动物为目标
 button.turretfocus.2=以怪物为目标
 button.turretfocus.3=以玩家为目标
@@ -866,7 +866,7 @@ card.rethink.name=反思
 card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10到20点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感并得到一次额外的抽卡机会。
 #
 card.ponder.name=沉思
-card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中并得到一次抽卡机会。
+card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中，同时得到一次抽卡机会。
 #
 card.notation.name=注解
 card.notation.text=当你在记录目前所有的发现时，你发现了一些错误并纠正了它们。你失去 %1$s 方面的所有进度，并将失去的大部分进度计入 %2$s 研究。
@@ -1014,7 +1014,7 @@ tc.addwarpsticky=§5你身上开始出现扭曲！§0
 tc.removewarp=§5你身上的永久扭曲被祛除了！§0
 tc.removewarpsticky=§5你身上的扭曲被祛除了！§0
 tc.removewarptemp=§5你身上的临时扭曲被祛除了！§0
-tc.forbidden=§l§5禁忌知识 (%n)§0
+tc.forbidden=§l§5禁忌知识（%n）§0
 tc.forbidden.level.1=近乎无害
 tc.forbidden.level.2=略有风险
 tc.forbidden.level.3=稍有危险
@@ -1024,7 +1024,7 @@ tc.unknownobject=您一无所获。
 tc.knownobject=您学到了一些东西。
 tc.markerchange=设置标记颜色为%n
 tc.markerchangeany=设置为任何颜色
-tc.researchmissing=缺失前置研究:
+tc.researchmissing=缺失前置研究：
 tc.discount=减免
 tc.visdiscount=魔力减免
 tc.vis.cost=魔力消耗：
@@ -1073,7 +1073,7 @@ tc.fluxevent.3=It seems that there is too much flux in the local aura!
 tc.stage.complete=已完成
 tc.stage.hold=正在完成...
 tc.warp.warn=扭曲等级：%n
-tc.knowledge.name=知识总计
+tc.knowledge.name=总计知识
 #
 # Aspects
 tc.aspect.name=源质要素
