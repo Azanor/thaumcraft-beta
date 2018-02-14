@@ -188,6 +188,8 @@ item.creative_flux_sponge.name=Flux Sponge
 item.turret.basic.name=Automated Crossbow
 item.turret.advanced.name=Advanced Automated Crossbow
 item.turret.bore.name=Arcane Bore
+item.enchanted_placeholder.name=Any enchanted item
+item.enchanted_placeholder.text=Must have at least these enchantments:
 #
 # Golem
 item.module.vision.name=Vision Module
@@ -613,7 +615,7 @@ golem.trait.text.flyer=The golem is capable of flight, giving it greater mobilit
 golem.trait.climber=Climber
 golem.trait.text.climber=Sheer cliffs do not deter this golem. It can easily scale them to get to its destination.
 golem.trait.scout=Scout
-golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (32 blocks range from home location instead of 16).
+golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (48 blocks range from home location instead of 32).
 golem.trait.fireproof=Fireproof
 golem.trait.text.fireproof=The golem is immune to fire damage.
 golem.trait.brutal=Brutal
@@ -1074,6 +1076,8 @@ tc.stage.complete=Завершить
 tc.stage.hold=Завершение...
 tc.warp.warn= Warping level: %n
 tc.knowledge.name=Knowledge Totals
+tc.logistics.request=Request
+tc.logistics.search=Search
 #
 # Aspects
 tc.aspect.name=Aspects of Essentia
@@ -1235,8 +1239,8 @@ research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/researc
 #
 research.PLANTS.title=Plants
 research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
+research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a rare prize.
+research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 research.PLANTS.cinderpearl=§oCinderpearls§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
 research.PLANTS.shimmerleaf=§oShimmerleaf§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
 research.PLANTS.vishroom=§oVishroom§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
@@ -1592,6 +1596,10 @@ research.CONTROLSEALS.stage.1=Golems cannot do anything they are not told to do.
 research.GOLEMDIRECT.title=Golem Mastery
 research.GOLEMDIRECT.stage.1=Having golems mindlessly following seals is not my only goal. I want them to mindlessly follow me as well.<BR>There has to be a way to make that happen.
 research.GOLEMDIRECT.stage.2=I can now right click on a golem with the §5Golemancer's Bell§0 to have it follow me. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location.
+#
+research.GOLEMLOGISTICS.title=Golem Logistics
+research.GOLEMLOGISTICS.stage.1=Having created the Provider Seal I now have an interesting opportunity. It should be possible for me to directly request items from nearby golems.<BR>Some tweaking of their pathfinding will be required, but it should not be too hard to do.
+research.GOLEMLOGISTICS.stage.2=I can now sneak + right click with the §5Golemancer's Bell§0 to bring up an inventory of all items accessible by provider seals within 64 blocks. I can then request items from this list and a golem will deliver it.<BR>If I clicked on a block the item will be delivered to the block, or placed inside if it is an inventory. The side you clicked on will be taken into account.<BR>If I clicked on empty air the item will be delivered directly to me.<PAGE>Golems are still limited by their range so I must take care where I try and deliver items to.
 #
 research.MINDBIOTHAUMIC.title=Biothaumic Minds
 research.MINDBIOTHAUMIC.stage.1=As predicted the clockwork minds I have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so I turning to something I already know will work - living brains.<BR>By studying them I might be able to unlock the secret behind true intelligence and autonomy. 
