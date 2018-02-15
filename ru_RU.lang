@@ -1075,14 +1075,14 @@ tc.fluxevent.3=It seems that there is too much flux in the local aura!
 tc.stage.complete=Завершить
 tc.stage.hold=Завершение...
 tc.warp.warn= Warping level: %n
-tc.knowledge.name=Knowledge Totals
+tc.knowledge.name=Количество знаний
 tc.logistics.request=Request
 tc.logistics.search=Search
 #
 # Aspects
-tc.aspect.name=Aspects of Essentia
-tc.aspect.primal=Primal Aspect
-tc.aspect.unknown=Unknown Aspect
+tc.aspect.name=Аспекты эссенции
+tc.aspect.primal=Первичный аспект
+tc.aspect.unknown=Неизвестный аспект
 tc.aspect.aer=Air
 tc.aspect.terra=Earth
 tc.aspect.ignis=Fire
@@ -1185,7 +1185,7 @@ research.TaintSeed.stage.1=Occasionally tight knots of Tainted tendrils will for
 research.FIRSTSTEPS.title=Первые шаги
 research.FIRSTSTEPS.stage.1=Кто бы мог подумать, что небольшая горсть пыли сможет создать эту чудесную книгу? Она по большей части пуста, но уже намекает на новую мощную форму магии: Тауматургию.<BR>Для начала нужно изучить тот магический мир, что был показан мне. И для этого понадобится особый инструмент - Таумометр, так он зовется в книге.<BR>На обычном верстаке невозможно сделать подобные предметы, поскольку магические силы, которые я должен направлять во время их создания, требуют осторожного обращения. Но, если посыпать обычный верстак пылью Salis Mundus, это решит проблему. Книга научила меня подходящему заклинанию, поэтому это не должно составить особого труда.<BR>Чтобы отслеживать свой прогресс, я буду записывать список всех требований, которые необходимо выполнить на первой странице каждой новой записи. 
 research.FIRSTSTEPS.stage.2=Прогресс! Теперь в моем распоряжении есть Магический верстак. Он очень похож на своего обычного собрата и даже может использоваться как таковой, однако у него есть несколько значимых отличий.<BR>Во-первых, большинство магических рецептов будет требовать использования тех кристаллов, что я находил в последнее время. Они нужны для фокусировки магической энергии, которую необходимо направить в создаваемые предметы. Вис - так называет эту энергию книга.<BR>По идее, она должна быть везде, но пока я не могу распознать ее или измерить.<BR>Пора мне создать Таумометр и использовать его для изучения окружающего меня мира. Он должен помечать те вещи, которые мне нужно изучить.<BR>Справа я поместил закладку с его рецептом.
-research.FIRSTSTEPS.stage.3=Such strange wonders are being revealed to me. Peering through the lens of the Thaumometer shows me a world coursing with magic, Vis as the books calls it.<BR>Normally this energy is a pure ocean of magic that ebbs and flows, but it also permeates all things, both animate and inanimate. The books calls Vis in this state Essentia. Where Vis is formless and pure, Essentia is more rigid in its nature and falls into a multitude of clearly defined types, each mixing together with others to form greater and more complex types of essentia.<BR>I am not quite sure if the matter it is bound to gives Essentia its nature, or that the very nature of matter depends on the Essentia it contains. This bears further study.<BR>I am keeping a log of all the types of essentia I discover. A bookmark on the left will show my current knowledge.<BR>For now I need to focus my energies elsewhere. Studying essentia might be a good place to start.
+research.FIRSTSTEPS.stage.3=Какие удивительные чудеса открываются мне! Сквозь линзу Таумометра я вижу мир, что охвачен магией, энергией Вис, как называет ее книга.<BR>По сути эта энергия есть чистый океан магии, имеющий свои приливы и отливы; она пронизывает все вокруг, как одушевленные, так и неодушевленные предметы. Подобное состояние Вис книга называет Эссенцией. В то время как энергия Вис является бесформенной и чистой, Эссенция по своей природе более осязаема. Существует большое количество типов Эссенции, многие из которых можно смешать с другими, чтобы в итоге образовать более сложные типы Эссенции.<BR>Трудно сказать, влияет ли материя на принадлежность Эссенции к какой-либо природе, или же сама природа материи зависит от содержащейся в ней Эссенции. Здесь требуется дальнейшее изучение.<BR>Я буду вести учет всех обнаруженных типов эссенции. В закладке слева будут показаны все мои знания о них на текущий момент.<BR>А пока, мне нужно направить свои силы в другое русло. Изучение эссенций может быть неплохой отправной точкой.
 #
 research.KNOWLEDGETYPES.title=Типы знаний
 research.KNOWLEDGETYPES.stage.1=Существует три основных типа знаний: Наблюдения, Теории и Прозрения. Все Наблюдения и Теории подразделяются на основные категории исследований, такие как Алхимия и Изобретения.<LINE>§lНаблюдения§r - это те заметки и открытия, которые Вы делаете в мире путем сканирования объектов. Практическое наблюдение часто помогает понять, как работает та или иная вещь, а сохраняя полевые заметки таких наблюдений, Вы постепенно создадите прочную базу знаний для дальнейшей работы.<LINE>§lТеории§r - это способы познания вещей путем тщательных наблюдений, размышлений и экспериментов. Бóльшая часть тауматургических исследований требует разработки теорий для того, чтобы лучше понять категорию, соответствующую этим исследованиям (Алхимия, Изобретения и т.д.).<LINE>§lПрозрения§r - это редкие случаи понимания и познания того, что необходимо для завершения определенных видов основных исследований.
