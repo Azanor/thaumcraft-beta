@@ -1387,7 +1387,7 @@ research.m_swimmer.text=Swim a lot.
 research.m_jumper.text=Jump a lot.
 #
 research.PAVINGSTONES.title=Arcane Paving Stones
-research.PAVINGSTONES.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
+research.PAVINGSTONES.stage.1=Arcane stone has no innate magical properties of its own, but acts as a spell sponge of sorts. I should be able to add all manner of enchantments to them. 
 research.PAVINGSTONES.stage.2=<PAGE>§oPaving Stone of Travel§r<DIV>By altering the magical structure of arcane stone I am able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.<PAGE>§oBarrier Stone§r<DIV>I have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.<BR>The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
 #
 research.ELEMENTALTOOLS.title=Elemental Tools
@@ -1431,7 +1431,7 @@ research.ARCANEEAR.stage.2=I have succeeded! The Arcane Ear is a device that is 
 #
 research.DIOPTRA.title=Thaumic Dioptra
 research.DIOPTRA.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
-research.DIOPTRA.stage.2=As I expected it was not hard to expand on the workings of the thaumometer to design the Thaumic Dioptra.<BR>This device allows a thaumaturge to see the surrounding aura in a simple and clear manner. It will render the aura in a 13 chunk diameter area around it as a simple height map. It will also detect flux in the aura and color the aura purple in effected areas - the darker the purple, the more flux is present.<BR>A comparator can be connected if you want to monitor the aura level of the chunk in which it is placed.
+research.DIOPTRA.stage.2=As I expected it was not hard to expand on the workings of the thaumometer to design the Thaumic Dioptra.<BR>This device allows a thaumaturge to see the surrounding aura in a simple and clear manner. It will render the aura in a 13 chunk diameter area around it as a simple height map. It can also be switched to show flux instead by simply clicking on it.<BR>A comparator can be connected if you want to monitor the aura or flux level of the chunk in which it is placed.
 #
 research.LEVITATOR.title=Arcane Levitator
 research.LEVITATOR.stage.1=I have always been fascinated by the power of flight. I am sure flying is almost within my grasp, but first I need to learn the fundamentals.<BR>I need to study simple levitation first. 
