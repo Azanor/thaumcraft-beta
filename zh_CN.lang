@@ -728,26 +728,26 @@ focuspart.thaumcraft.PROJECTILE.text=将核心的能量聚集成魔法球，并�
 focuspart.thaumcraft.BOLT.name=震击
 focuspart.thaumcraft.BOLT.text=向目标直接发出强烈的魔法冲击，瞬间击中并产生效果，但射程有限。
 focuspart.thaumcraft.PLAN.name=计划
-focuspart.thaumcraft.PLAN.text=允许你准确计划那些方块会受到影响。
+focuspart.thaumcraft.PLAN.text=允许你精确规划哪些方块会受到影响。
 #
 focuspart.thaumcraft.CHAIN.name=联锁
-focuspart.thaumcraft.CHAIN.text=Reduces the effectiveness of linked effects， but the bolt can chain to up to two additional targets.
+focuspart.thaumcraft.CHAIN.text=降低相连符印的效果，但是使得震击能够弹射到附近最多两个目标上。
 focuspart.thaumcraft.FRUGAL.name=朴素
-focuspart.thaumcraft.FRUGAL.text=The linked effects require less vis to cast without sacrificing effectiveness.
+focuspart.thaumcraft.FRUGAL.text=相连符印可以以更少的Vis施展相同强度的效果。
 focuspart.thaumcraft.LINGERING.name=动荡
-focuspart.thaumcraft.LINGERING.text=The linked effects last longer or may gain a minor lingering effect that they did not have before.
+focuspart.thaumcraft.LINGERING.text=相连符印的效果持续得更久，对于没有持续效果的符印可能获得短暂的持续效果。
 focuspart.thaumcraft.POTENCY.name=潜能
-focuspart.thaumcraft.POTENCY.text=The linked effects cost more vis， but they are considerably more effective.
+focuspart.thaumcraft.POTENCY.text=相连的符印将消耗更多Vis，借此显著提升它们的效果。
 focuspart.thaumcraft.SCATTER.name=散射
-focuspart.thaumcraft.SCATTER.text=You split the thrown projectile into multiple smaller projectiles， each less effective and less accurate， but covering a much wider area.
+focuspart.thaumcraft.SCATTER.text=你将投射物分裂成多个较小的投射物，每个较小的投射物的效果和精准度都有所降低，但此时效果能够覆盖更大的面积。
 focuspart.thaumcraft.SILKTOUCH.name=精准采集
-focuspart.thaumcraft.SILKTOUCH.text=Like the enchantment of the same name， this modification allows you to pick up harvested blocks as-is instead of gaining the normal drops.
+focuspart.thaumcraft.SILKTOUCH.text=与精准采集附魔相似，这个符印使你能够完好无损地取得方块，而不是获得它们普通的掉落物。
 focuspart.thaumcraft.FORTUNE.name=时运
-focuspart.thaumcraft.FORTUNE.text=Like the enchantment of the same name， this modification give you a chance to gain gain more material from harvested blocks. Equal to Fortune II.
+focuspart.thaumcraft.FORTUNE.text=与时运附魔相似，这个符印使你在采集方块时有几率获得更多物品。等同于“时运 II”的效果。
 focuspart.thaumcraft.CHARGE.name=充能
-focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal), but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal).
+focuspart.thaumcraft.CHARGE.text=拥有这个符印的核心的效果和消耗都有所降低（约为平时的一半），但是按住施术键时，法术会缓慢进行充能并逐渐提高效果和消耗（最高提升为平时的两倍）。
 focuspart.thaumcraft.BURST.name=爆裂
-focuspart.thaumcraft.BURST.text=The linked effect will be applied to anything in an area. Targets further from the centre will receive reduced effects.
+focuspart.thaumcraft.BURST.text=相连符印的效果将会施加到一个区域中的所有目标上，远离中心的目标会受到较小的效果。
 #
 # GUI
 ###################
@@ -1516,27 +1516,27 @@ research.FOCUSEXCHANGE.stage.2=我的理论得到了证实！将这个符印加�
 #
 research.FOCUSRIFT.title=核心效果：裂隙
 research.FOCUSRIFT.stage.1=我对空间魔法进行了一些试验性的实验，但是目前为止我只得到了一些混杂的结果。不过我现在能够无比可靠地将一切无生命的物质传送到相邻的空间，并且将一些物质从相邻的空间中取出。<BR>我在想，无论用哪种方式，这些物质在传送的过程当中都不会受到伤害，然而对于生物而言却不是那么一回事 — 我不敢相信我所看到的事实，我不确定我会不会再次进行此类实验。<BR>幸运的是，我能够将这种发现用符印的方式进行复现，大多数无生命的物体都会像使用了某种便携虫洞一样暂时转移到另一个空间当中。<BR>这个裂隙的直径只能是恒定的3码，但我想我能够控制它的深度，通常应该在8码左右。
-research.FOCUSRIFT.stage.2=I have managed to create a focus that manipulates dimensional magic. Most inanimate objects will be shifted into this other realm temporarily like some sort of portable hole.<BR>The diameter of this hole will remain fixed at around 3 yards, but I should be able to manipulate the depth a bit. Normally it should be around 8 yards.
+research.FOCUSRIFT.stage.2=我成功创造了一种利用空间魔法的核心，大多数无生命的物体都会被暂时转移到另一个空间，就如同一个便携虫洞一般。<BR>它会创造一个直径恒定3米的洞，但是我应该能够一定程度上改变它的深度，一般来说深度一般在8米左右。
 #
-research.FOCUSPLAN.title=Focus Medium: Plan
-research.FOCUSPLAN.stage.1=I have learned to manipulate blocks in the world with foci effects such as Exchange, but their practical use is a bit limited.<BR>I should discover a way to fine tune exactly which blocks I can apply such foci effects to.
-research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me to plan which blocks I manipulate. This medium works much like Touch, except I will be shown a ghostly outline if which blocks will be manipulated. By pressing the focus modify key ('G' by default) I can alter the size of the area. By pressing CTRL + G I can alter the axis in which the size will be changed.<BR>Caution should be taken using as the vis cost of the effect will be subtracted for each block effected.<BR>The Potency focus modifier will increase the maximum possible size this medium can alter.
+research.FOCUSPLAN.title=核心媒介：计划
+research.FOCUSPLAN.stage.1=我已经学习了如何操纵世界中的方块，通过类似于交换的核心效果就能够实现，但是它的实际用途仍然非常有限。<BR>我应该寻找一种方式来调整到底哪些方块会受到这种核心效果的影响。
+research.FOCUSPLAN.stage.2=我设计了一种medium符印来让我规划哪些方块将会被我操纵。这个符印和Touch的工作方式相仿，只是会为将要受到影响的方块以高亮显示。通过the focus modify key(默认为G)能够改变区域的大小，通过CTRL + G能够更改改变大小的方向。<BR>要注意每个受影响的方块都会增加效果的Vis消耗。<BR>“潜能”修饰会提高这个符印所能够控制的最大范围。
 #
 research.FOCUSCHARGE.title=核心效果：充能
 research.FOCUSCHARGE.stage.1=我学习了各种通过调整核心符印来控制法术效能的方式。<BR>我想我能够通过调整施术过程中引导的Vis数量来控制符印的消耗和效能。
 research.FOCUSCHARGE.stage.2=我的想法再次得到了证实！充能符印能够让我延迟法术施放 — 而在这个过程当中，越来越多的Vis将被吸入核心当中，在我最终释放能量的时候，它会变得更加强大。<BR>然而，这个符印使得效果在最初施放时的威力比之前弱了很多 — 大约是平时的一半，但是只要我延迟法术的施放，我就能够进行充能并将威力提升到平时的两倍。<BR>Vis消耗也会在过程中同步改变。
 #
-research.FOCUSBURST.title=Focus Modifier: Burst
-research.FOCUSBURST.stage.1=I should take what I have learned and attemp to create a modifier that will allow me to target multiple foes at once.
-research.FOCUSBURST.stage.2=I have managed to create a modifier that will effect all targets within roughly 4 blocks of the point of impact. Unfortunately the effect will be lessened for targets further away from the centre, but never less than half the normal power.
+research.FOCUSBURST.title=核心修饰：爆裂
+research.FOCUSBURST.stage.1=我应该利用我所学的东西来尝试创造一种核心修饰符印来同时对付多个敌人。
+research.FOCUSBURST.stage.2=我成功创造了一个核心修饰来让核心对目标点周围大约4个方块范围的所有物体受到影响。然而效果会随着物体远离生效中心而降低，不过永远不会减弱到一般效果的一半以下。
 #
-research.RECHARGEPEDESTAL.title=Recharge Pedestal
-research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function， but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
-research.RECHARGEPEDESTAL.stage.2=This specially crafted pedestal can recharge vis storing items. Any rechargeable item placed in it will automatically draw vis from the aura to fill itself. Simply click on the pedestal with the item you wish to recharge. Use the pedestal again to retrieve the item.
+research.RECHARGEPEDESTAL.title=充能基座
+research.RECHARGEPEDESTAL.stage.1=我想我很快就能够制作需要Vis来运作的物体了，但是它们并不能自己轻易地从附近的灵气场中抽取Vis。我需要找到一种方式来为它们补充能量。
+research.RECHARGEPEDESTAL.stage.2=这个特制的基座会给能够存储Vis的物品充能。任何可以充能的物品在放入基座后都会自动地从周围的灵气场中抽取Vis来补充能量。只需要用你想要充能的物品点击基座就可以开始充能，再次使用基座就能取回物品。
 #
-research.VISAMULET.title=Vis Amulet
-research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items.
-research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura， allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar， baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
+research.VISAMULET.title=魔力护身符
+research.VISAMULET.stage.1=如果我想要为能够存储Vis的物品进行充能，我就不得不去往最近的充能基座或是一直随身携带一个充能基座。不论怎么说，这都是一件麻烦事 — 我必须找到一种便携的充能方式。
+research.VISAMULET.stage.2=我制作了一种护身符，它能够引导附近灵气场中的Vis，从而让我能够在携带它的时候为我的物品进行充能。<BR>这个护身符只会为快捷栏、饰品栏和护甲栏中的道具进行充能（并且以这个顺序）。它只会为能够在充能基座中充能的物品进行充能。
 #
 research.WORKBENCHCHARGER.title=Workbench Charger
 research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far， I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis， the more vis will be available for crafting.
