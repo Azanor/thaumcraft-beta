@@ -165,7 +165,7 @@ item.amulet_vis.text=为快捷栏中的法杖充能
 item.amulet_vis.found.name=魔力石
 item.amulet_vis.crafted.name=魔力护身符
 item.girdle_hover.name=奥法腰带
-item.verdant_charm.name=翠心指环
+item.verdant_charm.name=翡翠指环
 item.verdant_charm.life.text=再生
 item.verdant_charm.sustain.text=续航
 item.voidseer_charm.name=虚空预言者的珍珠
@@ -1378,13 +1378,13 @@ research.BOOTSTRAVELLER.title=旅行者之靴
 research.BOOTSTRAVELLER.stage.1=我想要一双专业行走设备来使我旅途愉快，于是我研究了移动的奥秘并着手开始制作。
 research.BOOTSTRAVELLER.stage.2=这双富含神秘的魔力工艺技巧的靴子能让任何旅行者的旅途变得更轻松愉快。<BR>它能够让你移动得比平常更加迅速，并且能够直接掠过较高的台子。它也能够让你跳得更高，落得更远。<BR>另外，它还能让你像鱼一样破浪而行，虽然是一条相对缓慢和笨拙的鱼，可也算条鱼嘛!<BR>然而，这双鞋需要吸取周围的灵气来发挥功效。
 research.m_walker.text=多走两步。
-research.m_runner.text=多跑两部。
+research.m_runner.text=多跑两步。
 research.m_swimmer.text=多游游泳。
 research.m_jumper.text=多跳一跳。
 #
 research.PAVINGSTONES.title=奥术铺路石
 research.PAVINGSTONES.stage.1=虽然魔导透镜会显示当地的灵气，但是能够在更大范围内获得灵气的总体概览会非常有用。这种设备应该很容易设计和制造。
-research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石材的神奇结构，我能够创造一块铺路石，让任何人走在上面时受到更大的弹力。<BR>任何东西走过它都会获得几秒钟的速度和敏捷提升。<PAGE>§o屏障石§r<DIV>我发现了一种将奥术石材变成谜一样的屏障的方法，可以组织大部分生物穿过。<BR>注意这种屏障作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.<BR>屏障石上方符文的颜色能够显示其当前的状态.<BR>紫色符文说明它正在阻止某些东西通过。<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>红色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
+research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石砖的魔法结构，我成功制造出了可以使任何走过它的人加速通过的铺路石。<BR>行走于其上时会短暂的提升速度与灵活性。<PAGE>§o屏障石§r<DIV>通过改变奥术石砖的魔法结构，我成功将它们转变成了能够阻止任何生物通过的奥术屏障。<BR>值得注意的是，这层屏障并不是100%万无一失，它们也不能阻止其他玩家的进入。他们能够抵御常见的威胁，当然，也会阻止傀儡穿过。<BR>为了达到最佳使用效果，你需要在你想要保护的区域和外部之间建造一条完整的屏障。<BR>可以通过红石信号来关闭屏障。<BR>屏障石上方的颜色会指示其当前工作状态。<BR>紫色代表着屏障正在阻止实体穿过。<BR>蓝色代表着屏障已经被红石信号关闭。<BR>红色代表着当前屏障石的铺设仍有可以通过的空隙,并不能完全保护这块区域。
 #
 research.ELEMENTALTOOLS.title=元素工具
 research.ELEMENTALTOOLS.stage.1=发现注魔的原理后，我找到将元始要素融入工具和武器中的方法。这样制做出的每种设备都拥有独特和强大的特性。<BR>在我最初的设想中，神秘工具是完美的实验材料-它们具有极高的魔力亲和性，这将为之后的实验打下良好的基础。
@@ -1406,7 +1406,7 @@ research.CURIOSITYBAND.title=求知发带
 research.CURIOSITYBAND.stage.1=我采集资源和狩猎时获得的经验球含有魔力和知识。我确信它们的用途不仅仅是简简单单的附魔。
 research.CURIOSITYBAND.stage.2=我的理论得到了实证 - 我找到了从经验球中提取知识碎片的方法。这些知识残片虽十分微小，但对于某些特定研究有莫大的帮助。<BR>我设计出了这款发带，它会使佩戴者获取的半数经验转化成研究知识。虽然转换的进度非常缓慢，但聊胜于无。
 #
-research.VERDANTCHARMS.title=翠心指环
+research.VERDANTCHARMS.title=翡翠指环
 research.VERDANTCHARMS.stage.1=我偶然发现自己深受扭曲的折磨，我要设法保护自己的意识不受侵蚀。
 research.VERDANTCHARMS.stage.2=我设计出这款神秘饰品用以驱逐体内的毒素或者是受到的其他类似的效果。不幸的是，它并不能治愈实际创伤。<BR>指环内部可以容纳一定量的灵气并且它需要通过奥术充能基座或是有其他类似功能的设备进行充能- 它不会自动从环境中获取灵气。<LINE>有两项注魔附魔可供选用。<PAGE>§n再生§r<BR>这项附魔使翡翠指环能治愈使用者的伤势。<LINE>§n续航§r<BR>这项附魔使翡翠指环能够缓慢提供饱食度及水下呼吸所需的氧气。
 #
