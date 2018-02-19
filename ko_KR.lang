@@ -188,6 +188,8 @@ item.creative_flux_sponge.name=플럭스 스펀지
 item.turret.basic.name=자동 쇠뇌
 item.turret.advanced.name=고급 자동 쇠뇌
 item.turret.bore.name=아케인 보어
+item.enchanted_placeholder.name=아무 마법부여된 아이템
+item.enchanted_placeholder.text=최소 다음 마법부여 필요:
 #
 # Golem
 item.module.vision.name=시야 모듈
@@ -1074,6 +1076,8 @@ tc.stage.complete=완료
 tc.stage.hold=처리중...
 tc.warp.warn= 워프 레벨: %n
 tc.knowledge.name=총합 지식
+tc.logistics.request=요구
+tc.logistics.search=검색
 #
 # Aspects
 tc.aspect.name=에센시아 위상
@@ -1383,7 +1387,7 @@ research.m_swimmer.text=수없이 수영하라
 research.m_jumper.text=수없이 뛰어라
 #
 research.PAVINGSTONES.title=마법의 타일
-research.PAVINGSTONES.stage.1=사우모미터가 지역 오라를 보여주는 동안, 좀 더 넓은 지역에서 오라를 확인할 수 있게 해주는 것이 유용할 것이란 생각을 했습니다. 이런 장치는 간단히 만들 수 있을 만큼 충분히 간단해야 합니다.<DIV>내용이 '아케인 측량기'의 것입니다! 일해라 아자노어!<BR> - 2hh8899
+research.PAVINGSTONES.stage.1=아케인 스톤은 고유의 타고난 마법적 성질을 가지고 있지는 않지만, 일종의 마법 스펀지와 같은 역할을 합니다. 이것에 온갖 마법을 추가할 수 있어야 합니다.
 research.PAVINGSTONES.stage.2=<PAGE>§o여행석§r<DIV>신비한 돌의 구조를 바꿈으로써 그 돌 위를 걷는 사람들의 움직임에 반동을 더해주는 포장도로를 만들었습니다.<BR>이 위를 지나는 모든 것이 몇 초 동안 빠르고 민첩하게 움직일 수 있습니다.<PAGE>§o경계석§r<DIV>신비한 돌을 조정해 신비한 결계를 만들어 대부분의 생물이 이것을 지나가지 못하게 하는 방법을 발견했습니다.<BR>이 결계가 언제나 100% 완벽한 것은 아니며 다른 플레이어를 막을 수도 없지만, 대부분의 위협적인 몬스터를 차단하는 것에 주목해야 합니다. 또한 골렘이 지나가는 것도 막아줍니다.<BR>최상의 결과를 위해선 보호하고자 하는 영역과 외부 사이를 끊김없이 막아야 합니다.<BR>레드스톤 신호로 비활성화가 가능합니다.<BR>돌 위의 색은 현재 상태를 나타냅니다.<BR>보라색 룬은 완벽하게 막아주고 있다는 뜻입니다.<BR>파란색 룬은 레드스톤 신호로 비활성화되었다는 뜻입니다.<BR>붉은색 룬은 완벽하게 막아주지 못하고 있으며 어딘가에 통과할 수 있는 틈이 존재한다는 뜻입니다.
 #
 research.ELEMENTALTOOLS.title=원소의 도구들
@@ -1592,6 +1596,10 @@ research.CONTROLSEALS.stage.1=골렘은 지시받지 않은 일은 하지 않습
 research.GOLEMDIRECT.title=골렘 마스터리
 research.GOLEMDIRECT.stage.1=목표를 맹목적으로 따르는 것이 유일한 목표는 아닙니다. 나 역시 그들이 생각 없이 나를 따르기를 바랍니다.<BR>그런 일이 일어나게 할 수 있는 방법이 분명 있을 겁니다.
 research.GOLEMDIRECT.stage.2=이제 §5골레맨서의 종§0을 들고 골렘에 우클릭해 주인을 따라갈 수 있게 할 수 있습니다. 따라다니는 동안은 인장의 행동에 복종하지 않을 것이며 전투 능력이 있다면 전투에서 주인을 방어할 것입니다.<BR>골렘을 다시 한번 클릭하면 정상적인 기능을 수행할 수 있으며 이 기능을 수행할 위치 기준은 그 위치로 설정됩니다.
+#
+research.GOLEMLOGISTICS.title=Golem Logistics
+research.GOLEMLOGISTICS.stage.1=제공 인장을 만들면서 흥미로운 기회를 만들어냈습니다. 근처의 골렘에게 공급을 자신에게 직접 요청하는거죠.<BR>이동경로 등에는 약간의 조정이 필요하겠지만, 그리 어려운 일은 아닐 것입니다.
+research.GOLEMLOGISTICS.stage.2=이제 §5골레맨서의 종§0으로 우클릭함으로써 64블럭 내의 공급 행동 골렘을 통해 접근 가능한 인벤토리를 불러올 수 있습니다. 이를 통해 목록의 물건을 요청할 수 있으며 골렘이 그것을 배달할 것입니다.<BR>블럭을 클릭하면 그 위치에 놓지만, 그곳이 저장소일 경우 안에 넣어줍니다. 클릭한 방향도 같이 고려됩니다.<BR>빈 공기를 클릭하면 아이템을 자신에게 배달해줍니다.<PAGE>골렘은 여전히 범위 제한이 있기 때문에, 시도하는 곳과 배달하는 곳에 대해선 주의해야 합니다.
 #
 research.MINDBIOTHAUMIC.title=자연마법 정신
 research.MINDBIOTHAUMIC.stage.1=시계태엽 정신을 발명했을 때 예상한 대로 추상적인 추론과 자율성의 측면에서는 거의 쓸모가 없었습니다. 더 복잡한 시계태엽을 만들어내려는 시도는 거의 성공적이지 못했습니다. 그래서 이미 알고 있는 항목으로 눈을 돌렸습니다 - 살아 있는 두뇌죠.<BR>이것을 연구함으로써 진정한 지능과 자율성 뒤에 숨겨진 비밀을 풀 수 있을지도 모릅니다.
