@@ -6,12 +6,12 @@
 #
 item.thaumonomicon.normal.name=魔导手册
 item.thaumonomicon.cheat.name=作弊者之魔导手册
-item.curio.arcane.name=Arcane Curiosity
-item.curio.preserved.name=Preserved Curiosity
-item.curio.eldritch.name=Eldritch Curiosity
-item.curio.ancient.name=Ancient Curiosity
-item.curio.twisted.name=Twisted Curiosity
-item.curio.knowledge.name=Illuminating Curiosity
+ item.curio.arcane.name=奥术珍品
+item.curio.preserved.name=传世珍品
+item.curio.eldritch.name=邪术珍品
+item.curio.ancient.name=远古珍品
+item.curio.twisted.name=扭曲珍品
+item.curio.knowledge.name=光明珍品
 item.curio.rites.name=血腥仪式
 item.curio.text=它会揭示什么样的知识呢？
 item.loot_bag.common.name=寻常藏宝袋
@@ -41,7 +41,7 @@ item.nugget.thaumium.name=神秘粒
 item.nugget.void.name=虚空金属粒
 item.nugget.brass.name=炼金黄铜粒
 item.nugget.quartz.name=石英碎片
-item.nugget.rareearth.name=Rare Earths
+item.nugget.rareearth.name=稀土
 item.cluster.iron.name=铁原矿簇
 item.cluster.copper.name=铜原矿簇
 item.cluster.tin.name=锡原矿簇
@@ -168,9 +168,9 @@ item.girdle_hover.name=奥法腰带
 item.verdant_charm.name=翠心指环
 item.verdant_charm.life.text=再生
 item.verdant_charm.sustain.text=续航
-item.voidseer_charm.name=Voidseer's Pearl
-item.voidseer_charm.text=You peer into the inky blackness... you could swear you saw something staring back...
-item.curiosity_band.name=Headband of Curiosity
+item.voidseer_charm.name=虚空预言者的珍珠
+item.voidseer_charm.text=你凝视着漆黑的黑暗...你发誓你看到了有什么东西在盯着你...
+item.curiosity_band.name=求知发带
 item.cloud_ring.name=云霄指环
 #
 # Casters & Foci
@@ -187,7 +187,7 @@ item.focus_pouch.name=施术核心手袋
 item.creative_flux_sponge.name=咒波清理海绵
 item.turret.basic.name=自动十字弩
 item.turret.advanced.name=高级十字弩
-item.turret.bore.name=Arcane Bore
+item.turret.bore.name=奥术钻探机
 #
 # Golem
 item.module.vision.name=视觉组件
@@ -388,9 +388,9 @@ tile.placeholder.gb_anvil.name=傀儡工坊
 tile.placeholder.gb_table.name=傀儡工坊
 tile.placeholder.gb_bars.name=傀儡工坊
 tile.placeholder.gb_cauldron.name=傀儡工坊
-tile.hole.name=Dimensional Tear
-tile.vacuum.name=Deadly Void
-tile.barrier.name=Warding Aura
+tile.hole.name=次元裂痕
+tile.vacuum.name=致命虚空
+tile.barrier.name=守护之光
 #
 # Enchantments
 ###################################
@@ -443,7 +443,7 @@ warp.text.16=那微弱的咏唱声在附近依稀可闻。
 #
 # Entities
 ###################################
-entity.thaumcraft.ArcaneBore.name=Arcane Bore
+entity.thaumcraft.ArcaneBore.name=奥术钻探机
 entity.thaumcraft.Golem.name=傀儡
 entity.thaumcraft.ThaumSlime.name=神秘史莱姆
 entity.thaumcraft.GolemDart.name=傀儡飞镖
@@ -1069,7 +1069,7 @@ tc.dioptra.3=显示灵气浓度比例。
 tc.notowned=它并不属于你。
 tc.fluxevent.1=扭曲而诡异的灵气场打乱了你的思绪。
 tc.fluxevent.2=不再稳定的灵气场侵蚀着你的魔力。
-tc.fluxevent.3=It seems that there is too much flux in the local aura!
+tc.fluxevent.3=似乎在灵气中充斥着大量的咒波!
 tc.stage.complete=已完成
 tc.stage.hold=正在完成...
 tc.warp.warn=扭曲等级：%n
@@ -1194,14 +1194,14 @@ research.UNLOCKAUROMANCY.title=发现：神秘学
 research.UNLOCKAUROMANCY.stage.1=借助Vis来制作拥有魔力的物品已经为我打开了新世界的大门，但我绝不会止步于此。一定有办法直接操纵周围的灵气，一定有一种将Vis从空气中引出的方法，让它们为我所用。<BR>我应该研究我周围的世界，走到世界的边界，在那里我会学到我所需要的知识。<BR>有时我能感受到自己正受到超出我理解能力之外的力量的驱使 — 听不见的声音促使我走向强大的力量与知识。<BR>操纵Vis将会成为这个旅程上的又一大步。
 research.UNLOCKAUROMANCY.stage.2=慢慢地，我确实开始理解Vis的本质了。虽然这一切对我而言仍然无比神秘，但是我觉得我已经掌握足够的学识，可以依我的意志来开始塑造它了。<BR>我偶然发现了一张尘封已久的卷轴，似乎是一位死去已久的神秘使留下的。其中描述了如何制作用于储存和使用Vis的法杖。我从这张卷轴中获得了有用的见解，却实用性似乎非常有限。为什么要在一个充满Vis的环境当中把Vis抑制在法杖当中呢？况且一根法杖对我而言似乎也是天方夜谭。如果你需要一个合适的工具来控制并操纵灵气，我想手套就是个不错的选择。<BR>这肯定不能用旧手套来制作。它需要用最好的皮革手工制成，并且使用能够传导Vis的材料制作。铁并不是什么不错的Vis的传导物，不过这也是我现在手头仅有的材料了。<BR>好在我不需要在魔法森林里苦苦寻找储存Vis的方法，不过我还是需要一种能够直接从灵气场中抽取Vis的方法 — 一个魔力振谐器。同时，我在手套上附加了一个简化的魔导透镜，这样我就能实时注意当前灵气场的状态了。<BR>最后，我将在手套背面设置一个插槽。卷轴中提到一种结晶的核心，借此来使用法杖中的Vis。不同形式的结晶能够创造各种有用的效果。我居然一开始没有想到这种绝妙的方法。好在我已经想到了许多改进这种设计的方法，并且手套的形式比旧式魔杖能够更好地控制Vis的流动。
 research.UNLOCKAUROMANCY.stage.3=我已经成功制作了一个施术用的护手，虽然看上去有些粗糙，不过我对此也是颇为满意的，毕竟它仅仅计划为一个原型装置。即使作为一个原型装置，它也意义非凡，它能够让我精确调整改造神秘使的装置，并且以各种安全的方式操纵它们。<BR>我最初的实验表明，它只能从我周围的一小片区域中吸取Vis，我应该小心不要耗尽这片区域中所有的灵力。<BR>目前，它不过是一个魔法扳手而已，面前最大的障碍就是如何破解制作核心的奥秘，否则它的效用将受到极大的限制。我面前的道路如今无比清晰……
-research.m_deepdown.text=Visit the lowest depths of the world.
-research.m_uphigh.text=Visit the highest peaks you can find.
-research.m_finddesert.text=Visit dry and barren wastes.
-research.m_findocean.text=Visit the endless, blue seas.
-got.deepdown=You have visited deep and dark depths and have learned much.
-got.uphigh=The world is spread out before you. Your perspective has been broadened.
-got.finddesert=You have visited the scorching desert.
-got.findocean=You have peered into the endless blue abyss.
+research.m_deepdown.text=到达世界的最深处。
+research.m_uphigh.text=登上可及的最高峰。
+research.m_finddesert.text=游览干燥、贫瘠的废土。
+research.m_findocean.text=遨游蔚蓝、无尽的大海。
+got.deepdown=你已经到达了深邃黑暗的深谷，并学到了很多。
+got.uphigh=世界在你面前一览无余。你的视野也随之扩大。
+got.finddesert=你已经拜访了炎热的沙漠。
+got.findocean=你凝视了无尽的蓝色深渊。
 #
 research.UNLOCKARTIFICE.title=发现：炼化学与注魔
 research.UNLOCKARTIFICE.stage.1=我已经学习到了许多新的知识，其中之一就是我必须要进一步增进我的学识。<BR>我需要一个工具，能让我看到那些肉眼无法观察到的事物，来让我的旅途更为轻松。我从那些古老的文字中了解到，彼时的神秘使为此制作了一组常用的护目镜。<BR>遗憾的是，文中并没有提到它是怎么工作的，所以我需要从头来设计这个装置。
@@ -1215,7 +1215,7 @@ research.UNLOCKALCHEMY.stage.3=我现在拥有属于自己的坩埚了！现在�
 research.UNLOCKGOLEMANCY.title=发现：傀儡学
 research.UNLOCKGOLEMANCY.stage.1=这本书教会了我许多东西：如何从最基础的层面操纵物质和魔法，如何赋予物体魔法的属性，甚至是如何从周围的空气中抽取魔法。但似乎还有什么知识我没有掌握。<BR>有些非常基础，但每个人都能做到奇妙的事情引起了我的注意：只需要堆叠一些方块就能够将它们转化为有一定感知力的活动傀儡。这怎么可能呢？这一切到底是如何发生的？灵气有没有参与到这个奇妙的现象当中呢？<BR>我应该更仔细地研究这个现象。
 research.UNLOCKGOLEMANCY.stage.2=到目前为止这一切都令人疑惑。<BR>这些能够“天然”创造的傀儡确实充满了Vis，但我不认为这和神秘学有什么关系。让它们活动起来的力量似乎来自其他什么地方。<BR>不过，我的研究至少取得了一定的成果。我研究了让它们活动起来的力量，我相信我能够用神秘学的方法创造这种力量。我应该尽快继续我的研究。
-research.f_golem.text=Study an animated construct.
+research.f_golem.text=研究一种运动的构造.
 #
 research.FLUX.warn=灵气场中充满了一种力量，一种不太好的力量。
 research.FLUX.title=腐化
@@ -1225,7 +1225,7 @@ research.f_toomuchflux.text=让腐化不断聚集
 #
 research.WARP.warn=我所掌握的知识似乎让我有些神志不清
 research.WARP.title=扭曲
-research.WARP.stage.1=许多人认为，不应当人为干预魔法，扭曲（Flux）的存在就是最好的证明。<BR>进行禁忌的研究或是创造一些可疑的物品都将扭曲神秘使眼中的现实，扭曲他们的神智和肉体，这种影响就被成为扭曲（Flux）。<BR>虽然有的扭曲只是暂时的，它们会随着时间的推移慢慢褪去，但是如果神秘使无视追寻未知力量的危险而让自己染上永久扭曲，神智每况愈下，目前还没有办法能够处理这些永久扭曲。<BR>扭曲通常会让人无法集中，身体疼痛，或是出现幻觉。<BR>这些不仅仅是精神上的影响，有时幻象能够传递有用的知识，而有的幻觉却似乎是可怕的事实。<BR>我应该时刻注意自己的精神状态，为此，我设计了一个装置，它能够准确显示我目前神智的稳定程度。
+research.WARP.stage.1=许多人认为，不应当人为干预魔法，扭曲（Warp）的存在就是最好的证明。<BR>进行禁忌的研究或是创造一些可疑的物品都将扭曲神秘使眼中的现实，扭曲他们的神智和肉体，这种影响就被成为扭曲（Warp）。<BR>虽然有的扭曲只是暂时的，它们会随着时间的推移慢慢褪去，但是如果神秘使无视追寻未知力量的危险而让自己染上永久扭曲，神智每况愈下，目前还没有办法能够处理这些永久扭曲。<BR>扭曲通常会让人无法集中，身体疼痛，或是出现幻觉。<BR>这些不仅仅是精神上的影响，有时幻象能够传递有用的知识，而有的幻觉却似乎是可怕的事实。<BR>我应该时刻注意自己的精神状态，为此，我设计了一个装置，它能够准确显示我目前神智的稳定程度。
 #
 research.ORE.title=矿物
 research.ORE.stage.1=这个世界上有许多对于神秘使有用的独特矿物与可挖掘的方块。我应当记下所有我遇到的东西。
@@ -1245,7 +1245,7 @@ research.CRYSTALFARMER.title=结晶农场
 research.CRYSTALFARMER.stage.1=我观察到这些魔力结晶会随着时间的推移自然生长，但是一旦我采集它们，它们似乎就失去了这种能力。我希望我能知道这种能力是如何失去的，并且找到重新赋予它们这种能力的方法。
 research.CRYSTALFARMER.stage.2=我找到了一种能够让魔力结晶生长的方法，借此我能够重新种植它们。<BR>我希望这意味着我可以通过种植获得稳定的原始魔力结晶来源。
 #
-research.UNLOCKELDRITCH.title=Delving into the Eldritch
+research.UNLOCKELDRITCH.title=钻研邪术
 research.UNLOCKELDRITCH.stage.1=
 research.UNLOCKELDRITCH.stage.2=
 #
@@ -1253,94 +1253,94 @@ research.UNLOCKELDRITCH.stage.2=
 # ALCHEMY
 ##########################################
 #
-research.BASEALCHEMY.title=Basic Alchemy
-research.BASEALCHEMY.stage.1=Crucible crafting guide<BR>1) Place crucible over heat source (fire， lava， nitor or something similar).<BR>2) Add water and wait till it boils.<BR>3) Add ingredients with the essentia you require， either by dropping them in or clicking with the item on the crucible's top face<BR>4) Throw in catalyst.<PAGE>Things to note<BR>- Shift-right clicking with an empty hand will empty a crucible.<BR>- Each crafting operation will consume some of the water so I will have to replenish it now and again. Piping mechanics can be used for this.<BR>- I can craft multiple items at once by adding sufficient essentia and using multiple catalysts.<BR>- Essentia does dissolve over time so I shouldn't wait too long before starting to craft. I wonder what the purple puffs of smoke means when this happens? Probably nothing to worry about.<LINE>§oCrafting Crystals§r<BR>Essentia crystals should be fairly easy to craft. All I need to do is break down a quartz crystal into smaller shards to act as a growth medium.<BR>Simply dipping a shard into the crucible should soak up some of the essentia it contains and cause the crystal to grow.<BR>This won't be a particularly efficient way of doing things - it will probably cost at least twice the essentia that the crystal will end up containing and there is the net loss of quartz which is not always the easiest thing to find.  I'm also not sure I will be able to control exactly what essentia gets crystalised.
+research.BASEALCHEMY.title=基础炼金术
+research.BASEALCHEMY.stage.1=坩埚炼金指南<BR>1) 将坩埚放在热源之上 (火，岩浆， 闪耀之光或者其它类似的东西)。<BR>2) 加入水并等待其沸腾.<BR>3) 加入含有所需源质的配料， 你可以直接丢进坩埚或者用配料右击坩埚的顶面。<BR>4) 投入触媒。<PAGE>注意事项<BR>- 空手按住shift右键可以清空坩埚<BR>- 每次炼金操作都会消耗一些水，所以我不得不再次补充它。可以使用管道机械来做到这一点。<BR>- 我可以通过加入足够的源质再加入多个触媒来一次性炼成多个物品。<BR>- 源质会随着时间消失，所以我不能在炼金时发呆太久。我很疑惑，这种情况下升起的紫色烟雾意味着什么？也许没什么可担心的。<LINE>§o结晶炼成§r<BR>源质结晶应该很容易炼成。我需要做的就是将石英晶体分解成更小的碎片来充当晶核。<BR>只要将一块碎片浸入坩埚，它就会吸收源质，并成长为结晶。<BR>这并不是一种高效的方式——它会消耗双倍的源质，还会损耗石英这种不怎么容易找到的资源。我也不能精确控制哪些源质产生结晶。
 #
-research.ALUMENTUM.title=Alumentum
-research.ALUMENTUM.stage.1=Nitor is a useful substance. It provides heat， light and is aesthetically pleasing. Unfortunately it provides only slightly more heat than a torch - enough to slowly heat some water or keep you warm at night， but not enough for practical purposes like smelting ore.<BR>I need something more... reactive.<BR>I should take some time to collect my thoughts and study the elements. Maybe there is a way to improve coal like I did glowstone.
-research.ALUMENTUM.stage.2=I was right! I should be able to take a lump of coal and add more of the essentia it already contains... and possibly a little bit of perditio for extra kick.<BR>If my calculations are correct the resulting substance， which I have called Alumentum， should burn three times longer than normal coal.<BR>My calculations also show that the substance will be quite energetic and I should take care not to chuck it about... not unless I have good reason to， that is.
+research.ALUMENTUM.title=源动之焰
+research.ALUMENTUM.stage.1=闪耀之光是一种实用的物质。它产生光和热还很美观。 不幸的是，它仅仅比火把稍热——可以缓慢加热一些水和让你在夜间保持温暖。但是并不足以用于熔炼矿石等实际目的。<BR>我需要...更剧烈的反应。<BR>我应该花些时间来整理想法和研究元素，或许我可以像改造萤石一样改造煤炭。
+research.ALUMENTUM.stage.2=果然没错！我可以在煤中加入更多其本身包含的源质...或许还需要一些额外的 perditio 。<BR>如果我的计算是正确的，那么这种成我命名为源动之焰的产物，将会比煤的燃烧时间长三倍。<BR>我的计算结果还表明，这种物质能量很大，我必须小心不要将它抛出去...除非我找到一个适当的理由。
 #
-research.METALLURGY.title=Alchemical Metallurgy
-research.METALLURGY.stage.1=Brass is a sturdy， low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe I may find myself in.<BR>There should be a way of crafting it via alchemical transmutation. I simply need to find it.
-research.METALLURGY.stage.2=Metals have proven to be quite easy to manipulate via thaumaturgical principles. My first experiments has led to the discovery of Alchemical Brass， but it was a simple matter to create something that already exists. It is time to create something new.<BR>I have theorized that by infusing a base metal like iron with magical energy should result in something with very interesting properties.<BR> It should be harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this should have many applications in the crafting of more advanced thaumaturgical devices.
-research.METALLURGY.stage.3=I am sure I am on the edge of a breakthrough here， but I have no idea how to proceed. There is something missing， some vital piece of information I lack.<BR>I should proceed carefully however. Somehow I sense the areas of knowledge I am delving into now could be dangerous.
-research.METALLURGY.stage.4=My hand shakes as I write this. The strange substances I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal， yet I do not remember writing them， nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding， yet at the same time soft and easy to work. It will feel warm to the touch， almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
-research.METALLURGY.stage.5=For now my studies are complete， but who knows what other wondrous discoveries I will make in the future?
-research.voidstuff.text=A strange metal
+research.METALLURGY.title=金属炼成
+research.METALLURGY.stage.1=黄铜是一种坚固的低摩擦金属，非常适合制作工艺复杂的机械装置。<BR>不幸的是，我所处的这个宇宙性质让我难以找到这种金属。<BR>使用炼金术应该有方法炼成这种金属。而我现在只需要找到这个方法。
+research.METALLURGY.stage.2=金属已被证实很容易通过神秘学原理来制作。我的第一个实验就炼成了炼金黄铜锭。然而炼成一个已经存在的东西并没有什么难度。是时候制造一些新的物质了。<BR>我的理论认为，在铁这种基本金属中注入魔法能量就会收获相当有趣的成果。<BR> 这种物质会比铁更坚固，而且比铁更容易接受更多附魔。<BR>这种金属应该能在制作先进的奥术设备时派上用场。
+research.METALLURGY.stage.3=我很确定我将会取得一个新的突破，但是我还不知道从何处下手。我一定错过了什么，有些重要的信息被我遗漏了。<BR>无论如何我都应该小心谨慎。我正在深入的知识领域不知为何让我感到危险。
+research.METALLURGY.stage.4=当我写下这一段时我的手在颤抖。我在调查这些奇特物质时，脑海里浮现出了奇怪的新景象。<BR>前一阵子我发现了一个创造新型神秘金属的术式，然而我并不记得我写过这些东西，甚至连笔迹都不像是我的。<BR>描述中的金属充满着矛盾。它们坚如磐石，同时又柔软而易于加工。触感如同活物一样温暖，甚至像生物一样缓慢治愈自己受到的损伤。<BR>用这种物质制作纯物理性的工具似乎...是错误的。
+research.METALLURGY.stage.5=现在我的研究就完成了，但未来还有什么神奇的发现在等着我呢?
+research.voidstuff.text=一种诡异的金属
 #
-research.METALPURIFICATION.title=Metal Purification
-research.METALPURIFICATION.stage.1=Native clusters are rare concentrations of metals in its purest form. When smelted these clusters produces twice the normal amount of ingots.<BR>If I can find a way of producing native clusters alchemically it would greatly reduce my need to constantly go mining.
+research.METALPURIFICATION.title=金属提纯
+research.METALPURIFICATION.stage.1=天然的原矿簇含有罕见的高纯度金属。冶炼这些原矿簇可以获得双倍的金属锭。<BR>如果我能用炼金术的方法生产天然原矿簇，这将大大节省我挖矿的时间。
 #
-research.HEDGEALCHEMY.title=Hedge Alchemy
-research.HEDGEALCHEMY.stage.1=It should be a fairly simple process to apply the alchemical principles I've learned to creating common materials.<BR>It will hardly be a challenge for me， but the practice should do me good.<BR>I realised that I have gathered an alarmingly large stock of rotten flesh for who knows what reason. Maybe it is time I put it to use and render it into tallow. It should be handy for crafting candles if nothing else.<BR>I should also be able to turn it into leather with a little bit of magical elbow grease.
-research.HEDGEALCHEMY.stage.2=Some substances are simple enough that just adding more of the same essentia it contains is enough to create more of that substance. This isn't true for everything， but the phenomenon will probably prove useful.
-research.HEDGEALCHEMY.stage.3=Some things you simply have to craft from scratch - all I need is a base material to add essentia to and with a bit of luck I can manufacture a few relatively common， but annoying to get materials.
-research.HEDGEALCHEMY.stage.4=For now my studies are complete， but who knows what other wondrous discoveries I will make in the future?
+research.HEDGEALCHEMY.title=炼金杂项
+research.HEDGEALCHEMY.stage.1=将我学到的炼金术原理应用于创建常用材料应该是一个相当简单的过程。<BR>对我来说这并不是一个挑战，但是一个很好的练习。<BR>我意识到不知道为什么我已经收集了一大堆腐肉。或许我应该把它们做成油脂。除了做成手工蜡烛以外，它们应该没有什么别的用处了。<BR>用上一些麻烦的法术应该还可以把它们做成皮革。
+research.HEDGEALCHEMY.stage.2=有些物质非常简单，只需要添加其包含的源质就可以进行复制。虽然这并非适用于所有物品，但是这种被证明非常有用。
+research.HEDGEALCHEMY.stage.3=有些物质很容易从头制作——我需要的只是在基础材料上加入一些源质，再加上一点点运气我就能制造出一些虽然很常见但不易取得的材料。
+research.HEDGEALCHEMY.stage.4=现在我的研究已经完成，但未来还有什么神奇的发现在等着我呢?
 #
-research.LIQUIDDEATH.title=Liquid Death
-research.LIQUIDDEATH.stage.1=Curiosity has taken me down a dark path. I wonder what a liquid made mostly from entropic and death energy would do. Nothing good I imagine.<BR>At the very least it should make a handy weed killer or control pests.
-research.LIQUIDDEATH.stage.2=Oh dear， what have I done? This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh， bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications， this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.
+research.LIQUIDDEATH.title=死亡之水
+research.LIQUIDDEATH.stage.1=好奇心驱使我走向了一条不归路。我想知道充满混沌和死亡能量的液体是有什么用。我觉得肯定没什么好处。<BR>至少可以用作一种方便的除草剂或者杀虫剂。
+research.LIQUIDDEATH.stage.2=哦天哪，我都做了些什么？这种液体有剧毒，几乎没有任何方法能阻止它溶解肉、骨头甚至是更硬的物质。没有任何生命体，或是类似生物的东西能承受它。<BR>除了明显的实际应用之外，这种邪恶的物质还有另一个有趣的特性：被溶解生物的任何源质都会形成可以收获的晶体。
 #
-research.BOTTLETAINT.title=Bottled Taint
-research.BOTTLETAINT.stage.1=I should be able to replicate the Taint causing properties of flux. I am not exactly sure why I would want to， but sometimes progress requires risk.<BR>The process should be fairly simple - I merely need to create a concentrated mixture of flux and it should easily react with almost anything to create Taint.
+research.BOTTLETAINT.title=腐化瓶
+research.BOTTLETAINT.stage.1=我应该能重现咒波产生的腐化现象。我不知道我为什么要这么做，但是进步常会伴随着风险。<BR>这个过程相当简单——我只要制作一团高浓度的咒波混合物，应该就能轻易的与任何物质进行反应并发生腐化。
 #
-research.BATHSALTS.title=Purifying Bath Salts
-research.BATHSALTS.stage.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance.<BR>I should make solving this problem a priority. Even if I am not able to remove Warp， at the very least I should be able to alleviate it's effects.
-research.BATHSALTS.stage.2=I have drawn up a recipe to create relaxing and refreshing bath salts. Simply tossing these salts into water will turn the water into a silvery， purifying liquid that soothes away the stresses of the day and brings temporary relief from the effects of Warp. I should note however that the more warp a thaumaturge suffers from， the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly.
+research.BATHSALTS.title=净化浴盐
+research.BATHSALTS.stage.1=扭曲即使对那些最谨慎的神秘使来说都很危险。那些身染数种扭曲的神秘使更是不胜其烦。<BR>我应该优先解决这个问题。即使无法解除身上的扭曲，至少可以舒缓它造成的症状。
+research.BATHSALTS.stage.2=我制作了一个配方，用来制作一种令人清爽而放松的浴盐。只需要将这些盐分溶解在水中,就能将水变为银光闪闪的净化之水,用它进行沐浴,能够舒缓日间的疲惫,暂时祛除扭曲的效果.需要注意的是,神秘使所患扭曲疾病愈甚,沐浴净化之水所产生的保护效果持续时间就愈短暂。 <BR>这些浴盐难以保存,如若随意放置极容易溶解。
 #
-research.SANESOAP.title=Sanity Soap
-research.SANESOAP.stage.1=I seem to have stumbled upon something here. Bath Salts relax the body and brings temporary relief from Warp， but I need a more permanent solution. Something that will cleanse my body of Warp completely.<BR>Sympathetic magic could come in handy here. Soap cleanses the body， but with the proper amount of persuasion maybe it can cleanse the mind as well?
-research.SANESOAP.stage.2=Eureka! I have formulated a recipe for what I have named Sanity Soap (patent pending)<BR>This soap cleans the flesh， but the effects it has on the psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.
+research.SANESOAP.title=祛邪肥皂
+research.SANESOAP.stage.1=我似乎偶然发现了一些东西。浴盐放松身体并短暂缓解扭曲，但我需要更持久的解决方案。一种可以彻底清除身上扭曲的东西。<BR>亲和性魔法在这里可以派上用场。肥皂可以清洁身体，如果赋予它适量的信念或许可以让它净化心灵？
+research.SANESOAP.stage.2=Eureka! 我已经制作了一个配方，可以合成我所命名的祛邪肥皂（专利申请中）。<BR>这块肥皂能够清洗肉体上的污垢,但它真正特别之处在于还能对你的精神世界产生效果。它能够祛除所有暂时性的扭曲,并有小几率能够祛除非永久性的扭曲。<BR>浸泡净化之水或处于扭曲守护状态时使用这块肥皂能够增加它生效的几率。
 #
-research.ARCANESPA.title=Arcane Spa
-research.ARCANESPA.stage.1=Pouring bath salts into water is a bit of a chore， but luckily one easily solved with a bit of magic and ingenuity.
-research.ARCANESPA.stage.2=I have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally， I have designed it in such a way that it can be used to pump nearly any liquid I can fill it with. It can be filled with with automation， or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
+research.ARCANESPA.title=奥术浴场
+research.ARCANESPA.stage.1=手动将浴盐洒进水里略显琐碎无聊，好在神秘使能够通过一点点魔法手段轻松地解决这个问题。
+research.ARCANESPA.stage.2=我已经制造出了一台便捷的设备，能够自动混合水和浴盐，并将它们泵出到设备上方的空间。泵出的流体将填满机器正上方5X5大小的区域。<BR>另外，你发现它也能用于将任意其他流体泵出。你可以使用自动化设备装填它，或者拿着合适的容器右击方块装入。通入红石信号能够关闭它。
 #
-research.WARDEDJARS.title=Warded Jars & labels
-research.WARDEDJARS.stage.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in the world and is able to store essentia virtually indefinitely. The enchantment placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.<BR>Shift clicking on jars and alembics with an empty hand will empty them.<PAGE>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.<BR>You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<BR>A label can be made blank again by simply placing it by itself in a crafting grid.<PAGE>You can also craft §lBrass Lid Braces§r. When used on a jar, they will prevent essentia being drawn from or placed into the jar by anything other than tubes.<BR>Picking up the jar will remove the brace and return it as an item.
+research.WARDEDJARS.title=要素罐子和标签
+research.WARDEDJARS.stage.1=可以用§l要素罐子§r储存要素源质。<BR>将要素罐子放置在地上，它能够非常明了直观地储存源质。由于魔法的力量，使用或者存放罐子中的源质都是小菜一碟的事情。<BR>手持罐子直接点击奥术蒸馏器就可以将源质装进罐中。你也可以使用要素安瓿来填充或清空罐子。<BR>此外它们还非常便于大量而密集地进行源质储存。<BR>空手状态下按住潜行键Shift点击罐子或者蒸馏器能够清空它们。<PAGE>只要罐子里装有源质，你就可以贴上§l罐子标签§r。<BR>标签将罐子锁定为接收特定类型的要素源质而不再能接收任意其他类型的源质。<BR>空手对着罐子帖着标签的一面按住潜行点击，能够取下标签。注意如果误点了其他面会清空罐子里装的源质。<BR>你可以对着空罐子使用与某种要素绑定过的标签(在合成台中合成装有要素的安瓿与标签),这样空罐子会自动绑定到这种要素,变成对应的标签罐子.而标签上的要素仅仅只是标记,并不真的消耗源质.<BR>对着装满了要素的罐子使用,则会把罐子变成和其容纳要素相对应的标签罐子.<BR>绑定过某种要素的标签只需要放入合成网格参与一次合成就能变回空白标签.<PAGE>你还可以制作§l黄铜盖箍§r。当在罐子上使用时，它们将防止通过管以外的任何方式将源质从瓶中抽出或放入瓶中。<BR>捡起罐子将会移除盖箍并将其作为一个物品返还。
 #
-research.ESSENTIASMELTER.title=Essentia Smelting
-research.ESSENTIASMELTER.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in， well， everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to， um， "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
-research.ESSENTIASMELTER.stage.2=My experiments are promising if a bit unpredictable. Fortunately the fires where easily quenched and my hair should grow back in a few days.<BR>It seems melting objects down in a special alchemical process is my best option. Unfortunately my tests so far has been on primal crystals. I should also test my finding on crystals containing secondary essentia - that is essentia made up of a combination of two primal aspects.<BR>A third tier known as tertiary essentia also exists. That is essentia made up of a mixture of primal and secondary aspects， or two secondary aspects.
-research.ESSENTIASMELTER.stage.3=I have managed to break down all my samples of primary and secondary essentia into a liquid state. The process has been slow and tedious however. Until I simplify the process it will never be practical for large scale usage.<BR>Luckily extracting essentia from objects has a lot in common with the smelting of metals. Using a furnace as a base I might be able to create an essentia smeltery that automatically melts down items and separates out individual types of essentia.
-research.ESSENTIASMELTER.stage.4=I have drawn up the plans for an Essentia Smelter. The smelter works much like a normal furnace by burning coal to produce heat， but instead of smelting ore into metal， it breaks down objects into a slurry of raw， unprocessed essentia. This process isn't very efficient and a small amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an Arcane Alembic.<BR>To work， arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage， but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum， this distillation process is much faster.<BR>The essentia can then be extracted out of an alembic using phials， jars or more complex means.
-research.ESSENTIASMELTER.bellows=Bellows placed on the side of a smelter will greatly increase the heat it generates， allowing items to be broken down into a slurry much quicker.
+research.ESSENTIASMELTER.title=源质冶炼
+research.ESSENTIASMELTER.stage.1=看来在不远的将来，我需要准备好各种不同的源质。为此，我需要找些原料，显然能从中找到源质的原料是...嗯，任何东西都行。<BR>使用炼金术原则应该能够找到一种分解物体并将其转化为源质的方法。 然而，在我开始之前，我需要研究以最纯粹的形式存在的源质 —— 源质结晶。<BR>通过对这些结晶进行某种，呃，“破坏性实验”，我应该能确定它们在各种极端环境下的反应和保持纯度的最佳方案<BR>我应该先从基础源质入手。
+research.ESSENTIASMELTER.stage.2=这项实验很有前景，但却有些无法预测。幸运的是，火势很容易扑灭，我的头发应该在几天内也会长回来。<BR>似乎在特殊的炼金过程中融化物品是最佳选择。不幸的是，一直以来我的实验都基于基础要素的结晶。我也应该在二级要素（由两种基础要素组成）的结晶上进行测试。<BR>当然也有被称为三级要素的第三种源质。这种要素由基础和二级要素组成，或者由两种二级要素组成。
+research.ESSENTIASMELTER.stage.3=我已经将我所有的初级和次级源质分解为液态。然而这个过程缓慢又令人乏味。在我将这个过程简化之前，没有办法投入大规模使用。<BR>幸运的是，从物品中提取源质与冶炼金属十分类似。使用熔炉作为基础应该能制作出一台自动分解物品并分离不同种类源质的源质冶炼厂。
+research.ESSENTIASMELTER.stage.4=我已经画好了源质冶炼厂的蓝图。它就像普通熔炉一样燃烧煤来产生热量，不同于熔炉将原矿冶炼成金属，源质冶炼厂将物品分解成单纯、原始的源质黏浆。这个过程并不是非常高效，大约有20%的源质会转化为咒波。<BR>下一步就是要利用奥术蒸馏器来分离、纯化源质黏浆。<BR>奥术蒸馏器需要放置在冶炼厂顶部.可以放置多个蒸馏器以增加容量,但这样做不会影响分解速度.源质黏浆会慢慢被抽取到蒸馏器中,分馏成独立的要素源质.<BR>如果使用源动之焰作为冶炼厂的燃料,那么分馏过程将更迅速。<BR>可以使用要素安瓿,罐子或者别的更复杂的手段取出冶炼厂中的要素。
+research.ESSENTIASMELTER.bellows=奥术风箱可以安装在冶炼厂侧面,显著提升其产生的热量,从而加快源质黏浆的分解速度。
 #
-research.ESSENTIASMELTERTHAUMIUM.title=Thaumium Essentia Smelter
-research.ESSENTIASMELTERTHAUMIUM.stage.1=The basic essentia smelter is quite crude if I have to be honest with myself. It is extremely inefficient and rather slow. I chalk this up to the low quality of the materials it is crafted from.<BR>I believe Thaumium could prove useful in improving the smelting process. I should run some experiments to see how it effective it would be at containing essentia slurry.<BR>I should probably also improve the plumbing inside the smelter itself.
-research.ESSENTIASMELTERTHAUMIUM.stage.2=Thaumium has proven to be a good choice， though not quite as effective as I had hoped.<BR>The Thaumium Smeltery works much like the basic smeltery， but it has roughly 85% efficiency instead of 80%. Not nearly the improvement I was hoping for， but better than nothing I suppose.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed.
+research.ESSENTIASMELTERTHAUMIUM.title=神秘源质冶炼厂
+research.ESSENTIASMELTERTHAUMIUM.stage.1=说实话，这个基本的源质冶炼厂是相当粗糙的。它非常低效和缓慢。我将这一点归咎于它的制作材料过于简陋。<BR>我相信神秘金属可以对改进源质冶炼厂有用。我应该进行一些实验，看看它如何有效地留住源质黏浆。<BR>冶炼厂内部的管道也可以进行一些改进。
+research.ESSENTIASMELTERTHAUMIUM.stage.2=神秘金属确实是一个好选择，虽然结果不如我期望的那么好。<BR>神秘源质冶炼厂的工作原理和基本冶炼厂十分相似，但效率从80%提升到了85%。虽然没有达到我的期望，但有比没有好。<BR>它最大的好处是，分解速度达到了原来的两倍。
 #
-research.ESSENTIASMELTERVOID.title=Void Metal Essentia Smelter
-research.ESSENTIASMELTERVOID.stage.1=I need to go back to the drawing board. Using Thaumium did improve the smelting process， but not to the degree I had hoped.<BR>My recent discovery of Void Metal has opened up a new avenue of research for me. It is much more resilient an malleable than Thaumium. I should but it through the same batteries of tests I did for Thaumium and see how the two compare.<BR>It might also be worth changing the internal plumbing to incorporate Void Metal in some manner.
-research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing. I expect the Void Metal Smeltery will work much like the basic smeltery， but at roughly 95% efficiency instead of 80%.<BR>It should break down essentia slurry slightly quicker than the basic smeltery， but not nearly as fast as the thaumium smeltery.
+research.ESSENTIASMELTERVOID.title=虚空金属源质冶炼厂
+research.ESSENTIASMELTERVOID.stage.1=我需要回去重新设计。使用神秘金属确实改善了冶炼过程，但并未达到我所希望的程度。<BR>我最近发现的虚空金属为我开辟了一条新的研究路径。它比神秘金属更有弹性。我应该用测试神秘金属的方式测试它，看看两者有什么差别。<BR>或许改变内部管道，以某种方式加入虚空金属会更有用处。
+research.ESSENTIASMELTERVOID.stage.2=我对测试结果非常满意。我预计虚空金属冶炼厂虽然和基本冶炼厂的工作方式类似，但工作效率会从80%增加到95%。<BR>它分解黏浆的速度会比普通冶炼厂稍快,但还是赶不上神秘冶炼厂。
 #
-research.THAUMATORIUM.title=Alchemical Automation
-research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects， degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw， liquid essentia available to me I should improve the entire alchemical process.
-research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+research.THAUMATORIUM.title=炼金自动化
+research.THAUMATORIUM.stage.1=迄今炼金术多少有些变成一件撞运道的差事 - 误算数量的要素,品质低劣的源质和炼金配料全都需要手动劳作去混合。我受够了。<BR>现在我有了可用的液体源质，我需要改进整个炼金工艺了。
+research.THAUMATORIUM.stage.2=我发明了一个自动的设备，命名为神秘炼金塔。像大部分多方块结构一样，需要使用世界盐来制造。<BR>.神秘炼金塔是一个奇妙的发明，神秘使可以选择使用哪种配方和添加哪种触媒。然后它就会使用管道自动从可用的来源中抽取源质。只要有足够的触媒它就可以随时生产所需物品。<BR>组成其基座的坩埚不需要加入水，但是依然需要热源。<LINE>当访问设备时可以看到几个槽位。左上角的槽位是放置触媒的地方。放好之后就可以从右上角的配方列表中选择想要的那个。<BR>底部栏按顺序显示了需要的源质。一旦机器运行，这里将会显示进度条。<BR>制成的物品会从设备前方弹出,或者进入到放置在弹射口位置的容器中。<LINE>一般来说一个炼金塔只能同时激活一个配方,但在其周围安附记忆矩阵就能增加它同时监控的配方数量。<BR>每个记忆矩阵能够增添2个配方。
 #
-research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
-research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process， but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable.
-research.ESSENTIATRANSPORT.stage.2=I have cracked the method of keeping aerated essentia stable outside of infusion.<BR>I have drawn up plans for two devices. The Filling Essentia Transfuser can take essentia directly from a pipe network or other essentia source and transport it to jars within 16 blocks of the direction it is facing.<BR>The Emptying Essentia Transfuser does the opposite - drawing essentia from jars within range and placing it within tubes or devices requiring essentia of a specific type.
+research.ESSENTIATRANSPORT.title=高级源质运输
+research.ESSENTIATRANSPORT.stage.1=进行注魔合成时源质会从罐子中被抽出,并在空中飘向注魔矩阵.矩阵的魔力使得漂浮的源质在注魔时能维持稳定.但是通常来说,这种情况下的源质会由于变质而无法发挥作用.<BR>但愿我能找到一种方法，不在注魔过程中也能通过空气抽取源质，并能保证源质的稳定性。
+research.ESSENTIATRANSPORT.stage.2=我已经破解了不在注魔时也能保证气体源质稳定的方法。<BR>我设计出了两个装置. 源质析出装置可以从其所依附的管道系统或者其他可以存放源质的容器中抽取源质,并将抽取的源质输送至位于16格范围内的要素罐子中.<BR>源质注入装置则正好相反-从附近的要素罐子内抽取要素源质并输送至其所依附的管道系统或具有源质需求设备中.
 #
-research.CENTRIFUGE.title=Essentia Centrifuge
-research.CENTRIFUGE.stage.1=I often find myself with complex essentia I have no real need for. I need to find a way to put all that unused essentia to a practical use.
-research.CENTRIFUGE.stage.2=The alchemical centrifuge is a wondrous invention that allows me to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system， it would be best to connect a Essentia Buffer to the top of the centrifuge.
+research.CENTRIFUGE.title=源质离心机
+research.CENTRIFUGE.stage.1=我经常发现很多我并不需要的复杂源质。我需要找到一种方法，将这些没用的源质投入实际使用。
+research.CENTRIFUGE.stage.2=炼金离心机是一项奇妙的发明，可以让我将源质分解为它的前置要素。<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素。<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素.<BR>分离得到的要素源质需要从离心机顶部抽走.由于管道压力系统的特性,最好在离心机顶部连接一个要素缓冲器.
 #
-research.TUBES.title=Essentia Tubes
-research.TUBES.stage.1=I can transport essentia around in jars and flasks， but that is not useful for large scale alchemical operations. The obvious answer is to transport essentia with pipes or tubes， but due to its volatile nature no mundane pipe will be able to transport it.<BR>I should gather some exotic essentia samples and use them to test various materials.
-research.TUBES.stage.2=I have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass， certain types of essentia either dissolve or simply pass right through it. By wrapping the glass in iron and treating it with quicksilver I have managed to protect it from even the most volatile types of essentia. Brass fittings finish off the piping system and makes it visually appealing.<PAGE>The tubes can be connected to all manner of alchemical devices， though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it， like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented from a tube， it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction that is causing the problem.<LINE>Tubes can be connected and disconnected from their neighbors by clicking on a section of tubing with a Caster.<BR>The Caster can also be used to click on the central section to rotate certain tubes like the valve.<PAGE><IMG>thaumcraft:textures/items/resonator.png:0:0:255:255:.125</IMG>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying.<PAGE><IMG>thaumcraft:textures/items/tube_valve.png:0:0:255:255:.125</IMG>The essentia valve acts much like a normal length of tubing， except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<PAGE><IMG>thaumcraft:textures/items/tube_filter.png:0:0:255:255:.125</IMG>Filtered essentia tubes work like normal tubes， except it is possible to mark them with labels， phials or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.<PAGE><IMG>thaumcraft:textures/items/tube_restrict.png:0:0:255:255:.125</IMG>Restricted essentia tubes work like normal tubes， except they halve the any suction passing through them.<PAGE><IMG>thaumcraft:textures/items/tube_oneway.png:0:0:255:255:.125</IMG>Directional essentia tubes only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.<PAGE><IMG>thaumcraft:textures/items/tube_buffer.png:0:0:255:255:.125</IMG>The essentia buffer allows you to store a limited amount of essentia - 8 points total， though it can be made up of any combination of essentia types. Like a jar it has suction， though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides， meaning that it is invaluable for getting essentia out of devices that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.<BR>Additionally you can toggle individual connections on and off as with a normal tube， but if you shift click a connection， it will choke the suction back to 1 (blue band) or 0 (red band) on that side.<BR>This allows for some interesting possibilities when routing essentia.
+research.TUBES.title=源质管道
+research.TUBES.stage.1=我可以用罐子和安瓿运输源质，但是这对大规模炼金毫无用处。显然应该用管道来运输，但是由于它的挥发性，普通的管道不能运输源质。<BR>我需要收集一些不同的源质样本，用它们测试各种材料。
+research.TUBES.stage.2=我已破解了制作稳定及相对密封的管道的关键所在.尽管普通的化学物质可以用玻璃管道运输,但某些类型的要素源质却可能溶解掉或者直接穿透玻璃.在玻璃管道上裹上铁皮并用水银处理,让即使最不稳定的源质也能安全通过.黄铜的管道配件装饰得管道系统极其美观.<PAGE>管道可以与各种类型的炼金设备相连,但一般主要用它连接要素罐子和蒸馏器.<BR>要素源质会主动流向任意可以容纳它的容器 - 比方说要素罐子.<BR>装有不同源质的罐子只会吸引那些同类要素源质.但管道一次只能吸入并运输一种类型的源质 - 吸力最高的会优先处理.若无法恰当使用阀门很容易导致管道系统堵塞.阀门的使用尤为关键.<BR>当看到气体从管道排出时，这意味着不同种类的吸力在互相干扰。颜色给出了找到问题原因的线索。<LINE>使用法师护手点击能够调整管道是否与相邻管道连接.<BR>你还可以使用法师护手点击管道中央位置来像调节阀门一样旋转它.<PAGE><IMG>thaumcraft:textures/items/resonator.png:0:0:255:255:.125</IMG>要素谐振器是为管道系统排障的方便工具.你可以使用它查看管道或其他使用源质的设备中当前容纳着何种源质以及它们的吸力.<PAGE><IMG>thaumcraft:textures/items/tube_valve.png:0:0:255:255:.125</IMG>要素阀门类似一段普通管道,但可以通过手动或者红石信号控制其开闭.关闭阀门后通过它的源质流会被阻断.<PAGE><IMG>thaumcraft:textures/items/tube_filter.png:0:0:255:255:.125</IMG>过滤源质管道类似普通管道,但可以使用标签,安瓿或者其他物品进行标记,标记后的过滤源质管道将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.<PAGE><IMG>thaumcraft:textures/items/tube_restrict.png:0:0:255:255:.125</IMG>限定源质管道类似普通管道,但它们会将通过的源质吸力减半.<PAGE><IMG>thaumcraft:textures/items/tube_oneway.png:0:0:255:255:.125</IMG>定向源质管道只接受某个方向上抽取来的源质,蓝色标记指示了它接受抽取物的方向.<PAGE><IMG>thaumcraft:textures/items/tube_buffer.png:0:0:255:255:.125</IMG>源质缓冲器能够允许你暂存一定量的源质 - 总计8点,可以是不同源质类型的任意组合.类似罐子它会自动吸收源质,但其吸力是各种可能中最小的（1）(吸收的优先级最低).<BR>换言之通常只有在直接将其安附在源质来源处它才能吸入源质.然而管道可以连接在它所有的方向上,这意味着用它来提取像奥法离心机这种内置大量容纳空间的设备中的源质意义甚微.<BR>你可以为缓冲器安装奥术风箱 - 一个风箱提升64点吸力.<BR>此外,类似普通的管道,你还能独立控制其每一方向连接的开合,但如若你按住shift点击连接,就能塞住它将其该方向上的吸力抑制在1(蓝圈)或者0(红圈).<BR>这使要素源质运输过程中的许多有趣特性有了可能.
 #
-research.IMPROVEDSMELTING.title=Improved Essentia Distillation (part 1)
-research.IMPROVEDSMELTING.stage.1=While essentia smelters can be very fast， they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>It should be a simple matter for me to speed up this process.
-research.IMPROVEDSMELTING.stage.2=I have discovered a way to make essentia smelting faster and more efficient: Auxiliary Slurry Pumps.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor， outputting refined essentia to any alembics placed above it.
+research.IMPROVEDSMELTING.title=源质蒸馏改良 (part 1)
+research.IMPROVEDSMELTING.stage.1=冶炼厂的加工速度非常快,但它还能变得更快 - 特别是冶炼厂将源质黏浆分解成可用源质的过程还有很大的提速空间.<BR>这对我来说小菜一碟。
+research.IMPROVEDSMELTING.stage.2=我已经发现了一种让源质冶炼更快、更高效的方法：附属黏浆泵<BR>每个附加在冶炼厂侧面的附属黏浆泵都能够作为辅助的处理设备,向安置在它上方的蒸馏器输出精炼好的源质.
 #
-research.IMPROVEDSMELTING2.title=Improved Essentia Distillation (part 2)
-research.IMPROVEDSMELTING2.stage.1=Designing the the slurry pumps have given me an idea to reduce the amount of flux generated during the smelting process.<BR>I should follow up on those ideas as soon as possible.
-research.IMPROVEDSMELTING2.stage.2=I have discovered a way to manage the flux generated by the smelting process. By running the slurry through a secondary set of venting ports fitted with filters I am able to separate out the flux and safely vent it as harmless steam.<BR>Like the slurry pumps， the vents need to be placed on the side of the smelter.<BR>This process will reduce flux produced by about a third and additional vents will increase this， though there are diminishing returns.
+research.IMPROVEDSMELTING2.title=源质蒸馏改良 (part 2)
+research.IMPROVEDSMELTING2.stage.1=设计黏浆泵给我了一个新想法，可以减少冶炼过程中产生的咒波。<BR>我应该尽快实现这个想法。
+research.IMPROVEDSMELTING2.stage.2=你还研究出一种管理冶炼过程中产生的咒波的方法.让源质黏浆流经源质过滤器的附加装置,就能够将咒波分离出来,将它变成安全无害的蒸汽排放出来.<BR>就像粘液泵一样，这个排放口也要放在冶炼厂侧面。<BR>还可以加装第三级装置来进一步减少咒波产量,但随着加装的排放口数量增多增加的效果会衰减.
 #
-research.EVERFULLURN.title=Everfull Urn
-research.EVERFULLURN.stage.1=Alchemical creation has proven to be much easier than I expected. If I can somehow automate this process to create something simple and practical it will go a long way toward further alchemical breakthroughs.<BR>Maybe something like an infinite water source would be a good start?
-research.EVERFULLURN.stage.2=A small fountain of pure water always flows from the top of this urn， making it a perfect water source to fill my buckets， bottles or other liquid containers.<BR>The urn will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles， but has other uses as well.<BR>Every bucket full of water created costs 1 vis which is drawn directly from the aura.<BR>The water does taste a bit... odd. Nothing to worry about I'm sure.
+research.EVERFULLURN.title=无尽之瓮
+research.EVERFULLURN.stage.1=炼金术的创造事实上比我预想的容易的多。如果我能以某种方式自动化地创造一些简单而实用的东西，那么这将是炼金术的进一步突破。<BR>或许无限水源是一个良好的开始？
+research.EVERFULLURN.stage.2=从瓮口不断涌出的一小股清泉让无尽之瓮能够用来为水桶,药瓶和其他流体容器提供水源.<BR>它还能够为两格范围内的流体容器自动添水,只要这些容器能够从顶部注水.配合坩埚可以很完美地实现自动化,当然别的方面也有诸多妙用.<BR>每制造一桶水都会从灵气中抽取1点vis.<BR>水的味道有点...奇怪。我确定无需担心。
 #
 ##########################################
 # INFUSION
@@ -1377,14 +1377,14 @@ research.INFUSIONENCHANTMENT.stage.2=你发现了将这些能力套用在其他�
 research.BOOTSTRAVELLER.title=旅行者之靴
 research.BOOTSTRAVELLER.stage.1=我想要一双专业行走设备来使我旅途愉快，于是我研究了移动的奥秘并着手开始制作。
 research.BOOTSTRAVELLER.stage.2=这双富含神秘的魔力工艺技巧的靴子能让任何旅行者的旅途变得更轻松愉快。<BR>它能够让你移动得比平常更加迅速，并且能够直接掠过较高的台子。它也能够让你跳得更高，落得更远。<BR>另外，它还能让你像鱼一样破浪而行，虽然是一条相对缓慢和笨拙的鱼，可也算条鱼嘛!<BR>然而，这双鞋需要吸取周围的灵气来发挥功效。
-research.m_walker.text=Walk a lot.
-research.m_runner.text=Run a lot.
-research.m_swimmer.text=Swim a lot.
-research.m_jumper.text=Jump a lot.
+research.m_walker.text=多走两步。
+research.m_runner.text=多跑两部。
+research.m_swimmer.text=多游游泳。
+research.m_jumper.text=多跳一跳。
 #
 research.PAVINGSTONES.title=奥术铺路石
-research.PAVINGSTONES.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make.
-research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石砖的魔法结构，我成功制造出了可以使任何走过它的人加速通过的铺路石。<BR>行走于其上时会短暂的提升速度与灵活性。<PAGE>§o屏障石§r<DIV>通过改变奥术石砖的魔法结构，我成功将它们转变成了能够阻止任何生物通过的奥术屏障。<BR>值得注意的是，这层屏障并不是100%万无一失，它们也不能阻止其他玩家的进入。他们能够抵御常见的威胁，当然，也会阻止傀儡穿过。<BR>为了达到最佳使用效果，你需要在你想要保护的区域和外部之间建造一条完整的屏障。<BR>可以通过红石信号来关闭屏障。<BR>屏障石上方的颜色会指示其当前工作状态。<BR>紫色代表着屏障正在阻止实体穿过。<BR>蓝色代表着屏障已经被红石信号关闭。<BR>红色代表着当前屏障石的铺设仍有可以通过的空隙,并不能完全保护这块区域。
+research.PAVINGSTONES.stage.1=虽然魔导透镜会显示当地的灵气，但是能够在更大范围内获得灵气的总体概览会非常有用。这种设备应该很容易设计和制造。
+research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石材的神奇结构，我能够创造一块铺路石，让任何人走在上面时受到更大的弹力。<BR>任何东西走过它都会获得几秒钟的速度和敏捷提升。<PAGE>§o屏障石§r<DIV>我发现了一种将奥术石材变成谜一样的屏障的方法，可以组织大部分生物穿过。<BR>注意这种屏障作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.<BR>屏障石上方符文的颜色能够显示其当前的状态.<BR>紫色符文说明它正在阻止某些东西通过。<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>红色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
 #
 research.ELEMENTALTOOLS.title=元素工具
 research.ELEMENTALTOOLS.stage.1=发现注魔的原理后，我找到将元始要素融入工具和武器中的方法。这样制做出的每种设备都拥有独特和强大的特性。<BR>在我最初的设想中，神秘工具是完美的实验材料-它们具有极高的魔力亲和性，这将为之后的实验打下良好的基础。
@@ -1406,7 +1406,7 @@ research.CURIOSITYBAND.title=求知发带
 research.CURIOSITYBAND.stage.1=我采集资源和狩猎时获得的经验球含有魔力和知识。我确信它们的用途不仅仅是简简单单的附魔。
 research.CURIOSITYBAND.stage.2=我的理论得到了实证 - 我找到了从经验球中提取知识碎片的方法。这些知识残片虽十分微小，但对于某些特定研究有莫大的帮助。<BR>我设计出了这款发带，它会使佩戴者获取的半数经验转化成研究知识。虽然转换的进度非常缓慢，但聊胜于无。
 #
-research.VERDANTCHARMS.title=翡翠指环
+research.VERDANTCHARMS.title=翠心指环
 research.VERDANTCHARMS.stage.1=我偶然发现自己深受扭曲的折磨，我要设法保护自己的意识不受侵蚀。
 research.VERDANTCHARMS.stage.2=我设计出这款神秘饰品用以驱逐体内的毒素或者是受到的其他类似的效果。不幸的是，它并不能治愈实际创伤。<BR>指环内部可以容纳一定量的灵气并且它需要通过奥术充能基座或是有其他类似功能的设备进行充能- 它不会自动从环境中获取灵气。<LINE>有两项注魔附魔可供选用。<PAGE>§n再生§r<BR>这项附魔使翡翠指环能治愈使用者的伤势。<LINE>§n续航§r<BR>这项附魔使翡翠指环能够缓慢提供饱食度及水下呼吸所需的氧气。
 #
@@ -1423,7 +1423,7 @@ research.REDSTONERELAY.stage.2=我仔细地研究了这个问题，虽然众所�
 #
 research.ARCANEEAR.title=奥术之耳
 research.ARCANEEAR.stage.1=我想我应该从神秘传感器开始，也许声音传感器是个不错的选择。
-research.ARCANEEAR.stage.2=我成功了! 奥术之耳是一个能够检测附近的音符盒发声的设备。当它检测到既定音符时会发出短的红石脉冲。<BR>奥术之耳通过依附在不同材料上实现与不同音色的音符盒对应。<BR>奥术之耳能够依附在任意方块的表面上。<LINE>I can also craft a version of the arcane ear that toggles on or off when it hears a note instead of sending a pulse.
+research.ARCANEEAR.stage.2=我成功了! 奥术之耳是一个能够检测附近的音符盒发声的设备。当它检测到既定音符时会发出短的红石脉冲。<BR>奥术之耳通过依附在不同材料上实现与不同音色的音符盒对应。<BR>奥术之耳能够依附在任意方块的表面上。<LINE>我也制作了奥术之耳的另一种版本，当它检测到音符时，会切换脉冲的开启和关闭而不是发射脉冲。
 #
 research.DIOPTRA.title=奥术屈光仪
 research.DIOPTRA.stage.1=如果能有个仪器来显示周围的灵气分布就好了。等等，似乎这并不难实现!
@@ -1515,14 +1515,14 @@ research.FOCUSEXCHANGE.stage.1=传送魔法目前对我而言太难了，但是�
 research.FOCUSEXCHANGE.stage.2=我的理论得到了证实！将这个符印加入核心后，我能够通过潜行右键选择世界中的一种方块。<BR>此后，在我对绝大部分的方块施术时，它就会将目标方块更替为之前选定的方块。显然，我必须要带有足够的方块来进行更换，并且目标方块（或者它正常破坏时得到的掉落物）会出现在我的物品栏中。<BR>看上去我并不能用这种方式更换一些特别复杂的方块，也不能更换原本无法破坏的方块。<BR>除了施法时的消耗，看上去每次进行方块更替都会消耗额外的Vis，我应该有所注意。
 #
 research.FOCUSRIFT.title=核心效果：裂隙
-research.FOCUSRIFT.stage.1=我对空间魔法进行了一些试验性的实验，但是目前为止我只得到了一些混杂的结果。不过我现在能够无比可靠地将一切无生命的物质传送到相邻的空间，并且将一些物质从相邻的空间中取出。<BR>我在想，无论用哪种方式，这些物质在传送的过程当中都不会受到伤害，然而对于生物而言却不是那么一回事 — 我不敢相信我所看到的事实，我不确定我会不会再次进行此类实验。<BR>幸运的是，我能够将这种发现用符印的方式进行复现，大多数无生命的物体都会像使用了某种便携虫洞一样暂时转移到另一个空间当中。<BR>这个裂隙的直径只能是恒定的3码，但我想我能够控制它的深度，通常应该在8码左右。
-research.FOCUSRIFT.stage.2=我成功创造了一种利用空间魔法的核心，大多数无生命的物体都会被暂时转移到另一个空间，就如同一个便携虫洞一般。<BR>它会创造一个直径恒定3米的洞，但是我应该能够一定程度上改变它的深度，一般来说深度一般在8米左右。
+research.FOCUSRIFT.stage.1=我对空间魔法进行了一些试验性的实验，但是目前为止我只得到了一些混杂的结果。不过我现在能够无比可靠地将一切无生命的物质传送到相邻的空间，并且将一些物质从相邻的空间中取出。<BR>我在想，无论用哪种方式，这些物质在传送的过程当中都不会受到伤害，然而对于生物而言却不是那么一回事 — 我不敢相信我所看到的事实，我不确定我会不会再次进行此类实验。<BR>幸运的是，我能够将这种发现用符印的方式进行复现。
+research.FOCUSRIFT.stage.2=我设法创造了一种操作维度魔法的核心。大多数无生命的物体都会像使用了某种便携虫洞一样暂时转移到另一个空间当中。<BR>这个裂隙的直径只能是恒定的3码，但我想我能够控制它的深度，通常应该在8码左右。
 #
 research.FOCUSPLAN.title=核心媒介：计划
 research.FOCUSPLAN.stage.1=我已经学习了如何操纵世界中的方块，通过类似于交换的核心效果就能够实现，但是它的实际用途仍然非常有限。<BR>我应该寻找一种方式来调整到底哪些方块会受到这种核心效果的影响。
 research.FOCUSPLAN.stage.2=我设计了一种medium符印来让我规划哪些方块将会被我操纵。这个符印和Touch的工作方式相仿，只是会为将要受到影响的方块以高亮显示。通过the focus modify key(默认为G)能够改变区域的大小，通过CTRL + G能够更改改变大小的方向。<BR>要注意每个受影响的方块都会增加效果的Vis消耗。<BR>“潜能”修饰会提高这个符印所能够控制的最大范围。
 #
-research.FOCUSCHARGE.title=核心效果：充能
+research.FOCUSCHARGE.title=核心修饰：充能
 research.FOCUSCHARGE.stage.1=我学习了各种通过调整核心符印来控制法术效能的方式。<BR>我想我能够通过调整施术过程中引导的Vis数量来控制符印的消耗和效能。
 research.FOCUSCHARGE.stage.2=我的想法再次得到了证实！充能符印能够让我延迟法术施放 — 而在这个过程当中，越来越多的Vis将被吸入核心当中，在我最终释放能量的时候，它会变得更加强大。<BR>然而，这个符印使得效果在最初施放时的威力比之前弱了很多 — 大约是平时的一半，但是只要我延迟法术的施放，我就能够进行充能并将威力提升到平时的两倍。<BR>Vis消耗也会在过程中同步改变。
 #
@@ -1538,9 +1538,9 @@ research.VISAMULET.title=魔力护身符
 research.VISAMULET.stage.1=如果我想要为能够存储Vis的物品进行充能，我就不得不去往最近的充能基座或是一直随身携带一个充能基座。不论怎么说，这都是一件麻烦事 — 我必须找到一种便携的充能方式。
 research.VISAMULET.stage.2=我制作了一种护身符，它能够引导附近灵气场中的Vis，从而让我能够在携带它的时候为我的物品进行充能。<BR>这个护身符只会为快捷栏、饰品栏和护甲栏中的道具进行充能（并且以这个顺序）。它只会为能够在充能基座中充能的物品进行充能。
 #
-research.WORKBENCHCHARGER.title=Workbench Charger
-research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far， I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis， the more vis will be available for crafting.
-research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench and the focal manipulator. This framework allows those workbenches to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
+research.WORKBENCHCHARGER.title=奥术工作台充能器
+research.WORKBENCHCHARGER.stage.1=我开始陷入奥术工作台的局限性带来的苦恼中。它只能从周围环境中吸取vis。虽然对迄今为止我制作的大部分东西来说都没有问题，但是可以预见到，很快我将会制造一些需求vis更多的东西，甚至超出了周围灵气中的vis。<BR>我需要找到一种方法来扩展奥术工作台吸取灵气的范围。它吸取vis的范围越大，可以用于制作的vis就越多。
+research.WORKBENCHCHARGER.stage.2=我设计了一个可以放在奥术工作台和核心镶饰台顶上的特殊设备。这个框架让这些工作台不仅可以在所在区块抽取vis，还可以抽取周围的8个区块。理论上，它使可用的vis达到了原来的9倍。<BR>当从灵气中抽取vis时，它会将所需灵气大致平均分为9份从9个区块中抽取，以防止单个区块过多的消耗。
 #
 research.FOCUSCURSE.title=核心效果：诅咒
 research.FOCUSCURSE.stage.1=这根岩精的法杖看上去非常奇怪，对我而言也没有什么用处，不过看起来它的工作原理与施术核心颇为相似。<BR>我应该能够对它进行一些逆向工程操作。
@@ -1550,7 +1550,7 @@ research.FOCUSCURSE.stage.2=我曾经猜测这根法杖与生俱来有着神秘�
 # GOLEMANCY
 ##########################################
 #
-research.BASEGOLEMANCY.title=Basic Golemancy
+research.BASEGOLEMANCY.title=基础傀儡学
 research.BASEGOLEMANCY.stage.1=I now understand the basic concepts that shape Golemancy, but I am sure I can improve on the primitive constructs that anyone can craft. At the very least I can use arcane science to design a simple mind that will be both dependable and predictable instead of relying on the chaotic nature of magic to direct my constructs.
 #
 research.JARBRAIN.title=缸中之脑
@@ -1675,7 +1675,7 @@ research.ARCANEPATTERNCRAFTER.stage.1=有些物品合成相当简单 - 只需将
 research.ARCANEPATTERNCRAFTER.stage.2=于是，我发明了一个专门用以自动化这种简单合成的设备。<BR>奥术组装器的上方及下方都需要放置容器。它会尝试将上方容器内的物品按照你所设定的图纸进行合成，并将成品输出到下方的容器内。<BR>你可以右击奥术组装台前方的旋钮以更改设定的合成图纸。<BR>该设备在收到红石信号时会停止工作。<LINE>每次合成都会消耗1点vis。
 #
 research.ARCANEBORE.title=奥术钻探机
-research.ARCANEBORE.stage.1=I need to work out an automated way of digging out large areas. It should be a fairly simple matter to redesign one of my new turrets to target the ground instead of enemies.<BR>My discovery of the breaker focus effect should allow me to create a specialized and limited version of a caster that can be used by this mining turret.
+research.ARCANEBORE.stage.1=我需要制定一个大面积挖掘的自动化方法。 重新设计一个新炮塔来瞄准地面而不是敌人应该是一件相当简单的事情。<BR>我对破坏核心效果的发现让我能够制作一种以它为核心的特别限定版本采矿炮塔。
 research.ARCANEBORE.stage.2=我成功造出了被我称为奥术钻探机的挖掘设备，一旦被放置并且给予一个红石信号，它会开始挖掘它面朝方向可挖掘的方块。需要给这个设备提供一把镐子用于挖掘。通常来说，这种机械设备无法操控核心，但是随着奥术魔法的运用，核心被成功运用于这项设备。<BR>这有着我未曾预料到的优点 - 镐子在形式上参与了挖掘的过程，镐子上的附魔效果也被加成到钻探机上。然而镐子还是会有损耗，但是比常规使用时损耗小得多 - 我估计这损耗速度比原有的慢50倍<BR>镐子的材质还决定着钻探机的挖掘范围。附魔亲和性越好的材质，挖掘范围越大。<BR>挖出的方块会从钻探机的孔里喷出。如果有箱子则会自动进入其物品栏。<PAGE>奥术钻探机消耗vis来工作，每挖掘4个方块消耗1vis。<LINE>奥术钻探机可以被调整至除了向下以外的任何方向。只需左击钻探机，就可以让它朝向你。<BR>就和其他奥术塔防物件一样，钻探机也会对奥术激活轨道有所反应 - 如果这轨道被充能，则钻探机会停止工作，直至移动到未充能的轨道上。
 #
 ##########################################
@@ -1686,14 +1686,15 @@ research.ARCANEBORE.stage.2=我成功造出了被我称为奥术钻探机的挖�
 ##########################################
 # MISC
 ##########################################
-not.pechwand=You cannot fathom the workings of this yet.
+not.pechwand=你暂时还无法理解它的作用。
 got.pechwand=嗯……这看上去非常有趣，我应该进行一些深入研究。
 got.onfire=你已经亲身感受了火焰的威力。
-research.m_deepdown.text=Visit the lowest depths of the world.
-research.m_uphigh.text=Visit the highest peaks you can find.
-got.deepdown=You have visited deep and dark depths and have learned much.
-got.uphigh=The world is spread out before you. Your perspective has been broadened.
-got.hellandback=You have visited the Nether.
-got.endoftheworld=You have visited the End.
-research.m_hellandback.text=Visit a hellish place.
-research.m_endoftheworld.text=Find the end of everything.
+research.m_deepdown.text=到达世界的最深处。
+research.m_uphigh.text=登上可及的最高峰。
+got.deepdown=你已经到达了深邃黑暗的深谷，并学到了很多。
+got.uphigh=世界在你面前一览无余。你的视野也随之扩大。
+got.hellandback=你已经拜访了下界。
+got.endoftheworld=你已经拜访了末地。
+research.m_hellandback.text=拜访地狱般的地方。
+research.m_endoftheworld.text=寻找一切的终焉。
+
