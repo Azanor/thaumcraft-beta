@@ -6,7 +6,7 @@
 #
 item.thaumonomicon.normal.name=魔导手册
 item.thaumonomicon.cheat.name=作弊者之魔导手册
-item.curio.arcane.name=奥术珍品
+ item.curio.arcane.name=奥术珍品
 item.curio.preserved.name=传世珍品
 item.curio.eldritch.name=邪术珍品
 item.curio.ancient.name=远古珍品
@@ -170,7 +170,7 @@ item.verdant_charm.life.text=再生
 item.verdant_charm.sustain.text=续航
 item.voidseer_charm.name=虚空预言者的珍珠
 item.voidseer_charm.text=你凝视着漆黑的黑暗...你发誓你看到了有什么东西在盯着你...
-item.curiosity_band.name=好奇头带
+item.curiosity_band.name=求知发带
 item.cloud_ring.name=云霄指环
 #
 # Casters & Foci
@@ -187,7 +187,7 @@ item.focus_pouch.name=施术核心手袋
 item.creative_flux_sponge.name=咒波清理海绵
 item.turret.basic.name=自动十字弩
 item.turret.advanced.name=高级十字弩
-item.turret.bore.name=奥术钻机
+item.turret.bore.name=奥术钻探机
 #
 # Golem
 item.module.vision.name=视觉组件
@@ -320,7 +320,7 @@ tile.thaumatorium_top.name=神秘炼金塔
 tile.brain_box.name=记忆矩阵
 tile.essentia_input.name=源质析出装置
 tile.essentia_output.name=源质注入装置
-tile.activator_rail.name=奥术活化铁轨
+tile.activator_rail.name=奥术激活轨道
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -728,26 +728,26 @@ focuspart.thaumcraft.PROJECTILE.text=将核心的能量聚集成魔法球，并�
 focuspart.thaumcraft.BOLT.name=震击
 focuspart.thaumcraft.BOLT.text=向目标直接发出强烈的魔法冲击，瞬间击中并产生效果，但射程有限。
 focuspart.thaumcraft.PLAN.name=计划
-focuspart.thaumcraft.PLAN.text=允许你准确计划那些方块会受到影响。
+focuspart.thaumcraft.PLAN.text=允许你精确规划哪些方块会受到影响。
 #
-focuspart.thaumcraft.CHAIN.name=连锁
-focuspart.thaumcraft.CHAIN.text=相关效果的威力会减弱，但是可以让震击连锁到最多2个额外目标。
+focuspart.thaumcraft.CHAIN.name=联锁
+focuspart.thaumcraft.CHAIN.text=降低相连符印的效果，但是使得震击能够弹射到附近最多两个目标上。
 focuspart.thaumcraft.FRUGAL.name=朴素
-focuspart.thaumcraft.FRUGAL.text=相关效果消耗更少的vis，但效果不变。
+focuspart.thaumcraft.FRUGAL.text=相连符印可以以更少的Vis施展相同强度的效果。
 focuspart.thaumcraft.LINGERING.name=动荡
-focuspart.thaumcraft.LINGERING.text=相关效果持续更久，或者可能会增加一个之前没有的持续效果。
+focuspart.thaumcraft.LINGERING.text=相连符印的效果持续得更久，对于没有持续效果的符印可能获得短暂的持续效果。
 focuspart.thaumcraft.POTENCY.name=潜能
-focuspart.thaumcraft.POTENCY.text=相关效果消耗更多的vis，但效果会增强。
+focuspart.thaumcraft.POTENCY.text=相连的符印将消耗更多Vis，借此显著提升它们的效果。
 focuspart.thaumcraft.SCATTER.name=散射
-focuspart.thaumcraft.SCATTER.text=你将射出的弹射物分成多个较小的子弹，每个的威力和精确度降低，但覆盖范围更广。
+focuspart.thaumcraft.SCATTER.text=你将投射物分裂成多个较小的投射物，每个较小的投射物的效果和精准度都有所降低，但此时效果能够覆盖更大的面积。
 focuspart.thaumcraft.SILKTOUCH.name=精准采集
-focuspart.thaumcraft.SILKTOUCH.text=就像同名的附魔一样，这项升级能使你取得方块，而非掉落物。
+focuspart.thaumcraft.SILKTOUCH.text=与精准采集附魔相似，这个符印使你能够完好无损地取得方块，而不是获得它们普通的掉落物。
 focuspart.thaumcraft.FORTUNE.name=时运
-focuspart.thaumcraft.FORTUNE.text=就像同名的附魔一样，这项升级能让你有机率在开采方快时获得更多掉落物。效果相当于时运II。
+focuspart.thaumcraft.FORTUNE.text=与时运附魔相似，这个符印使你在采集方块时有几率获得更多物品。等同于“时运 II”的效果。
 focuspart.thaumcraft.CHARGE.name=充能
-focuspart.thaumcraft.CHARGE.text=核心的效果和消耗会变为平时的一半，但如果你按住施法键，法术将会缓慢充能，提升效果和消耗（变为平时的两倍）。
+focuspart.thaumcraft.CHARGE.text=拥有这个符印的核心的效果和消耗都有所降低（约为平时的一半），但是按住施术键时，法术会缓慢进行充能并逐渐提高效果和消耗（最高提升为平时的两倍）。
 focuspart.thaumcraft.BURST.name=爆裂
-focuspart.thaumcraft.BURST.text=相关效果将作用于一个区域，距离中心较远的目标将会受到较小的影响。
+focuspart.thaumcraft.BURST.text=相连符印的效果将会施加到一个区域中的所有目标上，远离中心的目标会受到较小的效果。
 #
 # GUI
 ###################
@@ -814,10 +814,10 @@ golem.prop.redoff=忽略红石信号
 golem.prop.exist=仅在目标容器可容纳物品时工作
 golem.prop.leave=总是保留一个物品在绑定容器内
 focuspart.base=基础消耗:
-focuspart.mult=消耗倍率:
-focuspart.eff=效果倍率:
-focuspart.finalCost=消耗总计:
-focuspart.finalEffect=效果总计:
+focuspart.mult=消耗加成:
+focuspart.eff=效果加成:
+focuspart.finalCost=最终消耗:
+focuspart.finalEffect=最终效果:
 
 #
 tile.researchtable.noink.0=墨水已耗尽！
@@ -843,8 +843,8 @@ color.green=绿色
 color.red=红色
 color.black=黑色
 #
-button.up=上翻
-button.down=下翻
+button.up=向上滚动
+button.down=向下滚动
 #
 # Theorycraft Cards
 ###################
@@ -1001,7 +1001,7 @@ tc.key10=奥能之扉于
 tc.key11=奥术压力盘于
 tc.wandnocharge=法杖魔力不足
 tc.wandcharge=该法杖当前蕴含 %svis
-tc.jaressentia=蕴含 %s 源质
+tc.jaressentia=蕴含 %s 要素
 tc.jarname=罐子：
 tc.markedloc=标记位置
 tc.addclue=§a你发现了一些有助于未来研究的东西§0
@@ -1387,28 +1387,28 @@ research.PAVINGSTONES.stage.1=虽然魔导透镜会显示当地的灵气，但�
 research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石材的神奇结构，我能够创造一块铺路石，让任何人走在上面时受到更大的弹力。<BR>任何东西走过它都会获得几秒钟的速度和敏捷提升。<PAGE>§o屏障石§r<DIV>我发现了一种将奥术石材变成谜一样的屏障的方法，可以组织大部分生物穿过。<BR>注意这种屏障作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.<BR>屏障石上方符文的颜色能够显示其当前的状态.<BR>紫色符文说明它正在阻止某些东西通过。<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>红色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
 #
 research.ELEMENTALTOOLS.title=元素工具
-research.ELEMENTALTOOLS.stage.1=发现注魔之后，我应该试着将基本元素结合到工具和武器中。如果我是正确的，这将授予他们独特而强特的属性。<BR>在最初的实验中，我坚持使用神秘金属工具——它们很容易注魔并且会成为未来实验的良好样本。
-research.ELEMENTALTOOLS.stage.2=我制定了所需的仪式来注魔我制造的神秘工具。如果我的计算正确，它们会有一些独特而有趣的能力。<PAGE>§o奔流斧§r<DIV>将水碎片和神秘斧结合，我设计出了一种体现运动和流动要素的工具。<BR>这把斧头除了对木材和原木使用外,与普通斧头相比无甚特殊之处.当用它来采伐木头的时候,它会首先将与这个方块相连最远的方块采掘并吸收过来.<BR>事实上即使你敲击的是树干最底端，你也会从上到下的砍树。<BR>如此砍下的原木都会自动地流向你.<BR>而按住右键时,附近所有的可拾取物品,包括但不限于你砍伐的木头,都会自动流向你.<BR>当你按住潜行键则可以抑制其特效,将其作为普通斧头使用.<PAGE>§o炽心镐§r<DIV>将火碎片注入神秘镐，我设计了一种镐子，发出熔炉般的光和热。<BR>使用炽心镐采掘矿物时有一定几率掉落原矿簇而非矿石.冶炼原矿簇能得到双倍的产出.<BR>持有炽心镐右击任意方块表面,能够探测并显示附近的水,岩浆或者最有价值的矿物.<BR>按住潜行则可以抑制其特效,将其作为普通镐子使用.<PAGE>§o风雷剑§r<DIV>我将空气碎片的元素和神秘剑合在一起。<BR>用这柄魔剑攻击敌人时可以触发连锁闪电特性,弹射的电弧将会波及次要目标.<BR>右键格挡的时候则会召唤出一道缠绕你自身的旋风,将你的敌人以及任何实体目标吹开.<BR>格挡时持有者也会缓慢腾升至空中.<PAGE>§o后土铲§r<DIV>将大地碎片和神秘铲结合在一起，我设计了一种无与伦比的挖掘工具。<BR>当你用来它挖掘沙子,泥土以及类似物品的时候能够一次性挖掘3x3范围内的相同方块.<BR>如果你右击某方块时,它会试图放置3x3的相同方块.当然你的物品栏中必须有足够的同种方块.<BR>它的挖掘和放置方向取决于你所挖或点击的面.<BR>如果按下shift你可以看到方块将会放置到世界的哪个位置，你可以通过按'G'来更改方块放置的方向。方块可以放置在与所选表面平行的位置，也可以垂直或水平的深处表面。<BR>当你按住潜行则可以抑制其特效,将其作为普通铲子使用.<PAGE>§o句芒锄§r<DIV>通过将带有秩序和混乱能量碎片与神秘锄结合，我创造了一个全能的农具。<BR>使用它可以一次开垦3x3的田地而不像普通锄头那样一次只能开垦一块地.<BR>手持句芒镐对作物或者其他植物右键,将发挥类似使用骨粉的效果,尽管这种功能会更快消耗其耐久.即使对一些普通骨粉不能催化的植物句芒锄也可能能够进行催发.<BR>当你按住潜行则可以抑制其特效,将其作为普通锄头使用.
+research.ELEMENTALTOOLS.stage.1=发现注魔的原理后，我找到将元始要素融入工具和武器中的方法。这样制做出的每种设备都拥有独特和强大的特性。<BR>在我最初的设想中，神秘工具是完美的实验材料-它们具有极高的魔力亲和性，这将为之后的实验打下良好的基础。
+research.ELEMENTALTOOLS.stage.2=我草拟了一份注魔配方表，如果计算没有失误的话它们将拥有独特和强大的特性。<PAGE>§o奔流斧§r<DIV>将水之碎片与神秘锭制作的斧融合，我打造出一柄拥有流水特性的魔斧。<BR>这把斧头除了对木材和原木使用外，与普通斧头相比无甚特殊之处。当用它来采伐木头的时候，它会首先将与这个方块相连最远的方块采掘并吸收过来。<BR>因此你可以用这柄斧头砍掉整颗树，即使你敲击的是树干最低端的位置。<BR>如此砍下的原木都会自动地流向你。<BR>而按住右键时，附近所有的可拾取物品，包括但不限于你砍伐的木头，都会自动流向你。<BR>当你按住潜行键则可以抑制其特效，将其作为普通斧头使用。<PAGE>§o炽心镐§r<DIV>将火之碎片与神秘锭制作的镐融合，你打造出一柄冒着熊熊火光的魔镐。<BR>使用炽心镐采掘矿物时有一定几率掉落原矿簇而非矿石。冶炼原矿簇能得到双倍的产出。<BR>持有炽心镐右击任意方块表面，能够探测并显示附近的水，岩浆或者最有价值的矿物。<BR>按住潜行则可以抑制其特效，将其作为普通镐子使用。<PAGE>§o风雷剑§r<DIV>将风之碎片与神秘锭制作的剑融合，你打造出一柄蕴含风雷之力的魔剑。<BR>用这柄魔剑攻击敌人时可以触发连锁闪电特性，弹射的电弧将会波及次要目标。<BR>右键格挡的时候则会召唤出一道缠绕你自身的旋风，将你的敌人以及任何实体目标吹开。<BR>格挡时持有者也会缓慢腾升至空中。<PAGE>§o后土铲§r<DIV>将地之碎片与神秘锭制作的铲融合，你打造出一柄洋溢着大地气息的魔铲。<BR>当你用来它挖掘沙子，泥土以及类似物品的时候能够一次性挖掘3x3范围内的相同方块。<BR>如果你右击某方块时，它会试图放置3x3的相同方块。当然你的物品栏中必须有足够的同种方块。<BR>它的挖掘和放置方向取决于你所挖或点击的面。<BR>按下潜行键你可以看到方块将在何处被放置，按下G键以调整方块放置的方向。方块可以被平行放置在所选位置之上，也可以垂直或者是水平伸出。<BR>当你按住潜行则可以抑制其特效，将其作为普通铲子使用。<PAGE>§o句芒锄§r<DIV>将秩序碎片与神秘锭制作的锄融合，你打造出一柄农业方面近乎全能的锄头。<BR>使用它可以一次开垦3x3的田地而不像普通锄头那样一次只能开垦一块地。<BR>手持句芒镐对作物或者其他植物右键，将发挥类似使用骨粉的效果，尽管这种功能会更快消耗其耐久。即使对一些普通骨粉不能催化的植物句芒锄也可能能够进行催发。<BR>当你按住潜行则可以抑制其特效，将其作为普通锄头使用。
 #
 research.ARMORFORTRESS.title=神秘要塞甲胄
-research.ARMORFORTRESS.stage.1=神秘护甲优点虽多,但基础的构材等级却逊于钻石护甲.在提升其构材性能以及复杂性的同时,你逐渐发展出一门额外提升护甲的工艺,耐久和强度的技术.
-research.ARMORFORTRESS.stage.2=我开始着手改善护甲，我想我已经超越了自己。我设计了一套具有特殊工艺、耐久度和强度的盔甲。我称之为神秘要塞甲胄。<BR>每个独立的神秘要塞甲胄部件都有和钻石护甲同等程度的防护能力,不仅如此,它们还具有更加卓绝的耐久值,并且对火焰和魔法伤害有特别的额外防护效果.<BR>但它们最不可思议的奇妙之处在于独立的护甲部件如果同时穿戴将会激活套装效果: 每多穿戴一件部件,都会提升其他部件的防护效果,外观造型也会变得更加炫酷.<BR>由于构材中使用的大量神秘锭,这种护甲很容易附魔.
+research.ARMORFORTRESS.stage.1=神秘防具优点虽多，但基础的构材等级却逊于钻石护甲。你想要提升其构材性能以及复杂性。
+research.ARMORFORTRESS.stage.2=你着手改进神秘防具并且小有成效,逐渐发展出一门额外提升护甲的工艺，耐久和强度的技术。改造后的神秘防具被称为神秘要塞甲胄。<BR>每个独立的神秘要塞甲胄部件都有和钻石护甲同等程度的防护能力，不仅如此，它们还具有更加卓绝的耐久值，并且对火焰和魔法伤害有特别的额外防护效果。<BR>但它们最不可思议的奇妙之处在于独立的护甲部件如果同时穿戴将会激活套装效果：每多穿戴一件部件，都会提升其他部件的防护效果，外观造型也会变得更加炫酷。<BR>由于构材中使用的大量神秘锭，这种护甲很容易附魔。
 #
 research.FORTRESSMASK.title=要塞甲胄面具
-research.FORTRESSMASK.stage.1=我设计的要塞甲胄使用的面具都是可拆卸的。我可以制造特殊的魔法面具，使护甲获得额外的能力。
-research.FORTRESSMASK.stage.2=我已经拟定了几个魔法面具的设计，它们将取代要塞甲胄使用的标准面具。<PAGE>§n揭示之盔§r<BR>通常来说,神秘使需要在防护性与实用性间艰难地做出选择.再也不必如此了!<BR>这顶改装后的神秘要塞兜鍪虽然并不具有护目镜的魔力减免功能,但却能够为你提供揭示之护目镜所具有的其他所有功能.<BR>这顶头盔也能加装面具.<PAGE>§n狞笑恶魔面具§r<BR>戴上这幅面具会获得奇妙的阻滞扭曲效果的能力.虽说无法阻止扭曲发生,但却能够让它的效果一定程度上被削弱.<BR>看来笑对人生之峥嵘,的确能够有所收获.<PAGE>§n暴怒幽魂面具§r<BR>当身处战场,那些攻击戴上这幅冷酷面具后的你的生物,都会有一定几率染上凋灵效果.<BR>真是自寻死路!<PAGE>§n嗜血邪妖面具§r<BR>戴上这幅面具后的你如果攻击其他生物,有时候会窃取它们的生命力用来强化自己.<BR>你吸它们血的事情实际上似乎并没有像你以为那样让你觉得有什么异样.但你疑惑的是你该不该对此忧心呢?
+research.FORTRESSMASK.stage.1=我设计了可拆卸的要塞甲胄面具，这些面具可能可以给神秘要塞甲胄带来额外的能力。
+research.FORTRESSMASK.stage.2=我草拟了几个魔法面具的设计用以替代神秘要塞兜鍪最基础的面部护甲。<PAGE>§n揭示之盔§r<BR>通常来说，神秘使需要在防护性与实用性间艰难地做出选择。再也不必如此了。!<BR>这顶改装后的神秘要塞兜鍪虽然并不具有护目镜的魔力减免功能，但却能够为你提供揭示之护目镜所具有的其他所有功能。<BR>这顶头盔也能加装其他面具。<PAGE>§n狞笑恶魔面具§r<BR>戴上这幅面具会获得奇妙的阻滞扭曲效果的能力。虽说无法阻止扭曲发生，但却能够让它的效果一定程度上被削弱。<BR>看来笑对人生之峥嵘，的确能够有所收获。<PAGE>§n暴怒幽魂面具§r<BR>当身处战场，那些攻击戴上这幅冷酷面具后的你的生物，都会有一定几率染上凋灵效果。<BR>真是自己作死!<PAGE>§n嗜血邪妖面具§r<BR>戴上这幅面具后的你如果攻击其他生物，有时候会窃取它们的生命力用来强化自己。<BR>你吸它们血的事情实际上似乎并没有像你以为那样让你觉得有什么异样。但你疑惑的是你该不该对此忧心呢？
 #
 research.CLOUDRING.title=云霄指环
-research.CLOUDRING.stage.1=我觉得我应该涉足饰品制造业。经过一番思考我决定制造一个能够减少摔落伤害并有助于提高机动性的指环。<BR>制定这样的计划应该相当简单。
-research.CLOUDRING.stage.2=我已经画出了我成为云霄指环的饰品的设计图。它可以使穿着者大大减少摔落伤害。另外，它可以在佩戴者跳跃时下方产生一股空气，让他们在半空进行第二段跳跃。
+research.CLOUDRING.stage.1=我开始涉足饰品制作。考虑再三，我决定制作一个可以减免摔落伤害并且增加机动性的指环。<BR>这简直就是小菜一碟。
+research.CLOUDRING.stage.2=我计划制作一枚我称之为云霄指环的小戒指。它可以使持有者身轻如燕，大幅减免其所受的摔落伤害。同时，也赋予了持有者二段跳的能力。
 #
-research.CURIOSITYBAND.title=好奇头带
-research.CURIOSITYBAND.stage.1=我收获资源和杀死怪物时获得的经验球也包含着魔法能量和大量知识。我相信，比起用它们来附魔，还有更好的用法。
-research.CURIOSITYBAND.stage.2=我的理论是正确的——我找到了一种从经验球中提取知识片段的方法。这些知识的片段虽短，但可能会提供有关某些研究的有用信息。<BR>我已经设计了一种头带，当戴上头带时，它将吸收我收集的经验球的一半经验并将其转化为研究知识。虽然回报率不高，但每一点都有所帮助。
+research.CURIOSITYBAND.title=求知发带
+research.CURIOSITYBAND.stage.1=我采集资源和狩猎时获得的经验球含有魔力和知识。我确信它们的用途不仅仅是简简单单的附魔。
+research.CURIOSITYBAND.stage.2=我的理论得到了实证 - 我找到了从经验球中提取知识碎片的方法。这些知识残片虽十分微小，但对于某些特定研究有莫大的帮助。<BR>我设计出了这款发带，它会使佩戴者获取的半数经验转化成研究知识。虽然转换的进度非常缓慢，但聊胜于无。
 #
 research.VERDANTCHARMS.title=翠心指环
-research.VERDANTCHARMS.stage.1=我偶然发现，自己饱受毒药和其他负面状态的影响。我应该想办法保护自己。
-research.VERDANTCHARMS.stage.2=我设计了一种神秘咒文，可以释放脉冲清洗我身体里的毒物或者其他类似的影响。不幸的是，它无法治疗伤口。<BR>这个戒指内部存储了vis，需要用充能基座或者类似的物品来充能——它不能直接从灵气中吸收vis。<LINE>我还可以用两种特殊的附魔来提升它的功能。<PAGE>§n再生§r<BR>这种注魔可以让翠心指环恢复佩戴者的生命力。<LINE>§n续航§r<BR>这种注魔可以让翠心指环缓慢地供给支援佩戴者，包括提供可呼吸的空气。
+research.VERDANTCHARMS.stage.1=我偶然发现自己深受扭曲的折磨，我要设法保护自己的意识不受侵蚀。
+research.VERDANTCHARMS.stage.2=我设计出这款神秘饰品用以驱逐体内的毒素或者是受到的其他类似的效果。不幸的是，它并不能治愈实际创伤。<BR>指环内部可以容纳一定量的灵气并且它需要通过奥术充能基座或是有其他类似功能的设备进行充能- 它不会自动从环境中获取灵气。<LINE>有两项注魔附魔可供选用。<PAGE>§n再生§r<BR>这项附魔使翡翠指环能治愈使用者的伤势。<LINE>§n续航§r<BR>这项附魔使翡翠指环能够缓慢提供饱食度及水下呼吸所需的氧气。
 #
 ##########################################
 # ARTIFICE
@@ -1519,28 +1519,28 @@ research.FOCUSRIFT.stage.1=我对空间魔法进行了一些试验性的实验�
 research.FOCUSRIFT.stage.2=我设法创造了一种操作维度魔法的核心。大多数无生命的物体都会像使用了某种便携虫洞一样暂时转移到另一个空间当中。<BR>这个裂隙的直径只能是恒定的3码，但我想我能够控制它的深度，通常应该在8码左右。
 #
 research.FOCUSPLAN.title=核心媒介：计划
-research.FOCUSPLAN.stage.1=I have learned to manipulate blocks in the world with foci effects such as Exchange, but their practical use is a bit limited.<BR>I should discover a way to fine tune exactly which blocks I can apply such foci effects to.
-research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me to plan which blocks I manipulate. This medium works much like Touch, except I will be shown a ghostly outline if which blocks will be manipulated. By pressing the focus modify key ('G' by default) I can alter the size of the area. By pressing CTRL + G I can alter the axis in which the size will be changed.<BR>Caution should be taken using as the vis cost of the effect will be subtracted for each block effected.<BR>The Potency focus modifier will increase the maximum possible size this medium can alter.
+research.FOCUSPLAN.stage.1=我已经学习了如何操纵世界中的方块，通过类似于交换的核心效果就能够实现，但是它的实际用途仍然非常有限。<BR>我应该寻找一种方式来调整到底哪些方块会受到这种核心效果的影响。
+research.FOCUSPLAN.stage.2=我设计了一种medium符印来让我规划哪些方块将会被我操纵。这个符印和Touch的工作方式相仿，只是会为将要受到影响的方块以高亮显示。通过the focus modify key(默认为G)能够改变区域的大小，通过CTRL + G能够更改改变大小的方向。<BR>要注意每个受影响的方块都会增加效果的Vis消耗。<BR>“潜能”修饰会提高这个符印所能够控制的最大范围。
 #
-research.FOCUSCHARGE.title=核心改良：充能
+research.FOCUSCHARGE.title=核心修饰：充能
 research.FOCUSCHARGE.stage.1=我学习了各种通过调整核心符印来控制法术效能的方式。<BR>我想我能够通过调整施术过程中引导的Vis数量来控制符印的消耗和效能。
 research.FOCUSCHARGE.stage.2=我的想法再次得到了证实！充能符印能够让我延迟法术施放 — 而在这个过程当中，越来越多的Vis将被吸入核心当中，在我最终释放能量的时候，它会变得更加强大。<BR>然而，这个符印使得效果在最初施放时的威力比之前弱了很多 — 大约是平时的一半，但是只要我延迟法术的施放，我就能够进行充能并将威力提升到平时的两倍。<BR>Vis消耗也会在过程中同步改变。
 #
-research.FOCUSBURST.title=核心改良：爆裂
-research.FOCUSBURST.stage.1=I should take what I have learned and attemp to create a modifier that will allow me to target multiple foes at once.
-research.FOCUSBURST.stage.2=I have managed to create a modifier that will effect all targets within roughly 4 blocks of the point of impact. Unfortunately the effect will be lessened for targets further away from the centre, but never less than half the normal power.
+research.FOCUSBURST.title=核心修饰：爆裂
+research.FOCUSBURST.stage.1=我应该利用我所学的东西来尝试创造一种核心修饰符印来同时对付多个敌人。
+research.FOCUSBURST.stage.2=我成功创造了一个核心修饰来让核心对目标点周围大约4个方块范围的所有物体受到影响。然而效果会随着物体远离生效中心而降低，不过永远不会减弱到一般效果的一半以下。
 #
 research.RECHARGEPEDESTAL.title=充能基座
-research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function， but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
-research.RECHARGEPEDESTAL.stage.2=This specially crafted pedestal can recharge vis storing items. Any rechargeable item placed in it will automatically draw vis from the aura to fill itself. Simply click on the pedestal with the item you wish to recharge. Use the pedestal again to retrieve the item.
+research.RECHARGEPEDESTAL.stage.1=我想我很快就能够制作需要Vis来运作的物体了，但是它们并不能自己轻易地从附近的灵气场中抽取Vis。我需要找到一种方式来为它们补充能量。
+research.RECHARGEPEDESTAL.stage.2=这个特制的基座会给能够存储Vis的物品充能。任何可以充能的物品在放入基座后都会自动地从周围的灵气场中抽取Vis来补充能量。只需要用你想要充能的物品点击基座就可以开始充能，再次使用基座就能取回物品。
 #
-research.VISAMULET.title=Vis Amulet
-research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items.
-research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura， allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar， baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
+research.VISAMULET.title=魔力护身符
+research.VISAMULET.stage.1=如果我想要为能够存储Vis的物品进行充能，我就不得不去往最近的充能基座或是一直随身携带一个充能基座。不论怎么说，这都是一件麻烦事 — 我必须找到一种便携的充能方式。
+research.VISAMULET.stage.2=我制作了一种护身符，它能够引导附近灵气场中的Vis，从而让我能够在携带它的时候为我的物品进行充能。<BR>这个护身符只会为快捷栏、饰品栏和护甲栏中的道具进行充能（并且以这个顺序）。它只会为能够在充能基座中充能的物品进行充能。
 #
-research.WORKBENCHCHARGER.title=Workbench Charger
-research.WORKBENCHCHARGER.stage.1=I am beginning to run into an annoying limitation with the arcane workbench. It is only able to draw vis from its immediate surroundings. While this is fine for most of the things I have been crafting so far， I soon foresee a time where I will have to craft something that requires more vis than there is nearby.<BR>I need to find a way to extend the reach of the arcane workbench. The further it can reach to draw vis， the more vis will be available for crafting.
-research.WORKBENCHCHARGER.stage.2=I have designed a special rig that can be placed on top of the arcane workbench and the focal manipulator. This framework allows those workbenches to draw vis not only from the chunk it is located in, but the surrounding 8 chunks as well. In theory this increases the vis available for crafting ninefold.<BR>When vis is drawn from the aura it will be roughly split between all 9 those chunks which should prevent depletion of a single chunk.
+research.WORKBENCHCHARGER.title=奥术工作台充能器
+research.WORKBENCHCHARGER.stage.1=我开始陷入奥术工作台的局限性带来的苦恼中。它只能从周围环境中吸取vis。虽然对迄今为止我制作的大部分东西来说都没有问题，但是可以预见到，很快我将会制造一些需求vis更多的东西，甚至超出了周围灵气中的vis。<BR>我需要找到一种方法来扩展奥术工作台吸取灵气的范围。它吸取vis的范围越大，可以用于制作的vis就越多。
+research.WORKBENCHCHARGER.stage.2=我设计了一个可以放在奥术工作台和核心镶饰台顶上的特殊设备。这个框架让这些工作台不仅可以在所在区块抽取vis，还可以抽取周围的8个区块。理论上，它使可用的vis达到了原来的9倍。<BR>当从灵气中抽取vis时，它会将所需灵气大致平均分为9份从9个区块中抽取，以防止单个区块过多的消耗。
 #
 research.FOCUSCURSE.title=核心效果：诅咒
 research.FOCUSCURSE.stage.1=这根岩精的法杖看上去非常奇怪，对我而言也没有什么用处，不过看起来它的工作原理与施术核心颇为相似。<BR>我应该能够对它进行一些逆向工程操作。
@@ -1550,7 +1550,7 @@ research.FOCUSCURSE.stage.2=我曾经猜测这根法杖与生俱来有着神秘�
 # GOLEMANCY
 ##########################################
 #
-research.BASEGOLEMANCY.title=Basic Golemancy
+research.BASEGOLEMANCY.title=基础傀儡学
 research.BASEGOLEMANCY.stage.1=I now understand the basic concepts that shape Golemancy, but I am sure I can improve on the primitive constructs that anyone can craft. At the very least I can use arcane science to design a simple mind that will be both dependable and predictable instead of relying on the chaotic nature of magic to direct my constructs.
 #
 research.JARBRAIN.title=缸中之脑
