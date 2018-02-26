@@ -870,7 +870,7 @@ button.down=스크롤 다운
 #
 # GENERAL
 card.study.name=%1$s 배우기
-card.study.text=연구의 많은 부분은 단순히 열심히 공부하고 노력하는거죠. %1$s 이론 5~250포인트를 얻습니다.
+card.study.text=연구의 많은 부분은 단순히 열심히 공부하고 노력하는거죠. %1$s 이론 5~25포인트를 얻습니다.
 #
 card.reject.name=%1$s 중단
 card.reject.text=%1$s는 지금 중요하지 않다는 것을 깨달았습니다. 더 이상 %1$s 이론을 진행하지 않으며 관련 카드가 나오지 않습니다. 진행 상황은 사라지지 않습니다.
