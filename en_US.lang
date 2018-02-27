@@ -22,6 +22,20 @@ item.primordial_pearl.mote.name=Primordial Mote
 item.primordial_pearl.nodule.name=Primordial Nodule
 item.primordial_pearl.pearl.name=Primordial Pearl
 item.pech_wand.name=Pech Wand
+item.celestial_notes.name=Celestial Notes
+item.celestial_notes.sun.text=Solar
+item.celestial_notes.stars_1.text=Stellar, Quadrant 1
+item.celestial_notes.stars_2.text=Stellar, Quadrant 2
+item.celestial_notes.stars_3.text=Stellar, Quadrant 3
+item.celestial_notes.stars_4.text=Stellar, Quadrant 4
+item.celestial_notes.moon_1.text=Lunar, Full
+item.celestial_notes.moon_2.text=Lunar, Waxing Gibbous
+item.celestial_notes.moon_3.text=Lunar, First Quarter
+item.celestial_notes.moon_4.text=Lunar, Waxing Crescent
+item.celestial_notes.moon_5.text=Lunar, New
+item.celestial_notes.moon_6.text=Lunar, Waning Crescent
+item.celestial_notes.moon_7.text=Lunar, Third Quarter
+item.celestial_notes.moon_8.text=Lunar, Waning Gibbous
 #
 # Resources
 #
@@ -161,7 +175,7 @@ item.baubles.ring_apprentice.name=Apprentice's Ring
 item.baubles.amulet_fancy.name=Fancy Amulet
 item.baubles.ring_fancy.name=Fancy Ring
 item.baubles.girdle_fancy.name=Fancy Belt
-item.amulet_vis.text=Recharges items that hold vis in hotbar
+item.amulet_vis.text=Recharges armor, baubles & hotbar items
 item.amulet_vis.found.name=Vis Stone
 item.amulet_vis.crafted.name=Amulet of Vis
 item.girdle_hover.name=Thaumostatic Girdle
@@ -188,6 +202,8 @@ item.creative_flux_sponge.name=Flux Sponge
 item.turret.basic.name=Automated Crossbow
 item.turret.advanced.name=Advanced Automated Crossbow
 item.turret.bore.name=Arcane Bore
+item.enchanted_placeholder.name=Any enchanted item
+item.enchanted_placeholder.text=Must have at least these enchantments:
 #
 # Golem
 item.module.vision.name=Vision Module
@@ -321,6 +337,7 @@ tile.brain_box.name=Mnemonic Matrix
 tile.essentia_input.name=Filling Essentia Transfuser
 tile.essentia_output.name=Emptying Essentia Transfuser
 tile.activator_rail.name=Arcane Activator Rail
+tile.potion_sprayer.name=Potion Sprayer
 #
 # Doodads
 tile.matrix_speed.name=Infusion Speed Stone
@@ -613,7 +630,7 @@ golem.trait.text.flyer=The golem is capable of flight, giving it greater mobilit
 golem.trait.climber=Climber
 golem.trait.text.climber=Sheer cliffs do not deter this golem. It can easily scale them to get to its destination.
 golem.trait.scout=Scout
-golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (32 blocks range from home location instead of 16).
+golem.trait.text.scout=The golem has a greater visual range and can operate in a much greater area (48 blocks range from home location instead of 32).
 golem.trait.fireproof=Fireproof
 golem.trait.text.fireproof=The golem is immune to fire damage.
 golem.trait.brutal=Brutal
@@ -731,7 +748,7 @@ focuspart.thaumcraft.PLAN.name=Plan
 focuspart.thaumcraft.PLAN.text=Allows you to plan exactly which blocks will be affected.
 #
 focuspart.thaumcraft.CHAIN.name=Chaining
-focuspart.thaumcraft.CHAIN.text=Reduces the effectiveness of linked effects, but the bolt can chain to up to two additional targets.
+focuspart.thaumcraft.CHAIN.text=The effect can chain to additional targets, but loses effectiveness with each jump.
 focuspart.thaumcraft.FRUGAL.name=Frugal
 focuspart.thaumcraft.FRUGAL.text=The linked effects require less vis to cast without sacrificing effectiveness.
 focuspart.thaumcraft.LINGERING.name=Lingering
@@ -748,6 +765,8 @@ focuspart.thaumcraft.CHARGE.name=Charge
 focuspart.thaumcraft.CHARGE.text=Effects on this focus will be less powerful and cheaper to cast (half of normal), but if you hold the casting button the spell will slowly charge becoming more effective and expensive to cast (up to double normal).
 focuspart.thaumcraft.BURST.name=Burst
 focuspart.thaumcraft.BURST.text=The linked effect will be applied to anything in an area. Targets further from the centre will receive reduced effects.
+focuspart.thaumcraft.QUICKEN.name=Quicken
+focuspart.thaumcraft.QUICKEN.text=Doubles the casting speed of a spell at the cost of power.
 #
 # GUI
 ###################
@@ -851,7 +870,7 @@ button.down=Scroll down
 #
 # GENERAL
 card.study.name=Study %1$s
-card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 10 progress.
+card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 15 to 25 progress.
 #
 card.reject.name=Reject %1$s findings
 card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
@@ -863,16 +882,16 @@ card.analyze.name=Analyze %1$s
 card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
 #
 card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 to 20 progress divided evenly between all current categories, but you regain 1 inspiration and gain a bonus draw.
+card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 progress divided evenly between all current categories, but you regain 1 inspiration and gain a bonus draw.
 #
 card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 20 progress divided evenly between all current active categories and a bonus draw.
+card.ponder.text=You carefully consider all you have learned so far. Gain 25 progress divided evenly between all current active categories and a bonus draw.
 #
 card.notation.name=Notation
 card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
 #
 card.balance.name=Universal Theory
-card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories.
+card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories and an additional category will gain the full bonus upon completion.
 #
 card.curio.name=Study Curio
 card.curio.text=While examining a curio often reveals some interesting information it is much better to study it as part of controlled research.
@@ -881,37 +900,40 @@ card.inspired.name=Inspired
 card.inspired.text=Inspired by the progress you have made so far, your mind explores paths you have not considered before. You gain %1$s %2$s.
 #
 card.enchantment.name=Study Enchantment
-card.enchantment.text=You study normal enchantment to see how it functions at a fundamental level. You are sure that is shares a lot in common with the enchantment methods used in Infusion and Artifice. You lose 5 experience levels, but will gain 10 to 15 progress in both Infusion and Auromancy. 
+card.enchantment.text=You study normal enchantment to see how it functions at a fundamental level. You are sure that is shares a lot in common with the enchantment methods used in Infusion and Artifice. You lose 5 experience levels, but will gain 15 to 20 progress in both Infusion and Auromancy. 
 #
 card.beacon.name=Aural Influence
-card.beacon.text=You believe that the beacon interacts in some way with the mystical aura. You carefully study this and while you cannot find anything concrete this time you have been inspired. You regain 2 inspiration and gain 1 bonus draw. 
+card.beacon.text=You believe that the beacon interacts in some way with the mystical aura. You carefully study this and while you cannot find anything concrete this time you have been inspired. You regain 2 inspiration, 1 bonus draw and n additional category will gain the full bonus upon completion.. 
 #
 card.dragonegg.name=Draconic Studies
 card.dragonegg.text=The aura around the egg swirls with strange and chaotic energies. Occasionally you glimpse strange order in the chaos. 
 #
+card.celestial.name=Celestial Studies
+card.celestial.text=You take some of the celestial notes you have made and compare them for possible correlations with your primary research category. You gain 25 to 50 inspiration toward %1$s. You may gain other things as well...
+#
 # ALCHEMY
 card.concentrate.name=Concentrate
-card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Essentia is already a pure substance, but there is no harm in trying. Often failing at doing something teaches you as much as succeeding. Attempt to concentrate some %1$s essentia. Gain 10 Alchemy and 1 bonus draw. There is also a chance you will gain 1 inspiration.
+card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Attempt to concentrate some %1$s essentia. Gain 15 Alchemy and 1 bonus draw. There is also a chance you will gain 1 inspiration.
 #
 card.reactions.name=Reactions
-card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 20 Alchemy. There is also a chance you will gain 1 inspiration.
+card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 25 Alchemy. There is also a chance you will gain 1 inspiration.
 #
 card.synthesis.name=Synthesis
-card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 30 Alchemy. There is also a chance you will gain 1 inspiration.
+card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 40 Alchemy. There is also a chance you will gain 1 inspiration.
 #
 # INFUSION
 card.measure.name=Measure
-card.measure.text=You take some time to make detailed measurements of various types of essentia and the potential vis they contain. Gain 10 Infusion and 1 bonus draw.
+card.measure.text=You take some time to make detailed measurements of various types of essentia and the potential vis they contain. Gain 15 Infusion progress and 1 bonus draw.
 #
 card.channel.name=Channel %1$s Essentia
-card.channel.text=You set up a simple experiment to examine what happens when you channel %1$s during infusion. Gain 15 Infusion.
+card.channel.text=You set up a simple experiment to examine what happens when you channel %1$s during infusion. Gain 25 Infusion.
 #
 card.infuse.name=Experimental Infusion
 card.infuse.text=By making assumptions on the results of infusing certain objects with essentia and then testing those results valuable insight may be gained. You will learn much by combining %1$s essentia with %2$s and then studying the result. Gain %3$s Infusion.
 #
 # ARTIFICE
 card.calibrate.name=Calibrate
-card.calibrate.text=You take some time to properly calibrate your instruments and tools. Gain 10 Artifice and a bonus draw.
+card.calibrate.text=You take some time to properly calibrate your instruments and tools. Gain 15 Artifice and a bonus draw.
 #
 card.mindmatter.name=Mind over Matter
 card.mindmatter.text=You carefully examine and take apart some basic components in the hopes of finding new ways to assemble them into more complex creations. Gain %1$s Artifice. 
@@ -924,20 +946,20 @@ card.spellbinding.name=Spellbinding
 card.spellbinding.text=You bind various test enchantments to small pieces of leftover crystal. They have no practical purpose, but grant you invaluable knowledge. Lose up to 5 experience levels, but gain 5 Auromancy per level lost.
 #
 card.awareness.name=Awareness
-card.awareness.text=You open yourself to the flows of vis around you. You gain a deeper understanding of how it works and the underlying nature of things, but this leaves you metaphysically vulnerable. Gain 15 Auromancy. There is a chance you gain Eldritch knowledge and Warp. 
+card.awareness.text=You open yourself to the flows of vis around you. You gain a deeper understanding of how it works and the underlying nature of things, but this leaves you metaphysically vulnerable. Gain 20 Auromancy. There is a chance you gain Eldritch knowledge and Warp. 
 #
 card.focus.name=Spiritual Focus
-card.focus.text=You focus your mind on the magical and spiritual energy around you, hoping to grow more attuned to its ebb and flow. Gain 10 Auromancy and a bonus draw.
+card.focus.text=You focus your mind on the magical and spiritual energy around you, hoping to grow more attuned to its ebb and flow. Gain 15 Auromancy and a bonus draw.
 #
 # GOLEMANCY
 card.sculpting.name=Sculpting
-card.sculpting.text=By creating simple and short lived animated figurines you can hone your knowledge. Gain 15 Golemancy.
+card.sculpting.text=By creating simple and short lived animated figurines you can hone your knowledge. Gain 20 Golemancy and a bonus draw.
 #
 card.scripting.name=Scripting
-card.scripting.text=A large part of Golemancy is creating intricate arcane texts to control your creations. By creating some test scripts you can further your understanding. Gain 20 Golemancy. This consumes additional paper and ink from the research table. 
+card.scripting.text=A large part of Golemancy is creating intricate arcane texts to control your creations. By creating some test scripts you can further your understanding. Gain 25 Golemancy. This consumes additional paper and ink from the research table. 
 #
 card.synergy.name=Synergy
-card.synergy.text=At its root Golemancy is a blend of alchemy, artifice and infusion. Only by fully understanding how these three disciplines interact with each other will you be able to master Golemancy. Lose 15 points divided evenly between Alchemy, Artifice and Infusion to gain 30 Golemancy.
+card.synergy.text=At its root Golemancy is a blend of alchemy, artifice and infusion. Only by fully understanding how these three disciplines interact with each other will you be able to master Golemancy. Lose 15 points divided evenly between Alchemy, Artifice and Infusion to gain 30 Golemancy. An additional category will gain the full bonus upon completion.
 #
 # ELDRITCH
 card.darkwhisper.name=Dark Whispers
@@ -950,13 +972,13 @@ card.portal.name=Voices from Beyond
 card.portal.text=Bathed in the light of this strange portal you find strange thoughts invading your mind. Most are incomprehensible, but some fills your mind with strange inspirations.
 #
 card.revelation.name=Revelation
-card.revelation.text=Studying the Eldritch is a dangerous pursuit, but the knowledge you can uncover is often worth it. You gain 25 Eldritch progress and 5 progress a random category. You will also gain some temporary and normal Warp.
+card.revelation.text=Studying the Eldritch is a dangerous pursuit, but the knowledge you can uncover is often worth it. You gain 30 Eldritch progress and 5 to 10 progress in a random category. You will also gain some temporary and normal Warp and an additional category will gain the full bonus upon completion. 
 #
 card.realization.name=Sudden Realization
-card.realization.text=While pondering the nature of the Eldritch you come to a sudden and shocking realization on the true nature of the universe. You gain 10 Eldritch progress and 5 progress in two random categories. You will also gain some temporary Warp. There is a chance you may gain some normal Warp as well.
+card.realization.text=While pondering the nature of the Eldritch you come to a sudden and shocking realization on the true nature of the universe. You gain 15 Eldritch progress and 5 to 10 progress in two random categories. You will also gain some temporary Warp. There is a chance you may gain some normal Warp as well.
 #
 card.truth.name=Find Truth
-card.truth.text=You desperately try and find the truth behind the Eldritch and what it could mean for the world. You gain 5 to 15 Eldritch progress and a bonus draw. You will also gain some temporary Warp.
+card.truth.text=You desperately try and find the truth behind the Eldritch and what it could mean for the world. You gain 10 to 25 Eldritch progress and a bonus draw. You will also gain some temporary Warp.
 #
 # Other
 ###################
@@ -1074,6 +1096,10 @@ tc.stage.complete=Complete
 tc.stage.hold=Completing...
 tc.warp.warn= Warping level: %n
 tc.knowledge.name=Knowledge Totals
+tc.logistics.request=Request
+tc.logistics.search=Search
+tc.celestial.fail.1=You have already studied that today.
+tc.celestial.fail.2=You are unable to take notes of your studies.
 #
 # Aspects
 tc.aspect.name=Aspects of Essentia
@@ -1129,7 +1155,6 @@ tc.research_category.ELDRITCH=Eldritch
 # Knowledge Types
 tc.type.theory=Theory
 tc.type.observation=Observation
-tc.type.epiphany=Epiphany
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -1184,11 +1209,11 @@ research.FIRSTSTEPS.stage.2=Progress! I now have an Arcane Workbench at my dispo
 research.FIRSTSTEPS.stage.3=Such strange wonders are being revealed to me. Peering through the lens of the Thaumometer shows me a world coursing with magic, Vis as the books calls it.<BR>Normally this energy is a pure ocean of magic that ebbs and flows, but it also permeates all things, both animate and inanimate. The books calls Vis in this state Essentia. Where Vis is formless and pure, Essentia is more rigid in its nature and falls into a multitude of clearly defined types, each mixing together with others to form greater and more complex types of essentia.<BR>I am not quite sure if the matter it is bound to gives Essentia its nature, or that the very nature of matter depends on the Essentia it contains. This bears further study.<BR>I am keeping a log of all the types of essentia I discover. A bookmark on the left will show my current knowledge.<BR>For now I need to focus my energies elsewhere. Studying essentia might be a good place to start.
 #
 research.KNOWLEDGETYPES.title=Types of Knowledge
-research.KNOWLEDGETYPES.stage.1=There are three main types of knowledge: Observations, Theories and Epiphanies. Observations and Theories are further subdivided into the main research categories like Alchemy and Artifice.<LINE>§lObservations§r are notes and discoveries you have made in the real world by scanning objects. Practical observation often give insights into how things work and by keeping field notes of those observations you will slowly build a solid base of knowledge to work from.<LINE>§lTheories§r, in a nutshell, are ways of understanding things through careful observation, rational thought and practical experimentation. Much of thaumaturgical research requires crafting theories to better understand research categories.<LINE>§lEpiphanies§r are rare flashes of insight and understanding that are required to complete certain kinds of key research.
+research.KNOWLEDGETYPES.stage.1=There are two main types of knowledge: Observations and Theories. They are further subdivided into the main research categories like Alchemy and Artifice.<LINE>§lObservations§r are notes and discoveries you have made in the real world by scanning objects. Practical observation often give insights into how things work and by keeping field notes of those observations you will slowly build a solid base of knowledge to work from.<LINE>§lTheories§r, in a nutshell, are ways of understanding things through careful observation, rational thought and practical experimentation. Much of thaumaturgical research requires crafting theories to better understand research categories.
 #
 research.THEORYRESEARCH.title=Theorycrafting
 research.THEORYRESEARCH.stage.1=For me to make any progress as a thaumaturge I cannot rely on simply studying the world around me or stumbling upon ancient knowledge. I will need to make my own discoveries and expand my knowledge through experimentation. Crafting my own theories is the only way.<BR>I will need to create a comfortable workspace to do my research with ample supplies like writing materials and paper. I should craft a some scribing tools and place it upon a table. 
-research.THEORYRESEARCH.stage.2=Now that I have a workspace I should start performing some research. I can now formulate theories on how to manipulate magic to my own ends.<BR>Firstly I should make sure the table has plenty of paper and my scribing tools has ample ink. I can now choose to start researching the theory.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>At the top of the page I will see how much inspiration (represented by light bulbs) is available to me for this round of research. When I do a stack of papers will appear on the left. If I select them I will be given the choice of two research paths I can follow. Each route will state what knowledge it will grant me, divided between one or more research categories.<BR>Some of the choices will require items. These items will usually be consumed.<BR>Normally I will only be able to pursue research categories that I have unlocked, though I am sure I might occasionally be able to discover completely new avenues of research.<BR>I can keep drawing to further my knowledge. I should note however that each choice I make will cost some of my inspiration. Once I run out the research will be completed. The amount of initial inspiration available to me will increase as my knowledge of magic increases.<BR>My progress in research categories is shown as a percentage - 100% completion represents 1 full theory. Getting less than 100% in a category still counts however and will be added to your current knowledge once you complete your research. It is possible to get more than 100% in a category. The highest category in your current research will also gain a substantial bonus once you complete it.<BR><PAGE>§nResearch Aids§r<BR>Normally research is a bit scattershot. I can direct my research with the use of research aids. If I use certain nearby blocks, items and curios during the research process it will allow me to focus my research in a certain direction.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>For example having access to a bookshelf will give me reference materials that I can use during the research process. These come in the form of limited special draws that have a higher chance of occurring than normal draws. These will have a gilded border to differentiate them from normal draws. For example the bookshelf grants the Balance research option and two chances at the Notation research option that can only be gained when you use the bookshelf.<BR>When you start your initial research you can choose which research aids to use, but it should be noted that each aid you use reduces your initial inspiration by one.<BR>There are potentially a lot of things that could be used as research aids. I should experiment.
+research.THEORYRESEARCH.stage.2=Now that I have a workspace I should start performing some research. I can now formulate theories on how to manipulate magic to my own ends.<BR>Firstly I should make sure the table has plenty of paper and my scribing tools has ample ink. I can now choose to start researching the theory.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>At the top of the page I will see how much inspiration (represented by light bulbs) is available to me for this round of research. When I do a stack of papers will appear on the left. If I select them I will be given the choice of two research paths I can follow. Each route will state what knowledge it will grant me, divided between one or more research categories.<BR>Some of the choices will require items. Items marked with a golden §6!§r will be consumed if the card is chosen.<BR>Normally I will only be able to pursue research categories that I have unlocked, though I am sure I might occasionally be able to discover completely new avenues of research.<BR>I can keep drawing to further my knowledge. I should note however that each choice I make will cost some of my inspiration. Once I run out the research will be completed. The amount of initial inspiration available to me will increase as my knowledge of magic increases.<BR>My progress in research categories is shown as a percentage - 100% completion represents 1 full theory. Getting less than 100% in a category still counts however and will be added to your current knowledge once you complete your research. It is possible to get more than 100% in a category. Only the highest category will get the full bonus however, all others will lose 33% of their total.<BR><PAGE>§nResearch Aids§r<BR>Normally research is a bit scattershot. I can direct my research with the use of research aids. If I use certain nearby blocks, items and curios during the research process it will allow me to focus my research in a certain direction.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>For example having access to a bookshelf will give me reference materials that I can use during the research process. These come in the form of limited special draws that have a higher chance of occurring than normal draws. These will have a gilded border to differentiate them from normal draws. For example the bookshelf grants the Balance research option and two chances at the Notation research option that can only be gained when you use the bookshelf.<BR>When you start your initial research you can choose which research aids to use, but it should be noted that each aid you use reduces your initial inspiration by one.<BR>There are potentially a lot of things that could be used as research aids. I should experiment.
 #
 research.UNLOCKAUROMANCY.title=Discovering Auromancy
 research.UNLOCKAUROMANCY.stage.1=Crafting objects of power with Vis has opened a whole new world for me, yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
@@ -1203,9 +1228,13 @@ got.uphigh=The world is spread out before you. Your perspective has been broaden
 got.finddesert=You have visited the scorching desert.
 got.findocean=You have peered into the endless blue abyss.
 #
-research.UNLOCKARTIFICE.title=Discovering Artifice & Infusion
+research.UNLOCKARTIFICE.title=Discovering Artifice
 research.UNLOCKARTIFICE.stage.1=I have learned much and one of those things is how much more I still have to learn. The worlds revealed to me are arcane and mysterious with many invisible wonders... and dangers.<BR>I need a tool that will allow me to see the unseen and ease my journey of discovery. The old texts I have read make mention of a set of goggles commonly used by thaumaturges for just this purpose.<BR>Alas the text does not mention exactly how they work, so I will need to design my own from first principles.
-research.UNLOCKARTIFICE.stage.2=I have penned my own designs based on the little information I could find and my own experimental findings. Time to put theory into practice.<BR>Not only will the goggles reveal hidden things, but they will also reduce the vis cost of certain thaumaturgical tasks.<BR>Lastly these goggles will allow me to see the vis or essentia content of objects in the world which will prove a great boon I am sure.<PAGE>The most important thing I have learned however is the possibility of crafting delicate mechanical devices using magic and infusing them with arcane power. These two paths of study are separate, yet linked in subtle and mysterious ways. I should study them closely.
+research.UNLOCKARTIFICE.stage.2=I have penned my own designs based on the little information I could find and my own experimental findings. Time to put theory into practice.<BR>Not only will the goggles reveal hidden things, but they will also reduce the vis cost of certain thaumaturgical tasks.<BR>Lastly these goggles will allow me to see the vis or essentia content of objects in the world which will prove a great boon I am sure.<PAGE>The most important thing I have learned however is the possibility of crafting delicate mechanical devices using magic and imbuing them with arcane power. 
+#
+research.UNLOCKINFUSION.title=Discovering Infusion
+research.UNLOCKINFUSION.stage.1=Thusfar I have been applying vis to objects as a matter of course. It is simple enchanting much like is possible using an everyday enchanting table. I believe more is possible however - by §oinfusing§r objects with essentia I should be able to artificially force them to take on properties and aspects of other objects or even abstract concepts.<BR>Anyone can enchant an object with magic that lifts it into the air, but infusion should be able to imbue the object with lightness itself, making it part of its essential nature.
+research.UNLOCKINFUSION.stage.2=My experiments have been successful. I have been able to infuse simple objects with essentia, but the process is complex, difficult and dangerous. I need to find a way to simplify it before I can truly delve into all the possibilities it holds.<PAGE>The experiments did have some practical results as well.<BR>I have also discovered a fabric that is soft, supple and easy to enchant. I have designed patterns for a set of clothing made from this fabric.<BR>It will not only be comfortable and stylish, but while worn it will reduce the vis cost of certain types of thaumaturgical tasks. The clothing should also be easily dyeable much like leather armor.<BR>All in all I am quite pleased with what I have done here. 
 #
 research.UNLOCKALCHEMY.title=Discovering Alchemy
 research.UNLOCKALCHEMY.stage.1=Brewing simple potions has its uses, but true alchemical interactions require more than mixing a few monster parts together.<BR>I think Essentia holds the key to a much more sophisticated way of manipulating matter.<BR>I should try and learn more about alchemy and how it fits into the magical world.<BR>Armed with that knowledge and a little bit of inspiration I am sure Thaumaturgic Alchemy will be within my grasp.
@@ -1235,8 +1264,8 @@ research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/researc
 #
 research.PLANTS.title=Plants
 research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a prize beyond measure.
+research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a rare prize.
+research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 research.PLANTS.cinderpearl=§oCinderpearls§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
 research.PLANTS.shimmerleaf=§oShimmerleaf§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
 research.PLANTS.vishroom=§oVishroom§r<IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely.
@@ -1245,9 +1274,12 @@ research.CRYSTALFARMER.title=Crystal Farming
 research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow over time, but once I harvest them they seem to lose this ability. I am hoping to discover what exactly is lost and how to reinvigorate the crystals.
 research.CRYSTALFARMER.stage.2=I have found a way to reinvigorate vis crystals in such a way that I can replant them.<BR>I am hoping this means I can grow my own steady supply of primal vis crystals.
 #
-research.UNLOCKELDRITCH.title=Delving into the Eldritch
-research.UNLOCKELDRITCH.stage.1=
-research.UNLOCKELDRITCH.stage.2=
+research.CELESTIALSCANNING.title=Celestial Observation
+research.CELESTIALSCANNING.stage.1=I have noticed a link between the phases of the moon and the speed at which the aura replenishes itself. I should investigate this phenomenon further and even expand my investigation to see if other heavenly bodies influences magic.<BR>A few minor tweaks to my thaumometer should enable it to take measurements from objects in the sky. I should remember to carry some paper and scribing tools with me so I can take notes.<BR>Measuring the same body or quadrant of the sky more than once a day will not give me new insights - I need to study them over time to measure changes in their aural influence.<BR>The notes I gather should come in handy for theorycrafting.
+#
+research.UNLOCKELDRITCH.title=Delving into the Eldritch (UNFINISHED)
+research.UNLOCKELDRITCH.stage.1=Still work in progress. Nothing to see here.
+research.UNLOCKELDRITCH.stage.2=Still work in progress. Nothing to see here.
 #
 ##########################################
 # ALCHEMY
@@ -1301,7 +1333,7 @@ research.WARDEDJARS.stage.1=Essentia can be stored in §lWarded Jars§r.<BR>Ward
 #
 research.ESSENTIASMELTER.title=Essentia Smelting
 research.ESSENTIASMELTER.stage.1=I see a time fast approaching where I will need to have ready access to multiple different kinds of essentia. For that I will need a source and the most obvious is the essentia found in, well, everything.<BR>Using alchemical principles should be able to find a way to break down objects and convert them into essentia. Before I can start however I will need to study essentia in the purest form available to me - vis crystals.<BR>By subjecting these crystals to, um, "destructive testing" I should be able to determine how they react in various extremes and the best way to preserve their purity.<BR>I should start with primal Essentia.
-research.ESSENTIASMELTER.stage.2=My experiments are promising if a bit unpredictable. Fortunately the fires where easily quenched and my hair should grow back in a few days.<BR>It seems melting objects down in a special alchemical process is my best option. Unfortunately my tests so far has been on primal crystals. I should also test my finding on crystals containing secondary essentia - that is essentia made up of a combination of two primal aspects.<BR>A third tier known as tertiary essentia also exists. That is essentia made up of a mixture of primal and secondary aspects, or two secondary aspects. 
+research.ESSENTIASMELTER.stage.2=My experiments are promising if a bit unpredictable. Fortunately the fires were easily quenched and my hair should grow back in a few days.<BR>It seems melting objects down in a special alchemical process is my best option. Unfortunately my tests so far have been on primal crystals. I should also test my finding on crystals containing secondary essentia - that is essentia made up of a combination of two primal aspects.<BR>A third tier known as tertiary essentia also exists. That is essentia made up of a mixture of primal and secondary aspects, or two secondary aspects. 
 research.ESSENTIASMELTER.stage.3=I have managed to break down all my samples of primary and secondary essentia into a liquid state. The process has been slow and tedious however. Until I simplify the process it will never be practical for large scale usage.<BR>Luckily extracting essentia from objects has a lot in common with the smelting of metals. Using a furnace as a base I might be able to create an essentia smeltery that automatically melts down items and separates out individual types of essentia. 
 research.ESSENTIASMELTER.stage.4=I have drawn up the plans for an Essentia Smelter. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an Arcane Alembic.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.<BR>The essentia can then be extracted out of an alembic using phials, jars or more complex means.
 research.ESSENTIASMELTER.bellows=Bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
@@ -1316,7 +1348,7 @@ research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing
 #
 research.THAUMATORIUM.title=Alchemical Automation
 research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw, liquid essentia available to me I should improve the entire alchemical process.
-research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this I can choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this, I can choose which recipe I wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
 #
 research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
 research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable. 
@@ -1342,12 +1374,16 @@ research.EVERFULLURN.title=Everfull Urn
 research.EVERFULLURN.stage.1=Alchemical creation has proven to be much easier than I expected. If I can somehow automate this process to create something simple and practical it will go a long way toward further alchemical breakthroughs.<BR>Maybe something like an infinite water source would be a good start?
 research.EVERFULLURN.stage.2=A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill my buckets, bottles or other liquid containers.<BR>The urn will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles, but has other uses as well.<BR>Every bucket full of water created costs 1 vis which is drawn directly from the aura.<BR>The water does taste a bit... odd. Nothing to worry about I'm sure.
 #
+research.POTIONSPRAYER.title=Potion Sprayer
+research.POTIONSPRAYER.stage.1=I have made some initial tests to replicate the vanilla potion crafting system using essentia. My results have been mixed.<BR>I should focus my efforts to make it work.
+research.POTIONSPRAYER.stage.2=This has been an effort in frustration, but I have managed to salvage some success from the jaws of failure. I can indeed replicate the magical effects of a potion by combining the essentia it contains, but the result is extremely volatile. There is no way to simply decant the results into a potion bottle - at least none that I have found so far.<BR>The volatile substance immediately dissipates when exposed to air, but it can still transfer the magical effects to anything nearby, much like splash potion.<BR>I have crafted something that I am calling a Potion Sprayer. You supply it with a potion that acts as a template and then provide it with the correct types of essentia. The sprayer will then manufacture a dose of the potion and store it internally. I can store up to 8 such doses.<BR>When it receives a redstone signal it will emit a single dose of the potion in a 3x3x3 area in front of it.
+#
 ##########################################
 # INFUSION
 ##########################################
 #
 research.BASEINFUSION.title=Basic Infusion
-research.BASEINFUSION.stage.1=I am now ready to begin crafting enchanted objects and tools.<LINE>I have drawn up designs for some banners to decorate my lab. I can apply a phial of essentia to them to have them display that essentia symbol.<LINE>I have also discovered a fabric that is soft, supple and easy to enchant. I have designed patterns for a set of clothing made from this fabric.<BR>It will not only be comfortable and stylish, but while worn it will reduce the vis cost of certain types of thaumaturgical tasks. The clothing should also be easily dyeable much like leather armor.<BR>All in all I am quite pleased with what I have done here. 
+research.BASEINFUSION.stage.1=I am now ready to begin crafting enchanted objects and tools.<LINE>I have drawn up designs for some banners to decorate my lab. I can apply a phial of essentia to them to have them display that essentia symbol.
 #
 research.INFUSION.title=Infusion
 research.INFUSION.stage.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>You believe that it should be possible to infuse objects with essentia directly. You could, for example, infuse a stone with §6Aer§0 vis and a feather and it would result in a very light stone.<BR>At least, that is my theory.
@@ -1383,7 +1419,7 @@ research.m_swimmer.text=Swim a lot.
 research.m_jumper.text=Jump a lot.
 #
 research.PAVINGSTONES.title=Arcane Paving Stones
-research.PAVINGSTONES.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
+research.PAVINGSTONES.stage.1=Arcane stone has no innate magical properties of its own, but acts as a spell sponge of sorts. I should be able to add all manner of enchantments to them.
 research.PAVINGSTONES.stage.2=<PAGE>§oPaving Stone of Travel§r<DIV>By altering the magical structure of arcane stone I am able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.<PAGE>§oBarrier Stone§r<DIV>I have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the areas you wish to protect and the outside world.<BR>An active redstone signal will disable this block.<BR>The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
 #
 research.ELEMENTALTOOLS.title=Elemental Tools
@@ -1408,7 +1444,7 @@ research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way
 #
 research.VERDANTCHARMS.title=Verdant Charms
 research.VERDANTCHARMS.stage.1=I occasionally find myself being affected with poisons and other nasty afflictions. I should find a way to protect myself. 
-research.VERDANTCHARMS.stage.2=I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<LINE>There is also two specialized enchantments I can apply to the charm to improve its function.<PAGE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
+research.VERDANTCHARMS.stage.2=I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<BR>There is also two specialized enchantments I can apply to the charm to improve its function.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
 #
 ##########################################
 # ARTIFICE
@@ -1427,7 +1463,7 @@ research.ARCANEEAR.stage.2=I have succeeded! The Arcane Ear is a device that is 
 #
 research.DIOPTRA.title=Thaumic Dioptra
 research.DIOPTRA.stage.1=While a thaumometer will show me the local aura it would be useful to be able to get a general overview of the aura in a larger area. A device like this should be simple enough to design and make. 
-research.DIOPTRA.stage.2=As I expected it was not hard to expand on the workings of the thaumometer to design the Thaumic Dioptra.<BR>This device allows a thaumaturge to see the surrounding aura in a simple and clear manner. It will render the aura in a 13 chunk diameter area around it as a simple height map. It will also detect flux in the aura and color the aura purple in effected areas - the darker the purple, the more flux is present.<BR>A comparator can be connected if you want to monitor the aura level of the chunk in which it is placed.
+research.DIOPTRA.stage.2=As I expected it was not hard to expand on the workings of the thaumometer to design the Thaumic Dioptra.<BR>This device allows a thaumaturge to see the surrounding aura in a simple and clear manner. It will render the aura in a 13 chunk diameter area around it as a simple height map. It can also be switched to show flux instead by simply clicking on it.<BR>A comparator can be connected if you want to monitor the aura or flux level of the chunk in which it is placed.
 #
 research.LEVITATOR.title=Arcane Levitator
 research.LEVITATOR.stage.1=I have always been fascinated by the power of flight. I am sure flying is almost within my grasp, but first I need to learn the fundamentals.<BR>I need to study simple levitation first. 
@@ -1476,7 +1512,7 @@ research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry C
 # AUROMANCY
 ##########################################
 #
-research.BASEAUROMANCY.title=Basic Thaumaturgy
+research.BASEAUROMANCY.title=Basic Auromancy
 research.BASEAUROMANCY.stage.1=I have the casting glove, but now I need to craft the foci. The old scrolls aren't very clear on how to go about this, so I will need to find my own way.<BR>I have played with the idea of assembling a focus from crystals and then using vis to bind them together. My initial experiments have been failures... explosive failures.<BR>I think the answer I seek lies with an alchemical process.<BR>Using an ordo crystal as a core I might be able to leverage its ordered structure to grow a focus around it. While this is happening it should absorb praecantatio and auram essentia.<BR>The result should hopefully be a crystal focus able to absorb and manipulate vis. 
 research.BASEAUROMANCY.stage.2=Using Alchemy to create the focus was indeed the path to success. The focus is stable and clear - now I simply need to imprint the proper patterns into it. For this I will need a Focal Manipulator<BR>I have already drawn up plans for a Focal Manipulator. The way it functions is similar to an arcane workbench in many ways, but instead of using vis to craft items it instead imprints patterns into the focus crystal.<BR>I must also design the patterns that I will need to imprint. I have and idea for a pattern to create flame, but I need to do some more research.
 research.BASEAUROMANCY.stage.3=I have everything I need. All I need to do is craft my first focus.<BR>By arranging specially prepared vis crystals around the blank focus I can set up patterns that will determine what function the focus will perform. For now I only know the patterns for 'Fire' and 'Touch'.<BR>'Fire' is what I am calling an Effect pattern and it determines what element or magical effect will be called upon. I should be able to combine multiple effects together, though each effect increases the overall cost of casting the spell.<BR>'Touch' is a Medium pattern and it determines how the effect will be delivered to a target. You can only have one medium per spell and it has to be placed at the centre of the overall pattern. Mediums can alter the cost and effectiveness of effects they are linked to. 'Touch', for example, makes effects cheaper to cast and slightly more potent.<BR>There is a third type of pattern that will be able to modify the effect of other patterns, by either altering their cost and potency, or by altering the way they function. As yet I do not know any of these, but I should eventually be able to replicate the discounting and boosting effect that 'Touch' seems to have.<BR>Placed patterns need to connect to at least one neighbouring pattern to be effective, but they can also be arranged in such a way that one pattern influences more than one neighbour. It is not possible to use a pattern more than once when creating a focus.<BR>The vis crystals that form the pattern will be consumed when I start the process and I also need to provide some of my own vital energy in the form of experience. Lastly the entire process takes some time as it draws vis from the aura to inscribe the pattern into the focus.
@@ -1524,7 +1560,7 @@ research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me t
 #
 research.FOCUSCHARGE.title=Focus Modifier: Charge
 research.FOCUSCHARGE.stage.1=I have learned much about modifying focus patterns to increase or decrease their potency.<BR>I think I might be able to tweak a patterns cost and potency on the fly by modulating the amount of vis I channel through it.
-research.FOCUSCHARGE.stage.2=I have been proven right yet again! The Charge pattern allows me to delay the casting of focus effects - while doing so more and more vis will be drawn into focus and when I eventually release the energy it will be a lot more powerful.<BR>Initially however the pattern is a lot weaker - about half as powerful as it would normally be, but as long as I delay releasing the spell I should be able to charge it up to almost double its normal strength.<BR>Vis costs will be modified in the same way.
+research.FOCUSCHARGE.stage.2=I have been proven right yet again! The Charge pattern allows me to delay the casting of focus effects - while doing so more and more vis will be drawn into focus and when I eventually release the energy it will be a lot more powerful.<BR>Initially however the pattern is a lot weaker - about half as powerful as it would normally be, but as long as I delay releasing the spell I should be able to charge it up to almost double its normal strength.<BR>Vis costs will be modified in the same way.<PAGE>I have also learned how the increase the casting speed of foci using the Quicken modifier. Foci will cast (and charge) twice as fast, but their effective strength will be lower.
 #
 research.FOCUSBURST.title=Focus Modifier: Burst
 research.FOCUSBURST.stage.1=I should take what I have learned and attemp to create a modifier that will allow me to target multiple foes at once.
@@ -1592,6 +1628,10 @@ research.CONTROLSEALS.stage.1=Golems cannot do anything they are not told to do.
 research.GOLEMDIRECT.title=Golem Mastery
 research.GOLEMDIRECT.stage.1=Having golems mindlessly following seals is not my only goal. I want them to mindlessly follow me as well.<BR>There has to be a way to make that happen.
 research.GOLEMDIRECT.stage.2=I can now right click on a golem with the §5Golemancer's Bell§0 to have it follow me. While following you it will no longer obey seals and combat capable golems will defend you in combat.<BR>Clicking on the golem again will once again return it to normal functioning and its home location will be set to its current location.
+#
+research.GOLEMLOGISTICS.title=Golem Logistics
+research.GOLEMLOGISTICS.stage.1=Having created the Provider Seal I now have an interesting opportunity. It should be possible for me to directly request items from nearby golems.<BR>Some tweaking of their pathfinding will be required, but it should not be too hard to do.
+research.GOLEMLOGISTICS.stage.2=I can now sneak + right click with the §5Golemancer's Bell§0 to bring up an inventory of all items accessible by provider seals within 64 blocks. I can then request items from this list and a golem will deliver it.<BR>If I clicked on a block the item will be delivered to the block, or placed inside if it is an inventory. The side you clicked on will be taken into account.<BR>If I clicked on empty air the item will be delivered directly to me.<PAGE>Golems are still limited by their range so I must take care where I try and deliver items to.
 #
 research.MINDBIOTHAUMIC.title=Biothaumic Minds
 research.MINDBIOTHAUMIC.stage.1=As predicted the clockwork minds I have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so I turning to something I already know will work - living brains.<BR>By studying them I might be able to unlock the secret behind true intelligence and autonomy. 
