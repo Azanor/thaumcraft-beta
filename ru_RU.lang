@@ -1067,8 +1067,7 @@ tc.search.more=...too many results found. Refine your search
 tc.research.stage=Текущая стадия:
 tc.research.begin=Вы еще не начали это исследование
 tc.research.newpage=§aДобавлена новая страница§0
-tc.research.newresearch=§6
-Newly discovered research§0
+tc.research.newresearch=§6Newly discovered research§0
 tc.research.purchase=Click to purchase this research with %1$s experience level(s).
 tc.research.short=You need %1$s experience level(s) to purchase this.
 tc.research.read=Click to read this research.
