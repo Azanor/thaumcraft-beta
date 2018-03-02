@@ -22,6 +22,20 @@ item.primordial_pearl.mote.name=元始尘埃
 item.primordial_pearl.nodule.name=元始结核
 item.primordial_pearl.pearl.name=元始珍珠
 item.pech_wand.name=岩精法杖
+item.celestial_notes.name=天象笔记
+item.celestial_notes.sun.text=太阳
+item.celestial_notes.stars_1.text=群星，象限1
+item.celestial_notes.stars_2.text=群星，象限2
+item.celestial_notes.stars_3.text=群星，象限3
+item.celestial_notes.stars_4.text=群星，象限4
+item.celestial_notes.moon_1.text=月亮，满月
+item.celestial_notes.moon_2.text=月亮，盈凸月
+item.celestial_notes.moon_3.text=月亮，上弦月
+item.celestial_notes.moon_4.text=月亮，峨眉月
+item.celestial_notes.moon_5.text=月亮，新月
+item.celestial_notes.moon_6.text=月亮，残月
+item.celestial_notes.moon_7.text=月亮，下弦月
+item.celestial_notes.moon_8.text=月亮，亏凸月
 #
 # Resources
 #
@@ -188,12 +202,14 @@ item.creative_flux_sponge.name=咒波清理海绵
 item.turret.basic.name=自动十字弩
 item.turret.advanced.name=高级十字弩
 item.turret.bore.name=奥术钻探机
+item.enchanted_placeholder.name=任何附魔物品
+item.enchanted_placeholder.text=必须至少拥有以下附魔：
 #
 # Golem
 item.module.vision.name=视觉组件
 item.module.aggression.name=攻击组件
 item.golem_bell.name=傀儡使铃铛
-item.golem.name=Golem傀儡
+item.golem.name=傀儡
 item.seal.blank.name=空白印记
 item.seal.pickup.name=操纵印记：聚集
 item.seal.pickup_advanced.name=高级操纵印记：聚集
@@ -321,6 +337,7 @@ tile.brain_box.name=记忆矩阵
 tile.essentia_input.name=源质析出装置
 tile.essentia_output.name=源质注入装置
 tile.activator_rail.name=奥术激活轨道
+tile.potion_sprayer.name=Potion Sprayer
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -748,6 +765,8 @@ focuspart.thaumcraft.CHARGE.name=充能
 focuspart.thaumcraft.CHARGE.text=拥有这个符印的核心的效果和消耗都有所降低（约为平时的一半），但是按住施术键时，法术会缓慢进行充能并逐渐提高效果和消耗（最高提升为平时的两倍）。
 focuspart.thaumcraft.BURST.name=爆裂
 focuspart.thaumcraft.BURST.text=相连符印的效果将会施加到一个区域中的所有目标上，远离中心的目标会受到较小的效果。
+focuspart.thaumcraft.QUICKEN.name=Quicken
+focuspart.thaumcraft.QUICKEN.text=Doubles the casting speed of a spell at the cost of power.
 #
 # GUI
 ###################
@@ -889,6 +908,9 @@ card.beacon.text=你相信信标能够以某种方式影响周围神秘的灵气
 card.dragonegg.name=龙之研究
 card.dragonegg.text=龙蛋周围萦绕着强大的灵力与混沌的能量，偶尔你也能在其中看到混沌的秩序。
 #
+card.celestial.name=天象研究
+card.celestial.text=你拿一些你记录的天象笔记，并将它们与你的主要研究分支进行比对。你在 %1$s 获得25到50点进度的启发。你同时也可能获得其他的东西……
+#
 # ALCHEMY
 card.concentrate.name=浓缩
 card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。源质已经是一种纯净的物质了，但是也不妨一试。往往失败会告诉你成功的秘诀。尝试浓缩%1$s源质，获得10点 炼金术 进度并获得一次额外的抽卡机会。还有机会获得1点灵感。
@@ -960,7 +982,7 @@ card.truth.text=你拼命寻求邪术学背后的真相以及它对于世界的�
 #
 # Other
 ###################
-itemGroup.thaumcraft=神秘时代 6
+itemGroup.thaumcraft=神秘时代
 #
 got.crystals=手捧水晶的你，指尖忽然感受到一阵刺痛。或许有什么特殊含义？或许别的什么将给你带来灵感。
 got.dream=你从异梦中醒来。你快速记下了转瞬即逝的记忆。
@@ -1074,6 +1096,10 @@ tc.stage.complete=已完成
 tc.stage.hold=正在完成...
 tc.warp.warn=扭曲等级：%n
 tc.knowledge.name=总计知识
+tc.logistics.request=Request
+tc.logistics.search=Search
+tc.celestial.fail.1=You have already studied that today.
+tc.celestial.fail.2=You are unable to take notes of your studies.
 #
 # Aspects
 tc.aspect.name=源质要素
@@ -1129,7 +1155,6 @@ tc.research_category.ELDRITCH=邪术学
 # Knowledge Types
 tc.type.theory=Theory - 理论
 tc.type.observation=Observation - 观测
-tc.type.epiphany=Epiphany - 顿悟
 #
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -1184,7 +1209,7 @@ research.FIRSTSTEPS.stage.2=有所进展！我拥有属于自己的奥术工作�
 research.FIRSTSTEPS.stage.3=这些奇特的事物正向我揭示着这个世界。通过魔导透镜，我看到了一个萦绕着魔力的世界，或者按书中所说，充满了Vis。<BR>通常，这种能量是一片纯净的魔法海洋，不断地渗透、流动，但它也同时渗透到世间万物当中，无论是有生命的，还是无生命的。这本书将这种形态的Vis称为“源质”。如果说Vis是无形而纯净的，源质则固化为许多明确的类型，相互结合，形成更强大、更复杂的源质类型。<BR>我不清楚是世间万物凝聚了这些源质，还是这些源质聚合成了世间万物，这还有待我进一步的研究发现。<BR>我记录了所有我发现的源质类型，左侧的书签会显示我当前的知识水平。<BR>现在，我需要把我的精力集中到其他地方。对于源质的研究可能是一个很好的开始。
 #
 research.KNOWLEDGETYPES.title=知识的类型
-research.KNOWLEDGETYPES.stage.1=知识分为三种主要的类型：观测、理论和顿悟。观测和理论还会进一步划分不同的研究领域，比如炼金术和炼化学。<LINE>观测，顾名思义，就是通过透镜扫描从世界中得到的知识。实际观测往往会洞悉事物的规律，并且通过观察记录你将逐渐建立起坚实的知识基础。<LINE>§l理论§r，简而言之，就是通过仔细观察、理性思考和实践经验来理解事物的方法。许多的神秘学研究的类型都需要构造理论依据来进一步开展研究。<LINE>§l顿悟§r，对于完成某些特定的研究来说，是你对知识和见解的灵光一现。
+research.KNOWLEDGETYPES.stage.1=知识分为两种主要的类型：观测和理论。观测和理论还会进一步划分不同的研究领域，比如炼金术和炼化学。<LINE>观测，顾名思义，就是通过透镜扫描从世界中得到的知识。实际观测往往会洞悉事物的规律，并且通过观察记录你将逐渐建立起坚实的知识基础。<LINE>§l理论§r，简而言之，就是通过仔细观察、理性思考和实践经验来理解事物的方法。许多的神秘学研究的类型都需要构造理论依据来进一步开展研究。
 #
 research.THEORYRESEARCH.title=理论研究
 research.THEORYRESEARCH.stage.1=对于我这样的神秘使，仅仅通过研究周围的世界或是偶然发现古老的知识是无法取得进展的。我需要有自己的发现，并通过实验来提高我的知识水平。只有构造属于我自己的理论才是唯一的方法。<BR>我需要一个的舒适的工作空间来进行研究，并且准备好充足的书写工具和纸张。我先应该制作一个笔与魔放到桌子上。
@@ -1203,9 +1228,13 @@ got.uphigh=世界在你面前一览无余。你的视野也随之扩大。
 got.finddesert=你已经拜访了炎热的沙漠。
 got.findocean=你凝视了无尽的蓝色深渊。
 #
-research.UNLOCKARTIFICE.title=发现：炼化学与注魔
-research.UNLOCKARTIFICE.stage.1=我已经学习到了许多新的知识，其中之一就是我必须要进一步增进我的学识。<BR>我需要一个工具，能让我看到那些肉眼无法观察到的事物，来让我的旅途更为轻松。我从那些古老的文字中了解到，彼时的神秘使为此制作了一组常用的护目镜。<BR>遗憾的是，文中并没有提到它是怎么工作的，所以我需要从头来设计这个装置。
-research.UNLOCKARTIFICE.stage.2=我根据仅有的一些信息外加一些个人经验做出了我的设计，现在，是时候将理论付诸实践了。<BR>护目镜不仅能够揭示一些隐藏的信息，还可以降低特定操作时的Vis消耗。<BR>最后，这副护目镜能让我看到物体中蕴含的Vis及源质，我相信这也会是一个不小的帮助。<PAGE>此外，我所学到最重要的知识，便是我能够通过使用魔法并注入奥术能量来制作精致的机械装置。这两种研究道路有所区别，但又以微妙和神秘的方式相互联系。我应该对此进行仔细的研究。
+research.UNLOCKARTIFICE.title=发现：炼化学
+research.UNLOCKARTIFICE.stage.1=我已经学习到了许多新的知识，其中之一就是我必须要进一步增进我的学识。我眼前的世界充满了未知与神秘，拥有无数的奇迹……与危险。<BR>我需要一个工具，能让我看到那些肉眼无法观察到的事物，来让我的旅途更为轻松。我从那些古老的文字中了解到，彼时的神秘使为此制作了一副常用的护目镜。<BR>遗憾的是，文中并没有提到它是怎么工作的，所以我需要从头来设计这个装置。
+research.UNLOCKARTIFICE.stage.2=我根据仅有的一些信息外加一些个人经验做出了我的设计，现在，是时候将理论付诸实践了。<BR>护目镜不仅能够揭示一些隐藏的信息，还可以降低特定操作时的Vis消耗。<BR>最后，这副护目镜能让我看到物体中蕴含的Vis及源质，我相信这也会是一个不小的帮助。<PAGE>此外，我所学到最重要的知识，便是我能够通过使用魔法并注入奥术能量来制作精致的机械装置。
+#
+research.UNLOCKINFUSION.title=发现：注魔
+research.UNLOCKINFUSION.stage.1=迄今为止，我一直自然而然地通过Vis来操纵物体。这就好像是一种简单的附魔，与平时我们通过附魔台进行附魔相仿。我相信我能够做更多 - 使用源质对物体进行§o注魔§r，我应该能够人为地强制它们拥有其他物体的性质和特点，甚至附加一些抽象的观点。<BR>通过将物体举在半空的魔法，任何人都能够进行附魔，但是注魔本身就能够让物体变得轻盈，让它成为它自然本源的一部分。
+research.UNLOCKINFUSION.stage.2=我的实验非常成功，我已经能够将源质注魔到简单的物体当中，但是这个过程还非常复杂、困难且危险。我需要找到一种方式来简化它，然后才能进一步发觉它所拥有的可能性。<PAGE>这些实验也得出了一些实际的结果。<BR>我发现了一种如丝般柔滑的独特布料，它具有良好的附魔能力，我用这种材料设计了一套全新的护甲装备。<BR>这套装备不仅舒适而时尚，穿上它们还会降低特定操作时的Vis消耗。它们也如同皮革护甲一般易于染色。<BR>总而言之，我对目前取得的进度非常满意。
 #
 research.UNLOCKALCHEMY.title=发现：炼金术
 research.UNLOCKALCHEMY.stage.1=酿造基础的药水自然有它的用途，但真正的炼金术绝不仅仅是把各种怪物的器官混合在一起那么简单。<BR>我认为，源质是进一步精细操纵物质的关键。<BR>我应该尝试并学习更多炼金术的知识，并且探寻它是如何在魔法世界当中生效的。<BR>有了这些知识和一点点灵感，我相信神秘炼金术将会尽在我掌握之中。
@@ -1245,9 +1274,12 @@ research.CRYSTALFARMER.title=结晶农场
 research.CRYSTALFARMER.stage.1=我观察到这些魔力结晶会随着时间的推移自然生长，但是一旦我采集它们，它们似乎就失去了这种能力。我希望我能知道这种能力是如何失去的，并且找到重新赋予它们这种能力的方法。
 research.CRYSTALFARMER.stage.2=我找到了一种能够让魔力结晶生长的方法，借此我能够重新种植它们。<BR>我希望这意味着我可以通过种植获得稳定的原始魔力结晶来源。
 #
-research.UNLOCKELDRITCH.title=钻研邪术
-research.UNLOCKELDRITCH.stage.1=
-research.UNLOCKELDRITCH.stage.2=
+research.CELESTIALSCANNING.title=天象观察
+research.CELESTIALSCANNING.stage.1=我注意到月相与灵气场自我补充的速度存在一定的关系。我应该进一步调查这个现象，甚至扩大我的调查范围，看看其他天体是否也会影响魔法世界。<BR>对魔导透镜进行微小的改动应该就能够让它对天体进行测量。我应该随身带一些纸和书写工具，以便随时进行笔记。<BR>每天多次测量同一片天空、同一个象限、同一个天体都会给我带来新的见解 - 我需要长期测量它们对灵气的各种不同影响。<BR>我收集的笔记应该能够用于理论研究。
+#
+research.UNLOCKELDRITCH.title=深入邪术
+research.UNLOCKELDRITCH.stage.1=WIP
+research.UNLOCKELDRITCH.stage.2=WIP
 #
 ##########################################
 # ALCHEMY
@@ -1342,12 +1374,16 @@ research.EVERFULLURN.title=无尽之瓮
 research.EVERFULLURN.stage.1=炼金术的创造事实上比我预想的容易的多。如果我能以某种方式自动化地创造一些简单而实用的东西，那么这将是炼金术的进一步突破。<BR>或许无限水源是一个良好的开始？
 research.EVERFULLURN.stage.2=从瓮口不断涌出的一小股清泉让无尽之瓮能够用来为水桶,药瓶和其他流体容器提供水源.<BR>它还能够为两格范围内的流体容器自动添水,只要这些容器能够从顶部注水.配合坩埚可以很完美地实现自动化,当然别的方面也有诸多妙用.<BR>每制造一桶水都会从灵气中抽取1点vis.<BR>水的味道有点...奇怪。我确定无需担心。
 #
+research.POTIONSPRAYER.title=Potion Sprayer
+research.POTIONSPRAYER.stage.1=我进行了一些初步的测试，试图通过使用源质来实现普通的药水炼制系统。我的结果好坏参半。<BR>我应该想尽办法来让它工作。
+research.POTIONSPRAYER.stage.2=This has been an effort in frustration, but I have managed to salvage some success from the jaws of failure. I can indeed replicate the magical effects of a potion by combining the essentia it contains, but the result is extremely volatile. There is no way to simply decant the results into a potion bottle - at least none that I have found so far.<BR>The volatile substance immediately dissipates when exposed to air, but it can still transfer the magical effects to anything nearby, much like splash potion.<BR>I have crafted something that I am calling a Potion Sprayer. You supply it with a potion that acts as a template and then provide it with the correct types of essentia. The sprayer will then manufacture a dose of the potion and store it internally. I can store up to 8 such doses.<BR>When it receives a redstone signal it will emit a single dose of the potion in a 3x3x3 area in front of it.
+#
 ##########################################
 # INFUSION
 ##########################################
 #
 research.BASEINFUSION.title=基础注魔
-research.BASEINFUSION.stage.1=我已经做足了制作附魔物品和工具的准备。<LINE>我设计了一些旗帜来装饰我的实验室，我可以通过使用要素安瓿来让旗帜显示特定要素的图案。<LINE>我发现了一种如丝般柔滑的独特布料，它具有良好的附魔能力，我用这种材料设计了一套全新的护甲装备。<BR>这套装备不仅舒适而时尚，穿上它们还会降低特定操作时的Vis消耗。它们也如同皮革护甲一般易于染色。<BR>总而言之，我对目前取得的进度非常满意。
+research.BASEINFUSION.stage.1=我已经做足了制作附魔物品和工具的准备。<LINE>我设计了一些旗帜来装饰我的实验室，我可以通过使用要素安瓿来让旗帜显示特定要素的图案。
 #
 research.INFUSION.title=注魔
 research.INFUSION.stage.1=奥术合成和炼金术能达到的层次也就到此为止了。为了获得更好的东西你需要创造出更强大的魔导设备。<BR>注魔合成能够向单件物品中灌注魔力和来自其他物品的特性。比方说，你能够将§6风之要素§0以及羽毛灌注入普通石头来得到一种非常轻盈的石材。<BR>至少，我的看法是这样的。
@@ -1593,6 +1629,10 @@ research.GOLEMDIRECT.title=傀儡操纵术
 research.GOLEMDIRECT.stage.1=让傀儡绝对服从印记并不是你唯一的目的。你希望他们同样服从地追随你。这应该是可行的。
 research.GOLEMDIRECT.stage.2=你现在可以通过手持§5傀儡使铃铛§0右击傀儡使它们跟随你。当傀儡跟随你时不会受到操控印记的影响，具有战斗能力的傀儡还会帮助你对抗敌人。<BR>再次手持傀儡使铃铛右击傀儡以切换至正常状态，傀儡的当前坐标会成为其新的待命位置。
 #
+research.GOLEMLOGISTICS.title=Golem Logistics
+research.GOLEMLOGISTICS.stage.1=Having created the Provider Seal I now have an interesting opportunity. It should be possible for me to directly request items from nearby golems.<BR>Some tweaking of their pathfinding will be required, but it should not be too hard to do.
+research.GOLEMLOGISTICS.stage.2=I can now sneak + right click with the §5Golemancer's Bell§0 to bring up an inventory of all items accessible by provider seals within 64 blocks. I can then request items from this list and a golem will deliver it.<BR>If I clicked on a block the item will be delivered to the block, or placed inside if it is an inventory. The side you clicked on will be taken into account.<BR>If I clicked on empty air the item will be delivered directly to me.<PAGE>Golems are still limited by their range so I must take care where I try and deliver items to.
+#
 research.MINDBIOTHAUMIC.title=神秘生物学之心
 research.MINDBIOTHAUMIC.stage.1=如我预期一样，我所制造的发条之心在抽象推理和自主思维方面的表现乏善可陈。 然而尝试制造更复杂的发条装置的努力却一直收效甚微，于是我转而研究起一种你早已知道具有这些能力的东西：人脑。<BR>通过对这些研究，我也许能够揭开真正的智慧和自主思考的秘密。
 research.MINDBIOTHAUMIC.stage.2=尽管起初我尚有犹疑，但很快便克服了恐惧，开始深入研究神秘生物学的奥秘-一门研究如何将血肉，机器和魔法融为一体的学科。<BR>研究结果鼓舞人心，我很快就学会了如何将发条之心融入残存灰质从而制造出更强能力的人工思维。<BR>这也使我可以制造出更高级的操控印记<BR>另一个优点是，这个装置使傀儡获得了学习能力。傀儡会在完成任务时获取相应的经验并升级。提升等级以赋予傀儡更高的生命，速度与攻击力。。<BR>傀儡初始等级为0级，最高可升级至10级<BR>取回傀儡不会影响它的等级数据。
@@ -1692,9 +1732,8 @@ got.onfire=你已经亲身感受了火焰的威力。
 research.m_deepdown.text=到达世界的最深处。
 research.m_uphigh.text=登上可及的最高峰。
 got.deepdown=你已经到达了深邃黑暗的深谷，并学到了很多。
-got.uphigh=世界在你面前一览无余。你的视野也随之扩大。
+got.uphigh=世界在你面前一览无余，你的眼界也随之扩大。
 got.hellandback=你已经拜访了下界。
 got.endoftheworld=你已经拜访了末地。
 research.m_hellandback.text=拜访地狱般的地方。
-research.m_endoftheworld.text=寻找一切的终焉。
-
+research.m_endoftheworld.text=寻找世界的终焉。
