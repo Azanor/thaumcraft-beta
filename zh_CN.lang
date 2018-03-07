@@ -175,7 +175,7 @@ item.baubles.ring_apprentice.name=学徒指环
 item.baubles.amulet_fancy.name=精致护身符
 item.baubles.ring_fancy.name=精致指环
 item.baubles.girdle_fancy.name=精致腰带
-item.amulet_vis.text=为快捷栏中的法杖充能
+item.amulet_vis.text=为护甲、饰品与快捷栏中的物品充能
 item.amulet_vis.found.name=魔力石
 item.amulet_vis.crafted.name=魔力护身符
 item.girdle_hover.name=奥法腰带
@@ -337,7 +337,7 @@ tile.brain_box.name=记忆矩阵
 tile.essentia_input.name=源质析出装置
 tile.essentia_output.name=源质注入装置
 tile.activator_rail.name=奥术激活轨道
-tile.potion_sprayer.name=Potion Sprayer
+tile.potion_sprayer.name=药水喷雾器
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -630,7 +630,7 @@ golem.trait.text.flyer=这种傀儡具有飞行能力，以速度为代价换取
 golem.trait.climber=攀爬
 golem.trait.text.climber=这种傀儡具有攀爬悬崖的能力。
 golem.trait.scout=侦查
-golem.trait.text.scout=这种傀儡具有优秀的视野，工作范围更大。(视野为32格，而非通常的16格)
+golem.trait.text.scout=这种傀儡具有优秀的视野，工作范围更大。(视野为48格，而非通常的32格)
 golem.trait.fireproof=抗火
 golem.trait.text.fireproof=这种傀儡不受火焰伤害。
 golem.trait.brutal=蛮力
@@ -748,7 +748,7 @@ focuspart.thaumcraft.PLAN.name=计划
 focuspart.thaumcraft.PLAN.text=允许你精确规划哪些方块会受到影响。
 #
 focuspart.thaumcraft.CHAIN.name=联锁
-focuspart.thaumcraft.CHAIN.text=降低相连符印的效果，但是使得震击能够弹射到附近最多两个目标上。
+focuspart.thaumcraft.CHAIN.text=效果能够弹跳到额外目标上，但是每次弹跳到额外目标都会降低效果强度。
 focuspart.thaumcraft.FRUGAL.name=朴素
 focuspart.thaumcraft.FRUGAL.text=相连符印可以以更少的Vis施展相同强度的效果。
 focuspart.thaumcraft.LINGERING.name=动荡
@@ -765,8 +765,8 @@ focuspart.thaumcraft.CHARGE.name=充能
 focuspart.thaumcraft.CHARGE.text=拥有这个符印的核心的效果和消耗都有所降低（约为平时的一半），但是按住施术键时，法术会缓慢进行充能并逐渐提高效果和消耗（最高提升为平时的两倍）。
 focuspart.thaumcraft.BURST.name=爆裂
 focuspart.thaumcraft.BURST.text=相连符印的效果将会施加到一个区域中的所有目标上，远离中心的目标会受到较小的效果。
-focuspart.thaumcraft.QUICKEN.name=Quicken
-focuspart.thaumcraft.QUICKEN.text=Doubles the casting speed of a spell at the cost of power.
+focuspart.thaumcraft.QUICKEN.name=迅捷
+focuspart.thaumcraft.QUICKEN.text=以威力为代价，将法术的施术速度提升为两倍。
 #
 # GUI
 ###################
@@ -870,7 +870,7 @@ button.down=向下滚动
 #
 # GENERAL
 card.study.name=研究 %1$s
-card.study.text=很多时候研究只不过是埋头钻研并投入其中。你研究 %1$s 并获得了10点进度。
+card.study.text=很多时候研究只不过是埋头钻研并投入其中。你研究 %1$s 并获得了15到25点进度。
 #
 card.reject.name=放弃 %1$s 发现
 card.reject.text=你意识到 %1$s 对你目前的研究而言无关紧要。你不会在 %1$s 方面取得任何进展，并且不会抽到与之相关的任何选项。你并不会失去已经获得的相关研究进度。
@@ -882,16 +882,16 @@ card.analyze.name=分析 %1$s
 card.analyze.text=通过彻底分析你在 %1$s 方面的观察，你可能基于这些数据拼凑出一个理论。 失去1份 %1$s 观察来获得25到50点 %1$s 进度并获得5点 %2$s 进度。
 #
 card.rethink.name=反思
-card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10到20点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感并得到一次额外的抽卡机会。
+card.rethink.text=你退一步重新思考你现有的发现，你抛下无效的结论并产生新的认识。总共失去10点进度，并平均地分配到目前所有的分支当中，同时让你重新获得1点灵感并得到一次额外的抽卡机会。
 #
 card.ponder.name=沉思
-card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得20点进度，并平均地分配到目前所有的分支当中，同时得到一次抽卡机会。
+card.ponder.text=你仔细思考你目前所学到的一切知识。总共获得25点进度，并平均地分配到目前所有的分支当中，同时得到一次抽卡机会。
 #
 card.notation.name=注解
 card.notation.text=当你在记录目前所有的发现时，你发现了一些错误并纠正了它们。你失去 %1$s 方面的所有进度，并将失去的大部分进度计入 %2$s 研究。
 #
 card.balance.name=通用理论
-card.balance.text=片刻的启发让你发现了你所研究的分支之间的联系。你的全部进度平均地分配到目前所有可用的分支当中。
+card.balance.text=片刻的启发让你发现了你所研究的分支之间的联系。你的全部进度平均地分配到目前所有可用的分支当中，并且将会有一个额外的分支在完成时获得全额奖励。
 #
 card.curio.name=研究知书
 card.curio.text=你在研究知书时往往会揭示一些有趣的信息，它可以作为一个很好的对照研究对象。
@@ -900,10 +900,10 @@ card.inspired.name=启发
 card.inspired.text=受到目前现有进度的启发，你开始考虑你未曾想到的学识。你获得%1$s点 %2$s 进度。
 #
 card.enchantment.name=研究附魔
-card.enchantment.text=你通过研究基础附魔来从根本探寻它运作的方式。你相信在注魔和炼化学当中的附魔与之有许多共通之处。你失去5个经验等级，以换取10到15点 注魔和炼化学 的进度。
+card.enchantment.text=你通过研究基础附魔来从根本探寻它运作的方式。你相信在注魔和炼化学当中的附魔与之有许多共通之处。你失去5个经验等级，以换取15到20点 注魔和炼化学 的进度。
 #
 card.beacon.name=灵气作用
-card.beacon.text=你相信信标能够以某种方式影响周围神秘的灵气。你仔细地进行研究，虽然没有取得十足的进展，但也从中受到了启发。你获得了2点灵感并获得一次额外的抽卡机会。
+card.beacon.text=你相信信标能够以某种方式影响周围神秘的灵气。你仔细地进行研究，虽然没有取得十足的进展，但也从中受到了启发。你获得了2点灵感与一次额外的抽卡机会，并且将会有多个额外的分支在完成时获得全额奖励。
 #
 card.dragonegg.name=龙之研究
 card.dragonegg.text=龙蛋周围萦绕着强大的灵力与混沌的能量，偶尔你也能在其中看到混沌的秩序。
@@ -913,27 +913,27 @@ card.celestial.text=你拿一些你记录的天象笔记，并将它们与你的
 #
 # ALCHEMY
 card.concentrate.name=浓缩
-card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。源质已经是一种纯净的物质了，但是也不妨一试。往往失败会告诉你成功的秘诀。尝试浓缩%1$s源质，获得10点 炼金术 进度并获得一次额外的抽卡机会。还有机会获得1点灵感。
+card.concentrate.text=通过将物质浓缩成最纯净的形式，你能够学到许多知识。尝试浓缩%1$s源质，获得15点 炼金术 进度并获得一次额外的抽卡机会。还有机会获得1点灵感。
 #
 card.reactions.name=反应
-card.reactions.text=研究两种不同的Vis之间如何反应也有所裨益。你应当研究%1$s源质如何与%2$s源质进行反应。获得20点 炼金术 进度。还有机会获得1点灵感。
+card.reactions.text=研究两种不同的Vis之间如何反应也有所裨益。你应当研究%1$s源质如何与%2$s源质进行反应。获得25点 炼金术 进度。还有机会获得1点灵感。
 #
 card.synthesis.name=合成
-card.synthesis.text=当源质相互结合形成更复杂的形式时，总会产生许多有趣和复杂的反应。你通过研究%1$s与%2$s源质的结合学到了很多知识。获得30点 炼金术 进度。还有机会获得1点灵感。
+card.synthesis.text=当源质相互结合形成更复杂的形式时，总会产生许多有趣和复杂的反应。你通过研究%1$s与%2$s源质的结合学到了很多知识。获得40点 炼金术 进度。还有机会获得1点灵感。
 #
 # INFUSION
 card.measure.name=测量
-card.measure.text=你花费大量时间详细测量不同种类的源质以及它们所蕴含的Vis。获得10点 注魔 进度并获得一次额外的抽卡机会。
+card.measure.text=你花费大量时间详细测量不同种类的源质以及它们所蕴含的Vis。获得15点 注魔 进度并获得一次额外的抽卡机会。
 #
 card.channel.name=引导 %1$s 源质
-card.channel.text=你通过一些简单的实验来测试注魔过程当中引导 %1$s 源质会发生什么。获得15点 注魔 进度。
+card.channel.text=你通过一些简单的实验来测试注魔过程当中引导 %1$s 源质会发生什么。获得25点 注魔 进度。
 #
 card.infuse.name=注魔实验
 card.infuse.text=通过假定使用源质注魔特定物体的效果，并对成果进行测试，你获得了宝贵的见解。你通过将%1$s源质与%2$s进行结合并研究其成果，学到了很多知识。获得%3$s点 注魔 进度。
 #
 # ARTIFICE
 card.calibrate.name=校准
-card.calibrate.text=你花了一些时间来校准你的仪器与工具。获得10点 炼化学 进度并获得一次额外的抽卡机会。
+card.calibrate.text=你花了一些时间来校准你的仪器与工具。获得15点 炼化学 进度并获得一次额外的抽卡机会。
 #
 card.mindmatter.name=心态至上
 card.mindmatter.text=你仔细地检查拆分了一些基本组件，寻求将他们组装成更复杂的设计的方法。获得%1$s点 炼化学 进度。
@@ -946,20 +946,20 @@ card.spellbinding.name=结合法术
 card.spellbinding.text=你在剩下的小块结晶中测试不同的附魔。漫无目的的尝试给你带来了宝贵的知识。失去最多5个经验等级，每失去一个等级将会为你带来5点 神秘学 进度。
 #
 card.awareness.name=认知
-card.awareness.text=你置身于Vis的流动之中，你对它如何运作以及事物的基本性质有了更深入的了解，但这也让你的精神变得脆弱。获得15点 神秘学 进度。同时你可能会获得 邪术学 的知识并获得扭曲。
+card.awareness.text=你置身于Vis的流动之中，你对它如何运作以及事物的基本性质有了更深入的了解，但这也让你的精神变得脆弱。获得20点 神秘学 进度。同时你可能会获得 邪术学 的知识并获得扭曲。
 #
 card.focus.name=全神贯注
-card.focus.text=你将注意力集中在周围的魔法和精神能量上，希望能够与它们的波动相协调。获得10点 神秘学 进度并获得一次额外的抽卡机会。
+card.focus.text=你将注意力集中在周围的魔法和精神能量上，希望能够与它们的波动相协调。获得15点 神秘学 进度并获得一次额外的抽卡机会。
 #
 # GOLEMANCY
 card.sculpting.name=雕塑
-card.sculpting.text=通过创造简单的短时活动塑像，你磨练了你的知识。获得15点 傀儡学 进度。
+card.sculpting.text=通过创造简单的短时活动塑像，你磨练了你的知识。获得20点 傀儡学 进度，并获得一次额外的抽卡机会。
 #
 card.scripting.name=脚本
-card.scripting.text=傀儡学很大一部分是创造复杂的奥术文字来操控你的造物。通过创建一些测试脚本，你增进了你的学识。获得20点 傀儡学 进度。这会额外消耗研究台上的墨水与纸张。
+card.scripting.text=傀儡学很大一部分是创造复杂的奥术文字来操控你的造物。通过创建一些测试脚本，你增进了你的学识。获得25点 傀儡学 进度。这会额外消耗研究台上的墨水与纸张。
 #
 card.synergy.name=协同
-card.synergy.text=从根源来说，傀儡学是炼金术、炼化学与注魔的结合。只有充分理解这三个分支如何相互作用，才能够真正精通傀儡学。 总共失去15点进度，平均分配于 炼金术、炼化学与注魔 方面，同时获得30点 傀儡学 进度。
+card.synergy.text=从根源来说，傀儡学是炼金术、炼化学与注魔的结合。只有充分理解这三个分支如何相互作用，才能够真正精通傀儡学。 总共失去15点进度，平均分配于 炼金术、炼化学与注魔 方面，同时获得30点 傀儡学 进度，并且将会有一个额外的分支在完成时获得全额奖励。
 #
 # ELDRITCH
 card.darkwhisper.name=黑暗低语
@@ -972,13 +972,13 @@ card.portal.name=异界回响
 card.portal.text=笼罩在传送门发出的诡异光线中，诡异的思绪侵入你的大脑。其中大部分的内容都难以理解，但也有些为你带来了奇怪的灵感。
 #
 card.revelation.name=启示
-card.revelation.text=研究邪术学的道路充满了未知的危险，但为了所揭示的学识往往是值得的。你获得25点 邪术学 进度并获得5点随机分支的进度。同时你也会获得一些暂时扭曲与普通扭曲。
+card.revelation.text=研究邪术学的道路充满了未知的危险，但为了所揭示的学识往往是值得的。你获得25点 邪术学 进度并获得5点随机分支的进度。同时你也会获得一些暂时扭曲与普通扭曲，并且将会有一个额外的分支在完成时获得全额奖励。
 #
 card.realization.name=顿悟
-card.realization.text=在探寻邪术学的本质时，你突然对天地万物的本质有了惊人的见解。你获得10点 邪术学 进度并获得5点两个随机分支的进度。 同时你也会获得一些暂时扭曲。你也有可能会获得一些普通扭曲。
+card.realization.text=在探寻邪术学的本质时，你突然对天地万物的本质有了惊人的见解。你获得15点 邪术学 进度并获得5到10点两个随机分支的进度。 同时你也会获得一些暂时扭曲。你也有可能会获得一些普通扭曲。
 #
 card.truth.name=寻求真相
-card.truth.text=你拼命寻求邪术学背后的真相以及它对于世界的意义。你获得5到15点 邪术学 进度并获得一次额外的抽卡机会。 同时你也会获得一些暂时扭曲。
+card.truth.text=你拼命寻求邪术学背后的真相以及它对于世界的意义。你获得10到25点 邪术学 进度并获得一次额外的抽卡机会。 同时你也会获得一些暂时扭曲。
 #
 # Other
 ###################
@@ -1098,8 +1098,8 @@ tc.warp.warn=扭曲等级：%n
 tc.knowledge.name=总计知识
 tc.logistics.request=Request
 tc.logistics.search=Search
-tc.celestial.fail.1=You have already studied that today.
-tc.celestial.fail.2=You are unable to take notes of your studies.
+tc.celestial.fail.1=你今天已经做过同样的研究了。
+tc.celestial.fail.2=对于你的观察，你没有什么能记下的。
 #
 # Aspects
 tc.aspect.name=源质要素
@@ -1213,7 +1213,7 @@ research.KNOWLEDGETYPES.stage.1=知识分为两种主要的类型：观测和理
 #
 research.THEORYRESEARCH.title=理论研究
 research.THEORYRESEARCH.stage.1=对于我这样的神秘使，仅仅通过研究周围的世界或是偶然发现古老的知识是无法取得进展的。我需要有自己的发现，并通过实验来提高我的知识水平。只有构造属于我自己的理论才是唯一的方法。<BR>我需要一个的舒适的工作空间来进行研究，并且准备好充足的书写工具和纸张。我先应该制作一个笔与魔放到桌子上。
-research.THEORYRESEARCH.stage.2=现在我已经有一个合适的工作空间，是时候进行一些研究了。为了完成我的追求，我现在可以开始构造操纵魔法的理论了。<BR>首先，我需要确保台桌上有足够的纸张，我的书写工具有足够的墨水。我现在可以选择开始研究理论了。<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>在画面的顶部，我能够看到我在这一轮研究当中拥有多少灵感（以灯泡表示）。在我进行研究时，左侧会出现一叠纸，选择他们就会给我提供两个不同的研究路线选择。每一条道路都会指明为我提供何种知识，改变额在一种或多种分类上的见解。<BR>有些选择会需要特定的物品，这些物品在研究的过程当中往往会被消耗。<BR>通常来说，我只能推进已经解锁的研究分支，但我很肯定我偶尔也能发现全新的研究分支。<BR>我能够不断地进行研究，但值得注意的是我每次进行选择都会消耗我的灵感，当我灵感枯竭时研究就会完成。我初始可用的灵感数量会随着我的魔法知识的增进而增加。<BR>我在研究分支的进度会以百分比显示 — 达到100%完成度就会提供一份理论，即使进度没有达到100%也会在完成研究时累加到现有的进度当中，同时也有可能在某一分支的进度超过100%。当前研究进度最多的分支将会在研究完成时获得额外的进度加成。<BR><PAGE>§nResearch Aids§r<BR>研究通常表现得漫无目的，而我能够通过一些其他手段来指导研究的方向。在研究过程当中使用一些特定的临近方块、物品或是知书将能够让我把研究聚焦于一个特定的研究分支。<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>例如，使用书架能够在我的研究过程当中提供参考资料，这将会带来一些特殊的选项，它们出现的几率比普通选项更高，这些选项将会用金色的边框突出表示以作区分。比如当你选择书架辅助研究时，它会提供“平衡”和“注解”两个选项。<BR>当你开始研究时，你可以选择使用东西辅助研究，但是值得注意的是，每选择一个额外的辅助设施都会降低初始的灵感数量。<BR>可能有很多东西能够帮助我进行研究，值得我进行一些尝试。
+research.THEORYRESEARCH.stage.2=现在我已经有一个合适的工作空间，是时候进行一些研究了。为了完成我的追求，我现在可以开始构造操纵魔法的理论了。<BR>首先，我需要确保台桌上有足够的纸张，我的书写工具有足够的墨水。我现在可以选择开始研究理论了。<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>在画面的顶部，我能够看到我在这一轮研究当中拥有多少灵感（以灯泡表示）。在我进行研究时，左侧会出现一叠纸，选择他们就会给我提供两个不同的研究路线选择。每一条道路都会指明为我提供何种知识，改变额在一种或多种分类上的见解。<BR>有些选择会需要特定的物品，金色叹号 §6！§r 标记的物品将会在选择时被消耗。<BR>通常来说，我只能推进已经解锁的研究分支，但我很肯定我偶尔也能发现全新的研究分支。<BR>我能够不断地进行研究，但值得注意的是我每次进行选择都会消耗我的灵感，当我灵感枯竭时研究就会完成。我初始可用的灵感数量会随着我的魔法知识的增进而增加。<BR>我在研究分支的进度会以百分比显示 — 达到100%完成度就会提供一份理论，即使进度没有达到100%也会在完成研究时累加到现有的进度当中，同时也有可能在某一分支的进度超过100%。当前研究进度最多的分支将会在研究完成时获得额外的进度加成。<BR><PAGE>§nResearch Aids§r<BR>研究通常表现得漫无目的，而我能够通过一些其他手段来指导研究的方向。在研究过程当中使用一些特定的临近方块、物品或是知书将能够让我把研究聚焦于一个特定的研究分支。<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>例如，使用书架能够在我的研究过程当中提供参考资料，这将会带来一些特殊的选项，它们出现的几率比普通选项更高，这些选项将会用金色的边框突出表示以作区分。比如当你选择书架辅助研究时，它会提供“平衡”和“注解”两个选项。<BR>当你开始研究时，你可以选择使用东西辅助研究，但是值得注意的是，每选择一个额外的辅助设施都会降低初始的灵感数量。<BR>可能有很多东西能够帮助我进行研究，值得我进行一些尝试。
 #
 research.UNLOCKAUROMANCY.title=发现：神秘学
 research.UNLOCKAUROMANCY.stage.1=借助Vis来制作拥有魔力的物品已经为我打开了新世界的大门，但我绝不会止步于此。一定有办法直接操纵周围的灵气，一定有一种将Vis从空气中引出的方法，让它们为我所用。<BR>我应该研究我周围的世界，走到世界的边界，在那里我会学到我所需要的知识。<BR>有时我能感受到自己正受到超出我理解能力之外的力量的驱使 — 听不见的声音促使我走向强大的力量与知识。<BR>操纵Vis将会成为这个旅程上的又一大步。
@@ -1374,9 +1374,9 @@ research.EVERFULLURN.title=无尽之瓮
 research.EVERFULLURN.stage.1=炼金术的创造事实上比我预想的容易的多。如果我能以某种方式自动化地创造一些简单而实用的东西，那么这将是炼金术的进一步突破。<BR>或许无限水源是一个良好的开始？
 research.EVERFULLURN.stage.2=从瓮口不断涌出的一小股清泉让无尽之瓮能够用来为水桶,药瓶和其他流体容器提供水源.<BR>它还能够为两格范围内的流体容器自动添水,只要这些容器能够从顶部注水.配合坩埚可以很完美地实现自动化,当然别的方面也有诸多妙用.<BR>每制造一桶水都会从灵气中抽取1点vis.<BR>水的味道有点...奇怪。我确定无需担心。
 #
-research.POTIONSPRAYER.title=Potion Sprayer
+research.POTIONSPRAYER.title=药水喷雾器
 research.POTIONSPRAYER.stage.1=我进行了一些初步的测试，试图通过使用源质来实现普通的药水炼制系统。我的结果好坏参半。<BR>我应该想尽办法来让它工作。
-research.POTIONSPRAYER.stage.2=This has been an effort in frustration, but I have managed to salvage some success from the jaws of failure. I can indeed replicate the magical effects of a potion by combining the essentia it contains, but the result is extremely volatile. There is no way to simply decant the results into a potion bottle - at least none that I have found so far.<BR>The volatile substance immediately dissipates when exposed to air, but it can still transfer the magical effects to anything nearby, much like splash potion.<BR>I have crafted something that I am calling a Potion Sprayer. You supply it with a potion that acts as a template and then provide it with the correct types of essentia. The sprayer will then manufacture a dose of the potion and store it internally. I can store up to 8 such doses.<BR>When it receives a redstone signal it will emit a single dose of the potion in a 3x3x3 area in front of it.
+research.POTIONSPRAYER.stage.2=这是一段艰难的尝试，但是我依然从失败的海洋当中捞出了些许成果。我确实可以通过结合药水所拥有的源质来复制它的魔法效果，但是得到的结果非常不稳定，没有简单可行的方法将得到的结果装入空瓶 - 至少目前为止我还没有发现这样的方法。<BR>得到的不稳定物质暴露在空气中将会迅速消散，但是它的魔法效果依然会施加到周围的任何物体上，就像是喷溅药水一样。<BR>我制作了一个称为药水喷雾器的装置。你需要给它提供一瓶药水作为模板，然后给它提供正确类型的源质，它就会制造一定剂量的药水并存储在自己内部。在它内部，我最多可以存储8份剂量的药水。<BR>在收到红石信号时，它将会释放一份剂量的药水，作用于前方3x3x3的范围上。
 #
 ##########################################
 # INFUSION
@@ -1419,7 +1419,7 @@ research.m_swimmer.text=多游游泳。
 research.m_jumper.text=多跳一跳。
 #
 research.PAVINGSTONES.title=奥术铺路石
-research.PAVINGSTONES.stage.1=虽然魔导透镜会显示当地的灵气，但是能够在更大范围内获得灵气的总体概览会非常有用。这种设备应该很容易设计和制造。
+research.PAVINGSTONES.stage.1=Arcane stone has no innate magical properties of its own, but acts as a spell sponge of sorts. I should be able to add all manner of enchantments to them.
 research.PAVINGSTONES.stage.2=<PAGE>§o旅行者铺路石§r<DIV>通过改变奥术石砖的魔法结构，我成功制造出了可以使任何走过它的人加速通过的铺路石。<BR>行走于其上时会短暂的提升速度与灵活性。<PAGE>§o屏障石§r<DIV>通过改变奥术石砖的魔法结构，我成功将它们转变成了能够阻止任何生物通过的奥术屏障。<BR>值得注意的是，这层屏障并不是100%万无一失，它们也不能阻止其他玩家的进入。他们能够抵御常见的威胁，当然，也会阻止傀儡穿过。<BR>为了达到最佳使用效果，你需要在你想要保护的区域和外部之间建造一条完整的屏障。<BR>可以通过红石信号来关闭屏障。<BR>屏障石上方的颜色会指示其当前工作状态。<BR>紫色代表着屏障正在阻止实体穿过。<BR>蓝色代表着屏障已经被红石信号关闭。<BR>红色代表着当前屏障石的铺设仍有可以通过的空隙,并不能完全保护这块区域。
 #
 research.ELEMENTALTOOLS.title=元素工具
@@ -1444,7 +1444,7 @@ research.CURIOSITYBAND.stage.2=我的理论得到了实证 - 我找到了从经�
 #
 research.VERDANTCHARMS.title=翡翠指环
 research.VERDANTCHARMS.stage.1=我偶然发现自己深受扭曲的折磨，我要设法保护自己的意识不受侵蚀。
-research.VERDANTCHARMS.stage.2=我设计出这款神秘饰品用以驱逐体内的毒素或者是受到的其他类似的效果。不幸的是，它并不能治愈实际创伤。<BR>指环内部可以容纳一定量的灵气并且它需要通过奥术充能基座或是有其他类似功能的设备进行充能- 它不会自动从环境中获取灵气。<LINE>有两项注魔附魔可供选用。<PAGE>§n再生§r<BR>这项附魔使翡翠指环能治愈使用者的伤势。<LINE>§n续航§r<BR>这项附魔使翡翠指环能够缓慢提供饱食度及水下呼吸所需的氧气。
+research.VERDANTCHARMS.stage.2=我设计出这款神秘饰品用以驱逐体内的毒素或者是受到的其他类似的效果。不幸的是，它并不能治愈实际创伤。<BR>指环内部可以容纳一定量的灵气并且它需要通过奥术充能基座或是有其他类似功能的设备进行充能- 它不会自动从环境中获取灵气。<BR>有两项注魔附魔可供选用。<PAGE>§n再生§r<BR>这项附魔使翡翠指环能治愈使用者的伤势。<LINE>§n续航§r<BR>这项附魔使翡翠指环能够缓慢提供饱食度及水下呼吸所需的氧气。
 #
 ##########################################
 # ARTIFICE
@@ -1560,7 +1560,7 @@ research.FOCUSPLAN.stage.2=我设计了一种medium符印来让我规划哪些�
 #
 research.FOCUSCHARGE.title=核心修饰：充能
 research.FOCUSCHARGE.stage.1=我学习了各种通过调整核心符印来控制法术效能的方式。<BR>我想我能够通过调整施术过程中引导的Vis数量来控制符印的消耗和效能。
-research.FOCUSCHARGE.stage.2=我的想法再次得到了证实！充能符印能够让我延迟法术施放 — 而在这个过程当中，越来越多的Vis将被吸入核心当中，在我最终释放能量的时候，它会变得更加强大。<BR>然而，这个符印使得效果在最初施放时的威力比之前弱了很多 — 大约是平时的一半，但是只要我延迟法术的施放，我就能够进行充能并将威力提升到平时的两倍。<BR>Vis消耗也会在过程中同步改变。
+research.FOCUSCHARGE.stage.2=我的想法再次得到了证实！充能符印能够让我延迟法术施放 — 而在这个过程当中，越来越多的Vis将被吸入核心当中，在我最终释放能量的时候，它会变得更加强大。<BR>然而，这个符印使得效果在最初施放时的威力比之前弱了很多 — 大约是平时的一半，但是只要我延迟法术的施放，我就能够进行充能并将威力提升到平时的两倍。<BR>Vis消耗也会在过程中同步改变。<PAGE>我同时学会了通过迅捷符印来加快施术速度。它会使核心以两倍的速度进行施术（与充能），但是核心的效果威力将会有所降低。
 #
 research.FOCUSBURST.title=核心修饰：爆裂
 research.FOCUSBURST.stage.1=我应该利用我所学的东西来尝试创造一种核心修饰符印来同时对付多个敌人。
