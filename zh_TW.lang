@@ -1,4 +1,4 @@
-#
+﻿#
 # Items
 ###################################
 #
@@ -166,8 +166,8 @@ item.thaumometer.name=秘術觀測鏡
 item.sanity_checker.name=San值檢測計
 item.resonator.name=源質共鳴器
 item.grapple_gun.name=奧術鈎索
-item.grapple_gun_tip.name=Grappler Head
-item.grapple_gun_spool.name=Grappler Spool
+item.grapple_gun_tip.name=鈎索前端
+item.grapple_gun_spool.name=鈎索繩軸
 #
 # Baubles
 #
@@ -193,9 +193,9 @@ item.cloud_ring.name=雲行戒指
 # Casters & Foci
 #
 item.caster_basic.name=魔道籠手
-item.focus_1.name=Blank Lesser Focus
-item.focus_2.name=Blank Advanced Focus
-item.focus_3.name=Blank Greater Focus
+item.focus_1.name=空白低階核心
+item.focus_2.name=空白進階核心
+item.focus_3.name=空白卓越核心
 item.Focus.cost1=魔素/每次施放
 item.focus_pouch.name=核心腰包
 #
@@ -204,7 +204,7 @@ item.focus_pouch.name=核心腰包
 #
 item.creative_flux_sponge.name=咒波海綿
 item.turret.basic.name=自動十字弩
-item.turret.advanced.name=強化自動十字弩
+item.turret.advanced.name=進階自動十字弩
 item.turret.bore.name=奧術鑽掘機
 item.enchanted_placeholder.name=任意附魔物件
 item.enchanted_placeholder.text=必須擁有以下附魔：
@@ -515,7 +515,7 @@ entity.thaumcraft.CultistPortalLesser.name=小型緋色傳送門
 entity.thaumcraft.EldritchCrab.name=異象魔蟹
 entity.thaumcraft.InhabitedZombie.name=蹣跚屍軀
 entity.thaumcraft.TurretBasic.name=自動十字弩
-entity.thaumcraft.TurretAdvanced.name=強化自動十字弩
+entity.thaumcraft.TurretAdvanced.name=進階自動十字弩
 entity.thaumcraft.TurretFocus.name=自動施術裝置
 entity.thaumcraft.TurretEldritch.name=遠古自動施術裝置
 #
@@ -713,70 +713,70 @@ fluid.liquid_death=亡水
 #
 # Specific Focus Upgrades
 ##############################
-thaumcraft.AIR.name=Air
-thaumcraft.AIR.text=Creates a blast of air that knocks things back, but causes only minor damage.
-thaumcraft.EARTH.name=Earth
-thaumcraft.EARTH.text=Hurls a blast of earthen shrapnel that causes significant damage and may break weaker blocks.  
-thaumcraft.FIRE.name=火炎
+thaumcraft.AIR.name=風
+thaumcraft.AIR.text=產生一股強風來擊退物體，但是只能造成輕微傷害。
+thaumcraft.EARTH.name=土
+thaumcraft.EARTH.text=發射一枚泥土榴彈，造成顯著傷害並破壞脆弱方塊。
+thaumcraft.FIRE.name=火
 thaumcraft.FIRE.text=向目標釋放火焰使其燃燒。
-thaumcraft.FROST.name=寒冰
-thaumcraft.FROST.text=放出冷冽的寒冰，對目標造成傷害並凍結。可使水結冰且能對生命體造成緩速。
+thaumcraft.FROST.name=冰
+thaumcraft.FROST.text=放出冷冽的寒冰，對目標造成傷害並凍結。可以使水結冰並能對生物造成緩速。
 thaumcraft.BREAK.name=破壞
 thaumcraft.BREAK.text=生成一股能分解大多數材質的破壞之力。
 thaumcraft.CURSE.name=詛咒
 thaumcraft.CURSE.text=生成一股能干涉、傷害生命體的混沌能量。
 thaumcraft.FLUX.name=咒波
-thaumcraft.FLUX.text=召喚單純、未特化的魔素干涉活體（或屍體）。這股力量無法作用於非生命，意味著這可以穿透普通的護甲。
+thaumcraft.FLUX.text=召喚單純、未特化的魔素干涉活體（或屍體）。這股力量無法作用於非生命，但也意味著它可以穿透普通的護甲。
 thaumcraft.RIFT.name=撕裂
 thaumcraft.RIFT.text=干涉並置換空間，創造一條可供穿越的「洞穴」。
 thaumcraft.EXCHANGE.name=更替
 thaumcraft.EXCHANGE.text=將世界中的方塊替換為另一種。
-thaumcraft.HEAL.name=Heal
-thaumcraft.HEAL.text=This effect heals living creatures and harms undead.
+thaumcraft.HEAL.name=治癒
+thaumcraft.HEAL.text=具有治癒生物並傷害不死族的效果。
 #
 thaumcraft.TOUCH.name=接觸
-thaumcraft.TOUCH.text=將效應直接施放在接觸的目標上(roughly 4 blocks from the point of origin)。
+thaumcraft.TOUCH.text=將效應直接施放在接觸的目標上（距離所在位置約4格）。
 thaumcraft.PROJECTILE.name=投射
 thaumcraft.PROJECTILE.text=汲取能量並凝聚成魔法球投出。這顆彈丸射程很長，但速度緩慢且會受重力影響。
 thaumcraft.BOLT.name=雷光
-thaumcraft.BOLT.text=往目標處擊出一道雷光。法術為瞬發但是距離有限is limited to 16 blocks。
+thaumcraft.BOLT.text=往目標處擊出一道雷光。法術為瞬發但射程限於16格內。
 thaumcraft.PLAN.name=計畫
 thaumcraft.PLAN.text=使你能精確規劃作用於哪些方塊。
-thaumcraft.CLOUD.name=Cloud
-thaumcraft.CLOUD.text=Creates a lingering cloud of magical energy that effects anything inside.
-thaumcraft.MINE.name=Arcane Mine
-thaumcraft.MINE.text=Creates a mystical construct that detonates when a hostile entity passes nearby, releasing the effects upon it.
-thaumcraft.SPELLBAT.name=Summon Spellbat
-thaumcraft.SPELLBAT.text=Conjures a mystical bat that will hunt down enemies and inflict them with the focus's effects.
+thaumcraft.CLOUD.name=雲霧
+thaumcraft.CLOUD.text=創造一團法術效果的滯留雲霧，持續影響範圍中的物體。
+thaumcraft.MINE.name=奧術地雷
+thaumcraft.MINE.text=創造一球神秘的結構，當敵對實體經過附近時會引爆並釋放法術效果。
+thaumcraft.SPELLBAT.name=召喚術式蝠
+thaumcraft.SPELLBAT.text=變出一隻神秘的蝙蝠，追獵敵人並對它們釋放法術核心的效果。
 #
-thaumcraft.SCATTER.name=Scatter
-thaumcraft.SCATTER.text=Split trajectory into multiple random trajectories.
-thaumcraft.SPLITTARGET.name=Split Target
-thaumcraft.SPLITTARGET.text=Split a single target into two weaker ones.
-thaumcraft.SPLITTRAJECTORY.name=Split Trajectory
-thaumcraft.SPLITTRAJECTORY.text=Split a single trajectory into two weaker ones.
+thaumcraft.SCATTER.name=分散
+thaumcraft.SCATTER.text=將路徑分散成複數隨機路徑。
+thaumcraft.SPLITTARGET.name=拆分目標
+thaumcraft.SPLITTARGET.text=將單一目標拆分為兩個較低效的目標。
+thaumcraft.SPLITTRAJECTORY.name=拆分路徑
+thaumcraft.SPLITTRAJECTORY.text=將單一路徑拆分為兩條較低效的路徑。
 #
 # SETTING DESCRIPTIONS
-focus.common.power=Power
-focus.common.duration=Duration (seconds)
-focus.common.radius=Radius (blocks)
-focus.common.silk=Silk Touch
-focus.common.no=No
-focus.common.yes=Yes
-focus.common.fortune=Fortune
-focus.common.target=Target Type
-focus.common.friend=Friendly
-focus.common.enemy=Non-friendly
-focus.fire.burn=Burn duration (seconds)
-focus.scatter.cone=Spread angle (degrees)
-focus.scatter.forks=Trajectory forks
-focus.projectile.speed=Projectile speed
-focus.break.power=Breaking strength
-focus.plan.method=Planning method
-focus.plan.full=Full
-focus.plan.surface=Surface
-focus.rift.depth=Depth
-focus.heal.power=Healing
+focus.common.power=威力
+focus.common.duration=持續時間（秒）
+focus.common.radius=半徑（格）
+focus.common.silk=絲綢之觸
+focus.common.no=否
+focus.common.yes=是
+focus.common.fortune=幸運
+focus.common.target=目標類型
+focus.common.friend=友善
+focus.common.enemy=非友善
+focus.fire.burn=燃燒時間（秒）
+focus.scatter.cone=分散角度（度）
+focus.scatter.forks=路徑分岔
+focus.projectile.speed=投射速度
+focus.break.power=破壞力
+focus.plan.method=計畫規則
+focus.plan.full=全部
+focus.plan.surface=表面
+focus.rift.depth=深度
+focus.heal.power=治癒力
 #
 # GUI
 ###################
@@ -795,6 +795,7 @@ wandtable.text1=魔素消耗
 wandtable.text2=經驗消耗
 wandtable.text3=開始合成
 wandtable.text4=水晶消耗
+wandtable.text5=總複雜度
 button.create.theory=建立理論
 button.complete.theory=完成理論
 button.scrap.theory=廢棄理論
@@ -1218,7 +1219,7 @@ research.TaintSwarm.stage.1=有時受腐蝕的樹木會長出紫色的蜂巢狀�
 #
 research.TaintSeed.stage.1=有時腐蝕植株的捲鬚會纏繞成結狀。瘴氣會從這顆作為腐蝕發展源的「種子」中噴湧而出。 <BR>這些種子會擺動來自我防衛，但若想要擺脫區域的腐蝕就必須冒險清除它。 <BR>少了種子產生的瘴氣，腐蝕植株很快就揮枯萎死亡。
 #
-research.PRIMPEARL.title=Primordial Pearls
+research.PRIMPEARL.title=原初寶珠
 research.PRIMPEARL.stage.1=For the first time I find myself with a puzzle that I do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what I consider normal, everyday primal aspects. I have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of magic as you have come to understand it. I'm not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is fairly rare to find a whole one though. Often they have degenerated into nodules or even motes. Even a mote is valuable though.
 #
 research.FIRSTSTEPS.title=最初的一步
