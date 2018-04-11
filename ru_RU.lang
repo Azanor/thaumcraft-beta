@@ -885,116 +885,116 @@ key.categories.thaumcraft=Thaumcraft
 ###################
 #
 # GENERAL
-card.study.name=Study %1$s
-card.study.text=A large part of research is simply hitting the books and putting in the work. You study %1$s and gain 15 to 25 progress.
+card.study.name=Изучать категорию %1$s
+card.study.text=Большая часть исследований предполагает то, что нужно просто взяться за книги и окунуться в работу. Вы изучаете сведения о категории %1$s и получаете от 15 до 25 очков прогресса.
 #
-card.reject.name=Reject %1$s findings
-card.reject.text=You come to the realization that %1$s is not vital to your current research. You will not gain any more progress in %1$s or draw any cards related to it. You will not not lose your current progress.
+card.reject.name=Отбросить категорию %1$s
+card.reject.text=Вы осознали, что категория %1$s не существенна для Вашего текущего исследования. Вы больше не будете получать прогресс в категории %1$s или доставать связанные с ней карты. Вы не потеряете свой текущий прогресс.
 #
-card.experimentation.name=Experimentation
-card.experimentation.text=You perform some random experiments to see if something could be discovered. You gain 10 to 25 progress in a completely random category.
+card.experimentation.name=Экспериментирование
+card.experimentation.text=Вы проводите ряд случайных экспериментов, чтобы узнать, сможете ли Вы что-нибудь обнаружить. Вы получаете от 10 до 25 очков прогресса в совершенно случайной категории.
 #
-card.analyze.name=Analyze %1$s
-card.analyze.text=By thoroughly analyzing observations you have made about %1$s you might be able to put together a theory based on the collected data. Lose 1 %1$s observation to gain 25 to 50 %1$s progress and 5 %2$s progress.
+card.analyze.name=Анализ категории %1$s
+card.analyze.text=Тщательно проанализировав сделанные Вами наблюдения в категории %1$s, Вы могли бы составить теорию, основанную на собранных данных. Вы теряете 1 наблюдение в категории %1$s, но получаете от 25 до 50 очков прогресса в категории %1$s и 5 очков прогресса в категории %2$s.
 #
-card.rethink.name=Rethink
-card.rethink.text=You take a step back and reassess your findings. You get rid of invalid conclusions and proceed with fresh understanding. Lose 10 progress divided evenly between all current categories, but you regain 1 inspiration and gain a bonus draw.
+card.rethink.name=Переосмысление
+card.rethink.text=Вы делаете шаг назад и пересматриваете свои результаты. Вы избавляетесь от неверных выводов и приступаете к рассмотрению новых идей. Вы теряете 10 очков, разделенных поровну между всеми текущими категориями, но восстанавливаете 1 очко вдохновения и берете дополнительную карту.
 #
-card.ponder.name=Ponder
-card.ponder.text=You carefully consider all you have learned so far. Gain 25 progress divided evenly between all current active categories and a bonus draw.
+card.ponder.name=Размышления
+card.ponder.text=Вы тщательно обдумываете все то, что уже успели узнать. Вы получаете 25 очков прогресса, равномерно распределенных между всеми текущими категориями и берете дополнительную карту.
 #
-card.notation.name=Notation
-card.notation.text=While making notes of your discoveries thus far you find some errors and correct them. You lose all your progress in %1$s, but most of the lost progress is added to %2$s.
+card.notation.name=Нотация
+card.notation.text=Делая заметки о своих открытиях, Вы находите несколько ошибок и исправляете их. Вы теряете весь прогресс в категории %1$s, но его бóльшая часть добавляется к категории %2$s.
 #
-card.balance.name=Universal Theory
-card.balance.text=A moment of revelation shows you the common links between all you have been studying. Your total progress is split evenly amongst all currently revealed and valid categories and an additional category will gain the full bonus upon completion.
+card.balance.name=Универсальная теория
+card.balance.text=В момент озарения Вы видите связь между всем тем, что сейчас изучаете. Весь Ваш текущий прогресс будет равномерно распределен между всеми открытыми и допустимыми категориями, а также дополнительная категория получит полный бонус по завершении исследования.
 #
-card.curio.name=Study Curio
-card.curio.text=While examining a curio often reveals some interesting information it is much better to study it as part of controlled research.
+card.curio.name=Изучить реликт
+card.curio.text=Несмотря на то, что изучение реликта часто позволяет выявить интересные данные, намного лучше исследовать его в ходе контролируемого исследования.
 #
-card.inspired.name=Inspired
-card.inspired.text=Inspired by the progress you have made so far, your mind explores paths you have not considered before. You gain %1$s %2$s.
+card.inspired.name=Вдохновение
+card.inspired.text=Вдохновленный таким успехом, Ваш разум открывает пути, о которых Вы раньше и не задумывались. Вы получаете %1$s очков прогресса в категории %2$s.
 #
-card.enchantment.name=Study Enchantment
-card.enchantment.text=You study normal enchantment to see how it functions at a fundamental level. You are sure that is shares a lot in common with the enchantment methods used in Infusion and Artifice. You lose 5 experience levels, but will gain 15 to 20 progress in both Infusion and Auromancy.
+card.enchantment.name=Изучить зачарование
+card.enchantment.text=Вы изучаете обычное зачарование, чтобы понять, как оно работает на фундаментальном уровне. Вы уверены, что оно имеет много общего с методами зачарования, используемыми в Изобретениях или Инфузии. Вы теряете 5 уровней опыта, но получаете от 15 до 20 очков прогресса в Ауромантии и Инфузии. 
 #
-card.beacon.name=Aural Influence
-card.beacon.text=You believe that the beacon interacts in some way with the mystical aura. You carefully study this and while you cannot find anything concrete this time you have been inspired. You regain 2 inspiration, 1 bonus draw and n additional category will gain the full bonus upon completion.
+card.beacon.name=Влияние ауры
+card.beacon.text=Вы думаете, что маяк каким-то образом взаимодействует с магической аурой. Вы внимательно изучаете его, и хотя в этот раз у Вас и не получается прийти к чему-то конкретному, Вы чувствуете себя воодушевленным. Вы восстанавливаете 2 очка вдохновения и берете дополнительную карту, а также дополнительная категория получит полный бонус по завершении исследования. 
 #
-card.dragonegg.name=Draconic Studies
-card.dragonegg.text=The aura around the egg swirls with strange and chaotic energies. Occasionally you glimpse strange order in the chaos. 
+card.dragonegg.name=Учения Дракона
+card.dragonegg.text=Аура вокруг яйца пропитана странной и хаотической энергией. Иногда Вы замечаете непривычный порядок в этом хаосе.
 #
-card.celestial.name=Celestial Studies
-card.celestial.text=You take some of the celestial notes you have made and compare them for possible correlations with your primary research category. You gain 25 to 50 inspiration toward %1$s. You may gain other things as well...
+card.celestial.name=Изучение небес
+card.celestial.text=Вы берете несколько сделанных Вами заметок о небесах и сравниваете их, пытаясь найти связь с Вашей основной категорией исследования. Вы получаете от 25 до 50 очков прогресса в категории %1$s. Также есть шанс получить что-нибудь ещё...
 #
 # ALCHEMY
-card.concentrate.name=Concentrate
-card.concentrate.text=Often much can be learned by concentrating a substance into its purest form. Attempt to concentrate some %1$s essentia. Gain 15 Alchemy and 1 bonus draw. There is also a chance you will gain 1 inspiration.
+card.concentrate.name=Сконцентрировать
+card.concentrate.text=Концентрируя вещество в его чистой форме, нередко удается узнать много нового. Вы пытаетесь сконцентрировать немного эссенции %1$s. Вы получаете 15 очков прогресса в Алхимии и берете дополнительную карту. С некоторым шансом Вы также восстановите 1 очко вдохновения.
 #
-card.reactions.name=Reactions
-card.reactions.text=Studying the reactions between two different types of vis should prove beneficial. You should study what happens when %1$s essentia reacts with %2$s essentia. Gain 25 Alchemy. There is also a chance you will gain 1 inspiration.
+card.reactions.name=Реакции
+card.reactions.text=Изучение реакций между двумя разными типами Вис должно принести пользу. Вам необходимо узнать, что происходит, когда эссенция %1$s реагирует с эссенцией %2$s. Вы получаете 25 очков прогресса в Алхимии. С некоторым шансом Вы также восстановите 1 очко вдохновения.
 #
-card.synthesis.name=Synthesis
-card.synthesis.text=When essentia combines to form more complex forms a number of interesting and intricate reactions take place. You will learn much by combining %1$s essentia with %2$s essentia and then studying the resulting combination. Gain 40 Alchemy. There is also a chance you will gain 1 inspiration.
+card.synthesis.name=Синтез
+card.synthesis.text=Когда эссенции соединяются друг с другом для создания более сложных форм, происходит ряд интересных и сложных реакций. Смешав эссенцию %1$s с эссенцией %2$s, а после, изучив получившееся соединение, Вы узнаете много нового. Вы получаете 40 очков прогресса в Алхимии. С некоторым шансом Вы также восстановите 1 очко вдохновения.
 #
 # INFUSION
-card.measure.name=Measure
-card.measure.text=You take some time to make detailed measurements of various types of essentia and the potential vis they contain. Gain 15 Infusion progress and 1 bonus draw.
+card.measure.name=Измерения
+card.measure.text=Вы тратите какое-то время на то, чтобы провести тщательное измерение различных типов эссенции и потенциального содержания в них Вис. Вы получаете 15 очков прогресса в категории Наполнение и берете дополнительную карту.
 #
-card.channel.name=Channel %1$s Essentia
-card.channel.text=You set up a simple experiment to examine what happens when you channel %1$s during infusion. Gain 25 Infusion.
+card.channel.name=Направить эссенцию %1$s
+card.channel.text=Вы проводите простой эксперимент, чтобы посмотреть, что происходит, когда Вы направляете эссенцию %1$s в процессе наполнения. Вы получаете 25 очков прогресса в категории Наполнение.
 #
-card.infuse.name=Experimental Infusion
-card.infuse.text=By making assumptions on the results of infusing certain objects with essentia and then testing those results valuable insight may be gained. You will learn much by combining %1$s essentia with %2$s and then studying the result. Gain %3$s Infusion.
+card.infuse.name=Экспериментальное наполнение
+card.infuse.text=На основе предположений о последствиях наполнения эссенцией определенных объектов, а также последующей проверки этих результатов можно получить ценные знания. Вы узнаете много нового, смешав эссенцию %1$s и %2$s, а затем изучив результат. Вы получаете %3$s очков прогресса в категории Наполнение.
 #
 # ARTIFICE
-card.calibrate.name=Calibrate
-card.calibrate.text=You take some time to properly calibrate your instruments and tools. Gain 15 Artifice and a bonus draw.
+card.calibrate.name=Калибровка
+card.calibrate.text=Вы тратите некоторое время на то, чтобы как следует откалибровать свои инструменты. Вы получаете 15 очков прогресса в Изобретениях и берете дополнительную карту.
 #
-card.mindmatter.name=Mind over Matter
-card.mindmatter.text=You carefully examine and take apart some basic components in the hopes of finding new ways to assemble them into more complex creations. Gain %1$s Artifice. 
+card.mindmatter.name=Усилием воли
+card.mindmatter.text=Вы тщательно осматриваете и разбираете несколько базовых компонентов в надежде найти новые пути, позволяющие собрать из них более сложные творения. Вы получаете %1$s очков прогресса в Изобретениях. 
 #
-card.tinker.name=Tinker
-card.tinker.text=You start tinkering with some devices to find new ways of incorporating them into magical creations. Gain %1$s to %2$s Artifice.
+card.tinker.name=Умелец
+card.tinker.text=Вы начинаете возиться с несколькими устройствами, чтобы найти новые способы, позволяющие включить их в свои магические творения. Вы получаете от %1$s до %2$s очков прогресса в Изобретениях.
 #
 # AUROMANCY
-card.spellbinding.name=Spellbinding
-card.spellbinding.text=You bind various test enchantments to small pieces of leftover crystal. They have no practical purpose, but grant you invaluable knowledge. Lose up to 5 experience levels, but gain 5 Auromancy per level lost.
+card.spellbinding.name=Привязка чар
+card.spellbinding.text=Вы привязываете несколько пробных чар к маленьким осколкам, которые остались от кристалла. У них нет практического применения, но они дадут Вам бесценные знания. Вы теряете до 5 уровней опыта, но за каждый потерянный уровень получаете 5 очков прогресса в Ауромантии.
 #
-card.awareness.name=Awareness
-card.awareness.text=You open yourself to the flows of vis around you. You gain a deeper understanding of how it works and the underlying nature of things, but this leaves you metaphysically vulnerable. Gain 20 Auromancy. There is a chance you gain Eldritch knowledge and Warp. 
+card.awareness.name=Осознание
+card.awareness.text=Вы открываетесь потокам Вис вокруг Вас. Вы получаете более глубокое понимание их природы и того, как они работают, но это делает Вашу душу уязвимой. Вы получаете 20 очков прогресса в Ауромантии. С некоторым шансом Вы можете получить Искажение, а также знания о Потустороннем.
 #
-card.focus.name=Spiritual Focus
-card.focus.text=You focus your mind on the magical and spiritual energy around you, hoping to grow more attuned to its ebb and flow. Gain 15 Auromancy and a bonus draw.
+card.focus.name=Духовная фокусировка
+card.focus.text=Вы фокусируете свой разум на магической и духовной энергии вокруг Вас, надеясь, что Вы сможете лучше приспособиться к ее приливам и отливам. Вы получаете 15 очков прогресса в Ауромантии и берете дополнительную карту.
 #
 # GOLEMANCY
-card.sculpting.name=Sculpting
-card.sculpting.text=By creating simple and short lived animated figurines you can hone your knowledge. Gain 20 Golemancy and a bonus draw.
+card.sculpting.name=Лепка
+card.sculpting.text=Ненадолго оживляя простые фигурки, Вы можете оттачивать свои знания. Вы получаете 20 очков прогресса в Големостроении и берете дополнительную карту.
 #
-card.scripting.name=Scripting
-card.scripting.text=A large part of Golemancy is creating intricate arcane texts to control your creations. By creating some test scripts you can further your understanding. Gain 25 Golemancy. This consumes additional paper and ink from the research table. 
+card.scripting.name=Начертание
+card.scripting.text=Большая часть работы в Големостроении состоит в написании сложных магических текстов для контроля ваших созданий. Создав несколько пробных текстов, Вы сможете лучше понять ее. Вы получаете 25 очков прогресса в Големостроении. На это будут израсходованы дополнительные листы бумаги и чернила со стола исследований. 
 #
-card.synergy.name=Synergy
-card.synergy.text=At its root Golemancy is a blend of alchemy, artifice and infusion. Only by fully understanding how these three disciplines interact with each other will you be able to master Golemancy. Lose 15 points divided evenly between Alchemy, Artifice and Infusion to gain 30 Golemancy. An additional category will gain the full bonus upon completion.
+card.synergy.name=Синергия
+card.synergy.text=В основе Големостроения лежит смесь Алхимии, Изобретений и Наполнения. Только полное понимание того, как взаимодействуют эти три направления, поможет Вам овладеть Големостроением. Вы потеряете 15 очков прогресса, разделенных поровну между Алхимией, Изобретениями и Инфузией, но получите 30 очков прогресса в Големостроении. Дополнительная категория получит полный бонус по завершении исследования.
 #
 # ELDRITCH
-card.darkwhisper.name=Dark Whispers
-card.darkwhisper.text=The brain in a jar has been very talkative lately. It promises you ancient secrets for all your experience. Can you trust it?
+card.darkwhisper.name=Темный шепот
+card.darkwhisper.text=В последнее время мозг в банке очень разговорчив. Он обещает рассказать Вам древние секреты в обмен на весь Ваш опыт. Можете ли Вы ему доверять?
 #
-card.glyph.name=Study Glyphs
-card.glyph.text=You study the ancient glyphs. What Eldritch secrets do they hold? You find the ancient language difficult to understand, but now and again some nugget of truth reveals itself to you.
+card.glyph.name=Изучить глифы
+card.glyph.text=Вы изучаете древние глифы. Какие Потусторонние секреты они скрывают? Вы считаете, что древний язык сложен для понимания, но время от времени Вам открываются крупицы истины.
 #
-card.portal.name=Voices from Beyond
-card.portal.text=Bathed in the light of this strange portal you find strange thoughts invading your mind. Most are incomprehensible, but some fills your mind with strange inspirations.
+card.portal.name=Голоса извне
+card.portal.text=Купаясь в свете этого таинственного портала, Вас посещают странные мысли. Большинство из них невозможно понять, но они наполняют ваш разум необычным вдохновением.
 #
-card.revelation.name=Revelation
-card.revelation.text=Studying the Eldritch is a dangerous pursuit, but the knowledge you can uncover is often worth it. You gain 30 Eldritch progress and 5 to 10 progress in a random category. You will also gain some temporary and normal Warp and an additional category will gain the full bonus upon completion. 
+card.revelation.name=Откровение
+card.revelation.text=Изучение Потустороннего - опасное занятие, но знания, которые Вы можете обнаружить, стоят этого. Вы получаете 30 очков прогресса в знаниях о Потустороннем и от 5 до 10 очков прогресса в случайной категории. Вы также получаете немного временного и обычного Искажения. Дополнительная категория получит полный бонус по завершении исследования.
 #
-card.realization.name=Sudden Realization
-card.realization.text=While pondering the nature of the Eldritch you come to a sudden and shocking realization on the true nature of the universe. You gain 15 Eldritch progress and 5 to 10 progress in two random categories. You will also gain some temporary Warp. There is a chance you may gain some normal Warp as well.
+card.realization.name=Внезапное осознание
+card.realization.text=Рассматривая природу Потустороннего, Вы приходите к внезапному и шокирующему осознанию истинной природы вселенной. Вы получаете 15 очков прогресса в знаниях о Потустороннем и от 5 до 10 очков прогресса в двух случайных категориях. Вы также получаете немного временного Искажения. Есть шанс получить вдобавок обычное Искажение.
 #
-card.truth.name=Find Truth
-card.truth.text=You desperately try and find the truth behind the Eldritch and what it could mean for the world. You gain 10 to 25 Eldritch progress and a bonus draw. You will also gain some temporary Warp.
+card.truth.name=Найти истину
+card.truth.text=Вы отчаянно пытаетесь найти истину, кроющуюся за Потусторонним, и то, что она может значить для всего мира. Вы получаете от 10 до 25 очков прогресса в знаниях о Потустороннем и берете дополнительную карту. Вы также получаете немного временного Искажения.
 #
 # Other
 ###################
@@ -1161,12 +1161,12 @@ tc.aspect.alkimia=Алхимия, Химия
 #  
 # Research categories
 tc.research_category.BASICS=Основы
-tc.research_category.AUROMANCY=Auromancy
+tc.research_category.AUROMANCY=Ауромантия
 tc.research_category.ALCHEMY=Алхимия
-tc.research_category.ARTIFICE=Artifice
-tc.research_category.INFUSION=Arcane Infusion
-tc.research_category.GOLEMANCY=Golemancy
-tc.research_category.ELDRITCH=Eldritch
+tc.research_category.ARTIFICE=Изобретения
+tc.research_category.INFUSION=Наполнение
+tc.research_category.GOLEMANCY=Големостроение
+tc.research_category.ELDRITCH=Потустороннее
 #  
 # Knowledge Types
 tc.type.theory=Теория
