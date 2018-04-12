@@ -18,8 +18,8 @@ item.loot_bag.common.name=平凡藏寶袋
 item.loot_bag.uncommon.name=罕見藏寶袋
 item.loot_bag.rare.name=珍稀藏寶袋
 tc.lootbag=右鍵開啟或留存等待交易
-item.primordial_pearl.mote.name=原初塵埃
-item.primordial_pearl.nodule.name=原初凝核
+item.primordial_pearl.mote.name=原初微粒
+item.primordial_pearl.nodule.name=原初團塊
 item.primordial_pearl.pearl.name=原初寶珠
 item.pech_wand.name=地精法杖
 item.celestial_notes.name=天文筆記
@@ -315,7 +315,7 @@ tile.arcane_ear_toggle.name=奧術之耳（切換）
 tile.levitator.name=奧術懸浮器
 tile.everfull_urn.name=無盡之甕
 tile.lamp_arcane.name=奧術燈
-tile.lamp_growth.name=生長之燈
+tile.lamp_growth.name=熟成之燈
 tile.lamp_fertility.name=繁衍之燈
 tile.jar_normal.name=封罐
 tile.jar_void.name=虛空之罐
@@ -1217,10 +1217,10 @@ research.Taintacle.stage.1=這些像觸手一樣的危險組織體會鞭向任�
 #
 research.TaintSwarm.stage.1=有時受腐蝕的樹木會長出紫色的蜂巢狀組織。微小的螫人生物群會從中生成並蜂湧而出。 <BR>它們移動敏捷，難以閃避或擊落。幸運的是其個體還算脆弱，有做好準備的旅人應該能夠輕鬆處理。
 #
-research.TaintSeed.stage.1=有時腐蝕植株的捲鬚會纏繞成結狀。瘴氣會從這顆作為腐蝕發展源的「種子」中噴湧而出。 <BR>這些種子會擺動來自我防衛，但若想要擺脫區域的腐蝕就必須冒險清除它。 <BR>少了種子產生的瘴氣，腐蝕植株很快就揮枯萎死亡。
+research.TaintSeed.stage.1=有時腐蝕植株的捲鬚會纏繞成團狀。瘴氣會從這顆作為腐蝕發展源的「種子」中噴湧而出。 <BR>這些種子會擺動來自我防衛，但若想要擺脫區域的腐蝕就必須冒險清除它。 <BR>少了種子產生的瘴氣，腐蝕植株很快就揮枯萎死亡。
 #
 research.PRIMPEARL.title=原初寶珠
-research.PRIMPEARL.stage.1=For the first time I find myself with a puzzle that I do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what I consider normal, everyday primal aspects. I have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of magic as you have come to understand it. I'm not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is fairly rare to find a whole one though. Often they have degenerated into nodules or even motes. Even a mote is valuable though.
+research.PRIMPEARL.stage.1=我這輩子第一次遇到自認無法解開的謎團。 <BR>這個東西蘊含著純粹的原初要素，然而其特性卻與我所知的普通原初要素相異。 對此現象我持數種理論： <BR>第一，這種「珠子」可能是現實世界創世初期的原初物質所殘留下——在它們融合成複合要素之前就已存在的原始魔法。 <BR>或者，這種原初物質的來源處的魔法規則可能與我所知相違。 我不確定何種解釋較令人擔憂。 <BR>無論如何，這顆珠子都是一個強大且蘊含著近乎無限魔力的至寶。 <BR>完整的寶珠極其罕見，通常都已衰退成團塊，甚至是微粒。然而即使是一點微粒也相當珍貴。
 #
 research.FIRSTSTEPS.title=最初的一步
 research.FIRSTSTEPS.stage.1=誰能想像一搓粉塵居然能創造出這本奇妙的書？ 雖然整本書幾乎都是空白的，然而它暗示著有一種前所未聞的強大魔法：秘術。 <BR>首先我必須先研究在我眼前的這個魔法世界。為此，我將需要一項工具——書上稱之為秘術觀測鏡。 <BR>然而普通的工作台無法勝任這項需要魔法能量的製程，因此我需要利用其他更細膩的手法。對普通的工作台撒上世界鹽應該能解決這個問題。這本書給了我適當的咒語，所以這步驟應該不會有什麼難度。 <BR>為了確保進度，我會在每個條目的第一頁列下自己必須達成的目標。
@@ -1271,7 +1271,7 @@ research.FLUX.stage.1=我觀測到靈氣中似乎有不尋常的能量在累積�
 research.FLUX.stage.2=自我提醒：不要讓咒波累積。這樣很糟糕。 <BR>非常、非常糟糕。 <BR>當咒波累積到一定的程度，可能會像布一樣被自身的魔力扯破。咒波會由這道裂口溢出，而原始、混亂的魔力將竄入現實世界中造成各種災難。 <BR>未來我應該要小心避免咒波的產生。事實上，我現在就該開始找方法來中和咒波。
 research.f_toomuchflux.text=累積咒波
 #
-research.WARP.warn=我的思緒被我所得到的學識影響
+research.WARP.warn=我的思緒受我所學干涉
 research.WARP.title=扭曲
 research.WARP.stage.1=許多人認為不應該涉足魔法，沒什麼能比扭曲更能證實這項觀點。 <BR>從事禁忌的魔法研究或者製作悖於自然的造物，都會讓秘術師眼中的現實世界無論在精神上還是在肉體上都出現畸變，此現象謂之扭曲。 <BR>雖然有些扭曲是暫時的，會隨著時間而消退，然而目前尚未找到任何能消除永久性扭曲的手段。當一個秘術師選擇忽視扭曲的危險並持續追求力量，往往會發現自己已陷入難以回頭的滑坡。 <BR>扭曲通常徵狀為心神恍惚，肉體疼痛或者出現幻覺。 <BR>這些徵狀並不僅僅只是精神上的疾患，有時候視野中會湧現出有用的知識，而幻覺也會駭人地化為實體。 <BR>我應該好好的監測自己的心理健康狀況，我為此設計了一項設備，應該能準確告訴我何時該停下腳步。
 #
@@ -1506,18 +1506,18 @@ research.MIRRORESSENTIA.title=源質之鏡
 research.MIRRORESSENTIA.stage.1=在遠距傳輸物品時，魔鏡給了很大的幫助，同樣的原理是否也能運用在源質上呢？
 research.MIRRORESSENTIA.stage.2=源質之鏡，名符其實，可以傳送源質，如同魔鏡傳輸物品。但有些重要的限制。 <BR>我無法直接將源質灌鏡子——它只能從容器中抽取源質，並傳送到類似注魔方陣的裝置上。 <BR>事實上應該說是這面鏡子讓裝置能透過鏡面抽取容器中的源質。 <BR>這面鏡子就如同傳送物品的魔鏡，也會對靈氣造成相當的壓力並產生咒波。
 #
-research.ARCANELAMP.title=Arcane Lamp
-research.ARCANELAMP.stage.1=My laboratory has seemed quite gloomy of late. I should find a way to light it more effectively.
-research.ARCANELAMP.stage.2=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will disappear soon after the lamp has been removed.<BR>The lamp can be turned off by applying a redstone signal.
-research.ARCANELAMP.bore=§nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+research.ARCANELAMP.title=奧術燈
+research.ARCANELAMP.stage.1=最近我的實驗室看起來很陰沉。我應該要找個方法來點亮它。
+research.ARCANELAMP.stage.2=這盞神奇的燈具可以裝設在牆壁、地板或是天花板上，並提供強大而穩定的光線。 <BR>16格內若有低於「安全」亮度等級的區域也會產生額外的光源。謹記：只有你能阻止殭屍狂潮。 <BR>這些附加光源在燈具被移除後很快就會消失。 <BR>可以利用紅石訊號來關閉這盞燈。
+research.ARCANELAMP.bore=§n奧術鑽掘機§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
-research.LAMPGROWTH.title=Lamp of Growth
-research.LAMPGROWTH.stage.1=My studies of Lux has shown me that light can be used as a medium for other helpful magics.<BR>Light already has a positive effect on plants so if I add some magic to the equation it should only improve things, right?
-research.LAMPGROWTH.stage.2=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with §2Herba§0 essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+research.LAMPGROWTH.title=熟成之燈
+research.LAMPGROWTH.stage.1=我對Lux的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>光線對植物有著正面的效果，所以只要在其中加上一些魔力只會增強效果，對吧？
+research.LAMPGROWTH.stage.2=不同於單純用於照明的奧術燈，熟成燈無法在未提供§2Herba§0源質時散發光芒。而沐浴在其光芒之下的作物會生長得比平時更為快速。 <BR>可以利用管道系統將源質送入燈具。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
-research.LAMPFERTILITY.title=Lamp of Fertility
-research.LAMPFERTILITY.stage.1=My studies of Lux has shown me that light can be used as a medium for other helpful magics.<BR>Mundane light has been proven to have both positive and negative effects on moods. I think I might be able to greatly improve that effect by adding some arcane flair.
-research.LAMPFERTILITY.stage.2=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires §dDesiderium§0 essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
+research.LAMPFERTILITY.title=繁衍之燈
+research.LAMPFERTILITY.stage.1=我對Lux的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>一般的光線已被證實會對情緒產生正面以及負面的影響。我覺得我或許能添加一些奧術氣息的手法來大幅提升這種效果。
+research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供§dDesiderium§0源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.BELLOWS.title=Arcane Bellows
 research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
@@ -1527,7 +1527,7 @@ research.HUNGRYCHEST.title=Hungry Chest
 research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
 research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories. 
 #
-research.ARCANEBORE.title=Arcane Bore
+research.ARCANEBORE.title=奧術鑽掘機
 research.ARCANEBORE.stage.1=I need to work out an automated way of digging out large areas. It should be a fairly simple matter to redesign one of my new turrets to target the ground instead of enemies.<BR>My discovery of the breaker focus effect should allow me to create a specialized and limited version of a caster that can be used by this mining turret. 
 research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arcane Bore. Once placed and given a redstone signal it will start digging out an area in front of it. The device requires a pickaxe to be placed inside it. Normally inanimate objects cannot use foci, but with a liberal application of sympathetic magic the focus could be 'tricked' into working.<BR>This had a unforeseen benefit as well - the pickaxe is actually being used to dig on metaphysical level and any attributes and enchantments it has are actually applied to the digging process. The pickaxe will wear out however, but much slower than normal - I estimate an average pickaxe will last about 50 times longer.<BR>The size of the area dug is also determined by the material of the pickaxe. The more enchantable the material is, the more efficient the sympathetic magic is, which in turn increases the area that can be dug.<BR>Any blocks dug are ejected at the position of the bore. If there is an inventory adjacent to the bore the items will be placed in there instead.<PAGE>The bore also requires vis to function consuming 1 vis for every 4 blocks dug.<LINE>The bore can be turned to face any direction except down. To change the direction it faces simply left-click on it to make it face towards you.<BR>Like other arcane turrets the bore will also respond to arcane activator rails - passing over an inactive rail will swith it on while an active one will disable it.
 #
