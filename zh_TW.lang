@@ -165,9 +165,9 @@ item.hand_mirror.name=魔術手鏡
 item.thaumometer.name=秘術觀測鏡
 item.sanity_checker.name=San值檢測計
 item.resonator.name=源質共鳴器
-item.grapple_gun.name=奧術鈎索
-item.grapple_gun_tip.name=鈎索前端
-item.grapple_gun_spool.name=鈎索繩軸
+item.grapple_gun.name=奧術鉤索
+item.grapple_gun_tip.name=鉤索前端
+item.grapple_gun_spool.name=鉤索繩軸
 #
 # Baubles
 #
@@ -1520,18 +1520,18 @@ research.LAMPFERTILITY.stage.1=我對Lux的研究結果顯示光線可以做為�
 research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供§dDesiderium§0源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.BELLOWS.title=奧術風箱
-research.BELLOWS.stage.1=我應該利用一些簡單的作品來測試自己的理論。讓非生物動起來是項不簡單的創舉。 <BR>對熔爐鼓風能增加熱度和冶煉速度，但若我用手鼓風簡直是瘋狂的浪費我的時間和才能。當風箱能自己鼓風，一切都將徹底改變。
+research.BELLOWS.stage.1=我應該利用一些簡單的作品來測試自己的理論。讓無生物動起來是項不簡單的創舉。 <BR>對熔爐鼓風能增加熱度和冶煉速度，但若我用手鼓風簡直是瘋狂的浪費我的時間和才能。當風箱能自己鼓風，一切都將徹底改變。
 research.BELLOWS.stage.2=奧術風箱和普通的風箱作用相同，唯一的差異是它會源源不絕，不間斷地鼓送氣流。 <BR>如同我所預期，將它接在熔爐上可以增進融煉速度。 <BR>也能安裝在坩堝上來減少煮沸所需的時間。 <BR>可以利用紅石訊號來抑制風箱。 <BR>我相信未來還會展現出更多功能。
 #
-research.HUNGRYCHEST.title=Hungry Chest
-research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
-research.HUNGRYCHEST.stage.2=This chest, which I have decided to call a Hungry Chest, will gobble up any loose items that touches it. In effect it functions like a hopper, though it does not output any items it gathers to other inventories. 
+research.HUNGRYCHEST.title=饕餮之箱
+research.HUNGRYCHEST.stage.1=我應該利用一些簡單的作品來測試我的無生物動作物件理論。 <BR>不起眼的漏斗確實是項貴重的工具，但是需要用到大量的鐵。有時你根本沒有多餘（甚至根本不夠）的鐵來將物品送進箱子。 <BR>但如果儲物箱可以自己收集物品呢？
+research.HUNGRYCHEST.stage.2=這個箱子，我命名為饕餮之箱，會自行吞噬任何它接觸到的掉落物。 事實上它的作用相當於一個漏斗，然而並不會將任何收集到的物品送出。
 #
 research.ARCANEBORE.title=奧術鑽掘機
 research.ARCANEBORE.stage.1=I need to work out an automated way of digging out large areas. It should be a fairly simple matter to redesign one of my new turrets to target the ground instead of enemies.<BR>My discovery of the breaker focus effect should allow me to create a specialized and limited version of a caster that can be used by this mining turret. 
 research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arcane Bore. Once placed and given a redstone signal it will start digging out an area in front of it. The device requires a pickaxe to be placed inside it. Normally inanimate objects cannot use foci, but with a liberal application of sympathetic magic the focus could be 'tricked' into working.<BR>This had a unforeseen benefit as well - the pickaxe is actually being used to dig on metaphysical level and any attributes and enchantments it has are actually applied to the digging process. The pickaxe will wear out however, but much slower than normal - I estimate an average pickaxe will last about 50 times longer.<BR>The size of the area dug is also determined by the material of the pickaxe. The more enchantable the material is, the more efficient the sympathetic magic is, which in turn increases the area that can be dug.<BR>Any blocks dug are ejected at the position of the bore. If there is an inventory adjacent to the bore the items will be placed in there instead.<PAGE>The bore also requires vis to function consuming 1 vis for every 4 blocks dug.<LINE>The bore can be turned to face any direction except down. To change the direction it faces simply left-click on it to make it face towards you.<BR>Like other arcane turrets the bore will also respond to arcane activator rails - passing over an inactive rail will swith it on while an active one will disable it.
 #
-research.GRAPPLEGUN.title=Arcane Grappler
+research.GRAPPLEGUN.title=奧術鉤索
 research.GRAPPLEGUN.stage.1=In my endevours thusfar I have learned an important fact: Mobility is key.<BR>I should create a tool that will allow me to traverse diffucult terrain with ease.<BR>I believe magnets are the answer. Rare earths can be used to create magnets, but they are limited in what they can stick to. If I can enhance their innate magnetic properties with some form of sympathetic magic it should allow them to stick to anything.
 research.GRAPPLEGUN.stage.2=By manipulating magnets with vis and a few key enchantments they are able to stick to virtually anything. I am calling this phenomenon Arcanomagnetism. I am sure I will find many uses for this, but for now I have used this knowledge to create an Arcane Grappler.<BR>This launcher fires a brass globe enhanced with arcanomagnets that will attach to any block it comes into contact with. The globe, in turn, is attached to the launcher with a spool of rope that will reel the user towards the globe allowing him access to previously inaccessible locations.<BR>The user can detach the globe at any point by crouching.<BR>I should take care using the grappler as it does not protect me from falling and it is possible to gain impressive speeds if pulled far enough.<LINE>The grappler requires vis to function and will need to be recharged.
 #
