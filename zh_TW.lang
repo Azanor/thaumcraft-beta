@@ -1519,9 +1519,9 @@ research.LAMPFERTILITY.title=繁衍之燈
 research.LAMPFERTILITY.stage.1=我對Lux的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>一般的光線已被證實會對情緒產生正面以及負面的影響。我覺得我或許能添加一些奧術氣息的手法來大幅提升這種效果。
 research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供§dDesiderium§0源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
-research.BELLOWS.title=Arcane Bellows
-research.BELLOWS.stage.1=I should start with some simple projects to test my theories. Animating the inanimate is no simple feat.<BR>Stoking furnaces with a bellows increases their heat and smelting speed, but pumping air by hand seems like a crazy waste of my time and talent. Now, if the bellows was able to pump itself that would be a different matter entirely.
-research.BELLOWS.stage.2=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of never-ending air.<BR>As I had hoped they can be attached to furnances to increase their smelting speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>I am confident more uses will reveal themselves eventually. 
+research.BELLOWS.title=奧術風箱
+research.BELLOWS.stage.1=我應該利用一些簡單的作品來測試自己的理論。讓非生物動起來是項不簡單的創舉。 <BR>對熔爐鼓風能增加熱度和冶煉速度，但若我用手鼓風簡直是瘋狂的浪費我的時間和才能。當風箱能自己鼓風，一切都將徹底改變。
+research.BELLOWS.stage.2=奧術風箱和普通的風箱作用相同，唯一的差異是它會源源不絕，不間斷地鼓送氣流。 <BR>如同我所預期，將它接在熔爐上可以增進融煉速度。 <BR>也能安裝在坩堝上來減少煮沸所需的時間。 <BR>可以利用紅石訊號來抑制風箱。 <BR>我相信未來還會展現出更多功能。
 #
 research.HUNGRYCHEST.title=Hungry Chest
 research.HUNGRYCHEST.stage.1=I should start with some simple projects to test my theories on animating inanimate objects.<BR>The humble hopper has proven an invaluable tool, but it requires a lot of iron to craft. Sometimes you simply do not have the iron to spare for something that (at its most basic) places objects into chests.<BR>But what if chests could gather their own items?
