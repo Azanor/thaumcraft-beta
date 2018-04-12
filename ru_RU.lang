@@ -72,7 +72,7 @@ item.salis_mundus.name=Salis Mundus
 item.primal_charm.name=Primal Charm
 item.mirrored_glass.name=Mirrored Glass
 item.plate.brass.name=Brass Plate
-item.plate.iron.name=Iron Plate
+item.plate.iron.name=Железная пластина
 item.plate.thaumium.name=Thaumium Plate
 item.plate.void.name=Void Metal Plate
 item.gear.brass.name=Brass Gear
@@ -81,7 +81,7 @@ item.gear.void.name=Void Metal Gear
 item.fabric.name=Enchanted Fabric
 item.mind.clockwork.name=Clockwork Mind
 item.mind.biothaumic.name=Biothaumic Mind
-item.vis_resonator.name=Vis Resonator
+item.vis_resonator.name=Вис-резонатор
 #
 # Consumables
 #
@@ -192,7 +192,7 @@ item.cloud_ring.name=Cloudstepper Ring
 #
 # Casters & Foci
 #
-item.caster_basic.name=Caster's Gauntlet 
+item.caster_basic.name=Перчатка заклинателя
 item.focus_1.name=Blank Lesser Focus
 item.focus_2.name=Blank Advanced Focus
 item.focus_3.name=Blank Greater Focus
@@ -791,7 +791,7 @@ recipe.type.arcane.shapeless=Магический верстак (Бесформ
 recipe.type.crucible=Тигель
 recipe.type.infusion=Arcane Infusion
 recipe.type.construct=Mystical Construct
-wandtable.text1=Vis Cost
+wandtable.text1=Затраты Вис
 wandtable.text2=Experience Cost
 wandtable.text3=Start Crafting
 wandtable.text4=Crystals Required
@@ -1236,7 +1236,7 @@ research.THEORYRESEARCH.stage.2=Теперь, когда у меня есть р
 #
 research.UNLOCKAUROMANCY.title=Открытие Ауромантии
 research.UNLOCKAUROMANCY.stage.1=Создание объектов при помощи Вис открыло передо мной совершенно новый мир, но все же я не доволен. Должен быть способ воздействовать на ауру напрямую. Способ извлекать Вис из самого воздуха и преобразовывать его по своему желанию.<BR>Я должен изучить окружающий меня мир и отправиться к его границам. Там я узнаю, что мне необходимо.<BR>Иногда я чувствую, будто меня движут силы, лежащие за пределами моего понимания - незнакомые голоса, что подталкивают меня на путь к великой силе и знанию.<BR>Придание Вис формы станет еще одним шагом в этом путешествии.
-research.UNLOCKAUROMANCY.stage.2=Slowly but surely I am beginning to understand the nature of Vis. So much is still hidden to me, but I think I now know enough to begin moulding it to my will. For this I will need a tool. A very special tool.<BR>I have stumbled upon some dusty scrolls penned by a long dead thaumaturge. It describes how to craft wands that are used to store and channel vis. The insights I learned from the scrolls were useful, but the application seems so limiting. Why trap vis in a wand when it is all around you? Even the wand itself seems impractical to me. If you need something to grasp and shape the aura it should be something appropriate. Something like a glove.<BR>Any old glove will not do - it will need to be handcrafted from the finest leather and laced with vis conductive materials. Iron is a poor vis conductor, but it is all I have available to me at this time.<BR>Luckily there will be no mucking about with magical woods and so forth to store the vis, but I will need some way of channeling vis directly from the aura - a vis resonator if you will. I will also attach a stripped-down thaumometer to the glove so I can monitor the local aura.<BR>Lastly I will place a receptacle on the back of the glove. The scrolls mentioned using special crystalline foci to channel the vis from the wands. Their crystalline lattice shapes the vis into different configurations to create all manner of useful effects. Brilliant actually. It irks me that I did not think of it first. Fortunately I have already thought of several ways to improve on the design and the shape of the glove lends itself on manipulating the flow of vis much more than the old style wands could.  
+research.UNLOCKAUROMANCY.stage.2=Медленно, но верно я начинаю понимать природу энергии Вис. Так много всего еще сокрыто от меня, но думаю, что теперь я знаю достаточно, для того чтобы начать менять ее форму по своему желанию. Для этого мне понадобится инструмент. Особый инструмент.<BR>Я наткнулся на несколько пыльных свитков, написанных давно умершим тауматургом. В них описывается, как создавать жезлы, которые нужны для того, чтобы хранить и направлять Вис. Знания, что я подчерпнул из свитков, были полезны, но их применение кажется очень ограниченным. Зачем пленять Вис внутри жезла, когда он есть повсюду? Даже сам жезл кажется мне непрактичным. Если Вам нужно что-то хватать или формировать ауру, то для этого должно быть что-то подходящее. Что-то вроде перчатки.<BR>Какая-нибудь старая перчатка сделать этого не сможет, она должна быть изготовлена из кожи наивысшего качества, а также покрыта материалами, проводящими Вис. Железо - достаточно плохой проводник, но это все, что доступно мне на данном этапе.<BR>К счастью, мне не придется слоняться по магическим лесам и заниматься прочими вещами, для того чтобы хранить Вис, но мне понадобится какой-то способ по выкачиванию его прямо из ауры - Вис-резонатор, если угодно. Я также прикреплю к перчатке простенький таумометр, чтобы следить за местной аурой.<BR>Ну и наконец, я сделаю углубление на задней части перчатки. В свитках упоминается использование специальных кристаллических фокусировщиков для направления потока Вис, хранящегося в жезлах. Их кристаллическая решетка изменяет форму Вис, позволяя создавать всевозможные полезные эффекты. Это гениально. Раздражает то, что я не подумал об этом в первую очередь. К счастью, я уже придумал несколько способов по улучшению дизайна и формы перчатки, что позволит управлять потоком Вис в большей степени, чем это могли делать старые жезлы.  
 research.UNLOCKAUROMANCY.stage.3=I have managed to put together a basic casting gauntlet and I am quite pleased with the result. It is still a bit rough, but that is to be expected from a prototype. Even as a prototype it will prove useful, allowing me to make delicate adjustments or alteration to thaumaturgical devices and safely manipulate them in all manner of ways.<BR>My initial experiments have shown that it is only able to draw vis from a relatively small area around me. I should be careful not to deplete the aura.<BR>My main stumbling block now is that in its current state it is little more than a magical wrench. Until I crack the secret of crafting foci its utility will be limited. The path before me is clear...
 research.m_deepdown.text=Доберитесь до глубочайших недр этого мира.
 research.m_uphigh.text=§bПобывайте на вершинах самых высоких гор, которые только сможете найти.
