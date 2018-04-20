@@ -75,8 +75,8 @@ item.plate.brass.name=黃銅板
 item.plate.iron.name=鐵板
 item.plate.thaumium.name=靛鐵板
 item.plate.void.name=虛鋼板
-item.mechanism_simple.name=Simple Arcane Mechanism
-item.mechanism_complex.name=Complex Arcane Mechanism
+item.mechanism_simple.name=單純奧術機械
+item.mechanism_complex.name=複雜奧術機械
 item.fabric.name=附魔布料
 item.mind.clockwork.name=發條中樞
 item.mind.biothaumic.name=秘術生體中樞
@@ -137,7 +137,7 @@ item.crimson_plate_legs.name=緋色教徒脛甲
 item.crimson_praetor_helm.name=緋色審判者頭盔
 item.crimson_praetor_chest.name=緋色審判者胸甲
 item.crimson_praetor_legs.name=緋色審判者脛甲
-item.thaumostatic_harness.name=秘術磁場韁繩
+item.thaumostatic_harness.name=秘術靜電韁繩
 item.traveller_boots.name=旅人之靴
 #
 # Tools
@@ -635,7 +635,7 @@ golem.trait.text.flyer=這個傀儡能夠飛行，但作為其機動力的代價
 golem.trait.climber=攀岩者
 golem.trait.text.climber=陡峭的懸崖無法阻止這個傀儡。它能輕鬆地攀爬上其目的地。
 golem.trait.scout=斥候
-golem.trait.text.scout=這個傀儡具有更大的視野，能在更寬廣的區域工作(由放置處算起48格，而非通常的32格)。
+golem.trait.text.scout=這個傀儡具有更大的視野，能在更寬廣的區域工作（由放置處算起48格，而非通常的32格）。
 golem.trait.fireproof=抗火
 golem.trait.text.fireproof=此傀儡對火焰免疫。
 golem.trait.brutal=殘暴
@@ -773,9 +773,9 @@ focus.fire.burn=燃燒時間（秒）
 focus.scatter.cone=分散角度（度）
 focus.scatter.forks=路徑分岔
 focus.projectile.speed=投射速度
-focus.projectile.bouncy=Bouncy
-focus.projectile.seeking.friendly=Seek friendly
-focus.projectile.seeking.hostile=Seek hostile
+focus.projectile.bouncy=彈性
+focus.projectile.seeking.friendly=追蹤友善
+focus.projectile.seeking.hostile=追蹤敵對
 focus.break.power=破壞力
 focus.plan.method=計畫規則
 focus.plan.full=全部
@@ -1003,9 +1003,9 @@ card.truth.text=你拼命試圖找出異象背後的真相，以及它對世界�
 #
 # Other
 ###################
-thaumcraft.config.graphics=Graphics Settings
-thaumcraft.config.world=World Settings
-thaumcraft.config.misc=Miscellaneous Settings
+thaumcraft.config.graphics=圖形設定
+thaumcraft.config.world=世界設定
+thaumcraft.config.misc=雜項設定
 itemGroup.thaumcraft=Thaumcraft
 #
 got.crystals=當你在蒐集水晶時手指感到了異樣的刺痛。這意味著什麼呢？或許稍作歇息可以得到答案。
@@ -1500,7 +1500,7 @@ research.LEVITATOR.stage.2=雖然並非真正的飛行，退而求其次的成�
 #
 research.INFERNALFURNACE.title=煉獄熔爐
 research.INFERNALFURNACE.stage.1=我發現我一整天有很大一部分的時間都浪費在用熔爐進行融煉。肯定有方法能讓我稍微輕鬆一點？ <BR>是時候到很熱的地方尋找靈感了。 到真的很熱的地方。
-research.INFERNALFURNACE.stage.2=我從一趟地獄之旅的發現中得到了靈感。我可以製作一座由黑曜石、地獄磚與一搓世界鹽所建成，駕馭著純粹的§cIgnis§0，無須任何燃料的高效熔爐。實際上其高效在於偶而會以顆粒、稀土礦或其他物品的形式產出額外的物質。 <BR>雖然基本上是無消耗，但除非從靈氣中為它提供魔素，否則其速度也相當緩慢。 <LINE>任何落入熔爐頂部的物質都會在融煉後從前方吐出——若是無法正常熔煉的物品將會被摧毀。 <BR>我可以直接在前方放置箱子或其他容器來讓它將成品送進去。<PAGE>Cooking meat in the infernal furnace will produce meaty chunks as a byproduct. I can combine three different types of these chunks with sugar for a delicious and invigorating treat. 
+research.INFERNALFURNACE.stage.2=我從一趟地獄之旅的發現中得到了靈感。我可以製作一座由黑曜石、地獄磚與一搓世界鹽所建成，駕馭著純粹的§cIgnis§0，無須任何燃料的高效熔爐。實際上其高效在於偶而會以顆粒、稀土礦或其他物品的形式產出額外的物質。 <BR>雖然基本上是無消耗，但除非從靈氣中為它提供魔素，否則其速度也相當緩慢。 <LINE>任何落入熔爐頂部的物質都會在融煉後從前方吐出——若是無法正常熔煉的物品將會被摧毀。 <BR>我可以直接在前方放置箱子或其他容器來讓它將成品送進去。<PAGE>使用煉獄熔爐烹調肉類產出的副產物為肉塊。我可以混和砂糖與三種肉塊來製作美味而振奮精神的點心。
 research.INFERNALFURNACE.bellows=將奧術風箱裝設於煉獄熔爐側面會產生有趣的效果。注入的新鮮空氣不僅能提升火焰的熔煉速度，也能使使它燃燒得更乾淨，從而減少其生成的咒波，更能增進融煉時產出額外顆粒與其他物質的機率。
 #
 research.MIRROR.title=鏡像魔法
@@ -1538,19 +1538,19 @@ research.HUNGRYCHEST.stage.1=我應該利用一些簡單的作品來測試我的
 research.HUNGRYCHEST.stage.2=這個箱子，我命名為饕餮之箱，會自行吞噬任何它接觸到的掉落物。 事實上它的作用相當於一個漏斗，然而並不會將任何收集到的物品送出。
 #
 research.ARCANEBORE.title=奧術鑽掘機
-research.ARCANEBORE.stage.1=I need to work out an automated way of digging out large areas. It should be a fairly simple matter to redesign one of my new turrets to target the ground instead of enemies.<BR>My discovery of the breaker focus effect should allow me to create a specialized and limited version of a caster that can be used by this mining turret. 
-research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arcane Bore. Once placed and given a redstone signal it will start digging out an area in front of it. The device requires a pickaxe to be placed inside it. Normally inanimate objects cannot use foci, but with a liberal application of sympathetic magic the focus could be 'tricked' into working.<BR>This had a unforeseen benefit as well - the pickaxe is actually being used to dig on metaphysical level and any attributes and enchantments it has are actually applied to the digging process. The pickaxe will wear out however, but much slower than normal - I estimate an average pickaxe will last about 50 times longer.<BR>The size of the area dug is also determined by the material of the pickaxe. The more enchantable the material is, the more efficient the sympathetic magic is, which in turn increases the area that can be dug.<BR>Any blocks dug are ejected at the position of the bore. If there is an inventory adjacent to the bore the items will be placed in there instead.<PAGE>The bore also requires vis to function consuming 1 vis for every 4 blocks dug.<LINE>The bore can be turned to face any direction except down. To change the direction it faces simply left-click on it to make it face towards you.<BR>Like other arcane turrets the bore will also respond to arcane activator rails - passing over an inactive rail will swith it on while an active one will disable it.
+research.ARCANEBORE.stage.1=我需要一個能夠大範圍自動挖掘的手段。我應該能輕鬆地將我的新砲台改造成瞄準地面而非敵人。 <BR>在核心破壞效果中的發現應該能讓我製作出專用的特製施術裝置，用於這座挖掘用的砲台。 
+research.ARCANEBORE.stage.2=我將設計出的挖角裝置稱為奧術鑽掘機。安置好後只要接收到紅石訊號就會開始挖掘其前方的方塊。這個裝置需要在內部放置一把鎬子。一般而言無機物是無法使用核心的，但充分利用協調魔法可以「欺騙」核心來讓它運作。<BR>其實這還有個意料外的優點——鎬子在抽象層面以及任何特性與附魔其實都會作用於其挖掘效果。雖然使用時鎬子還是會耗損，但遠比一般用法持久——我粗略估計鎬子大概能耐用50倍。 <BR>挖掘範圍的大小也是取決於鎬子的材料。愈易於附魔的材料，協調魔法就愈有效，從而增進其挖掘範圍。 <BR>所有挖下的方塊都會從鑽掘機中彈出。若鑽掘機旁有容器則物品會送入其中。 <PAGE>鑽掘機亦需要魔素以供運轉，每挖掘4方塊消耗1魔素。 <LINE>鑽掘機可以面向除了下方以外的任何方向。若想變更方向只要左鍵輕敲即可使它轉向你。 <BR>鑽掘機如同其他奧術砲台，會反映奧術觸發鐵軌——通過未啟動的奧術觸發鐵軌會使它開始挖掘，而啟動的奧術觸發鐵軌則會停止其運作。
 #
 research.GRAPPLEGUN.title=奧術鉤索
-research.GRAPPLEGUN.stage.1=In my endevours thusfar I have learned an important fact: Mobility is key.<BR>I should create a tool that will allow me to traverse diffucult terrain with ease.<BR>I believe magnets are the answer. Rare earths can be used to create magnets, but they are limited in what they can stick to. If I can enhance their innate magnetic properties with some form of sympathetic magic it should allow them to stick to anything.
-research.GRAPPLEGUN.stage.2=By manipulating magnets with vis and a few key enchantments they are able to stick to virtually anything. I am calling this phenomenon Arcanomagnetism. I am sure I will find many uses for this, but for now I have used this knowledge to create an Arcane Grappler.<BR>This launcher fires a brass globe enhanced with arcanomagnets that will attach to any block it comes into contact with. The globe, in turn, is attached to the launcher with a spool of rope that will reel the user towards the globe allowing him access to previously inaccessible locations.<BR>The user can detach the globe at any point by crouching.<BR>I should take care using the grappler as it does not protect me from falling and it is possible to gain impressive speeds if pulled far enough.<LINE>The grappler requires vis to function and will need to be recharged.
+research.GRAPPLEGUN.stage.1=從至今為止的努力中，我學到了一個重要的事實：機動力是關鍵。 <BR>我應該要創造一個工具來幫助我輕鬆越過險惡的地形。 <BR>我相信可以從磁鐵中得到解答。我可以從稀土中提煉磁鐵，然而它們能吸住的物質有限。若能利用協調魔法來改進其原有的磁力，我應該可以讓它們吸住任何物質。
+research.GRAPPLEGUN.stage.2=利用魔素與數種關鍵附魔來調整磁鐵使它能吸住幾乎所有物質。我將此現象稱為奧磁。我相信我可以找到各種不同的用途，但目前我只利用這項知識來製作奧術鉤索。 <BR>這組發射器射出一顆帶有奧磁的黃銅球體，可以附著於任何接觸到的物體。而後，發射器反過來收回連接在球體的繩索，將使用者拉向球體以到達以往無法觸及的場所。 <BR>使用者可以隨時蹲下以放開球體。 <BR>我應該要小心使用這組鉤索時並不能保護我免於跌落，若距離夠遠其加速度將使人難以忘懷。 <LINE>這組鉤索需要填充魔素以供運作。
 #
 ##########################################
 # AUROMANCY
 ##########################################
 #
 research.BASEAUROMANCY.title=基礎靈氣術
-research.BASEAUROMANCY.stage.1=在煉成手套完成後我必須製作核心。古老的卷軸裡對此並沒有詳盡的描述，所以我必須找出我自己的方法。 <BR>我有個想法，透過用魔素將水晶相互組合以組成核心。我最初的實驗失敗了……爆炸性的失敗。 <BR>我認為應該能從煉金術中找出解法。 <BR>若將秩序水晶作為晶核應該就能藉由其規制性質組成核心。而這道程序需要吸收 praecantatio 與 auram 源質。 <BR>最後得到的成品希望是一顆能吸收、駕馭魔素的晶體核心。
+research.BASEAUROMANCY.stage.1=在煉成手套完成後我必須製作核心。古老的卷軸裡對此並沒有詳盡的描述，所以我必須找出我自己的方法。 <BR>我有個想法，透過用魔素將水晶相互組合以組成核心。我最初的實驗失敗了……爆炸性的失敗。 <BR>我認為應該能從煉金術中找出解法。 <BR>若將秩序水晶作為晶核應該就能藉由其規制性質組成核心。而這道程序需要吸收praecantatio與auram源質。 <BR>最後得到的成品希望是一顆能吸收、駕馭魔素的晶體核心。
 research.BASEAUROMANCY.stage.2=利用煉金術來製作核心確實可行。核心既穩定又乾淨——現在我只需要印上妥善的紋章。為此，我需要核心操作台。 <BR>我擬定了一張核心操作台的藍圖。其作用機制各方面都與奧術工作台雷同，但魔素並非用於合成物品，而是用來將紋章印上核心。 <BR>要印上核心的紋章也必須經過設計。我希望能用一種紋章來放出火焰，但是我還需要多做些研究。 
 research.BASEAUROMANCY.stage.3=一切都就緒了。現在我要製作我第一顆核心。 <BR>將處理過的魔素結晶安置在空白的核心上，我能透過紋章決定核心的作用效果。 For now I only know the patterns for §nRoot§0, §nTouch§0 and §nFire§0.<BR>The §nRoot§0 node represents me, the caster. In the focal manipulator interface it is shown as an eye icon. The empty node below it is marked with both a target and a trajectory icon. Mediums (like §nTouch§0) require trajectories to determine what they effect - the §nRoot§0 node provides a trajectory that matches where the caster is looking so by linking §nTouch§0 to it I will be able to 'touch' anything I am looking at. Mediums almost always provide a target (in this case whatever has been 'touched') and some can also provide a trajectory. In this case though I require a target so I will be able to link the §nFire§0 effect.<BR>By linking §nRoot§0, §nTouch§0 and §nFire§0 in this way I will be able to create a focus that applies the §nFire§0 effect to whatever I touch.<BR>I could in theory link §nFire§0 directly to §nRoot§0, but since root provides the caster as a target that means I will simply set myself on fire.<BR>I can fine tune exactly what the §nFire§0 effect does by tweaking its damage and burn duration in the bottom right of the interface. Many patterns will allow me to fine tune them in this way.<BR>Creating a focus require three types of resources - the first is the crystals used in the crafting process, the second is vis from the aura, and lastly it also requires some player experience. Every time a focus is used it will also consume a small amount of vis from the aura.<PAGE>§nComplexity§0<BR>The effects I can create now are fairly simple and limited. There is a limit to how many patterns I can attach to a focus. This is measured as the focus Complexity. Each pattern type has a complexity cost and increasing their paramaters (for example the damage of a fire pattern) will increase the complexity further. Using a pattern more than once also incurs a stacking complexity cost increase of 50%.<BR>The complexity of a focus directly determines how much vis it will cost to cast and how long the caster gauntlet needs to cooldown between casts.
 research.f_onfire.text=貼近火進行研究。
