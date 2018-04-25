@@ -1662,13 +1662,13 @@ research.ARCANEBORE.stage.2=I have designed a mining device I am calling the Arc
 ##########################################
 # MISC
 ##########################################
-not.pechwand=Du kannst die funktionesweise noch nicht ermitteln.
+not.pechwand=Du kannst die Funktionesweise noch nicht ermitteln.
 got.pechwand=Hmmm, Interressant. Ich sollte dies weiter erforschen.
 got.onfire=Du fühlst die Hitze der Flamme.
 research.m_deepdown.text=Ergründe die tiefsten Tiefen der Welt.
-research.m_uphigh.text=Erklimme die Höchsten Gipfel die du finden kannst.
+research.m_uphigh.text=Erklimme die höchsten Gipfel die du finden kannst.
 got.deepdown=Du hast die Tiefen ergründet und viel gelernt.
-got.uphigh=Du siehst die Welt vor dir ausgebreitet. Deine Wahrnehmung hat sich erweitert.
+got.uphigh=Du siehst die Welt vor dir ausgebreitet. Deine Wahrnehmung erweitert sich.
 got.hellandback=Du hast den Nether erforscht.
 got.endoftheworld=Du hast das Ende gefunden.
 research.m_hellandback.text=Finde einen höllischen Ort.
