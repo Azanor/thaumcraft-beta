@@ -24,10 +24,10 @@ item.primordial_pearl.pearl.name=태초의 진주
 item.pech_wand.name=펙의 완드
 item.celestial_notes.name=천체 관측기록
 item.celestial_notes.sun.text=태양
-item.celestial_notes.stars_1.text=은하수, 1/4
-item.celestial_notes.stars_2.text=은하수, 2/4
-item.celestial_notes.stars_3.text=은하수, 3/4
-item.celestial_notes.stars_4.text=은하수, 4/4
+item.celestial_notes.stars_1.text=북쪽 은하수
+item.celestial_notes.stars_2.text=남쪽 은하수
+item.celestial_notes.stars_3.text=서쪽 은하수
+item.celestial_notes.stars_4.text=동쪽 은하수
 item.celestial_notes.moon_1.text=달, 만월
 item.celestial_notes.moon_2.text=달, 상현망
 item.celestial_notes.moon_3.text=달, 상현
@@ -75,9 +75,8 @@ item.plate.brass.name=황동 판
 item.plate.iron.name=철 판
 item.plate.thaumium.name=사우뮴 판
 item.plate.void.name=공허합금 판
-item.gear.brass.name=황동 기어
-item.gear.thaumium.name=사우뮴 기어
-item.gear.void.name=공허합금 기어
+item.mechanism_simple.name=간단한 아케인 기계부품
+item.mechanism_complex.name=복잡한 아케인 기계부품
 item.fabric.name=마법의 직물
 item.mind.clockwork.name=시계태엽 정신
 item.mind.biothaumic.name=자연마법 정신
@@ -189,6 +188,7 @@ item.voidseer_charm.name=공허시야의 진주
 item.voidseer_charm.text=암흑 속을 들여다 보다 보면... 뭔가가 뒤돌아보고 있는 걸 봤다고 맹세할 수 있다...
 item.curiosity_band.name=호기심의 머리띠
 item.cloud_ring.name=구름의 반지
+item.charm_undying.name=불사의 장신구
 #
 # Casters & Foci
 #
@@ -245,17 +245,17 @@ tile.crystal_terra.name=대지의 결정
 tile.crystal_ordo.name=질서의 결정
 tile.crystal_perditio.name=혼돈의 결정
 tile.crystal_vitium.name=뒤틀림의 결정
-tile.log.greatwood.name=그레이트우드 원목
-tile.log.silverwood.name=실버우드 원목
-tile.leaf.greatwood.name=그레이트우드 잎
-tile.leaf.silverwood.name=실버우드 잎
+tile.log_greatwood.name=그레이트우드 원목
+tile.log_silverwood.name=실버우드 원목
+tile.leaves_greatwood.name=그레이트우드 잎
+tile.leaves_silverwood.name=실버우드 잎
 tile.taint_log.name=테인트 원목
-tile.sapling.greatwood.name=그레이트우드 묘목
-tile.sapling.silverwood.name=실버우드 묘목
-tile.plank.greatwood.name=그레이트우드 목재
-tile.plank.silverwood.name=실버우드 목재
-tile.greatwood_stairs.name=그레이트우드 계단
-tile.silverwood_stairs.name=실버우드 계단
+tile.sapling_greatwood.name=그레이트우드 묘목
+tile.sapling_silverwood.name=실버우드 묘목
+tile.plank_greatwood.name=그레이트우드 목재
+tile.plank_silverwood.name=실버우드 목재
+tile.stairs_greatwood.name=그레이트우드 계단
+tile.stairs_silverwood.name=실버우드 계단
 tile.stone_arcane.name=아케인 스톤
 tile.stone_arcane_brick.name=아케인 스톤 벽돌
 tile.stone_ancient.name=고대의 돌
@@ -265,42 +265,42 @@ tile.stone_ancient_tile.name=고대의 돌 타일
 tile.stone_ancient_doorway.name=고대의 배리어
 tile.stone_ancient_glyphed.name=비석
 tile.stone_porous.name=기공뚫린 돌
-tile.arcane_stairs.name=아케인 스톤 계단
-tile.arcane_brick_stairs.name=아케인 벽돌 계단
-tile.ancient_stairs.name=고대의 돌 계단
-tile.translucent.amber_block.name=호박 블럭
-tile.translucent.amber_brick.name=호박 벽돌
-tile.translucent.empty.name=빈 공간
-tile.slab_wood.greatwood.name=그레이트우드 반 블록
-tile.slab_wood.silverwood.name=실버우드 반 블록
-tile.slab_stone.arcane.name=아케인 스톤 반 블록
-tile.slab_stone.arcane_brick.name=아케인 벽돌 반 블록
-tile.slab_stone.ancient.name=고대의 돌 반 블록
-tile.slab_stone.eldritch.name=엘드리치 돌 반 블록
+tile.stairs_arcane.name=아케인 스톤 계단
+tile.stairs_arcane_brick.name=아케인 벽돌 계단
+tile.stairs_ancient.name=고대의 돌 계단
+tile.amber_block.name=호박 블럭
+tile.amber_brick.name=호박 벽돌
+tile.empty.name=빈 공간
+tile.slab_greatwood.name=그레이트우드 반 블록
+tile.slab_silverwood.name=실버우드 반 블록
+tile.slab_arcane_stone.name=아케인 스톤 반 블록
+tile.slab_arcane_brick.name=아케인 벽돌 반 블록
+tile.slab_ancient.name=고대의 돌 반 블록
+tile.slab_eldritch.name=엘드리치 돌 반 블록
 tile.shimmerleaf.name=시머리프
 tile.cinderpearl.name=신더펄
 tile.vishroom.name=비쉬룸
 tile.grass_ambient.name=주변 잔디 블럭
-tile.loot_urn.common.name=평범한 항아리
-tile.loot_urn.uncommon.name=희귀한 항아리
-tile.loot_urn.rare.name=범상찮은 항아리
-tile.loot_crate.common.name=평범한 상자
-tile.loot_crate.uncommon.name=희귀한 상자
-tile.loot_crate.rare.name=범상찮은 상자
+tile.loot_urn_common.name=평범한 항아리
+tile.loot_urn_uncommon.name=희귀한 항아리
+tile.loot_urn_rare.name=범상찮은 항아리
+tile.loot_crate_common.name=평범한 상자
+tile.loot_crate_uncommon.name=희귀한 상자
+tile.loot_crate_rare.name=범상찮은 상자
 tile.flux_goo.name=플럭스 점액
 tile.taint_fibre.name=테인트 섬유
-tile.taint.crust.name=테인트 껍질
-tile.taint.soil.name=오염된 토양
-tile.taint.geyser.name=테인트 간헐천
-tile.taint.rock.name=오염된 암석
+tile.taint_crust.name=테인트 껍질
+tile.taint_soil.name=오염된 토양
+tile.taint_geyser.name=테인트 간헐천
+tile.taint_rock.name=오염된 암석
 tile.taint_feature.name=응어리진 테인트
 #
 # Devices
 #
 tile.dioptra.name=아케인 측량기
-tile.pillar.normal.name=인퓨전 기둥
-tile.pillar.ancient.name=고대의 인퓨전 기둥
-tile.pillar.eldritch.name=엘드리치 인퓨전 기둥
+tile.pillar_arcane.name=인퓨전 기둥
+tile.pillar_ancient.name=고대의 인퓨전 기둥
+tile.pillar_eldritch.name=엘드리치 인퓨전 기둥
 tile.infusion_matrix.name=루닉 매트릭스
 tile.bellows.name=아케인 풀무
 tile.arcane_workbench.name=아케인 작업대
@@ -329,7 +329,7 @@ tile.tube_buffer.name=에센시아 버퍼
 tile.smelter_basic.name=에센시아 추출기
 tile.smelter_thaumium.name=사우뮴 에센시아 추출기
 tile.smelter_void.name=공허합금 에센시아 추출기
-tile.alembic.normal.name=아케인 증류기
+tile.alembic.name=아케인 증류기
 tile.smelter_aux.name=보조 액체 배출구
 tile.smelter_vent.name=보조 기체 배출구
 tile.recharge_pedestal.name=충전대
@@ -348,70 +348,85 @@ tile.matrix_speed.name=인퓨전 가속의 돌
 tile.matrix_cost.name=인퓨전 효율의 돌
 tile.table_stone.name=돌 탁자
 tile.table_wood.name=나무 탁자
-tile.candle.white.name=흰색 수지 양초
-tile.candle.orange.name=주황색 수지 양초
-tile.candle.magenta.name=다홍색 수지 양초
-tile.candle.light_blue.name=하늘색 수지 양초
-tile.candle.yellow.name=노란색 수지 양초
-tile.candle.lime.name=연두색 수지 양초
-tile.candle.pink.name=분홍색 수지 양초
-tile.candle.gray.name=회색 수지 양초
-tile.candle.silver.name=밝은 회색 수지 양초
-tile.candle.cyan.name=청록색 수지 양초
-tile.candle.purple.name=보라색 수지 양초
-tile.candle.blue.name=파란색 수지 양초
-tile.candle.brown.name=갈색 수지 양초
-tile.candle.green.name=초록색 수지 양초
-tile.candle.red.name=붉은색 수지 양초
-tile.candle.black.name=검은색 수지 양초
-tile.pedestal.normal.name=아케인 주각
-tile.pedestal.eldritch.name=엘드리치 주각
-tile.pedestal.ancient.name=고대의 주각
-tile.nitor.white.name=흰색 나이터
-tile.nitor.orange.name=주황색 나이터
-tile.nitor.magenta.name=다홍색 나이터
-tile.nitor.light_blue.name=하늘색 나이터
-tile.nitor.yellow.name=노란색 나이터
-tile.nitor.lime.name=연두색 나이터
-tile.nitor.pink.name=분홍색 나이터
-tile.nitor.gray.name=회색 나이터
-tile.nitor.silver.name=밝은 회색 나이터
-tile.nitor.cyan.name=청록색 나이터
-tile.nitor.purple.name=보라색 나이터
-tile.nitor.blue.name=파란색 나이터
-tile.nitor.brown.name=갈색 나이터
-tile.nitor.green.name=초록색 나이터
-tile.nitor.red.name=붉은색 나이터
-tile.nitor.black.name=검은색 나이터
-tile.metal.thaumium.name=사우뮴 블럭
-tile.metal.void.name=공허합금 블럭
-tile.metal.alchemical.name=연금 구조물
-tile.metal.advanced_alchemical.name=고급 연금 구조물
-tile.metal.brass.name=황동 블럭
+tile.candle_white.name=흰색 수지 양초
+tile.candle_orange.name=주황색 수지 양초
+tile.candle_magenta.name=다홍색 수지 양초
+tile.candle_light_blue.name=하늘색 수지 양초
+tile.candle_yellow.name=노란색 수지 양초
+tile.candle_lime.name=연두색 수지 양초
+tile.candle_pink.name=분홍색 수지 양초
+tile.candle_gray.name=회색 수지 양초
+tile.candle_silver.name=밝은 회색 수지 양초
+tile.candle_cyan.name=청록색 수지 양초
+tile.candle_purple.name=보라색 수지 양초
+tile.candle_blue.name=파란색 수지 양초
+tile.candle_brown.name=갈색 수지 양초
+tile.candle_green.name=초록색 수지 양초
+tile.candle_red.name=붉은색 수지 양초
+tile.candle_black.name=검은색 수지 양초
+tile.pedestal_arcane.name=아케인 주각
+tile.pedestal_eldritch.name=엘드리치 주각
+tile.pedestal_ancient.name=고대의 주각
+tile.banner_crimson_cult.name=크림슨 컬트 깃발
+tile.banner_white.name=흰색 깃발
+tile.banner_orange.name=주황색 깃발
+tile.banner_magenta.name=다홍색 깃발
+tile.banner_light_blue.name=하늘색 깃발
+tile.banner_yellow.name=노란색 깃발
+tile.banner_lime.name=연두색 깃발
+tile.banner_pink.name=분홍색 깃발
+tile.banner_gray.name=회색 깃발
+tile.banner_silver.name=밝은 회색 깃발
+tile.banner_cyan.name=청록색 깃발
+tile.banner_purple.name=보라색 깃발
+tile.banner_blue.name=파란색 깃발
+tile.banner_brown.name=갈색 깃발
+tile.banner_green.name=초록색 깃발
+tile.banner_red.name=빨간색 깃발
+tile.banner_black.name=검은색 깃발
+tile.nitor_white.name=흰색 나이터
+tile.nitor_orange.name=주황색 나이터
+tile.nitor_magenta.name=다홍색 나이터
+tile.nitor_light_blue.name=하늘색 나이터
+tile.nitor_yellow.name=노란색 나이터
+tile.nitor_lime.name=연두색 나이터
+tile.nitor_pink.name=분홍색 나이터
+tile.nitor_gray.name=회색 나이터
+tile.nitor_silver.name=밝은 회색 나이터
+tile.nitor_cyan.name=청록색 나이터
+tile.nitor_purple.name=보라색 나이터
+tile.nitor_blue.name=파란색 나이터
+tile.nitor_brown.name=갈색 나이터
+tile.nitor_green.name=초록색 나이터
+tile.nitor_red.name=붉은색 나이터
+tile.nitor_black.name=검은색 나이터
+tile.metal_thaumium.name=사우뮴 블럭
+tile.metal_void.name=공허합금 블럭
+tile.metal_alchemical.name=연금 구조물
+tile.metal_alchemical_advanced.name=고급 연금 구조물
+tile.metal_brass.name=황동 블럭
 tile.flesh_block.name=살점 블럭
-tile.paving_stone.barrier.name=경계석
-tile.paving_stone.travel.name=여행석
-tile.paving_stone.travel_lit.name=발광의 여행석
+tile.paving_stone_barrier.name=경계석
+tile.paving_stone_travel.name=여행석
 tile.centrifuge.name=에센시아 원심분리기
 tile.mirror.name=마법의 거울
 tile.mirror_essentia.name=에센시아 거울
 tile.golem_builder.name=골렘 프레스
 #
 # Misc
-tile.effect.shock.name=정전기장
-tile.effect.sapping.name=흡수의 장
-tile.effect.glimmer.name=반짝임
+tile.effect_shock.name=정전기장
+tile.effect_sap.name=흡수의 장
+tile.effect_glimmer.name=반짝임
 tile.purifying_fluid.name=정화의 액체
 tile.liquid_death.name=액체 죽음
-tile.placeholder.furnace_brick.name=지옥불 화로
-tile.placeholder.furnace_obsidian.name=지옥불 화로
-tile.placeholder.gb_anvil.name=골렘 프레스
-tile.placeholder.gb_table.name=골렘 프레스
-tile.placeholder.gb_bars.name=골렘 프레스
-tile.placeholder.gb_cauldron.name=골렘 프레스
-tile.hole.name=Dimensional Tear
-tile.vacuum.name=죽음의 공허
-tile.barrier.name=보호의 기
+tile.placeholder_brick.name=지옥불 화로
+tile.placeholder_obsidian.name=지옥불 화로
+tile.placeholder_anvil.name=골렘 프레스
+tile.placeholder_table.name=골렘 프레스
+tile.placeholder_bars.name=골렘 프레스
+tile.placeholder_cauldron.name=골렘 프레스
+tile.hole.name=차원의 균열
+tile.barrier.name=보호의 오라
 #
 # Enchantments
 ###################################
@@ -464,60 +479,61 @@ warp.text.16=나지막이 주문을 외우는 소리가 들립니다.
 #
 # Entities
 ###################################
-entity.thaumcraft.ArcaneBore.name=아케인 보어
-entity.thaumcraft.Golem.name=골렘
-entity.thaumcraft.ThaumSlime.name=사우믹 슬라임
-entity.thaumcraft.GolemDart.name=골램 다트
-entity.thaumcraft.PrimalArrow.name=원소 화살
-entity.thaumcraft.FrostShard.name=얼음 덩어리
-entity.thaumcraft.ExplosiveOrb.name=화염탄
-entity.thaumcraft.ShockOrb.name=전격탄
-entity.thaumcraft.GolemOrb.name=에너지 볼트
-entity.thaumcraft.BottleTaint.name=테인트 병
-entity.thaumcraft.Firebat.name=지옥박쥐
-entity.thaumcraft.Spellbat.name=마법박쥐
-entity.thaumcraft.Wisp.name=위습
-entity.thaumcraft.Alumentum.name=알루멘텀
-entity.thaumcraft.GiantBrainyZombie.name=격노한 좀비
-entity.thaumcraft.BrainyZombie.name=화난 좀비
-entity.thaumcraft.FollowItem.name=다음 아이템
-entity.thaumcraft.SpecialItem.name=마법 아이템
-entity.thaumcraft.FallingTaint.name=테인트 부스러기
-entity.thaumcraft.AspectOrb.name=위상 구슬
-entity.thaumcraft.TaintCrawler.name=테인트 지렁이
-entity.thaumcraft.Taintacle.name=테인타클
-entity.thaumcraft.TaintacleTiny.name=작은 테인타클
-entity.thaumcraft.TaintacleGiant.name=거대 테인타클
-entity.thaumcraft.TaintSeed.name=테인트 씨앗
-entity.thaumcraft.TaintSeedPrime.name=거대 테인트 씨앗
-entity.thaumcraft.TaintSwarm.name=테인트 스웜
-entity.thaumcraft.Pech.name=펙 약탈자
-entity.thaumcraft.Pech.1.name=펙 마법사
-entity.thaumcraft.Pech.2.name=펙 스토커
-entity.thaumcraft.PrimalOrb.name=태초의 에너지 구체
-entity.thaumcraft.TravelingTrunk.name=여행 상자
+entity.ArcaneBore.name=아케인 보어
+entity.Golem.name=골렘
+entity.ThaumSlime.name=사우믹 슬라임
+entity.GolemDart.name=골램 다트
+entity.PrimalArrow.name=원소 화살
+entity.FrostShard.name=얼음 덩어리
+entity.ExplosiveOrb.name=화염탄
+entity.ShockOrb.name=전격탄
+entity.GolemOrb.name=에너지 볼트
+entity.BottleTaint.name=테인트 병
+entity.Firebat.name=지옥박쥐
+entity.Spellbat.name=마법박쥐
+entity.Wisp.name=위습
+entity.Alumentum.name=알루멘텀
+entity.GiantBrainyZombie.name=격노한 좀비
+entity.BrainyZombie.name=화난 좀비
+entity.FollowItem.name=다음 아이템
+entity.SpecialItem.name=마법 아이템
+entity.FallingTaint.name=테인트 부스러기
+entity.AspectOrb.name=위상 구슬
+entity.TaintCrawler.name=테인트 지렁이
+entity.Taintacle.name=테인타클
+entity.TaintacleTiny.name=작은 테인타클
+entity.TaintacleGiant.name=거대 테인타클
+entity.TaintSeed.name=테인트 씨앗
+entity.TaintSeedPrime.name=거대 테인트 씨앗
+entity.TaintSwarm.name=테인트 스웜
+entity.Pech.name=펙 약탈자
+entity.Pech.1.name=펙 마법사
+entity.Pech.2.name=펙 스토커
+entity.PrimalOrb.name=태초의 에너지 구체
+entity.TravelingTrunk.name=여행 상자
 entity.trunk.guiname=%s의 상자
 entity.trunk.move=상자가 당신을 따릅니다
 entity.trunk.stay=상자가 그 자리에 대기합니다
-entity.thaumcraft.MindSpider.name=환영 거미
-entity.thaumcraft.EldritchGuardian.name=엘드리치 가디언
-entity.thaumcraft.EldritchWarden.name=엘드리치 수호자
-entity.thaumcraft.EldritchWarden.name.custom=%d %s
-entity.thaumcraft.EldritchGolem.name=엘드리치 골렘
-entity.thaumcraft.EldritchGolem.name.custom=%s 엘드리치 골렘
-entity.thaumcraft.EldritchOrb.name=엘드리치 구체
-entity.thaumcraft.CultistKnight.name=크림슨 기사
-entity.thaumcraft.CultistCleric.name=크림슨 사제
-entity.thaumcraft.CultistLeader.name=크림슨 고위 성직자
-entity.thaumcraft.CultistLeader.name.custom=%d 고위 성직자 %s
-entity.thaumcraft.CultistPortalGreater.name=거대 크림슨 포탈
-entity.thaumcraft.CultistPortalLesser.name=크림슨 포탈
-entity.thaumcraft.EldritchCrab.name=엘드리치 게
-entity.thaumcraft.InhabitedZombie.name=이계방랑의 허스크
-entity.thaumcraft.TurretBasic.name=자동 쇠뇌
-entity.thaumcraft.TurretAdvanced.name=고급 자동 쇠뇌
-entity.thaumcraft.TurretFocus.name=마법 포탑
-entity.thaumcraft.TurretEldritch.name=고대의 마법 포탑
+entity.MindSpider.name=환영 거미
+entity.EldritchGuardian.name=엘드리치 가디언
+entity.EldritchWarden.name=엘드리치 수호자
+entity.EldritchWarden.name.custom=%d %s
+entity.EldritchGolem.name=엘드리치 골렘
+entity.EldritchGolem.name.custom=%s 엘드리치 골렘
+entity.EldritchOrb.name=엘드리치 구체
+entity.CultistKnight.name=크림슨 기사
+entity.CultistCleric.name=크림슨 사제
+entity.CultistLeader.name=크림슨 고위 성직자
+entity.CultistLeader.name.custom=%d 고위 성직자 %s
+entity.CultistPortalGreater.name=거대 크림슨 포탈
+entity.CultistPortalLesser.name=크림슨 포탈
+entity.EldritchCrab.name=엘드리치 게
+entity.InhabitedZombie.name=이계방랑의 허스크
+entity.TurretBasic.name=자동 쇠뇌
+entity.TurretAdvanced.name=고급 자동 쇠뇌
+entity.FocusProjectile.name=포커스 발사체
+entity.FocusCloud.name=포커스 구름
+entity.FocusMine.name=포커스 지뢰
 #
 champion.mod.bold=용맹한
 champion.mod.spine=가시 돋힌
@@ -544,7 +560,6 @@ tc.boss.taint=무언가 바스락거리는 소리가 들려옵니다. 뭔가 잘
 # World
 
 
-
 tile.bloom.name=천상의 꽃
 
 tile.eldritch.altar.name=엘드리치 제단
@@ -557,23 +572,6 @@ tile.eldritch.teleporter.name=엘드리치 포탈
 tile.eldritch.crabspawner.name=게구멍
 
 
-tile.banner.cultist.name=크림슨 컬트 깃발
-tile.banner.white.name=흰색 깃발
-tile.banner.orange.name=주황색 깃발
-tile.banner.magenta.name=다홍색 깃발
-tile.banner.light_blue.name=하늘색 깃발
-tile.banner.yellow.name=노란색 깃발
-tile.banner.lime.name=연두색 깃발
-tile.banner.pink.name=분홍색 깃발
-tile.banner.gray.name=회색 깃발
-tile.banner.silver.name=밝은 회색 깃발
-tile.banner.cyan.name=청록색 깃발
-tile.banner.purple.name=보라색 깃발
-tile.banner.blue.name=파란색 깃발
-tile.banner.brown.name=갈색 깃발
-tile.banner.green.name=초록색 깃발
-tile.banner.red.name=빨간색 깃발
-tile.banner.black.name=검은색 깃발
 
 
 
@@ -603,6 +601,7 @@ item.creative_placer.caster.name=고대의 마법 포탑 생성기
 
 #
 # Text
+research.complete=연구 완료!
 item.runic.charge=루닉 쉴드
 item.warping=뒤틀림
 item.capacity.text=용량
@@ -768,10 +767,15 @@ focus.common.fortune=행운
 focus.common.target=목표물 종류
 focus.common.friend=우호적 목표물
 focus.common.enemy=적대적 목표물
+focus.common.none=없음
+focus.common.options=설정
 focus.fire.burn=화염 지속 (초)
 focus.scatter.cone=산탄각 (각도)
 focus.scatter.forks=산탄 개수
 focus.projectile.speed=발사체 속도
+focus.projectile.bouncy=튕김
+focus.projectile.seeking.friendly=우호상대 유도
+focus.projectile.seeking.hostile=적대상대 유도
 focus.break.power=파괴력
 focus.plan.method=계획 방식
 focus.plan.full=전체
@@ -999,6 +1003,9 @@ card.truth.text=필사적으로 엘드리치 뒤에 숨어 있는 진실과 그�
 #
 # Other
 ###################
+thaumcraft.config.graphics=그래픽 설정
+thaumcraft.config.world=월드 설정
+thaumcraft.config.misc=기타 설정
 itemGroup.thaumcraft=사움크래프트
 #
 got.crystals=결정을 다루려 하니 손가락이 이상하게 따끔거립니다. 무슨 뜻이 있는걸까요? 아마 약간의 휴식이 도움이 될 듯 합니다.
@@ -1210,7 +1217,9 @@ research.EldritchCrab.stage.1=엘드리치 게 또는 헬멧 게는 가장 특�
 #
 research.CrimsonCultist.title=크림슨 컬트
 research.CrimsonCultist.stage.1=이 붉은 옷을 입은 숭배자들은 꽤 늦게 나타난 존재입니다. 그들의 목표는 나에게 알려지지 않았기에 말하는 것을 꺼려합니다. 그들은 어떻게든간에 뭔가 잘못된 것처럼 보입니다. 적어도 제정신인 것으로는 보이지만, 내면에는 그릇된 무언가가 깊어보입니다. 설명하기가 어렵군요.<BR>나의 존재는 그들을 격노케하는 것처럼 보이며, 그것은 마도학에 대한 나의 능력과 관련이 있어보입니다.<BR>그들의 성직자는 마법을 부리는 힘이 있으며 오라에서 그 힘을 이끌어낸다는 것을 느낄 수 있지만, 마법 자체는 일반적인 마도학으로 보이지 않습니다. 그것이 무엇이든간에, 그것이 내 피부를 타고 흐르며 매번 오라가 뒤틀리고 찢어지는 것을 느낍니다.<BR>그들 중 일부는 책을 가지고 다니는 것으로 보입니다. 그 중 하나를 손에 넣게 된다면, 어쩌면 이 이상한 단체에 대한 지식을 알 수 있을 겁니다. 어떤 지식은 위험할 수 있기에, 조심해야 합니다.
-research.CrimsonCultist.stage.2=이 책의 대부분은 알 수 없는 기호들과 문자로 가득하지만, 크림슨 컬트의 목표에 대한 어떤 이상한 통찰력을 제공합니다.<BR>그들의 기원은 베일에 쌓여있지만, 그들의 목표는 아퍼리스 오큘리스 - 눈을 여는 의식인 것 같습니다. 무슨 의식인지는 불분명하지만, 그것이 과연 좋은 일인지엔 의심이 갑니다.<BR>흥미롭게도, 당신은 저주 마법의 누락된 조각을 이들에게서 찾을 수 있을지도 모릅니다. 하지만 그걸 시도하는 사람은 아마 미치광이밖에 없을겁니다.
+#
+research.CrimsonRites.title=크림슨 마도서
+research.CrimsonRites.stage.1=이 책의 대부분은 알 수 없는 기호들과 문자로 가득하지만, 크림슨 컬트의 목표에 대한 어떤 이상한 통찰력을 제공합니다.<BR>그들의 기원은 베일에 쌓여있지만, 그들의 목표는 아퍼리스 오큘리스 - 눈을 여는 의식인 것 같습니다. 무슨 의식인지는 불분명하지만, 그것이 과연 좋은 일인지엔 의심이 갑니다.<BR>흥미롭게도, 당신은 저주 마법의 누락된 조각을 이들에게서 찾을 수 있을지도 모릅니다. 하지만 그걸 시도하는 사람은 아마 미치광이밖에 없을겁니다.
 #
 research.TaintCrawler.stage.1=이 역겨운 땅벌레들은 어디로 가든간에 테인트를 퍼뜨려 오염시킵니다. 테인트가 테인트 성장의 핵심에서 너무 멀리 떨어지게 되면 수명이 짧지만, 다르게 보자면 테인트가 평상시보다 훨씬 빨리 퍼질 수도 있습니다.<BR>이것들은 보이자마자 제거해버리는 것이 가장 좋습니다.
 #
@@ -1306,7 +1315,7 @@ research.UNLOCKELDRITCH.stage.2=이보시오! 여긴 제작중입니다. 전화�
 ##########################################
 #
 research.BASEALCHEMY.title=연금술의 기본
-research.BASEALCHEMY.stage.1=도가니 사용 강의<BR>1) 도가니를 열원 위에 올리세요. (불, 용암, 나이터, 기타등등).<BR>2) 물을 넣고 끓을 때까지 기다리세요.<BR>3) 필요한 에센시아가 들어있는 아이템을, 던져넣거나 윗부분을 클릭해 넣어 녹이세요.<BR>4) 촉매를 넣으세요.<PAGE>유의사항<BR>- 빈 손으로 쉬프트 우클릭하면 도가니를 비울 수 있습니다.<BR>- 매 작업마다 물을 소비하기 때문에 재보급이 종종 필요합니다. 액체 공급 기구를 사용할 수 있습니다.<BR>- 촉매를 한번에 여러개 넣어서 한번에 대량의 아이템을 만들 수 있습니다.<BR>- 에센시아는 시간이 지나면서 증발하기 때문에 작업은 신속하게 해야 합니다. 이때마다 발생하는 보라색 연기가 무엇인지는 의심됩니다. 아마도 걱정할건 없는것 같습니다.<LINE>§o결정 제작§r<BR>에센시아 결정은 만들기 쉬운 것이어야 합니다. 성장 매개체로서의 역할을 하기 위해 석영 결정을 더 작은 조각으로 부숩니다.<BR>조각을 도가니에 살짝 담그기만 해도 약간의 에센시아가 흡수되어 결정이 자라게 됩니다.<BR>이것은 특별히 효과적인 방법은 아닐 겁니다 - 에센시아가 적어도 2배는 들 것이며 작업에 항상 석영이 소모됩니다. 또한 정확히 어떤 에센시아가 결정화될지 확신할 수 없습니다.
+research.BASEALCHEMY.stage.1=도가니 사용 강의<BR>1) 도가니를 열원 위에 올리세요. (불, 용암, 나이터, 기타등등).<BR>2) 물을 넣고 끓을 때까지 기다리세요.<BR>3) 필요한 에센시아가 들어있는 아이템을, 던져넣거나 윗부분을 클릭해 넣어 녹이세요.<BR>4) 촉매를 넣으세요.<PAGE>유의사항<BR>- 빈 손으로 쉬프트 우클릭하면 도가니를 비울 수 있습니다.<BR>- 매 작업마다 물을 소비하기 때문에 재보급이 종종 필요합니다. 액체 공급 기구를 사용할 수 있습니다.<BR>- 촉매를 한번에 여러개 넣어서 한번에 대량의 아이템을 만들 수 있습니다.<BR>- 에센시아는 시간이 지나면서 증발하기 때문에 작업은 신속하게 해야 합니다. 이때마다 발생하는 보라색 연기가 무엇인지는 의심됩니다. 아마도 걱정할건 없는것 같습니다.<LINE>§o결정 제작§r<BR>에센시아 결정은 만들기 쉬운 것이어야 합니다. 성장 매개체로서의 역할을 하기 위해 석영 결정을 더 작은 조각으로 부숩니다.<BR>조각을 도가니에 살짝 담그기만 해도 약간의 에센시아가 흡수되어 결정이 자라게 됩니다.<BR>이것은 특별히 효과적인 방법은 아닐 겁니다 - 에센시아가 적어도 2배는 들 것이며 작업에 항상 석영이 소모됩니다.
 #
 research.ALUMENTUM.title=알루멘텀
 research.ALUMENTUM.stage.1=나이터는 유용한 물질입니다. 열과 빛을 제공하며 미적으로도 좋습니다. 횟불보다도 약간 더 많은 열을 제공하여 물을 가열시키거나 밤에 따뜻하게 해줄 수 있지만, 아쉽게도 광석을 녹이는 것과 같은 실용적인 목적으로는 부족합니다.<BR>뭔가 더 필요한 게 있습니다. 반응하는 쪽으로 말이죠.<BR>시간을 내서 생각을 정리하고 그 요소들을 연구해야겠습니다. 발광석 가루로 했던 것처럼, 석탄을 개선시킬 방법이 있을 겁니다.
@@ -1408,7 +1417,7 @@ research.BASEINFUSION.stage.1=이제 신비한 물체와 도구를 만들 준비
 research.INFUSION.title=인퓨전
 research.INFUSION.stage.1=아케인 작업과 연금술은 한계에 도달했습니다. 정말 강력하고 신비로운 물건을 만들어 내기 위해서는 더 좋은 것이 필요합니다.<BR>물건에 직접 에센시아를 주입하는 것이 가능하다고 믿습니다. 예를 들어  §6Aer§0 비스를 돌에 주입할 수 있으며, 이는 매우 가벼운 돌을 만들어 낼 수 있습니다.<BR>적어도, 이게 내 이론입니다.
 research.INFUSION.stage.2=당연하게도 기대했던 것보단 훨씬 더 복잡하다는 것이 입증되었습니다. 단순히 어떤 것에 원소를 부여하려고 하는 것은 효과가 없습니다. 이 전체 과정을 안정화시키기 위해 비교적 복잡한 시스템이 필요할 것입니다. 이것을 가능하게 해줄 루닉 매트릭스를 계획했습니다.
-research.INFUSION.stage.3=인퓨전을 시작하기 위해서도 필요한 몇가지가 있습니다: 루닉 매트릭스(방금 만든 것), 아케인 주각, 그리고 에센시아 공급원입니다.<BR>루닉 매트릭스를 흔히 인퓨전 제단으로 알려진 구조물에 올바르게 배치하면, 작업을 시작할 수 있습니다. 다른 구조물처럼 정화의 소금을 뿌려 만들 수 있습니다. 기둥이 형성된 후에는 건틀렛을 사용해 루닉 매트릭스를 활성화할 수 있습니다.<BR>매트릭스 아래에 위치한 중앙 받침대에 인퓨전을 할 물건이 들어갈 것입니다. 또한 목표물에 주입하고자 하는 물건을 놓을 수 있도록 제단 둘레에 몇개의 받침대를 더 놓을 필요가 있습니다. 마지막으로 에센시아 단지 또는 그와 유사한 용기가 필요합니다.<BR>이 모든 과정이 완료되면 루닉 매트릭스를 건틀렛으로 클릭하여 제작을 시작할 수 있습니다.<BR>제작의 첫번째 단계는 주변의 에센시아 공급원으로부터 에센시아를 뽑아 주입하는 겁니다. 이용할 수 있는 에센시아가 불충분하다면, 제작은 지연될 것입니다 - 원하지 않을 만한 일을 다음 페이지에서 설명합니다.<BR>필요한 모든 에센시아가 주입되면 주변의 물건들을 주입합니다. 이 작업이 완료되어야만 제작 과정이 끝납니다.<LINE>인퓨전은 위험이 따릅니다. 이것은 거대한 에너지를 하나의 물체에 밀어넣는 것과 관련이 있습니다. 예측할 수 없는 일들이 일어나는 경향이 있습니다.<BR>보통 한두개의 물체가 주각에서 떨어지거나, 플럭스가 생산되는 등이지만, 듣도보도 못한 더 많은 재앙이 있을 수 있습니다.<BR>에센시아가 부족하거나 물건이 떨어지는 등으로 제작이 지연될 경우 이런 나쁜 일이 일어날 가능성이 더욱 커집니다.<BR>이러한 일은 다양한 방법으로 줄일 수 있습니다. 우선 인퓨전 구조를 가능한 한 대칭으로 유지하는 것이 큰 도움이 됩니다 - 주각을 놓는 위치를 주의하며 반대편의 다른 받침대와 균형을 이루도록 하세요. 인퓨전할 물건들을 놓을 때도 대칭을 유지하는 것이 좋습니다. 마지막으로, 제단 주위에 신비한 측두체(양초, 머리, 기타등등)을 대칭형으로 배치할 수 있습니다. 이것들은 불안정성을 감소시키는 효과를 가지고 있습니다.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
+research.INFUSION.stage.3=인퓨전을 시작하기 위해서도 필요한 몇가지가 있습니다: 루닉 매트릭스(방금 만든 것), 아케인 주각, 그리고 에센시아 공급원입니다.<BR>루닉 매트릭스를 흔히 인퓨전 제단으로 알려진 구조물에 올바르게 배치하면, 작업을 시작할 수 있습니다. 다른 구조물처럼 정화의 소금을 뿌려 만들 수 있습니다. 기둥이 형성된 후에는 건틀렛을 사용해 루닉 매트릭스를 활성화할 수 있습니다.<BR>매트릭스 아래에 위치한 중앙 받침대에 인퓨전을 할 물건이 들어갈 것입니다. 또한 목표물에 주입하고자 하는 물건을 놓을 수 있도록 제단 둘레에 몇개의 받침대를 더 놓을 필요가 있습니다. 마지막으로 에센시아 단지 또는 그와 유사한 용기가 필요합니다.<BR>이 모든 과정이 완료되면 루닉 매트릭스를 건틀렛으로 클릭하여 제작을 시작할 수 있습니다.<BR>제작의 첫번째 단계는 주변의 에센시아 공급원으로부터 에센시아를 뽑아 주입하는 겁니다. 이용할 수 있는 에센시아가 불충분하다면, 제작은 지연될 것입니다 - 원하지 않을 만한 일을 다음 페이지에서 설명합니다.<BR>필요한 모든 에센시아가 주입되면 주변의 물건들을 주입합니다. 이 작업이 완료되어야만 제작 과정이 끝납니다.<LINE>인퓨전은 위험이 따릅니다. 이것은 거대한 에너지를 하나의 물체에 밀어넣는 것과 관련이 있습니다. 예측할 수 없는 일들이 일어나는 경향이 있습니다.<BR>보통 한두개의 물체가 주각에서 떨어지거나, 플럭스가 생산되는 등이지만, 듣도보도 못한 더 많은 재앙이 있을 수 있습니다.<BR>에센시아가 부족하거나 물건이 떨어지는 등으로 제작이 지연될 경우 이런 나쁜 일이 일어날 가능성이 더욱 커집니다.<BR>이러한 일은 다양한 방법으로 줄일 수 있습니다. 우선 인퓨전 구조를 가능한 한 대칭으로 유지하는 것이 큰 도움이 됩니다 - 주각을 놓는 위치를 주의하며 반대편의 다른 받침대와 균형을 이루도록 하세요. 인퓨전할 물건들을 놓을 때도 대칭을 유지하는 것이 좋습니다. 마지막으로, 제단 주위에 신비한 측두체(양초, 머리, 결정, 기타등등)을 대칭형으로 배치할 수 있습니다. 이것들은 불안정성을 감소시키는 효과를 가지고 있습니다.<IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONBOOST.title=인퓨전 강화
 research.INFUSIONBOOST.stage.1=인퓨전 제단의 기능을 개선할 수 있는 방법이 있어야 합니다. 조사해봅시다.
@@ -1466,6 +1475,9 @@ research.VERDANTCHARMS.title=젊은 심장의 장신구
 research.VERDANTCHARMS.stage.1=가끔씩 자신이 부정적인 마법 효과에 영향을 받는 불쾌한 일을 겪고 있는 것을 발견하게 됩니다. 이를 보호할 방법을 찾아야 합니다.
 research.VERDANTCHARMS.stage.2=모든 독이나 이와 유사한 효과를 제거하는 치유 에너지로 진동하는 신비한 장신구를 디자인했습니다. 안타깝게도 상처를 치료할 수는 없습니다.<BR>이 장신구는 충전대나 비슷한 물건들로 충전해야 합니다. 오라의 비스를 직접 빨아들일 수는 없습니다.<BR>또한 기능을 향상시키기 위한 2가지 마법부여가 있습니다.<LINE>§n생명공학§r<BR>이 인퓨전은 착용자의 체력을 언제나 재생시켜줍니다.<LINE>§n지지자§r<BR>이 인츄전은 착용자의 허기 게이지를 천천히 채워주며 넉백에 저항을 가지게 됩니다. 거기다가 물 속에서 호흡할 수 있게 해줍니다.
 #
+research.CHARMUNDYING.title=불사의 장신구
+research.CHARMUNDYING.stage.1=불사의 토템은 마도학으로도 쉽게 복제할 수 없는 강력한 마법입니다.<BR>하지만 이것을 손에 들고 다니는 식이 아니라, 부적으로 착용함으로써 사용을 좀 더 편리하게 만들어야 합니다.
+#
 ##########################################
 # ARTIFICE
 ##########################################
@@ -1491,7 +1503,7 @@ research.LEVITATOR.stage.2=진정한 비행은 아니지만, 아케인 부양기
 #
 research.INFERNALFURNACE.title=지옥불 화로
 research.INFERNALFURNACE.stage.1=하루의 대부분이 화로 작업에 소모되는 경향이 있습니다. 이걸 덜 귀찮게 하는 법이 있을까요?<BR>뜨거운 곳으로 가서 영감을 얻을 시간입니다. 정말 뜨거운 곳으로요.
-research.INFERNALFURNACE.stage.2=네더로 탐사를 갔으며 거기서 발견한 것들에 영감을 받았습니다. 흑요석, 네더 벽돌, 정화의 소금으로 매우 효율적이고 연료가 필요없는 용광로를 만들 수 있을 것입니다. 매우 효율적이라서, 때때로 조각이나 희토류 등의 부산물을 추가로 생산합니다.<BR>기본적으로 이 화로는 연료 없이 일하지만, 오라로부터 비스를 지속적으로 공급받지 않으면 매우 느릴 것입니다.<LINE>화로 상단으로 들어간 아이템은 재련된 뒤 앞으로 나오게 됩니다. 화로 조합법이 없는 아이템은 제거됩니다.<BR>상자나 다른 저장 장치를 바로 앞에 놓으면 생산품을 즉시 들어가게 할 수 있습니다.
+research.INFERNALFURNACE.stage.2=네더로 탐사를 갔으며 거기서 발견한 것들에 영감을 받았습니다. 흑요석, 네더 벽돌, 정화의 소금으로 매우 효율적이고 연료가 필요없는 용광로를 만들 수 있을 것입니다. 매우 효율적이라서, 때때로 조각이나 희토류 등의 부산물을 추가로 생산합니다.<BR>기본적으로 이 화로는 연료 없이 일하지만, 오라로부터 비스를 지속적으로 공급받지 않으면 매우 느릴 것입니다.<LINE>화로 상단으로 들어간 아이템은 재련된 뒤 앞으로 나오게 됩니다. 화로 조합법이 없는 아이템은 제거됩니다.<BR>상자나 다른 저장 장치를 바로 앞에 놓으면 생산품을 즉시 들어가게 할 수 있습니다.<PAGE>고기를 구우면 부산물로 고기 조각이 나옵니다. 3가지 다른 종류와 설탕을 섞음으로써 맛있는 간식을 만들 수 있을 것입니다.
 research.INFERNALFURNACE.bellows=화로에 아케인 풀무를 붙이는 것은 몇가지 흥미로운 결과를 보여줍니다. 이 풀무로 주입되는 공기가 불꽃을 가열해 작업 속도를 높일 뿐만 아니라 훨씬 순수하게 연소시키기 때문에 방출하는 플럭스가 감소하며 부산물 확률을 높입니다.
 #
 research.MIRROR.title=거울의 마법
@@ -1568,7 +1580,12 @@ research.FOCUSSPELLBAT.stage.2=아케인 박쥐를 형상화하여 포커스 효
 #
 research.FOCUSPROJECTILE.title=포커스 매체: 발사체
 research.FOCUSPROJECTILE.stage.1=적들을 직접 공격해 마법을 쓰는 것은 꽤 좋지만, 나는 오히려 멀리서 마법을 발사하고 싶습니다. 도달할 수 없는 범위까지 포커스 에너지를 전달할 방법을 찾아야 합니다.
-research.FOCUSPROJECTILE.stage.2=이제 포커스 에너지를 적이나 블럭에 쏠 수 있는 마법 발사체에 삽입할 수 있습니다. 발사체가 느리긴 하지만, 복잡성을 희생하여 속도를 증가시킬 수는 있습니다.
+research.FOCUSPROJECTILE.stage.2=이제 포커스 에너지를 적이나 블럭에 쏠 수 있는 마법 발사체에 삽입할 수 있습니다. 발사체가 느리긴 하지만, 복잡성을 희생하여 속도를 증가시킬 수는 있습니다.<BR>더 많은 연구를 통해 이 발사체를 개선하는 것이 가능할 것입니다. 다른 종류의 발사체를 연구하는 것이 큰 도움이 될 것입니다.
+research.FOCUSPROJECTILE.stage.3=발사체의 유용성을 더욱 높일 수 있는 방법을 발견했습니다!<LINE>§n튕김§0<BR>발사체가 단단한 표면과 충돌하면 튕깁니다. 단 닿는 모든 블럭에 튕겨나가기 때문에, 더 이상 블럭과 상호작용할 수 없게 됩니다.<BR>§n적대상대 유도§0<BR>이 특별한 속성의 발사체는 자동으로 전방의 적대적인 목표를 향해 방향을 바꿀 것입니다.<BR>§n우호상대 유도§0<BR>유도성은 동일하지만, 우호적인 대상을 목표로 합니다.
+research.f_onfire.text=일반적인 발사체
+research.f_fireball.text=작열하는 발사체
+research.f_spit.text=점착성의 발사체
+got.projectile=발사체에 대해서 더 많은 것을 배웠다.
 #
 research.FOCUSBOLT.title=포커스 매체: 전광
 research.FOCUSBOLT.stage.1=마법 발사체를 발사하는 것은 때때로 귀찮은 일입니다. 목표를 향해 나아가는 데 걸리는 시간이 걸리적거립니다.<BR>'접촉' 매체의 기능을 확장할 방법이 있을 것입니다.
@@ -1628,6 +1645,7 @@ research.FOCUSPOUCH.title=포커스 파우치
 research.FOCUSPOUCH.stage.1=일단 상당한 양의 포커스를 만들게 되면 이것들을 들고 다니는 것이 상당히 성가실 것입니다. 이걸 전부 가지고 다닐 편리한 방법을 찾아야 합니다.
 research.FOCUSPOUCH.stage.2=포커스를 보관할 수 있는 특별한 파우치를 발명했습니다.<BR>건틀렛에 있는 포커스를 변경할 때마다 먼저 이 파우치를 확인하며 제거되는 포커스는 파우치 안으로 들어갑니다. 또한 포커스를 들고 우클릭해 직접 손으로 포커스를 넣고 뺄 수 있습니다.<BR>버블즈 벨트 슬롯에 착용이 가능합니다.
 #
+
 ##########################################
 # GOLEMANCY
 ##########################################
@@ -1771,14 +1789,11 @@ research.ARCANEPATTERNCRAFTER.stage.2=아케인 패턴 작업대라고 부르는
 not.pechwand=아직 이 물건의 용도를 모르겠다.
 got.pechwand=으음, 이상하군, 더 조사해볼 필요가 있겠어.
 got.onfire=화염의 감각을 느꼈다.
-research.m_deepdown.text=세계에서 가장 깊은 곳을 찾아라
-research.m_uphigh.text=가능한 높은 곳을 찾아라
-got.deepdown=깊고 어두운 곳을 방문하여 많은 것을 배웠다.
-got.uphigh=눈앞에 세상이 펼쳐져 있다. 관점이 확장되는 것 같다.
 got.hellandback=네더를 방문했다.
 got.endoftheworld=엔드를 방문했다.
 research.m_hellandback.text=지옥같은 장소를 찾아라
 research.m_endoftheworld.text=모든 것의 끝에 당도하라
+fail.crimsonrites=이 책은 정신이상적인 헛소리 뿐으로 보인다.
 
 research.BASEELDRITCH.title=엘드리치?
 research.BASEELDRITCH.stage.2=쟌넨! 엘드리치는 아직 미완성 상태입니다! 아직 베타버전이니 그러려니 하세요!<BR>- 2hh8899
