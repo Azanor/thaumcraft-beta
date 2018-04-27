@@ -534,6 +534,7 @@ entity.TurretAdvanced.name=고급 자동 쇠뇌
 entity.FocusProjectile.name=포커스 발사체
 entity.FocusCloud.name=포커스 구름
 entity.FocusMine.name=포커스 지뢰
+entity.FluxRift.name=플럭스 균열
 #
 champion.mod.bold=용맹한
 champion.mod.spine=가시 돋힌
