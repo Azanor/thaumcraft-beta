@@ -185,7 +185,7 @@ item.verdant_charm.name=蔥蘢之心護符
 item.verdant_charm.life.text=生命供給
 item.verdant_charm.sustain.text=體力維持
 item.voidseer_charm.name=虛空先知寶珠
-item.voidseer_charm.text=你窺探那深遠的黑暗... 你可以發誓有什麼東西正回望著你...
+item.voidseer_charm.text=你窺探那深遠的黑暗...... 你可以發誓有什麼東西正回望著你......
 item.curiosity_band.name=求知頭帶
 item.cloud_ring.name=雲行戒指
 #
@@ -1401,7 +1401,7 @@ research.IMPROVEDSMELTING2.stage.2=我找到一個方法來控制熔煉過程所
 #
 research.EVERFULLURN.title=無盡之甕
 research.EVERFULLURN.stage.1=煉金製造已被證實遠比我所預期的還要容易。如果能找到方法將其過程自動化以生產一些簡單而實用的物質，相信會是煉金術的一大突破。 <BR>或許類似無限水源之類的東西會是個不錯的開始？
-research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他有用的功能。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些...異味。我確定這沒什麼好擔心的。
+research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他有用的功能。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些......異味。我確定這沒什麼好擔心的。
 #
 research.POTIONSPRAYER.title=藥水噴霧器
 research.POTIONSPRAYER.stage.1=我進行了一些初步測試，利用源質來重現藥水的釀造系統。而我的成果有好有壞。 <BR>我應該致力於使它正常運作。
@@ -1585,8 +1585,8 @@ research.f_spit.text=黏黏的投射物
 got.projectile=你已進一步理解投射物。
 #
 research.FOCUSBOLT.title=核心媒介：雷光
-research.FOCUSBOLT.stage.1=投擲魔法彈有時是件麻煩的事。它們難以瞄準，需要花時間去預測彈道的落點。 <BR>Maybe there is a way I can extend the functionality of the the Touch medium.
-research.FOCUSBOLT.stage.2=Who needs projectiles when they can hurl bolts of magical energy. They effect their target instantly and aiming them is a lot easier.<BR>Unfortunately their range is limited. Trying to keep the vis stream coherent beyond 16 blocks has proven difficult. For longer range engagements projectiles are still superior.
+research.FOCUSBOLT.stage.1=投擲魔法彈有時是件麻煩的事。它們難以瞄準，需要花時間去預測彈道的落點。 <BR>或許我可以找到一個方式來延伸接觸媒介的作用。
+research.FOCUSBOLT.stage.2=當可以放出魔法能量閃電時誰還需要投彈。這能立即作用於目標，而且更易於瞄準。 <BR>遺憾的是它距離有限。事實證明試圖將魔素流的距離維持超過16格是相當困難的。在更長距離的交火時投彈依舊保有優勢。
 #
 research.FOCUSFLUX.title=核心效應：咒波
 research.FOCUSFLUX.stage.1=使用元素作為武器有其優點，而單純的魔力也是具有殺傷力的——暴露於原始、未特化的魔素中對大多數生物都是有害的。身上的裝甲也無法擋下這股能量。 
