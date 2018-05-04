@@ -493,8 +493,8 @@ entity.Firebat.name=Firebat
 entity.Spellbat.name=Spellbat
 entity.Wisp.name=Wisp
 entity.Alumentum.name=Alumentum
-entity.GiantBrainyZombie.name=Furious Zombie
-entity.BrainyZombie.name=Angry Zombie
+entity.GiantBrainyZombie.name=Свирепый зомби
+entity.BrainyZombie.name=Злобный зомби
 entity.FollowItem.name=Following Item
 entity.SpecialItem.name=Magic Item
 entity.FallingTaint.name=Tainted Crust
@@ -1211,7 +1211,7 @@ research.ThaumSlime.stage.1=These purple slimes are a strange offshoot of their 
 #
 research.Firebat.stage.1=Fire bats, or Hellbats are usually found in the Nether. Engulfed in flame and unreasonably aggressive they are perfectly suited to the environment they live in. They also have the alarming tendency to explode when attacking.<BR>One wonders what possible evolutionary advantage exploding gives them as a species, but the same can be asked of creepers. 
 #
-research.BrainyZombie.stage.1=I have observed that some zombies seem much more aware than their lumbering brethren. Their eyes burn with a malevolent intelligence leading me to believe that they retained much more intelligence after death than is normal. They are definitely more aggressive and dangerous than a normal zombie.<BR>They should make good sources of brain matter for my experiments. 
+research.BrainyZombie.stage.1=Я заметил, что некоторые зомби ведут себя гораздо более осмысленно, чем их шумные собратья. В их глазах пылает разумная злоба, и это заставляет меня поверить в то, что после смерти они сохранили гораздо больше интеллекта, чем должны были. Они, определённо, более агрессивны и опасны, чем обычные зомби.<BR>Они послужат отличным источником мозгов в моих экспериментах. 
 #
 research.EldritchGuardian.stage.1=These ghost-like figures are a dangerous menace. They can be found wherever the walls of reality are at their thinnest. I believe they act as guardians of such places, protecting those weak spots from trespassers.<BR>Their form is held together by dimensional energies from some other place making them much weaker in our world. I would hate having to confront them in whatever place they call home.<BR>Their touch is deadly and they are able to hurl entropic dimensional energy at those too far to reach. 
 #
