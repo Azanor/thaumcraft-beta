@@ -481,7 +481,7 @@ warp.text.16=The faint sound of chanting can be heard nearby.
 ###################################
 entity.ArcaneBore.name=Arcane Bore
 entity.Golem.name=Golem
-entity.ThaumSlime.name=Thaumic Slime
+entity.ThaumSlime.name= Таум-слизень
 entity.GolemDart.name=Golem Dart
 entity.PrimalArrow.name=Primal Arrow
 entity.FrostShard.name=Frost Shard
@@ -493,7 +493,7 @@ entity.Firebat.name=Firebat
 entity.Spellbat.name=Spellbat
 entity.Wisp.name=Wisp
 entity.Alumentum.name=Alumentum
-entity.GiantBrainyZombie.name=Свирепый зомби
+entity.GiantBrainyZombie.name=Яростный зомби
 entity.BrainyZombie.name=Злобный зомби
 entity.FollowItem.name=Following Item
 entity.SpecialItem.name=Magic Item
@@ -1206,7 +1206,7 @@ research.Pech.stage.1=These strange humanoids can be found wherever the veil bet
 #
 research.Wisp.stage.1=These strange creatures appear to be floating points of light and are often found near high concentrations of vis. Honestly I am not sure if they are creatures at all - they move randomly and do not appear to exhibit the normal characteristics of a living organism. They do however react to being attacked and occasionally become aggressive for no apparent reason.<BR>My initial thoughts are they might be a form of proto-life made up of vis instead of normal matter, but that cannot be the whole picture as I am detecting strange dimensional energies at their core.
 #
-research.ThaumSlime.stage.1=These purple slimes are a strange offshoot of their green cousins. Normal slimes form from the organic gunk that occasionally collects in caves, but Thaumic Slimes are formed from the purple proto-matter residue left over from magical mishaps.<BR>Apart from their strange origins they are rather similar to their green cousins for the most part. They do appear to have the ability to split at will, often spitting a lesser version of themselves at targets that venture too close. If there are no targets nearby, split slimes will endeavour to reform to once again form a larger organism. 
+research.ThaumSlime.stage.1=Эти фиолетовые слизни - ни что иное, как странный подвид своих зеленых собратьев. Обычные слизни формируются из органического мусора, который время от времени накапливается в пещерах, а Таум-слизни, в отличие от них, формируются из частичек фиолетовой прото-материи, которая остается после магических неудач.<BR>Если не брать в расчёт их странное происхождение, то они по большей части похожи на обычных зеленых слизней. Они имеют возможность разделяться по своему желанию, зачастую выбрасывая малую часть себя в тех, кто подошёл слишком близко. Если поблизости никого нет, разделённые слизни будут пытаться слиться обратно, чтобы вновь сформировать более крупный организм. 
 #
 research.Firebat.stage.1=Fire bats, or Hellbats are usually found in the Nether. Engulfed in flame and unreasonably aggressive they are perfectly suited to the environment they live in. They also have the alarming tendency to explode when attacking.<BR>One wonders what possible evolutionary advantage exploding gives them as a species, but the same can be asked of creepers. 
 #
