@@ -22,20 +22,20 @@ item.primordial_pearl.mote.name=Primordial Mote
 item.primordial_pearl.nodule.name=Primordial Nodule
 item.primordial_pearl.pearl.name=Primordial Pearl
 item.pech_wand.name=Pech Wand
-item.celestial_notes.name=Celestial Notes
-item.celestial_notes.sun.text=Solar
-item.celestial_notes.stars_1.text=Stellar, Northern Quadrant
-item.celestial_notes.stars_2.text=Stellar, Southern Quadrant
-item.celestial_notes.stars_3.text=Stellar, Western Quadrant
-item.celestial_notes.stars_4.text=Stellar, Eastern Quadrant
-item.celestial_notes.moon_1.text=Lunar, Full
-item.celestial_notes.moon_2.text=Lunar, Waxing Gibbous
-item.celestial_notes.moon_3.text=Lunar, First Quarter
-item.celestial_notes.moon_4.text=Lunar, Waxing Crescent
-item.celestial_notes.moon_5.text=Lunar, New
-item.celestial_notes.moon_6.text=Lunar, Waning Crescent
-item.celestial_notes.moon_7.text=Lunar, Third Quarter
-item.celestial_notes.moon_8.text=Lunar, Waning Gibbous
+item.celestial_notes.name=Заметки о небесах
+item.celestial_notes.sun.text=Солнце
+item.celestial_notes.stars_1.text=Звезды, Северный квадрант
+item.celestial_notes.stars_2.text=Звезды, Южный квадрант
+item.celestial_notes.stars_3.text=Звезды, Западный квадрант
+item.celestial_notes.stars_4.text=Звезды, Восточный квадрант
+item.celestial_notes.moon_1.text=Луна, Полная
+item.celestial_notes.moon_2.text=Луна, Молодая
+item.celestial_notes.moon_3.text=Луна, Первая четверть
+item.celestial_notes.moon_4.text=Луна, Прибывающая
+item.celestial_notes.moon_5.text=Луна, Новая
+item.celestial_notes.moon_6.text=Луна, Убывающая
+item.celestial_notes.moon_7.text=Луна, Третья четверть
+item.celestial_notes.moon_8.text=Луна, Старая
 #
 # Resources
 #
@@ -1124,8 +1124,8 @@ tc.warp.warn= Warping level: %n
 tc.knowledge.name=Количество знаний
 tc.logistics.request=Request
 tc.logistics.search=Search
-tc.celestial.fail.1=You have already studied that today.
-tc.celestial.fail.2=You are unable to take notes of your studies.
+tc.celestial.fail.1=Вы уже изучали это сегодня.
+tc.celestial.fail.2=Вы не можете делать заметки о своих исследованиях.
 #
 # Aspects
 tc.aspect.name=Аспекты эссенции
@@ -1305,8 +1305,8 @@ research.CRYSTALFARMER.title=Crystal Farming
 research.CRYSTALFARMER.stage.1=I have observed that vis crystals naturally grow over time, but once I harvest them they seem to lose this ability. I am hoping to discover what exactly is lost and how to reinvigorate the crystals.
 research.CRYSTALFARMER.stage.2=I have found a way to reinvigorate vis crystals in such a way that I can replant them.<BR>I am hoping this means I can grow my own steady supply of primal vis crystals.
 #
-research.CELESTIALSCANNING.title=Celestial Observation
-research.CELESTIALSCANNING.stage.1=I have noticed a link between the phases of the moon and the speed at which the aura replenishes itself. I should investigate this phenomenon further and even expand my investigation to see if other heavenly bodies influences magic.<BR>A few minor tweaks to my thaumometer should enable it to take measurements from objects in the sky. I should remember to carry some paper and scribing tools with me so I can take notes.<BR>Measuring the same body or quadrant of the sky more than once a day will not give me new insights - I need to study them over time to measure changes in their aural influence.<BR>The notes I gather should come in handy for theorycrafting.
+research.CELESTIALSCANNING.title=Наблюдение за небесами
+research.CELESTIALSCANNING.stage.1=Я заметил, что существует связь между фазами Луны и скоростью, с которой восстанавливается аура. Я должен побольше разузнать об этом феномене и даже расширить область своего исследования, чтобы увидеть, влияют ли другие небесные тела на магию.<BR>Несколько небольших поправок в таумометре должны позволить ему исследовать объекты в небе. Мне нужно помнить, что стоит носить с собой письменные принадлежности и немного бумаги, так я смогу делать заметки.<BR>Исследование одного и того же тела или квадранта неба более одного раза в день не даст мне новых идей; мне нужно изучать их постепенно, для того чтобы улавливать изменения их влияния на ауру.<BR>Заметки, которые я собираю, должны пригодиться в создании теорий.
 #
 research.UNLOCKELDRITCH.title=Delving into the Eldritch (UNFINISHED)
 research.UNLOCKELDRITCH.stage.1=Still work in progress. Nothing to see here.
