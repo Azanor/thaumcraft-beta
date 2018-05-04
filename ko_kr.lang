@@ -708,7 +708,6 @@ golem.stay=여기서 대기하겠습니다 주인님
 # Fluids
 ##############################
 fluid.fluxGoo=플럭스 점액
-fluid.fluxGas=플럭스 가스
 fluid.purifying_fluid=정화의 액체
 fluid.liquid_death=액체 죽음
 #
@@ -1581,9 +1580,9 @@ research.FOCUSSPELLBAT.stage.2=아케인 박쥐를 형상화하여 포커스 효
 #
 research.FOCUSPROJECTILE.title=포커스 매체: 발사체
 research.FOCUSPROJECTILE.stage.1=적들을 직접 공격해 마법을 쓰는 것은 꽤 좋지만, 나는 오히려 멀리서 마법을 발사하고 싶습니다. 도달할 수 없는 범위까지 포커스 에너지를 전달할 방법을 찾아야 합니다.
-research.FOCUSPROJECTILE.stage.2=이제 포커스 에너지를 적이나 블럭에 쏠 수 있는 마법 발사체에 삽입할 수 있습니다. 발사체가 느리긴 하지만, 복잡성을 희생하여 속도를 증가시킬 수는 있습니다.<BR>더 많은 연구를 통해 이 발사체를 개선하는 것이 가능할 것입니다. 다른 종류의 발사체를 연구하는 것이 큰 도움이 될 것입니다.
+research.FOCUSPROJECTILE.stage.2=이제 포커스 에너지를 적이나 블럭에 쏠 수 있는 마법 발사체에 삽입할 수 있습니다. 발사체가 느리긴 하지만, 복잡성을 희생하여 속도를 증가시킬 수는 있습니다.<BR>더 많은 연구를 통해 이 발사체를 개선하는 것이 가능할 것입니다. 다른 종류의 발사체를 연구하는 것이 큰 도움이 될 것입니다. 개인적인 위험이 좀 있겠군요...
 research.FOCUSPROJECTILE.stage.3=발사체의 유용성을 더욱 높일 수 있는 방법을 발견했습니다!<LINE>§n튕김§0<BR>발사체가 단단한 표면과 충돌하면 튕깁니다. 단 닿는 모든 블럭에 튕겨나가기 때문에, 더 이상 블럭과 상호작용할 수 없게 됩니다.<BR>§n적대상대 유도§0<BR>이 특별한 속성의 발사체는 자동으로 전방의 적대적인 목표를 향해 방향을 바꿀 것입니다.<BR>§n우호상대 유도§0<BR>유도성은 동일하지만, 우호적인 대상을 목표로 합니다.
-research.f_onfire.text=일반적인 발사체
+research.f_arrow.text=일반적인 발사체
 research.f_fireball.text=작열하는 발사체
 research.f_spit.text=점착성의 발사체
 got.projectile=발사체에 대해서 더 많은 것을 배웠다.
