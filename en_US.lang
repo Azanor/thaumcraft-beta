@@ -23,19 +23,19 @@ item.primordial_pearl.nodule.name=Primordial Nodule
 item.primordial_pearl.pearl.name=Primordial Pearl
 item.pech_wand.name=Pech Wand
 item.celestial_notes.name=Celestial Notes
-item.celestial_notes.sun.name=Solar
-item.celestial_notes.stars_1.name=Stellar, Quadrant 1
-item.celestial_notes.stars_2.name=Stellar, Quadrant 2
-item.celestial_notes.stars_3.name=Stellar, Quadrant 3
-item.celestial_notes.stars_4.name=Stellar, Quadrant 4
-item.celestial_notes.moon_1.name=Lunar, Full
-item.celestial_notes.moon_2.name=Lunar, Waxing Gibbous
-item.celestial_notes.moon_3.name=Lunar, First Quarter
-item.celestial_notes.moon_4.name=Lunar, Waxing Crescent
-item.celestial_notes.moon_5.name=Lunar, New
-item.celestial_notes.moon_6.name=Lunar, Waning Crescent
-item.celestial_notes.moon_7.name=Lunar, Third Quarter
-item.celestial_notes.moon_8.name=Lunar, Waning Gibbous
+item.celestial_notes.sun.text=Solar
+item.celestial_notes.stars_1.text=Stellar, Northern Quadrant
+item.celestial_notes.stars_2.text=Stellar, Southern Quadrant
+item.celestial_notes.stars_3.text=Stellar, Western Quadrant
+item.celestial_notes.stars_4.text=Stellar, Eastern Quadrant
+item.celestial_notes.moon_1.text=Lunar, Full
+item.celestial_notes.moon_2.text=Lunar, Waxing Gibbous
+item.celestial_notes.moon_3.text=Lunar, First Quarter
+item.celestial_notes.moon_4.text=Lunar, Waxing Crescent
+item.celestial_notes.moon_5.text=Lunar, New
+item.celestial_notes.moon_6.text=Lunar, Waning Crescent
+item.celestial_notes.moon_7.text=Lunar, Third Quarter
+item.celestial_notes.moon_8.text=Lunar, Waning Gibbous
 #
 # Resources
 #
@@ -188,6 +188,7 @@ item.voidseer_charm.name=Voidseer's Pearl
 item.voidseer_charm.text=You peer into the inky blackness... you could swear you saw something staring back...
 item.curiosity_band.name=Headband of Curiosity
 item.cloud_ring.name=Cloudstepper Ring
+item.charm_undying.name=Charm of Undying
 #
 # Casters & Foci
 #
@@ -533,6 +534,7 @@ entity.TurretAdvanced.name=Advanced Automated Crossbow
 entity.FocusProjectile.name=Focus Projectile
 entity.FocusCloud.name=Focus Cloud
 entity.FocusMine.name=Focus Mine
+entity.FluxRift.name=Flux Rift
 #
 champion.mod.bold=Bold
 champion.mod.spine=Spined
@@ -706,8 +708,7 @@ golem.stay=I will stay here Master
 #
 # Fluids
 ##############################
-fluid.fluxGoo=Flux Goo
-fluid.fluxGas=Flux Gas
+fluid.flux_goo=Flux Goo
 fluid.purifying_fluid=Purifying Fluid
 fluid.liquid_death=Liquid Death
 #
@@ -1242,7 +1243,7 @@ research.KNOWLEDGETYPES.stage.1=There are two main types of knowledge: Observati
 #
 research.THEORYRESEARCH.title=Theorycrafting
 research.THEORYRESEARCH.stage.1=For me to make any progress as a thaumaturge I cannot rely on simply studying the world around me or stumbling upon ancient knowledge. I will need to make my own discoveries and expand my knowledge through experimentation. Crafting my own theories is the only way.<BR>I will need to create a comfortable workspace to do my research with ample supplies like writing materials and paper. I should craft a some scribing tools and place it upon a table. 
-research.THEORYRESEARCH.stage.2=Now that I have a workspace I should start performing some research. I can now formulate theories on how to manipulate magic to my own ends.<BR>Firstly I should make sure the table has plenty of paper and my scribing tools has ample ink. I can now choose to start researching the theory.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>At the top of the page I will see how much inspiration (represented by light bulbs) is available to me for this round of research. When I do a stack of papers will appear on the left. If I select them I will be given the choice of two research paths I can follow. Each route will state what knowledge it will grant me, divided between one or more research categories.<BR>Some of the choices will require items. Items marked with a golden §6!§r will be consumed if the card is chosen.<BR>Normally I will only be able to pursue research categories that I have unlocked, though I am sure I might occasionally be able to discover completely new avenues of research.<BR>I can keep drawing to further my knowledge. I should note however that each choice I make will cost some of my inspiration. Once I run out the research will be completed. The amount of initial inspiration available to me will increase as my knowledge of magic increases.<BR>My progress in research categories is shown as a percentage - 100% completion represents 1 full theory. Getting less than 100% in a category still counts however and will be added to your current knowledge once you complete your research. It is possible to get more than 100% in a category. Only the highest category will get the full bonus however, all others will lose 33% of their total.<BR><PAGE>§nResearch Aids§r<BR>Normally research is a bit scattershot. I can direct my research with the use of research aids. If I use certain nearby blocks, items and curios during the research process it will allow me to focus my research in a certain direction.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>For example having access to a bookshelf will give me reference materials that I can use during the research process. These come in the form of limited special draws that have a higher chance of occurring than normal draws. These will have a gilded border to differentiate them from normal draws. For example the bookshelf grants the Balance research option and two chances at the Notation research option that can only be gained when you use the bookshelf.<BR>When you start your initial research you can choose which research aids to use, but it should be noted that each aid you use reduces your initial inspiration by one.<BR>There are potentially a lot of things that could be used as research aids. I should experiment.
+research.THEORYRESEARCH.stage.2=Now that I have a workspace I should start performing some research. I can now formulate theories on how to manipulate magic to my own ends.<BR>Firstly I should make sure the table has plenty of paper and I have ample ink for my scribing tools. I can now choose to start researching the theory.<IMG>thaumcraft:textures/research/research1.png:0:0:128:96:1</IMG>At the top of the page I will see how much inspiration (represented by light bulbs) is available to me for this round of research. When I do a stack of papers will appear on the left. If I select them I will be given the choice of two research paths I can follow. Each route will state what knowledge it will grant me, divided between one or more research categories.<BR>Some of the choices will require items. Items marked with a golden §6!§r will be consumed if the card is chosen.<BR>Normally I will only be able to pursue research categories that I have unlocked, though I am sure I might occasionally be able to discover completely new avenues of research.<BR>I can keep drawing to further my knowledge. I should note however that each choice I make will cost some of my inspiration. Once I run out the research will be completed. The amount of initial inspiration available to me will increase as my knowledge of magic increases.<BR>My progress in research categories is shown as a percentage - 100% completion represents 1 full theory. Getting less than 100% in a category still counts however and will be added to your current knowledge once you complete your research. It is possible to get more than 100% in a category. Only the highest category will get the full bonus however, all others will lose 33% of their total.<BR><PAGE>§nResearch Aids§r<BR>Normally research is a bit scattershot. I can direct my research with the use of research aids. If I use certain nearby blocks, items and curios during the research process it will allow me to focus my research in a certain direction.<IMG>thaumcraft:textures/research/research1.png:128:0:128:96:1</IMG>For example having access to a bookshelf will give me reference materials that I can use during the research process. These come in the form of limited special draws that have a higher chance of occurring than normal draws. These will have a gilded border to differentiate them from normal draws. For example the bookshelf grants the Balance research option and two chances at the Notation research option that can only be gained when you use the bookshelf.<BR>When you start your initial research you can choose which research aids to use, but it should be noted that each aid you use reduces your initial inspiration by one.<BR>There are potentially a lot of things that could be used as research aids. I should experiment.
 #
 research.UNLOCKAUROMANCY.title=Discovering Auromancy
 research.UNLOCKAUROMANCY.stage.1=Crafting objects of power with Vis has opened a whole new world for me, yet I am not satisfied. There must be a way of manipulating the aura directly. A way to draw vis from the very air itself and mould it to my will.<BR>I should study the world around me and travel to its edges. There I will learn what I need.<BR>Sometimes I feel like I am being driven by forces outside my understanding - unheard voices urging me towards great power and knowledge.<BR>Shaping vis will be one more step on this journey.
@@ -1425,7 +1426,7 @@ research.INFUSIONBOOST.stage.2=I have found a way to improve infusion altars thr
 #
 research.INFUSIONANCIENT.title=Infusion: Ancient Stone
 research.INFUSIONANCIENT.stage.1=The strange, ancient stone I have found has some interesting mystical properties. I think it might be useful in the infusion process.
-research.INFUSIONANCIENT.stage.2=I believe that when this ancient stone is used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>I you find pedestals crafted from the same material as each one will also help reduce essentia costs.
+research.INFUSIONANCIENT.stage.2=I believe that when this ancient stone is used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>If I find pedestals crafted from the same material, each one will also help reduce essentia costs.
 #
 research.INFUSIONELDRITCH.title=Infusion: Eldritch Stone
 research.INFUSIONELDRITCH.stage.1=The dark, eldritch stone I have discovered has some strange properties. I think it might be useful in the infusion process.
@@ -1474,6 +1475,9 @@ research.CURIOSITYBAND.stage.2=My theory has proven correct - I have found a way
 research.VERDANTCHARMS.title=Verdant Charms
 research.VERDANTCHARMS.stage.1=I occasionally find myself being affected with poisons and other nasty afflictions. I should find a way to protect myself. 
 research.VERDANTCHARMS.stage.2=I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<BR>There is also two specialized enchantments I can apply to the charm to improve its function.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
+#
+research.CHARMUNDYING.title=Charm of Undying
+research.CHARMUNDYING.stage.1=The Totem of Undying is potent magic that even thaumaturgy cannot easily replicate.<BR>I should however be able to make the totem more convenient to use by allowing it to be worn as a charm instead of having to be held.
 #
 ##########################################
 # ARTIFICE
@@ -1577,9 +1581,9 @@ research.FOCUSSPELLBAT.stage.2=I have created a medium pattern that conjures an 
 #
 research.FOCUSPROJECTILE.title=Focus Medium: Projectile
 research.FOCUSPROJECTILE.stage.1=Touching my foe to set them alight is fine and all, but I would much rather hurl magic at them from afar. I need to find a way to extend focal energy beyond my limited reach.
-research.FOCUSPROJECTILE.stage.2=I can now place the energy of the focus into a magical projectile that I can hurl at enemies or blocks. The projectile is slow, but I can increase it's speed by increasing the complexity.<BR>Further research might allow me to refine these projectiles even further. Studying other kinds of projectiles closely should inspire me. 
+research.FOCUSPROJECTILE.stage.2=I can now place the energy of the focus into a magical projectile that I can hurl at enemies or blocks. The projectile is slow, but I can increase it's speed by increasing the complexity.<BR>Further research might allow me to refine these projectiles even further. Studying other kinds of projectiles closely should inspire me. This might involve some personal risk...
 research.FOCUSPROJECTILE.stage.3=I have discoverd methods to improve the utility of projectile even further!<LINE>§nBouncy§0<BR>When this projectile hits a solid surface it will bounce off. This projectile cannot effect blocks anymore as it will bounce off any block it contacts.<BR>§nSeek Hostiles§0<BR>Projectiles with this special property will automatically redirect their flight path towards hostile targets ahead of them.<BR>§nSeek Friendlies§0<BR>Similar to Seek Hostiles, this projectile will seek out friendly targets.
-research.f_onfire.text=A normal projectile
+research.f_arrow.text=A normal projectile
 research.f_fireball.text=A firey projectile
 research.f_spit.text=A sticky projectile
 got.projectile=You learn some more about projectiles.
