@@ -1,4 +1,4 @@
-#ru_RU.lang file [Thaumcraft-1.10.2-6.0.BETA8]. Translated by TimeConqueror, groting & DCV_Hacker
+#ru_RU.lang file [Thaumcraft-1.10.2-6.1.BETA13]. Translated by TimeConqueror, groting & DCV_Hacker
 # Items
 ###################################
 #
@@ -39,8 +39,8 @@ item.celestial_notes.moon_8.text=Луна, Старая
 #
 # Resources
 #
-item.amber.name=Amber
-item.quicksilver.name=Quicksilver
+item.amber.name=Янтарь
+item.quicksilver.name=Ртуть
 item.crystal_essence.name=Вис-кристалл
 item.ingot.thaumium.name=Thaumium Ingot
 item.ingot.void.name=Void Metal Ingot
@@ -50,7 +50,7 @@ item.nugget.copper.name=Copper Nugget
 item.nugget.tin.name=Tin Nugget
 item.nugget.silver.name=Silver Nugget
 item.nugget.lead.name=Lead Nugget
-item.nugget.quicksilver.name=Quicksilver Drop
+item.nugget.quicksilver.name=Капля ртути
 item.nugget.thaumium.name=Thaumium Nugget
 item.nugget.void.name=Void Metal Nugget
 item.nugget.brass.name=Alchemical Brass Nugget
@@ -235,7 +235,7 @@ item.seal.provider.name=Control Seal: Provide
 #
 # World
 #
-tile.ore_amber.name=Amber Bearing Stone
+tile.ore_amber.name=Янтароносный камень
 tile.ore_cinnabar.name=Киноварь
 tile.ore_quartz.name=Кварцевая руда
 tile.crystal_aer.name=Кристалл воздуха
@@ -268,8 +268,8 @@ tile.stone_porous.name=Porous Stone
 tile.stairs_arcane.name=Arcane Stone Stairs
 tile.stairs_arcane_brick.name=Arcane Brick Stairs
 tile.stairs_ancient.name=Ancient Stone Stairs
-tile.amber_block.name=Amber Block
-tile.amber_brick.name=Amber Bricks
+tile.amber_block.name=Янтарный блок
+tile.amber_brick.name=Янтарные кирпичи
 tile.empty.name=Empty Space
 tile.slab_greatwood.name=Greatwood Slab
 tile.slab_silverwood.name=Silverwood Slab
@@ -481,7 +481,7 @@ warp.text.16=The faint sound of chanting can be heard nearby.
 ###################################
 entity.ArcaneBore.name=Arcane Bore
 entity.Golem.name=Golem
-entity.ThaumSlime.name= Таум-слизень
+entity.ThaumSlime.name=Таум-слизень
 entity.GolemDart.name=Golem Dart
 entity.PrimalArrow.name=Primal Arrow
 entity.FrostShard.name=Frost Shard
@@ -1052,8 +1052,8 @@ tc.jaressentia=Holds %s essentia
 tc.jarname=Jar of
 tc.markedloc=marked locations
 tc.addclue=§aYou have discovered something that could aid future research§0
-tc.addaddendum=§aAddendum added to %1$s§0
-tc.addendumtext=§oAddendum %1$s§r
+tc.addaddendum=§aК %1$s добавлено приложение§0
+tc.addendumtext=§oПриложение  %1$s§r
 tc.addaspect=§aYou have gained practical knowledge of %1$s§0
 tc.addwarp=§5You have gained permanent Warp!§0
 tc.addwarptemp=§5You have gained temporary Warp!§0
@@ -1092,7 +1092,7 @@ tc.search.more=...too many results found. Refine your search
 tc.research.stage=Текущая стадия:
 tc.research.begin=Вы еще не начали это исследование
 tc.research.newpage=§aДобавлена новая страница§0
-tc.research.newresearch=§6Newly discovered research§0
+tc.research.newresearch=§6Недавно открытое исследование§0
 tc.research.purchase=Click to purchase this research with %1$s experience level(s).
 tc.research.short=You need %1$s experience level(s) to purchase this.
 tc.research.read=Click to read this research.
@@ -1286,11 +1286,11 @@ research.WARP.warn=My mind reels from the knowledge I have gained
 research.WARP.title=Warp
 research.WARP.stage.1=Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even my keel is at the moment.
 #
-research.ORE.title=Ores
-research.ORE.stage.1=There are many unique ores and minable blocks that are useful to a Thaumaturge. I should make a note of all those I come across.
-research.ORE.amber=§oAmber Ore§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>This ore is found near the surface and when mined drops chunks of amber.
-research.ORE.cinnabar=§oCinnabar§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>This reddish ore is found deep underground and when smelted produces quicksilver.
-research.ORE.crystal=§oVis Crystals§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>On occasion there is so much primal energy in the aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>You have yet to discover a method to extract individual crystals without destroying the entire cluster. It is a matter of all or none.<BR>Vis crystals growing in tainted areas may become tainted as well.
+research.ORE.title=Руды
+research.ORE.stage.1=Существует множество уникальных руд и добываемых блоков, что полезны для Тауматурга. Я должен делать заметки обо всём том, с чем я сталкиваюсь.
+research.ORE.amber=§oЯнтарная руда§r<IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG>Эту руду можно найти у поверхности, при добыче из неё выпадут куски янтаря.
+research.ORE.cinnabar=§oКиноварь§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>Эту руду можно найти глубоко под землей, при переплавке из неё получается ртуть.
+research.ORE.crystal=§oВис-кристаллы§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>Иногда в ауре накапливается так много первородной энергии, что она оседает на камнях, откуда после вырастают кристаллы, наполненные Вис. Пока они питаются этой энергией, они продолжают расти и даже распространяются.<BR>Как только энергия в ауре уменьшится достаточно сильно, она начнет рассеиваться из кристаллов, восстанавливая ауру и заставляя кристаллы разрушаться. По сути, они являются естественными, или в данном случае, сверхъестественными Вис-батареями. Они никогда не разрушатся полностью, останется, по крайней мере, небольшой их остаток.<BR>Эти кристаллы можно добыть и получить осколки стихий, которым есть множество применений в Тауматургии.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>Вы еще не нашли способа извлекать отдельные кристаллы, не разрушая всего кластера. Всё или ничего...<BR>Вис-кристаллы, растущие в заражённых областях, могут также стать заражёнными.
 #
 research.PLANTS.title=Plants
 research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
