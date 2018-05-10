@@ -91,7 +91,7 @@ item.chunk.pork.name=Pork Nugget
 item.chunk.fish.name=Fish Nugget
 item.chunk.rabbit.name=Rabbit Nugget
 item.chunk.mutton.name=Mutton Nugget
-item.brain.name=Zombie Brain
+item.brain.name=Мозг зомби
 item.triple_meat_treat.name=Triple Meat Treat
 item.phial.empty.name=Glass Phial
 item.phial.filled.name=Phial of Essentia
@@ -1206,7 +1206,7 @@ research.Pech.stage.1=These strange humanoids can be found wherever the veil bet
 #
 research.Wisp.stage.1=These strange creatures appear to be floating points of light and are often found near high concentrations of vis. Honestly I am not sure if they are creatures at all - they move randomly and do not appear to exhibit the normal characteristics of a living organism. They do however react to being attacked and occasionally become aggressive for no apparent reason.<BR>My initial thoughts are they might be a form of proto-life made up of vis instead of normal matter, but that cannot be the whole picture as I am detecting strange dimensional energies at their core.
 #
-research.ThaumSlime.stage.1=Эти фиолетовые слизни - ни что иное, как странный подвид своих зеленых собратьев. Обычные слизни формируются из органического мусора, который время от времени накапливается в пещерах, а Таум-слизни, в отличие от них, формируются из частичек фиолетовой прото-материи, которая остается после магических неудач.<BR>Если не брать в расчёт их странное происхождение, то они по большей части похожи на обычных зеленых слизней. Они имеют возможность разделяться по своему желанию, зачастую выбрасывая малую часть себя в тех, кто подошёл слишком близко. Если поблизости никого нет, разделённые слизни будут пытаться слиться обратно, чтобы вновь сформировать более крупный организм. 
+research.ThaumSlime.stage.1=Эти фиолетовые слизни - ни что иное, как странный подвид своих зеленых собратьев. Обычные слизни формируются из органического мусора, который время от времени накапливается в пещерах, а Таум-слизни, в отличие от них, формируются из частичек фиолетовой прото-материи, которая остается после магических неудач.<BR>Если не брать в расчёт их странное происхождение, то они по большей части похожи на своих зеленых сородичей. Они имеют возможность разделяться по своему желанию, зачастую выбрасывая малую часть себя в тех, кто подошёл слишком близко. Если поблизости никого нет, разделённые слизни будут пытаться слиться обратно, чтобы вновь сформировать более крупный организм. 
 #
 research.Firebat.stage.1=Fire bats, or Hellbats are usually found in the Nether. Engulfed in flame and unreasonably aggressive they are perfectly suited to the environment they live in. They also have the alarming tendency to explode when attacking.<BR>One wonders what possible evolutionary advantage exploding gives them as a species, but the same can be asked of creepers. 
 #
@@ -1282,9 +1282,9 @@ research.FLUX.stage.1=I have been monitoring a strange buildup of magical energy
 research.FLUX.stage.2=Note to self: Do NOT let the flux build. It is bad.<BR>Very, very bad.<BR>If Flux builds high enough it seem to cause a tear in the very fabric of magic itself. The flux escapes through this tear, but usually raw, chaotic magic spills through into our world causing all manner of calamity.<BR>I should be a lot more careful of causing flux in the future. In fact, i should start looking into ways to neutralise Flux.
 research.f_toomuchflux.text=Let the the Flux build
 #
-research.WARP.warn=My mind reels from the knowledge I have gained
-research.WARP.title=Warp
-research.WARP.stage.1=Many believe man was not meant to meddle with magic, and nothing gives more credence to this than the existence of Warp.<BR>Researching forbidden magics or crafting objects of a questionable nature tends to distort a thaumaturge's view of reality, twisting both their minds and their bodies. This effect is called Warp.<BR>While some warp gained is temporary and will fade over time, there is no known way to get rid of permanent Warp once it is gained and a thaumaturge who chooses to ignore the dangers in the pursuit of power often finds himself on a slippery slope.<BR>Warp usually manifests as minor lapses in concentration, physical pain or hallucinations.<BR>These are more than merely mental though, as the visions sometimes impart useful knowledge or seeming hallucinations prove to be frighteningly real.<BR>I should monitor my mental well being carefully and to that end I have designed a device that should show me exactly how even my keel is at the moment.
+research.WARP.warn=Мой разум пошатнулся от тех знаний, что я получил
+research.WARP.title=Искажение
+research.WARP.stage.1=Многие считают, что человек не должен вмешиваться в магию, и ничто не даёт большего доверия этому мнению, как существование Искажения.<BR>Изучение запрещенной магии или создание предметов сомнительной природы имеют тенденцию искажать взгляд тауматурга на реальность, изменяя и его разум, и его тело. Этот эффект называют Искажением.<BR>В то время как некоторое полученное искажение является временным и постепенно исчезает, нет известного способа, которые избавил бы от постоянного Искажения после его получения, и тауматург, который предпочитает игнорировать опасности в погоне за властью, часто оказывается на скользком пути.<BR>Искажение обычно проявляется в небольших недостатках в концентрации, физической боли или галлюцинациях.<BR>Но это больше, чем просто сумасшествие, потому что видения иногда дают полезные знания, а кажущиеся галлюцинации оказываются пугающе реальными.<BR>Я должен внимательно следить за своим психикой, и для этого я разработал устройство, которое должно показать мне, как я чувствую себя в настоящий момент.
 #
 research.ORE.title=Руды
 research.ORE.stage.1=Существует множество уникальных руд и добываемых блоков, что полезны для Тауматурга. Я должен делать заметки обо всём том, с чем я сталкиваюсь.
