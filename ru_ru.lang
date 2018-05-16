@@ -1,4 +1,4 @@
-#ru_RU.lang file [Thaumcraft-1.10.2-6.1.BETA13]. Translated by TimeConqueror, groting & DCV_Hacker
+#ru_RU.lang file [Thaumcraft-1.12.2-6.1.BETA13]. Translated by TimeConqueror, groting, Daddy Lappy & DCV_Hacker
 # Items
 ###################################
 #
@@ -246,16 +246,16 @@ tile.crystal_ordo.name=Кристалл порядка
 tile.crystal_perditio.name=Кристалл энтропии
 tile.crystal_vitium.name=Flux Crystal
 tile.log_greatwood.name=Greatwood Log
-tile.log_silverwood.name=Silverwood Log
+tile.log_silverwood.name=Бревно серебряного дерева
 tile.leaves_greatwood.name=Greatwood Leaves
-tile.leaves_silverwood.name=Silverwood Leaves
+tile.leaves_silverwood.name=Листья серебряного дерева
 tile.taint_log.name=Taintwood Log
 tile.sapling_greatwood.name=Greatwood Sapling
-tile.sapling_silverwood.name=Silverwood Sapling
+tile.sapling_silverwood.name=Саженец серебряного дерева
 tile.plank_greatwood.name=Greatwood Planks
-tile.plank_silverwood.name=Silverwood Planks
+tile.plank_silverwood.name=Доски из серебряного дерева
 tile.stairs_greatwood.name=Greatwood Stairs
-tile.stairs_silverwood.name=Silverwood Stairs
+tile.stairs_silverwood.name=Ступеньки из серебряного дерева
 tile.stone_arcane.name=Arcane Stone
 tile.stone_arcane_brick.name=Arcane Stone Brick
 tile.stone_ancient.name=Ancient Stone
@@ -272,7 +272,7 @@ tile.amber_block.name=Янтарный блок
 tile.amber_brick.name=Янтарные кирпичи
 tile.empty.name=Empty Space
 tile.slab_greatwood.name=Greatwood Slab
-tile.slab_silverwood.name=Silverwood Slab
+tile.slab_silverwood.name=Плита из серебряного дерева
 tile.slab_arcane_stone.name=Arcane Stone Slab
 tile.slab_arcane_brick.name=Arcane Brick Slab
 tile.slab_ancient.name=Ancient Stone Slab
@@ -1278,8 +1278,8 @@ research.f_golem.text=Study an animated construct.
 #
 research.FLUX.warn=Кажется, что-то накапливается в ауре. Что-то плохое.
 research.FLUX.title=Выброс
-research.FLUX.stage.1=Я наблюдал за странным нарастанием магической энергии в ауре. Кажется, она является формой "грязного" Вис, которую я назвал Выбросом. На моём таумометре она представлена в виде зловещей тёмной шкалой.<BR>Теперь я знаю, что это за фиолетовые клубы дыма, которые я изредка вижу, когда бываю неосторожен; это эссенция, что проникает в атмосферу и становится Выбросом. Кажется, чистая эссенция не должна быть напрямую подвержена ауре.<BR>Я не совсем уверен, какие отрицательные эффекты всё это вызовет, но я заметил, что Выброс, похоже, засоряет местную ауру, предотвращая естественное восстановление Вис.<BR>Представьте это, как толстый слой пены на природном бассейне с чистой водой.<BR>Местная аура имеет точку, достигнув которой она будет "заполнена", и кажется, Выброс только способствует этому.<BR>Тревожнее то, что он, вероятно, имеет приоритет над Вис, и полагаю, что скорее всего Выброс сможет превысить этот естественный предел.<BR>Не совсем уверен, что произойдёт, когда Выбросы переполнят ауру, но полагаю, будет интересно.
-research.FLUX.stage.2=Заметки для себя: НЕ позволять накапливаться выбросам. Это плохо.<BR>Очень, очень плохо.<BR>Если выбросов накопиться достаточно много, то они, судя по всему, создадут разрыв в самой ткани магии. Выбросы улетучатся сквозь этот разрыв, но в наш мир проникнет грубая, хаотическая магия, вызывая всевозможные бедствия.<BR>Я должен быть намного более осторожным с созданием выбросов. В действительности, я должен начать искать способы по их нейтрализации.
+research.FLUX.stage.1=Я наблюдал за странным нарастанием магической энергии в ауре. Кажется, она является формой "грязного" Вис, которую я назвал Выбросом. На моём таумометре она представлена в виде зловещей тёмной шкалы.<BR>Теперь я знаю, что это за фиолетовые клубы дыма, которые я изредка вижу, когда бываю неосторожен; это эссенция, что проникает в атмосферу и становится Выбросом. Кажется, чистая эссенция не должна быть напрямую подвержена ауре.<BR>Я не совсем уверен, какие отрицательные эффекты всё это вызовет, но я заметил, что Выброс, похоже, засоряет местную ауру, предотвращая естественное восстановление Вис.<BR>Представьте это, как толстый слой пены на природном бассейне с чистой водой.<BR>Местная аура имеет точку, достигнув которой она будет "заполнена", и кажется, Выброс только способствует этому.<BR>Тревожнее то, что он, вероятно, имеет приоритет над Вис, и полагаю, что скорее всего Выброс сможет превысить этот естественный предел.<BR>Не совсем уверен, что произойдёт, когда Выбросы переполнят ауру, но полагаю, будет интересно.
+research.FLUX.stage.2=Заметки для себя: НЕ позволять накапливаться выбросам. Это плохо.<BR>Очень, очень плохо.<BR>Если выбросов накопится достаточно много, то они, судя по всему, создадут разрыв в самой ткани магии. Выбросы улетучатся сквозь этот разрыв, но в наш мир проникнет грубая, хаотическая магия, вызывая всевозможные бедствия.<BR>Мне стоит быть куда более осторожным с созданием выбросов. В действительности, я должен начать искать способы их нейтрализации.
 research.f_toomuchflux.text=Позвольте Выбросам накопиться
 #
 research.WARP.warn=Мой разум пошатнулся от тех знаний, что я получил
@@ -1292,9 +1292,9 @@ research.ORE.amber=§oЯнтарная руда§r<IMG>thaumcraft:textures/resea
 research.ORE.cinnabar=§oКиноварь§r<IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG>Эту руду можно найти глубоко под землей, при переплавке из неё получается ртуть.
 research.ORE.crystal=§oВис-кристаллы§r<IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG>Иногда в ауре накапливается так много первородной энергии, что она оседает на камнях, откуда после вырастают кристаллы, наполненные Вис. Пока они питаются этой энергией, они продолжают расти и даже распространяются.<BR>Как только энергия в ауре уменьшится достаточно сильно, она начнет рассеиваться из кристаллов, восстанавливая ауру и заставляя кристаллы разрушаться. По сути, они являются естественными, или в данном случае, сверхъестественными Вис-батареями. Они никогда не разрушатся полностью, останется, по крайней мере, небольшой их остаток.<BR>Эти кристаллы можно добыть и получить осколки стихий, которым есть множество применений в Тауматургии.<IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG>Вы еще не нашли способа извлекать отдельные кристаллы, не разрушая всего кластера. Всё или ничего...<BR>Вис-кристаллы, растущие в заражённых областях, могут также стать заражёнными.
 #
-research.PLANTS.title=Plants
-research.PLANTS.stage.1=There are many unique plants that are useful to a Thaumaturge. I should study those I find.
-research.PLANTS.silverwood=§oSilverwood§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that if allowed to grow naturally they will slow replenish the aura around them - this feature alone makes a silverwood sapling a rare prize.
+research.PLANTS.title=Растения
+research.PLANTS.stage.1=Существует множество уникальных растений, что полезны для Тауматурга. Я должен изучать те, что нахожу.
+research.PLANTS.silverwood=§oСеребряное дерево§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>Эти редкие волшебные деревья просто чудесны. Их листья мерцают из-за магической энергии, а их бледная, мягкая древесина ценится за свои очищающие свойства.<BR>Природа этих магических деревьев такова, что если позволить им расти естественным путём, они будут медленно восстанавливать ауру вокруг себя - уже одна эта особенность делает саженец серебряного дерева редким и ценным предметом.
 research.PLANTS.greatwood=§oGreatwood§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 research.PLANTS.cinderpearl=§oCinderpearls§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
 research.PLANTS.shimmerleaf=§oShimmerleaf§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>These mysterious, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.
