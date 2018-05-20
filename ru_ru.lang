@@ -388,7 +388,7 @@ tile.nitor_white.name=Белый нитор
 tile.nitor_orange.name=Оранжевый нитор
 tile.nitor_magenta.name=Пурпурный нитор
 tile.nitor_light_blue.name=Голубой нитор
-tile.nitor_yellow.name=Желтый нитор
+tile.nitor_yellow.name=Жёлтый нитор
 tile.nitor_lime.name=Лаймовый нитор
 tile.nitor_pink.name=Розовый нитор
 tile.nitor_gray.name=Серый нитор
@@ -397,9 +397,9 @@ tile.nitor_cyan.name=Бирюзовый нитор
 tile.nitor_purple.name=Фиолетовый нитор
 tile.nitor_blue.name=Синий нитор
 tile.nitor_brown.name=Коричневый нитор
-tile.nitor_green.name=Зеленый нитор
+tile.nitor_green.name=Зелёный нитор
 tile.nitor_red.name=Красный нитор
-tile.nitor_black.name=Черный нитор
+tile.nitor_black.name=Чёрный нитор
 tile.metal_thaumium.name=Thaumium Block
 tile.metal_void.name=Void Metal Block
 tile.metal_alchemical.name=Alchemical Construct
@@ -499,12 +499,12 @@ entity.FollowItem.name=Following Item
 entity.SpecialItem.name=Magic Item
 entity.FallingTaint.name=Tainted Crust
 entity.AspectOrb.name=Aspect Orb
-entity.TaintCrawler.name=Tainted Crawler
+entity.TaintCrawler.name=Заражённый ползун
 entity.Taintacle.name=Taintacle
-entity.TaintacleTiny.name=Taint Tendril
+entity.TaintacleTiny.name=Заражённый усик
 entity.TaintacleGiant.name=Giant Taintacle
-entity.TaintSeed.name=Taint Seed
-entity.TaintSeedPrime.name=Giant Taint Seed
+entity.TaintSeed.name=Семя заражения
+entity.TaintSeedPrime.name=Гигантское семя заражения
 entity.TaintSwarm.name=Taint Swarm
 entity.Pech.name=Pech Forager
 entity.Pech.1.name=Pech Mage
@@ -865,22 +865,22 @@ tile.researchtable.nopaper.0=У вас закончилась бумага!
 text.spa.mix.true=Mix with ingredient
 text.spa.mix.false=Use just the fluid
 #
-color.white=White
-color.orange=Orange
-color.magenta=Magenta
-color.light_blue=Light Blue
-color.yellow=Yellow
-color.lime=Lime
-color.pink=Pink
-color.gray=Gray
-color.silver=Light Gray
-color.cyan=Cyan
-color.purple=Purple
-color.blue=Blue
-color.brown=Brown
-color.green=Green
-color.red=Red
-color.black=Black
+color.white=Белый
+color.orange=Оранжевый
+color.magenta=Пурпурный
+color.light_blue=Голубой
+color.yellow=Жёлтый
+color.lime=Лаймовый
+color.pink=Розовой
+color.gray=Серый
+color.silver=Светло-серый
+color.cyan=Бирюзовый
+color.purple=Фиолетовый
+color.blue=Синий
+color.brown=Коричневый
+color.green=Зелёный
+color.red=Красный
+color.black=Чёрный
 #
 button.up=Scroll up
 button.down=Scroll down
@@ -1222,14 +1222,14 @@ research.CrimsonCultist.stage.1=These red-robed cultists have been popping up of
 research.CrimsonRites.title=The Crimson Rites
 research.CrimsonRites.stage.1=Much of this book is written in a spidery and unintelligible script, but what I can understand offers me some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but I doubt it is anything good.<BR>Interestingly enough, I think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
 #
-research.TaintCrawler.stage.1=These disgusting grubs secrete corrupting Taint wherever they go. Most of the time the Taint is short-lived if they wander too far from the core of the Taint growth, but other times this can cause the Taint to spread much quicker than it normally would.<BR>It is best to destroy them on sight.
+research.TaintCrawler.stage.1=Эти отвратительные личинки выделяют разрушающую заразу везде, где только можно. Если они бродят слишком далеко от центра разрастания Заражения, то чаще всего такое заражение недолговечно, но в остальных случаях это может привести к тому, что оно будет распространяться намного быстрее обычного.<BR>Лучше всего истреблять их при первой возможности.
 #
 research.Taintacle.stage.1=These dangerous growths look like giant tentacles. They will lash out at anything that comes nearby.<BR>Thought they are immobile keeping your distance might not keep you safe as miniature versions of them will spawn all around you should you draw their attention.
 #
 research.TaintSwarm.stage.1=Sometimes purple hive-like growths will form on the remains of trees within Taint. Swarms of tiny biting creatures will spawn from these growths and rove around in aggressive swarms.<BR>They move fast, are hard to avoid and even harder to hit. Fortunately the individual creatures are not particularly robust so a properly prepared traveller should be able to dispatch them easily.
 #
-research.TaintSeed.stage.1=Occasionally tight knots of Tainted tendrils will form. From out of this 'seed' foul tainted air will spew which acts as the basis for new Taint growth.<BR>These seeds can lash out to defend themselves, but the risk must be taken if you wish to rid an area of taint.<BR>Without the foul air these seeds create, tainted growth soon withers and dies. 
-#
+research.TaintSeed.stage.1=Изредка могут формироваться плотные узлы из Заражённых усиков. Такое "семя" извергает грязный инфицированный воздух, который служит основой для роста новых Заражённых образований.<BR>Эти семена могут наброситься, чтобы защитить себя, но надо пойти на определённый риск, если Вы хотите избавиться от заражённой области.<BR>Без грязного воздуха, что они порождают, заражённые образования засохнут и умрут. 
+#	
 research.PRIMPEARL.title=Primordial Pearls
 research.PRIMPEARL.stage.1=For the first time I find myself with a puzzle that I do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what I consider normal, everyday primal aspects. I have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of magic as you have come to understand it. I'm not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is fairly rare to find a whole one though. Often they have degenerated into nodules or even motes. Even a mote is valuable though.
 #
