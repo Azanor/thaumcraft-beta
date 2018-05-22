@@ -500,12 +500,12 @@ entity.SpecialItem.name=Magic Item
 entity.FallingTaint.name=Tainted Crust
 entity.AspectOrb.name=Aspect Orb
 entity.TaintCrawler.name=Заражённый ползун
-entity.Taintacle.name=Taintacle
+entity.Taintacle.name=Заражённое щупальце
 entity.TaintacleTiny.name=Заражённый усик
-entity.TaintacleGiant.name=Giant Taintacle
+entity.TaintacleGiant.name=Гигантское заражённое щупальце
 entity.TaintSeed.name=Семя заражения
 entity.TaintSeedPrime.name=Гигантское семя заражения
-entity.TaintSwarm.name=Taint Swarm
+entity.TaintSwarm.name=Заражённый рой
 entity.Pech.name=Pech Forager
 entity.Pech.1.name=Pech Mage
 entity.Pech.2.name=Pech Stalker
@@ -1224,9 +1224,9 @@ research.CrimsonRites.stage.1=Much of this book is written in a spidery and unin
 #
 research.TaintCrawler.stage.1=Эти отвратительные личинки выделяют разрушающую заразу везде, где только можно. Если они бродят слишком далеко от центра разрастания Заражения, то чаще всего такое заражение недолговечно, но в остальных случаях это может привести к тому, что оно будет распространяться намного быстрее обычного.<BR>Лучше всего истреблять их при первой возможности.
 #
-research.Taintacle.stage.1=These dangerous growths look like giant tentacles. They will lash out at anything that comes nearby.<BR>Thought they are immobile keeping your distance might not keep you safe as miniature versions of them will spawn all around you should you draw their attention.
+research.Taintacle.stage.1=Эти опасные образования выглядят, как гигантские щупальца. Они будут набрасываться на всё, что находится поблизости.<BR>Ни мысль о том, что они неподвижны, ни сохранение дистанции не сможет защитить Вас, поскольку если Вы привлечёте их внимание, то вокруг Вас появятся их миниатюрные версии.
 #
-research.TaintSwarm.stage.1=Sometimes purple hive-like growths will form on the remains of trees within Taint. Swarms of tiny biting creatures will spawn from these growths and rove around in aggressive swarms.<BR>They move fast, are hard to avoid and even harder to hit. Fortunately the individual creatures are not particularly robust so a properly prepared traveller should be able to dispatch them easily.
+research.TaintSwarm.stage.1=Иногда в Заражённой местности на остатках деревьев формируются фиолетовые образования, похожие на ульи. Из них будут появляться тучи крошечных кусачих существ, летающих вокруг агрессивными роями.<BR>Они быстро движутся, их трудно избежать и ещё сложнее ударить. К счастью, одиночные существа не особенно сильны, поэтому правильно подготовленный путешественник должен без труда разделаться с ними.
 #
 research.TaintSeed.stage.1=Изредка могут формироваться плотные узлы из Заражённых усиков. Такое "семя" извергает грязный инфицированный воздух, который служит основой для роста новых Заражённых образований.<BR>Эти семена могут наброситься, чтобы защитить себя, но надо пойти на определённый риск, если Вы хотите избавиться от заражённой области.<BR>Без грязного воздуха, что они порождают, заражённые образования засохнут и умрут. 
 #	
