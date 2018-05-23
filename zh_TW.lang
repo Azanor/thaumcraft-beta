@@ -1,4 +1,4 @@
-﻿#
+#
 # Items
 ###################################
 #
@@ -23,19 +23,19 @@ item.primordial_pearl.nodule.name=原初團塊
 item.primordial_pearl.pearl.name=原初寶珠
 item.pech_wand.name=地精法杖
 item.celestial_notes.name=天文筆記
-item.celestial_notes.sun.name=太陽
-item.celestial_notes.stars_1.name=星‧第一象限
-item.celestial_notes.stars_2.name=星‧第二象限
-item.celestial_notes.stars_3.name=星‧第三象限
-item.celestial_notes.stars_4.name=星‧第四象限
-item.celestial_notes.moon_1.name=月‧滿月
-item.celestial_notes.moon_2.name=月‧盈凸月
-item.celestial_notes.moon_3.name=月‧上弦月
-item.celestial_notes.moon_4.name=月‧蛾眉月
-item.celestial_notes.moon_5.name=月‧新月
-item.celestial_notes.moon_6.name=月‧殘月
-item.celestial_notes.moon_7.name=月‧下弦月
-item.celestial_notes.moon_8.name=月‧虧凸月
+item.celestial_notes.sun.text=太陽
+item.celestial_notes.stars_1.text=星‧北方象限
+item.celestial_notes.stars_2.text=星‧南方象限
+item.celestial_notes.stars_3.text=星‧西方象限
+item.celestial_notes.stars_4.text=星‧東方象限
+item.celestial_notes.moon_1.text=月‧滿月
+item.celestial_notes.moon_2.text=月‧盈凸月
+item.celestial_notes.moon_3.text=月‧上弦月
+item.celestial_notes.moon_4.text=月‧蛾眉月
+item.celestial_notes.moon_5.text=月‧新月
+item.celestial_notes.moon_6.text=月‧殘月
+item.celestial_notes.moon_7.text=月‧下弦月
+item.celestial_notes.moon_8.text=月‧虧凸月
 #
 # Resources
 #
@@ -185,9 +185,10 @@ item.verdant_charm.name=蔥蘢之心護符
 item.verdant_charm.life.text=生命供給
 item.verdant_charm.sustain.text=體力維持
 item.voidseer_charm.name=虛空先知寶珠
-item.voidseer_charm.text=你窺探那深遠的黑暗...... 你可以發誓有什麼東西正回望著你......
+item.voidseer_charm.text=你窺探那深遠的黑暗... 你發誓肯定有什麼東西正回望著你...
 item.curiosity_band.name=求知頭帶
 item.cloud_ring.name=雲行戒指
+item.charm_undying.name=不死護符
 #
 # Casters & Foci
 #
@@ -533,6 +534,7 @@ entity.TurretAdvanced.name=進階自動十字弩
 entity.FocusProjectile.name=核心投彈
 entity.FocusCloud.name=核心雲霧
 entity.FocusMine.name=核心地雷
+entity.FluxRift.name=咒波裂痕
 #
 champion.mod.bold=魯莽
 champion.mod.spine=尖棘
@@ -550,8 +552,8 @@ champion.mod.infested=瘟疫
 #
 tc.boss.crimson=閃耀著紅寶石色異樣光芒的傳送門已開啟，意味著緋色教徒們即將闖入。你必須盡快封上那道傳送門！
 tc.boss.golem=一個孤獨的守衛矗立在這個凍結的房間中，但是隨著能量開始通過骨架迸裂而出，你知道冰封無法支持太久。
-tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼東西即將出現......
-tc.boss.taint=門後發出了生體組織般的奇怪沙沙聲。那聲音聽起來非常不妙...... 有什麼東西正在滋長......
+tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼東西即將出現...
+tc.boss.taint=門後發出了生體組織般的奇怪沙沙聲。那聲音聽起來非常不妙... 有什麼東西正在滋長...
 #
 # Blocks
 ###################################
@@ -706,8 +708,7 @@ golem.stay=我將在此待命，主人。
 #
 # Fluids
 ##############################
-fluid.fluxGoo=咒波黏漿
-fluid.fluxGas=咒波瓦斯
+fluid.flux_goo=咒波黏漿
 fluid.purifying_fluid=淨化泉
 fluid.liquid_death=亡水
 #
@@ -740,7 +741,7 @@ thaumcraft.PROJECTILE.name=投彈
 thaumcraft.PROJECTILE.text=汲取能量並凝聚成魔法球投出。這顆彈丸射程很長，但速度緩慢且會受重力影響。
 thaumcraft.BOLT.name=雷光
 thaumcraft.BOLT.text=往目標處擊出一道雷光。法術為瞬發但射程限於16格內。
-thaumcraft.PLAN.name=計畫
+thaumcraft.PLAN.name=規劃
 thaumcraft.PLAN.text=使你能精確規劃作用於哪些方塊。
 thaumcraft.CLOUD.name=雲霧
 thaumcraft.CLOUD.text=創造一團法術效果的滯留雲霧，持續影響範圍中的物體。
@@ -777,8 +778,8 @@ focus.projectile.bouncy=彈性
 focus.projectile.seeking.friendly=追蹤友方
 focus.projectile.seeking.hostile=追蹤敵對
 focus.break.power=破壞力
-focus.plan.method=計畫規則
-focus.plan.full=全部
+focus.plan.method=規劃原則
+focus.plan.full=填滿
 focus.plan.surface=表面
 focus.rift.depth=深度
 focus.heal.power=治癒力
@@ -930,7 +931,7 @@ card.dragonegg.name=龍族學說
 card.dragonegg.text=蛋周圍的靈氣纏繞著詭異而混沌的能量。 然而你偶爾能在那混沌中瞥見一絲奇異的秩序。
 #
 card.celestial.name=天體研究
-card.celestial.text=你取出一些自己做的天文筆記來與你目前的主要研究相互對照，試圖找出兩者間可能存在的關聯。 你獲得25~50的%1$s發現。或許你還會獲得其他的......
+card.celestial.text=你取出一些自己做的天文筆記來與你目前的主要研究相互對照，試圖找出兩者間可能存在的關聯。 你獲得25~50的%1$s發現。或許你還會獲得其他的...
 #
 # ALCHEMY
 card.concentrate.name=精煉
@@ -1010,7 +1011,7 @@ itemGroup.thaumcraft=Thaumcraft
 #
 got.crystals=當你在蒐集水晶時手指感到了異樣的刺痛。這意味著什麼呢？或許稍作歇息可以得到答案。
 got.dream=你從一個奇怪的夢中醒來。你急忙在忘卻之前將它記錄下來。 
-false.start=這看起來應該要有效的，然而在某個環節出錯了......
+false.start=這看起來應該要有效的，然而在某個環節出錯了...
 book.start.title=詭異的夢境
 book.start.1="我昨晚作了一個奇怪的夢。 \n\n在夢中，我拿了三片發現到的水晶，把它們和一搓紅石放在碗裡，並用燧石搗在一起。"
 book.start.2="三個水晶必須是不同的類型，但我依循步驟處理後得到的卻是一團詭異、發著光的細砂。 \n\n在夢中，我把那搓細砂撒在書架上，然而夢境在我看到結果前就結束了。"
@@ -1087,7 +1088,7 @@ tc.resonator1=§9帶有 %1$s %2$s 源質§0
 tc.resonator2=§5吸力 %1$s %2$s§0 
 tc.resonator3=未歸類
 tc.search=搜尋
-tc.search.more=......搜尋結果過多。請重新搜尋
+tc.search.more=...搜尋結果過多。請重新搜尋
 tc.research.stage=當前頁面：
 tc.research.begin=你尚未開始這項研究
 tc.research.newpage=§a已添加新頁面§0
@@ -1105,7 +1106,7 @@ tc.primalcharm.1=你覺得似乎聽到了耳語
 tc.primalcharm.2=一陣劇烈的抖動
 tc.primalcharm.3=它的輕聲低吟十分舒緩
 tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
-tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初之符。它們很快便消散了，但使你受到了奇異的啟發......
+tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初之符。它們很快便消散了，但使你受到了奇異的啟發...
 tc.break.fly=有一股力量奪去了你的飛行能力。
 tc.boss.enrage=被你強力的攻擊激怒了。
 tc.levitator=範圍設定為%s格。（每分鐘消耗 %d 魔素）
@@ -1117,7 +1118,7 @@ tc.fluxevent.1=周圍的靈氣忽然受到曲折而扭曲，使你的思緒一�
 tc.fluxevent.2=周圍的靈氣忽然失去穩定，阻礙了你施行法術的能力。
 tc.fluxevent.3=周圍的靈氣似乎累積了過多的咒波！
 tc.stage.complete=完成
-tc.stage.hold=正在完成......
+tc.stage.hold=正在完成...
 tc.warp.warn= 扭曲程度：%n
 tc.knowledge.name=知識總和
 tc.logistics.request=需求
@@ -1201,7 +1202,7 @@ tc.type.observation=觀察
 ##########################################
 #
 research.Pech.title=地精
-research.Pech.stage.1=這些奇怪的類人生物會出現在次元間隔較薄弱的區域。看起來似乎是受到這些地方豐沛的魔法能量所吸引。<IMG>thaumcraft:textures/research/research5.png:128:136:108:117:.75</IMG>別被它們的矮小給蒙蔽，它們驚人的力量足以攜帶比自己體重高上數倍的物品。 <BR>地精通常不具攻擊性，但一旦被激怒就會成群合作擊倒攻擊它們的敵人。而一般情況下它們會儘量主動避開人們。 <BR>地精的貪婪可以說是惡名昭彰，即使較偏好珍貴的物件，依然會試圖奪走所有沒釘死的物品。坊間有此一說，若你有辦法滿足地精對財富的慾望，或許可以與它們友善往來。 <BR>若能與之結識它們可能會帶一些神奇的物件來與你分享。 <BR>然而必須注意的是這樣的「友誼」通常不會持續太久。
+research.Pech.stage.1=這些詭異的亞人會出現在次元間隔較薄弱的區域。看起來似乎是受到這些地方豐沛的魔法能量所吸引。<IMG>thaumcraft:textures/research/research5.png:128:136:108:117:.75</IMG>別被它們的矮小給蒙蔽，它們驚人的力量足以攜帶比自己體重高上數倍的物品。 <BR>地精通常不具攻擊性，但一旦被激怒就會成群合作擊倒攻擊它們的敵人。而一般情況下它們會儘量主動避開人們。 <BR>地精的貪婪可以說是惡名昭彰，即使較偏好珍貴的物件，依然會試圖奪走所有沒釘死的物品。坊間有此一說，若你有辦法滿足地精對財富的慾望，或許可以與它們友善往來。 <BR>若能與之結識它們可能會帶一些神奇的物件來與你分享。 <BR>然而必須注意的是這樣的「友誼」通常不會持續太久。
 #
 research.Wisp.stage.1=這些神奇的生物看起來就像漂浮的光點，時常出現在魔素濃厚的地方。老實說我完全不確定它們究竟是不是生物——它們漫無目的地飄移，而且絲毫沒有展現出任何像是正常生命體的特徵。它們受到攻擊會進行反擊，有時則會毫無徵兆的變得兇暴。 <BR>我剛開始時認為他們可能是某種形式的原始生物，並非由物質，而是由魔素構成，然而當我在它們中心觀測到異樣的次元能量後我就發現事情沒有我想的那麼單純。
 #
@@ -1216,10 +1217,10 @@ research.EldritchGuardian.stage.1=這些彷彿幽靈般的人型是相當危險�
 research.EldritchCrab.stage.1=異象魔蟹，這個被稱為頭盔蟹的東西可說是最不尋常、不自然的動物。我敢說這些生命肯定是用魔法拼湊出來的。 <BR>那對強大的雙螯在戰鬥中充滿威脅，然而真正令人恐懼的是那對大螯的使用方式。它們會跳向敵人的頭部並試圖斬下對方的腦袋。成功得手後它們會以某種方式深入犧牲者，並操控遺留下的軀殼。而它們那顆像是戴了頭盔的腹部在控制了屍軀後成了完美的擬態。 <BR>然而這些軀殼並沒有比普通的殭屍強大多少，所以它們這麼做的原因是為了使我大意——少了「坐騎」的它們更具威脅。或許它們是瘋狂學家所創造出來的恐怖兵器？
 #
 research.CrimsonCultist.title=緋色崇拜
-research.CrimsonCultist.stage.1=最近出現了一群紅袍的邪教徒。他們似乎不願意與我對話，所以我無法得知他們的目的。不僅如此，這些傢伙相當......不對勁。他們的理智似乎趨於斷線，而他們犯下的錯更勝於此。我很難跟你解釋。 <BR>我的存在似乎惹毛了他們，我相信應該是因為我擁有秘術的才能。 <BR>它們的僧侶雖然有汲取靈氣施放魔法的能力，但那些魔法似乎不是秘術。不論那是什麼都使我感到毛骨悚然，每當他們汲取靈氣時我都能感受到靈氣被拉扯、撕裂。 <BR>某些信徒似乎帶著一本書。我覺得我該想辦法弄來一本，或許那能讓我對這詭異的宗教有所瞭解。我必須保持謹慎，有些知識會帶來危險。
+research.CrimsonCultist.stage.1=最近出現了一群紅袍的邪教徒。他們似乎不願意與我對話，所以我無法得知他們的目的。不僅如此，這些傢伙相當...不對勁。他們的理智似乎趨於斷線，而他們犯下的錯更勝於此。我很難跟你解釋。 <BR>我的存在似乎惹毛了他們，我相信應該是因為我擁有秘術的才能。 <BR>它們的僧侶雖然有汲取靈氣施放魔法的能力，但那些魔法似乎不是秘術。不論那是什麼都使我感到毛骨悚然，每當他們汲取靈氣時我都能感受到靈氣被拉扯、撕裂。 <BR>某些信徒似乎帶著一本書。我覺得我該想辦法弄來一本，或許那能讓我對這詭異的宗教有所瞭解。我必須保持謹慎，有些知識會帶來危險。
 #
 research.CrimsonRites.title=緋紅教儀
-research.CrimsonRites.stage.1=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為 「Apertis Oculis」 ——開眼的儀式。 雖然其作用尚未明瞭，但我打賭肯定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究......
+research.CrimsonRites.stage.1=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為 「Apertis Oculis」 ——開眼的儀式。 雖然其作用尚未明瞭，但我能肯定這一定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究...
 #
 research.TaintCrawler.stage.1=這些噁心的蛆蟲不管爬到哪都不停地散佈腐蝕液。一般而言這些腐蝕現象在離源頭太遠的地方很快就會消退，然而也有機會導致腐蝕漫延得更快。 <BR>最好在發現的當下立即撲滅。
 #
@@ -1246,8 +1247,8 @@ research.THEORYRESEARCH.stage.2=現在我有了自己的工作空間，該著手
 #
 research.UNLOCKAUROMANCY.title=探索靈氣術
 research.UNLOCKAUROMANCY.stage.1=製作使用魔素力量的物品使我開了眼界，然而我並未滿足於此。一定有方法能直接操作靈氣。汲取大氣中的魔素並依我的意志來驅使的方法。 <BR>我應該走遍世界的邊境。肯定能在哪裡習得我所需的知識。 <BR>有時我會覺得我受到我理解範圍外的力量驅使——無人能聞的聲音催促我邁向宏大的力量與知識。 <BR>將魔素定型將是旅途的下一步。
-research.UNLOCKAUROMANCY.stage.2=緩慢而確實的，我逐漸理解了魔素的本質。對我而言魔素還有很多未解之謎，但我認為我已經得到足以讓魔素如願成形的知識。為此我需要一項工具，非常特殊的工具。 <BR>我發現了由一位長眠的秘術師留下來的一些塵封卷軸。上面敘述著如何製作用以儲存與驅動魔素的魔杖。我在卷軸中所學到的知識相當有用，然而實用性似乎受到相當程度的限制。何必將四周充沛的魔素限制在法杖之中？對我而言連魔杖本身都太過不切實際。如果需要一個可以抓住靈氣並使它成形的工具，像手套那樣的形狀應該相當適合。 <BR>沒有任何破舊手套能勝任——這需要用上最好的皮革，並以魔素的良導體做為繫帶，從頭開始純手工製成。鐵並非優良的魔素導體，但這對現在的我而言已算堪用。 <BR>幸運的是我不需要去找什麼神奇木頭來儲存魔素，但我需要用其他方式來引導靈氣——魔素共鳴器能滿足這項需求。我也會將一片簡化的秘術觀測鏡裝在手套上，以便於隨時監控周圍的靈氣。 <BR>最後，我會在手套背面加設計一個槽位。卷軸上有提到需要用特殊的晶體法術核心來引導法杖的魔素。其不同的晶格結構能創造各種實用性的效果。 確實，我一開始還真沒想到這個做法。幸運的是我已經想到幾種方法來改善手套的設計與形狀，使魔素的流動與操作性遠勝於舊式的魔杖。
-research.UNLOCKAUROMANCY.stage.3=我成功地組裝出一個基礎的魔導籠手，而我對這成果相當自豪。雖然略顯粗糙，不過作為一組原型這是可以預期的。它將證實即使是原型依舊能派上用場，能使我精確地調整或改造秘術裝置，並安全的進行各種操作。 <BR>我的初步實驗顯示它只能汲取我周圍小範圍的魔素。我應該小心避免耗盡區域中的靈氣。 <BR>我當下最大的障礙是目前為止它還是只能作為一個魔法板手。在我解出法術核心的製作秘訣之前其功能有限。而我面前的道路如此的明朗......
+research.UNLOCKAUROMANCY.stage.2=緩慢而確實的，我逐漸理解了魔素的本質。對我而言魔素還有很多未解之謎，但我認為我已經得到足以讓魔素如願成形的知識。為此我需要一項工具，非常特殊的工具。 <BR>我發現了由一位長眠的秘術師留下來的一些塵封卷軸。上面敘述著如何製作用以儲存與驅動魔素的魔杖。我在卷軸中所學到的知識相當實用，然而使用上似乎受到相當程度的限制。何必將四周充沛的魔素限制在法杖之中？對我而言連魔杖本身都太過不切實際。如果需要一個可以抓住靈氣並使它成形的工具，像手套那樣的形狀應該相當適合。 <BR>沒有任何破舊手套能勝任——這需要用上最好的皮革，並以魔素的良導體做為繫帶，從頭開始純手工製成。鐵並非優良的魔素導體，但這對現在的我而言已算堪用。 <BR>幸運的是我不需要去找什麼神奇木頭來儲存魔素，但我需要用其他方式來引導靈氣——魔素共鳴器能滿足這項需求。我也會將一片簡化的秘術觀測鏡裝在手套上，以便於隨時監控周圍的靈氣。 <BR>最後，我會在手套背面加設計一個槽位。卷軸上有提到需要用特殊的晶體法術核心來引導法杖的魔素。其不同的晶格結構能創造各種實用性的效果。 確實，我一開始還真沒想到這個做法。幸運的是我已經想到幾種方法來改善手套的設計與形狀，使魔素的流動與操作性遠勝於舊式的魔杖。
+research.UNLOCKAUROMANCY.stage.3=我成功地組裝出一個基礎的魔導籠手，而我對這成果相當自豪。雖然略顯粗糙，不過作為一組原型這是可以預期的。它將證實即使是原型依舊能派上用場，能使我精確地調整或改造秘術裝置，並安全的進行各種操作。 <BR>我的初步實驗顯示它只能汲取我周圍小範圍的魔素。我應該小心避免耗盡區域中的靈氣。 <BR>我當下最大的障礙是目前為止它還是只能作為一個魔法板手。在我解出法術核心的製作秘訣之前其功能有限。而我面前的道路如此的明朗...
 research.m_deepdown.text=探訪世界地底最深處。
 research.m_uphigh.text=探訪你所能登上最高聳的山峰。
 research.m_finddesert.text=探訪最乾燥貧脊的荒地。
@@ -1258,7 +1259,7 @@ got.finddesert=你見識到了灼燒般的沙漠。
 got.findocean=你越過了無盡的汪洋。
 #
 research.UNLOCKARTIFICE.title=探索匠法
-research.UNLOCKARTIFICE.stage.1=長我已經學到了不少事物，而其中一點是明白了我所看見的還遠遠不夠。這世界向我展現其神秘與奧妙，以及許多奇蹟......以及危險。 <BR>我需要一項可以使我看見隱藏之物的工具，以幫助我在旅途中發現新知。我研讀的古老文獻提到了過去的秘術師通常會用一組護目鏡來達成這項目的。 <BR>可惜文獻中並未記載其作用原理，所以我得自己從頭開始設計。
+research.UNLOCKARTIFICE.stage.1=長我已經學到了不少事物，而其中一點是明白了我所看見的還遠遠不夠。這世界向我展現其神秘與奧妙，以及許多奇蹟...以及危險。 <BR>我需要一項可以使我看見隱藏之物的工具，以幫助我在旅途中發現新知。我研讀的古老文獻提到了過去的秘術師通常會用一組護目鏡來達成這項目的。 <BR>可惜文獻中並未記載其作用原理，所以我得自己從頭開始設計。
 research.UNLOCKARTIFICE.stage.2=我從找到的些許資訊與自己的實驗結果中畫出了自己的設計。該是動手實作的時候了。 <BR>這副護目鏡不只能揭示隱藏的事物，還能減低某些秘術操作的魔素消耗。 <BR>最後，這組護目鏡還能讓我看見物體中所容納的魔素或源質，我相信這會是最大的優勢。 <PAGE>最重大的發現是我可以利用魔法並灌注奧術能量來製造出精密的機械。
 #
 research.UNLOCKINFUSION.title=探索注魔
@@ -1268,7 +1269,7 @@ research.UNLOCKINFUSION.stage.2=我的實驗相當成功。 我已經能將源�
 research.UNLOCKALCHEMY.title=探索煉金術
 research.UNLOCKALCHEMY.stage.1=釀造藥水簡單而有效，然而單純把怪物的器官搗在一起可不能稱為真正的煉成反應。 <BR>我認為源質在一個更加複雜的物質操作手法中扮演相當重要的關鍵。 <BR>我應該嘗試深入研究煉金術，了解它在這魔法世界中扮演的角色。 <BR>有了這些知識以及一些靈感，我相信我能妥善掌握秘術煉金。
 research.UNLOCKALCHEMY.stage.2=我最近的研究使我對世界的組成有了進一步的理解，我覺得似乎找到了能透過操作源質來改變物質的方法。 <BR>這方法需要能夠容納煉金基質的物品來進行實驗。簡單的釀造台無法達成目的——我需要的是一個神祕的坩堝。 <BR>鍋釜的尺寸與形狀符合需求，然而這樣的一個大鐵碗可沒辦法容納我想操作的魔法能量。 <BR>對這鍋釜也用上世界鹽應該能解決這問題。
-research.UNLOCKALCHEMY.stage.3=我的坩堝完成了！是時候來加以實驗了，而碰巧有項物品完美勝任第一個煉金實驗。我經常徹夜研讀秘術，而閃爍的火炬並不是良好的閱讀光源。我現在需要的正是個穩定的魔法光源。 <BR>螢石是一種穩定的光源，但是我需要充沛的光源，而且它缺乏......格調。我很確定我可以把它變得更好。 <BR>坩堝需要放置在熱源上並裝滿水。當水沸騰後我就可以開始添加我需要的東西。我寫出了一份配方，我認為應該能夠創造出我稱為明耀之源的物質。以能量、火、以及光來驅動小小的螢光核心，應該能使它永不熄滅。其重量應該輕盈地能讓我擺在任何位置——甚至是飄在半空中。 <BR>我只需要找到帶有所需源質的那些物件（按住 shift 並將游標指向物品應該能有所幫助）並將它們投入坩堝。 <BR>坩堝會將這些物件分解成構成它們的源質。我可能無法湊到剛好的源質組合，但只要總量足夠一切應該不會有問題。 <BR>當一切就緒的最後我只需要投入觸媒。在這個例子下是指螢石粉。 <BR>如果一切順利螢石會吸收源質而轉變成明耀之源。 <BR>我不確定多餘的源質會造成什麼現象，但我也只能假設它們最後會無害地消散。 <BR>［空手按住 shift +右鍵 可以清空坩堝。由於每次操作都會消耗一些水，所以你必須一再地重新為它添水。］
+research.UNLOCKALCHEMY.stage.3=我的坩堝完成了！是時候來加以實驗了，而碰巧有項物品完美勝任第一個煉金實驗。我經常徹夜研讀秘術，而閃爍的火炬並不是良好的閱讀光源。我現在需要的正是個穩定的魔法光源。 <BR>螢石是一種穩定的光源，但是我需要充沛的光源，而且它缺乏...格調。我很確定我可以把它變得更好。 <BR>坩堝需要放置在熱源上並裝滿水。當水沸騰後我就可以開始添加我需要的東西。我寫出了一份配方，我認為應該能夠創造出我稱為明耀之源的物質。以能量、火、以及光來驅動小小的螢光核心，應該能使它永不熄滅。其重量應該輕盈地能讓我擺在任何位置——甚至是飄在半空中。 <BR>我只需要找到帶有所需源質的那些物件（按住 shift 並將游標指向物品應該能有所幫助）並將它們投入坩堝。 <BR>坩堝會將這些物件分解成構成它們的源質。我可能無法湊到剛好的源質組合，但只要總量足夠一切應該不會有問題。 <BR>當一切就緒的最後我只需要投入觸媒。在這個例子下是指螢石粉。 <BR>如果一切順利螢石會吸收源質而轉變成明耀之源。 <BR>我不確定多餘的源質會造成什麼現象，但我也只能假設它們最後會無害地消散。 <BR>［空手按住 shift +右鍵 可以清空坩堝。由於每次操作都會消耗一些水，所以你必須一再地重新為它添水。］
 #
 research.UNLOCKGOLEMANCY.title=探索傀儡學
 research.UNLOCKGOLEMANCY.stage.1=這本書教導我許多事物：如何造基本層面上操作物質與魔法，如何對物體賦予魔法，甚至是如何從空氣中汲取魔力。但依舊避開了某些東西。 <BR>每個人都能做到某些很基本，但卻非常神奇的魔法。只要將幾個方塊以特定的結構堆好，就能將它們化為類似生命體的自動傀儡。這怎麼可能？哪有這種事情？靈氣是不是太過於自作主張了？ <BR>我應該要好好研究這個現象。
@@ -1283,7 +1284,7 @@ research.f_toomuchflux.text=累積咒波
 #
 research.WARP.warn=我的思緒受我所學干涉
 research.WARP.title=扭曲
-research.WARP.stage.1=許多人認為不應該涉足魔法，沒什麼能比扭曲更能證實這項觀點。 <BR>從事禁忌的魔法研究或者製作悖於自然的造物，都會讓秘術師眼中的現實世界無論在精神上還是在肉體上都出現畸變，此現象謂之扭曲。 <BR>雖然有些扭曲是暫時的，會隨著時間而消退，然而目前尚未找到任何能消除永久性扭曲的手段。當一個秘術師選擇忽視扭曲的危險並持續追求力量，往往會發現自己已陷入難以回頭的滑坡。 <BR>扭曲通常徵狀為心神恍惚，肉體疼痛或者出現幻覺。 <BR>這些徵狀並不僅僅只是精神上的疾患，有時候視野中會湧現出有用的知識，而幻覺也會駭人地化為實體。 <BR>我應該好好的監測自己的心理健康狀況，我為此設計了一項設備，應該能準確告訴我何時該停下腳步。
+research.WARP.stage.1=許多人認為不應該涉足魔法，沒什麼能比扭曲更能證實這項觀點。 <BR>從事禁忌的魔法研究或者製作悖於自然的造物，都會讓秘術師眼中的現實世界無論在精神上還是在肉體上都出現畸變，此現象謂之扭曲。 <BR>雖然有些扭曲是暫時的，會隨著時間而消退，然而目前尚未找到任何能消除永久性扭曲的手段。當一個秘術師選擇忽視扭曲的危險並持續追求力量，往往會發現自己已陷入難以回頭的滑坡。 <BR>扭曲通常徵狀為心神恍惚，肉體疼痛或者出現幻覺。 <BR>這些徵狀並不僅僅只是精神上的疾患，有時候視野中會湧現出實用知識，而幻覺也會駭人地化為實體。 <BR>我應該好好的監測自己的心理健康狀況，我為此設計了一項設備，應該能準確告訴我何時該停下腳步。
 #
 research.ORE.title=礦物
 research.ORE.stage.1=很多特殊的礦物與方塊對秘術師而言相當實用。 我必須記錄下我所發現的那些礦石。
@@ -1318,14 +1319,14 @@ research.BASEALCHEMY.title=基礎煉金術
 research.BASEALCHEMY.stage.1=坩堝煉成指南<BR>一）放置坩堝熱源（火、熔岩、明耀之源或其他類似的東西）。 <BR>二）加入水並等到它沸騰。 <BR>三）投入帶有所需源質的物質，你可以直接丟在上方或是以該物件點擊坩堝的頂面。 <BR>四）投入觸媒。<PAGE>注意事項<BR>-空手按住 shift +右鍵 可以清空坩堝。 <BR>-每次操作都會消耗一些水，所以你必須一再地重新為它添水。管道機械可以在這裡派上用場。 <BR>-可以透過足夠的源質與觸媒同時煉成多項成品。 <BR>-源質會隨時間而分解，因此不該在煉成時發呆太久。我不清楚這種時候飄出的紫色煙霧意味著什麼？大概不是什麼需要擔心的事。<LINE>§o煉成結晶§r<BR>源質結晶應該相當容易煉成。我只需要將石英結晶打碎，以作為晶體成長的晶核。 <BR>碎片一投入坩堝就會開始吸收源質，並成長為結晶。 <BR>然而這項製程效益不怎麼好——它會消耗掉雙倍的源質，而且還需要消耗石英這種並不常見的資源。
 #
 research.ALUMENTUM.title=熾焰之源
-research.ALUMENTUM.stage.1=明耀之源是個實用的物質。它提供光和熱，而且富有美感。但是它所能提供的熱能只比火把稍多——足以慢慢煮水或是驅散夜晚的寒冷，卻無法用於熔煉礦物這類實際用途。 <BR>我要的物質必須更加的......活潑。 <BR>我應該要花些時間來彙整想法，並研究這些元素。或許我可以像改造螢石一樣對煤炭進行加工。
-research.ALUMENTUM.stage.2=果然沒錯！我應該可以在煤炭中添加更多其本身所包含的源質......或許還需要一些 perditio 作為臨門一腳。 <BR>依照我的計算，這項我稱為熾焰之源的物質燃燒時間應該能比普通煤炭高出三倍。 <BR>計算結果也指出這項物質相當具有活性，我應該小心避免失手把它拋出去......除非我找到一個適當的理由。
+research.ALUMENTUM.stage.1=明耀之源是個實用的物質。它提供光和熱，而且富有美感。但是它所能提供的熱能只比火把稍多——足以慢慢煮水或是驅散夜晚的寒冷，卻無法用於熔煉礦物這類實際用途。 <BR>我要的物質必須更加的...活潑。 <BR>我應該要花些時間來彙整想法，並研究這些元素。或許我可以像改造螢石一樣對煤炭進行加工。
+research.ALUMENTUM.stage.2=果然沒錯！我應該可以在煤炭中添加更多其本身所包含的源質... 或許還需要一些 perditio 作為臨門一腳。 <BR>依照我的計算，這項我稱為熾焰之源的物質燃燒時間應該能比普通煤炭高出三倍。 <BR>計算結果也指出這項物質相當具有活性，我應該小心避免失手把它拋出去...除非我找到一個適當的理由。
 #
 research.METALLURGY.title=煉成金屬
 research.METALLURGY.stage.1=黃銅是一種低摩擦係數的堅固金屬，非常適合用來製作複雜的機械設備。 <BR>遺憾的是我所處的這個宇宙其特性使我難以確保自己能找出這種金屬。 <BR>應該有辦法可以利用煉金轉換來煉成這種金屬。而我現在只需要找出這個方法。
 research.METALLURGY.stage.2=金屬已被證實相當容易透過秘術法則來操作。我第一項實驗就使我發現了煉成黃銅，然而製造一個已經存在的東西並沒有什麼難度。該是來製作些新物質的時候了。 <BR>我有個理論，在鐵這種基本的金屬中注入魔法能量應該能得到一些相當有趣的成果。 <BR>這物質會比鐵更加堅固，而且比鐵還容易接納更多的附魔。 <BR>這樣的金屬應該能在製作更多先進的秘術設備時派上用場。
 research.METALLURGY.stage.3=我很確定我面前有一個該突破的目標，卻不知道該從何處起手。我錯過了些什麼，有些重要的資訊被我遺漏了。 <BR>無論如何我都必須小心謹慎。我正在深入的知識領域不知為何使我感到危險。
-research.METALLURGY.stage.4=我在寫下這條目時手在顫抖。我在調查那些奇特物質時腦海裡浮現出了奇怪的新視野。 <BR>前陣子我寫出一個創造新型神秘金屬的術式，然而我不記得我有寫下這種東西，連筆跡都不像是我的。 <BR>敘述中的金屬充滿著矛盾。它們堅固不屈，同時卻柔軟而易於加工。其觸感如同活著般的溫暖，甚至像生物一樣會緩緩治癒自己所受到的損傷。 <BR>用這種東西製作單純物理性的工具似乎......完全不正確。
+research.METALLURGY.stage.4=我在寫下這條目時手在顫抖。我在調查那些奇特物質時腦海裡浮現出了奇怪的新視野。 <BR>前陣子我寫出一個創造新型神秘金屬的術式，然而我不記得我有寫下這種東西，連筆跡都不像是我的。 <BR>敘述中的金屬充滿著矛盾。它們堅固不屈，同時卻柔軟而易於加工。其觸感如同活著般的溫暖，甚至像生物一樣會緩緩治癒自己所受到的損傷。 <BR>用這種東西製作單純物理性的工具似乎...完全不正確。
 research.METALLURGY.stage.5=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
 research.voidstuff.text=一種詭異的金屬
 #
@@ -1361,7 +1362,7 @@ research.WARDEDJARS.title=封罐與標籤
 research.WARDEDJARS.stage.1=源質可以儲存在§l封罐§r之中。 <BR>封罐可以擺在各種地方，而且幾乎可以無限期地保存源質。附在罐子上的魔法也使得裝填和提取源質輕而易舉。 <BR>直接拿封罐輕觸蒸餾器就能將蒸餾器中的源質裝進封罐。也能利用管型瓶來裝填或提取源質。 <BR>更棒的是把這拿來裝果醬或蜜餞堪稱完美。 <BR>潛行並空手輕觸罐子或蒸餾器就能把它們清空。 <PAGE>只要罐子中裝有源質，你就能為它貼上§l封罐標籤§r。 <BR>這個標籤將會「鎖定」這個罐子所能盛裝的源質類型，使它無法接收任何其他類型的源質。 <BR>潛行並輕觸貼有標籤的那一面就能將罐子上的標籤撕下。注意若潛行輕觸其他面的話罐子會被清空。 <BR>你可以在工作台上用管型瓶為標籤指定要素，貼在空罐上就能自動鎖定其要素。管型瓶中的源質不會被消耗。 <BR>將它貼在裝有源質的罐子上標籤會被罐子中的源質類型覆蓋。 <BR>標籤放進合成欄可以重新合成為空白標籤。 <PAGE>你也可以製作§l黃銅蓋箍§r。套在罐子上可以防止除了管子以外的任何外力抽取或填充罐子。 <BR>取下罐子時蓋箍會作為單獨物件掉落。
 #
 research.ESSENTIASMELTER.title=源質熔煉
-research.ESSENTIASMELTER.stage.1=看來在在不遠的將來我會用到各種不同源質，我必須為此做點準備。為此，我需要找些來源，而能從中找到源質的東西有......那個，任何東西。 <BR>藉由煉金法則應該能夠將物體分解並轉化成源質。在這之前，我必須先對我所知最純粹的源質——魔素結晶進行研究。 <BR>透過利用這些晶體進行一些......呃、「破壞性測試」，應該能讓我掌握它們在各種極端狀空下的反應以及保持其純度的最佳方案。 <BR>應該先從原初源質著手。
+research.ESSENTIASMELTER.stage.1=看來在在不遠的將來我會用到各種不同源質，我必須為此做點準備。為此，我需要找些來源，而能從中找到源質的東西有...那個...任何東西。 <BR>藉由煉金法則應該能夠將物體分解並轉化成源質。在這之前，我必須先對我所知最純粹的源質——魔素結晶進行研究。 <BR>透過利用這些晶體進行一些...呃、「破壞性測試」，應該能讓我掌握它們在各種極端狀空下的反應以及保持其純度的最佳方案。 <BR>應該先從原初源質著手。
 research.ESSENTIASMELTER.stage.2=這項實驗前景光明，然而卻有些難以預料。幸運的是火勢能及時撲滅，幾天後頭髮應該就會長回來了。 <BR>看來利用特殊的煉金手法將物件融解會是我的首選。不幸的是一直以來我都只用原初結晶進行測試。我也該找出次級源質——由兩種原初要素組成的源質結晶進行試驗。 <BR>當然也有被稱為三級源質的第三階源質。這是由原初與次級要素，或是兩種次級要素混合而成。 
 research.ESSENTIASMELTER.stage.3=我已經將我所有的初級與次級源質樣本分解為液態，然而這手續既緩慢又無聊。在我將這道手續簡化之前永遠無法進行大規模的利用。 <BR>幸運的是從物件中提煉源質與冶煉金屬的原理非常接近。或許我能以熔爐為基礎製作一台能自動溶解物品並分離各種源質的源質融煉爐。
 research.ESSENTIASMELTER.stage.4=我畫了源質熔煉爐的藍圖。熔煉爐與普通熔爐一樣能燃燒煤炭產生熱能，但是不是用來冶煉金屬，而是將物體分解為單純、原始的源質漿。這道製程效益不是很好，少部分源質會轉變為咒波，目前看來大約在20%上下。 <BR>下一個步驟是以奧術蒸餾器將源質漿純化。 <BR>奧術蒸餾器必須安裝在熔煉爐的上方才運作。可以疊加多層蒸餾器來增加儲存量，但是不會影響提煉速度。源質漿會慢慢被吸進蒸餾器，並分離成不同要素的源質。 <BR>使用熾焰之源作為熔煉爐的燃料可以大幅加快提煉速度。 <BR>可以利用管型瓶、玻璃罐或是其他複雜的手法從蒸餾器取出源質。
@@ -1401,7 +1402,7 @@ research.IMPROVEDSMELTING2.stage.2=我找到一個方法來控制熔煉過程所
 #
 research.EVERFULLURN.title=無盡之甕
 research.EVERFULLURN.stage.1=煉金製造已被證實遠比我所預期的還要容易。如果能找到方法將其過程自動化以生產一些簡單而實用的物質，相信會是煉金術的一大突破。 <BR>或許類似無限水源之類的東西會是個不錯的開始？
-research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他有用的功能。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些......異味。我確定這沒什麼好擔心的。
+research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他實用的功能。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些...異味。我確定這沒什麼好擔心的。
 #
 research.POTIONSPRAYER.title=藥水噴霧器
 research.POTIONSPRAYER.stage.1=我進行了一些初步測試，利用源質來重現藥水的釀造系統。而我的成果有好有壞。 <BR>我應該致力於使它正常運作。
@@ -1425,7 +1426,7 @@ research.INFUSIONBOOST.stage.2=我發現在祭壇的四個支柱下方放置特�
 #
 research.INFUSIONANCIENT.title=注魔：亙古之石
 research.INFUSIONANCIENT.stage.1=我找到的這些怪異而古老的石頭有著一些有趣的神祕特性。我認為這應該可以用於注魔製程。
-research.INFUSIONANCIENT.stage.2=我相信這種古老的石頭曾用於建造注魔祭壇的基柱，能幫助減少注魔製作的源質需求，並稍微增進製程的速度。然而這會使穩定性稍受影響。 <BR>我發現若將其他基座換成這種材質也有助於減低源質消耗。
+research.INFUSIONANCIENT.stage.2=我相信這種古老的石頭曾用於建造注魔祭壇的基柱，能幫助減少注魔製作的源質需求，並稍微增進製程的速度。然而這會使穩定性稍受影響。 <BR>若找到其他相同材質的基座，每塊基座亦能減低源質消耗。
 #
 research.INFUSIONELDRITCH.title=注魔：異象之石
 research.INFUSIONELDRITCH.stage.1=我發現的這些黑暗而詭譎的石頭有著一些奇怪的特質。我認為這應該可以用於注魔製程。
@@ -1475,6 +1476,9 @@ research.VERDANTCHARMS.title=蔥蘢護符
 research.VERDANTCHARMS.stage.1=我偶爾會發現自己受到毒或是其他煩人的異常狀態影響。我應該要設法保護自己。 
 research.VERDANTCHARMS.stage.2=我設計了一種神祕護符，會釋出治癒脈動來清除我身上的毒或是其他異常狀態。只可惜這不能治療物理上的傷口。 <BR>戒指帶有魔素容量，需透過充魔基座或類似裝置進行充魔——它無法直接汲取靈氣中的魔素。 <LINE>我有兩種能用於增強護符效果的特殊附魔。 <PAGE>§n生命供給§r<BR>這項注魔附魔使蔥蘢之心護符能回復穿戴者的生命值。 <LINE>§n體力維持§r<BR>這項注魔附魔使蔥蘢之心護符能緩慢餵飽其穿戴者，並提供空氣以呼吸。
 #
+research.CHARMUNDYING.title=不死護符
+research.CHARMUNDYING.stage.1=不死圖騰是一種強大的魔法，即使是秘術師也無法輕易重現。 <BR>然而我能將它改造成得更易於使用得護符，而不必將它握在手上。
+#
 ##########################################
 # ARTIFICE
 ##########################################
@@ -1522,11 +1526,11 @@ research.ARCANELAMP.stage.2=這盞神奇的燈具可以裝設在牆壁、地板�
 research.ARCANELAMP.bore=§n奧術鑽掘機§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
 research.LAMPGROWTH.title=熟成之燈
-research.LAMPGROWTH.stage.1=我對Lux的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>光線對植物有著正面的效果，所以只要在其中加上一些魔力只會增強效果，對吧？
+research.LAMPGROWTH.stage.1=我對 Lux 的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>光線對植物有著正面的效果，所以只要在其中加上一些魔力只會增強效果，對吧？
 research.LAMPGROWTH.stage.2=不同於單純用於照明的奧術燈，熟成燈無法在未提供 §2Herba§0 源質時散發光芒。而沐浴在其光芒之下的作物會生長得比平時更為快速。 <BR>可以利用管道系統將源質送入燈具。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.LAMPFERTILITY.title=繁衍之燈
-research.LAMPFERTILITY.stage.1=我對Lux的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>一般的光線已被證實會對情緒產生正面以及負面的影響。我覺得我或許能添加一些奧術氣息的手法來大幅提升這種效果。
+research.LAMPFERTILITY.stage.1=我對 Lux 的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>一般的光線已被證實會對情緒產生正面以及負面的影響。我覺得我或許能添加一些奧術氣息的手法來大幅提升這種效果。
 research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供 §dDesiderium§0 源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.BELLOWS.title=奧術風箱
@@ -1550,7 +1554,7 @@ research.GRAPPLEGUN.stage.2=利用魔素與數種關鍵附魔來調整磁鐵使�
 ##########################################
 #
 research.BASEAUROMANCY.title=基礎靈氣術
-research.BASEAUROMANCY.stage.1=在施法手套完成後我必須製作法術核心。古老的卷軸裡對此並沒有詳盡的描述，所以我必須找出我自己的方法。 <BR>我有個想法，透過用魔素將水晶相互組合以組成核心。我最初的實驗失敗了......爆炸性的失敗。 <BR>我認為應該能從煉金術中找出解法。 <BR>若將秩序水晶作為晶核應該就能藉由其規制性質組成核心。而這道程序需要吸收 praecantatio 與 auram 源質。 <BR>最後得到的成品希望是一顆能吸收、駕馭魔素的晶體核心。
+research.BASEAUROMANCY.stage.1=在施法手套完成後我必須製作法術核心。古老的卷軸裡對此並沒有詳盡的描述，所以我必須找出我自己的方法。 <BR>我有個想法，透過用魔素將水晶相互組合以組成核心。我最初的實驗失敗了...爆炸性的失敗。 <BR>我認為應該能從煉金術中找出解法。 <BR>若將秩序水晶作為晶核應該就能藉由其規制性質組成核心。而這道程序需要吸收 praecantatio 與 auram 源質。 <BR>最後得到的成品希望是一顆能吸收、駕馭魔素的晶體核心。
 research.BASEAUROMANCY.stage.2=利用煉金術來製作核心確實可行。核心既穩定又乾淨——現在我只需要嵌入適當的紋章。為此，我需要核心操作台。 <BR>我擬定了一張核心操作台的藍圖。其作用機制各方面都與奧術工作台雷同，但魔素並非用於合成物品，而是用來將紋章嵌入核心。 <BR>要印上核心的紋章也必須經過設計。我希望能用一種紋章來放出火焰，但是我還需要多做些研究。 
 research.BASEAUROMANCY.stage.3=一切都就緒了。現在我要製作我第一顆核心。 <BR>將處理過的魔素結晶安置在空白的核心上，我能透過紋章決定核心的作用效果。目前我知道的文章只有§n根源§0、§n接觸§0以及§n火§0。<BR>§n根源§0節點代表著我，施法者本身。它在核心操作台介面上顯示為一個眼睛圖示。其下方的節點同時著有目標與軌跡圖示。媒介（例如§n接觸§0）需要以軌跡來決定其效果——§n根源§0節點提供一個符合施法者視線的軌跡來與§n接觸§0連結，使我能「接觸」任何我看著的物體。媒介必定會提供目標（在這個例子中是指任何被「接觸到」的物體），有些也能提供軌跡。這個例子中我需要的是一個目標來讓我連接§n火§0效應。 <BR>我只要依序連接§n根源§0、§n接觸§0和§n火§0即可製作出一顆核心，能將§n火§0效應作用於任何接觸到的物體。<BR>理論上我也能直接將§n火§0接在§n根源§0下，然而根源會將施術者設為目標，這意味著我會引火自焚。 <BR>我可以透過介面右下的按鈕精確調整§n火§0效應的傷害與燃燒時間。許多紋章都能讓我用這種方式微調。 <BR>製作一個核心需要用到三種資源——首先是製造時使用的的結晶，其次是靈氣中的魔素，最後，它還需要一些玩家經驗值。而每次使用核心時也會稍微消耗靈氣中的魔素。 <PAGE>§n複雜度§0<BR>我目前能達成的效果相當簡易而受限。受限於我嵌入核心的紋章。一般而言稱為核心複雜度。每種文章都有其基本複雜度，而增加其參數（例如火紋章的傷害量）也會進一步增加其複雜度。同一種紋章使用超過一次也會導致額外累加50%的複雜度。 <BR>核心的複雜度決定了施法時的魔素消耗量以及每次施放後魔導籠手的冷卻時間。
 research.f_onfire.text=貼近火源進行研究。
@@ -1577,9 +1581,9 @@ research.FOCUSSPELLBAT.stage.2=我製作一個媒介紋章，能創造出奧術�
 #
 research.FOCUSPROJECTILE.title=核心媒介：投彈
 research.FOCUSPROJECTILE.stage.1=透過接觸敵人來點燃他們也不是不行，但我比較喜歡從遠處對他們施法。我必須找出方法來維持住脫離掌握範圍的能量。
-research.FOCUSPROJECTILE.stage.2=現在我能將核心的能量引入投彈來擲向敵人或方塊。投彈速度緩慢，但我能增加其複雜度以提升速度。 <BR>進一步研究或許能讓我進一步完善這些投彈。研究其他類型的投射物應該會有所助益。 
+research.FOCUSPROJECTILE.stage.2=現在我能將核心的能量引入投彈來擲向敵人或方塊。投彈速度緩慢，但我能增加其複雜度以提升速度。 <BR>進一步研究或許能讓我進一步完善這些投彈。研究其他類型的投射物應該會有所助益。可能需要冒些個人的風險...
 research.FOCUSPROJECTILE.stage.3=我發現了能夠更進一步利用投彈的方法！ <LINE>§n彈性§0<BR>當投彈擊中堅固的表面時會彈開。這顆投彈無法作用於任何方塊，因為它會從接觸到的方塊上彈開。 <BR>§n追蹤敵對§0<BR>附上這種特殊能力的投彈會自動導向前方的敵對目標。 <BR>§n追蹤友方§0<BR>類似於追蹤敵對，這顆投彈會追蹤友方。
-research.f_onfire.text=普通的投射物
+research.f_arrow.text=普通的投射物
 research.f_fireball.text=燃燒的投射物
 research.f_spit.text=黏黏的投射物
 got.projectile=你已進一步理解投射物。
@@ -1591,12 +1595,12 @@ research.FOCUSBOLT.stage.2=當可以放出魔法能量閃電時誰還需要投�
 research.FOCUSFLUX.title=核心效應：咒波
 research.FOCUSFLUX.stage.1=使用元素作為武器有其優點，而單純的魔力也是具有殺傷力的——暴露於原始、未特化的魔素中對大多數生物都是有害的。身上的裝甲也無法擋下這股能量。 
 #
-research.FOCUSHEAL.title=Focus Effect: Heal
-research.FOCUSHEAL.stage.1=Infusing targets with victus is a proven way to heal them. Applying the principle to a focus effect should be simple enough.<BR>The effect should be quite devestating against undead.
+research.FOCUSHEAL.title=核心效應：治癒
+research.FOCUSHEAL.stage.1=向目標灌注 victus 已被證實是有效的治療方式。將這個原理用於核心效應應該相當容易。 <BR>這個效果對不死族應該有相當的殺傷力。
 #
 research.FOCUSBREAK.title=核心效應：破壞
-research.FOCUSBREAK.stage.1=我設計了一種紋章，能透過驅使perditio的破壞能量來安全擊破大多數方塊。 <BR>I should also study examples of the Fortune and Silk Touch enchantments. Digging magic will be much more useful if I can duplicate their effects. 
-research.FOCUSBREAK.stage.2=Not only have I created an effect that can harvest nearly every block, but if I wish I can also apply Fortune and Silk Touch effects as well.<BR>Harder blocks will take longer to break, unless I increase the strength (and thus complexity) of the focus.<BR>There is a small additional vis cost per block broken beyond what is used to create the initial effect.
+research.FOCUSBREAK.stage.1=我設計了一種紋章，能透過驅使 perditio 的破壞能量來安全擊破大多數方塊。 <BR>我也該研究一些幸運與絲綢之觸的附魔樣本。若能重現這些效果，挖掘魔法會更加實用。 
+research.FOCUSBREAK.stage.2=我不僅創造出能採收幾乎所有方塊的法術，若有需要還能任意加上幸運與絲綢之觸的效果。 <BR>除非我增強核心的威力（也提高了複雜度），否則較堅硬的方塊會需要花較長的時間來破壞。 <BR>除了施法時使用的魔素外，每破壞一個方塊都會額外消耗些許魔素。
 #
 research.FOCUSEXCHANGE.title=核心效應：更替
 research.FOCUSEXCHANGE.stage.1=雖然傳送魔法距離現在的我還有一大段距離，但我對 permutatio 的研究使我相信我能替換自然界的物體的座標。 <BR>我得看看這理論是不是進水了。
@@ -1604,33 +1608,33 @@ research.FOCUSEXCHANGE.stage.2=我證實了我的理論！我只需要蹲低並�
 #
 research.FOCUSRIFT.title=核心效應：撕裂
 research.FOCUSRIFT.stage.1=我用相位魔法做了一些測試性的實驗。目前我獲得了不同的結果，現在我能夠穩定地將非生物轉移至鄰近的次元，而原本的空間則被異次元所取代。 <BR>我認為，任何情況下被轉移的物質應該都不會受損。然而生命體的下場就不同了——我不願對我看到的景象多加描述，但是我還是會繼續進行嘗試。 <BR>很幸運的，我認為我能將發現到的作用藉由核心重現。
-research.FOCUSRIFT.stage.2=我計畫製作一顆控制相位魔法的核心。大多數的非生命都能被轉移到這個異空間，效果就是個能帶著走的洞穴。 <BR>這個洞穴的直徑約固定在三公尺，但是我應該能稍微控制其深度。
+research.FOCUSRIFT.stage.2=我計畫製作一顆控制相位魔法的核心。大多數的非生命都能被轉移到這個異空間，效果就像是個能帶著走的洞穴。 <BR>這個洞穴的直徑約固定在三公尺，但是我應該能稍微控制其深度。
 #
-research.FOCUSPLAN.title=Focus Medium: Plan
-research.FOCUSPLAN.stage.1=I have learned to manipulate blocks in the world with foci effects such as Exchange, but their practical use is a bit limited.<BR>I should discover a way to fine tune exactly which blocks I can apply such foci effects to.
-research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me to plan which blocks I manipulate. This medium works much like Touch, except I will be shown a ghostly outline if which blocks will be manipulated. The range is also much greater (16 blocks). By pressing the focus modify key ('G' by default) I can alter the size of the area. By pressing CTRL + G I can alter the axis in which the size will be changed.<BR>This medium has two modes of operation which I can select between when I add it to a focus: Full and Surface. Full mode affects all possible blocks that match the size, while surface mode will only affect blocks that have an exposed side.<BR>This focus medium cannot be used in combination with any other mediums.
+research.FOCUSPLAN.title=核心媒介：規劃
+research.FOCUSPLAN.stage.1=我學會了如何利用像更替這種核心來操作世界中的方塊，然而實際使用上卻有些受限。 <BR>我應該要找出一種方法來精確指定作用範圍。
+research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域操作的目標方塊。這個媒介與接觸相當類似，但是我能在將操作的方塊上看到朦朧的輪廓。而範圍也遠大於接觸（16格）。按下核心操作鍵（預設是G）能變更區域的大小。 CTRL + G 則能夠切換變更尺寸的軸向。 <BR>這個媒介紋章有兩種模式，我可以在嵌入核心時進行選擇：填滿與表面。填滿模式會作用於範圍內所有方塊，而表面模式只會作用於暴露在外的方塊。 <BR>此核心媒介無法與其他媒介並用。
 #
-research.FOCUSSCATTER.title=Focus Modifier: Scatter
+research.FOCUSSCATTER.title=核心改寫：分散
 research.FOCUSSCATTER.stage.1=I now know how to create both projectiles and bolts that propegate focus effects. I believe it should be fairly simple to design a plan that allows me to split a single trajectory into multiple.
 research.FOCUSSCATTER.stage.2=I have managed to split a single medium trajectory into multiple, though not quite to the degree I had hoped. There are two problems:<BR>Firstly is that while I can control the number of forks created from the original trajectory, I have no control over the resulting trajectories once it is split. It simply scatters them in random directions. Fortunately I have figured out how to limit the cone of scatter.<BR>The second problem is that the more forks I create, the weaker the individual effects are. This is not surprising - there is only so much vis I can channel. I mitigate this slightly by drawing in additional vis to bolster the effects, but each resulting fork is still weaker than the original.
 #
-research.FOCUSSPLIT.title=Focus Modifier: Split
+research.FOCUSSPLIT.title=核心改寫：拆分
 research.FOCUSSPLIT.stage.1=While the Scatter modifier has proven quite useful, it is technically a failure. I realise now that my original plan was too ambititious.<BR>I should start smaller.
 research.FOCUSSPLIT.stage.2=I have managed to draw up designs for two new focus modifiers. The first splits a single target result into two, allowing me to have two different effects apply to the target.<BR>The second modifier does the same, except it splits trajectories.<BR>The only downside is that the split reduces to power of any effects placed below them, though I mitigate the full impact somewhat.<BR>Much to my suprise I have discovered that these modifiers can be split recursivly allowing for some interesting focal designs. 
 #
-research.FOCUSMINE.title=Focus Medium: Arcane Mine
+research.FOCUSMINE.title=核心媒介：奧術地雷
 research.FOCUSMINE.stage.1=I have done some studies into creating contructs of pure arcane energy recently. Maybe I can apply what I have learned
 research.FOCUSMINE.stage.2=I can now create a quasi-physical construct of vis that can hold focus effects in stasis until triggered. When created, this 'mine' take two seconds to arm. Once it is armed any non-allied entity that gets close enough will cause the mine to dissapate, releasing the stored effects towards the triggering entity.<BR>The mine can be set to trigger on friendlies instead of enemies and neutral creatures.
 #
-research.FOCUSCLOUD.title=Focus Medium: Cloud
+research.FOCUSCLOUD.title=核心媒介：雲霧
 research.FOCUSCLOUD.stage.1=Seeing the lingering effects the end dragons breath causes has given me some ideas. I might be able to duplicate the effects as a focus medium.
 research.FOCUSCLOUD.stage.2=Much like lingering potions can be used to create a static effect in the world, the Cloud medium can be used to create a field of energy that periodically applies focus effects to entities and blocks caught within.<BR>The strength of effects linked to this medium will be reduced slightly.
 #
-research.RECHARGEPEDESTAL.title=Recharge Pedestal
+research.RECHARGEPEDESTAL.title=充魔基座
 research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function, but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
 research.RECHARGEPEDESTAL.stage.2=This specially crafted pedestal can recharge vis storing items. Any rechargeable item placed in it will automatically draw vis from the aura to fill itself. Simply click on the pedestal with the item you wish to recharge. Use the pedestal again to retrieve the item.
 #
-research.VISAMULET.title=Vis Amulet
+research.VISAMULET.title=魔素護符
 research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items. 
 research.VISAMULET.stage.2=I have crafted an amulet capable of channeling vis from the aura, allowing me to recharge items in the field while it is worn.<BR>The amulet will only recharge items located in your hotbar, baubles or armor slots (in that order). It will only recharge items that can normally be recharged in a recharge pedestal.
 #
@@ -1638,7 +1642,7 @@ research.WORKBENCHCHARGER.title=工作台充魔架
 research.WORKBENCHCHARGER.stage.1=我在奧術工作台上遇到一個麻煩的限制。它只能從其周圍汲取魔素。雖然目前為止的合成都能夠完成，但我很快就發現我即將需要用到更多魔素來進行合成。 <BR>我必須找出方法來延伸奧術工作台的範圍。若它能汲取到更遠的魔素，能用於合成的魔素也會更充裕。
 research.WORKBENCHCHARGER.stage.2=我設計了一組能安置在奧術工作台與核心操作台上的特殊支架。這組支架讓這些工作台不只能從當下區塊汲取魔素，周圍八個chunk也會納入其汲取的範圍。理論上這使能用於合成的魔素達到九倍之多。 <BR>合成所需的魔素會從九個區塊中分別汲取，這樣應該能避免耗盡單一區塊中的魔素。
 #
-research.FOCUSPOUCH.title=Focus Pouch
+research.FOCUSPOUCH.title=核心腰包
 research.FOCUSPOUCH.stage.1=Once I have gathered a sizable collection of foci it will be quite annoying to carry them all with me. I should find a convenient way to carry them all.
 research.FOCUSPOUCH.stage.2=I have invented a special pouch I can carry with me to store my foci.<BR>Whenever I change the focus in my caster, it will check this pouch first and any foci that get removed will be placed inside it first. I can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in my belt bauble slot.
 #
