@@ -29,13 +29,13 @@ item.celestial_notes.stars_2.text=星‧南方象限
 item.celestial_notes.stars_3.text=星‧西方象限
 item.celestial_notes.stars_4.text=星‧東方象限
 item.celestial_notes.moon_1.text=月‧滿月
-item.celestial_notes.moon_2.text=月‧盈凸月
-item.celestial_notes.moon_3.text=月‧上弦月
-item.celestial_notes.moon_4.text=月‧蛾眉月
+item.celestial_notes.moon_2.text=月‧虧凸月
+item.celestial_notes.moon_3.text=月‧下弦月
+item.celestial_notes.moon_4.text=月‧殘月
 item.celestial_notes.moon_5.text=月‧新月
-item.celestial_notes.moon_6.text=月‧殘月
-item.celestial_notes.moon_7.text=月‧下弦月
-item.celestial_notes.moon_8.text=月‧虧凸月
+item.celestial_notes.moon_6.text=月‧蛾眉月
+item.celestial_notes.moon_7.text=月‧上弦月
+item.celestial_notes.moon_8.text=月‧盈凸月
 #
 # Resources
 #
@@ -212,7 +212,7 @@ item.enchanted_placeholder.text=必須擁有以下附魔：
 # Golem
 item.module.vision.name=視覺組件
 item.module.aggression.name=攻擊組件
-item.golem_bell.name=傀儡使之鈴
+item.golem_bell.name=傀儡師鈴鐺
 item.golem.name=傀儡
 item.seal.blank.name=空白印記
 item.seal.pickup.name=控制印記：收集
@@ -229,6 +229,7 @@ item.seal.lumber.name=控制印記：伐木工
 item.seal.breaker.name=控制印記：方塊破壞者
 item.seal.use.name=控制印記：使用
 item.seal.provider.name=控制印記：供給
+item.seal.stock.name=Control Seal: Stock
 #
 # Blocks
 ###################################
@@ -342,6 +343,8 @@ tile.essentia_input.name=填充源質傳輸器
 tile.essentia_output.name=抽取源質傳輸器
 tile.activator_rail.name=奧術觸發鐵軌
 tile.potion_sprayer.name=藥水噴霧器
+tile.vis_generator.name=Vis Generator
+tile.stabilizer.name=Stabilizer
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -411,7 +414,8 @@ tile.paving_stone_travel.name=旅行路磚
 tile.centrifuge.name=源質離心器
 tile.mirror.name=魔鏡
 tile.mirror_essentia.name=源質之鏡
-tile.golem_builder.name=傀儡壓製裝置 
+tile.golem_builder.name=傀儡壓製裝置
+tile.vis_battery.name=Vis Battery
 #
 # Misc
 tile.effect_shock.name=靜電力場
@@ -608,6 +612,10 @@ item.runic.charge=盧恩護甲
 item.warping=扭曲
 item.capacity.text=容量
 item.chargebonus.text=蓄魔
+stability.VERY_STABLE=Very Stable
+stability.STABLE=Stable
+stability.UNSTABLE=Unstable
+stability.VERY_UNSTABLE=Dangerously Unstable
 #
 # Golems 
 ########################
@@ -779,7 +787,7 @@ focus.projectile.seeking.friendly=追蹤友方
 focus.projectile.seeking.hostile=追蹤敵對
 focus.break.power=破壞力
 focus.plan.method=規劃原則
-focus.plan.full=填滿
+focus.plan.full=完全
 focus.plan.surface=表面
 focus.rift.depth=深度
 focus.heal.power=治癒力
@@ -898,7 +906,7 @@ card.reject.name=駁回關於%1$s的發現
 card.reject.text=你意識到%1$s對你目前的研究沒有幫助。 你不會在%1$s中取得更多進展，也不會再獲得與其相關的卡片。你不會失去目前的進度。
 #
 card.experimentation.name=實驗
-card.experimentation.text=你進行任意實驗，試圖從中取得新發現。 你隨機在任一類別獲得10~25進度。
+card.experimentation.text=你進行任意實驗，試圖從中取得新發現。 你隨機在任一類別獲得15~30進度。
 #
 card.analyze.name=分析%1$s
 card.analyze.text=你可以透過徹底分析對%1$s觀察資料來建構一個理論。 消耗1%1$s觀察並獲得25~50%1$s進度與5%2$s進度。
@@ -1420,6 +1428,11 @@ research.INFUSION.stage.1=奧術工法與煉金術目前只能走到這一步。
 research.INFUSION.stage.2=不出所料，注魔製程已證實比我預期中更加複雜。單純試著將要素注入其他物體是行不通的。我需要利用一個相對複雜的系統來穩定整個處理過程。我畫下了一組盧恩方陣的草稿來讓我達成目的。
 research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，就能開始進行製作了。跟其他神秘的裝置一樣，祭壇也需要利用世界鹽來製作。設立好注魔樁後就能用施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物件。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>全部都蒐集好後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。如果合成因為源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有減低不穩定性的效果。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
+research.INFUSIONSTABLE.title=Infusion Stabilization
+research.INFUSIONSTABLE.stage.1=Infusion has proven to be much more unstable than I expected. Placing occult paraphernalia does mitigate the effect somewhat, but much less than the texts suggested.<BR>I need to find more effective way of reducing instability. Strangely enough, I think mundane technology might have the answer.<BR>It is well known that mundane power sources like redstone interferes with thaumaturgy. Of course, throwing redstone into the mix of an already unstable infusion is not the answer, but maybe there is some way to harness the interference.
+research.INFUSIONSTABLE.stage.2=I have put together a device I am calling, appropriately enough, a Stabilizer. It accepts energy in the form of RF or FE which it uses to creat an interference pattern that serves to 'smooth' out the interaction between magical objects and the local aura. The effect is highly localized so the Stabilizer needs to be pointed at what you want to stabilize. It has a range of 8 blocks.<BR>The Stabilizer has obvious benefits when used on an infusion matrix, but I believe many more uses will reveal themselves. For instance I wonder effect it might have on natural aura instability like that caused by flux?
+got.instability=I should study infusion instability further.
+#
 research.INFUSIONBOOST.title=注魔促進
 research.INFUSIONBOOST.stage.1=應該有方法能改善注魔祭壇的性能。應加以調查。
 research.INFUSIONBOOST.stage.2=我發現在祭壇的四個支柱下方放置特殊的方塊可以改善注魔祭壇。 <BR>§5注魔加速石§0可以提升祭壇的運作速度，但會稍微提高注魔成本。 <BR>§5注魔節約石§0會減低注魔的消耗，但會稍微減緩運作速度。 <BR>這些石頭必須直接放在祭壇的支柱下方，但不需要為了穩定性而均衡放置。
@@ -1549,6 +1562,14 @@ research.GRAPPLEGUN.title=奧術鉤索
 research.GRAPPLEGUN.stage.1=從至今為止的努力中，我學到了一個重要的事實：機動力是關鍵。 <BR>我應該要創造一個工具來幫助我輕鬆越過險惡的地形。 <BR>我相信可以從磁鐵中得到解答。我可以從稀土中提煉磁鐵，然而它們能吸住的物質有限。若能利用協調魔法來改進其原有的磁力，我應該可以讓它們吸住任何物質。
 research.GRAPPLEGUN.stage.2=利用魔素與數種關鍵附魔來調整磁鐵使它能吸住幾乎所有物質。我將此現象稱為奧術磁場。我相信我可以找到各種不同的用途，但目前我只利用這項知識來製作奧術鉤索。 <BR>這組發射器射出一顆帶有奧術磁場的黃銅球體，可以附著於任何接觸到的物體。而後，發射器反過來收回連接在球體的繩索，將使用者拉向球體以到達以往無法觸及的場所。 <BR>使用者可以隨時蹲下以放開球體。 <BR>我必須留意使用這組鉤索時並不能保護我免於跌落，若距離夠遠其加速度將使人難以忘懷。 <LINE>這組鉤索需要填充魔素以供運作。
 #
+research.ARCANEPATTERNCRAFTER.title=Arcane Pattern Crafter
+research.ARCANEPATTERNCRAFTER.stage.1=Certain objects are very simple to craft - simply place the same type of item in a pattern and you get what you want. For example combining 2 wood planks to make a stick, or a single ingot making 9 nuggets. This process is so simple that I am sure there is a way to automate it. I have some theories I need to try.
+research.ARCANEPATTERNCRAFTER.stage.2=I have designed a device I am calling the Arcane Pattern Crafter. The Arcane Pattern Crafter needs an inventory above and below it. It will search the inventory above it for components and try to combine whatever it finds in the pattern you have selected. If this results in a valid crafting operation it will place the result in the container below it.<BR>You can change the pattern by clicking on the brass dial on the front of the device.<BR>A redstone signal will disable the device.<LINE>Each crafting operation will drain 1 vis from the aura.
+#
+research.VISGENERATOR.title=Vis Powered Generator
+research.VISGENERATOR.stage.1=It is a well known fact that vis does not play well with mundane power sources like redstone, redstone flux or forge energy.<BR>The question is: Can you use vis to generate power? The obvious answer is no, but if I settled for the obvious I do not deserve to call myself a thaumaturge.
+research.VISGENERATOR.stage.2=One more impossible thing to mark off my list and it is not even lunchtime yet.<BR>I have managed to generate mundane power using vis, though I had to cheat a bit to do it. It is a simple matter to turn kinetic energy into power and creating kinetic energy with vis is thaumaturgy 101. Using vis to turn an axle connected to a dynamo did not work as some magical energy would transmit through the axle and cause all kinds of problems.<BR>In the end I designed a special linkage using magnets and some clever engineering. This linkage would transmit the kinetic energy while not allowing the vis and mundage energy to interfere with each other.<BR>Unfortunately the nature of the linkage places some limits on the power that can be generated as some kinetic energy is lost. The generator can only generate 10 FE/RF per tick. It draws vis directly from the aura to do this and a single point produces enough energy for 5 seconds of operation (1000 FE/RF).<BR>A redstone signal will disable the generator.
+#
 ##########################################
 # AUROMANCY
 ##########################################
@@ -1590,7 +1611,7 @@ got.projectile=你已進一步理解投射物。
 #
 research.FOCUSBOLT.title=核心媒介：雷光
 research.FOCUSBOLT.stage.1=投擲魔法彈有時是件麻煩的事。它們難以瞄準，需要花時間去預測彈道的落點。 <BR>或許我可以找到一個方式來延伸接觸媒介的作用。
-research.FOCUSBOLT.stage.2=當可以放出魔法能量閃電時誰還需要投彈。這能立即作用於目標，而且更易於瞄準。 <BR>遺憾的是它距離有限。事實證明試圖將魔素流的距離維持超過16格是相當困難的。在更長距離的交火時投彈依舊保有優勢。
+research.FOCUSBOLT.stage.2=當可以放出魔法能量閃電時誰還需要投彈？這能立即作用於目標，而且更易於瞄準。 <BR>遺憾的是它距離有限。事實證明試圖將魔素流的距離維持超過16格是相當困難的。但面對更長距離的交火時，投彈依舊保有優勢。
 #
 research.FOCUSFLUX.title=核心效應：咒波
 research.FOCUSFLUX.stage.1=使用元素作為武器有其優點，而單純的魔力也是具有殺傷力的——暴露於原始、未特化的魔素中對大多數生物都是有害的。身上的裝甲也無法擋下這股能量。 
@@ -1612,7 +1633,7 @@ research.FOCUSRIFT.stage.2=我計畫製作一顆控制相位魔法的核心。�
 #
 research.FOCUSPLAN.title=核心媒介：規劃
 research.FOCUSPLAN.stage.1=我學會了如何利用像更替這種核心來操作世界中的方塊，然而實際使用上卻有些受限。 <BR>我應該要找出一種方法來精確指定作用範圍。
-research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域操作的目標方塊。這個媒介與接觸相當類似，但是我能在將操作的方塊上看到朦朧的輪廓。而範圍也遠大於接觸（16格）。按下核心操作鍵（預設是G）能變更區域的大小。 CTRL + G 則能夠切換變更尺寸的軸向。 <BR>這個媒介紋章有兩種模式，我可以在嵌入核心時進行選擇：填滿與表面。填滿模式會作用於範圍內所有方塊，而表面模式只會作用於暴露在外的方塊。 <BR>此核心媒介無法與其他媒介並用。
+research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域操作的目標方塊。這個媒介與接觸相當類似，但是我能在將操作的方塊上看到朦朧的輪廓。而範圍也遠大於接觸（16格）。按下核心操作鍵（預設是G）能變更區域的大小。 CTRL + G 則能夠切換變更尺寸的軸向。 <BR>這個媒介紋章有兩種模式，我可以在嵌入核心時進行選擇：完全與表面。完全模式會作用於範圍內所有方塊，而表面模式只會作用於暴露在外的方塊。 <BR>此核心媒介無法與其他媒介並用。
 #
 research.FOCUSSCATTER.title=核心改寫：分散
 research.FOCUSSCATTER.stage.1=I now know how to create both projectiles and bolts that propegate focus effects. I believe it should be fairly simple to design a plan that allows me to split a single trajectory into multiple.
@@ -1646,7 +1667,10 @@ research.FOCUSPOUCH.title=核心腰包
 research.FOCUSPOUCH.stage.1=Once I have gathered a sizable collection of foci it will be quite annoying to carry them all with me. I should find a convenient way to carry them all.
 research.FOCUSPOUCH.stage.2=I have invented a special pouch I can carry with me to store my foci.<BR>Whenever I change the focus in my caster, it will check this pouch first and any foci that get removed will be placed inside it first. I can also right-click the pouch to place or remove foci by hand.<BR>It can also be carried in my belt bauble slot.
 #
-
+research.VISBATTERY.title=Vis Battery
+research.VISBATTERY.stage.1=Natural vis crystals have an interesting ability to act as vis 'batteries'. They absorb vis when the aura is high and discharge it when it is low, but this process is quite slow and unreliable.<BR>By using what I have learned about growing vis crystals I should be able to create a vis battery of my own that is a lot more reliable.
+research.VISBATTERY.stage.2=I have succeeded in creating a vis battery.<BR>If the local aura is above 95% of its normal capacity the battery will absorb vis and if the aura drops below 75% it will discharge.<BR>There are a few drawbacks however. While it is quicker and a lot more reliable than natural vis crystals, the battery still takes some time to react to changes in the local aura. The second drawback is it's capacity. It can only store 10 points of vis. My attemps to increase this has proven disasterous. I guess this just means that I will need to use them in larger numbers.<BR>Applying a redstone signal to the battery will not only prevent it from functioning, but it will rapidly discharge any vis it is holding back into the aura. 
+#
 ##########################################
 # GOLEMANCY
 ##########################################
@@ -1696,7 +1720,7 @@ research.GOLEMDIRECT.stage.2=I can now right click on a golem with the §5Golema
 #
 research.GOLEMLOGISTICS.title=Golem Logistics
 research.GOLEMLOGISTICS.stage.1=Having created the Provider Seal I now have an interesting opportunity. It should be possible for me to directly request items from nearby golems.<BR>Some tweaking of their pathfinding will be required, but it should not be too hard to do.
-research.GOLEMLOGISTICS.stage.2=I can now sneak + right click with the §5Golemancer's Bell§0 to bring up an inventory of all items accessible by provider seals within 64 blocks. I can then request items from this list and a golem will deliver it.<BR>If I clicked on a block the item will be delivered to the block, or placed inside if it is an inventory. The side you clicked on will be taken into account.<BR>If I clicked on empty air the item will be delivered directly to me.<PAGE>Golems are still limited by their range so I must take care where I try and deliver items to.
+research.GOLEMLOGISTICS.stage.2=I can now sneak + right click with the §5Golemancer's Bell§0 to bring up an inventory of all items accessible by provider seals within 32 blocks. I can then request items from this list and a golem will deliver it.<BR>If I clicked on a block the item will be delivered to the block, or placed inside if it is an inventory. The side you clicked on will be taken into account.<BR>If I clicked on empty air the item will be delivered directly to me.<PAGE>Golems are still limited by their range so I must take care where I try and deliver items to.
 #
 research.MINDBIOTHAUMIC.title=Biothaumic Minds
 research.MINDBIOTHAUMIC.stage.1=As predicted the clockwork minds I have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so I turning to something I already know will work - living brains.<BR>By studying them I might be able to unlock the secret behind true intelligence and autonomy. 
@@ -1744,6 +1768,10 @@ research.SEALUSE.title=Control Seal: Use
 research.SEALUSE.stage.1=I should be able to design a seal that allows golems to interact with the world in more complex ways than simply carrying items around or attacking things. There are many objects that require manual operation and maybe I can have golems do that for me.
 research.SEALUSE.stage.2=This seal allows a golem to act like a player and left or right click on the block that you have marked.<BR>It can also click with any items it happens to be holding or specific items you have filtered.<BR>The seal will remain even if the block you placed it on is removed, allowing the seal to target empty air if you wish.<BR>If a whitelist item is specified you can also request it to be §5provisioned§0.
 #
+research.SEALSTOCK.title=Control Seal: Stock
+research.SEALSTOCK.stage.1=I need a seal that will allow me to keep a minimum number of items stocked in a container at all times.
+research.SEALSTOCK.stage.2=This seal is similar to the store seal, except it keeps a certain number of items stocked inside its container at all times. The seal only insures that a minimum number of items are kept in stock - it will not prevent overstocking should it occur by other means.<BR>This seal requires provider seals to know where to get the items.
+#
 research.BASICTURRET.title=Automated Crossbow
 research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders. 
 research.BASICTURRET.stage.2=I have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile monsters it detects within range. Unfortunately its limited mind does not allow me to fine tune its targets.<BR>It has a very limited internal inventory, but if I place it over an upward facing dispenser it will automatically reload itself from that inventory.<BR>Right clicking on it while sneaking will pick it up.<PAGE>The turrent can ride in a minecart and will reload from a dispenser placed underneath the track.<BR>Passing over an arcane activator rail will change the behaviour of the turrent. If the rail is active it will disable the turret. Passing over an inactive rail will enable it again.
@@ -1755,7 +1783,7 @@ research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like 
 #
 research.GOLEMVISION.title=Golem Biothaumic Eyes
 research.GOLEMVISION.stage.1=I should find a way to improve the visual acuity of my golems.
-research.GOLEMVISION.stage.2=By merging flesh and arcane constructs you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at twice the normal range (32 blocks).<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMVISION.stage.2=By merging flesh and arcane constructs you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at 150% the normal range (48 blocks).<BR>§9This research unlocks additional golem parts§0.
 #
 research.GOLEMCLIMBER.title=Golem Mobility: Climbing
 research.GOLEMCLIMBER.stage.1=I should find a way to improve the mobility acuity of my golems. Maybe I could give them the ability to climb walls?
