@@ -229,7 +229,7 @@ item.seal.lumber.name=행동의 인장: 나무꾼
 item.seal.breaker.name=행동의 인장: 블럭 파괴
 item.seal.use.name=행동의 인장: 사용
 item.seal.provider.name=행동의 인장: 제공
-item.seal.stock.name=햏동의 인장: 재고
+item.seal.stock.name=행동의 인장: 재고
 #
 # Blocks
 ###################################
