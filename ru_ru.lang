@@ -29,13 +29,13 @@ item.celestial_notes.stars_2.text=Звезды, Южный квадрант
 item.celestial_notes.stars_3.text=Звезды, Западный квадрант
 item.celestial_notes.stars_4.text=Звезды, Восточный квадрант
 item.celestial_notes.moon_1.text=Луна, Полная
-item.celestial_notes.moon_2.text=Луна, Молодая
-item.celestial_notes.moon_3.text=Луна, Первая четверть
-item.celestial_notes.moon_4.text=Луна, Прибывающая
+item.celestial_notes.moon_2.text=Луна, Убывающая
+item.celestial_notes.moon_3.text=Луна, Третья четверть
+item.celestial_notes.moon_4.text=Луна, Старая
 item.celestial_notes.moon_5.text=Луна, Новая
-item.celestial_notes.moon_6.text=Луна, Убывающая
-item.celestial_notes.moon_7.text=Луна, Третья четверть
-item.celestial_notes.moon_8.text=Луна, Старая
+item.celestial_notes.moon_6.text=Луна, Молодая
+item.celestial_notes.moon_7.text=Луна, Первая четверть
+item.celestial_notes.moon_8.text=Луна, Прибывающая
 #
 # Resources
 #
@@ -1330,8 +1330,8 @@ research.ALUMENTUM.title=Alumentum
 research.ALUMENTUM.stage.1=Nitor is a useful substance. It provides heat, light and is aesthetically pleasing. Unfortunately it provides only slightly more heat than a torch - enough to slowly heat some water or keep you warm at night, but not enough for practical purposes like smelting ore.<BR>I need something more... reactive.<BR>I should take some time to collect my thoughts and study the elements. Maybe there is a way to improve coal like I did glowstone.
 research.ALUMENTUM.stage.2=I was right! I should be able to take a lump of coal and add more of the essentia it already contains... and possibly a little bit of perditio for extra kick.<BR>If my calculations are correct the resulting substance, which I have called Alumentum, should burn three times longer than normal coal.<BR>My calculations also show that the substance will be quite energetic and I should take care not to chuck it about... not unless I have good reason to, that is.
 #
-research.METALLURGY.title=Alchemical Metallurgy
-research.METALLURGY.stage.1=Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe I may find myself in.<BR>There should be a way of crafting it via alchemical transmutation. I simply need to find it.
+research.METALLURGY.title=Алхимическая металлургия
+research.METALLURGY.stage.1=Латунь - это прочный металл с низким коэффициентом трения, который идеально подходит для создания сложных механических устройств.<BR>К сожалению, её не всегда можно достать из-за изменчивых свойств Вселенной, в которой я нахожусь.<BR>Должен быть способ создать её при помощи алхимической трансмутации. Нужно просто его найти.
 research.METALLURGY.stage.2=Metals have proven to be quite easy to manipulate via thaumaturgical principles. My first experiments has led to the discovery of Alchemical Brass, but it was a simple matter to create something that already exists. It is time to create something new.<BR>I have theorized that by infusing a base metal like iron with magical energy should result in something with very interesting properties.<BR> It should be harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this should have many applications in the crafting of more advanced thaumaturgical devices.
 research.METALLURGY.stage.3=I am sure I am on the edge of a breakthrough here, but I have no idea how to proceed. There is something missing, some vital piece of information I lack.<BR>I should proceed carefully however. Somehow I sense the areas of knowledge I am delving into now could be dangerous.
 research.METALLURGY.stage.4=My hand shakes as I write this. The strange substances I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
