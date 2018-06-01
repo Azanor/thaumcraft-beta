@@ -320,7 +320,7 @@ tile.lamp_growth.name=熟成之燈
 tile.lamp_fertility.name=繁衍之燈
 tile.jar_normal.name=封罐
 tile.jar_void.name=虛空之罐
-tile.jar_brain.name=魔腦封罐
+tile.jar_brain.name=罐中之腦
 tile.tube.name=源質管道
 tile.tube_valve.name=源質閥門
 tile.tube_filter.name=過濾源質管道
@@ -639,7 +639,7 @@ golem.trait.text.armored=這個傀儡使用的外加結構增強了其裝甲值�
 golem.trait.repair=修復強化
 golem.trait.text.repair=這個傀儡能以兩倍以上的速度修復自己所受到的傷害。
 golem.trait.fighter=鬥士
-golem.trait.text.fighter=這個傀儡具有對其他目標進行攻擊的能力。
+golem.trait.text.fighter=這個傀儡具有攻擊其他目標的能力。
 golem.trait.flyer=飛行者
 golem.trait.text.flyer=這個傀儡能夠飛行，但作為其機動力的代價，其速度受到了限制。
 golem.trait.climber=攀岩者
@@ -727,7 +727,7 @@ thaumcraft.AIR.text=產生一股強風來擊退物體，但是只能造成輕微
 thaumcraft.EARTH.name=土
 thaumcraft.EARTH.text=發射一枚泥土榴彈，造成顯著傷害並破壞脆弱方塊。
 thaumcraft.FIRE.name=火
-thaumcraft.FIRE.text=向目標釋放火焰使其燃燒。
+thaumcraft.FIRE.text=釋放火焰使目標燃燒。
 thaumcraft.FROST.name=冰
 thaumcraft.FROST.text=放出冷冽的寒冰，對目標造成傷害並凍結。可以使水結冰並能對生物造成緩速。
 thaumcraft.BREAK.name=破壞
@@ -748,7 +748,7 @@ thaumcraft.TOUCH.text=將法術效果直接施放在接觸的目標上（距離�
 thaumcraft.PROJECTILE.name=投彈
 thaumcraft.PROJECTILE.text=汲取能量並凝聚成魔法球投出。這顆彈丸射程很長，但速度緩慢且會受重力影響。
 thaumcraft.BOLT.name=雷光
-thaumcraft.BOLT.text=往目標處擊出一道雷光。法術為瞬發但射程限於16格內。
+thaumcraft.BOLT.text=往目標擊出一道雷光。法術為瞬發但射程限於16格內。
 thaumcraft.PLAN.name=規劃
 thaumcraft.PLAN.text=使你能精確規劃作用於哪些方塊。
 thaumcraft.CLOUD.name=雲霧
@@ -761,7 +761,7 @@ thaumcraft.SPELLBAT.text=變出一隻神秘的蝙蝠，追獵敵人並對它們�
 thaumcraft.SCATTER.name=分散
 thaumcraft.SCATTER.text=將軌跡分散成複數隨機軌跡。
 thaumcraft.SPLITTARGET.name=拆分目標
-thaumcraft.SPLITTARGET.text=將單一目標拆分為兩個較低效的目標。
+thaumcraft.SPLITTARGET.text=將單一目標效果拆分為兩個較低效的目標。
 thaumcraft.SPLITTRAJECTORY.name=拆分軌跡
 thaumcraft.SPLITTRAJECTORY.text=將單一軌跡拆分為兩條較低效的軌跡。
 #
@@ -1214,7 +1214,7 @@ research.Pech.stage.1=這些詭異的亞人會出現在次元間隔較薄弱的�
 #
 research.Wisp.stage.1=這些神奇的生物看起來就像漂浮的光點，時常出現在魔素濃厚的地方。老實說我完全不確定它們究竟是不是生物——它們漫無目的地飄移，而且絲毫沒有展現出任何像是正常生命體的特徵。它們受到攻擊會進行反擊，有時則會毫無徵兆的變得兇暴。 <BR>我剛開始時認為他們可能是某種形式的原始生物，並非由物質，而是由魔素構成，然而當我在它們中心觀測到異樣的次元能量後我就發現事情沒有我想的那麼單純。
 #
-research.ThaumSlime.stage.1=這些紫色史萊姆是其綠色遠親的一個奇特分歧種。普通的史萊姆是從滲入洞穴中的有機淤泥中生成，而玄秘史萊姆是由魔法失敗所殘留下的紫色原始物質凝聚而成。 <BR>與它們綠色的遠親相較之下除了那異常的起源外幾乎大同小異。它們擁有主動分離自己身體的能力，會對接近它的目標噴吐小型的史萊姆。而當周圍沒有目標物時，分離的史萊姆將互相吸引，重新結合成一團更大的個體。
+research.ThaumSlime.stage.1=這些紫色史萊姆是其綠色遠親的一個奇特分歧種。普通的史萊姆是從滲入洞穴中的有機淤泥中生成，而玄秘史萊姆是由魔法失敗所殘留下的紫色原始物質凝聚而成。 <BR>與它們綠色的遠親相較之下除了那異常的起源外幾乎大同小異。它們擁有主動分離自己身體的能力，會對接近它的目標噴吐小型的史萊姆。而當周圍沒有攻擊目標時，分離的史萊姆將互相吸引，重新結合成一團更大的個體。
 #
 research.Firebat.stage.1=焱蝠，稱為地獄蝙蝠的動物通常在地獄出沒。那個地方非常適合這種凶暴且渾身浴火的生物。而且它們還會在攻擊時將自己引爆。 <BR>令人納悶的是怎樣的演化優勢才導致它們成為如此爆炸性的物種，然而這項疑問同時也適用於苦力怕。
 #
@@ -1426,7 +1426,7 @@ research.BASEINFUSION.stage.1=我準備好要製作賦予魔力的物品與工�
 research.INFUSION.title=注魔
 research.INFUSION.stage.1=奧術工法與煉金術目前只能走到這一步。我需要其他更好的方法才能製造出真正強大的神祕物件。 <BR>你相信應該能用更直接的方式將源質注入物件中。你能做到，舉例而言，將 §6Aer§0 魔素和羽毛注入石頭中可以產生一顆非常輕巧的石頭。 <BR>至少，這是我的理論。
 research.INFUSION.stage.2=不出所料，注魔製程已證實比我預期中更加複雜。單純試著將要素注入其他物體是行不通的。我需要利用一個相對複雜的系統來穩定整個處理過程。我畫下了一組盧恩方陣的草稿來讓我達成目的。
-research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，就能開始進行製作了。跟其他神秘的裝置一樣，祭壇也需要利用世界鹽來製作。設立好注魔樁後就能用施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物件。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>全部都蒐集好後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。如果合成因為源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
+research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，就能開始進行製作了。跟其他神秘的裝置一樣，祭壇也需要利用世界鹽來製作。設立好注魔樁後就能用施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>全部都蒐集好後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。如果合成因為源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONSTABLE.title=注魔穩定化
 research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中記載那般有效。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是將紅石直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
@@ -1451,7 +1451,7 @@ research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩
 #
 research.INFUSIONENCHANTMENT.title=注魔式附魔
 research.INFUSIONENCHANTMENT.stage.1=事實證明元素工具相當實用，但是附在工具上的魔法卻不靈活。我必須找出將相同效果應用在任何工具與武器上的方法，而不是只能用於靛鐵工具。 <BR>研究一般的附魔，觀察如何將其基本原理重現於注魔製程中會是個好的開始。
-research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o聲納§r<DIV>你可以用這把工具右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器<PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器
+research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o聲納§r<DIV>你可以用這把工具右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的其他目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器<PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器
 #
 research.BOOTSTRAVELLER.title=旅人之靴
 research.BOOTSTRAVELLER.stage.1=我需要創造能讓我旅途輕鬆些的物品。我應該對運動力學多加測試，以找出改善的方法。
@@ -1633,27 +1633,27 @@ research.FOCUSRIFT.stage.2=我計畫製作一顆控制相位魔法的核心。�
 #
 research.FOCUSPLAN.title=核心媒介：規劃
 research.FOCUSPLAN.stage.1=我學會了如何利用像更替這種核心來操作世界中的方塊，然而實際使用上卻有些受限。 <BR>我應該要找出一種方法來精確指定作用範圍。
-research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域操作的目標方塊。這個媒介與接觸相當類似，但是我能在將操作的方塊上看到朦朧的輪廓。而範圍也遠大於接觸（16格）。按下核心操作鍵（預設是G）能變更區域的大小。 CTRL + G 則能夠切換變更尺寸的軸向。 <BR>這個媒介紋章有兩種模式，我可以在嵌入核心時進行選擇：完全與表面。完全模式會作用於範圍內所有方塊，而表面模式只會作用於暴露在外的方塊。 <BR>此核心媒介無法與其他媒介並用。
+research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域操作的目標方塊。這個媒介與接觸相當類似，但是我能在將操作的方塊上看到朦朧的輪廓。而範圍也遠大於接觸（16格）。按下核心操作鍵（預設為G）能變更區域的大小。 CTRL + G 則能夠切換變更尺寸的軸向。 <BR>這個媒介紋章有兩種模式，我可以在嵌入核心時進行選擇：完全與表面。完全模式會作用於範圍內所有方塊，而表面模式只會作用於暴露在外的方塊。 <BR>此核心媒介無法與其他媒介並用。
 #
-research.FOCUSSCATTER.title=核心改寫：分散
-research.FOCUSSCATTER.stage.1=I now know how to create both projectiles and bolts that propegate focus effects. I believe it should be fairly simple to design a plan that allows me to split a single trajectory into multiple.
-research.FOCUSSCATTER.stage.2=I have managed to split a single medium trajectory into multiple, though not quite to the degree I had hoped. There are two problems:<BR>Firstly is that while I can control the number of forks created from the original trajectory, I have no control over the resulting trajectories once it is split. It simply scatters them in random directions. Fortunately I have figured out how to limit the cone of scatter.<BR>The second problem is that the more forks I create, the weaker the individual effects are. This is not surprising - there is only so much vis I can channel. I mitigate this slightly by drawing in additional vis to bolster the effects, but each resulting fork is still weaker than the original.
+research.FOCUSSCATTER.title=核心修改：分散
+research.FOCUSSCATTER.stage.1=我已經知道如何創造投彈與雷光來傳遞核心的效應。我相信設計一個計劃來把單一軌跡拆分為多個應該不會是件難事。
+research.FOCUSSCATTER.stage.2=我成功將一個核心媒介的軌跡拆分為複數，但成果卻未達我的期望。這其中有兩個問題： <BR>首先，雖然我能控制主要軌跡分岔的數量，但卻無法控制分裂後的軌跡。他們會單純地往隨機方向分散。還好我已經想到該如何限制分散的錐狀範圍。 <BR>第二個問題是，我創造愈多分岔，每個分岔的效果就愈虛弱。其實這並不意外——我所引導的魔素有限。我可以額外汲取更多魔素來稍微舒緩這種現象，但每個分岔依然會比原本還弱。
 #
-research.FOCUSSPLIT.title=核心改寫：拆分
-research.FOCUSSPLIT.stage.1=While the Scatter modifier has proven quite useful, it is technically a failure. I realise now that my original plan was too ambititious.<BR>I should start smaller.
-research.FOCUSSPLIT.stage.2=I have managed to draw up designs for two new focus modifiers. The first splits a single target result into two, allowing me to have two different effects apply to the target.<BR>The second modifier does the same, except it splits trajectories.<BR>The only downside is that the split reduces to power of any effects placed below them, though I mitigate the full impact somewhat.<BR>Much to my suprise I have discovered that these modifiers can be split recursivly allowing for some interesting focal designs. 
+research.FOCUSSPLIT.title=核心修改：拆分
+research.FOCUSSPLIT.stage.1=雖然分散修改的實用性已受證實，但技術上而言卻是失敗的產物。我發覺我原本的計畫過於宏大。 <BR>我應該從較微觀處著手。
+research.FOCUSSPLIT.stage.2=我重新設計了兩項核心修改。第一項能將單一目標效果拆分為兩個，使我能在同一個目標上造成兩種不同的效果。 <BR>第二項修改大致相同，但是拆分的是軌跡。 <BR>唯一的缺點是拆分必定會減弱效果的威力，即使我已經稍微減緩了這種現象。 <BR>令我相當驚訝的是可以逐次進行這些修改以達成一些有趣的核心設計。
 #
 research.FOCUSMINE.title=核心媒介：奧術地雷
-research.FOCUSMINE.stage.1=I have done some studies into creating contructs of pure arcane energy recently. Maybe I can apply what I have learned
-research.FOCUSMINE.stage.2=I can now create a quasi-physical construct of vis that can hold focus effects in stasis until triggered. When created, this 'mine' take two seconds to arm. Once it is armed any non-allied entity that gets close enough will cause the mine to dissapate, releasing the stored effects towards the triggering entity.<BR>The mine can be set to trigger on friendlies instead of enemies and neutral creatures.
+research.FOCUSMINE.stage.1=我最近完成了利用純粹的奧術能量建立結構的一些研究。或許能充分運用我所學到的東西。
+research.FOCUSMINE.stage.2=我現在可以創造出一個魔素構成的擬似物理結構，能在被觸發前將核心效果維持在原處。創造這顆「地雷」需要花兩秒進行構築。當構築完成後，任何非友方的實體靠近都會導致地雷瓦解，對觸發結構的實體釋放儲存於其中的效果。 <BR>地雷可以設定為受友方觸發，而非敵人或生物。
 #
 research.FOCUSCLOUD.title=核心媒介：雲霧
-research.FOCUSCLOUD.stage.1=Seeing the lingering effects the end dragons breath causes has given me some ideas. I might be able to duplicate the effects as a focus medium.
-research.FOCUSCLOUD.stage.2=Much like lingering potions can be used to create a static effect in the world, the Cloud medium can be used to create a field of energy that periodically applies focus effects to entities and blocks caught within.<BR>The strength of effects linked to this medium will be reduced slightly.
+research.FOCUSCLOUD.stage.1=龍之吐息的滯留效果給了我一些靈感。我或許能將這種效果重現於核心媒介。
+research.FOCUSCLOUD.stage.2=就像滯留藥水能製造停留在原處的效果，雲霧媒介用於製造區域性的能量，並持續將核心效果作用於陷入其中的實體與方塊。 <BR>連接於此媒介的效應的強度會稍微減弱。
 #
 research.RECHARGEPEDESTAL.title=充魔基座
-research.RECHARGEPEDESTAL.stage.1=I expect that I will soon begin crafting objects that require vis to function, but that cannot easily draw the vis from the aura themselves. I will need a way to recharge them.
-research.RECHARGEPEDESTAL.stage.2=This specially crafted pedestal can recharge vis storing items. Any rechargeable item placed in it will automatically draw vis from the aura to fill itself. Simply click on the pedestal with the item you wish to recharge. Use the pedestal again to retrieve the item.
+research.RECHARGEPEDESTAL.stage.1=我預期我很快就會開始製造一些需要以魔素運作的道具，但這些道具無法輕易的自動從靈氣中汲取魔素。我需要一個充魔手段
+research.RECHARGEPEDESTAL.stage.2=這個特製的台座可以替有魔素容量的物品充魔。任何可以充魔的物品都能在這個台座中汲取靈氣中的魔素以補滿自身的容量。只需持欲充魔的物品點擊基座，再次點擊即可取下。
 #
 research.VISAMULET.title=魔素護符
 research.VISAMULET.stage.1=If I wish to recharge my vis storage items I currently need to return to the nearest recharge pedestal or carry one of them around. This is not always convenient however - I must find a portable way to recharge my items. 
@@ -1675,36 +1675,36 @@ research.VISBATTERY.stage.2=I have succeeded in creating a vis battery.<BR>If th
 # GOLEMANCY
 ##########################################
 #
-research.BASEGOLEMANCY.title=Basic Golemancy
+research.BASEGOLEMANCY.title=基礎傀儡學
 research.BASEGOLEMANCY.stage.1=I now understand the basic concepts that shape Golemancy, but I am sure I can improve on the primitive constructs that anyone can craft. At the very least I can use arcane science to design a simple mind that will be both dependable and predictable instead of relying on the chaotic nature of magic to direct my constructs.
 #
-research.JARBRAIN.title=Brain in a Jar
-research.JARBRAIN.stage.1=Isn't it just the worst when you have a bunch of spare brain matter lying around, but nothing useful to do with it? Time to change that.
-research.JARBRAIN.stage.2=I have discovered a way to reanimate a zombie brain and put it to my own dark uses.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving the jar a good shake will make it surrender some of its ill-gotten gains for my own use.<BR>It will only hold a certain amount of experience. Particle effects will be displayed above the jar when it is full.<BR>This jar can also be used to a much greater effect than bookcases to improve mundane enchanting.
-research.f_BRAIN.text=Examine something brainy.
+research.JARBRAIN.title=罐中之腦
+research.JARBRAIN.stage.1=如果你空有一堆腦袋卻堆著不用，豈不是非常糟糕？該是改變現狀的時候了。
+research.JARBRAIN.stage.2=我找到方法能把殭屍的大腦復活，以作為自己的黑暗用途。 <BR>牠保留了作為殭屍的飢餓慾望，即使已無法吞食腦袋，依然能享受攝取附近被屠殺的生命所留下的思想與經驗。輕搖封罐能使牠放棄部分的不義之財以供我使用。 <BR>牠能儲存的經驗值有限。當罐子裝滿時上方會顯示出粒子效果。 <BR>這個罐子能像書櫃一樣能增進世俗的附魔，而且效果更佳。
+research.f_BRAIN.text=做些有腦的實驗。
 #
-research.MATSTUDWOOD.title=Material Studies: Wood
-research.MATSTUDWOOD.stage.1=Golemancy places great demands on my craftsmanship as it often requires intricate components with very narrow margins for error. I will need to increase my skill and knowledge of both mundane and arcane materials. My first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. I have found Greatwood to be a superior wood particularly well suited to golemancy.<BR>I should learn as much about it as I can.
+research.MATSTUDWOOD.title=材料研究：木材
+research.MATSTUDWOOD.stage.1=由於傀儡學需要的精密部件不容許任何閃失，因此對加工技術有更高的要求。必須同時提升自己在世俗與奧術素材方面的知識和水平。我的第一個鑽研目標是木材。 <BR>木材是一種多用途的材質，儘管有些脆弱，但是輕盈且易於加工。我發現宏偉之木這種優秀的木材非常適合用於傀儡學。 <BR>我應該盡可能從中學習。
 #
-research.MATSTUDIRON.title=Material Studies: Iron
-research.MATSTUDIRON.stage.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
-research.f_MATIRON.text=Examine iron
+research.MATSTUDIRON.title=材料研究：鐵
+research.MATSTUDIRON.stage.1=鐵擁有許多值得推薦的特性——它比木材更加結實且具備木材所沒有的延展性。然而鐵的加工難度更大且相當沉重。
+research.f_MATIRON.text=對鐵進行實驗
 #
-research.MATSTUDCLAY.title=Material Studies: Clay
-research.MATSTUDCLAY.stage.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron.<BR>Basically, the perfect choice for a thaumaturge on a budget.
-research.f_MATCLAY.text=Examine clay
+research.MATSTUDCLAY.title=材料研究：黏土
+research.MATSTUDCLAY.stage.1=黏土的強度不高、重量不特別輕、也不特別耐用，但是它非常易於加工、抗火性強、而且比鐵輕盈。 <BR>基本上對於秘術師而言算是個相當經濟的選擇。
+research.f_MATCLAY.text=對黏土進行實驗
 #
-research.MATSTUDBRASS.title=Material Studies: Brass
-research.MATSTUDBRASS.stage.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs.<BR>In my opinion it is the best mundane material for golemancy purposes and I would not dream of crafting intricate metals from any other material.<BR>It is quite pleasing to the eye as well.
-research.f_MATBRASS.text=Examine brass 
+research.MATSTUDBRASS.title=材料研究：黃銅
+research.MATSTUDBRASS.stage.1=雖然黃銅比鐵稍微柔軟，但作為精密機械元件而言依舊相當結實。 <BR>在我看來簡直是傀儡學研究能找到的最佳凡俗材料，完全無法想像還有什麼更適合用來製造精密金屬零件的材質。 <BR>而且外觀非常賞心悅目。
+research.f_MATBRASS.text=對黃銅進行實驗
 #
-research.MATSTUDTHAUMIUM.title=Material Studies: Thaumium
-research.MATSTUDTHAUMIUM.stage.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision.
-research.f_MATTHAUMIUM.text=Examine thaumium 
+research.MATSTUDTHAUMIUM.title=材料研究：靛鐵
+research.MATSTUDTHAUMIUM.stage.1=靛鐵是一種如海綿般吸滿了魔力的奧術金屬。其強度也明顯比鐵高。遺憾的是它比鐵更重，而其強度也使加工變得更加困難。 <BR>雖然無法像黃銅般製成精密的發條裝置，但靛鐵的強度使它適合用在那些與比起精密度更需要高強度的結構上。
+research.f_MATTHAUMIUM.text=對靛鐵進行實驗
 #
-research.MATSTUDVOID.title=Material Studies: Void Metal
-research.MATSTUDVOID.stage.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
-research.f_MATVOID.text=Examine void metal 
+research.MATSTUDVOID.title=材料研究：虛鋼
+research.MATSTUDVOID.stage.1=虛無鋼相對輕盈，但是過於柔軟，一般而言並不適合用於機械。幸運的是其可塑性與自我修復能力讓秘術師能跳脫框架，開啟更多的可能性。
+research.f_MATVOID.text=對虛鋼進行實驗 
 #
 research.MINDCLOCKWORK.title=Clockwork Minds
 research.MINDCLOCKWORK.stage.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If I am going to create intelligent magical servants then I will have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy.<BR>Designing one will be no simple feat however.
