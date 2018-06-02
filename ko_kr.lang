@@ -1316,8 +1316,8 @@ research.CELESTIALSCANNING.title=천체 관측
 research.CELESTIALSCANNING.stage.1=달의 위상과 오라의 충전속도 사이의 관계를 알아차렸습니다. 이 현상에 대해서 더 조사해봐야 하며 심지어 다른 천체들 또한 마법에 영향을 미치는 지의 여부를 보기 위해 조사 범위를 확대해야 합니다.<BR>사우모미터에 약간의 수정을 거친 끝에, 하늘에 있는 물체를 조사할 수 있게 되었습니다. 조사한 것을 기록하기 위한 종이와 필기도구가 필요하다는 것을 기억해야 합니다.<BR>하루에 2번 이상 동일한 천체 또는 하늘의 사분면을 조사하는 것은 새로운 통찰력을 제공하지 못할 것입니다. 이것이 오라에 미치는 영향의 변화를 측정하기 위해서는 시간이 필요합니다.<BR>이렇게 수집한 기록은 이론에 유용하게 사용될 것입니다.
 #
 research.UNLOCKELDRITCH.title=엘드리치 탐구 (미완성)
-research.UNLOCKELDRITCH.stage.1=???A : "여긴 아직 제작중이니까 나중에 오세요~"<BR>???B : "그럼 언제 만들어지는데?"<BR>???A : "2주 후에!"<BR>???B : "갸아앍 2주후 드립"<LINE>번역 일 힘드네요 어후<BR>- By 2hh8899
-research.UNLOCKELDRITCH.stage.2=???A : "여긴 아직 제작중이니까 나중에 오세요~"<BR>???B : "그럼 언제 만들어지는데?"<BR>???A : "2주 후에!"<BR>???B : "갸아앍 2주후 드립"<LINE>번역 일 힘드네요 어후<BR>- By 2hh8899
+research.UNLOCKELDRITCH.stage.1=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.<LINE>만약 진행이 가능함에도 불구하고 이 글이 써있는 경우 제작자 아자노어씨가 제 번역파일을 뒤늦게 받아 패치한 꼴이므로,<BR>§lhttps://blog.naver.com/2hh8899§r<BR>에서 최신 버전을 수동패치하시길 바랍니다.<PAGE> - 번역 2hh8899
+research.UNLOCKELDRITCH.stage.2=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.<LINE>만약 진행이 가능함에도 불구하고 이 글이 써있는 경우 제작자 아자노어씨가 제 번역파일을 뒤늦게 받아 패치한 꼴이므로,<BR>§lhttps://blog.naver.com/2hh8899§r<BR>에서 최신 버전을 수동패치하시길 바랍니다.<PAGE> - 번역 2hh8899
 #
 ##########################################
 # ALCHEMY
@@ -1820,8 +1820,5 @@ research.m_hellandback.text=지옥같은 장소를 찾아라
 research.m_endoftheworld.text=모든 것의 끝에 당도하라
 fail.crimsonrites=이 책은 정신이상적인 헛소리 뿐으로 보인다.
 
-##########################################
-# TRANSLATOR's JOKE AT ELDRITCH TAB
-##########################################
 research.BASEELDRITCH.title=엘드리치?
-research.BASEELDRITCH.stage.2=쟌넨! 엘드리치는 아직 미완성 상태입니다! 아직 베타버전이니 그러려니 하세요!<BR>- 2hh8899
+research.BASEELDRITCH.stage.2=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.<LINE>만약 진행이 가능함에도 불구하고 이 글이 써있는 경우 제작자 아자노어씨가 제 번역파일을 뒤늦게 받아 패치한 꼴이므로,<BR>§lhttps://blog.naver.com/2hh8899§r<BR>에서 최신 버전을 수동패치하시길 바랍니다.<PAGE> - 번역 2hh8899
