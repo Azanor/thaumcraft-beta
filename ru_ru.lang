@@ -193,10 +193,10 @@ item.charm_undying.name=Charm of Undying
 # Casters & Foci
 #
 item.caster_basic.name=Перчатка заклинателя
-item.focus_1.name=Ненастроенная малая линза
+item.focus_1.name=Малая ненастроенная линза
 item.focus_2.name=Blank Advanced Focus
 item.focus_3.name=Blank Greater Focus
-item.Focus.cost1=Vis per cast
+item.Focus.cost1=Вис за использование
 item.focus_pouch.name=Focus Pouch
 #
 #
@@ -722,14 +722,14 @@ fluid.liquid_death=Liquid Death
 #
 # Specific Focus Upgrades
 ##############################
-thaumcraft.AIR.name=Air
-thaumcraft.AIR.text=Creates a blast of air that knocks things back, but causes only minor damage.
-thaumcraft.EARTH.name=Earth
-thaumcraft.EARTH.text=Hurls a blast of earthen shrapnel that causes significant damage and may break weaker blocks.  
+thaumcraft.AIR.name=Воздух
+thaumcraft.AIR.text=Создаёт поток воздуха, отбрасывающий вещи, но при этом наносящий лишь незначительный урон.
+thaumcraft.EARTH.name=Земля
+thaumcraft.EARTH.text=Выстреливает земляной шрапнелью, которая наносит значительный урон и может ломать менее прочные блоки.  
 thaumcraft.FIRE.name=Огонь
 thaumcraft.FIRE.text=Бросает огонь в цель и поджигает её. 
-thaumcraft.FROST.name=Frost
-thaumcraft.FROST.text=Throws chilling cold at your target, causing damage and freezing it. Freezes water and will slow down creatures.
+thaumcraft.FROST.name=Мороз
+thaumcraft.FROST.text=Выстреливает в Вашу цель леденящим холодом, нанося урон и сковывая её. Также замораживает воду и замедляет существ.
 thaumcraft.BREAK.name=Break
 thaumcraft.BREAK.text=Summons disruptive energy that breaks down most materials.
 thaumcraft.CURSE.name=Curse
@@ -745,8 +745,8 @@ thaumcraft.HEAL.text=This effect heals living creatures and harms undead.
 #
 thaumcraft.TOUCH.name=Прикосновение
 thaumcraft.TOUCH.text=Позволяет Вам воздействовать на вещи, которых Вы можете коснуться (в пределах 4 блоков от исходной точки).
-thaumcraft.PROJECTILE.name=Projectile
-thaumcraft.PROJECTILE.text=Gathers the energy of the focus into a magical orb that you can throw like a projectile. This projectile travels slowly and is affected by gravity.
+thaumcraft.PROJECTILE.name=Снаряд
+thaumcraft.PROJECTILE.text=Собирает энергию линзы в магическую сферу, которой Вы можете выстрелить как снарядом. Движется медленно и подвержена гравитации.
 thaumcraft.BOLT.name=Bolt
 thaumcraft.BOLT.text=Hurl magic directly at your target as a concentrated bolt of energy. The effect is instantaneous, but the range is limited to 16 blocks.
 thaumcraft.PLAN.name=Plan
@@ -766,7 +766,7 @@ thaumcraft.SPLITTRAJECTORY.name=Split Trajectory
 thaumcraft.SPLITTRAJECTORY.text=Split a single trajectory into two weaker ones.
 #
 # SETTING DESCRIPTIONS
-focus.common.power=Power
+focus.common.power=Сила
 focus.common.duration=Duration (seconds)
 focus.common.radius=Radius (blocks)
 focus.common.silk=Silk Touch
@@ -776,15 +776,15 @@ focus.common.fortune=Fortune
 focus.common.target=Target Type
 focus.common.friend=Friendly
 focus.common.enemy=Non-friendly
-focus.common.none=None
-focus.common.options=Options
-focus.fire.burn=Burn duration (seconds)
+focus.common.none=Отсутствуют
+focus.common.options=Параметры
+focus.fire.burn=Длительность горения (в сек.)
 focus.scatter.cone=Spread angle (degrees)
 focus.scatter.forks=Trajectory forks
-focus.projectile.speed=Projectile speed
-focus.projectile.bouncy=Bouncy
-focus.projectile.seeking.friendly=Seek friendly
-focus.projectile.seeking.hostile=Seek hostile
+focus.projectile.speed=Скорость снаряда
+focus.projectile.bouncy=Отскакивающий
+focus.projectile.seeking.friendly=Поиск друзей
+focus.projectile.seeking.hostile=Поиск врагов
 focus.break.power=Breaking strength
 focus.plan.method=Planning method
 focus.plan.full=Full
@@ -858,7 +858,7 @@ golem.prop.redoff=Ignores Redstone signals
 golem.prop.exist=Container must already contain item
 golem.prop.leave=Always leave at least 1 item
 
-focuspart.com=Complexity:
+focuspart.com=Сложность:
 
 focuspart.base=Base Cost:
 focuspart.mult=Cost Multiplier:
@@ -1577,7 +1577,7 @@ research.VISGENERATOR.stage.2=One more impossible thing to mark off my list and 
 research.BASEAUROMANCY.title=Основы Ауромантии
 research.BASEAUROMANCY.stage.1=У меня есть перчатка заклинателя, но помимо этого мне также нужно создать линзы. В старых свитках не очень понятно описано, как их сделать, поэтому мне нужно найти свой собственный способ.<BR>Я пробовал собирать линзу из кристаллов, соединяя их вместе при помощи Вис. Первые мои эксперименты были провальными... взрывающе провальными.<BR>Думаю, что ответ, который я ищу, кроется в алхимическом процессе.<BR>Задействовав кристалл ordo в качестве ядра, я мог бы использовать его упорядоченную структуру, чтобы вырастить на его основе линзу. Пока это происходит, он должен впитывать эссенцию praecantatio и auram.<BR>Надеюсь, что в результате получится линза, способная поглощать и управлять энергией Вис. 
 research.BASEAUROMANCY.stage.2=Использование алхимии для создания линзы действительно было путём, ведущим к успеху. Она крепка, прозрачна, теперь мне лишь осталось вставить в неё подходящую схему-шаблон. Для этого мне понадобится Конфигуратор линз.<BR>Я уже набросал несколько его чертежей. Принцип его работы очень схож с тем, по которому действует магический верстак, но вместо того, чтобы использовать Вис для изготовления предметов, он будет отпечатывать шаблоны прямо на кристалле линзы.<BR>Мне придётся также разрабатывать те шаблоны, которые нужно будет отпечатать на кристалле. Можно составить такой шаблон, который будет порождать пламя, но для этого мне нужно сделать ещё несколько исследований. 
-research.BASEAUROMANCY.stage.3=У меня есть всё, что нужно. Теперь осталось лишь создать свою первую линзу.<BR>Разложив специально подготовленные Вис-кристаллы вокруг ненастроенной линзы, я смогу настроить шаблоны, которые определят, какую функцию она будет выполнять. Пока мне известны только шаблоны §n«Основа»§0, §n«Прикосновение»§0 и §n«Огонь»§0.<BR>Элемент §n«Основа»§0 символизирует меня, заклинателя. В интерфейсе конфигуратора линз он изображён значком с глазом. Пустой элемент под ним отмечен значками: цель и траектория. "Методы" (например, §n«Прикосновение»§0) заставляют траекторию определять, как они будут действовать: элемент §n«Основа»§0 проводит траекторию, которая соответствует направлению взгляда заклинателя, и, если соединить с этим элементом §n«Прикосновение»§0, я смогу "прикасаться" к тому, на что смотрю. "Методы" почти всегда предусматривают какую-то цель (в данном случае это всё, до чего я "коснулся"), а некоторые способны также составлять траекторию. Конкретно в этой ситуации мне всё же цель понадобится, поэтому я могу привязать это всё к эффекту §n«Огонь»§0.<BR>Связав таким образом §n«Основу»§0, §n«Прикосновение»§0 и §n«Огонь»§0, я смогу создать линзу, которая накладывает эффект §n«Огонь»§0 на всё, чего я коснусь.<BR>В теории я бы мог привязать §n«Огонь»§0 непосредственно к §n«Основе»§0, но поскольку Основа представляет в качестве цели меня, это значит, что я просто себя подожгу.<BR>Я могу с точностью настроить то, что делает эффект §n«Огонь»§0, изменяя его урон и длительность горения в правом нижнем углу интерфейса. Подобным образом я смогу настраивать многие шаблоны.<BR>Для создания линзы потребуется три типа ресурсов: первый - это кристаллы, что используются в процессе создания, второй - Вис из ауры, и последний - опыт игрока. Всякий раз, когда используется линза, она потребляет небольшое количество Вис из ауры.<PAGE>§nСложность§0<BR>Эффекты, которые я сейчас могу создать, довольно просты и ограничены. Это ограничение влияет на то, как много шаблонов я могу прикрепить к линзе. Оно определяется Сложностью линзы. Каждый тип шаблона имеет свои затраты сложности, а увеличение его параметров (например, урона для шаблона огня) приведёт к ещё большему её нарастанию. Использование шаблона более одного раза также вызовет увеличение затрат сложности на 50%.<BR>Сложность линзы определяет, как много Вис будет расходоваться, и как долго будет длиться перезарядка между использованиями у перчатки заклинателя.
+research.BASEAUROMANCY.stage.3=У меня есть всё, что нужно. Теперь осталось лишь создать свою первую линзу.<BR>Разложив специально подготовленные Вис-кристаллы вокруг ненастроенной линзы, я смогу настроить шаблоны, которые определят, какую функцию она будет выполнять. Пока мне известны только шаблоны §n«Основа»§0, §n«Прикосновение»§0 и §n«Огонь»§0.<BR>Элемент §n«Основа»§0 символизирует меня, заклинателя. В интерфейсе конфигуратора линз он изображён значком с глазом. Пустой элемент под ним отмечен значками: цель и траектория. "Методы действия" (например, §n«Прикосновение»§0) заставляют траекторию определять, как они будут действовать: элемент §n«Основа»§0 проводит траекторию, которая соответствует направлению взгляда заклинателя, и, если соединить с этим элементом §n«Прикосновение»§0, я смогу "прикасаться" к тому, на что смотрю. "Методы действия" почти всегда предусматривают какую-то цель (в данном случае это всё, до чего я "коснулся"), а некоторые способны также составлять траекторию. Конкретно в этой ситуации мне всё же цель понадобится, поэтому я могу привязать это всё к эффекту §n«Огонь»§0.<BR>Связав таким образом §n«Основу»§0, §n«Прикосновение»§0 и §n«Огонь»§0, я смогу создать линзу, которая накладывает эффект §n«Огонь»§0 на всё, чего я коснусь.<BR>В теории я бы мог привязать §n«Огонь»§0 непосредственно к §n«Основе»§0, но поскольку Основа представляет в качестве цели меня, это значит, что я просто себя подожгу.<BR>Я могу с точностью настроить то, что делает эффект §n«Огонь»§0, изменяя его урон и длительность горения в правом нижнем углу интерфейса. Подобным образом я смогу настраивать многие шаблоны.<BR>Для создания линзы потребуется три типа ресурсов: первый - это кристаллы, что используются в процессе создания, второй - Вис из ауры, и последний - опыт игрока. Всякий раз, когда используется линза, она потребляет небольшое количество Вис из ауры.<PAGE>§nСложность§0<BR>Эффекты, которые я сейчас могу создать, довольно просты и ограничены. Это ограничение влияет на то, как много шаблонов я могу прикрепить к линзе. Оно определяется Сложностью линзы. Каждый тип шаблона имеет свои затраты сложности, а увеличение его параметров (например, урона для шаблона огня) приведёт к ещё большему её нарастанию. Использование шаблона более одного раза также вызовет увеличение затрат сложности на 50%.<BR>Сложность линзы определяет, как много Вис будет расходоваться, и как долго будет длиться перезарядка между использованиями у перчатки заклинателя.
 research.f_onfire.text=Осмотрите огонь очень близко.
 #
 research.FOCUSADVANCED.title=Advanced Foci
@@ -1588,9 +1588,9 @@ research.FOCUSGREATER.title=Greater Foci
 research.FOCUSGREATER.stage.1=I have reached a dead end with advanced foci. The crystalline matrix inside them is quite complex, but no amount of tinkering, alchemy or infusion will be able to improve it. There is another option however.<BR>Instead of trying to increase the complexity, I might be able to simply increase the size of the focus itself - instead of trying to squeeze more into the box I should increase the size of the box itself.<BR>Of course, foci are the size they are for a reason and increasing their physical size would be counterproductive. I should instead increase their metaphysical size using dimensional magic. Primal Pearls carry vast amounts of energy in a relatively compact package. I should study them to see how I can replicate their properties.
 research.FOCUSGREATER.stage.2=I have managed to increase the complexity of foci nearly twofold. By infusing an advanced focus with the energy storage capability of a Primal Pearl and the dense internal structure of a Nether Star I have created a focus that is bigger on the inside - magically speaking. Physically it has the same dimensions as a normal focus, though it is noticeably heavier.
 #
-research.FOCUSELEMENTAL.title=Elemental Effects
-research.FOCUSELEMENTAL.stage.1=It should be a simple matter for me to use the fundamentals I have learned to harness other elements.
-research.FOCUSELEMENTAL.stage.2=§nAir§0<BR>This effects creates a blast of air. It does not cause much damage, but it will knock back anything it hits.<PAGE>§nFrost§0<BR>Fire may be destructive, but intense cold can be nearly as harmful with the added benefit of chilling my enemies and slowing them down to a crawl.<PAGE>§nEarth§0<BR>The blast of earth and rock created by this effect packs a significant punch. It is even powerful enough to break blocks made from weaker materials.
+research.FOCUSELEMENTAL.title=Эффекты стихий
+research.FOCUSELEMENTAL.stage.1=Думаю, что несложно будет использовать те основы, которые я изучил, для освоения других элементов.
+research.FOCUSELEMENTAL.stage.2=§nВоздух§0<BR>Этот эффект создаёт порыв ветра. Он не нанесёт много урона, но отбросит всё, во что попадет.<PAGE>§nМороз§0<BR>Огонь может и разрушителен, но сильный холод способен быть настолько же опасным, и помимо прочего способен заморозить врагов и заставить их еле ползти.<PAGE>§nЗемля§0<BR>Снаряд из земли и камней, созданный этим эффектом, наносит значительный удар. Он настолько мощный, что даже способен разрушать блоки из более слабых материалов.
 #
 research.FOCUSCURSE.title=Focus Effect: Curse
 research.FOCUSCURSE.stage.1=The pech wand I discovered is strange and unusable, but its workings bear some striking similarities to thaumaturgical foci.<BR>I should be able to reverse engineer it.
@@ -1600,14 +1600,14 @@ research.FOCUSSPELLBAT.title=Focus Medium: Spellbat
 research.FOCUSSPELLBAT.stage.1=Having observed the strange, elemental infused bats in the nether I believe I should be able to do something similar with foci.
 research.FOCUSSPELLBAT.stage.2=I have created a medium pattern that conjures an arcane bat and infuses it with focus effects. It will hunt down enemies and repeatedly inflict the focus effects on them.<BR>The bats have limited lifespans, are fragile and each time they attack they also lose some of the vis holding them together.<BR>The bat can be set to target friendlies instead of enemies and neutral creatures.
 #
-research.FOCUSPROJECTILE.title=Focus Medium: Projectile
-research.FOCUSPROJECTILE.stage.1=Touching my foe to set them alight is fine and all, but I would much rather hurl magic at them from afar. I need to find a way to extend focal energy beyond my limited reach.
-research.FOCUSPROJECTILE.stage.2=I can now place the energy of the focus into a magical projectile that I can hurl at enemies or blocks. The projectile is slow, but I can increase it's speed by increasing the complexity.<BR>Further research might allow me to refine these projectiles even further. Studying other kinds of projectiles closely should inspire me. This might involve some personal risk...
-research.FOCUSPROJECTILE.stage.3=I have discoverd methods to improve the utility of projectile even further!<LINE>§nBouncy§0<BR>When this projectile hits a solid surface it will bounce off. This projectile cannot effect blocks anymore as it will bounce off any block it contacts.<BR>§nSeek Hostiles§0<BR>Projectiles with this special property will automatically redirect their flight path towards hostile targets ahead of them.<BR>§nSeek Friendlies§0<BR>Similar to Seek Hostiles, this projectile will seek out friendly targets.
-research.f_arrow.text=A normal projectile
-research.f_fireball.text=A firey projectile
-research.f_spit.text=A sticky projectile
-got.projectile=You learn some more about projectiles.
+research.FOCUSPROJECTILE.title=Метод действия линзы: Снаряд
+research.FOCUSPROJECTILE.stage.1=Прикасаться к моему врагу, чтобы его поджечь - это, конечно, прекрасно и всё такое, но было бы лучше, если бы я бросал в него заклинания издалека. Нужно найти способ расширить энергию линзы и вывести её за пределы доступного мне радиуса действия.
+research.FOCUSPROJECTILE.stage.2=Теперь я могу поместить энергию линзы в магический снаряд, который впоследствии я смогу бросить во врагов или блоки. Снаряд этот медленный, но я могу увеличить его скорость, повышая Сложность.<BR>Дальнейшее исследование возможно позволит мне усовершенствовать их ещё больше. Изучение других снарядов вблизи должно вдохновить меня. Возможно придётся в какой-то степени подвергнуть себя опасности...
+research.FOCUSPROJECTILE.stage.3=Я обнаружил методы, которые ещё больше увеличат пользу снаряда!<LINE>§nОтскакивающий§0<BR>Когда этот снаряд ударится об твёрдую поверхность, он отскочит от неё. Он больше не сможет воздействовать на блоки, поскольку едва коснувшись, он будет каждый раз отскакивать от них.<BR>§nПоиск врагов§0<BR>Снаряды с этим особым свойством будут автоматически перенаправлять свою траекторию полёта навстречу враждебным целям, что стоят впереди.<BR>§nПоиск друзей§0<BR>Подобно поиску врагов, этот снаряд будет искать дружественные цели.
+research.f_arrow.text=Обычный снаряд
+research.f_fireball.text=Огненный снаряд
+research.f_spit.text=Липкий снаряд
+got.projectile=Вы немного больше узнаёте о снарядах.
 #
 research.FOCUSBOLT.title=Focus Medium: Bolt
 research.FOCUSBOLT.stage.1=Hurling magical projectiles is a chore sometimes. They are hard to aim and take time to travel to the intended target.<BR>Maybe there is a way I can extend the functionality of the the Touch medium.
