@@ -17,25 +17,25 @@ item.curio.text=這裡面藏有什麼知識呢？
 item.loot_bag.common.name=平凡藏寶袋
 item.loot_bag.uncommon.name=罕見藏寶袋
 item.loot_bag.rare.name=珍稀藏寶袋
-tc.lootbag=右鍵開啟或留存等待交易
+tc.lootbag=右鍵開啟，或留存以待交易。
 item.primordial_pearl.mote.name=原初微粒
 item.primordial_pearl.nodule.name=原初團塊
 item.primordial_pearl.pearl.name=原初寶珠
 item.pech_wand.name=地精法杖
 item.celestial_notes.name=天文筆記
 item.celestial_notes.sun.text=太陽
-item.celestial_notes.stars_1.text=星空–北方象限
-item.celestial_notes.stars_2.text=星空–南方象限
-item.celestial_notes.stars_3.text=星空–西方象限
-item.celestial_notes.stars_4.text=星空–東方象限
-item.celestial_notes.moon_1.text=月–滿月
-item.celestial_notes.moon_2.text=月–虧凸月
-item.celestial_notes.moon_3.text=月–下弦月
-item.celestial_notes.moon_4.text=月–殘月
-item.celestial_notes.moon_5.text=月–新月
-item.celestial_notes.moon_6.text=月–蛾眉月
-item.celestial_notes.moon_7.text=月–上弦月
-item.celestial_notes.moon_8.text=月–盈凸月
+item.celestial_notes.stars_1.text=星空-北方象限
+item.celestial_notes.stars_2.text=星空-南方象限
+item.celestial_notes.stars_3.text=星空-西方象限
+item.celestial_notes.stars_4.text=星空-東方象限
+item.celestial_notes.moon_1.text=月-滿月
+item.celestial_notes.moon_2.text=月-虧凸月
+item.celestial_notes.moon_3.text=月-下弦月
+item.celestial_notes.moon_4.text=月-殘月
+item.celestial_notes.moon_5.text=月-新月
+item.celestial_notes.moon_6.text=月-蛾眉月
+item.celestial_notes.moon_7.text=月-上弦月
+item.celestial_notes.moon_8.text=月-盈凸月
 #
 # Resources
 #
@@ -99,8 +99,6 @@ item.label.blank.name=空白標籤
 item.label.filled.name=標記標籤
 item.jar_brace.name=黃銅蓋箍
 item.bath_salts.name=淨化浴鹽
-item.bucket_death.name=亡水桶
-item.bucket_pure.name=淨化泉桶
 item.bottle_taint.name=腐蝕瓶
 item.sanity_soap.name=心神皂
 #
@@ -177,7 +175,7 @@ item.baubles.ring_apprentice.name=學徒戒指
 item.baubles.amulet_fancy.name=精緻護符
 item.baubles.ring_fancy.name=精緻戒指
 item.baubles.girdle_fancy.name=精緻腰帶
-item.amulet_vis.text=為裝甲、配件與快捷欄中的物品充魔
+item.amulet_vis.text=為裝甲、配件與快捷欄中的物品充魔。
 item.amulet_vis.found.name=魔石
 item.amulet_vis.crafted.name=魔素護符
 item.girdle_hover.name=秘術靜電腰索
@@ -345,6 +343,9 @@ tile.activator_rail.name=奧術觸發鐵軌
 tile.potion_sprayer.name=藥水噴霧器
 tile.vis_generator.name=魔素發電機
 tile.stabilizer.name=穩定器
+tile.condenser.name=咒波凝結器
+tile.condenser_lattice.name=咒波凝結器格柵
+tile.condenser_lattice_dirty.name=阻塞的咒波凝結器格柵
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -458,7 +459,7 @@ potion.warpward=扭曲防護
 potion.deathgaze=死亡凝視
 potion.blurred=視線昏渺
 potion.sunscorned=日之譴罰
-potion.thaumarhia=玄癔
+potion.thaumarhia=魔質溢流
 #
 # Warp
 ###################################
@@ -502,7 +503,6 @@ entity.BrainyZombie.name=憤怒殭屍
 entity.FollowItem.name=跟隨物品
 entity.SpecialItem.name=魔力物品
 entity.FallingTaint.name=腐蝕凝塊
-entity.AspectOrb.name=要素球
 entity.TaintCrawler.name=腐蝕爬蟲
 entity.Taintacle.name=腐蝕觸手怪
 entity.TaintacleTiny.name=腐蝕觸手
@@ -514,10 +514,6 @@ entity.Pech.name=地精盜賊
 entity.Pech.1.name=地精法師
 entity.Pech.2.name=地精獵人
 entity.PrimalOrb.name=原初能量球
-entity.TravelingTrunk.name=遠遊行李箱
-entity.trunk.guiname=%s的行李箱
-entity.trunk.move=你的行李箱將跟隨你
-entity.trunk.stay=你的行李箱將待在原地
 entity.MindSpider.name=心魔蛛
 entity.EldritchGuardian.name=異象守衛
 entity.EldritchWarden.name=異象守護者
@@ -557,16 +553,11 @@ champion.mod.infested=瘟疫
 tc.boss.crimson=閃耀著紅寶石色異樣光芒的傳送門已開啟，意味著緋色教徒們即將闖入。你必須盡快封上那道傳送門！
 tc.boss.golem=一個孤獨的守衛矗立在這個凍結的房間中，但是隨著能量開始通過骨架迸裂而出，你知道冰封無法支持太久。
 tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼東西即將出現...
-tc.boss.taint=門後發出了生體組織般的奇怪沙沙聲。那聲音聽起來非常不妙... 有什麼東西正在滋長...
+tc.boss.taint=門後發出了生體組織般的奇怪沙沙聲。那聲音聽起來非常...不妙。有東西正在滋長...
 #
 # Blocks
 ###################################
 # World
-
-
-
-tile.bloom.name=空靈花
-
 tile.eldritch.altar.name=異象祭壇
 tile.eldritch.obelisk_base.name=異象方尖碑
 tile.eldritch.obelisk_body.name=異象方尖碑
@@ -575,12 +566,6 @@ tile.eldritch.lock.name=亙古封鎖機關
 tile.eldritch.door.name=亙古門廊
 tile.eldritch.teleporter.name=異象傳送門
 tile.eldritch.crabspawner.name=凝結開口
-
-
-
-
-
-
 #
 # Items
 ###################################
@@ -588,23 +573,12 @@ tile.eldritch.crabspawner.name=凝結開口
 # Misc
 item.tainted.slime.name=腐蝕黏漿
 item.tainted.tendril.name=腐蝕卷鬚
-item.coin.name=金幣
-
-item.knowledge_fragment.name=知識片段
-item.knowledge_fragment.help=使用可獲得經驗值
 item.eldritch_eye.name=異象之眼
 item.crimson_rites.text.0=書上畫滿了詭異的符號。
 item.crimson_rites.text.1=右鍵以解讀。
 item.runed_tablet.name=盧恩石板
 item.runed_tablet.text=這似乎是某個大型裝置的一部分。
-item.research_notes.name=研究筆記
-item.research_notes.discovery.name=新發現
-item.researchnotes.learn=右鍵以進行學習
 item.creative_placer.obelisk.name=方尖碑設置器
-
-item.creative_placer.caster.name=遠古自動施術裝置設置器
-
-
 #
 # Text
 research.complete=研究完成！
@@ -633,7 +607,7 @@ golem.trait.text.light=這個傀儡重量輕於平均值，擁有較佳的速度
 golem.trait.heavy=重型結構
 golem.trait.text.heavy=這個傀儡重量重於平均值，速度緩慢且敏捷度較差。其相對為輕盈。
 golem.trait.fragile=脆弱
-golem.trait.text.fragile=這個傀儡使用了精密元件或脆弱的材料，導致其生命值與裝甲值較低。其相對為裝甲。
+golem.trait.text.fragile=這個傀儡由精密元件或脆弱的材料構成，導致其生命值與裝甲值較低。其相對為裝甲。
 golem.trait.armored=裝甲
 golem.trait.text.armored=這個傀儡使用的外加結構增強了其裝甲值。其相對為脆弱。
 golem.trait.repair=修復強化
@@ -645,7 +619,7 @@ golem.trait.text.flyer=這個傀儡能夠飛行，但作為其機動力的代價
 golem.trait.climber=攀岩者
 golem.trait.text.climber=陡峭的懸崖無法阻止這個傀儡。它能輕鬆地攀爬上其目的地。
 golem.trait.scout=斥候
-golem.trait.text.scout=這個傀儡具有更大的視野，能在更寬廣的區域工作（由放置處算起48格，而非通常的32格）。
+golem.trait.text.scout=這個傀儡具有更大的視野，能在更寬廣的區域工作：由初始位置算起48格，而非通常的32格。
 golem.trait.fireproof=抗火
 golem.trait.text.fireproof=此傀儡對火焰免疫。
 golem.trait.brutal=殘暴
@@ -687,7 +661,7 @@ golem.head.text.smart_scout=使用了秘術生體中樞與秘術生體之眼，�
 golem.arm.basic=基礎腕
 golem.arm.text.basic=基礎傀儡手腕及手掌。不會特別脆弱或堅固。
 golem.arm.fine=精巧機械臂
-golem.arm.text.fine=極其細膩且靈巧的雙腕。
+golem.arm.text.fine=極其細膩且靈巧的雙手。
 golem.arm.claws=爪腕
 golem.arm.text.claws=這雙手腕改造成一對鋒利的可怕金屬鉗。內建攻擊組件。
 golem.arm.breakers=破碎者腕
@@ -711,7 +685,7 @@ golem.addon.text.fighter=允許傀儡進行攻擊。
 golem.addon.hauler=承載架
 golem.addon.text.hauler=允許傀儡多帶一組物品。
 #
-golem.follow=我將與您隨行，主人。
+golem.follow=我立刻就來，主人！
 golem.stay=我將在此待命，主人。
 #
 # Fluids
@@ -735,7 +709,7 @@ thaumcraft.BREAK.text=生成一股能分解大多數材質的破壞之力。
 thaumcraft.CURSE.name=詛咒
 thaumcraft.CURSE.text=生成一股能干涉、傷害生命體的混沌能量。
 thaumcraft.FLUX.name=咒波
-thaumcraft.FLUX.text=召喚單純、未特化的魔素干涉活體（或屍體）。這股力量無法作用於非生命，但也意味著它可以穿透普通的護甲。
+thaumcraft.FLUX.text=召喚單純、未特化的魔素干涉活體（或屍體）。這股力量無法作用於非生命，但它可以穿透普通的護甲。
 thaumcraft.RIFT.name=撕裂
 thaumcraft.RIFT.text=干涉並置換空間，創造一條可供穿越的「洞穴」。
 thaumcraft.EXCHANGE.name=更替
@@ -744,7 +718,7 @@ thaumcraft.HEAL.name=治癒
 thaumcraft.HEAL.text=具有治癒生物並傷害不死族的效果。
 #
 thaumcraft.TOUCH.name=接觸
-thaumcraft.TOUCH.text=將法術效果直接施放在接觸的目標上（距離所在位置約4格）。
+thaumcraft.TOUCH.text=將法術效果直接施放在接觸的目標上，大約是所在位置4格內。
 thaumcraft.PROJECTILE.name=投彈
 thaumcraft.PROJECTILE.text=汲取能量並凝聚成魔法球投出。這顆彈丸射程很長，但速度緩慢且會受重力影響。
 thaumcraft.BOLT.name=雷光
@@ -759,7 +733,7 @@ thaumcraft.SPELLBAT.name=召喚術式蝠
 thaumcraft.SPELLBAT.text=變出一隻神秘的蝙蝠，追獵敵人並對它們釋放法術核心的效果。
 #
 thaumcraft.SCATTER.name=分散
-thaumcraft.SCATTER.text=將軌跡分散成複數隨機軌跡。
+thaumcraft.SCATTER.text=將單一軌跡分散成複數隨機軌跡。
 thaumcraft.SPLITTARGET.name=拆分目標
 thaumcraft.SPLITTARGET.text=將單一目標效果拆分為兩個較低效的目標。
 thaumcraft.SPLITTRAJECTORY.name=拆分軌跡
@@ -903,10 +877,10 @@ card.study.name=研讀%1$s
 card.study.text=大部分的研究只需要多接觸書本就能投入實用。 你研讀%1$s並獲得15~25進度。
 #
 card.reject.name=駁回關於%1$s的發現
-card.reject.text=你意識到%1$s對你目前的研究沒有幫助。 你不會在%1$s中取得更多進展，也不會再獲得與其相關的卡片。你不會失去目前的進度。
+card.reject.text=你意識到%1$s對你目前的研究沒有幫助。 你不會在%1$s中取得更多進展，或是獲得與該類別相關的卡片，但當前的進度會被保留。
 #
 card.experimentation.name=實驗
-card.experimentation.text=你進行任意實驗，試圖從中取得新發現。 你隨機在任一類別獲得15~30進度。
+card.experimentation.text=你進行任意實驗，試圖從中取得新發現。 隨機在任一類別獲得15~30進度。
 #
 card.analyze.name=分析%1$s
 card.analyze.text=你可以透過徹底分析對%1$s觀察資料來建構一個理論。 消耗1%1$s觀察並獲得25~50%1$s進度與5%2$s進度。
@@ -983,7 +957,7 @@ card.focus.text=你將意識集中於周遭的魔法與精神能量，希望能�
 #
 # GOLEMANCY
 card.sculpting.name=雕塑
-card.sculpting.text=製作簡單而短命的小魔偶來磨練自己的知識。 獲得20傀儡學與額外1抽。
+card.sculpting.text=製作簡單而短命的小魔偶來砥礪自己的學識。 獲得20傀儡學與額外1抽。
 #
 card.scripting.name=腳本
 card.scripting.text=傀儡學有很大一部分是編寫複雜的奧術字串來控制你的創作。建立測試腳本可以增進你的理解。 獲得25傀儡學。這會從研究桌上消耗額外的紙和墨水。
@@ -1042,23 +1016,6 @@ tc.researchexists=你已具備這項知識。
 tc.discoveryerror=你必須先探索 %1$s 以解開其奧妙之處。
 tc.discoveryunknown=未知理論
 tc.discoveryprogress=% 完成
-tc.portableholeerror=攜帶式洞穴能量不足。
-tc.key1=鑰匙已經連結這扇奧術之門。
-tc.key2=鑰匙已經連結這塊奧術壓力板。
-tc.key3=你現在可以開啟這扇門了。
-tc.key4=你可以向他人分享權限。
-tc.key5=只要你是其所有人就能觸發該壓力板。
-tc.key6=你也可以分並變更權限設定。
-tc.key7=鑰匙並未與此連結。
-tc.key8=你已經擁有權限。
-tc.key9=該鑰匙給予的權限為
-tc.key10=奧術之門於
-tc.key11=奧術壓力板於
-tc.wandnocharge=施術工具充能不足，無法施放。
-tc.wandcharge=施術工具目前容納了 %s 魔素
-tc.jaressentia=裝有 %s 要素
-tc.jarname=封罐：
-tc.markedloc=標記位置
 tc.addclue=§a您發現了新研究的線索！§0
 tc.addaddendum=§a已添加至附錄 %1$s§0 
 tc.addendumtext=§o附錄 %1$s§r 
@@ -1095,6 +1052,8 @@ tc.adv=進階
 tc.resonator1=§9帶有 %1$s %2$s 源質§0
 tc.resonator2=§5吸力 %1$s %2$s§0 
 tc.resonator3=未歸類
+tc.condenser1=§d消耗：%1$s 源質§0
+tc.condenser2=§d時間：%1$s 刻（%2$s 秒）§0
 tc.search=搜尋
 tc.search.more=...搜尋結果過多。請重新搜尋
 tc.research.stage=當前頁面：
@@ -1109,12 +1068,6 @@ tc.need.research=需要發現某些物件
 tc.need.craft=需要作出某項物品
 tc.need.obtain=需要消耗物品
 tc.need.know=需要用到某些知識
-tc.primalcharm.0=彷彿有什麼洩漏而出
-tc.primalcharm.1=你覺得似乎聽到了耳語
-tc.primalcharm.2=一陣劇烈的抖動
-tc.primalcharm.3=它的輕聲低吟十分舒緩
-tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
-tc.primalcharm.trigger=片刻間，詭異的能量纏繞著原初之符。它們很快便消散了，但使你受到了奇異的啟發...
 tc.break.fly=有一股力量奪去了你的飛行能力。
 tc.boss.enrage=被你強力的攻擊激怒了。
 tc.levitator=範圍設定為%s格。（每分鐘消耗 %d 魔素）
@@ -1410,7 +1363,7 @@ research.IMPROVEDSMELTING2.stage.2=我找到一個方法來控制熔煉過程所
 #
 research.EVERFULLURN.title=無盡之甕
 research.EVERFULLURN.stage.1=煉金製造已被證實遠比我所預期的還要容易。如果能找到方法將其過程自動化以生產一些簡單而實用的物質，相信會是煉金術的一大突破。 <BR>或許類似無限水源之類的東西會是個不錯的開始？
-research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他實用的功能。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些...異味。我確定這沒什麼好擔心的。
+research.EVERFULLURN.stage.2=細小的純水噴泉會不斷從甕中流出，成為我裝填水桶、瓶子或其他容器的完美水源。 <BR>若兩格內有任何盛水的容器，這個甕也會自動將之注滿。除了可以完美地自動填滿坩堝外，當然還有其他實用的功能。 <BR>可以在甕的上方接上流體管道以利於進行更多凡世的用途。 <BR>每生成一桶水都會直接從靈氣中汲取1點魔素。 <BR>這水嘗起來有些...異味。我確定這沒什麼好擔心的。
 #
 research.POTIONSPRAYER.title=藥水噴霧器
 research.POTIONSPRAYER.stage.1=我進行了一些初步測試，利用源質來重現藥水的釀造系統。而我的成果有好有壞。 <BR>我應該致力於使它正常運作。
@@ -1447,7 +1400,7 @@ research.INFUSIONELDRITCH.stage.2=我相信這種詭譎的石頭曾用於建造�
 #
 research.RUNICSHIELDING.title=盧恩護盾
 research.RUNICSHIELDING.stage.1=事實證明附有魔法的道具用來攻擊或是達成各種功能都相當容易，但增強防禦能力也有其必要。應加以調查。
-research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩護盾。這並不是傳統意義上的盔甲，而是一種在大部分飾品與盔甲上附魔，用來創造出魔法能量屏障來防禦大多數的傷害。護盾有自己的傷害槽容量，受傷害時會優先從中扣除，以保護穿戴者不受傷害。若傷害槽容量耗盡，穿戴者就會像平常一樣受傷。傷害槽會隨時間恢復，但需要從靈氣中汲取魔素來補充自身的容量。 <BR>同一個物件可以透過重複附魔來增加其保護力，然而每次附魔都會漸趨昂貴。 <BR>這個護甲對某些環境傷害並沒有保護效果。
+research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩護盾。這並不是傳統意義上的盔甲，而是一種在大部分配件與盔甲上附魔，用來創造出魔法能量屏障來防禦大多數的傷害。護盾有自己的傷害槽容量，受傷害時會優先從中扣除，以保護穿戴者不受傷害。若傷害槽容量耗盡，穿戴者就會像平常一樣受傷。傷害槽會隨時間恢復，但需要從靈氣中汲取魔素來補充自身的容量。 <BR>同一個物件可以透過重複附魔來增加其保護力，然而每次附魔都會漸趨昂貴。 <BR>這個護甲對某些環境傷害並沒有保護效果。
 #
 research.INFUSIONENCHANTMENT.title=注魔式附魔
 research.INFUSIONENCHANTMENT.stage.1=事實證明元素工具相當實用，但是附在工具上的魔法卻不靈活。我必須找出將相同效果應用在任何工具與武器上的方法，而不是只能用於靛鐵工具。 <BR>研究一般的附魔，觀察如何將其基本原理重現於注魔製程中會是個好的開始。
@@ -1478,8 +1431,8 @@ research.FORTRESSMASK.stage.1=我為城寨甲冑設計了可拆卸的面甲。�
 research.FORTRESSMASK.stage.2=我設計了幾種魔法面具來取代城寨甲冑原本的面甲。 <PAGE>§n揭示頭盔§r<BR>通常秘術師都必須在保護與功能間做抉擇，以後再也不需如此！ <BR>這頂修改後的靛鐵城寨兜盔帶有揭示護目鏡的功能。但終究無法提供護目鏡的魔素減免能力。 <BR>這項升級能搭配任一種面具。 <PAGE>§n獰笑惡魔面甲§r<BR>這個面具在配戴時具有緩解扭曲災難的有趣效果。雖然無法減少發生次數，但至少能減緩嚴重程度。 <BR>看來笑著面對危險是有成效的。 <PAGE>§n暴怒幽魂面甲§r<BR>當你戴著這個面具受到攻擊時有機會對攻擊者造成凋零效果。 <BR>自作自受。 <PAGE>§n嗜血邪妖面甲§r<BR>當你戴著這個面具攻擊生物時，有機會偷取對方的生命力來補充自己。 <BR>事實上為了達成這個效果而吸取它們的血液對你來說似乎並沒有想像中的困難。你對於是否該為此擔心而感到困惑。
 #
 research.CLOUDRING.title=雲行戒指
-research.CLOUDRING.stage.1=我應該製作一個簡單的飾品來維持雙腳濕滑。幾經思考我決定製作一個能減緩落地傷害的戒指，或許能增進我的機動力。 <BR>設計這樣的東西應該相當簡單。
-research.CLOUDRING.stage.2=我將設計出的飾品稱為雲行戒指。它大幅減輕穿戴者的落地傷害。另外它會在穿戴者跳躍時瞬間生成氣流，可以在半空中進行二段跳。 
+research.CLOUDRING.stage.1=我應該製作一個簡單的配件來維持雙腳濕滑。幾經思考我決定製作一個能減緩落地傷害的戒指，或許能增進我的機動力。 <BR>設計這樣的東西應該相當簡單。
+research.CLOUDRING.stage.2=我將設計出的配件稱為雲行戒指。它大幅減輕穿戴者的落地傷害。另外它會在穿戴者跳躍時瞬間生成氣流，可以在半空中進行二段跳。 
 #
 research.CURIOSITYBAND.title=求知頭帶
 research.CURIOSITYBAND.stage.1=蒐集資源與殺死怪物時得到的經驗球同時帶有魔法能量與潛藏的知識。我相信它肯定具備單純附魔以外的用途。
@@ -1518,7 +1471,7 @@ research.LEVITATOR.stage.2=雖然並非真正的飛行，退而求其次的成�
 research.INFERNALFURNACE.title=煉獄熔爐
 research.INFERNALFURNACE.stage.1=我發現我一整天有很大一部分的時間都浪費在用熔爐進行融煉。肯定有方法能讓我稍微輕鬆一點？ <BR>是時候到很熱的地方尋找靈感了。 到真的很熱的地方。
 research.INFERNALFURNACE.stage.2=我從一趟地獄之旅的發現中得到了靈感。我可以製作一座由黑曜石、地獄磚與一搓世界鹽所建成，駕馭著純粹的 §cIgnis§0 ，無須任何燃料的高效熔爐。實際上其高效在於偶而會以顆粒、稀土礦或其他物品的形式產出額外的物質。 <BR>雖然基本上是無消耗，但除非從靈氣中為它提供魔素，否則其速度也相當緩慢。 <LINE>任何落入熔爐頂部的物質都會在融煉後從前方吐出——若是無法正常熔煉的物品將會被摧毀。 <BR>我可以直接在前方放置箱子或其他容器來讓它將成品送進去。<PAGE>使用煉獄熔爐烹調肉類產出的副產物為肉塊。我可以混和砂糖與三種肉塊來製作美味而振奮精神的點心。
-research.INFERNALFURNACE.bellows=將奧術風箱裝設於煉獄熔爐側面會產生有趣的效果。注入的新鮮空氣不僅能提升火焰的熔煉速度，也能使使它燃燒得更乾淨，從而減少其生成的咒波，更能增進融煉時產出額外顆粒與其他物質的機率。
+research.INFERNALFURNACE.bellows=將奧術風箱裝設於煉獄熔爐側面會產生有趣的效果。注入的新鮮空氣不僅能提升火焰的熔煉速度，也能使它燃燒得更乾淨，能增進融煉時產出額外顆粒與其他物質的機率。
 #
 research.MIRROR.title=鏡像魔法
 research.MIRROR.stage.1=我的秘術觀測鏡給了我一些吸引人的提示——鏡面能有不少的魔法用途。其中一種是透過鏡面連結物理位置，以實現轉移魔法的功能。 <BR>這本書除了提示之外依舊什麼都沒告訴我——我必須一如往常的自己找出結論。
@@ -1536,7 +1489,7 @@ research.MIRRORESSENTIA.stage.2=源質之鏡，名符其實，可以傳送源質
 research.ARCANELAMP.title=奧術燈
 research.ARCANELAMP.stage.1=最近我的實驗室看起來很陰沉。我應該要找個方法來點亮它。
 research.ARCANELAMP.stage.2=這盞神奇的燈具可以裝設在牆壁、地板或是天花板上，並提供強大而穩定的光線。 <BR>16格內若有低於「安全」亮度等級的區域也會產生額外的光源。謹記：只有你能阻止殭屍狂潮。 <BR>這些附加光源在燈具被移除後很快就會消失。 <BR>可以利用紅石訊號來關閉這盞燈。
-research.ARCANELAMP.bore=§n奧術鑽掘機§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
+# research.ARCANELAMP.bore=§n奧術鑽掘機§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will light up the tunnel that the bore digs.
 #
 research.LAMPGROWTH.title=熟成之燈
 research.LAMPGROWTH.stage.1=我對 Lux 的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>光線對植物有著正面的效果，所以只要在其中加上一些魔力只會增強效果，對吧？
@@ -1657,7 +1610,7 @@ research.RECHARGEPEDESTAL.stage.2=這個特製的台座可以替有魔素容量�
 #
 research.VISAMULET.title=魔素護符
 research.VISAMULET.stage.1=目前如果我想替我的魔素道具充魔，我必須回到最近的充魔基座，或是把基座帶著走。再怎麼說這樣都稱不上方便——我必須找出一個能隨身為物品充魔的方法。
-research.VISAMULET.stage.2=我製作了一個能從靈氣中引導魔素的護身符，讓我能在物品的魔素消耗時自動從附近區域補充。 <BR>護符只能為快捷欄、飾品或是護甲欄位（依照此順序）的物品充魔。它只會替能夠用充魔基座充魔的物品充魔。
+research.VISAMULET.stage.2=我製作了一個能從靈氣中引導魔素的護身符，讓我能在物品的魔素消耗時自動從附近區域補充。 <BR>護符只能為快捷欄、配件或是護甲欄位（依照此順序）的物品充魔。它只會替能夠用充魔基座充魔的物品充魔。
 #
 research.WORKBENCHCHARGER.title=工作台充魔架
 research.WORKBENCHCHARGER.stage.1=我在奧術工作台上遇到一個麻煩的限制。它只能從其周圍汲取魔素。雖然目前為止的合成都能夠完成，但我很快就發現我即將需要用到更多魔素來進行合成。 <BR>我必須找出方法來延伸奧術工作台的範圍。若它能汲取到更遠的魔素，能用於合成的魔素也會更充裕。
@@ -1665,11 +1618,15 @@ research.WORKBENCHCHARGER.stage.2=我設計了一組能安置在奧術工作台�
 #
 research.FOCUSPOUCH.title=核心腰包
 research.FOCUSPOUCH.stage.1=在累積了大量的法術核心後，將所有的核心帶在身上將是一件苦差事。我應該找個方便的攜帶方法。
-research.FOCUSPOUCH.stage.2=我發明了一個特製的袋子，讓我能儲存、攜帶我的核心。 <BR>當我切換核心時會優先從袋子中尋找，而換下來的核心則會優先收入袋子中。我也可以直接右擊腰包來放入或是取出核心。 <BR>腰包也能裝備在腰帶飾品欄位。
+research.FOCUSPOUCH.stage.2=我發明了一個特製的袋子，讓我能儲存、攜帶我的核心。 <BR>當我切換核心時會優先從袋子中尋找，而換下來的核心則會優先收入袋子中。我也可以直接右擊腰包來放入或是取出核心。 <BR>腰包也能裝備在腰帶配件欄位。
 #
 research.VISBATTERY.title=魔素槽
 research.VISBATTERY.stage.1=自然界的魔素水晶就像飾魔素的「電池」。當環境中靈氣充裕時它會吸收靈氣，並在靈氣缺乏時釋出。然而這過程既緩慢又不可靠。 <BR>利用研究魔素水晶成長過程時學到的知識，我應該能自己製造出更加可靠的魔素儲存槽。
 research.VISBATTERY.stage.2=我成功地製造出了魔素槽。 <BR>若當地的魔素高於平常容量的95%，魔素槽會吸收魔素，並在靈氣降至75%以下時釋出。 <BR>這多少有些缺點。即使它遠比自然界的水晶更可靠，魔素槽依舊需要一些時間來反應靈氣的變化。另一個缺點在於容量。它只能儲存10點魔素。我試圖改善但結果相當慘烈。我想這只意味著投入實用所需要的數量更多。 <BR>紅石訊號不只能停止魔素槽作用，還會快速的將魔素槽中所有的魔素釋放回靈氣中。
+#
+research.FLUXCLEANUP.title=咒波清除
+research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣中累積，而我現在必須加以控制——而且要快。 <BR>值得慶幸的是，答案或許能在咒波本身的特性中找到。技術上而言咒波只是比較「髒」的魔素，但其中一項明顯不同的地方是它非常容易由能量轉變成物質。這是一項危險的特性，容易產生侵蝕汙染或是其他形式的麻煩，但同時也是能使它安全化的關鍵。
+research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗10以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>The lattice cannot be attached any old way however:<BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
 #
 ##########################################
 # GOLEMANCY
@@ -1687,7 +1644,7 @@ research.MATSTUDWOOD.title=材料研究：木材
 research.MATSTUDWOOD.stage.1=由於傀儡學需要的精密部件不容許任何閃失，因此對加工技術有更高的要求。必須同時提升自己在世俗與奧術素材方面的知識和水平。我的第一個鑽研目標是木材。 <BR>木材是一種多用途的材質，儘管有些脆弱，但是輕盈且易於加工。我發現宏偉之木這種優秀的木材非常適合用於傀儡學。 <BR>我應該盡可能從中學習。
 #
 research.MATSTUDIRON.title=材料研究：鐵
-research.MATSTUDIRON.stage.1=鐵擁有許多值得推薦的特性——它比木材更加結實且具備木材所沒有的延展性。然而鐵的加工難度更大且相當沉重。
+research.MATSTUDIRON.stage.1=鐵擁有許多值得推薦的特性：它比木材更加結實，且具備木材所沒有的延展性。然而鐵的加工難度更大，而且相當沉重。
 research.f_MATIRON.text=對鐵進行實驗
 #
 research.MATSTUDCLAY.title=材料研究：黏土
@@ -1695,7 +1652,7 @@ research.MATSTUDCLAY.stage.1=黏土的強度不高、重量不特別輕、也不
 research.f_MATCLAY.text=對黏土進行實驗
 #
 research.MATSTUDBRASS.title=材料研究：黃銅
-research.MATSTUDBRASS.stage.1=雖然黃銅比鐵稍微柔軟，但作為精密機械元件而言依舊相當結實。 <BR>在我看來簡直是傀儡學研究能找到的最佳凡俗材料，完全無法想像還有什麼更適合用來製造精密金屬零件的材質。 <BR>而且外觀非常賞心悅目。
+research.MATSTUDBRASS.stage.1=雖然黃銅比鐵稍微柔軟，但作為精密機械元件而言依舊相當結實。 <BR>在我看來簡直是傀儡學研究能找到的最佳凡俗材料，完全無法想像還有什麼更適合用來製造精密裝置的材質。 <BR>而且外觀非常賞心悅目。
 research.f_MATBRASS.text=對黃銅進行實驗
 #
 research.MATSTUDTHAUMIUM.title=材料研究：靛鐵
@@ -1716,19 +1673,19 @@ research.CONTROLSEALS.stage.1=傀儡沒被下命令不會有任何動作。我�
 #
 research.GOLEMDIRECT.title=傀儡駕馭
 research.GOLEMDIRECT.stage.1=我的目標不只是讓傀儡盲目地服從印記。我希望它們也能盲目地服從我。 <BR>一定有方法能做到這點。
-research.GOLEMDIRECT.stage.2=現在我能用§5傀儡師鈴鐺§0右擊傀儡來命令它跟隨我。跟隨你的傀儡將不再受印記控制，而具有戰鬥力的傀儡能在戰鬥中保護你。 <BR>再次點擊傀儡能使它回到一般模式，並將其原點設定在當下的位置。
+research.GOLEMDIRECT.stage.2=現在我能用§5傀儡師鈴鐺§0右擊傀儡來命令它跟隨我。跟隨我的傀儡將不再受印記控制，而具有戰鬥力的傀儡能在戰鬥中保護我。 <BR>再次點擊傀儡能使它回到一般模式，並將其初始位置設定為當下的位置。
 #
 research.GOLEMLOGISTICS.title=傀儡後勤
-research.GOLEMLOGISTICS.stage.1=我在製作出供給印記後發現了一個有趣的可能性。應該可以直接要求附近的傀儡把物品交給我。 <BR>需要稍微調整一下他們的尋路能力，但應該不會太難。
+research.GOLEMLOGISTICS.stage.1=我在製作出供給印記後發現了一個有趣的可能性。應該可以直接要求附近的傀儡把物品交給我。 <BR>需要稍微調整一下他們的尋路能力，但應該不會太難達成。
 research.GOLEMLOGISTICS.stage.2=現在我能透過§5傀儡師鈴鐺§0以潛行 + 右擊來開啟一個物品欄，列出了32格內的供給印記能操作的所有物品。我能從清單中要求一項物品，而傀儡會把它遞過來。 <BR>如果我點擊在方塊上，傀儡會把物品放在方塊上或是該方塊的物品欄中。方塊不同的面視為不同位置。 <BR>若直接點擊空氣，則物品會直接交給我。 <PAGE>傀儡的行動範圍有限，我必須注意交付物品的位置。
 #
 research.MINDBIOTHAUMIC.title=秘術生體中樞
-research.MINDBIOTHAUMIC.stage.1=如同我所預期，我製作的發條中樞能提供的推理能力與自主性很低。造出更精密發條結構的機會渺茫，所以我轉而研究已知的有效方案——活生生的腦袋。 <BR>加以研究或許能解開真正的智能與自主背後的秘密。
+research.MINDBIOTHAUMIC.stage.1=如同我所預期，我製作的發條中樞能提供的推理能力與自主性很低。造出更精密發條結構的機會渺茫，所以我轉而研究已知的有效方案：活生生的腦袋。 <BR>加以研究或許能解開真正的智能與自主背後的秘密！
 research.MINDBIOTHAUMIC.stage.2=起初我有些猶豫，但很快就克服了我內心的不安，並深入鑽研秘術生體學——將血肉、機械與魔法合而為一。 <BR>成果令人振奮，我能將取出的灰質注入發條中樞，製成性能更強的思考中樞。 <BR>這同時也讓我能夠製作出比現有版本更加複雜的印記。 <BR>這種思考中樞的另一項優勢是給予傀儡學習的能力。完成工作時傀儡會獲得經驗並升級。更高的等級使傀儡獲得額外的生命值、速度與攻擊力。 <BR>傀儡的初始等級為0，上限為10。<BR>取下傀儡時等級會被重置。
 #
 research.SEALCOLLECT.title=控制印記：收集
-research.SEALCOLLECT.stage.1=This seal will constantly check an area you define for dropped items. If items are found it will instruct any nearby golems to pick up those items.<BR>You can define the exact dimensions of the area as well as filter out certain items using a white- or blacklist.
-research.SEALCOLLECT.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.  
+research.SEALCOLLECT.stage.1=This seal will constantly check an area I have defined for dropped items. If items are found, it will instruct any nearby golems to pick up those items.<BR>I can define the exact dimensions of the area as well as filter out certain items using a whitelist or blacklist.
+research.SEALCOLLECT.stage.ADV=I can now craft an advanced version of this seal that allows filtering more items at once. It also gives greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>I can choose to have the seal ignore NBT or damage values when filtering items, or use the ore dictionary, or to have the seal filter items from the same mod as those included in the filter.
 #
 research.SEALSTORE.title=控制印記：儲存	
 research.SEALSTORE.stage.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).<BR>If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
@@ -1745,28 +1702,28 @@ research.SEALPROVIDE.stage.2=This seal is similar to the Empty seal, except it w
 #
 research.SEALHARVEST.title=控制印記：收成
 research.SEALHARVEST.stage.1=Farming is a menial task best performed by a golem and not a busy thaumaturge like myself.<BR>Designing a seal that will instruct golems to harvest crops will save me a lot of manual labor in the long run.
-research.SEALHARVEST.stage.2=This seal will search the designated area for any fully grown crops or other harvestable plants. Once found a golem will be dispatched to harvest the plant.<BR>If required the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland, the golem will also try to till the soil if it has turned into dirt.
+research.SEALHARVEST.stage.2=This seal will search the designated area for any fully-grown crops or other harvestable plants. Once found, a golem will be dispatched to harvest the plant.<BR>If required, the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland and the soil has turned into dirt, the golem will also try to till the block.
 #
 research.SEALGUARD.title=控制印記：守衛
-research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task however and I will need to carefully test the seal to avoid accidents.
-research.SEALGUARD.stage.2=When placed this seal will protect and area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
+research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task, however, and I will need to carefully test the seal to avoid accidents.
+research.SEALGUARD.stage.2=When placed, this seal will protect an area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
 research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
 #
 research.SEALBUTCHER.title=控制印記：屠夫
 research.SEALBUTCHER.stage.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>I should refine the arcane algorithms in a guard seal to make it more suited for animal farming.
-research.SEALBUTCHER.stage.2=The butcher seal works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least a breeding pair of animals remain alive.
+research.SEALBUTCHER.stage.2=The butcher seal works much like a §5Guard§0 seal, except it only targets adult animals. Furthermore it will always make sure that at least one breeding pair of animals remain alive.
 #
 research.SEALBREAK.title=控制印記：方塊破壞者
 research.SEALBREAK.stage.1=Specially equipped and instructed golems should be capable of digging and breaking blocks. I just need to design the proper seal for that task.
-research.SEALBREAK.stage.2=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block does determine how quickly it can be broken.<BR>You can filter what type of blocks are to be broken (or ignored).<BR>It should be noted that due to factors like golem mobility, limited area and speed this seal probably will not make a very effective mining tool, though it could be used as such in a pinch.
+research.SEALBREAK.stage.2=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block determines how quickly it can be broken.<BR>It is possible to filter the type of blocks to be broken or ignored.<BR>It should be noted that due to factors like golem mobility, limited area, and speed, this seal probably will not make a very effective mining tool, though it could be used as such in a pinch.
 #
 research.SEALLUMBER.title=控制印記：伐木工
 research.SEALLUMBER.stage.1=While the §5Block Breaker§0 seal can be used to chop down trees it is not particularly effective at the task. I should do something about that.
-research.SEALLUMBER.stage.2=A refinement of the §5Block Breaker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees as it will effectively chop them from the top down.
+research.SEALLUMBER.stage.2=A refinement of the §5Block Breaker§0 seal, the Lumberjack seal will only target wooden logs, but instead of breaking the log the golem is hitting, it will instead break the furthest connected log.<BR>This means that it is highly effective when used to harvest trees, as it will effectively chop them from the top down.
 #
 research.SEALUSE.title=控制印記：使用
 research.SEALUSE.stage.1=I should be able to design a seal that allows golems to interact with the world in more complex ways than simply carrying items around or attacking things. There are many objects that require manual operation and maybe I can have golems do that for me.
-research.SEALUSE.stage.2=This seal allows a golem to act like a player and left or right click on the block that you have marked.<BR>It can also click with any items it happens to be holding or specific items you have filtered.<BR>The seal will remain even if the block you placed it on is removed, allowing the seal to target empty air if you wish.<BR>If a whitelist item is specified you can also request it to be §5provisioned§0.
+research.SEALUSE.stage.2=This seal allows a golem to act like a player and left- or right-click on a marked block.<BR>The golem can also click with any items it happens to be holding, or specific filtered items.<BR>The seal will remain even if the block it was placed on is removed, allowing the seal to target empty air if desired.<BR>If a whitelist item is specified, the golem can also request to be §5Provisioned§0.
 #
 research.SEALSTOCK.title控制印記：堆疊
 research.SEALSTOCK.stage.1=I need a seal that will allow me to keep a minimum number of items stocked in a container at all times.
@@ -1779,11 +1736,11 @@ research.f_DISPENSER.text=Examine something that can launch objects.
 #
 research.ADVANCEDTURRET.title=Advanced Automated Crossbow
 research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
-research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly it is possible to specify the type of targets it can attack.
+research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly, it is possible to specify the type of targets it can attack.
 #
 research.GOLEMVISION.title=Golem Biothaumic Eyes
 research.GOLEMVISION.stage.1=I should find a way to improve the visual acuity of my golems.
-research.GOLEMVISION.stage.2=By merging flesh and arcane constructs you have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at 150% the normal range (48 blocks).<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMVISION.stage.2=By merging flesh and arcane constructs, I have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at 150% the normal range (48 blocks).<BR>§9This research unlocks additional golem parts§0.
 #
 research.GOLEMCLIMBER.title=Golem Mobility: Climbing
 research.GOLEMCLIMBER.stage.1=I should find a way to improve the mobility acuity of my golems. Maybe I could give them the ability to climb walls?
@@ -1792,21 +1749,18 @@ research.f_SPIDER.text=Closely examine a climbing creature
 #
 research.GOLEMFLYER.title=Golem Mobility: Flight
 research.GOLEMFLYER.stage.1=I should find a way to further improve the mobility acuity of my golems. Maybe I could give them the ability to fly?
-research.GOLEMFLYER.stage.2=By basically chopping off a golems legs and glueing an Arcane levitator in their place you have managed to get a golem to fly. This grants it good (if slightly erratic) mobility, though it does move slower.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>�9This research unlocks additional golem parts�0.
 research.f_FLY.text=Closely examine a flying creature.
 #
 research.GOLEMBREAKER.title=Golem Manipulation: Block Breaking
 research.GOLEMBREAKER.stage.1=I should increase the number of tools and abilities my golems have available to them. Maybe I could give them the ability to break blocks?
-research.GOLEMBREAKER.stage.2=By replacing a golems arms with a set of powerful, diamond tipped pneumatic grinders it will be able to break through all be the hardest material.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMBREAKER.stage.2=By replacing a golem's arms with a set of powerful, diamond-tipped pneumatic grinders it will be able to break through all but the hardest materials.<BR>§9This research unlocks additional golem parts§0.
 #
 research.GOLEMCOMBATADV.title=Improved Golem Combat
 research.GOLEMCOMBATADV.stage.1=I should design improved weapons and armor for my golems.
 research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
 #
-research.ARCANEPATTERNCRAFTER.title=Arcane Pattern Crafter
-research.ARCANEPATTERNCRAFTER.stage.1=Certain objects are very simple to craft - simply place the same type of item in a pattern and you get what you want. For example combining 2 wood planks to make a stick, or a single ingot making 9 nuggets. This process is so simple that I am sure there is a way to automate it. I have some theories I need to try.
-research.ARCANEPATTERNCRAFTER.stage.2=I have designed a device I am calling the Arcane Pattern Crafter. The Arcane Pattern Crafter needs an inventory above and below it. It will search the inventory above it for components and try to combine whatever it finds in the pattern you have selected. If this results in a valid crafting operation it will place the result in the container below it.<BR>You can change the pattern by clicking on the brass dial on the front of the device.<BR>A redstone signal will disable the device.<LINE>Each crafting operation will drain 1 vis from the aura.
-#
+
 ##########################################
 # ELDRITCH
 ##########################################
