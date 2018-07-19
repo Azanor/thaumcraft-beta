@@ -1270,9 +1270,10 @@ research.CRYSTALFARMER.stage.2=이것들을 다시 심을 수 있도록 활력�
 research.CELESTIALSCANNING.title=천체 관측
 research.CELESTIALSCANNING.stage.1=달의 위상과 오라의 충전속도 사이의 관계를 알아차렸습니다. 이 현상에 대해서 더 조사해봐야 하며 심지어 다른 천체들 또한 마법에 영향을 미치는 지의 여부를 보기 위해 조사 범위를 확대해야 합니다.<BR>사우모미터에 약간의 수정을 거친 끝에, 하늘에 있는 물체를 조사할 수 있게 되었습니다. 조사한 것을 기록하기 위한 종이와 필기도구가 필요하다는 것을 기억해야 합니다.<BR>하루에 2번 이상 동일한 천체 또는 하늘의 사분면을 조사하는 것은 새로운 통찰력을 제공하지 못할 것입니다. 이것이 오라에 미치는 영향의 변화를 측정하기 위해서는 시간이 필요합니다.<BR>이렇게 수집한 기록은 이론에 유용하게 사용될 것입니다.
 #
-research.UNLOCKELDRITCH.title=엘드리치 탐구 (미완성)
-research.UNLOCKELDRITCH.stage.1=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.
-research.UNLOCKELDRITCH.stage.2=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.
+research.UNLOCKELDRITCH.title=엘드리치 탐구
+research.UNLOCKELDRITCH.stage.1=크림슨 컬트들은 이상한 생각을 가지고 있지만, 거기에는 작은 진실의 조각이 숨겨진 것처럼 보입니다. 그들이 계획하는 것에 대한 증거를 찾아야 할까요? 어떤 지식을 발견할 수 있을 지 누가 알겠습니까...
+research.UNLOCKELDRITCH.stage.2=무언가 이상한 것을 발견했습니다... 무언가 현실과 이성이 우리에게 부여해준 규칙들과 전혀 맞지 않습니다.<BR>이 씨앗이 우리의 현실에서 나온 것이라고 전혀 믿어지지 않습니다. 어딘가의... 바깥에서 온 것입니다.<BR>이것을 더 연구해야만 합니다... 그래야만 합니다.
+research.f_VOIDSEED.text=공허의 고유한 형태를 분석하라
 #
 research.FLUXCLEANUP.title=플럭스 정리
 research.FLUXCLEANUP.stage.1=일을 망친 것 같습니다. 오라에 플럭스가 쌓이게 만들었습니다. 하루빨리 제거할 방법을 찾아야 합니다.<BR>운좋게도 답은 플럭스의 독특한 특성 중 하나에서 찾을 수 있었습니다. 엄밀히 말해 플럭스는 '더러운' 비스일 뿐이지만, 에너지 형태에서 물질로 쉽게 변형될 수 있다는 차이점이 있습니다. 이것은 테인트나 다른 위험한 형태와 같은 위험한 것들을 만들어낼 수 있지만, 아마도 더 안전한 형태로 만들 수도 있을 겁니다.
@@ -1785,6 +1786,3 @@ got.endoftheworld=엔드를 방문했다.
 research.m_hellandback.text=지옥같은 장소를 찾아라
 research.m_endoftheworld.text=모든 것의 끝에 당도하라
 fail.crimsonrites=이 책은 정신이상적인 헛소리 뿐으로 보인다.
-
-research.BASEELDRITCH.title=엘드리치?
-research.BASEELDRITCH.stage.2=엘드리치는 아직 미완성 상태입니다. 이 이상은 진행이 불가능합니다.
