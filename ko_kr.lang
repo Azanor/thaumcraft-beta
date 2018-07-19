@@ -1036,6 +1036,7 @@ tc.forbidden.level.4=위험함
 tc.forbidden.level.5=금기시 여겨짐
 tc.unknownobject=이것엔 배울 만한 것이 없습니다.
 tc.knownobject=뭔가 새로운 것을 배웠습니다.
+tc.invtoolarge=인벤토리가 너무 큽니다. 앞에서부터 100개만 분석합니다.
 tc.markerchange=%n으로 마커색을 설정
 tc.markerchangeany=다른 색으로 설정
 tc.researchmissing=필요한 연구 누락!
