@@ -101,6 +101,7 @@ item.jar_brace.name=黃銅蓋箍
 item.bath_salts.name=淨化浴鹽
 item.bottle_taint.name=腐蝕瓶
 item.sanity_soap.name=心神皂
+item.causality_collapser.name=因果塌陷 Causality Collapser
 #
 # Armor
 #
@@ -1034,6 +1035,7 @@ tc.forbidden.level.4=危險
 tc.forbidden.level.5=禁忌
 tc.unknownobject=您一無所獲。
 tc.knownobject=你獲取了某些新知。
+tc.invtoolarge=物品欄過大。僅掃描前 100 項物品。
 tc.markerchange=設置標記顏色為%n
 tc.markerchangeany=設置為任何顏色
 tc.researchmissing=缺失前置研究：
@@ -1181,9 +1183,9 @@ research.CrimsonCultist.title=緋色崇拜
 research.CrimsonCultist.stage.1=最近出現了一群紅袍的邪教徒。他們似乎不願意與我對話，所以我無法得知他們的目的。不僅如此，這些傢伙相當...不對勁。他們的理智似乎趨於斷線，而他們犯下的錯更勝於此。我很難跟你解釋。 <BR>我的存在似乎惹毛了他們，我相信應該是因為我擁有秘術的才能。 <BR>它們的僧侶雖然有汲取靈氣施放魔法的能力，但那些魔法似乎不是秘術。不論那是什麼都使我感到毛骨悚然，每當他們汲取靈氣時我都能感受到靈氣被拉扯、撕裂。 <BR>某些信徒似乎帶著一本書。我覺得我該想辦法弄來一本，或許那能讓我對這詭異的宗教有所瞭解。我必須保持謹慎，有些知識會帶來危險。
 #
 research.CrimsonRites.title=緋紅教儀
-research.CrimsonRites.stage.1=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為「Apertis Oculis」——開眼 的儀式。雖然其作用尚未明瞭，但我能肯定這一定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究...
+research.CrimsonRites.stage.1=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為「Apertis Oculis」——開眼 的儀式。 雖然其作用尚未明瞭，但我能肯定這一定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究...
 #
-research.TaintCrawler.stage.1=這些噁心的蛆蟲不管爬到哪都不停地散佈腐蝕液。一般而言這些腐蝕現象在離源頭太遠的地方很快就會消退，然而也有機會導致腐蝕漫延得更快。 <BR>最好在發現的當下立即撲滅。
+research.TaintCrawler.stage.1=這些噁心的蛆蟲不管爬到哪都不停地散佈腐蝕液。一般而言這些腐蝕現象在離源頭太遠的地方很快就會消退，然而也有機會導致腐蝕漫延得更快。 <BR>最好在發現的當下立即撲殺。
 #
 research.Taintacle.stage.1=這些像觸手一樣的危險組織體會鞭向任何靠近它的物體。 <BR>即使你以為它們固定不動而拉開距離也無法保證你的安全，因為當它們注意到你時還會在你周圍伸出其他小觸手。
 #
@@ -1197,7 +1199,7 @@ research.PRIMPEARL.stage.1=我這輩子第一次遇到自認無法解開的謎�
 research.FIRSTSTEPS.title=最初的一步
 research.FIRSTSTEPS.stage.1=誰能想像一搓粉塵居然能創造出這本奇妙的書？ 雖然整本書幾乎都是空白的，然而它暗示著有一種前所未聞的強大魔法：秘術。 <BR>首先我必須先研究在我眼前的這個魔法世界。為此，我將需要一項工具——書上稱之為秘術觀測鏡。 <BR>然而普通的工作台無法勝任這項需要魔法能量的製程，因此我需要利用其他更細膩的手法。對普通的工作台撒上世界鹽應該能解決這個問題。這本書給了我適當的咒語，所以這步驟應該不會有什麼難度。 <BR>為了確保進度，我會在每個條目的第一頁列下自己必須達成的目標。
 research.FIRSTSTEPS.stage.2=有進展了！現在我有了自製的奧術工作台。它就像普通的工作台，可以用於一般的合成工作，然而有幾個關鍵性的差異。 <BR>首先，許多奧術合成配方需要用到我最近發現的那些魔法水晶。那是將魔法能量導入製程的一項重點。書中將這些魔法能量稱為魔素。 <BR>理論上這些能量充滿於四周，但我卻沒有辦法感覺或觀測它的存在。 <BR>製作秘術觀測鏡來研究這世界的時候到了。它應該能明確的指出我還需要加以研究的事物。 <BR>我用一張書籤把秘術觀測鏡的配方記錄在右側。
-research.FIRSTSTEPS.stage.3=奇異的幻境展現在我眼前。透過秘術觀測鏡，映入我眼簾的是魔法與書中所說的魔素四處流動的世界。 <BR>這股能量有的如同魔力的純淨海洋般潮起潮落、四處流淌，一部分則溶入一切的生命與無機物之中。而書中將這種形態的魔素稱為源質。魔素純淨且無形；源質的性質較為固定、明確地分成各種類型，並在彼此相互混和後形成更多、更複雜的源質。 <BR>我不大確定究竟是物質導致源質的特化，抑或是物質的特性取決於其中的源質。對此有必要進行更進一步的研究。 <BR>我將發現到的源質記錄下來，並將進度記在左側的書籤。 <BR>現在我可以把精力集中在其他方。研究源質應該會是個不錯的開始。
+research.FIRSTSTEPS.stage.3=奇異的幻境展現在我眼前。透過秘術觀測鏡，映入我眼簾的是魔法與書中所描述的魔素四處流動的世界。 <BR>這股能量有的如同魔力的純淨海洋般潮起潮落、四處流淌，一部分則溶入一切的生命與無機物之中。而書中將這種形態的魔素稱為源質。魔素純淨且無形；源質的性質較為固定、明確地分成各種類型，並在彼此相互混和後形成更多、更複雜的源質。 <BR>我不大確定究竟是物質導致源質的特化，抑或是物質的特性取決於其中的源質。對此有必要進行更進一步的研究。 <BR>我將發現到的源質記錄下來，並將進度記在左側的書籤。 <BR>現在我可以把精力集中在其他方。研究源質應該會是個不錯的開始。
 #
 research.KNOWLEDGETYPES.title=知識類別
 research.KNOWLEDGETYPES.stage.1=知識分為兩個主要類別：觀察、理論。 可以進一步細分，納入煉金術與匠法等研究類別。 <LINE>§l觀察§r指的就是——掃描這世上各種物體所得到的觀察結果。實際進行觀察有助於理解事物的運作，確實地記錄觀察結果可以使你逐步建立起穩固的知識基礎。 <LINE>§l理論§r，簡而言之就是透過仔細觀察、謹慎思考並實際實驗來進行理解。大部分地秘術研究都需要建立理論來增進研究項目的理解。
@@ -1269,8 +1271,20 @@ research.CELESTIALSCANNING.title=天體觀測
 research.CELESTIALSCANNING.stage.1=我注意到月相的變化與靈氣的自我回復速度有所關聯。我應該進一步調查這個現象，甚至是擴大我的調查範圍，看看其他天體是否會對魔法造成影響。 <BR>對我的秘術觀測鏡進行一些小調整應該能用來觀測天上的物體。我要記得隨身攜帶一些紙張與書記工具才能做筆記。 <BR>在同一天內觀測相同的天體或象限不會給我新的啟發——我需要長時間研究才能測量其變化對靈氣的影響。 <BR>這些筆記對於建立理論應該會很有幫助。
 #
 research.UNLOCKELDRITCH.title=探究異象
-research.UNLOCKELDRITCH.stage.1=-
-research.UNLOCKELDRITCH.stage.2=-
+research.UNLOCKELDRITCH.stage.1=緋紅教徒們滿腦子詭異的思想，但似乎包含了潛藏的真相。或許我該找個方法來證實他們所暗示的事物？誰會知道我能從中找到怎麼樣的知識...
+research.UNLOCKELDRITCH.stage.2=我發現了一些詭異的東西...無法吻合於現實世界的的規則和我們所知的常識。 <BR>我完全不相信這些種子是來自於我們的現實世界。這肯定是來自於...外界。 <BR>我必須進一步加以研究...必須更進一步。
+research.f_VOIDSEED.text=對一些來自虛空的東西進行實驗
+#
+research.FLUXCLEANUP.title=咒波清除
+research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣中累積，而我現在必須加以控制——而且要快。 <BR>值得慶幸的是，答案或許能在咒波本身的特性中找到。技術上而言咒波只是比較「髒」的魔素，但其中一項明顯不同的地方是它非常容易由能量轉變成物質。這是一項危險的特性，容易產生侵蝕汙染或是其他形式的麻煩，但同時也是能使它安全化的關鍵。
+research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗10以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>格柵須以正確方式裝設： <BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
+#
+research.FLUXRIFT.title=咒波裂痕
+research.FLUXRIFT.stage.1=這些裂痕如同我的推測，是現實本身的破損。從中流出的狂亂能量極度危險，必須盡快找出封住這些裂痕的方法。 <BR>然而觀察這些裂痕也使我發現了一些有趣的事物。裂痕事實上似乎是依存於咒波——環境中咒波愈多，裂痕就長得愈大。裂痕會隨時間而變得更不穩定，最後將引發一股單純的混亂能量爆發。這股能量可能會有各種不同的形態，但通常不會是什麼好事。值得慶幸的是在這之後區域將稍微回歸平穩。渾沌爆發的嚴重程度取決於裂痕的大小。 <BR>即使我還沒辦法封住裂痕，但或許能找到使它維持安定的方法。
+#
+research.RIFTCLOSER.title=Closing Flux Rifts
+research.RIFTCLOSER.stage.1=I need to find a way of closing these flux rifts before they grow too large and unstable.
+research.RIFTCLOSER.stage.2=I have studied the chaotic energies that form these flux rifts and have made an interesting discovery: The rifts themselves are inherently unstable. In theory they will close naturally should they become unstable enough, but the laws of our reality makes this highly unlikely - instead their unstable energy is usually released in smaller bursts. That is probably a good thing - the amount of energy that will be released should a fully unstable rift collapse would be catastrophic.<BR>I think that I have worked out a way to trigger that collapse without the rift needing to be fully unstable - in short, I plan on blowing them up.<BR>No normal explosive will do however - I need an explosive that sends its destructive energies into more than the three normal dimensions. To this end I have designed an explosive I have named the Causality Collapser. This pulsing red sphere needs to be thrown as close to the rift as possible. In theory it will break down the chaotic energies holding the rift together.<BR>Unfortunately my calculations suggest that while collapsing the rift will release large amounts of unstable primal energy - the more unstable the rift, the more chaotic this release will be. I should try and make the rift as stable as possible before detonating the explosive.
 #
 ##########################################
 # ALCHEMY
@@ -1286,10 +1300,7 @@ research.ALUMENTUM.stage.2=果然沒錯！我應該可以在煤炭中添加更�
 research.METALLURGY.title=煉成金屬
 research.METALLURGY.stage.1=黃銅是一種低摩擦係數的堅固金屬，非常適合用來製作複雜的機械設備。 <BR>遺憾的是我所處的這個宇宙其特性使我難以確保自己能找出這種金屬。 <BR>應該有辦法可以利用煉金轉換來煉成這種金屬。而我現在只需要找出這個方法。
 research.METALLURGY.stage.2=金屬已被證實相當容易透過秘術法則來操作。我第一項實驗就使我發現了煉成黃銅，然而製造一個已經存在的東西並沒有什麼難度。該是來製作些新物質的時候了。 <BR>我有個理論，在鐵這種基本的金屬中注入魔法能量應該能得到一些相當有趣的成果。 <BR>這物質會比鐵更加堅固，而且比鐵還容易接納更多的附魔。 <BR>這樣的金屬應該能在製作更多先進的秘術設備時派上用場。
-research.METALLURGY.stage.3=我很確定我面前有一個該突破的目標，卻不知道該從何處起手。我錯過了些什麼，有些重要的資訊被我遺漏了。 <BR>無論如何我都必須小心謹慎。我正在深入的知識領域不知為何使我感到危險。
-research.METALLURGY.stage.4=我在寫下這條目時手在顫抖。我在調查那些奇特物質時腦海裡浮現出了奇怪的新視野。 <BR>前陣子我寫出一個創造新型神秘金屬的術式，然而我不記得我有寫下這種東西，連筆跡都不像是我的。 <BR>敘述中的金屬充滿著矛盾。它們堅固不屈，同時卻柔軟而易於加工。其觸感如同活著般的溫暖，甚至像生物一樣會緩緩治癒自己所受到的損傷。 <BR>用這種東西製作單純物理性的工具似乎...完全不正確。
-research.METALLURGY.stage.5=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
-research.voidstuff.text=一種詭異的金屬
+research.METALLURGY.stage.3=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
 #
 research.METALPURIFICATION.title=金屬純化
 research.METALPURIFICATION.stage.1=天然的礦簇含有難得的高純度金屬。冶煉這些礦簇可以獲得雙倍的金屬錠。 <BR>若能透過煉金術找到生產天然礦簇的方法，將能省下我花在挖礦上的時間。
@@ -1353,11 +1364,11 @@ research.TUBES.title=源質管道
 research.TUBES.stage.1=儘管我可以透過瓶罐運送源質，但是這對大規模的煉金操作而言不怎麼有效率。 顯然利用管道運輸源質會是正解，但其活性導致無法使用一般的管路運輸。 <BR>我應該蒐集一些不同的源質樣本來測試各種材料。
 research.TUBES.stage.2=我解開了穩定且更加封閉的管路製造關鍵。 雖然一般的化學物質能用玻璃來運輸，然而某些源質卻能將之溶解，甚至可能直接穿透過去。 我以鐵包覆玻璃，並施加水銀處理，以確保即使遇上最不穩定的源質也不易受損。以黃銅零件完善管道系統，並使它耀眼奪目。<PAGE>管道主要是為蒸餾器與封罐所設計，但也能用在任何煉金設備上。 <BR>當有像封罐這種可用的容器被接上時，源質就會透過管道流向容器。 <BR>裝有不同類型源質的罐子只會將同類型的源質吸向自己。 然而管道一次只能抽取並運輸一種源質，所以吸引力最高的源質會優先。 如果不妥善的使用閥門，管道網很容易就會被塞住。閥門是一項必用零件。 <BR>如果你看到氣體從管子裡噴出，意味著有不同種類的吸力相互干擾。你可以從氣體的顏色推測發生問題的吸力類型。<LINE>透過施術器輕觸管道的側面可以接上或斷開鄰近管道的連結。 <BR>施術器也能輕觸像閥門這種管道的中央來旋轉管道方向。<PAGE><IMG>thaumcraft:textures/items/resonator.png:0:0:255:255:.125</IMG>源質共鳴器能協助管道網除錯。 可以透過它來觀測管道和其他源質裝置所容納的源質以及目前正在作用中的吸引力。<PAGE><IMG>thaumcraft:textures/items/tube_valve.png:0:0:255:255:.125</IMG>源質閥門運作機制跟普通管道相同，但是能手動或用紅石信號將它關閉。拴上後會截斷源質的流動。<PAGE><IMG>thaumcraft:textures/items/tube_filter.png:0:0:255:255:.125</IMG>過濾源質管道功能類似普通管道，不過可以用標籤、管型瓶之類的物品來標記單一類型的源質。經過標記的管道只允許其標定的源質流通。 <BR>潛行並空手輕觸管道可以解除過濾器。<PAGE><IMG>thaumcraft:textures/items/tube_restrict.png:0:0:255:255:.125</IMG>限制源質管道功能類似普通管道，但是能將任何吸力減半。<PAGE><IMG>thaumcraft:textures/items/tube_oneway.png:0:0:255:255:.125</IMG>定向源質管道只接受單向的吸力。 藍色的標記指出其接受的吸力方向。<PAGE><IMG>thaumcraft:textures/items/tube_buffer.png:0:0:255:255:.125</IMG>源質緩衝器能同時容納任何類型的源質，但是容量有限——最多只能存放8點。 它跟罐子一樣具有吸力，但是其吸引力只達最低限度(1)。 <BR>這意味著它通常得緊貼著來源才能主動抽取源質。管道能接在緩衝器的任何一面，能同時從裝置中提取出任何源質的這項特性無可取代。 <BR>你可以在緩衝器上加裝風箱——每座風箱可增加32吸力。 <BR>此外你也能單獨接上或斷開每面的管道，潛行時操作連接面則可以將吸力設定在1（藍環）或0（紅環）。 <BR>這些特性使源質管道系統多了一些有趣的可能性。
 #
-research.IMPROVEDSMELTING.title=源質蒸餾的改進——之一
+research.IMPROVEDSMELTING.title=改善源質蒸餾——之一
 research.IMPROVEDSMELTING.stage.1=源質熔煉爐的處理速動總是能進一步提升——尤其是熔煉爐將源質漿分離成可用源質的過程還有很大的提速空間。 <BR>加快這道程序對我來說應該是一件簡單的事。
 research.IMPROVEDSMELTING.stage.2=我發現了一個能使源質熔煉更快更高效的方法：附屬黏漿泵。 <BR>每個裝設在熔煉爐側面的附屬黏漿泵都能作為次級提煉器。將處理後的源質送入其上方的蒸餾器。
 #
-research.IMPROVEDSMELTING2.title=源質蒸餾的改進——之二
+research.IMPROVEDSMELTING2.title=改善源質蒸餾——之二
 research.IMPROVEDSMELTING2.stage.1=黏漿泵的設計使我想到了一個新點子，以用來減低熔煉時的咒波排放量。 <BR>我必須盡快將它實現。
 research.IMPROVEDSMELTING2.stage.2=我找到一個方法來控制熔煉過程所產生的咒波。 讓黏漿流過帶有過濾器的附加裝置就能將咒波分離出來，並排出無害的氣體。 <BR>這個排放口和黏漿泵一樣必須裝設在熔煉爐側面。 <BR>這道手續能減少大約三分之一的咒波，額外加裝排放口能更進一步抑制咒波，然而效果會隨數量而遞減。
 #
@@ -1382,8 +1393,8 @@ research.INFUSION.stage.2=不出所料，注魔製程已證實比我預期中更
 research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，就能開始進行製作了。跟其他神秘的裝置一樣，祭壇也需要利用世界鹽來製作。設立好注魔樁後就能用施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>全部都蒐集好後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。如果合成因為源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONSTABLE.title=注魔穩定化
-research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中記載那般有效。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是將紅石直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
-research.INFUSIONSTABLE.stage.2=我將組裝好的裝置稱為穩定器，真貼切。它能接收 RF 或 FE 形式的能量，以產生干涉魔法陣來「柔和化」魔法物件與當地靈氣的交互作用。其效果範圍相當狹窄，所以必須將穩定器指向你想穩定化的目標。範圍大約是8格。 <BR>穩定器顯然對注魔方陣相當有效，而我相信以後還能發現更多用途。舉例來說，我想知道它對咒波造成的靈氣不穩定是否有影響？
+research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中所記載。 這類物品擺放超過 12 件甚至會阻礙注魔。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是將紅石直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
+research.INFUSIONSTABLE.stage.2=我將組裝好的裝置稱為穩定器，真貼切。 它能接收 RF 或 FE 形式的能量， 以產生干涉魔法陣來「柔和化」魔法物件與當地靈氣的交互作用。其效果範圍相當狹窄，所以必須將穩定器指向你想穩定化的目標。範圍大約是8格。 <BR>穩定器顯然對注魔方陣相當有效，而我相信以後還能發現更多用途。舉例來說，我想知道它對咒波造成的靈氣不穩定是否有影響？
 got.instability=我應該進一步研究注魔的不穩定性。
 #
 research.INFUSIONBOOST.title=注魔促進
@@ -1521,7 +1532,7 @@ research.ARCANEPATTERNCRAFTER.stage.2=我設計了一台裝置，稱為奧術圖
 #
 research.VISGENERATOR.title=魔素動力發電機
 research.VISGENERATOR.stage.1=魔素無法像紅石、RedstoneFlux 或 ForgeEnergy 一樣作為凡世的能量來源，這是眾所皆知的事實。 <BR>問題是：你能不能用魔素發電？顯然答案是不行的，但我若止步於這個顯然的結論，我將不配自稱秘術師。
-research.VISGENERATOR.stage.2=午餐時間都還沒到我又把一個不可能從我的筆記中劃掉了。 <BR>我設法利用魔素來產生凡俗的能源，但是需要運用一些小伎倆。將動能轉換成能量相當簡單，而利用魔素產生動能可說是秘術師的入門課題。利用魔素來轉動發電機是不可行的，因為魔法能量會隨著轉軸滲入發電機導致各種問題。 <BR>最後我利用磁力與一些精巧的工法設計出一種特殊的連接方式。這種連接方式能在魔素與凡世能源不互相干涉的前提下傳遞動能。 <BR>遺憾的是這種連接方式造成的動能損失限制了所能產生的能源。這台發電機每刻只能產生10 FE/RF。 它直接汲取靈氣中的魔素，每一點魔素能驅動發電機五秒(1000 FE/RF)。 <BR>可以用紅石訊號暫停發電機。
+research.VISGENERATOR.stage.2=午餐時間都還沒到我又把一個不可能從我的筆記中劃掉了。 <BR>我設法利用魔素來產生凡俗的能源，但是需要運用一些小伎倆。將動能轉換成能量相當簡單，而利用魔素產生動能可說是秘術師的入門課題。利用魔素來轉動發電機是不可行的，因為魔法能量會隨著轉軸滲入發電機導致各種問題。 <BR>最後我利用磁力與一些精巧的工法設計出一種特殊的連接方式。這種連接方式能在魔素與凡世能源不互相干涉的前提下傳遞動能。 <BR>遺憾的是這種連接方式造成的動能損失限制了所能產生的能源。它能直接汲取靈氣中的魔素，每一點魔素能產生 1000 FE/RF， 但是每刻僅能輸出 20 FE/RF。 <BR>可以用紅石訊號暫停發電機。
 #
 ##########################################
 # AUROMANCY
@@ -1624,10 +1635,6 @@ research.VISBATTERY.title=魔素槽
 research.VISBATTERY.stage.1=自然界的魔素水晶就像飾魔素的「電池」。當環境中靈氣充裕時它會吸收靈氣，並在靈氣缺乏時釋出。然而這過程既緩慢又不可靠。 <BR>利用研究魔素水晶成長過程時學到的知識，我應該能自己製造出更加可靠的魔素儲存槽。
 research.VISBATTERY.stage.2=我成功地製造出了魔素槽。 <BR>若當地的魔素高於平常容量的95%，魔素槽會吸收魔素，並在靈氣降至75%以下時釋出。 <BR>這多少有些缺點。即使它遠比自然界的水晶更可靠，魔素槽依舊需要一些時間來反應靈氣的變化。另一個缺點在於容量。它只能儲存10點魔素。我試圖改善但結果相當慘烈。我想這只意味著投入實用所需要的數量更多。 <BR>紅石訊號不只能停止魔素槽作用，還會快速的將魔素槽中所有的魔素釋放回靈氣中。
 #
-research.FLUXCLEANUP.title=咒波清除
-research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣中累積，而我現在必須加以控制——而且要快。 <BR>值得慶幸的是，答案或許能在咒波本身的特性中找到。技術上而言咒波只是比較「髒」的魔素，但其中一項明顯不同的地方是它非常容易由能量轉變成物質。這是一項危險的特性，容易產生侵蝕汙染或是其他形式的麻煩，但同時也是能使它安全化的關鍵。
-research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗10以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>The lattice cannot be attached any old way however:<BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
-#
 ##########################################
 # GOLEMANCY
 ##########################################
@@ -1687,8 +1694,8 @@ research.SEALCOLLECT.title=控制印記：收集
 research.SEALCOLLECT.stage.1=This seal will constantly check an area I have defined for dropped items. If items are found, it will instruct any nearby golems to pick up those items.<BR>I can define the exact dimensions of the area as well as filter out certain items using a whitelist or blacklist.
 research.SEALCOLLECT.stage.ADV=I can now craft an advanced version of this seal that allows filtering more items at once. It also gives greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>I can choose to have the seal ignore NBT or damage values when filtering items, or use the ore dictionary, or to have the seal filter items from the same mod as those included in the filter.
 #
-research.SEALSTORE.title=控制印記：儲存	
-research.SEALSTORE.stage.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can alse specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).<BR>If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
+research.SEALSTORE.title=控制印記：儲存
+research.SEALSTORE.stage.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can also specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).<BR>If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
 research.SEALSTORE.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and give you greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>You can choose to have the seal ignore NBT or damage values when filtering items, use the ore dictionary, or to have it filter items from the same mod as those in the filter.<BR>If you specified item counts in the white list, then all items that match the filter with these settings will be counted.
 #
 research.SEALEMPTY.title=控制印記：淨空
@@ -1765,6 +1772,9 @@ research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and
 # ELDRITCH
 ##########################################
 #
+research.BASEELDRITCH.title=Void Seeds
+research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
+research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
 #
 ##########################################
 # MISC
