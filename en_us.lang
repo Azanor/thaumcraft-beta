@@ -347,6 +347,7 @@ tile.stabilizer.name=Stabilizer
 tile.condenser.name=Flux Condenser
 tile.condenser_lattice.name=Flux Condenser Lattice
 tile.condenser_lattice_dirty.name=Clogged Flux Condenser Lattice
+tile.void_siphon.name=Void Siphon
 #
 # Doodads
 tile.matrix_speed.name=Infusion Speed Stone
@@ -1350,7 +1351,7 @@ research.ESSENTIASMELTERVOID.stage.2=I am pleased with the results of my testing
 #
 research.THAUMATORIUM.title=Alchemical Automation
 research.THAUMATORIUM.stage.1=Sometimes alchemy can be a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. I have had enough.<BR>Now that I have raw, liquid essentia available to me I should improve the entire alchemical process.
-research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this, I can choose which recipe I wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of.<BR>Each matrix increases the number of formulas by 2.
+research.THAUMATORIUM.stage.2=I have invented an automated device I have named the Thaumatorium. Like many multi part devices this one must be created using Salis Mundus.<BR>The Thaumatorium is a marvelous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, every time.<BR>The crucible that forms its base does not require water, but a heat source is still needed.<LINE>When I access the device there are several slots. The top-left slot is where I place the catalyst. Once I have done this, I can choose which recipe I wish to craft with that catalyst from a list of possibilities that appear below it.<BR>On the right will be shown the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.<LINE>Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side I can increase the number of formulas it can keep track of. Each matrix increases the number of formulas by 2.
 #
 research.ESSENTIATRANSPORT.title=Advanced Essentia Transport
 research.ESSENTIATRANSPORT.stage.1=During the infusion crafting process essentia is drawn directly from jars and floats through the air to the infusion matrix. The magic of the matrix keeps it stable enough for the infusion process, but normally the essentia is changed in such a way that it becomes unusable for anything else.<BR>If only I can find a way to draw essentia through the air outside of the infusion process and still keep it stable. 
@@ -1601,7 +1602,7 @@ research.FOCUSPLAN.stage.2=I have designed a medium pattern that will allow me t
 #
 research.FOCUSSCATTER.title=Focus Modifier: Scatter
 research.FOCUSSCATTER.stage.1=I now know how to create both projectiles and bolts that propegate focus effects. I believe it should be fairly simple to design a plan that allows me to split a single trajectory into multiple.
-research.FOCUSSCATTER.stage.2=I have managed to split a single medium trajectory into multiple, though not quite to the degree I had hoped. There are two problems:<BR>Firstly is that while I can control the number of forks created from the original trajectory, I have no control over the resulting trajectories once it is split. It simply scatters them in random directions. Fortunately I have figured out how to limit the cone of scatter.<BR>The second problem is that the more forks I create, the weaker the individual effects are. This is not surprising - there is only so much vis I can channel. I mitigate this slightly by drawing in additional vis to bolster the effects, but each resulting fork is still weaker than the original.
+research.FOCUSSCATTER.stage.2=I have managed to split a single medium trajectory into multiple, though not quite to the degree I had hoped. There are two problems:<BR>Firstly is that while I can control the number of forks created from the original trajectory, I have no control over the resulting trajectories once it is split. It simply scatters them in random directions. Fortunately I have figured out how to limit the cone of scatter.<BR>The second problem is that the more forks I create, the weaker the individual effects are. This is not surprising - there is only so much vis I can channel. I mitigate this slightly by drawing in additional vis to bolster the effects, but each resulting fork is still weaker than the original.<BR>This modifier can only be used once in a single focus.
 #
 research.FOCUSSPLIT.title=Focus Modifier: Split
 research.FOCUSSPLIT.stage.1=While the Scatter modifier has proven quite useful, it is technically a failure. I realise now that my original plan was too ambititious.<BR>I should start smaller.
@@ -1680,7 +1681,7 @@ research.CONTROLSEALS.stage.1=Golems cannot do anything they are not told to do.
 #
 research.GOLEMDIRECT.title=Golem Mastery
 research.GOLEMDIRECT.stage.1=Having golems mindlessly following seals is not my only goal. I want them to mindlessly follow me as well.<BR>There has to be a way to make that happen.
-research.GOLEMDIRECT.stage.2=I can now right-click on a golem with the §5Golemancer's Bell§0 to have it follow me. While following me, it will no longer obey seals and combat-capable golems will defend me in combat.<BR>Clicking on the golem again will return it to normal functioning, and its home location will be set to its current location.
+research.GOLEMDIRECT.stage.2=I can now right-click on a golem with the ï¿½5Golemancer's Bellï¿½0 to have it follow me. While following me, it will no longer obey seals and combat-capable golems will defend me in combat.<BR>Clicking on the golem again will return it to normal functioning, and its home location will be set to its current location.
 #
 research.GOLEMLOGISTICS.title=Golem Logistics
 research.GOLEMLOGISTICS.stage.1=Having created the Provider Seal, I now have an interesting opportunity. It should be possible for me to directly request items from nearby golems.<BR>Some tweaking of their pathfinding will be required, but it should not be too hard to achieve.
@@ -1713,7 +1714,7 @@ research.SEALHARVEST.stage.2=This seal will search the designated area for any f
 #
 research.SEALGUARD.title=Control Seal: Guard
 research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task, however, and I will need to carefully test the seal to avoid accidents.
-research.SEALGUARD.stage.2=When placed, this seal will protect an area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
+research.SEALGUARD.stage.2=When placed, this seal will protect an area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the ï¿½5Deftï¿½0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>ï¿½9This research also unlocks additional golem partsï¿½0.
 research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
 #
 research.SEALBUTCHER.title=Control Seal: Butcher
@@ -1730,7 +1731,7 @@ research.SEALLUMBER.stage.2=A refinement of the Â§5Block BreakerÂ§0 seal, the Lu
 #
 research.SEALUSE.title=Control Seal: Use
 research.SEALUSE.stage.1=I should be able to design a seal that allows golems to interact with the world in more complex ways than simply carrying items around or attacking things. There are many objects that require manual operation and maybe I can have golems do that for me.
-research.SEALUSE.stage.2=This seal allows a golem to act like a player and left- or right-click on a marked block.<BR>The golem can also click with any items it happens to be holding, or specific filtered items.<BR>The seal will remain even if the block it was placed on is removed, allowing the seal to target empty air if desired.<BR>If a whitelist item is specified, the golem can also request to be §5Provisioned§0.
+research.SEALUSE.stage.2=This seal allows a golem to act like a player and left- or right-click on a marked block.<BR>The golem can also click with any items it happens to be holding, or specific filtered items.<BR>The seal will remain even if the block it was placed on is removed, allowing the seal to target empty air if desired.<BR>If a whitelist item is specified, the golem can also request to be ï¿½5Provisionedï¿½0.
 #
 research.SEALSTOCK.title=Control Seal: Stock
 research.SEALSTOCK.stage.1=I need a seal that will allow me to keep a minimum number of items stocked in a container at all times.
@@ -1756,7 +1757,7 @@ research.f_SPIDER.text=Closely examine a climbing creature
 #
 research.GOLEMFLYER.title=Golem Mobility: Flight
 research.GOLEMFLYER.stage.1=I should find a way to further improve the mobility acuity of my golems. Maybe I could give them the ability to fly?
-research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>ï¿½9This research unlocks additional golem partsï¿½0.
 research.f_FLY.text=Closely examine a flying creature.
 #
 research.GOLEMBREAKER.title=Golem Manipulation: Block Breaking
