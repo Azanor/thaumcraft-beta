@@ -1790,6 +1790,10 @@ research.VOIDROBEARMOR.title=Void Thaumaturge Armor
 research.VOIDROBEARMOR.stage.1=The simple void metal armor I can now craft is practical, but not particularly useful to full blooded thaumaturge like myself. I should craft something better. Much better.
 research.VOIDROBEARMOR.stage.2=Using the knowledge I have gained thusfar I have designed a set of armored robes that combines the utility of Thaumaturge's Robes with the practacality of Thaumium Fortress Armor.<BR>Primarily made from void metal this armor has all the benefits (and side-effects) that metal offers.<BR>Lastly the hood of the robes contain integrated Goggles of Revealing.<BR>This armor can be dyed.
 #
+research.PRIMALCRUSHER.title=Primal Crusher
+research.PRIMALCRUSHER.stage.1=The variable and maleable nature of Void Metal has openend up some interesting possibilities.<BR>I believe it should be possible to create a tool with inherent morphic instability. In other words it will constantly fluctuate between various states so rapdily that it might not be visible to the naked eye.
+research.PRIMALCRUSHER.stage.2=Success! I have created a tool I am calling the Primal Crusher. It has the essential nature of both a pickaxe and a shovel. It does not look like either of those tools, but I it defintely functions like them. Better in fact. It is also surprisingly effective against Taint.<BR>It is slightly unpleasant to hold however - it seems to vibrate in ones hand and the feeling becomes quite uncomfortable after a while. A little discomfort will not stop me from using it however.
+#
 ##########################################
 # MISC
 ##########################################
