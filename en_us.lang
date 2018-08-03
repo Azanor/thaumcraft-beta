@@ -184,7 +184,7 @@ item.verdant_charm.name=Verdant Heart Charm
 item.verdant_charm.life.text=Lifegiver
 item.verdant_charm.sustain.text=Sustainer
 item.voidseer_charm.name=Voidseer's Pearl
-item.voidseer_charm.text=You peer into the inky blackness... you could swear you saw something staring back...
+item.voidseer_charm.text=You peer into the inky blackness... you think you see something staring back...
 item.curiosity_band.name=Headband of Curiosity
 item.cloud_ring.name=Cloudstepper Ring
 item.charm_undying.name=Charm of Undying
@@ -1089,6 +1089,7 @@ tc.logistics.request=Request
 tc.logistics.search=Search
 tc.celestial.fail.1=You have already studied that today.
 tc.celestial.fail.2=You are unable to take notes of your studies.
+tc.knowledge.gained=You have gained some knowledge
 #
 # Aspects
 tc.aspect.name=Aspects of Essentia
@@ -1343,7 +1344,7 @@ research.ESSENTIASMELTER.bellows=Bellows placed on the side of a smelter will gr
 #
 research.ESSENTIASMELTERTHAUMIUM.title=Thaumium Essentia Smelter
 research.ESSENTIASMELTERTHAUMIUM.stage.1=The basic essentia smelter is quite crude if I have to be honest with myself. It is extremely inefficient and rather slow. I chalk this up to the low quality of the materials it is crafted from.<BR>I believe Thaumium could prove useful in improving the smelting process. I should run some experiments to see how it effective it would be at containing essentia slurry.<BR>I should probably also improve the plumbing inside the smelter itself. 
-research.ESSENTIASMELTERTHAUMIUM.stage.2=Thaumium has proven to be a good choice, though not quite as effective as I had hoped.<BR>The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%. Not nearly the improvement I was hoping for, but better than nothing I suppose.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed.
+research.ESSENTIASMELTERTHAUMIUM.stage.2=Thaumium has proven to be a good choice, though not quite as effective as I had hoped.<BR>The Thaumium Smeltery works much like the basic smeltery, but it has roughly 90% efficiency instead of 80%. Not nearly the improvement I was hoping for, but better than nothing I suppose.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed.
 #
 research.ESSENTIASMELTERVOID.title=Void Metal Essentia Smelter
 research.ESSENTIASMELTERVOID.stage.1=I need to go back to the drawing board. Using Thaumium did improve the smelting process, but not to the degree I had hoped.<BR>My recent discovery of Void Metal has opened up a new avenue of research for me. It is much more resilient an malleable than Thaumium. I should but it through the same batteries of tests I did for Thaumium and see how the two compare.<BR>It might also be worth changing the internal plumbing to incorporate Void Metal in some manner.
@@ -1776,6 +1777,18 @@ research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and
 research.BASEELDRITCH.title=Void Seeds
 research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
 research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
+#
+research.VOIDSIPHON.title=Void Siphon
+research.VOIDSIPHON.stage.1=Destroying a rift to get Void Seeds is highly impractical. I must find a better way.<BR>While most Crimson Cultist rantings are nonsense, they do make reference to drawing power from rifts. I believe it should be possible to siphon off some of the eldritch energy in rifts to form Void Seeds without destroying the rift outright.
+research.VOIDSIPHON.stage.2=I hate to admit it, but the Crimson Cultists might be on to something. I have managed to design a Void Siphon that slowly leeches energy from nearby rifts. This leeched energy will slowly form Void Seeds. The larger the rift is, the quicker this process occurs.<BR>Unfortunately this is not without consequence for the rift itself. The rift will become increasingly unstable and will slowly shrink as it's energy is leeched away. I must take care to not overuse them.<BR>A redstone signal will disable the Void Siphon.
+#
+research.VOIDSEERPEARL.title=Voidseer's Pearl
+research.VOIDSEERPEARL.stage.1=In madness there is insight. Or so I have been told... I'm not sure by who, but it has the ring of truth about it.<BR>I have been having strange thoughts and ideas of late, but their significance and meaning is just outside my grasp. If I can focus my mind somehow I might be able to see... more.
+research.VOIDSEERPEARL.stage.2=When I hold this charm I get glimpses of what lies beyond. The meaning still eludes me, but I feel more connected to the aura and magic than I have ever felt before.<BR>While I have this charm equipped I will find vis much easier to manipulate.<BR>Oddly enough, the size of the bonus seems to be proportional to the amount of permanent warp I have suffered. What a strange coincidence.
+#
+research.VOIDROBEARMOR.title=Void Thaumaturge Armor
+research.VOIDROBEARMOR.stage.1=The simple void metal armor I can now craft is practical, but not particularly useful to full blooded thaumaturge like myself. I should craft something better. Much better.
+research.VOIDROBEARMOR.stage.2=Using the knowledge I have gained thusfar I have designed a set of armored robes that combines the utility of Thaumaturge's Robes with the practacality of Thaumium Fortress Armor.<BR>Primarily made from void metal this armor has all the benefits (and side-effects) that metal offers.<BR>Lastly the hood of the robes contain integrated Goggles of Revealing.<BR>This armor can be dyed.
 #
 ##########################################
 # MISC
