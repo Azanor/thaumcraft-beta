@@ -1763,18 +1763,18 @@ research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and
 # ELDRITCH
 ##########################################
 #
-research.BASEELDRITCH.title=Void Seeds
+research.BASEELDRITCH.title=Семена Пустоты
 research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
 research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
 #
 ##########################################
 # MISC
 ##########################################
-not.pechwand=Вы пока не можете понять как оно функционирует.
-got.pechwand=Хмм любопытно... Мне следует изучить это подробно.
+not.pechwand=Вы пока не можете понять как функционирует данная вещь.
+got.pechwand=Хмм, любопытно... Мне следует изучить это поподробнее.
 got.onfire=Вы почувствовали прикосновение пламени.
-got.hellandback=You have visited the Nether.
+got.hellandback=Вы посетили Ад.
 got.endoftheworld=Вы посетили Край.
 research.m_hellandback.text=Посетите адское место.
-research.m_endoftheworld.text=Найди всему конец.
-fail.crimsonrites=Эта книга ничего не содержит, кроме сумашедшего бреда.
+research.m_endoftheworld.text=Найдите место, где всему приходит конец.
+fail.crimsonrites=Эта книга не содержит ничего, кроме как сумашедшего бреда.
