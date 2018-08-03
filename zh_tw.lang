@@ -101,7 +101,7 @@ item.jar_brace.name=黃銅蓋箍
 item.bath_salts.name=淨化浴鹽
 item.bottle_taint.name=腐蝕瓶
 item.sanity_soap.name=心神皂
-item.causality_collapser.name=因果塌陷 Causality Collapser
+item.causality_collapser.name=因果塌陷
 #
 # Armor
 #
@@ -184,7 +184,7 @@ item.verdant_charm.name=蔥蘢之心護符
 item.verdant_charm.life.text=生命供給
 item.verdant_charm.sustain.text=體力維持
 item.voidseer_charm.name=虛空先知寶珠
-item.voidseer_charm.text=你窺探那深遠的黑暗... 你發誓肯定有什麼東西正回望著你...
+item.voidseer_charm.text=你窺探那深遠的黑暗... 感覺似乎有什麼東西正回望著你...
 item.curiosity_band.name=求知頭帶
 item.cloud_ring.name=雲行戒指
 item.charm_undying.name=不死護符
@@ -347,6 +347,7 @@ tile.stabilizer.name=穩定器
 tile.condenser.name=咒波凝結器
 tile.condenser_lattice.name=咒波凝結器格柵
 tile.condenser_lattice_dirty.name=阻塞的咒波凝結器格柵
+tile.void_siphon.name=Void Siphon
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -1088,6 +1089,7 @@ tc.logistics.request=需求
 tc.logistics.search=尋找
 tc.celestial.fail.1=你今天已經研究過這個了。
 tc.celestial.fail.2=你無法為你的研究做筆記。
+tc.knowledge.gained=你獲得了一些知識
 #
 # Aspects
 tc.aspect.name=源質要素
@@ -1280,11 +1282,11 @@ research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣
 research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗10以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>格柵須以正確方式裝設： <BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
 #
 research.FLUXRIFT.title=咒波裂痕
-research.FLUXRIFT.stage.1=這些裂痕如同我的推測，是現實本身的破損。從中流出的狂亂能量極度危險，必須盡快找出封住這些裂痕的方法。 <BR>然而觀察這些裂痕也使我發現了一些有趣的事物。裂痕事實上似乎是依存於咒波——環境中咒波愈多，裂痕就長得愈大。裂痕會隨時間而變得更不穩定，最後將引發一股單純的混亂能量爆發。這股能量可能會有各種不同的形態，但通常不會是什麼好事。值得慶幸的是在這之後區域將稍微回歸平穩。渾沌爆發的嚴重程度取決於裂痕的大小。 <BR>即使我還沒辦法封住裂痕，但或許能找到使它維持安定的方法。
+research.FLUXRIFT.stage.1=這些裂痕如同我的推測，是現實本身的破損。從中流出的狂亂能量極度危險，必須盡快找出封住這些裂痕的方法。 <BR>然而觀察這些裂痕也使我發現了一些有趣的事物。裂痕事實上似乎是依存於咒波——環境中咒波愈多，裂痕就長得愈大。裂痕會隨時間而變得更不穩定，最後將引發一股單純的混沌能量爆發。這股能量可能會有各種不同的形態，但通常不會是什麼好事。值得慶幸的是在這之後區域將稍微回歸平穩。渾沌爆發的嚴重程度取決於裂痕的大小。 <BR>即使我還沒辦法封住裂痕，但或許能找到使它維持安定的方法。
 #
-research.RIFTCLOSER.title=Closing Flux Rifts
-research.RIFTCLOSER.stage.1=I need to find a way of closing these flux rifts before they grow too large and unstable.
-research.RIFTCLOSER.stage.2=I have studied the chaotic energies that form these flux rifts and have made an interesting discovery: The rifts themselves are inherently unstable. In theory they will close naturally should they become unstable enough, but the laws of our reality makes this highly unlikely - instead their unstable energy is usually released in smaller bursts. That is probably a good thing - the amount of energy that will be released should a fully unstable rift collapse would be catastrophic.<BR>I think that I have worked out a way to trigger that collapse without the rift needing to be fully unstable - in short, I plan on blowing them up.<BR>No normal explosive will do however - I need an explosive that sends its destructive energies into more than the three normal dimensions. To this end I have designed an explosive I have named the Causality Collapser. This pulsing red sphere needs to be thrown as close to the rift as possible. In theory it will break down the chaotic energies holding the rift together.<BR>Unfortunately my calculations suggest that while collapsing the rift will release large amounts of unstable primal energy - the more unstable the rift, the more chaotic this release will be. I should try and make the rift as stable as possible before detonating the explosive.
+research.RIFTCLOSER.title=關閉咒波裂痕
+research.RIFTCLOSER.stage.1=我必須在這些裂痕成長、失控前找到方法關上它們。
+research.RIFTCLOSER.stage.2=我利用咒波裂痕對這種混沌能量進行研究，得到了一些有趣的發現：裂痕本身並不安定。理論上當它失去穩定時應該會自然閉合，但現實世界的法則不會讓這種情況發生——不穩定的能量會隨著小規模的爆發釋放出來。這或許算是一件好事——若是完全失衡的裂痕崩塌可能會產生災難性的能量爆發。 <BR>我覺得我已經找出能在裂痕完全失衡前觸發崩潰的方法——簡而言之，我要把它炸了。 <BR>然而，一般的爆炸是無效的——我需要的爆炸破壞力必須能穿透一般的三維空間。我為此設計了一種爆裂物，我將它稱為因果塌陷。這顆脈動的紅色球體必須盡可能地拋向裂痕。理論上它應該能破壞支撐裂痕的混沌能量。 <BR>但壞消息是根據我的計算，裂痕崩塌時將釋出一股強大、不穩定的原初能量——裂痕愈不穩定，釋出的能量就愈龐大。我必須在進行爆破前維持裂痕的穩定。
 #
 ##########################################
 # ALCHEMY
@@ -1342,15 +1344,15 @@ research.ESSENTIASMELTER.bellows=把風箱安置在熔煉爐旁可以大幅提�
 #
 research.ESSENTIASMELTERTHAUMIUM.title=靛鐵源質熔煉爐
 research.ESSENTIASMELTERTHAUMIUM.stage.1=我必須老實說，基本款的源質熔煉爐實在太簡陋了。其效率非常低落而且緩慢。我將這歸因於其低質的製作材料。 <BR>我相信靛鐵能有效的改善熔煉過程。我應該要利用源質漿做些實驗，以觀察它如何作用。 <BR>我大概還需要對熔煉爐中的管道進行改善。
-research.ESSENTIASMELTERTHAUMIUM.stage.2=儘管成效並不如我所預期，但仍證實了靛鐵的確是個好選擇。 <BR>靛鐵熔煉爐會如同普通版般正常運作， 但其效益大約在85%，而非80%。雖然改善不及我所冀望，但畢竟聊勝於無。 <BR>其主要優勢在於降解源質漿的速度是通常的兩倍。
+research.ESSENTIASMELTERTHAUMIUM.stage.2=儘管成效並不如我所預期，但仍證實了靛鐵的確是個好選擇。 <BR>靛鐵熔煉爐運作方式與一般的熔煉爐相同， 但其效益大約在90%，而非80%。雖然改善不及我所冀望，但畢竟聊勝於無。 <BR>其主要優勢在於降解源質漿的速度是通常的兩倍。
 #
 research.ESSENTIASMELTERVOID.title=虛鋼源質熔煉爐
 research.ESSENTIASMELTERVOID.stage.1=我必須重拾圖板。利用靛鐵所達成的改善達不到我所希望的程度。 <BR>我最近發現的虛鋼為我的研究開闢了一條新途徑。它比靛鐵更具有延展性。 我對兩者進行容納測試以對照兩者的性能。 <BR>或許以某種形式將虛鋼用於內部管道會是個值得的嘗試。
-research.ESSENTIASMELTERVOID.stage.2=我對我的測試結果感到滿意。我預期虛鋼熔煉爐會如同普通版般正常運作，但是能將效益從80%提升到大約95%。 <BR>它降解源質漿的速度比一般熔煉爐稍快，但無法像靛鐵熔煉爐那般快速。
+research.ESSENTIASMELTERVOID.stage.2=我對我的測試結果感到滿意。虛鋼熔煉爐的運作方式應該會和一般的熔煉爐相同，但是能將效益從80%提升到大約95%。 <BR>它降解源質漿的速度比一般熔煉爐稍快，但無法像靛鐵熔煉爐那般快速。
 #
 research.THAUMATORIUM.title=煉金自動化
 research.THAUMATORIUM.stage.1=煉金過程總會遇到一些挫折與失誤——算錯要素、源質降解，而且材料需要勞心費神手動混合。 我受夠了。 <BR>現在我有了純粹的液態源質，我應該改善整個煉金過程。
-research.THAUMATORIUM.stage.2=我發明了一項自動裝置，並命名為秘術煉成機。就像其他複合式裝置一樣需要利用世界鹽來製作。 <BR>秘術煉成機是能讓秘術師選擇煉成公式與觸媒的一項神奇發明。可以透過管道中自動抽取所需的源質。只要供應觸媒它就能完美的合成出所要求的每項物件。 <BR>底座的的坩堝並不需要添水，但其下方依舊需要提供熱源。<LINE>開啟該設備後會看見一些格子。左上方的格子用來放置觸媒。 放置好後便能在右上方的可成列表中選擇欲合成的配方。 <BR>下方的長條會顯示所需的源質，裝置運作時還會顯示出進度條。 <BR>製成的物品會從設備前方彈出或者投入放置於彈射口位置的容器中。<LINE>一般來說一個秘術煉成機只能同時使用一組配方，但在其周圍安附記憶方體就能增加它同時掌握的配方數量。 <BR>每個記憶方體能夠增添2組配方。
+research.THAUMATORIUM.stage.2=我發明了一項自動裝置，並命名為秘術煉成機。就像其他複合式裝置一樣需要利用世界鹽來製作。 <BR>秘術煉成機是能讓秘術師選擇煉成公式與觸媒的一項神奇發明。可以透過管道中自動抽取所需的源質。只要供應觸媒它就能完美的合成出所要求的每項物件。 <BR>底座的的坩堝並不需要添水，但其下方依舊需要提供熱源。<LINE>開啟該設備後會看見一些格子。左上方的格子用來放置觸媒。 放置好後便能在右上方的可成列表中選擇欲合成的配方。 <BR>右邊會列出所需的源質，裝置運作時還會顯示出進度條。 <BR>製成的物品會從設備前方彈出或者投入放置於彈射口位置的容器中。<LINE>一般來說一個秘術煉成機只能同時使用一組配方，但在其周圍安附記憶方體就能增加它同時掌握的配方數量。 <BR>每個記憶方體能夠增添2組配方。
 #
 research.ESSENTIATRANSPORT.title=進階源質運輸
 research.ESSENTIATRANSPORT.stage.1=進行注魔合成時，源質會直接被抽離罐子，並穿過空氣飄向注魔矩陣。矩陣的魔力足以維持其穩定並用於注魔，但一般而言源質化為這種型態後會失去穩定，無法再作其他用途。 <BR>但願我能找出除了注魔以外也能隔空抽取源質的方法，而且還必須保持其穩定。
@@ -1601,7 +1603,7 @@ research.FOCUSPLAN.stage.2=我設計了一個媒介紋章，能讓我規劃域�
 #
 research.FOCUSSCATTER.title=核心修改：分散
 research.FOCUSSCATTER.stage.1=我已經知道如何創造投彈與雷光來傳遞核心的效應。我相信設計一個計劃來把單一軌跡拆分為多個應該不會是件難事。
-research.FOCUSSCATTER.stage.2=我成功將一個核心媒介的軌跡拆分為複數，但成果卻未達我的期望。這其中有兩個問題： <BR>首先，雖然我能控制主要軌跡分岔的數量，但卻無法控制分裂後的軌跡。他們會單純地往隨機方向分散。還好我已經想到該如何限制分散的錐狀範圍。 <BR>第二個問題是，我創造愈多分岔，每個分岔的效果就愈虛弱。其實這並不意外——我所引導的魔素有限。我可以額外汲取更多魔素來稍微舒緩這種現象，但每個分岔依然會比原本還弱。
+research.FOCUSSCATTER.stage.2=我成功將一個核心媒介的軌跡拆分為複數，但成果卻未達我的期望。這其中有兩個問題： <BR>首先，雖然我能控制主要軌跡分岔的數量，但卻無法控制分裂後的軌跡。他們會單純地往隨機方向分散。還好我已經想到該如何限制分散的錐狀範圍。 <BR>第二個問題是，我創造愈多分岔，每個分岔的效果就愈虛弱。其實這並不意外——我所引導的魔素有限。我可以額外汲取更多魔素來稍微舒緩這種現象，但每個分岔依然會比原本還弱。 <BR>這項修改在每個核心中僅能使用一次。 
 #
 research.FOCUSSPLIT.title=核心修改：拆分
 research.FOCUSSPLIT.stage.1=雖然分散修改的實用性已受證實，但技術上而言卻是失敗的產物。我發覺我原本的計畫過於宏大。 <BR>我應該從較微觀處著手。
@@ -1772,9 +1774,25 @@ research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and
 # ELDRITCH
 ##########################################
 #
-research.BASEELDRITCH.title=Void Seeds
+research.BASEELDRITCH.title=虛無之種
 research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
 research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
+#
+research.VOIDSIPHON.title=Void Siphon
+research.VOIDSIPHON.stage.1=Destroying a rift to get Void Seeds is highly impractical. I must find a better way.<BR>While most Crimson Cultist rantings are nonsense, they do make reference to drawing power from rifts. I believe it should be possible to siphon off some of the eldritch energy in rifts to form Void Seeds without destroying the rift outright.
+research.VOIDSIPHON.stage.2=I hate to admit it, but the Crimson Cultists might be on to something. I have managed to design a Void Siphon that slowly leeches energy from nearby rifts. This leeched energy will slowly form Void Seeds. The larger the rift is, the quicker this process occurs.<BR>Unfortunately this is not without consequence for the rift itself. The rift will become increasingly unstable and will slowly shrink as it's energy is leeched away. I must take care to not overuse them.<BR>A redstone signal will disable the Void Siphon.
+#
+research.VOIDSEERPEARL.title=Voidseer's Pearl
+research.VOIDSEERPEARL.stage.1=In madness there is insight. Or so I have been told... I'm not sure by who, but it has the ring of truth about it.<BR>I have been having strange thoughts and ideas of late, but their significance and meaning is just outside my grasp. If I can focus my mind somehow I might be able to see... more.
+research.VOIDSEERPEARL.stage.2=When I hold this charm I get glimpses of what lies beyond. The meaning still eludes me, but I feel more connected to the aura and magic than I have ever felt before.<BR>While I have this charm equipped I will find vis much easier to manipulate.<BR>Oddly enough, the size of the bonus seems to be proportional to the amount of permanent warp I have suffered. What a strange coincidence.
+#
+research.VOIDROBEARMOR.title=Void Thaumaturge Armor
+research.VOIDROBEARMOR.stage.1=The simple void metal armor I can now craft is practical, but not particularly useful to full blooded thaumaturge like myself. I should craft something better. Much better.
+research.VOIDROBEARMOR.stage.2=Using the knowledge I have gained thusfar I have designed a set of armored robes that combines the utility of Thaumaturge's Robes with the practacality of Thaumium Fortress Armor.<BR>Primarily made from void metal this armor has all the benefits (and side-effects) that metal offers.<BR>Lastly the hood of the robes contain integrated Goggles of Revealing.<BR>This armor can be dyed.
+#
+research.PRIMALCRUSHER.title=Primal Crusher
+research.PRIMALCRUSHER.stage.1=The variable and maleable nature of Void Metal has openend up some interesting possibilities.<BR>I believe it should be possible to create a tool with inherent morphic instability. In other words it will constantly fluctuate between various states so rapdily that it might not be visible to the naked eye.
+research.PRIMALCRUSHER.stage.2=Success! I have created a tool I am calling the Primal Crusher. It has the essential nature of both a pickaxe and a shovel. It does not look like either of those tools, but I it defintely functions like them. Better in fact. It is also surprisingly effective against Taint.<BR>It is slightly unpleasant to hold however - it seems to vibrate in ones hand and the feeling becomes quite uncomfortable after a while. A little discomfort will not stop me from using it however.
 #
 ##########################################
 # MISC
