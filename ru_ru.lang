@@ -182,7 +182,7 @@ item.amulet_vis.found.name=Вис-камень
 item.amulet_vis.crafted.name=Вис-амулет
 item.girdle_hover.name=Таумостатический Пояс
 item.verdant_charm.name=Амулет Неопытности
-item.verdant_charm.life.text=Амулет Жизни
+item.verdant_charm.life.text=Аура Жизни
 item.verdant_charm.sustain.text=Амулет Выживания
 item.voidseer_charm.name=Пустотная Жемчужина Провидца
 item.voidseer_charm.text=Ты вглядываешься в чернильную темноту... И можешь поклясться, что видел, как нечто посмотрело на тебя в ответ...
@@ -1441,8 +1441,8 @@ research.CURIOSITYBAND.stage.1=Сферы опыта, которые я полу
 research.CURIOSITYBAND.stage.2=Моя теория подтвердилась - я нашёл способ извлечения знаний из сфер опыта. Это совсем маленькие свёртки, которые, тем не менее, могут содержать фрагменты знаний, которых мне не достаёт в некоторых моих исследованиях.<BR>Я разработал дизайн оголовья, которое при ношении будет поглощать половину добываемых сфер опыта, превращая их в фрагменты исследований. Итоговая польза хоть и небольшая, но всё же это лучше, чем ничего.
 #
 research.VERDANTCHARMS.title=Амулет Неопытности
-research.VERDANTCHARMS.stage.1=Временами мне приходится стыкаться с такими мерзкими вещами, как отравления и другие гадкие неприятности. Я должен отыскать способ, как защитить себя от этого.
-research.VERDANTCHARMS.stage.2=I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<BR>There is also two specialized enchantments I can apply to the charm to improve its function.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
+research.VERDANTCHARMS.stage.1=Временами мне приходится стыкаться с такими гадкими вещами, как отравления и другой противной мерзостью. Я должен отыскать способ, как себя от этого защитить.
+research.VERDANTCHARMS.stage.2=Я разработал дизайн мистического амулета, пульсирующего исцеляющей энергией, с помощью которой моё тело очищается от действия любых ядов и других похожих вредоносных эффектов. Но, к сожалению, он не в состоянии излечить настоящие раны.<BR>Кольцо I have created designs for a mystical charm that pulses with healing energy that will wash all poisons or similar afflictions from my body. Unfortunately it cannot heal actual wounds.<BR>The ring has an internal store of vis that needs to be charged with a recharge pedestal or similar item - it cannot draw vis from the aura directly.<BR>There is also two specialized enchantments I can apply to the charm to improve its function.<LINE>§nLifegiver§r<BR>This infusion enchantment allows the Verdant Heart Charm to regenerate the health of whomever wears it.<LINE>§nSustainer§r<BR>This infusion enchantment allows the Verdant Heart Charm to slowly feed and sustain whomever wears it. This includes providing breathable air.
 #
 research.CHARMUNDYING.title=Charm of Undying
 research.CHARMUNDYING.stage.1=The Totem of Undying is potent magic that even thaumaturgy cannot easily replicate.<BR>I should however be able to make the totem more convenient to use by allowing it to be worn as a charm instead of having to be held.
