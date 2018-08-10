@@ -43,7 +43,7 @@ item.amber.name=Янтарь
 item.quicksilver.name=Ртуть
 item.crystal_essence.name=Вис-кристалл
 item.ingot.thaumium.name=Слиток Таумиума
-item.ingot.void.name=Слиток Металла Пустоты
+item.ingot.void.name=Слиток Пустотного Металла
 item.ingot.brass.name=Слиток Алхимической Латуни
 item.nugget.iron.name=Железный самородок
 item.nugget.copper.name=Медный самородок
@@ -52,7 +52,7 @@ item.nugget.silver.name=Серебрянный самородок
 item.nugget.lead.name=Свинцовый самородок
 item.nugget.quicksilver.name=Капля ртути
 item.nugget.thaumium.name=самородок Таумиума
-item.nugget.void.name=самородок Металла Пустоты
+item.nugget.void.name=Самородок Пустотного Металла
 item.nugget.brass.name=самородок Алхимической Латуни
 item.nugget.quartz.name=Осколок кварца
 item.nugget.rareearth.name=Кусочек Редкоземельного Элемента
@@ -74,7 +74,7 @@ item.mirrored_glass.name=Отражающее стекло
 item.plate.brass.name=Латунная пластина
 item.plate.iron.name=Железная пластина
 item.plate.thaumium.name=Пластина из Таумиума
-item.plate.void.name=Пластина из Металла Пустоты
+item.plate.void.name=Пластина из Пустотного Металла
 item.mechanism_simple.name=Простой мистический механизм
 item.mechanism_complex.name=Сложный мистический механизм
 item.fabric.name=Заколдованная ткань
@@ -406,7 +406,7 @@ tile.nitor_green.name=Зелёный нитор
 tile.nitor_red.name=Красный нитор
 tile.nitor_black.name=Чёрный нитор
 tile.metal_thaumium.name=Блок Таумиума
-tile.metal_void.name=Блок Металла Пустоты
+tile.metal_void.name=Блок Пустотного Металла
 tile.metal_alchemical.name=Алхимическая Конструкция
 tile.metal_alchemical_advanced.name=Продвинутая Алхимическая Конструкция
 tile.metal_brass.name=Блок Латуни
@@ -645,7 +645,7 @@ golem.material.clay=Глиняной
 golem.material.text.clay=Голем, изготовленный из обожженой глины. Хоть это и не особо прочный материал, но такой голем огнестойкий и относительно легкий.
 golem.material.thaumium=Таумиумный
 golem.material.text.thaumium=Голем, изготовленный из таумиума. Он обладает практически такими же характеристиками, как и железный, однако он более прочный и защищенный.
-golem.material.void=Пустотнометалный
+golem.material.void=Пустотнометаллический
 golem.material.text.void=Голем, изготовленный из пустотного металла. Несмотря на то, что этот металл более мягкий, чем железо, он легче и способен себя ремонтировать.
 #
 golem.head.basic=Заводная голова
@@ -1630,35 +1630,35 @@ research.VISBATTERY.stage.2=Я достиг успеха при создании
 # GOLEMANCY
 ##########################################
 #
-research.BASEGOLEMANCY.title=Basic Golemancy
-research.BASEGOLEMANCY.stage.1=I now understand the basic concepts that shape Golemancy, but I am sure I can improve on the primitive constructs that anyone can craft. At the very least I can use arcane science to design a simple mind that will be both dependable and predictable instead of relying on the chaotic nature of magic to direct my constructs.
+research.BASEGOLEMANCY.title=Базовое Големостроение
+research.BASEGOLEMANCY.stage.1=На данный момент, мне известны основные концепты, на которых базируется Големемостроение, но я убеждён, что смогу улучшить те примитивные конструкции, которые и так может создать каждый. По крайней мере, я могу, с помощью мистической науки, разработать примитивный разум, который внесёт и надёжность, и предсказуемость моим конструкциям вместо того, чтобы полагаться на хаотичную природу магии.
 #
-research.JARBRAIN.title=Brain in a Jar
-research.JARBRAIN.stage.1=Isn't it just the worst when you have a bunch of spare brain matter lying around, but nothing useful to do with it? Time to change that.
-research.JARBRAIN.stage.2=I have discovered a way to reanimate a zombie brain and put it to my own dark uses.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving the jar a good shake will make it surrender some of its ill-gotten gains for my own use.<BR>It will only hold a certain amount of experience. Particle effects will be displayed above the jar when it is full.<BR>This jar can also be used to a much greater effect than bookcases to improve mundane enchanting.
-research.f_BRAIN.text=Examine something brainy.
+research.JARBRAIN.title=Мозг в банке
+research.JARBRAIN.stage.1=Что может быть хуже, чем когда у Вас хранится куча запасных мозгов, но Вы не можете найти им применения? Пришло время это изменить.
+research.JARBRAIN.stage.2=Я открыл способ, как можно реанимировать мозг зомби и использовать его для своих тёмных целей, заключив в банку.<BR>Он сохранил часть голода, которым обладал как зомби, и хоть у него больше нет возможности потреблять мозги, но он всё также любит питаться мыслями и переживаниями убитых поблизости существ. Хорошенько встряхнув банку, Вы заставите мозг отдать некоторую полученную им наживу.<BR>В нём может храниться лишь некоторое определённое количество опыта. При полном заполнении банки, над неё отобразится эффект частиц.<BR>Также эту банку можно использовать вместо книжных шкафов, чтобы значительно увеличить эффективность стандартного зачарования.
+research.f_BRAIN.text=Изучите какое-то мозговитое создание.
 #
-research.MATSTUDWOOD.title=Material Studies: Wood
-research.MATSTUDWOOD.stage.1=Golemancy places great demands on my craftsmanship as it often requires intricate components with very narrow margins for error. I will need to increase my skill and knowledge of both mundane and arcane materials. My first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. I have found Greatwood to be a superior wood particularly well suited to golemancy.<BR>I should learn as much about it as I can.
+research.MATSTUDWOOD.title=Изучение Материалов: Древесина
+research.MATSTUDWOOD.stage.1=Големостроение предъявляет высокие требования к моему мастерству, поскольку для него часто требуются сложные компоненты и ошибки при работе с ними, практически, не прощаются. Мне потребуется расширить свои навыки и знания касаемо как обычных, так и магических материалов. И прежде всего, я начну с древесины.<BR>Древесина - это универсальное вещество и несмотря на его недостатки, оно лёгкое и в весе, и в обработке.  Я обнаружил, что древесина Великого Дерева является превосходным типом древесины, которое отлично подходит для големостроения.<BR>Я должен изучить её настолько детально, насколько это возможно.
 #
-research.MATSTUDIRON.title=Material Studies: Iron
-research.MATSTUDIRON.stage.1=Iron has many properties to recommend it: it is much sturdier than wood, and malleable in a way that wood can never be. It is harder to work with, however, and quite heavy.
-research.f_MATIRON.text=Examine iron
+research.MATSTUDIRON.title=Изучение Материалов: Железо
+research.MATSTUDIRON.stage.1=У железа есть множество свойств, из-за которых я бы мог его порекомендовать: оно в разы прочнее, чем древесина и имеет потдатливость, которой древесина никогда достигнуть не сможет. Но тем не менее, его достаточно трудно и тяжело обрабатывать.
+research.f_MATIRON.text=Изучите железо
 #
-research.MATSTUDCLAY.title=Material Studies: Clay
-research.MATSTUDCLAY.stage.1=Clay is not particularly strong, light or durable, but it is easy to work, highly resistant to fire and lighter than iron.<BR>Basically, the perfect choice for a thaumaturge on a budget.
-research.f_MATCLAY.text=Examine clay
+research.MATSTUDCLAY.title=Изучение Материалов: Глина
+research.MATSTUDCLAY.stage.1=Глина не особо прочный, лёгкий и долговечный материал, однако его легко обрабатывать, он имеет сопротивление к огню и легче железа.<BR>В приципе, идеальный бюджетный выбор для тауматурга.
+research.f_MATCLAY.text=Изучите глину
 #
-research.MATSTUDBRASS.title=Material Studies: Brass
-research.MATSTUDBRASS.stage.1=While brass is softer than iron, it is still quite sturdy and well-suited to fine mechanical constructs.<BR>In my opinion it is the best mundane material for Golemancy purposes, and I would not dream of crafting intricate devices from any other material.<BR>It is quite pleasing to the eye as well.
-research.f_MATBRASS.text=Examine brass 
+research.MATSTUDBRASS.title=Изучение Материалов: Латунь
+research.MATSTUDBRASS.stage.1=Несмотря на то, что латунь более мягкий метал, чем железо, она по-прежнему достаточно прочна и отлично подходит для утончённых механических конструкций.<BR>Как по мне, для целей Големостроения - это самый лучший немагический материал и я бы мог только мечтать о создании сложных конструкций из чего-то другого.<BR>Да и кроме того, она приятна для глаз.
+research.f_MATBRASS.text=Изучите латунь
 #
-research.MATSTUDTHAUMIUM.title=Material Studies: Thaumium
-research.MATSTUDTHAUMIUM.stage.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision.
-research.f_MATTHAUMIUM.text=Examine thaumium 
+research.MATSTUDTHAUMIUM.title=Изучение Материалов: Таумиум
+research.MATSTUDTHAUMIUM.stage.1=Таумиум - это мистический метал, который способен поглощать чары словно обычная губка. Кроме того, он определённо прочнее обычного железа. К сожалению, он имеет немного больший, чем железо, вес и из-за его прочности, таумиум сложно обрабатывать.<BR>Несмотря на то, что он не в состоянии конкурировать с латунью, когда дело доходит до создания сложного часового механизма, то прочность таумиума делает его материалом гораздо предпочтительнее для изготовления тех механизмов, в которых прочность имеет больший вес, чем точность.
+research.f_MATTHAUMIUM.text=Изучите таумиум
 #
-research.MATSTUDVOID.title=Material Studies: Void Metal
-research.MATSTUDVOID.stage.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+research.MATSTUDVOID.title=Изучение Материалов: Пустотный Металл
+research.MATSTUDVOID.stage.1=Пустотный металл имеет относительно лёгкий вес, однако он слишком мягкий, чтобы его можно было использовать как материал для изготовления механизмов. К счастью, его морфические свойства и способности к самовосстановлению открывают путь к интересным возможностям для тауматургов, которые имеют широкий ход мышления.
 research.f_MATVOID.text=Examine void metal 
 #
 research.MINDCLOCKWORK.title=Clockwork Minds
