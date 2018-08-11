@@ -626,7 +626,7 @@ golem.trait.fireproof=Огнестойкий
 golem.trait.text.fireproof=Голем обладает иммунитетом к огню.
 golem.trait.brutal=Жестокий
 golem.trait.text.brutal=Голем обладает повышенным уроном в ближнем бою.
-golem.trait.breaker=Breaker
+golem.trait.breaker=Разрушитель
 golem.trait.text.breaker=Голем способен с легкостью уничтожать большинство блоков.
 golem.trait.hauler=Грузчик
 golem.trait.text.hauler=Голем способен носить 2 стака предметов вместо одного.
@@ -1729,35 +1729,35 @@ research.SEALSTOCK.stage.1=Мне нужна печать, которая поз
 research.SEALSTOCK.stage.2=Эта печать работает по схожему с печатью Сбора принципу за исключением того, что она поддерживает определённое количество предметов внутри контейнера на протяжении всего времени. Печать всего лишь обеспечивает минимальное количество предметов в запасе - она не предотвратит перезаполнение, которое может возникнуть по каким-либо другим причинам.<BR>Для работы этой печати требуется печать §5Снабжения§0 для понимая того, где можно получить требуемые предметы.
 #
 research.BASICTURRET.title=Автоматический Арбалет
-research.BASICTURRET.stage.1=Несколько нападений блуждающих монстров заставили меня обратить своё внимание на защиту своего дома. Мне нужно разработать автоматическое устройство, которое будет защищать мой дом от лишних незваных гостей.
-research.BASICTURRET.stage.2=Я отыскал способ как наделить арбалет собственным разумоми превратить его в простую автоматическую турель.<BR>После размещения в мире, он автоматически будет атаковать любых вражеских монстров, которых обнаружит в радиусе своего действия. К сожалению, его ограниченные умственные способности не позволяют мне настроить ему конкретные цели.<BR>У арбалета очень маленькое внутреннее хранилище, однако если его разместить на раздатчик, направленный вверх, то устройство будет само перезаряжаться, используя инвентарь раздатчика.<BR>Щелчок правой кнопкой мыши во время подкрадывания, подберёт арбалет.<PAGE>Турель можно поместить в вагонетку, а перезаряжаться она может с помощью раздатчика, размещённого под железнодорожными путями.<BR>Переезд через мистические активирующие рельсы изменит поведение турели. Если рельсы были активированы, то турель отключится, в противном же случае наоборот - включится.
+research.BASICTURRET.stage.1=Несколько нападений блуждающих монстров заставили меня обратить своё внимание на защиту собственного дома. Мне нужно разработать автоматическое устройство, которое будет защищать мой дом от лишних незваных гостей.
+research.BASICTURRET.stage.2=Я отыскал способ как наделить арбалет собственным разумом и превратить его в простую автоматическую турель.<BR>После размещения в мире, он автоматически будет атаковать любых вражеских монстров, которых обнаружит в радиусе своего действия. К сожалению, его ограниченные умственные способности не позволяют мне настроить ему конкретные цели для атаки.<BR>У арбалета очень маленькое внутреннее хранилище, однако если его разместить на раздатчик, который направлен вверх, то устройство будет само перезаряжаться, используя инвентарь раздатчика.<BR>Щелчок правой кнопкой мыши во время подкрадывания подберёт арбалет.<PAGE>Турель можно поместить в вагонетку, а перезаряжаться она может с помощью раздатчика, размещённого под железнодорожными путями.<BR>Переезд через мистические активирующие рельсы изменит поведение турели. Если рельсы были активированы, то турель отключится, в противном же случае наоборот - включится.
 research.f_DISPENSER.text=Исследовать что-то, что может запускать объекты.
 #
-research.ADVANCEDTURRET.title=Advanced Automated Crossbow
-research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
-research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly, it is possible to specify the type of targets it can attack.
+research.ADVANCEDTURRET.title=Продвинутый Автоматический Арбалет
+research.ADVANCEDTURRET.stage.1=Моё недавнее открытие передового искуственного разума может помочь мне внести некоторые необходимые улучшения в работу своей автоматической турели.
+research.ADVANCEDTURRET.stage.2=Продвинутый Автоматический Арбалет работает также, как и базовая модель, однако имеет некоторые существенные улучшения.<BR>Добавление железных пластин сделало его гораздо прочнее, а более усложнённый механизм загрузки увеличил скорострельность.<BR>И наконец то стало возможным задавать тип целей, которые турель может атаковать.
 #
-research.GOLEMVISION.title=Golem Biothaumic Eyes
-research.GOLEMVISION.stage.1=I should find a way to improve the visual acuity of my golems.
-research.GOLEMVISION.stage.2=By merging flesh and arcane constructs, I have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at 150% the normal range (48 blocks).<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMVISION.title=Биотаумические Глаза Голема
+research.GOLEMVISION.stage.1=Я должен отыскать способ как увеличить остроту зрения своих големов.
+research.GOLEMVISION.stage.2=Объединив плоть и мистические конструкции, я смог создать комплект весьма острозорких глаз.<BR>Любой голем, который будет экипирован комплектом этих гляделок, сможет работать на 150% от стандартной площади (48 блоков).<BR>§9Это исследование также разблокирует дополнительные детали големов§0.
 #
-research.GOLEMCLIMBER.title=Golem Mobility: Climbing
-research.GOLEMCLIMBER.stage.1=I should find a way to improve the mobility acuity of my golems. Maybe I could give them the ability to climb walls?
-research.GOLEMCLIMBER.stage.2=By equipping a golem with crampons, hooks and various other tools, it will be able to scale sheer walls and other obstacles.<BR>§9This research unlocks additional golem parts§0.
-research.f_SPIDER.text=Closely examine a climbing creature
+research.GOLEMCLIMBER.title=Мобильность Голема: Возбирание
+research.GOLEMCLIMBER.stage.1=Я должен найти способ как повысить мобильность своих големов. Возможно, я могу дать им способность взбираться по стенам?
+research.GOLEMCLIMBER.stage.2=Голем, оснащённый кошками, крючками и другими разнообразными приспособлениями, может взбираться по отвесным стенам и другим препятствиям.<BR>§9Это исследование также разблокирует дополнительные детали големов§0.
+research.f_SPIDER.text=Изучите вблизи возбирающихся существ
 #
-research.GOLEMFLYER.title=Golem Mobility: Flight
-research.GOLEMFLYER.stage.1=I should find a way to further improve the mobility acuity of my golems. Maybe I could give them the ability to fly?
-research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>§9This research unlocks additional golem parts§0.
-research.f_FLY.text=Closely examine a flying creature.
+research.GOLEMFLYER.title=Мобильность Голема: Полёт
+research.GOLEMFLYER.stage.1=Я хочу ещё больше повысить мобильность своих големов и мне нужно отыскать для этого ещё какой-то способ. Может быть, я могу наделить их возможностью летать?
+research.GOLEMFLYER.stage.2=Благодаря лишению голема ног и приклеивания вместо них Мистического Подъемника, мне удалось поднять его в воздух! Это даёт ему хорошую, хоть слегка и неустойчивую мобильность, однако немного понижает его скорость передвижения.<BR>§9Это исследование также разблокирует дополнительные детали големов§0.
+research.f_FLY.text=Изучите вблизи летающих существ
 #
-research.GOLEMBREAKER.title=Golem Manipulation: Block Breaking
-research.GOLEMBREAKER.stage.1=I should increase the number of tools and abilities my golems have available to them. Maybe I could give them the ability to break blocks?
-research.GOLEMBREAKER.stage.2=By replacing a golem's arms with a set of powerful, diamond-tipped pneumatic grinders it will be able to break through all but the hardest materials.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMBREAKER.title=Манипуляторы Голема: Разрушение Блоков
+research.GOLEMBREAKER.stage.1=Мне нужно увеличить количество инструментов и способностей, доступных моим големам для использования. Может мне удастся дать им возможность разбивать блоки?
+research.GOLEMBREAKER.stage.2=Заменив руки голема комплектом мощных, пневматических шлифовальных станков с алмазными наконечниками, я наделил его способностью разрушать любые материалы, за исключением самых твёрдых.<BR>§9Это исследование также разблокирует дополнительные детали големов§0.
 #
-research.GOLEMCOMBATADV.title=Improved Golem Combat
-research.GOLEMCOMBATADV.stage.1=I should design improved weapons and armor for my golems.
-research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9This research unlocks additional golem parts§0.
+research.GOLEMCOMBATADV.title=Улучшение Боевых Големов
+research.GOLEMCOMBATADV.stage.1=Я должен разработать продвинутое оружие и броню для моих големов.
+research.GOLEMCOMBATADV.stage.2=Теперь Вам доступна возможность создания специального оружия и доспехов для големов, которые значительно повышают их эффективность в бою.<BR>§9Это исследование также разблокирует дополнительные детали големов§0.
 #
 
 ##########################################
@@ -1765,8 +1765,8 @@ research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and
 ##########################################
 #
 research.BASEELDRITCH.title=Семена Пустоты
-research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
-research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
+research.BASEELDRITCH.stage.1=Семя Пустоты, которое я сумел обнаружить, требует дальнейшнего изучения. Мне нужно тщательней его исследовать и, возможно, открыть для себя его практическое применение.<BR>На данный момент оно кажется морфически нестабильным - его физические свойства постоянно сдвигаются и меняются. Может быть, скрепив его с чем-то другим, я смогу облегчить свои манипуляции над ним. Почему бы не попробовать метал?
+research.BASEELDRITCH.stage.2=Эти строки я пишу дрожжащими руками. Странное вещество, которое я изучал, показало в моём сознании мне новые и странные картины.<BR>Передо мною лежат записи с формулами для создания нового таинственного металла, но мало того, что я не помню как это написал, так еще и почерк совершенно не похож на мой.<BR>Металл, которые они описали, имеет множество противоречий. Он тяжелый и неподатливый, но в тоже время легкий и прост в работе с ним. Он тёплый на ощупь, прямо живой, и, как и живые существа, может восстанавливаться от повреждений.<BR>Использование его при создании простых физических инструментов кажется почти... неуместным.
 #
 ##########################################
 # MISC
