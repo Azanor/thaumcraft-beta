@@ -348,6 +348,7 @@ tile.condenser.name=플럭스 응축기
 tile.condenser_lattice.name=플럭스 응축기 격자판
 tile.condenser_lattice_dirty.name=막힌 플럭스 응축기 격자판
 tile.void_siphon.name=공허 흡수기
+tile.infernal_furnace.name=지옥불 화로
 #
 # Doodads
 tile.matrix_speed.name=인퓨전 가속의 돌
