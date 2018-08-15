@@ -348,6 +348,7 @@ tile.condenser.name=咒波凝結器
 tile.condenser_lattice.name=咒波凝結器格柵
 tile.condenser_lattice_dirty.name=阻塞的咒波凝結器格柵
 tile.void_siphon.name=Void Siphon
+tile.infernal_furnace.name=煉獄熔爐
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -1185,7 +1186,8 @@ research.CrimsonCultist.title=緋色崇拜
 research.CrimsonCultist.stage.1=最近出現了一群紅袍的邪教徒。他們似乎不願意與我對話，所以我無法得知他們的目的。不僅如此，這些傢伙相當...不對勁。他們的理智似乎趨於斷線，而他們犯下的錯更勝於此。我很難跟你解釋。 <BR>我的存在似乎惹毛了他們，我相信應該是因為我擁有秘術的才能。 <BR>它們的僧侶雖然有汲取靈氣施放魔法的能力，但那些魔法似乎不是秘術。不論那是什麼都使我感到毛骨悚然，每當他們汲取靈氣時我都能感受到靈氣被拉扯、撕裂。 <BR>某些信徒似乎帶著一本書。我覺得我該想辦法弄來一本，或許那能讓我對這詭異的宗教有所瞭解。我必須保持謹慎，有些知識會帶來危險。
 #
 research.CrimsonRites.title=緋紅教儀
-research.CrimsonRites.stage.1=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為「Apertis Oculis」——開眼 的儀式。 雖然其作用尚未明瞭，但我能肯定這一定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究...
+research.CrimsonRites.stage.1=我應該找出一本邪教徒們稱為緋紅教儀的書，並加以研讀。
+research.CrimsonRites.stage.2=書上大多是些扭曲、難以理解的潦草手稿，但我從可理解的部分中對緋色崇拜的目的有了一些奇怪的推測。 <BR>雖然他們的起源籠罩著神秘的面紗，但是他們的目標似乎是完成一個稱為「Apertis Oculis」——開眼 的儀式。 雖然其作用尚未明瞭，但我能肯定這一定有什麼好處。 <BR>有趣的是，我認為秘術或許能提供他們長久以來遺失的部分。顯然只有瘋子才會試圖踏入這項研究...
 #
 research.TaintCrawler.stage.1=這些噁心的蛆蟲不管爬到哪都不停地散佈腐蝕液。一般而言這些腐蝕現象在離源頭太遠的地方很快就會消退，然而也有機會導致腐蝕漫延得更快。 <BR>最好在發現的當下立即撲殺。
 #
@@ -1279,7 +1281,7 @@ research.f_VOIDSEED.text=對一些來自虛空的東西進行實驗
 #
 research.FLUXCLEANUP.title=咒波清除
 research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣中累積，而我現在必須加以控制——而且要快。 <BR>值得慶幸的是，答案或許能在咒波本身的特性中找到。技術上而言咒波只是比較「髒」的魔素，但其中一項明顯不同的地方是它非常容易由能量轉變成物質。這是一項危險的特性，容易產生侵蝕汙染或是其他形式的麻煩，但同時也是能使它安全化的關鍵。
-research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗10以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>格柵須以正確方式裝設： <BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
+research.FLUXCLEANUP.stage.2=我試著找出將純粹的咒波轉換成咒波源質的方法。雖然咒波源質不是什麼好東西，但總比原本的咒波好控制。遺憾的是這道程序不簡單、不便宜，而且不快。 <BR>我畫下了咒波凝結器的草圖。提供大量源質時它會自動汲取靈氣中的咒波，並強制使咒波轉變成源質。每從靈氣中汲取一點咒波需要消耗5以上的源質以及一些時間。源質的類型不影響作用，而且我也用不到咒波源質。這不是什麼好結果。<BR>源質可以從側面送入凝結器，而咒波源質可以從底部抽出。 <LINE>我需要的不只這台凝結器。我還需要一種特殊的格柵，用來攔截靈氣中的咒波。格柵可以連接在凝結器頂部，並彼此組合成多塊的大型結構。連結愈多塊，凝結器從靈氣中汲取咒波的速度就愈快。然而這樣會消耗掉更多源質。 <BR>格柵須以正確方式裝設： <BR>一）格柵塊必須接在凝結器頂部，而所有格柵塊都必須高於凝結器本身。 <BR>二）我可以將多塊格柵接在一起，但距離凝結器超過八格的格柵會自動分離。 <BR>三）理論上我可以在八格範圍內塞一堆格柵，但格柵每多連結一次其效率都會遞減。 <BR>四）將格柵連成一條線似乎是最佳選項，但格柵中的過濾器偶爾會阻塞而失效。在阻塞的格柵之後的所有格柵都會失去加速作用，但依舊會增加額外的源質消耗。可以拿新的格柵點擊阻塞的格柵來進行更換。 <BR>我可以在凝結器上使用共鳴器來檢測整個結構的消耗量及轉換率。
 #
 research.FLUXRIFT.title=咒波裂痕
 research.FLUXRIFT.stage.1=這些裂痕如同我的推測，是現實本身的破損。從中流出的狂亂能量極度危險，必須盡快找出封住這些裂痕的方法。 <BR>然而觀察這些裂痕也使我發現了一些有趣的事物。裂痕事實上似乎是依存於咒波——環境中咒波愈多，裂痕就長得愈大。裂痕會隨時間而變得更不穩定，最後將引發一股單純的混沌能量爆發。這股能量可能會有各種不同的形態，但通常不會是什麼好事。值得慶幸的是在這之後區域將稍微回歸平穩。渾沌爆發的嚴重程度取決於裂痕的大小。 <BR>即使我還沒辦法封住裂痕，但或許能找到使它維持安定的方法。
@@ -1417,7 +1419,7 @@ research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩
 #
 research.INFUSIONENCHANTMENT.title=注魔式附魔
 research.INFUSIONENCHANTMENT.stage.1=事實證明元素工具相當實用，但是附在工具上的魔法卻不靈活。我必須找出將相同效果應用在任何工具與武器上的方法，而不是只能用於靛鐵工具。 <BR>研究一般的附魔，觀察如何將其基本原理重現於注魔製程中會是個好的開始。
-research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o聲納§r<DIV>你可以用這把工具右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的其他目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器<PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器
+research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o聲納§r<DIV>你可以手持這把工具潛行並右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的其他目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器<PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器
 #
 research.BOOTSTRAVELLER.title=旅人之靴
 research.BOOTSTRAVELLER.stage.1=我需要創造能讓我旅途輕鬆些的物品。我應該對運動力學多加測試，以找出改善的方法。
@@ -1433,7 +1435,7 @@ research.PAVINGSTONES.stage.2=<PAGE>§o旅行路磚§r<DIV>只要改變奧術石
 #
 research.ELEMENTALTOOLS.title=元素工具
 research.ELEMENTALTOOLS.stage.1=隨著注魔的發現，我應該試著將原初元素融入工具與武器之中。如果我沒弄錯的話這應該能使之獲得獨特而強大的性能。 <BR>我應該在初步的實驗堅持與用靛鐵工具——容易用於注魔，將來這會是個不錯的實驗基材。
-research.ELEMENTALTOOLS.stage.2=我制定了能對我做的靛鐵工具進行注魔的儀式。如果我沒算錯，它們將能獲得一些獨特而有趣的能力。 <PAGE>§o奔流之斧§r<DIV>將水之碎片與靛鐵斧融合，使我設計出的工具充分展現了動態、流動的要素。 <BR>這把斧頭砍什麼都和一般的斧頭無異，除非用於天然的原木與樹木。使用於這些樹木時，這把斧頭會搜索與你正在採集的方塊相連的部分，並從最遙遠的相同方塊開始採集。 <BR>具體來說就是當你揮砍樹最底部的方塊時樹會由上而下被砍除。 <BR>任何以這種方式砍下的木頭都會自動飄向你。 <BR>當你持斧頭按右鍵時斧頭會將附近所有物品拉向你——不只是剛敲下的木頭。 <BR>按住 shift 時斧頭的特殊能力會被抑制，只能作為普通斧頭。 <PAGE>§o炙心之鎬§r<DIV>將火之碎片注入靛鐵鎬中，我設計了一把如鍛爐般發熱的鎬子。 <BR>當你開採礦物方塊時有機會開採出礦簇。原生礦簇較易於加工，熔煉時可以製出雙倍的金屬。 <BR>你還能持這把鎬右鍵來對任何表面發出聲波，以尋找附近有哪些有價值的礦物。 <BR>按住 shift 時鎬子的特殊能力會被抑制，只能作為普通鎬子。 <PAGE>§o風雷之劍§r<DIV>我合併了帶有狂風元素的碎片與靛鐵劍。 <BR>砍向敵人時這把利刃會掃出一道弧形風刃，攻擊你主要目標周圍的敵人。 <BR>用於格檔時這把劍會喚出一股環繞於你的的旋風，推開敵人並檔開任何飛來的投射物。 <BR>格檔的同時會使你緩慢地升上空中。 <PAGE>§o地動之鏟§r<DIV>融合地之碎片與靛鐵鏟使我製出了非凡的挖掘工具。 <BR>用來挖土的同時也會挖下周圍3x3相同材質的方塊。 <BR>當你用這把鏟子在一顆方塊的表面右鍵時，它會從你的物品欄中取出相同材質的方塊試圖填進那個3x3的區塊。 <BR>挖掘或填放的角度取決於你挖掘或點擊的表面。 <BR>按住 shift 時你可以看見方塊會如何放置，你可以按「G」來變更方塊擺放的範圍。方塊擺放角度可以是平行，或是垂直或水平豎於表面。 <BR>按住 shift 時鏟子將不會挖下3x3的方塊。 <PAGE>§o促生之鋤§r<DIV>將秩序與混沌碎片融入靛鐵鋤，我創造出一把絕倫的農具。 <BR>整地時可以一次處理3x3範圍，而非單格。 <BR>當用於作物時可以像使用骨粉一樣促進生長，雖然這麼做對耐久度影響不小。它也能促進一些骨粉無法作用的作物生長。 <BR>按住 shift 時鋤頭的特殊能力會被抑制，只能作為普通鋤頭。
+research.ELEMENTALTOOLS.stage.2=我制定了能對我做的靛鐵工具進行注魔的儀式。如果我沒算錯，它們將能獲得一些獨特而有趣的能力。 <PAGE>§o奔流之斧§r<DIV>將水之碎片與靛鐵斧融合，使我設計出的工具充分展現了動態、流動的要素。 <BR>這把斧頭砍什麼都和一般的斧頭無異，除非用於天然的原木與樹木。使用於這些樹木時，這把斧頭會搜索與你正在採集的方塊相連的部分，並從最遙遠的相同方塊開始採集。 <BR>具體來說就是當你揮砍樹最底部的方塊時樹會由上而下被砍除。 <BR>任何以這種方式砍下的木頭都會自動飄向你。 <BR>當你持斧頭按右鍵時斧頭會將附近所有物品拉向你——不只是剛敲下的木頭。 <BR>按住 shift 時斧頭的特殊能力會被抑制，只能作為普通斧頭。 <PAGE>§o炙心之鎬§r<DIV>將火之碎片注入靛鐵鎬中，我設計了一把如鍛爐般發熱的鎬子。 <BR>當你開採礦物方塊時有機會開採出礦簇。原生礦簇較易於加工，熔煉時可以製出雙倍的金屬。 <BR>你還能持這把鎬右鍵來對任何表面發出聲波，以尋找附近有哪些有價值的礦物。 <BR>按住 shift 時鎬子的特殊能力會被抑制，只能作為普通鎬子。 <PAGE>§o風雷之劍§r<DIV>我合併了帶有狂風元素的碎片與靛鐵劍。 <BR>砍向敵人時這把利刃會掃出一道弧形風刃，攻擊你主要目標周圍的敵人。 <BR>用於格檔時這把劍會喚出一股環繞於你的的旋風，推開敵人並檔開任何飛來的投射物。 <BR>格檔的同時會使你緩慢地升上空中。 <PAGE>§o地動之鏟§r<DIV>融合地之碎片與靛鐵鏟使我製出了非凡的挖掘工具。 <BR>用來挖土的同時也會挖下周圍3x3相同材質的方塊。 <BR>當你用這把鏟子在一顆方塊的表面右鍵時，它會從物品欄中取出相同材質的方塊試圖填進那個3x3的區塊。 <BR>挖掘或填放的角度取決於你挖掘或點擊的表面。 <BR>按住 shift 時你可以看見方塊會如何放置，你可以按「G」來變更方塊擺放的範圍。方塊擺放角度可以是平行，或是垂直或水平豎於表面。 <BR>按住 shift 時鏟子將不會挖下3x3的方塊。 <PAGE>§o促生之鋤§r<DIV>將秩序與混沌碎片融入靛鐵鋤，我創造出一把絕倫的農具。 <BR>整地時可以一次處理3x3範圍，而非單格。 <BR>當用於作物時可以像使用骨粉一樣促進生長，雖然這麼做對耐久度影響不小。它也能促進一些骨粉無法作用的作物生長。 <BR>按住 shift 時鋤頭的特殊能力會被抑制，只能作為普通鋤頭。
 #
 research.ARMORFORTRESS.title=靛鐵城寨甲冑
 research.ARMORFORTRESS.stage.1=靛鐵盔甲擁有許多值得推薦的優點，但其基本結構使它無法媲美鑽石盔甲。 我該想個辦法來加強結構製程與複雜性。
@@ -1693,8 +1695,8 @@ research.MINDBIOTHAUMIC.stage.1=如同我所預期，我製作的發條中樞能
 research.MINDBIOTHAUMIC.stage.2=起初我有些猶豫，但很快就克服了我內心的不安，並深入鑽研秘術生體學——將血肉、機械與魔法合而為一。 <BR>成果令人振奮，我能將取出的灰質注入發條中樞，製成性能更強的思考中樞。 <BR>這同時也讓我能夠製作出比現有版本更加複雜的印記。 <BR>這種思考中樞的另一項優勢是給予傀儡學習的能力。完成工作時傀儡會獲得經驗並升級。更高的等級使傀儡獲得額外的生命值、速度與攻擊力。 <BR>傀儡的初始等級為0，上限為10。<BR>取下傀儡時等級會被重置。
 #
 research.SEALCOLLECT.title=控制印記：收集
-research.SEALCOLLECT.stage.1=This seal will constantly check an area I have defined for dropped items. If items are found, it will instruct any nearby golems to pick up those items.<BR>I can define the exact dimensions of the area as well as filter out certain items using a whitelist or blacklist.
-research.SEALCOLLECT.stage.ADV=I can now craft an advanced version of this seal that allows filtering more items at once. It also gives greater control over how the items are filtered, though golems need to be much smarter to perform tasks created by this seal.<BR>I can choose to have the seal ignore NBT or damage values when filtering items, or use the ore dictionary, or to have the seal filter items from the same mod as those included in the filter.
+research.SEALCOLLECT.stage.1=這顆印記會持續檢測指定區域中的掉落物。當發現物品時會指示附近的傀儡將物品撿起。 <BR>我可以指定檢測的確切範圍，也能利用黑白名單篩選物品。
+research.SEALCOLLECT.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。
 #
 research.SEALSTORE.title=控制印記：儲存
 research.SEALSTORE.stage.1=This seal can be placed on the side of a container. It will designate the container as a possible destination for any items that golems nearby happen to be holding. As long as the container can accept it, the golems will deliver the item.<BR>You can filter out certain items using a white- or blacklist.<BR>For the white list you can also specify a specific number of items that must be placed in the inventory. By default this number is infinite (marked with a gold star).<BR>If placed against a non-container block the golem will simply drop items at that location.<BR>Like with inventories you can also specify a specific number of items with the white list. Any items located in the world within a 1 block radius of the seal will be counted.
