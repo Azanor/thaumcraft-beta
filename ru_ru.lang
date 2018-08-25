@@ -41,7 +41,7 @@ item.celestial_notes.moon_8.text=Луна, Прибывающая
 #
 item.amber.name=Янтарь
 item.quicksilver.name=Ртуть
-item.crystal_essence.name=Вис-кристалл
+item.crystal_essence.name=Вис-кристалл %s
 item.ingot.thaumium.name=Слиток таумиума
 item.ingot.void.name=Слиток пустотного металла
 item.ingot.brass.name=Слиток алхимической латуни
@@ -94,7 +94,7 @@ item.chunk.mutton.name=Кусочек баранины
 item.brain.name=Мозг зомби
 item.triple_meat_treat.name=Лакомство из тройного мяса
 item.phial.empty.name=Стеклянный пузырёк
-item.phial.filled.name=Пузырёк с эссенцией
+item.phial.filled.name=Пузырёк с эссенцией %s
 item.label.blank.name=Пустая бирка
 item.label.filled.name=Помеченная бирка
 item.jar_brace.name=Латунная крышка
