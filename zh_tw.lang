@@ -193,7 +193,7 @@ item.charm_undying.name=不死護符
 #
 item.caster_basic.name=魔導籠手
 item.focus_1.name=空白低階核心
-item.focus_2.name=空白進階核心
+item.focus_2.name=空白高等核心
 item.focus_3.name=空白卓越核心
 item.Focus.cost1=魔素/每次施放
 item.focus_pouch.name=核心腰包
@@ -203,7 +203,7 @@ item.focus_pouch.name=核心腰包
 #
 item.creative_flux_sponge.name=咒波海綿
 item.turret.basic.name=自動十字弩
-item.turret.advanced.name=進階自動十字弩
+item.turret.advanced.name=高等自動十字弩
 item.turret.bore.name=奧術鑽掘機
 item.enchanted_placeholder.name=任意附魔物件
 item.enchanted_placeholder.text=必須擁有以下附魔：
@@ -215,15 +215,15 @@ item.golem_bell.name=傀儡師鈴鐺
 item.golem.name=傀儡
 item.seal.blank.name=空白印記
 item.seal.pickup.name=控制印記：收集
-item.seal.pickup_advanced.name=進階控制印記：收集
+item.seal.pickup_advanced.name=高等控制印記：收集
 item.seal.fill.name=控制印記：儲存
-item.seal.fill_advanced.name=進階控制印記：儲存
+item.seal.fill_advanced.name=高等控制印記：儲存
 item.seal.empty.name=控制印記：淨空
-item.seal.empty_advanced.name=進階控制印記：淨空
+item.seal.empty_advanced.name=高等控制印記：淨空
 item.seal.harvest.name=控制印記：收成
 item.seal.butcher.name=控制印記：屠夫
 item.seal.guard.name=控制印記：守衛
-item.seal.guard_advanced.name=進階控制印記：守衛
+item.seal.guard_advanced.name=高等控制印記：守衛
 item.seal.lumber.name=控制印記：伐木工
 item.seal.breaker.name=控制印記：方塊破壞者
 item.seal.use.name=控制印記：使用
@@ -410,7 +410,7 @@ tile.nitor_black.name=黑色明耀之源
 tile.metal_thaumium.name=靛鐵磚
 tile.metal_void.name=虛鋼磚
 tile.metal_alchemical.name=煉金構材
-tile.metal_alchemical_advanced.name=進階煉金構材
+tile.metal_alchemical_advanced.name=高等煉金構材
 tile.metal_brass.name=黃銅磚
 tile.flesh_block.name=血肉方塊
 tile.paving_stone_barrier.name=結界石
@@ -534,7 +534,7 @@ entity.CultistPortalLesser.name=小型緋色傳送門
 entity.EldritchCrab.name=異象魔蟹
 entity.InhabitedZombie.name=蹣跚屍軀
 entity.TurretBasic.name=自動十字弩
-entity.TurretAdvanced.name=進階自動十字弩
+entity.TurretAdvanced.name=高等自動十字弩
 entity.FocusProjectile.name=核心投彈
 entity.FocusCloud.name=核心雲霧
 entity.FocusMine.name=核心地雷
@@ -1056,7 +1056,7 @@ tc.inst.2=§5中等§0
 tc.inst.3=§e高§0
 tc.inst.4=§6極高§0
 tc.inst.5=§4危險§0
-tc.adv=進階
+tc.adv=高等
 tc.resonator1=§9帶有 %1$s %2$s 源質§0
 tc.resonator2=§5吸力 %1$s %2$s§0 
 tc.resonator3=未歸類
@@ -1360,7 +1360,7 @@ research.THAUMATORIUM.title=煉金自動化
 research.THAUMATORIUM.stage.1=煉金過程總會遇到一些挫折與失誤——算錯要素、源質降解，而且材料需要勞心費神手動混合。 我受夠了。 <BR>現在我有了純粹的液態源質，我應該改善整個煉金過程。
 research.THAUMATORIUM.stage.2=我發明了一項自動裝置，並命名為秘術煉成機。就像其他複合式裝置一樣需要利用世界鹽來製作。 <BR>秘術煉成機是能讓秘術師選擇煉成公式與觸媒的一項神奇發明。可以透過管道中自動抽取所需的源質。只需提供觸媒，它就能完美地持續合成每項物品。 <BR>底座的的坩堝並不需要添水，但其下方依舊需要提供熱源。<LINE>開啟該設備後會看見一些格子。左上方的格子用來放置觸媒。 放置好後便能在右上方的可成列表中選擇欲合成的配方。 <BR>右邊會列出所需的源質，裝置運作時還會顯示出進度條。 <BR>製成的物品會從設備前方彈出或者投入放置於彈射口位置的容器中。<LINE>一般來說一個秘術煉成機只能同時使用一組配方，但在其周圍安附記憶方體就能增加它同時掌握的配方數量。 <BR>每個記憶方體能夠增添2組配方。
 #
-research.ESSENTIATRANSPORT.title=進階源質運輸
+research.ESSENTIATRANSPORT.title=高等源質運輸
 research.ESSENTIATRANSPORT.stage.1=進行注魔合成時，源質會直接被抽離罐子，並穿過空氣飄向注魔矩陣。矩陣的魔力足以維持其穩定並用於注魔，但一般而言源質化為這種型態後會失去穩定，無法再作其他用途。 <BR>但願我能找出除了注魔以外也能隔空抽取源質的方法，而且還必須保持其穩定。
 research.ESSENTIATRANSPORT.stage.2=我破解出了不利用注魔而能維持氣態源質的原理。 <BR>我畫下了一對裝置的設計圖。填充源質傳輸器可以從管道網或其他來源提取源質，並傳輸到其前方16格內的罐子中。 <BR>相對的，抽取源質傳輸器則是從範圍內的罐子中抽取源質，送入管道或是其他需要用到源質的裝置。
 #
@@ -1552,13 +1552,13 @@ research.BASEAUROMANCY.stage.2=利用煉金術來製作核心確實可行。核�
 research.BASEAUROMANCY.stage.3=一切都就緒了。現在我要製作我第一顆核心。 <BR>將處理過的魔素結晶安置在空白的核心上，我能透過紋章決定核心的作用效果。目前我知道的文章只有§n根源§0、§n接觸§0以及§n火§0。<BR>§n根源§0節點代表著我，施法者本身。它在核心操作台介面上顯示為一個眼睛圖示。其下方的節點同時著有目標與軌跡圖示。媒介（例如§n接觸§0）需要以軌跡來決定其效果——§n根源§0節點提供一個符合施法者視線的軌跡來與§n接觸§0連結，使我能「接觸」任何我看著的物體。媒介必定會提供目標（在這個例子中是指任何被「接觸到」的物體），有些也能提供軌跡。這個例子中我需要的是一個目標來讓我連接§n火§0效應。 <BR>我只要依序連接§n根源§0、§n接觸§0和§n火§0即可製作出一顆核心，能將§n火§0效應作用於任何接觸到的物體。<BR>理論上我也能直接將§n火§0接在§n根源§0下，然而根源會將施術者設為目標，這意味著我會引火自焚。 <BR>我可以透過介面右下的按鈕精確調整§n火§0效應的傷害與燃燒時間。許多紋章都能讓我用這種方式微調。 <BR>製作一個核心需要用到三種資源——首先是製造時使用的的結晶，其次是靈氣中的魔素，最後，它還需要一些玩家經驗值。而每次使用核心時也會稍微消耗靈氣中的魔素。 <PAGE>§n複雜度§0<BR>我目前能達成的效果相當簡易而受限。受限於我嵌入核心的紋章。一般而言稱為核心複雜度。每種文章都有其基本複雜度，而增加其參數（例如火紋章的傷害量）也會進一步增加其複雜度。同一種紋章使用超過一次也會導致額外累加50%的複雜度。 <BR>核心的複雜度決定了施法時的魔素消耗量以及每次施放後魔導籠手的冷卻時間。
 research.f_onfire.text=貼近火源進行研究。
 #
-research.FOCUSADVANCED.title=進階法術核心
+research.FOCUSADVANCED.title=高等法術核心
 research.FOCUSADVANCED.stage.1=低階法術核心顯然無法承載較複雜的紋章。發現注魔後我有了新的製作手法，希望這能協助我製作出精緻的法術核心以便承載複雜紋章。
-research.FOCUSADVANCED.stage.2=取低階核心並注入水銀的流動性以及鑽石與終界珍珠的複雜晶格結構，我製作出了內部結構更複雜的進階核心。
+research.FOCUSADVANCED.stage.2=取低階核心並注入水銀的流動性以及鑽石與終界珍珠的複雜晶格結構，我製作出了內部結構更複雜的高等核心。
 #
 research.FOCUSGREATER.title=卓越法術核心
-research.FOCUSGREATER.stage.1=我在進階法術核心中遇上了瓶頸。其內部晶格相當複雜，我卻無法用任何工法、煉金術或注魔來進一步強化。但我還有其他選項。 <BR>與其試圖增進複雜度，我或許應該加大核心本身——與其在盒子裡塞更多東西不如加大盒子本身。 <BR>當然，法術核心的尺寸是有意義的，若徒增其物理上的尺寸將會弄巧成拙。我應該要利用相位魔法來增加其抽象意義上的尺寸。原初明珠容納著壓縮的龐大能量。我應該進行研究以重現其特性。
-research.FOCUSGREATER.stage.2=我將法術核心的複雜度提升了接近兩倍。將原初明珠的能量容納性質以及地獄之星的緻密結構注入進階核心，我製造出了更大的核心——魔術意義上說法。外觀上的尺寸與一般核心相同，但明顯更沉重。
+research.FOCUSGREATER.stage.1=我在高等法術核心中遇上了瓶頸。其內部晶格相當複雜，我卻無法用任何工法、煉金術或注魔來進一步強化。但我還有其他選項。 <BR>與其試圖增進複雜度，我或許應該加大核心本身——與其在盒子裡塞更多東西不如加大盒子本身。 <BR>當然，法術核心的尺寸是有意義的，若徒增其物理上的尺寸將會弄巧成拙。我應該要利用相位魔法來增加其抽象意義上的尺寸。原初明珠容納著壓縮的龐大能量。我應該進行研究以重現其特性。
+research.FOCUSGREATER.stage.2=我將法術核心的複雜度提升了接近兩倍。將原初明珠的能量容納性質以及地獄之星的緻密結構注入高等核心，我製造出了更大的核心——魔術意義上說法。外觀上的尺寸與一般核心相同，但明顯更沉重。
 #
 research.FOCUSELEMENTAL.title=元素效應
 research.FOCUSELEMENTAL.stage.1=利用目前所學的基本原理來利用其他元素對我來說應該是小事一樁。
@@ -1643,14 +1643,14 @@ research.VISBATTERY.title=魔素槽
 research.VISBATTERY.stage.1=自然界的魔素水晶就像飾魔素的「電池」。當環境中靈氣充裕時它會吸收靈氣，並在靈氣缺乏時釋出。然而這過程既緩慢又不可靠。 <BR>利用研究魔素水晶成長過程時學到的知識，我應該能自己製造出更加可靠的魔素儲存槽。
 research.VISBATTERY.stage.2=我成功地製造出了魔素槽。 <BR>若當地的魔素高於平常容量的95%，魔素槽會吸收魔素，並在靈氣降至75%以下時釋出。 <BR>這多少有些缺點。即使它遠比自然界的水晶更可靠，魔素槽依舊需要一些時間來反應靈氣的變化。另一個缺點在於容量。它只能儲存10點魔素。我試圖改善但結果相當慘烈。我想這只意味著投入實用所需要的數量更多。 <BR>紅石訊號不只能停止魔素槽作用，還會快速的將魔素槽中所有的魔素釋放回靈氣中。
 #
-research.BASICTURRET.title=Automated Crossbow
-research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders. 
-research.BASICTURRET.stage.2=I have found a way to give a crossbow a mind of its own, turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile monsters it detects within range. Unfortunately its limited mind does not allow me to fine tune its targets.<BR>It has a very limited internal inventory, but if I place it over an upward facing dispenser it will automatically reload itself from that inventory.<BR>Right clicking on it while sneaking will pick it up.<PAGE>The turret can ride in a minecart and will reload from a dispenser placed underneath the track.<BR>Passing over an arcane activator rail will change the behaviour of the turret. If the rail is active it will disable the turret. Passing over an inactive rail will enable it again.
-research.f_DISPENSER.text=Examine something that can launch objects.
+research.BASICTURRET.title=自動十字弩
+research.BASICTURRET.stage.1=一再受到流浪怪物侵擾，使我開始考慮強化自宅警備。我應該設計一些自動裝置來防止非預期的外患。
+research.BASICTURRET.stage.2=我找到了給予十字弩自我意識的方法，使它成為一台簡單的自動砲台。 <BR>放置後會自動攻擊射程內的任何敵對怪物。遺憾的是我無法控制其有限的思維來篩選特定目標。 <BR>它的容量相當有限，但若在其下方放置一台朝上的投擲器就可以自動裝填其彈槽。 <BR>潛行時右鍵輕觸可以撿起弩砲。 <PAGE>砲台可以裝進礦車，並利用鐵軌下的投擲器進行裝填。 <BR>通過奧術觸發鐵軌可以切換砲台的狀態。啟動的奧術觸發鐵軌可以暫停弩砲運作，而未啟動的鐵軌則能讓砲台重新恢復運作。
+research.f_DISPENSER.text=做一些關於射擊物件的實驗。
 #
-research.ADVANCEDTURRET.title=Advanced Automated Crossbow
-research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
-research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly, it is possible to specify the type of targets it can attack.
+research.ADVANCEDTURRET.title=高等自動十字弩
+research.ADVANCEDTURRET.stage.1=最近關於進階奧術中樞的研究成果使我能夠自動砲台進行一些必要的改進。
+research.ADVANCEDTURRET.stage.2=高等自動十字弩運作方式與基本款雷同，但加上了幾項顯著的改善。 <BR>額外的鐵板使它更加堅固，更複雜的裝填機關給予它更高的發射速度。 <BR>最後一點，可以指定其攻擊目標的類型。
 #
 ##########################################
 # GOLEMANCY
@@ -1709,16 +1709,16 @@ research.MINDBIOTHAUMIC.stage.2=起初我有些猶豫，但很快就克服了我
 #
 research.SEALCOLLECT.title=控制印記：收集
 research.SEALCOLLECT.stage.1=這顆印記會持續檢測指定區域中的掉落物。當發現物品時會指示附近的傀儡將物品撿起。 <BR>我可以指定檢測的確切範圍，也能利用黑白名單篩選物品。
-research.SEALCOLLECT.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。
+research.SEALCOLLECT.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。
 #
 research.SEALSTORE.title=控制印記：儲存
 research.SEALSTORE.stage.1=這顆印記可以貼在容器側面。它可以將容器指定為傀儡的物品接收處。只要容器允許，傀儡就會把手上的物品裝進去。 <BR>你也可以用黑/白名單篩選各種物品。 <BR>你也能利用白名單指定容器中特定物品的數量，預設為無限（以金色星號表示）。 <BR>如果印記不是貼在容器上，傀儡會直接把物品丟向該處。 <BR>你也可以指定該處的物品數量，與用於容器時無異。印記半徑一格內的物品都會納入計算。
-research.SEALSTORE.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>若白名單有指定物品數量，所有符合篩選條件的物品都會被計入。
+research.SEALSTORE.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>若白名單有指定物品數量，所有符合篩選條件的物品都會被計入。
 #
 research.SEALEMPTY.title=控制印記：淨空
 research.SEALEMPTY.stage.1=我可以指示傀儡撿起並存放物品，但或許我也會需要從容器中尋找物品。 <BR>設計這種印記應該不會太困難。
 research.SEALEMPTY.stage.2=這種印記作用與儲存相反。它會清空指定容器中的物品。附近的任何傀儡都會取出容器中的物品並拿在手上。你需要利用其他印記指示傀儡對手中的物品進行其他操作。 <BR>你可以篩選特定物品或是將特定物品除外。
-research.SEALEMPTY.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>你也可以讓印記依列表順序一次只篩選一項物品。
+research.SEALEMPTY.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>你也可以讓印記依列表順序一次只篩選一項物品。
 #
 research.SEALPROVIDE.title=控制印記：供給
 research.SEALPROVIDE.stage.1=I should design a refinement of the Empty seal that will only remove items that are specifically requested by other seals.
