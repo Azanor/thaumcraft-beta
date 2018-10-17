@@ -689,7 +689,7 @@ golem.addon.text.fighter=允许傀儡进行战斗。
 golem.addon.hauler=置物架
 golem.addon.text.hauler=允许傀儡携带2组物品，而非通常的1组。
 #
-golem.follow=吾主，我将追随您
+golem.follow=我将跟随您，吾主
 golem.stay=我将在此待命，吾主
 #
 # Fluids
@@ -756,8 +756,8 @@ focus.common.friend=友好
 focus.common.enemy=敌对
 focus.common.none=否
 focus.common.options=选项
-focus.fire.burn=燃烧时间
-focus.scatter.cone=散角（度）
+focus.fire.burn=燃烧时间（秒）
+focus.scatter.cone=散射角（度）
 focus.scatter.forks=投射物分岔
 focus.projectile.speed=投射物速度
 focus.projectile.bouncy=弹跳
