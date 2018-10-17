@@ -28,20 +28,20 @@ item.celestial_notes.stars_1.text=星空-北方象限
 item.celestial_notes.stars_2.text=星空-南方象限
 item.celestial_notes.stars_3.text=星空-西方象限
 item.celestial_notes.stars_4.text=星空-東方象限
-item.celestial_notes.moon_1.text=月-滿月
-item.celestial_notes.moon_2.text=月-虧凸月
-item.celestial_notes.moon_3.text=月-下弦月
-item.celestial_notes.moon_4.text=月-殘月
-item.celestial_notes.moon_5.text=月-新月
-item.celestial_notes.moon_6.text=月-蛾眉月
-item.celestial_notes.moon_7.text=月-上弦月
-item.celestial_notes.moon_8.text=月-盈凸月
+item.celestial_notes.moon_1.text=月相-滿月
+item.celestial_notes.moon_2.text=月相-虧凸月
+item.celestial_notes.moon_3.text=月相-下弦月
+item.celestial_notes.moon_4.text=月相-殘月
+item.celestial_notes.moon_5.text=月相-新月
+item.celestial_notes.moon_6.text=月相-蛾眉月
+item.celestial_notes.moon_7.text=月相-上弦月
+item.celestial_notes.moon_8.text=月相-盈凸月
 #
 # Resources
 #
 item.amber.name=琥珀
 item.quicksilver.name=水銀
-item.crystal_essence.name=魔素水晶
+item.crystal_essence.name=%s 魔素結晶
 item.ingot.thaumium.name=靛鐵錠
 item.ingot.void.name=虛鋼錠
 item.ingot.brass.name=煉成黃銅錠
@@ -94,7 +94,7 @@ item.chunk.mutton.name=羊肉塊
 item.brain.name=殭屍腦袋
 item.triple_meat_treat.name=三層肉饌
 item.phial.empty.name=玻璃管型瓶
-item.phial.filled.name=源質管型瓶
+item.phial.filled.name=%s 源質管型瓶
 item.label.blank.name=空白標籤
 item.label.filled.name=標記標籤
 item.jar_brace.name=黃銅蓋箍
@@ -193,7 +193,7 @@ item.charm_undying.name=不死護符
 #
 item.caster_basic.name=魔導籠手
 item.focus_1.name=空白低階核心
-item.focus_2.name=空白進階核心
+item.focus_2.name=空白高等核心
 item.focus_3.name=空白卓越核心
 item.Focus.cost1=魔素/每次施放
 item.focus_pouch.name=核心腰包
@@ -203,7 +203,7 @@ item.focus_pouch.name=核心腰包
 #
 item.creative_flux_sponge.name=咒波海綿
 item.turret.basic.name=自動十字弩
-item.turret.advanced.name=進階自動十字弩
+item.turret.advanced.name=高等自動十字弩
 item.turret.bore.name=奧術鑽掘機
 item.enchanted_placeholder.name=任意附魔物件
 item.enchanted_placeholder.text=必須擁有以下附魔：
@@ -215,15 +215,15 @@ item.golem_bell.name=傀儡師鈴鐺
 item.golem.name=傀儡
 item.seal.blank.name=空白印記
 item.seal.pickup.name=控制印記：收集
-item.seal.pickup_advanced.name=進階控制印記：收集
+item.seal.pickup_advanced.name=高等控制印記：收集
 item.seal.fill.name=控制印記：儲存
-item.seal.fill_advanced.name=進階控制印記：儲存
+item.seal.fill_advanced.name=高等控制印記：儲存
 item.seal.empty.name=控制印記：淨空
-item.seal.empty_advanced.name=進階控制印記：淨空
+item.seal.empty_advanced.name=高等控制印記：淨空
 item.seal.harvest.name=控制印記：收成
 item.seal.butcher.name=控制印記：屠夫
 item.seal.guard.name=控制印記：守衛
-item.seal.guard_advanced.name=進階控制印記：守衛
+item.seal.guard_advanced.name=高等控制印記：守衛
 item.seal.lumber.name=控制印記：伐木工
 item.seal.breaker.name=控制印記：方塊破壞者
 item.seal.use.name=控制印記：使用
@@ -410,7 +410,7 @@ tile.nitor_black.name=黑色明耀之源
 tile.metal_thaumium.name=靛鐵磚
 tile.metal_void.name=虛鋼磚
 tile.metal_alchemical.name=煉金構材
-tile.metal_alchemical_advanced.name=進階煉金構材
+tile.metal_alchemical_advanced.name=高等煉金構材
 tile.metal_brass.name=黃銅磚
 tile.flesh_block.name=血肉方塊
 tile.paving_stone_barrier.name=結界石
@@ -450,6 +450,7 @@ enchantment.infusion.SOUNDING=聲納
 enchantment.infusion.REFINING=精煉
 enchantment.infusion.ARCING=弧斬
 enchantment.infusion.ESSENCE=元素收割
+enchantment.infusion.LAMPLIGHT=點燈
 #
 # Potions
 ###################################
@@ -533,7 +534,7 @@ entity.CultistPortalLesser.name=小型緋色傳送門
 entity.EldritchCrab.name=異象魔蟹
 entity.InhabitedZombie.name=蹣跚屍軀
 entity.TurretBasic.name=自動十字弩
-entity.TurretAdvanced.name=進階自動十字弩
+entity.TurretAdvanced.name=高等自動十字弩
 entity.FocusProjectile.name=核心投彈
 entity.FocusCloud.name=核心雲霧
 entity.FocusMine.name=核心地雷
@@ -771,6 +772,9 @@ focus.heal.power=治癒力
 #
 # GUI
 ###################
+workbench.available=可用
+workbench.discount=抵免
+workbench.cost=魔素
 recipe.return=返回
 recipe.clickthrough=點擊以查看
 recipe.unknown=尚未習得這項製程
@@ -936,7 +940,7 @@ card.channel.name=傳輸%1$s源質
 card.channel.text=你建立了一個簡單的實驗來測試%1$s的注魔傳輸機制。 獲得25注魔。
 #
 card.infuse.name=試驗性注魔
-card.infuse.text=先假設某些物件注魔後的結果再實際進行注魔，可以增進你寶貴的洞察力。 將%1$s源質融合%2$s並研究其成果可以使你受益良多。 獲得%3$s注魔。
+card.infuse.text=先假設某些物件注魔後的結果，並實際進行注魔，可以增進你寶貴的洞察力。 將%1$s源質融合%2$s並研究其成果可以使你受益良多。 獲得%3$s注魔。
 #
 # ARTIFICE
 card.calibrate.name=校準
@@ -1174,13 +1178,13 @@ research.Wisp.stage.1=這些神奇的生物看起來就像漂浮的光點，時�
 #
 research.ThaumSlime.stage.1=這些紫色史萊姆是其綠色遠親的一個奇特分歧種。普通的史萊姆是從滲入洞穴中的有機淤泥中生成，而玄秘史萊姆是由魔法失敗所殘留下的紫色原始物質凝聚而成。 <BR>與它們綠色的遠親相較之下除了那異常的起源外幾乎大同小異。它們擁有主動分離自己身體的能力，會對接近它的目標噴吐小型的史萊姆。而當周圍沒有攻擊目標時，分離的史萊姆將互相吸引，重新結合成一團更大的個體。
 #
-research.Firebat.stage.1=焱蝠，稱為地獄蝙蝠的動物通常在地獄出沒。那個地方非常適合這種凶暴且渾身浴火的生物。而且它們還會在攻擊時將自己引爆。 <BR>令人納悶的是怎樣的演化優勢才導致它們成為如此爆炸性的物種，然而這項疑問同時也適用於苦力怕。
+research.Firebat.stage.1=焱蝠，或稱為地獄蝙蝠，通常出現在地獄。那個地方非常適合這種凶暴且渾身浴火的生物。而且它們還會在攻擊時將自己引爆。 <BR>令人納悶的是怎樣的演化優勢才導致它們成為如此爆炸性的物種，然而這項疑問同時也適用於苦力怕。
 #
 research.BrainyZombie.stage.1=我發現有些殭屍似乎比它們的皓呆同類來的清醒。在它們雙眼燃燒的惡意使我確信他們在死後保留著更多的意識。它們無疑比普通殭屍更加的凶惡危險。 <BR>它們應該可以在我的研究中擔任良好的腦袋素材。
 #
 research.EldritchGuardian.stage.1=這些彷彿幽靈般的人型是相當危險的威脅。它們容易出現在現實交界較薄弱的場所。我認為它們是這些這些場所的守衛，防止那些脆弱處受入侵者突破。 <BR>它們似乎是由其他次元面的能量所構成，導致無法在我們的世界發揮原本的力量。希望我不會在這些傢伙所謂的「家」中遇上它們。 <BR>光是被它們碰觸就足以使人喪命，距離太遠時還會投射混沌能量進行攻擊。
 #
-research.EldritchCrab.stage.1=異象魔蟹，這個被稱為頭盔蟹的東西可說是最不尋常、不自然的動物。我敢說這些生命肯定是用魔法拼湊出來的。 <BR>那對強大的雙螯在戰鬥中充滿威脅，然而真正令人恐懼的是那對大螯的使用方式。它們會跳向敵人的頭部並試圖斬下對方的腦袋。成功得手後它們會以某種方式深入犧牲者，並操控遺留下的軀殼。而它們那顆像是戴了頭盔的腹部在控制了屍軀後成了完美的擬態。 <BR>然而這些軀殼並沒有比普通的殭屍強大多少，所以它們這麼做的原因是為了使我大意——少了「坐騎」的它們更具威脅。或許它們是瘋狂學家所創造出來的恐怖兵器？
+research.EldritchCrab.stage.1=異象魔蟹，或稱為頭盔蟹，可說是最不尋常、不自然的動物。我敢說這些生命肯定是用魔法拼湊出來的。 <BR>那對強大的雙螯在戰鬥中充滿威脅，然而真正令人恐懼的是那對大螯的使用方式。它們會跳向敵人的頭部並試圖斬下對方的腦袋。成功得手後它們會以某種方式深入犧牲者，並操控遺留下的軀殼。而它們那顆像是戴了頭盔的腹部在控制了屍軀後成了完美的擬態。 <BR>然而這些軀殼並沒有比普通的殭屍強大多少，所以它們這麼做的原因是為了使我大意——少了「坐騎」的它們更具威脅。或許它們是瘋狂學家所創造出來的恐怖兵器？
 #
 research.CrimsonCultist.title=緋色崇拜
 research.CrimsonCultist.stage.1=最近出現了一群紅袍的邪教徒。他們似乎不願意與我對話，所以我無法得知他們的目的。不僅如此，這些傢伙相當...不對勁。他們的理智似乎趨於斷線，而他們犯下的錯更勝於此。我很難跟你解釋。 <BR>我的存在似乎惹毛了他們，我相信應該是因為我擁有秘術的才能。 <BR>它們的僧侶雖然有汲取靈氣施放魔法的能力，但那些魔法似乎不是秘術。不論那是什麼都使我感到毛骨悚然，每當他們汲取靈氣時我都能感受到靈氣被拉扯、撕裂。 <BR>某些信徒似乎帶著一本書。我覺得我該想辦法弄來一本，或許那能讓我對這詭異的宗教有所瞭解。我必須保持謹慎，有些知識會帶來危險。
@@ -1191,7 +1195,7 @@ research.CrimsonRites.stage.2=書上大多是些扭曲、難以理解的潦草�
 #
 research.TaintCrawler.stage.1=這些噁心的蛆蟲不管爬到哪都不停地散佈腐蝕液。一般而言這些腐蝕現象在離源頭太遠的地方很快就會消退，然而也有機會導致腐蝕漫延得更快。 <BR>最好在發現的當下立即撲殺。
 #
-research.Taintacle.stage.1=這些像觸手一樣的危險組織體會鞭向任何靠近它的物體。 <BR>即使你以為它們固定不動而拉開距離也無法保證你的安全，因為當它們注意到你時還會在你周圍伸出其他小觸手。
+research.Taintacle.stage.1=這些像觸手一樣的危險組織體會鞭向任何靠近它的物體。 <BR>雖然它們固定不動，但保持距離也無法保證你的安全，因為當它們注意到你時還會在你周圍伸出其他小觸手。
 #
 research.TaintSwarm.stage.1=有時受腐蝕的樹木會長出紫色的蜂巢狀組織。微小的螫人生物群會從中生成並蜂湧而出。 <BR>它們移動敏捷，難以閃避或擊落。幸運的是其個體還算脆弱，有做好準備的旅人應該能夠輕鬆處理。
 #
@@ -1235,7 +1239,7 @@ research.UNLOCKINFUSION.stage.2=我的實驗相當成功。 我已經能將源�
 #
 research.UNLOCKALCHEMY.title=探索煉金術
 research.UNLOCKALCHEMY.stage.1=釀造藥水簡單而有效，然而單純把怪物的器官搗在一起可不能稱為真正的煉成反應。 <BR>我認為源質在一個更加複雜的物質操作手法中扮演相當重要的關鍵。 <BR>我應該嘗試深入研究煉金術，了解它在這魔法世界中扮演的角色。 <BR>有了這些知識以及一些靈感，我相信我能妥善掌握秘術煉金。
-research.UNLOCKALCHEMY.stage.2=我最近的研究使我對世界的組成有了進一步的理解，我覺得似乎找到了能透過操作源質來改變物質的方法。 <BR>這方法需要能夠容納煉金基質的物品來進行實驗。簡單的釀造台無法達成目的——我需要的是一個神祕的坩堝。 <BR>鍋釜的尺寸與形狀符合需求，然而這樣的一個大鐵碗可沒辦法容納我想操作的魔法能量。 <BR>對這鍋釜也用上世界鹽應該能解決這問題。
+research.UNLOCKALCHEMY.stage.2=我最近的研究使我對世界的組成有了進一步的理解，我覺得似乎找到了能透過操作源質來改變物質的方法。 <BR>這方法需要能夠容納煉金基質的物品來進行實驗。簡單的釀造台無法達成目的——我需要的是一個神祕的坩堝。 <BR>鍋釜的尺寸與形狀符合需求，然而這樣的一個大鐵碗可沒辦法容納我想操作的魔法能量。 <BR>同樣的，對這鍋釜撒上世界鹽應該能解決我的問題。
 research.UNLOCKALCHEMY.stage.3=我的坩堝完成了！是時候來加以實驗了，而碰巧有項物品完美勝任第一個煉金實驗。我經常徹夜研讀秘術，而閃爍的火炬並不是良好的閱讀光源。我現在需要的正是個穩定的魔法光源。 <BR>螢石是一種穩定的光源，但是我需要充沛的光源，而且它缺乏...格調。我很確定我可以把它變得更好。 <BR>坩堝需要放置在熱源上並裝滿水。當水沸騰後我就可以開始添加我需要的東西。我寫出了一份配方，我認為應該能夠創造出我稱為明耀之源的物質。以能量、火、以及光來驅動小小的螢光核心，應該能使它永不熄滅。其重量應該輕盈地能讓我擺在任何位置——甚至是飄在半空中。 <BR>我只需要找到帶有所需源質的那些物件（按住 shift 並將游標指向物品應該能有所幫助）並將它們投入坩堝。 <BR>坩堝會將這些物件分解成構成它們的源質。我可能無法湊到剛好的源質組合，但只要總量足夠一切應該不會有問題。 <BR>當一切就緒的最後我只需要投入觸媒。在這個例子下是指螢石粉。 <BR>如果一切順利螢石會吸收源質而轉變成明耀之源。 <BR>我不確定多餘的源質會造成什麼現象，但我也只能假設它們最後會無害地消散。 <BR>［空手按住 shift +右鍵 可以清空坩堝。由於每次操作都會消耗一些水，所以你必須一再地重新為它添水。］
 #
 research.UNLOCKGOLEMANCY.title=探索傀儡學
@@ -1261,7 +1265,7 @@ research.ORE.crystal=§o魔素結晶§r<IMG>thaumcraft:textures/research/researc
 #
 research.PLANTS.title=植物
 research.PLANTS.stage.1=很多特殊的植物對秘術師而言相當實用。應該好好研究這些植物。
-research.PLANTS.silverwood=§o銀木§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>這些罕見的神奇樹木可說是奇景。它的葉片閃爍著奇妙的魔法能量，其蒼白而柔軟的木材的淨化特性相當貴重。 <BR>這種樹木更特殊的魔法特性是若使它自然生長，它會緩慢的補充周遭的靈氣——光是這項功能就使其樹苗擁有罕見的高價。
+research.PLANTS.silverwood=§o銀木§r<IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG>這些罕見的神奇樹木可說是奇景。它的葉片閃爍著奇妙的魔法能量，其蒼白而柔軟的木材的淨化特性相當貴重。 <BR>這種樹木具有一種魔法特性，自然生長的銀木會緩慢的補充周遭的靈氣——光是這項功能就使其樹苗擁有罕見的高價。
 research.PLANTS.greatwood=§o長老之木§r<IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG>這些高大宏偉的樹木遍及鄉野。<BR>其木材可以容納龐大的魔法能量，是一種相當受歡迎的魔法裝置材料。
 research.PLANTS.cinderpearl=§o餘燼株§r<IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG>指出現在最炎熱的氣候帶，這些植物藉著火元素持續燃燒。採收並研磨後可以製成火焰粉。
 research.PLANTS.shimmerleaf=§o銀光葉§r<IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG>這些神秘的微光花朵只生長在銀木樹蔭下。採收後可以榨漿得到水銀。
@@ -1307,7 +1311,7 @@ research.METALLURGY.stage.2=金屬已被證實相當容易透過秘術法則來�
 research.METALLURGY.stage.3=現在我的研究完成了，而未來還有什麼神奇的發現在等著我？
 #
 research.METALPURIFICATION.title=金屬純化
-research.METALPURIFICATION.stage.1=天然的礦簇含有難得的高純度金屬。冶煉這些礦簇可以獲得雙倍的金屬錠。 <BR>若能透過煉金術找到生產天然礦簇的方法，將能省下我花在挖礦上的時間。
+research.METALPURIFICATION.stage.1=天然的礦簇含有難得的高純度金屬。這些礦簇冶煉時可以獲得雙倍的金屬錠。 <BR>若能透過煉金術找到生產天然礦簇的方法，將能省下我花在挖礦上的時間。
 #
 research.HEDGEALCHEMY.title=煉成雜項
 research.HEDGEALCHEMY.stage.1=用我學到的煉金原理來煉成其他的平凡物質應該相當容易。 <BR>這對我而言很難說是項挑戰，但多加練習可以精進自我。 <BR>我忽然意識到我已經囤積了規模驚人的大量腐肉，天知道為什麼。或許我現在應該要把它們熬成油脂。除了做成手工蠟燭以外這應該也沒有其他用途了。 <BR>用上有些麻煩的魔法應該還能將這些腐肉製成皮革。
@@ -1323,7 +1327,7 @@ research.BOTTLETAINT.title=腐蝕瓶
 research.BOTTLETAINT.stage.1=我應該能夠重現咒波產生的腐蝕現象。我不清楚為何我想這麼做，但畢竟進步往往都伴隨著風險。 <BR>這項製程相當單純——我只需要製作一團高濃度的咒波混合物，應該就能輕易的與任何物質反應並發生腐蝕。
 #
 research.BATHSALTS.title=淨化浴鹽
-research.BATHSALTS.stage.1=扭曲即使在最謹慎的秘術師眼中也是一大威脅。尤其在身上累積了多次扭曲後其影響可能不只是心煩意亂的程度。 <BR>我應該要優先解決這個問題。即使無法解除身上的扭曲，至少可以舒緩它造成的症狀。
+research.BATHSALTS.stage.1=扭曲即使在最謹慎的秘術師眼中也是一大威脅。尤其當身上累積了多次扭曲，其影響可能不只是心煩意亂的程度。 <BR>我應該要優先解決這個問題。即使無法解除身上的扭曲，至少可以舒緩它造成的症狀。
 research.BATHSALTS.stage.2=我擬定了一項配方，用來製作一種清爽且令人放鬆的浴鹽。只要將它投入水中，就能使之化為銀白色且具有淨化力的液體，能夠舒緩一整天的壓力，並減緩扭曲所造成的影響。必須注意的是當身上的扭曲愈嚴重，其保護效果的持續時間就會愈短。 <BR>浴鹽的成分不大穩定，若隨意亂丟的話很容易潮解。
 #
 research.SANESOAP.title=心神皂
@@ -1332,14 +1336,14 @@ research.SANESOAP.stage.2=Eureka（我發現啦）！！ 我解出了一道合�
 #
 research.ARCANESPA.title=奧法浴池
 research.ARCANESPA.stage.1=把浴鹽投入水中有點麻煩，幸運的是利用一點魔法與小聰明可以輕易解決這個問題。
-research.ARCANESPA.stage.2=我製作了一台方便的機器，當其中裝有水與浴鹽時會自動將它們混合並泵到其上方的一定範圍內。液體能填滿裝置上方的 5x5 空間。 <BR>另外，設計上這台機器可以用同樣的方式將任何裝在其中的液體送到上方。可以用自動化系統為這台機器添加液體，也可以容器手動裝填。可以用紅石信號使它暫停運作。
+research.ARCANESPA.stage.2=我製作了一台方便的機器，在裡面裝入水與浴鹽，它就會自動將它們混合並泵到其上方的一定範圍內。液體能填滿裝置上方的 5x5 空間。 <BR>另外，設計上這台機器可以用同樣的方式將任何裝在其中的液體送到上方。可以用自動化系統為這台機器添加液體，也可以容器手動裝填。可以用紅石信號使它暫停運作。
 #
 research.WARDEDJARS.title=封罐與標籤
 research.WARDEDJARS.stage.1=源質可以儲存在§l封罐§r之中。 <BR>封罐可以擺在各種地方，而且幾乎可以無限期地保存源質。附在罐子上的魔法也使得裝填和提取源質輕而易舉。 <BR>直接拿封罐輕觸蒸餾器就能將蒸餾器中的源質裝進封罐。也能利用管型瓶來裝填或提取源質。 <BR>更棒的是把這拿來裝果醬或蜜餞堪稱完美。 <BR>潛行並空手輕觸罐子或蒸餾器就能把它們清空。 <PAGE>只要罐子中裝有源質，你就能為它貼上§l封罐標籤§r。 <BR>這個標籤將會「鎖定」這個罐子所能盛裝的源質類型，使它無法接收任何其他類型的源質。 <BR>潛行並輕觸貼有標籤的那一面就能將罐子上的標籤撕下。注意若潛行輕觸其他面的話罐子會被清空。 <BR>你可以在工作台上用管型瓶為標籤指定要素，貼在空罐上就能自動鎖定其要素。管型瓶中的源質不會被消耗。 <BR>將它貼在裝有源質的罐子上標籤會被罐子中的源質類型覆蓋。 <BR>標籤放進合成欄可以重新合成為空白標籤。 <PAGE>你也可以製作§l黃銅蓋箍§r。套在罐子上可以防止除了管子以外的任何外力抽取或填充罐子。 <BR>取下罐子時蓋箍會作為單獨物件掉落。
 #
 research.ESSENTIASMELTER.title=源質熔煉
-research.ESSENTIASMELTER.stage.1=看來在在不遠的將來我會用到各種不同源質，我必須為此做點準備。為此，我需要找些來源，而能從中找到源質的東西有...那個...任何東西。 <BR>藉由煉金法則應該能夠將物體分解並轉化成源質。在這之前，我必須先對我所知最純粹的源質——魔素結晶進行研究。 <BR>透過利用這些晶體進行一些...呃、「破壞性測試」，應該能讓我掌握它們在各種極端狀空下的反應以及保持其純度的最佳方案。 <BR>應該先從原初源質著手。
-research.ESSENTIASMELTER.stage.2=這項實驗前景光明，然而卻有些難以預料。幸運的是火勢能及時撲滅，幾天後頭髮應該就會長回來了。 <BR>看來利用特殊的煉金手法將物件融解會是我的首選。不幸的是一直以來我都只用原初結晶進行測試。我也該找出次級源質——由兩種原初要素組成的源質結晶進行試驗。 <BR>當然也有被稱為三級源質的第三階源質。這是由原初與次級要素，或是兩種次級要素混合而成。 
+research.ESSENTIASMELTER.stage.1=看來在在不遠的將來我會用到各種不同源質，我必須為此做點準備。為此，我需要找些來源，而能從中找到源質的東西有...呃那個，任何東西。 <BR>利用煉金法則，我應該能夠將物體分解並轉化成源質。在這之前，我必須先對我所知最純粹的源質——魔素結晶進行研究。 <BR>透過利用這些晶體進行一些...呃、「破壞性測試」，應該能讓我掌握它們在各種極端狀空下的反應以及保持其純度的最佳方案。 <BR>應該先從原初源質著手。
+research.ESSENTIASMELTER.stage.2=這項實驗前景光明，但有些難以預料。幸運的是火勢及時撲滅，頭髮幾天後應該就長回來了。 <BR>看來利用特殊的煉金手法將物件融解會是我的首選。不幸的是一直以來我都只用原初結晶進行測試。我也該找出次級源質——由兩種原初要素組成的源質結晶進行試驗。 <BR>當然也有被稱為三級源質的第三階源質。這是由原初與次級要素，或是兩種次級要素混合而成。 
 research.ESSENTIASMELTER.stage.3=我已經將我所有的初級與次級源質樣本分解為液態，然而這手續既緩慢又無聊。在我將這道手續簡化之前永遠無法進行大規模的利用。 <BR>幸運的是從物件中提煉源質與冶煉金屬的原理非常接近。或許我能以熔爐為基礎製作一台能自動溶解物品並分離各種源質的源質融煉爐。
 research.ESSENTIASMELTER.stage.4=我畫了源質熔煉爐的藍圖。熔煉爐與普通熔爐一樣能燃燒煤炭產生熱能，但是不是用來冶煉金屬，而是將物體分解為單純、原始的源質漿。這道製程效益不是很好，少部分源質會轉變為咒波，目前看來大約在20%上下。 <BR>下一個步驟是以奧術蒸餾器將源質漿純化。 <BR>奧術蒸餾器必須安裝在熔煉爐的上方才運作。可以疊加多層蒸餾器來增加儲存量，但是不會影響提煉速度。源質漿會慢慢被吸進蒸餾器，並分離成不同要素的源質。 <BR>使用熾焰之源作為熔煉爐的燃料可以大幅加快提煉速度。 <BR>可以利用管型瓶、玻璃罐或是其他複雜的手法從蒸餾器取出源質。
 research.ESSENTIASMELTER.bellows=把風箱安置在熔煉爐旁可以大幅提高其溫度，加快物品被分解的速度。 
@@ -1354,7 +1358,7 @@ research.ESSENTIASMELTERVOID.stage.2=我對我的測試結果感到滿意。虛�
 #
 research.THAUMATORIUM.title=煉金自動化
 research.THAUMATORIUM.stage.1=煉金過程總會遇到一些挫折與失誤——算錯要素、源質降解，而且材料需要勞心費神手動混合。 我受夠了。 <BR>現在我有了純粹的液態源質，我應該改善整個煉金過程。
-research.THAUMATORIUM.stage.2=我發明了一項自動裝置，並命名為秘術煉成機。就像其他複合式裝置一樣需要利用世界鹽來製作。 <BR>秘術煉成機是能讓秘術師選擇煉成公式與觸媒的一項神奇發明。可以透過管道中自動抽取所需的源質。只要供應觸媒它就能完美的合成出所要求的每項物件。 <BR>底座的的坩堝並不需要添水，但其下方依舊需要提供熱源。<LINE>開啟該設備後會看見一些格子。左上方的格子用來放置觸媒。 放置好後便能在右上方的可成列表中選擇欲合成的配方。 <BR>右邊會列出所需的源質，裝置運作時還會顯示出進度條。 <BR>製成的物品會從設備前方彈出或者投入放置於彈射口位置的容器中。<LINE>一般來說一個秘術煉成機只能同時使用一組配方，但在其周圍安附記憶方體就能增加它同時掌握的配方數量。 <BR>每個記憶方體能夠增添2組配方。
+research.THAUMATORIUM.stage.2=我發明了一項自動裝置，並命名為秘術煉成機。就像其他複合式裝置一樣需要利用世界鹽來製作。 <BR>秘術煉成機是能讓秘術師選擇煉成公式與觸媒的一項神奇發明。可以透過管道中自動抽取所需的源質。只需提供觸媒，它就能完美地持續合成每項物品。 <BR>底座的的坩堝並不需要添水，但其下方依舊需要提供熱源。<LINE>開啟該設備後會看見一些格子。左上方的格子用來放置觸媒。 放置好後便能在右上方的可成列表中選擇欲合成的配方。 <BR>右邊會列出所需的源質，裝置運作時還會顯示出進度條。 <BR>製成的物品會從設備前方彈出或者投入放置於彈射口位置的容器中。<LINE>一般來說一個秘術煉成機只能同時使用一組配方，但在其周圍安附記憶方體就能增加它同時掌握的配方數量。 <BR>每個記憶方體能夠增添2組配方。
 #
 research.ESSENTIATRANSPORT.title=進階源質運輸
 research.ESSENTIATRANSPORT.stage.1=進行注魔合成時，源質會直接被抽離罐子，並穿過空氣飄向注魔矩陣。矩陣的魔力足以維持其穩定並用於注魔，但一般而言源質化為這種型態後會失去穩定，無法再作其他用途。 <BR>但願我能找出除了注魔以外也能隔空抽取源質的方法，而且還必須保持其穩定。
@@ -1392,9 +1396,9 @@ research.BASEINFUSION.title=基礎注魔
 research.BASEINFUSION.stage.1=我準備好要製作賦予魔力的物品與工具了。 <LINE>我畫了一些旗幟的設計圖來裝飾自己的實驗室。我可以將瓶中的源質倒在旗幟上來讓旗子顯示出源質的要素圖案。
 #
 research.INFUSION.title=注魔
-research.INFUSION.stage.1=奧術工法與煉金術目前只能走到這一步。我需要其他更好的方法才能製造出真正強大的神祕物件。 <BR>你相信應該能用更直接的方式將源質注入物件中。你能做到，舉例而言，將 §6Aer§0 魔素和羽毛注入石頭中可以產生一顆非常輕巧的石頭。 <BR>至少，這是我的理論。
+research.INFUSION.stage.1=奧術工法與煉金術目前只能走到這一步。我需要其他更好的方法才能製造出真正強大的神祕物件。 <BR>我相信應該能用更直接的方式將源質注入物件中。你能做到，舉例而言，將 §6Aer§0 魔素和羽毛注入石頭中可以產生一顆非常輕巧的石頭。 <BR>至少，這是我的理論。
 research.INFUSION.stage.2=不出所料，注魔製程已證實比我預期中更加複雜。單純試著將要素注入其他物體是行不通的。我需要利用一個相對複雜的系統來穩定整個處理過程。我畫下了一組盧恩方陣的草稿來讓我達成目的。
-research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，就能開始進行製作了。跟其他神秘的裝置一樣，祭壇也需要利用世界鹽來製作。設立好注魔樁後就能用施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>全部都蒐集好後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。如果合成因為源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
+research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，即可進行製作。與其他神秘裝置結構相同，祭壇也需要利用世界鹽來製作。設立好注魔樁，就能以施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>當一切就緒之後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。若合成時因源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONSTABLE.title=注魔穩定化
 research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中所記載。 這類物品擺放超過 12 件甚至會阻礙注魔。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是將紅石直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
@@ -1411,15 +1415,15 @@ research.INFUSIONANCIENT.stage.2=我相信這種古老的石頭曾用於建造�
 #
 research.INFUSIONELDRITCH.title=注魔：異象之石
 research.INFUSIONELDRITCH.stage.1=我發現的這些黑暗而詭譎的石頭有著一些奇怪的特質。我認為這應該可以用於注魔製程。
-research.INFUSIONELDRITCH.stage.2=我相信這種詭譎的石頭曾用於建造注魔祭壇的基柱，能減低不穩定性並加快注魔製程。不巧的是這會稍微增加製造的成本。 <BR>這種材質製成的基座也有相同效果。必須要小心確認擺放位置的平衡，未均衡擺放的異象基座會大幅提高不穩定性。
+research.INFUSIONELDRITCH.stage.2=我相信這種詭譎的石頭曾用於建造注魔祭壇的基柱，能減低不穩定性並加快注魔製程。不巧的是這會稍微增加製造的成本。 <BR>這種材質製成的基座應該也有相同效果。必須仔細確認擺放位置的平衡，未均衡擺放的異象基座會大幅提高不穩定性。
 #
 research.RUNICSHIELDING.title=盧恩護盾
 research.RUNICSHIELDING.stage.1=事實證明附有魔法的道具用來攻擊或是達成各種功能都相當容易，但增強防禦能力也有其必要。應加以調查。
-research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩護盾。這並不是傳統意義上的盔甲，而是一種在大部分配件與盔甲上附魔，用來創造出魔法能量屏障來防禦大多數的傷害。護盾有自己的傷害槽容量，受傷害時會優先從中扣除，以保護穿戴者不受傷害。若傷害槽容量耗盡，穿戴者就會像平常一樣受傷。傷害槽會隨時間恢復，但需要從靈氣中汲取魔素來補充自身的容量。 <BR>同一個物件可以透過重複附魔來增加其保護力，然而每次附魔都會漸趨昂貴。 <BR>這個護甲對某些環境傷害並沒有保護效果。
+research.RUNICSHIELDING.stage.2=針對防護魔法的研究使我發現了盧恩護盾。這並不是傳統意義上的盔甲，而是一種在大部分配件與盔甲上附魔，用來創造出魔法能量屏障來防禦大多數的傷害。護盾有自己的傷害槽容量，受傷害時會優先從中扣除，以保護穿戴者不受傷害。若傷害槽容量耗盡，穿戴者就會像平常一樣受傷。傷害槽會隨時間恢復，但需要從靈氣中汲取魔素來補充其容量。 <BR>同一個物件可以透過重複附魔來增加其保護力，然而每次附魔都會漸趨昂貴。 <BR>這個護甲對某些環境傷害並沒有保護效果。
 #
 research.INFUSIONENCHANTMENT.title=注魔式附魔
 research.INFUSIONENCHANTMENT.stage.1=事實證明元素工具相當實用，但是附在工具上的魔法卻不靈活。我必須找出將相同效果應用在任何工具與武器上的方法，而不是只能用於靛鐵工具。 <BR>研究一般的附魔，觀察如何將其基本原理重現於注魔製程中會是個好的開始。
-research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o聲納§r<DIV>你可以手持這把工具潛行並右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬<PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無<BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的其他目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器<PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器
+research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該可以對大多數的工具進行注魔式附魔了。有些附魔可以重複施行在同一個物件上，但每級附魔都會增加注魔時的源質消耗。 <BR>對同一個物品施予不同類型的注魔式附魔也會增加33%的消耗，還有機率賦予扭曲性質。 <BR>部分注魔式附魔只能適用在特定的工具或武器上。這些項目會在下文的條目中單獨列出。 <BR>帶有注魔式附魔的工具依然能用一般的附魔台進行附魔，反之亦然。 <BR>如同元素工具的操作，潛行即可抑制注魔式附魔工具的特殊效果。 <PAGE>§o收集§r<DIV>當你利用這把工具採集時，掉落物會自動飄向你。 <DIV>§o等級§r：無 <BR>§o對象§r：斧、鎬、鏟、武器 <PAGE>§o鑽掘§r<DIV>當你試圖用這把工具採集樹木或方塊時，相連的最遠端方塊會先被採集，而非當下敲擊的方塊。 <DIV>§o等級§r：無 <BR>§o對象§r：斧、鎬 <PAGE>§o精煉§r<DIV>你所採集的礦石有機率轉變為原生礦簇。附魔等級愈高轉換機率就愈高。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬 <PAGE>§o聲納§r<DIV>你可以手持這把工具潛行並右擊方塊來送出一到聲波。這道聲波會透露出附近埋藏的礦物。使用這項功能會稍微消耗耐久度。 <DIV>§o等級§r：1-4<BR>§o對象§r：鎬 <PAGE>§o毀滅§r<DIV>當你採集一格方塊時，周圍可被相同工具採集的八個方塊 (3x3 area) 也會被採下。每個額外的方塊都會如同手動採集造成耐久度的消耗。 <DIV>§o等級§r：無 <BR>§o對象§r：斧、鎬、鏟 <PAGE>§o弧斬§r<DIV>當你用帶有這道附魔的武器擊中敵人時，一道刺骨的裂風會對附近的其他目標造成一半的傷害。附魔等級愈高攻擊的額外目標愈多。 <DIV>§o等級§r：1-4<BR>§o對象§r：武器 <PAGE>§o元素收割§r<DIV>當你利用帶有這道附魔的武器殺害生物時有機會使其身體成分以源質結晶的形式掉落。提高附魔等級可以增加結晶掉落率與掉落量。 <DIV>§o等級§r：1-5<BR>§o對象§r：武器 <PAGE>§o點燈§r<DIV>當工具敲下方塊時環境光線低於10，這項附魔會在原處點上無形的光源。 <DIV>§o等級§r：無 <BR>§o對象§r：斧、鎬、鏟
 #
 research.BOOTSTRAVELLER.title=旅人之靴
 research.BOOTSTRAVELLER.stage.1=我需要創造能讓我旅途輕鬆些的物品。我應該對運動力學多加測試，以找出改善的方法。
@@ -1443,11 +1447,11 @@ research.ARMORFORTRESS.stage.2=我著手改造鎧甲，覺得已超越了自我�
 #
 research.FORTRESSMASK.title=城寨甲冑面甲
 research.FORTRESSMASK.stage.1=我為城寨甲冑設計了可拆卸的面甲。或許我可以利用特製的附魔面具賦予盔甲特殊能力。
-research.FORTRESSMASK.stage.2=我設計了幾種魔法面具來取代城寨甲冑原本的面甲。 <PAGE>§n揭示頭盔§r<BR>通常秘術師都必須在保護與功能間做抉擇，以後再也不需如此！ <BR>這頂修改後的靛鐵城寨兜盔帶有揭示護目鏡的功能。但終究無法提供護目鏡的魔素減免能力。 <BR>這項升級能搭配任一種面具。 <PAGE>§n獰笑惡魔面甲§r<BR>這個面具在配戴時具有緩解扭曲災難的有趣效果。雖然無法減少發生次數，但至少能減緩嚴重程度。 <BR>看來笑著面對危險是有成效的。 <PAGE>§n暴怒幽魂面甲§r<BR>當你戴著這個面具受到攻擊時有機會對攻擊者造成凋零效果。 <BR>自作自受。 <PAGE>§n嗜血邪妖面甲§r<BR>當你戴著這個面具攻擊生物時，有機會偷取對方的生命力來補充自己。 <BR>事實上為了達成這個效果而吸取它們的血液對你來說似乎並沒有想像中的困難。你對於是否該為此擔心而感到困惑。
+research.FORTRESSMASK.stage.2=我設計了幾種魔法面具來取代城寨甲冑原本的面甲。 <PAGE>§n揭示頭盔§r<BR>通常秘術師都必須在保護與功能間做抉擇，以後再也不需如此！ <BR>這頂修改後的靛鐵城寨兜盔帶有揭示護目鏡的功能。但終究，無法提供護目鏡的魔素減免能力。 <BR>這項升級能搭配任一種面具。 <PAGE>§n獰笑惡魔面甲§r<BR>這個面具在配戴時具有緩解扭曲災難的有趣效果。雖然無法減少發生次數，但至少能減緩嚴重程度。 <BR>看來笑著面對危險是有成效的。 <PAGE>§n暴怒幽魂面甲§r<BR>當你戴著這個面具受到攻擊時有機會對攻擊者造成凋零效果。 <BR>自作自受。 <PAGE>§n嗜血邪妖面甲§r<BR>當你戴著這個面具攻擊生物時，有機會偷取對方的生命力來補充自己。 <BR>事實上為了達成這個效果而吸取它們的血液對你來說似乎並沒有想像中的困難。你對於是否該為此擔心而感到困惑。
 #
 research.CLOUDRING.title=雲行戒指
 research.CLOUDRING.stage.1=我應該製作一個簡單的配件來維持雙腳濕滑。幾經思考我決定製作一個能減緩落地傷害的戒指，或許能增進我的機動力。 <BR>設計這樣的東西應該相當簡單。
-research.CLOUDRING.stage.2=我將設計出的配件稱為雲行戒指。它大幅減輕穿戴者的落地傷害。另外它會在穿戴者跳躍時瞬間生成氣流，可以在半空中進行二段跳。 
+research.CLOUDRING.stage.2=我將設計出的配件稱為雲行戒指。它能使穿戴者更輕盈，大幅減輕落地傷害。另外它會在穿戴者跳躍時瞬間生成氣流，可以在半空中進行二段跳。
 #
 research.CURIOSITYBAND.title=求知頭帶
 research.CURIOSITYBAND.stage.1=蒐集資源與殺死怪物時得到的經驗球同時帶有魔法能量與潛藏的知識。我相信它肯定具備單純附魔以外的用途。
@@ -1485,7 +1489,7 @@ research.LEVITATOR.stage.2=雖然並非真正的飛行，退而求其次的成�
 #
 research.INFERNALFURNACE.title=煉獄熔爐
 research.INFERNALFURNACE.stage.1=我發現我一整天有很大一部分的時間都浪費在用熔爐進行融煉。肯定有方法能讓我稍微輕鬆一點？ <BR>是時候到很熱的地方尋找靈感了。 到真的很熱的地方。
-research.INFERNALFURNACE.stage.2=我從一趟地獄之旅的發現中得到了靈感。我可以製作一座由黑曜石、地獄磚與一搓世界鹽所建成，駕馭著純粹的 §cIgnis§0 ，無須任何燃料的高效熔爐。實際上其高效在於偶而會以顆粒、稀土礦或其他物品的形式產出額外的物質。 <BR>雖然基本上是無消耗，但除非從靈氣中為它提供魔素，否則其速度也相當緩慢。 <LINE>任何落入熔爐頂部的物質都會在融煉後從前方吐出——若是無法正常熔煉的物品將會被摧毀。 <BR>我可以直接在前方放置箱子或其他容器來讓它將成品送進去。<PAGE>使用煉獄熔爐烹調肉類產出的副產物為肉塊。我可以混和砂糖與三種肉塊來製作美味而振奮精神的點心。
+research.INFERNALFURNACE.stage.2=我從一趟地獄之旅的發現中得到了靈感。我可以製作一座由黑曜石、地獄磚與一搓世界鹽所建成，駕馭著純粹的 §cIgnis§0 ，無須任何燃料的高效熔爐。實際上其高效在於偶而會以顆粒、稀土礦或其他物品的形式產出額外的物質。 <BR>雖然基本上是無消耗，但除非從靈氣中為它提供魔素，否則其速度也相當緩慢。值得留意的是這個熔爐偶爾也會產生少量的咒波。我相當確定這並不值得擔憂。 <LINE>任何落入熔爐頂部的物質都會在融煉後從前方吐出——若是無法正常熔煉的物品將會被摧毀。 <BR>我可以直接在前方放置箱子或其他容器來讓它將成品送進去。<PAGE>使用煉獄熔爐烹調肉類產出的副產物為肉塊。我可以混和砂糖與三種肉塊來製作美味而振奮精神的點心。
 research.INFERNALFURNACE.bellows=將奧術風箱裝設於煉獄熔爐側面會產生有趣的效果。注入的新鮮空氣不僅能提升火焰的熔煉速度，也能使它燃燒得更乾淨，能增進融煉時產出額外顆粒與其他物質的機率。
 #
 research.MIRROR.title=鏡像魔法
@@ -1508,11 +1512,11 @@ research.ARCANELAMP.stage.2=這盞神奇的燈具可以裝設在牆壁、地板�
 #
 research.LAMPGROWTH.title=熟成之燈
 research.LAMPGROWTH.stage.1=我對 Lux 的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>光線對植物有著正面的效果，所以只要在其中加上一些魔力只會增強效果，對吧？
-research.LAMPGROWTH.stage.2=不同於單純用於照明的奧術燈，熟成燈無法在未提供 §2Herba§0 源質時散發光芒。而沐浴在其光芒之下的作物會生長得比平時更為快速。 <BR>可以利用管道系統將源質送入燈具。 <BR>可以利用紅石訊號來關閉這盞燈。
+research.LAMPGROWTH.stage.2=不同於單純用於照明的奧術燈，熟成燈無法在未提供 §2Herba§0 源質時散發光芒。當燈光開啟時，沐浴在其光芒之下的作物會生長得比平時更為快速。 <BR>可以利用管道系統將源質送入燈具。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.LAMPFERTILITY.title=繁衍之燈
 research.LAMPFERTILITY.stage.1=我對 Lux 的研究結果顯示光線可以做為其他便利魔法的媒介。 <BR>一般的光線已被證實會對情緒產生正面以及負面的影響。我覺得我或許能添加一些奧術氣息的手法來大幅提升這種效果。
-research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供 §dDesiderium§0 源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
+research.LAMPFERTILITY.stage.2=任何沐浴在這盞燈柔和粉紅光輝下的生物會立即陷入浪漫的氛圍。燈光開啟時，動物會盡其所能地尋求同類配偶。 <BR>當同種生物已多達8隻時這盞燈將不會發揮效果。 <BR>需透過管道系統替這盞燈提供 §dDesiderium§0 源質以發揮其功能。 <BR>可以利用紅石訊號來關閉這盞燈。
 #
 research.BELLOWS.title=奧術風箱
 research.BELLOWS.stage.1=我應該利用一些簡單的作品來測試自己的理論。讓無生物動起來是項不簡單的創舉。 <BR>對熔爐鼓風能增加熱度和冶煉速度，但若我用手鼓風簡直是瘋狂的浪費我的時間和才能。當風箱能自己鼓風，一切都將徹底改變。
@@ -1528,7 +1532,7 @@ research.ARCANEBORE.stage.2=我將設計出的挖掘裝置稱為奧術鑽掘機�
 #
 research.GRAPPLEGUN.title=奧術鉤索
 research.GRAPPLEGUN.stage.1=從至今為止的努力中，我學到了一個重要的事實：機動力是關鍵。 <BR>我應該要創造一個工具來幫助我輕鬆越過險惡的地形。 <BR>我相信可以從磁鐵中得到解答。我可以從稀土中提煉磁鐵，然而它們能吸住的物質有限。若能利用協調魔法來改進其原有的磁力，我應該可以讓它們吸住任何物質。
-research.GRAPPLEGUN.stage.2=利用魔素與數種關鍵附魔來調整磁鐵使它能吸住幾乎所有物質。我將此現象稱為奧術磁場。我相信我可以找到各種不同的用途，但目前我只利用這項知識來製作奧術鉤索。 <BR>這組發射器射出一顆帶有奧術磁場的黃銅球體，可以附著於任何接觸到的物體。而後，發射器反過來收回連接在球體的繩索，將使用者拉向球體以到達以往無法觸及的場所。 <BR>使用者可以隨時蹲下以放開球體。 <BR>我必須留意使用這組鉤索時並不能保護我免於跌落，若距離夠遠其加速度將使人難以忘懷。 <LINE>這組鉤索需要填充魔素以供運作。
+research.GRAPPLEGUN.stage.2=利用魔素以及數種關鍵附魔，我將磁鐵調整成可以吸住幾乎任何物質。我將此現象稱為奧術磁場。我相信我可以找到各種不同的用途，但目前我只利用這項知識來製作奧術鉤索。 <BR>這組發射器射出一顆帶有奧術磁場的黃銅球體，可以附著於任何接觸到的物體。而後，發射器反過來收回連接在球體的繩索，將使用者拉向球體以到達以往無法觸及的場所。 <BR>使用者可以隨時蹲下以放開球體。 <BR>我必須留意使用這組鉤索時並不能保護我免於跌落，若距離夠遠其加速度將使人難以忘懷。 <LINE>這組鉤索需要填充魔素以供運作。
 #
 research.ARCANEPATTERNCRAFTER.title=奧術圖板合成器
 research.ARCANEPATTERNCRAFTER.stage.1有些物件合成相當簡單——只需將相同物品排成固定形狀就能得到你想要的成品。例如將兩個木材製成木棍，或是將一個金屬錠分成九粒。你可以將如此單純的製程自動化。我有一些需要實際嘗試的理論。
@@ -1548,21 +1552,21 @@ research.BASEAUROMANCY.stage.2=利用煉金術來製作核心確實可行。核�
 research.BASEAUROMANCY.stage.3=一切都就緒了。現在我要製作我第一顆核心。 <BR>將處理過的魔素結晶安置在空白的核心上，我能透過紋章決定核心的作用效果。目前我知道的文章只有§n根源§0、§n接觸§0以及§n火§0。<BR>§n根源§0節點代表著我，施法者本身。它在核心操作台介面上顯示為一個眼睛圖示。其下方的節點同時著有目標與軌跡圖示。媒介（例如§n接觸§0）需要以軌跡來決定其效果——§n根源§0節點提供一個符合施法者視線的軌跡來與§n接觸§0連結，使我能「接觸」任何我看著的物體。媒介必定會提供目標（在這個例子中是指任何被「接觸到」的物體），有些也能提供軌跡。這個例子中我需要的是一個目標來讓我連接§n火§0效應。 <BR>我只要依序連接§n根源§0、§n接觸§0和§n火§0即可製作出一顆核心，能將§n火§0效應作用於任何接觸到的物體。<BR>理論上我也能直接將§n火§0接在§n根源§0下，然而根源會將施術者設為目標，這意味著我會引火自焚。 <BR>我可以透過介面右下的按鈕精確調整§n火§0效應的傷害與燃燒時間。許多紋章都能讓我用這種方式微調。 <BR>製作一個核心需要用到三種資源——首先是製造時使用的的結晶，其次是靈氣中的魔素，最後，它還需要一些玩家經驗值。而每次使用核心時也會稍微消耗靈氣中的魔素。 <PAGE>§n複雜度§0<BR>我目前能達成的效果相當簡易而受限。受限於我嵌入核心的紋章。一般而言稱為核心複雜度。每種文章都有其基本複雜度，而增加其參數（例如火紋章的傷害量）也會進一步增加其複雜度。同一種紋章使用超過一次也會導致額外累加50%的複雜度。 <BR>核心的複雜度決定了施法時的魔素消耗量以及每次施放後魔導籠手的冷卻時間。
 research.f_onfire.text=貼近火源進行研究。
 #
-research.FOCUSADVANCED.title=進階法術核心
+research.FOCUSADVANCED.title=高等法術核心
 research.FOCUSADVANCED.stage.1=低階法術核心顯然無法承載較複雜的紋章。發現注魔後我有了新的製作手法，希望這能協助我製作出精緻的法術核心以便承載複雜紋章。
-research.FOCUSADVANCED.stage.2=取低階核心並注入水銀的流動性以及鑽石與終界珍珠的複雜晶格結構，我製作出了內部結構更複雜的進階核心。
+research.FOCUSADVANCED.stage.2=取低階核心並注入水銀的流動性以及鑽石與終界珍珠的複雜晶格結構，我製作出了內部結構更複雜的高等核心。
 #
 research.FOCUSGREATER.title=卓越法術核心
-research.FOCUSGREATER.stage.1=我在進階法術核心中遇上了瓶頸。其內部晶格相當複雜，我卻無法用任何工法、煉金術或注魔來進一步強化。但我還有其他選項。 <BR>與其試圖增進複雜度，我或許應該加大核心本身——與其在盒子裡塞更多東西不如加大盒子本身。 <BR>當然，法術核心的尺寸是有意義的，若徒增其物理上的尺寸將會弄巧成拙。我應該要利用相位魔法來增加其抽象意義上的尺寸。原初明珠容納著壓縮的龐大能量。我應該進行研究以重現其特性。
-research.FOCUSGREATER.stage.2=我將法術核心的複雜度提升了接近兩倍。將原初明珠的能量容納性質以及地獄之星的緻密結構注入進階核心，我製造出了更大的核心——魔術意義上說法。外觀上的尺寸與一般核心相同，但明顯更沉重。
+research.FOCUSGREATER.stage.1=我在高等法術核心中遇上了瓶頸。其內部晶格相當複雜，我卻無法用任何工法、煉金術或注魔來進一步強化。但我還有其他選項。 <BR>與其試圖增進複雜度，我或許應該加大核心本身——與其在盒子裡塞更多東西不如加大盒子本身。 <BR>當然，法術核心的尺寸是有意義的，若徒增其物理上的尺寸將會弄巧成拙。我應該要利用相位魔法來增加其抽象意義上的尺寸。原初明珠容納著壓縮的龐大能量。我應該進行研究以重現其特性。
+research.FOCUSGREATER.stage.2=我將法術核心的複雜度提升了接近兩倍。將原初明珠的能量容納性質以及地獄之星的緻密結構注入高等核心，我製造出了更大的核心——魔術意義上說法。外觀上的尺寸與一般核心相同，但明顯更沉重。
 #
 research.FOCUSELEMENTAL.title=元素效應
 research.FOCUSELEMENTAL.stage.1=利用目前所學的基本原理來利用其他元素對我來說應該是小事一樁。
-research.FOCUSELEMENTAL.stage.2=§n風§0<BR>法術效果為產生一股強風。不會造成很大的傷害，但能擊退任何擊中的物體。 <PAGE>§n冰§0<BR>火具有破壞力，凍寒也具有殺傷力，而低溫還會導致敵人只能緩慢爬行。 <PAGE>§n地§0<BR>法術效果產生的土石爆裂具有強大的衝擊力。威力甚至足以打破材質較脆弱的方塊。
+research.FOCUSELEMENTAL.stage.2=§n風§0<BR>法術效果為產生一股強風。不會造成很大的傷害，但能擊退任何擊中的物體。 <PAGE>§n冰§0<BR>火具有破壞力，凍寒也具有殺傷力，而低溫還有緩速效果，使敵人像條蟲般緩慢爬行。 <PAGE>§n地§0<BR>法術效果產生的土石爆裂具有強大的衝擊力。威力甚至足以打破材質較脆弱的方塊。
 #
 research.FOCUSCURSE.title=核心效應：詛咒
 research.FOCUSCURSE.stage.1=我發現的地精法杖相當怪異而且無法使用，但是我發現其作用原理某方面而言與秘術核心相當類似。 <BR>我應該能對它進行逆向工程。
-research.FOCUSCURSE.stage.2=如同我的猜測，地精的法杖的本質就是秘術。然而這項發現給了我更多的疑問，而非解答。 <BR>至少我可以把法杖的魔法編寫成可用的核心紋章。詛咒紋章的魔法對敵人有虛弱與毒害的效果。甚至能導致對方遭受一連串的厄運纏身。若與其他效果相互結合將會十分強大而難纏。
+research.FOCUSCURSE.stage.2=如同我的猜測，地精的法杖的本質就是秘術。然而這項發現給了我更多的疑問，而非解答。 <BR>至少我可以把法杖的魔法編寫成可用的核心紋章。詛咒紋章的魔法對敵人有虛弱與毒害的效果。甚至能導致對方遭受一連串的厄運纏身。若與其他效果相互結合將會十分強大而難纏。 <BR>即使未命中，詛咒也會在該處留下一個持久的腐蝕能量場。而這個能量場終究會衰退。
 #
 research.FOCUSSPELLBAT.title=核心媒介：術式蝠
 research.FOCUSSPELLBAT.stage.1=充分觀察地獄裡這些詭異、充滿元素的蝙蝠後，我相信應該能利用法術核心製造類似的東西。
@@ -1639,6 +1643,15 @@ research.VISBATTERY.title=魔素槽
 research.VISBATTERY.stage.1=自然界的魔素水晶就像飾魔素的「電池」。當環境中靈氣充裕時它會吸收靈氣，並在靈氣缺乏時釋出。然而這過程既緩慢又不可靠。 <BR>利用研究魔素水晶成長過程時學到的知識，我應該能自己製造出更加可靠的魔素儲存槽。
 research.VISBATTERY.stage.2=我成功地製造出了魔素槽。 <BR>若當地的魔素高於平常容量的95%，魔素槽會吸收魔素，並在靈氣降至75%以下時釋出。 <BR>這多少有些缺點。即使它遠比自然界的水晶更可靠，魔素槽依舊需要一些時間來反應靈氣的變化。另一個缺點在於容量。它只能儲存10點魔素。我試圖改善但結果相當慘烈。我想這只意味著投入實用所需要的數量更多。 <BR>紅石訊號不只能停止魔素槽作用，還會快速的將魔素槽中所有的魔素釋放回靈氣中。
 #
+research.BASICTURRET.title=自動十字弩
+research.BASICTURRET.stage.1=一再受到流浪怪物侵擾，使我開始考慮強化自宅警備。我應該設計一些自動裝置來防止非預期的外患。
+research.BASICTURRET.stage.2=我找到了給予十字弩自我意識的方法，使它成為一台簡單的自動砲台。 <BR>放置後會自動攻擊射程內的任何敵對怪物。遺憾的是我無法控制其有限的思維來篩選特定目標。 <BR>它的容量相當有限，但若在其下方放置一台朝上的投擲器就可以自動裝填其彈槽。 <BR>潛行時右鍵輕觸可以撿起弩砲。 <PAGE>砲台可以裝進礦車，並利用鐵軌下的投擲器進行裝填。 <BR>通過奧術觸發鐵軌可以切換砲台的狀態。啟動的奧術觸發鐵軌可以暫停弩砲運作，而未啟動的鐵軌則能讓砲台重新恢復運作。
+research.f_DISPENSER.text=做一些關於射擊物件的實驗。
+#
+research.ADVANCEDTURRET.title=高等自動十字弩
+research.ADVANCEDTURRET.stage.1=最近關於進階奧術中樞的研究成果使我能夠自動砲台進行一些必要的改進。
+research.ADVANCEDTURRET.stage.2=高等自動十字弩運作方式與基本款雷同，但加上了幾項顯著的改善。 <BR>額外的鐵板使它更加堅固，更複雜的裝填機關給予它更高的發射速度。 <BR>最後一點，可以指定其攻擊目標的類型。
+#
 ##########################################
 # GOLEMANCY
 ##########################################
@@ -1677,10 +1690,10 @@ research.f_MATVOID.text=對虛鋼進行實驗
 research.MINDCLOCKWORK.title=發條中樞
 research.MINDCLOCKWORK.stage.1=鐵魔像、雪人和其他差不多的生命體都有一個共通點——難以預測且不受控制。 <BR>驅動它們的靈魂充滿野性，隨心所欲。而這就是問題所在。 <BR>如果要製作出聰慧的魔法僕從，我就必須要給予它們願意服從命令的思維。最簡單的方案是使用經秘術師加速的發條結構。 <BR>這項設計將是個不凡的創舉。
 research.MINDCLOCKWORK.stage.2=我試圖以魔法強化的發條中樞達成人工的智慧。它行為受限，非常缺乏自主性，但這只是個開始。 <BR>當然，現在我有了這顆中樞，可以立即投入實用。我應該開始設計傀儡以及其製作方法。
-research.MINDCLOCKWORK.stage.3=我設計了一組特殊的壓製機來製做簡單的傀儡。這組設備帶有鐵砧與鍛爐以助於進行裝配。 <LINE>要裝配傀儡時我只需要操作傀儡壓制機，並選擇製作傀儡時使用的零件。目前的選擇很有限，但我確定我會開發出更多選擇。 <PAGE>事實上設計傀儡相當直覺——每架傀儡都是由五種零件構成：基礎材料與頭部、腕部、足部各一種，以及一項可選的額外組件。只要選擇你想要的組合，製作材料就會列在右方。在製程開始前你必須先在物品欄中備齊列出的所有零件。 <BR>你可以看到在介面中間列出了製出的傀儡將擁有的特質、思維、護甲與攻擊力等。 <BR>最後，你還需要為壓制機提供 Machina 源質。 壓制機主結構下的數個接口就是為了這個目的。 <PAGE>你可以將傀儡放在任何場所，但若未放置§5傀儡控制印記§0，它們將不會有什麼作用。更多相關資訊請參閱已解鎖的研究類別。<BR>當傀儡沒有任務在身時，它們會主動回到被放下的位置。潛行時右擊傀儡可以撿起傀儡。 <BR>你也可以用染料為傀儡指定顏色。用於限制傀儡對應指定的印記。撿起傀儡會清除它身上的顏色。
+research.MINDCLOCKWORK.stage.3=我設計了一組特殊的壓製機來製做簡單的傀儡。這組設備帶有鐵砧與鍛爐以助於進行裝配。 <LINE>要裝配傀儡時，我只需要操作傀儡壓制機，並選擇製作傀儡時使用的零件。目前的選擇很有限，但我確定我會開發出更多選擇。 <PAGE>事實上設計傀儡相當直覺——每架傀儡都是由五種零件構成：基礎材料與頭部、腕部、足部各一種，以及一項可選的額外組件。只要選擇你想要的組合，製作材料就會列在右方。在製程開始前你必須先在物品欄中備齊列出的所有零件。 <BR>你可以看到在介面中間列出了製出的傀儡將擁有的特質、思維、護甲與攻擊力等。 <BR>最後，你還需要為壓制機提供 Machina 源質。 壓制機主結構下的數個接口就是為了這個目的。 <PAGE>你可以將傀儡放在任何場所，但若未放置§5傀儡控制印記§0，它們將不會有什麼作用。更多相關資訊請參閱已解鎖的研究類別。<BR>當傀儡沒有任務在身時，它們會主動回到被放下的位置。潛行時右擊傀儡可以撿起傀儡。 <BR>你也可以用染料為傀儡指定顏色。用於限制傀儡對應指定的印記。撿起傀儡會清除它身上的顏色。
 #
 research.CONTROLSEALS.title=控制印記
-research.CONTROLSEALS.stage.1=傀儡沒被下命令不會有任何動作。我為此創造了控制印記。你可以隨意將這些黏土印在幾乎所有的表面上。印上後它會變得虛幻而無形，但當你手持傀儡、其他印記或是§5傀儡師鈴鐺§0時依然可以看見印記。 <BR>這顆鈴鐺將會是一個非常重要的工具，因為你必須用它來微調指令印記的設定與參數。 <BR>印記是無形的，所以你可以在印記的相同位置放置另一個方塊。 <BR>同一格位置的每個面也能分別放上印記。這應該能讓你縮減占用的空間。 <BR>持鈴鐺對印記 shift + 右鍵 可以取下印記。<PAGE>用鈴鐺輕點印記可以調整印記的參數。用鈴鐺輕點印記可以調整印記的參數。大多數印記的優先度調整範圍為±5（預設為0），但確切的參數取決於每個印記本身。高優先度印記所建立的工作會先執行。你也會看到一個特性需求清單，顯示出傀儡執行印記建立的任務所需的特質。 <BR>舉例來說，印記可能會要求傀儡具備§5靈巧§0特性，或者是要求不能具備§5笨拙§0特性。 <BR>實際的例子可以看看§5收集印記§0。 <LINE>印記接收到紅石訊號會停用。所有執行中的任務也會被移除。 <BR>你也可以為印記指定顏色。指定後只有未染色的傀儡以及顏色相同的傀儡會接受這個印記所建立的任務。無色的印記會將任務分配給所有傀儡（不論染色與否）。 <BR>設定印記顏色的地方與優先度的設定相同。 <BR>在傀儡身上使用染料來為傀儡分配顏色。撿起傀儡會清除它身上的顏色。
+research.CONTROLSEALS.stage.1=傀儡沒被下命令不會有任何動作。我為此創造了控制印記。你可以隨意將這些黏土印在幾乎所有的表面上。印上後它會變得虛幻而無形，但當你手持傀儡、其他印記或是§5傀儡師鈴鐺§0時依然可以看見印記。 <BR>這顆鈴鐺將會是一個非常重要的工具，因為你必須用它來微調指令印記的設定與參數。 <BR>印記是無形的，所以你可以在印記的相同位置放置另一個方塊。 <BR>同一格位置的每個面也能分別放上印記。這應該能讓你縮減占用的空間。 <BR>持鈴鐺對印記按住 shift + 右鍵 可以取下印記。<PAGE>用鈴鐺輕點印記可以調整印記的參數。用鈴鐺輕點印記可以調整印記的參數。大多數印記的優先度調整範圍為±5（預設為0），但確切的參數取決於每個印記本身。高優先度印記所建立的工作會先執行。你也會看到一個特性需求清單，顯示出傀儡執行印記建立的任務所需的特質。 <BR>舉例來說，印記可能會要求傀儡具備§5靈巧§0特性，或者是要求不能具備§5笨拙§0特性。 <BR>實際的例子可以看看§5收集印記§0。 <LINE>印記接收到紅石訊號會停用。所有執行中的任務也會被移除。 <BR>你也可以為印記指定顏色。指定後只有未染色的傀儡以及顏色相同的傀儡會接受這個印記所建立的任務。無色的印記會將任務分配給所有傀儡（不論染色與否）。 <BR>設定印記顏色的地方與優先度的設定相同。 <BR>在傀儡身上使用染料來為傀儡分配顏色。撿起傀儡會清除它身上的顏色。
 #
 research.GOLEMDIRECT.title=傀儡駕馭
 research.GOLEMDIRECT.stage.1=我的目標不只是讓傀儡盲目地服從印記。我希望它們也能盲目地服從我。 <BR>一定有方法能做到這點。
@@ -1696,16 +1709,16 @@ research.MINDBIOTHAUMIC.stage.2=起初我有些猶豫，但很快就克服了我
 #
 research.SEALCOLLECT.title=控制印記：收集
 research.SEALCOLLECT.stage.1=這顆印記會持續檢測指定區域中的掉落物。當發現物品時會指示附近的傀儡將物品撿起。 <BR>我可以指定檢測的確切範圍，也能利用黑白名單篩選物品。
-research.SEALCOLLECT.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。
+research.SEALCOLLECT.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。
 #
 research.SEALSTORE.title=控制印記：儲存
 research.SEALSTORE.stage.1=這顆印記可以貼在容器側面。它可以將容器指定為傀儡的物品接收處。只要容器允許，傀儡就會把手上的物品裝進去。 <BR>你也可以用黑/白名單篩選各種物品。 <BR>你也能利用白名單指定容器中特定物品的數量，預設為無限（以金色星號表示）。 <BR>如果印記不是貼在容器上，傀儡會直接把物品丟向該處。 <BR>你也可以指定該處的物品數量，與用於容器時無異。印記半徑一格內的物品都會納入計算。
-research.SEALSTORE.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>若白名單有指定物品數量，所有符合篩選條件的物品都會被計入。
+research.SEALSTORE.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>若白名單有指定物品數量，所有符合篩選條件的物品都會被計入。
 #
 research.SEALEMPTY.title=控制印記：淨空
 research.SEALEMPTY.stage.1=我可以指示傀儡撿起並存放物品，但或許我也會需要從容器中尋找物品。 <BR>設計這種印記應該不會太困難。
 research.SEALEMPTY.stage.2=這種印記作用與儲存相反。它會清空指定容器中的物品。附近的任何傀儡都會取出容器中的物品並拿在手上。你需要利用其他印記指示傀儡對手中的物品進行其他操作。 <BR>你可以篩選特定物品或是將特定物品除外。
-research.SEALEMPTY.stage.ADV=我現在能製作出進階版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>你也可以讓印記依列表順序一次只篩選一項物品。
+research.SEALEMPTY.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>你也可以讓印記依列表順序一次只篩選一項物品。
 #
 research.SEALPROVIDE.title=控制印記：供給
 research.SEALPROVIDE.stage.1=I should design a refinement of the Empty seal that will only remove items that are specifically requested by other seals.
@@ -1718,7 +1731,7 @@ research.SEALHARVEST.stage.2=This seal will search the designated area for any f
 research.SEALGUARD.title=控制印記：守衛
 research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task, however, and I will need to carefully test the seal to avoid accidents.
 research.SEALGUARD.stage.2=When placed, this seal will protect an area from intrusion. Any hostile creatures it detects will be targeted by nearby combat-capable golems and attacked.<BR>If the golem has the §5Deft§0 property, any creatures slain will drop experience orbs as if killed by a player.<BR>§9This research also unlocks additional golem parts§0.
-research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give you greater control over which creatures your golems will target.
+research.SEALGUARD.stage.ADV=I can now create an advanced version of the seal that will give greater control over which creatures my golems will target.
 #
 research.SEALBUTCHER.title=控制印記：屠夫
 research.SEALBUTCHER.stage.1=While §5Guard§0 seals can be used to kill animals, they are not very selective.<BR>I should refine the arcane algorithms in a guard seal to make it more suited for animal farming.
@@ -1740,15 +1753,6 @@ research.SEALSTOCK.title控制印記：堆疊
 research.SEALSTOCK.stage.1=I need a seal that will allow me to keep a minimum number of items stocked in a container at all times.
 research.SEALSTOCK.stage.2=This seal is similar to the store seal, except it keeps a certain number of items stocked inside its container at all times. The seal only insures that a minimum number of items are kept in stock - it will not prevent overstocking should it occur by other means.<BR>This seal requires provider seals to know where to get the items.
 #
-research.BASICTURRET.title=Automated Crossbow
-research.BASICTURRET.stage.1=A few attacks from wandering monsters has recently turned my mind towards home defense. I should design some sort of automated device that will defend my home from unwanted intruders. 
-research.BASICTURRET.stage.2=I have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile monsters it detects within range. Unfortunately its limited mind does not allow me to fine tune its targets.<BR>It has a very limited internal inventory, but if I place it over an upward facing dispenser it will automatically reload itself from that inventory.<BR>Right clicking on it while sneaking will pick it up.<PAGE>The turrent can ride in a minecart and will reload from a dispenser placed underneath the track.<BR>Passing over an arcane activator rail will change the behaviour of the turrent. If the rail is active it will disable the turret. Passing over an inactive rail will enable it again.
-research.f_DISPENSER.text=Examine something that can launch objects.
-#
-research.ADVANCEDTURRET.title=Advanced Automated Crossbow
-research.ADVANCEDTURRET.stage.1=My recent discovery of advanced artificial minds might allow me to make some much needed improvements to my automated turrets. 
-research.ADVANCEDTURRET.stage.2=The Advanced Automated Crossbow works much like its basic counterpart, with a few significant improvements.<BR>The addition of iron plating makes it much sturdier, and a more complicated loading mechanism gives it a greater rate of fire.<BR>Lastly, it is possible to specify the type of targets it can attack.
-#
 research.GOLEMVISION.title=Golem Biothaumic Eyes
 research.GOLEMVISION.stage.1=I should find a way to improve the visual acuity of my golems.
 research.GOLEMVISION.stage.2=By merging flesh and arcane constructs, I have crafted a set of highly acute eyes.<BR>Any golem equipped with such a set of peepers will be able to operate at 150% the normal range (48 blocks).<BR>§9This research unlocks additional golem parts§0.
@@ -1760,7 +1764,7 @@ research.f_SPIDER.text=Closely examine a climbing creature
 #
 research.GOLEMFLYER.title=Golem Mobility: Flight
 research.GOLEMFLYER.stage.1=I should find a way to further improve the mobility acuity of my golems. Maybe I could give them the ability to fly?
-research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>�9This research unlocks additional golem parts�0.
+research.GOLEMFLYER.stage.2=By basically chopping off a golem's legs and gluing an Arcane Levitator in their place, I have managed to get a golem to fly! This grants it good, if slightly erratic mobility, though it does move more slowly.<BR>§9This research unlocks additional golem parts§0.
 research.f_FLY.text=Closely examine a flying creature.
 #
 research.GOLEMBREAKER.title=Golem Manipulation: Block Breaking
@@ -1790,11 +1794,11 @@ research.VOIDSEERPEARL.stage.2=When I hold this charm I get glimpses of what lie
 #
 research.VOIDROBEARMOR.title=Void Thaumaturge Armor
 research.VOIDROBEARMOR.stage.1=The simple void metal armor I can now craft is practical, but not particularly useful to full blooded thaumaturge like myself. I should craft something better. Much better.
-research.VOIDROBEARMOR.stage.2=Using the knowledge I have gained thusfar I have designed a set of armored robes that combines the utility of Thaumaturge's Robes with the practacality of Thaumium Fortress Armor.<BR>Primarily made from void metal this armor has all the benefits (and side-effects) that metal offers.<BR>Lastly the hood of the robes contain integrated Goggles of Revealing.<BR>This armor can be dyed.
+research.VOIDROBEARMOR.stage.2=Using the knowledge I have gained thus far, I have designed a set of armored robes that combines the utility of Thaumaturge's Robes with the practacality of Thaumium Fortress Armor.<BR>Primarily made from void metal this armor has all the benefits (and side-effects) that metal offers.<BR>Lastly, the hood of the robes contain integrated Goggles of Revealing.<BR>This armor can be dyed.
 #
 research.PRIMALCRUSHER.title=Primal Crusher
-research.PRIMALCRUSHER.stage.1=The variable and maleable nature of Void Metal has openend up some interesting possibilities.<BR>I believe it should be possible to create a tool with inherent morphic instability. In other words it will constantly fluctuate between various states so rapdily that it might not be visible to the naked eye.
-research.PRIMALCRUSHER.stage.2=Success! I have created a tool I am calling the Primal Crusher. It has the essential nature of both a pickaxe and a shovel. It does not look like either of those tools, but I it defintely functions like them. Better in fact. It is also surprisingly effective against Taint.<BR>It is slightly unpleasant to hold however - it seems to vibrate in ones hand and the feeling becomes quite uncomfortable after a while. A little discomfort will not stop me from using it however.
+research.PRIMALCRUSHER.stage.1=The variable and malleable nature of Void Metal has openend up some interesting possibilities.<BR>I believe it should be possible to create a tool with inherent morphic instability. In other words it will constantly fluctuate between various states so rapdily that it might not be visible to the naked eye.
+research.PRIMALCRUSHER.stage.2=Success! I have created a tool I am calling the Primal Crusher. It has the essential nature of both a pickaxe and a shovel. It does not look like either of those tools, but it defintely functions like them. Better in fact. It is also surprisingly effective against Taint.<BR>It is slightly unpleasant to hold however - it seems to vibrate in one's hand and the feeling becomes quite uncomfortable after a while. A little discomfort will not stop me from using it however.
 #
 ##########################################
 # MISC
