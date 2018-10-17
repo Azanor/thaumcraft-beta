@@ -24,18 +24,18 @@ item.primordial_pearl.pearl.name=元始珍珠
 item.pech_wand.name=岩精法杖
 item.celestial_notes.name=天象笔记
 item.celestial_notes.sun.text=太阳
-item.celestial_notes.stars_1.text=星象，北方玄武
-item.celestial_notes.stars_2.text=星象，南方朱雀
-item.celestial_notes.stars_3.text=星象，西方白虎
-item.celestial_notes.stars_4.text=星象，东方青龙
-item.celestial_notes.moon_1.text=月亮，满月
-item.celestial_notes.moon_2.text=月亮，亏凸月
-item.celestial_notes.moon_3.text=月亮，下弦月
-item.celestial_notes.moon_4.text=月亮，残月
-item.celestial_notes.moon_5.text=月亮，新月
-item.celestial_notes.moon_6.text=月亮，娥眉月
-item.celestial_notes.moon_7.text=月亮，上弦月
-item.celestial_notes.moon_8.text=月亮，盈凸月
+item.celestial_notes.stars_1.text=星象·北方玄武
+item.celestial_notes.stars_2.text=星象·南方朱雀
+item.celestial_notes.stars_3.text=星象·西方白虎
+item.celestial_notes.stars_4.text=星象·东方青龙
+item.celestial_notes.moon_1.text=月相·满月
+item.celestial_notes.moon_2.text=月相·亏凸月
+item.celestial_notes.moon_3.text=月相·下弦月
+item.celestial_notes.moon_4.text=月相·残月
+item.celestial_notes.moon_5.text=月相·新月
+item.celestial_notes.moon_6.text=月相·娥眉月
+item.celestial_notes.moon_7.text=月相·上弦月
+item.celestial_notes.moon_8.text=月相·盈凸月
 #
 # Resources
 #
@@ -184,7 +184,7 @@ item.verdant_charm.name=翠心指环
 item.verdant_charm.life.text=再生
 item.verdant_charm.sustain.text=续航
 item.voidseer_charm.name=虚空预言者的珍珠
-item.voidseer_charm.text=我窥探着这漆黑的深渊……似乎它回以了凝视……
+item.voidseer_charm.text=我窥探着这漆黑的深渊，似乎它回以了凝视……
 item.curiosity_band.name=求知发带
 item.cloud_ring.name=云霄指环
 item.charm_undying.name=不死护符
@@ -1473,7 +1473,7 @@ research.BASEARTIFICE.stage.1=我现在可以制作魔法机械和奥术装置�
 #
 research.REDSTONERELAY.title=红石继能器
 research.REDSTONERELAY.stage.1=我一直很好奇红石信号给神秘设备带来的抑制效果。我应该进一步研究这种现象，并寻找它的实用价值。
-research.REDSTONERELAY.stage.2=我仔细地研究了这个问题，虽然众所周知红石能量会抑制魔法，但是我发现在特定的情况下，相反的情况也会发生。 <BR>红石继能器就是这项研究成果的一个实际应用，通过向魔力结晶这样的魔法物质发送红石信号，你就能够按需控制如何抑制它们的活动。 <BR>继能器的放置与红石中继器相似，在输出端有小的红石火把作为标记。 <BR>与中继器不同的是，继能器有两个旋钮 — 后侧的旋钮用于调整使继能器抑制失效的最小输入信号。 <BR>前端的旋钮（靠近小红石火把的旋钮）决定了继能器在不产生抑制时发出的信号强度。 <BR>例如，你可以使得它在接收到强度至少为2的信号时，发出强度为7的信号。
+research.REDSTONERELAY.stage.2=我仔细地研究了这个问题。众所周知，红石和魔法互不相容，但是在某些情况下正好相反。 <BR>红石继能器就是这项研究成果的一个实际应用，通过向魔力结晶这样的魔法物质发送红石信号，你就能够按需控制如何抑制它们的活动。 <BR>继能器的放置与红石中继器相似，在输出端有小的红石火把作为标记。 <BR>与中继器不同的是，继能器有两个旋钮 — 后侧的旋钮用于调整使继能器抑制失效的最小输入信号。 <BR>前端的旋钮（靠近小红石火把的旋钮）决定了继能器在不产生抑制时发出的信号强度。 <BR>例如，你可以使得它在接收到强度至少为2的信号时，发出强度为7的信号。
 #
 research.ARCANEEAR.title=奥术之耳
 research.ARCANEEAR.stage.1=我想我应该从神秘传感器开始，也许声音传感器是个不错的选择。
@@ -1808,6 +1808,6 @@ got.pechwand=嗯……这看上去非常有趣，我应该进行一些深入研�
 got.onfire=你亲身感受了火焰的威力。
 got.hellandback=你走访了下界。
 got.endoftheworld=你走访了末地。
-research.m_hellandback.text=走访宛如地狱的地点。
+research.m_hellandback.text=去往宛如地狱的地点。
 research.m_endoftheworld.text=寻找世界的终焉。
 fail.crimsonrites=这本书里不过只有一些胡言乱语。
