@@ -41,7 +41,7 @@ item.celestial_notes.moon_8.text=月相-盈凸月
 #
 item.amber.name=琥珀
 item.quicksilver.name=水銀
-item.crystal_essence.name=%s 魔素結晶
+item.crystal_essence.name=%s魔素結晶
 item.ingot.thaumium.name=靛鐵錠
 item.ingot.void.name=虛鋼錠
 item.ingot.brass.name=煉成黃銅錠
@@ -94,7 +94,7 @@ item.chunk.mutton.name=羊肉塊
 item.brain.name=殭屍腦袋
 item.triple_meat_treat.name=三層肉饌
 item.phial.empty.name=玻璃管型瓶
-item.phial.filled.name=%s 源質管型瓶
+item.phial.filled.name=%s源質管型瓶
 item.label.blank.name=空白標籤
 item.label.filled.name=標記標籤
 item.jar_brace.name=黃銅蓋箍
@@ -229,6 +229,7 @@ item.seal.breaker.name=控制印記：方塊破壞者
 item.seal.use.name=控制印記：使用
 item.seal.provider.name=控制印記：供給
 item.seal.stock.name=控制印記：堆疊
+item.seal.breaker_advanced.name=高等控制印記：方塊破壞者
 #
 # Blocks
 ###################################
@@ -256,13 +257,13 @@ tile.plank_greatwood.name=長老之木木材
 tile.plank_silverwood.name=銀木木材
 tile.stairs_greatwood.name=長老之木樓梯
 tile.stairs_silverwood.name=銀木樓梯
-tile.stone_arcane.name=奧術石材
+tile.stone_arcane.name=奧術石
 tile.stone_arcane_brick.name=奧術石磚
 tile.stone_ancient.name=亙古之石
 tile.stone_ancient_rock.name=亙古岩石
-tile.stone_eldritch_tile.name=異象石瓷磚
+tile.stone_eldritch_tile.name=異象石
 tile.stone_ancient_tile.name=亙古石瓷磚
-tile.stone_ancient_doorway.name=亙古金屬
+tile.stone_ancient_doorway.name=亙古障壁
 tile.stone_ancient_glyphed.name=雕文石
 tile.stone_porous.name=多孔石
 tile.stairs_arcane.name=奧術石階梯
@@ -318,7 +319,7 @@ tile.lamp_arcane.name=奧術燈
 tile.lamp_growth.name=熟成之燈
 tile.lamp_fertility.name=繁衍之燈
 tile.jar_normal.name=封罐
-tile.jar_void.name=虛空之罐
+tile.jar_void.name=虛無封罐
 tile.jar_brain.name=罐中之腦
 tile.tube.name=源質管道
 tile.tube_valve.name=源質閥門
@@ -347,8 +348,9 @@ tile.stabilizer.name=穩定器
 tile.condenser.name=咒波凝結器
 tile.condenser_lattice.name=咒波凝結器格柵
 tile.condenser_lattice_dirty.name=阻塞的咒波凝結器格柵
-tile.void_siphon.name=Void Siphon
+tile.void_siphon.name=虛無虹吸管
 tile.infernal_furnace.name=煉獄熔爐
+tile.inlay.name=鑲嵌紅石
 #
 # Doodads
 tile.matrix_speed.name=注魔加速石
@@ -590,6 +592,8 @@ item.runic.charge=盧恩護甲
 item.warping=扭曲
 item.capacity.text=容量
 item.chargebonus.text=蓄魔
+stability.gain=%s gain / cycle
+stability.loss=0 to %s loss / cycle
 stability.VERY_STABLE=非常穩定
 stability.STABLE=穩定
 stability.UNSTABLE=不穩定
@@ -825,7 +829,7 @@ golem.prop.empty=點擊空氣
 golem.prop.emptyhand=可使用空手
 golem.prop.sneak=模擬潛行點擊
 golem.prop.single=限定單項物件
-golem.prop.provision=供應需求
+golem.prop.provision=要求供應
 golem.prop.provision.wl=從白名單中進行供應
 golem.rank=等級
 golem.prop.priority=任務優先度
@@ -836,8 +840,9 @@ golem.prop.lock=指定與該印記相同擁有者的傀儡執行工作
 golem.prop.unlock=所有傀儡皆能執行這項工作
 golem.prop.redon=反映紅石
 golem.prop.redoff=忽略紅石訊號
-golem.prop.exist=限定為容器中已存在之項目
+golem.prop.exist=僅限容器已存在的物品
 golem.prop.leave=至少保留一項物品
+golem.prop.silk=使用絲綢之觸
 
 focuspart.com=複雜度：
 
@@ -1281,7 +1286,7 @@ research.CELESTIALSCANNING.stage.1=我注意到月相的變化與靈氣的自我
 research.UNLOCKELDRITCH.title=探究異象
 research.UNLOCKELDRITCH.stage.1=緋紅教徒們滿腦子詭異的思想，但似乎包含了潛藏的真相。或許我該找個方法來證實他們所暗示的事物？誰會知道我能從中找到怎麼樣的知識...
 research.UNLOCKELDRITCH.stage.2=我發現了一些詭異的東西...無法吻合於現實世界的的規則和我們所知的常識。 <BR>我完全不相信這些種子是來自於我們的現實世界。這肯定是來自於...外界。 <BR>我必須進一步加以研究...必須更進一步。
-research.f_VOIDSEED.text=對一些來自虛空的東西進行實驗
+research.f_VOIDSEED.text=用一些來自虛空的東西進行實驗。
 #
 research.FLUXCLEANUP.title=咒波清除
 research.FLUXCLEANUP.stage.1=或許我已經搞砸了。我放任咒波在靈氣中累積，而我現在必須加以控制——而且要快。 <BR>值得慶幸的是，答案或許能在咒波本身的特性中找到。技術上而言咒波只是比較「髒」的魔素，但其中一項明顯不同的地方是它非常容易由能量轉變成物質。這是一項危險的特性，容易產生侵蝕汙染或是其他形式的麻煩，但同時也是能使它安全化的關鍵。
@@ -1401,8 +1406,8 @@ research.INFUSION.stage.2=不出所料，注魔製程已證實比我預期中更
 research.INFUSION.stage.3=為了開始進行注魔製程，我需要以下這些東西： 盧恩方陣（這我已經有了）、奧術基座以及供應魔力的源質。 <BR>只要將盧恩方陣正確置入一個稱為注魔祭壇的結構，即可進行製作。與其他神秘裝置結構相同，祭壇也需要利用世界鹽來製作。設立好注魔樁，就能以施術工具來啟動盧恩方陣。 <BR>位於中央，方陣下的基座用來擺放你要注魔的目標物。你還需要在祭壇周圍放置更多的基座，用來擺放你要用來注入目標物的方塊與物品。最後，你會需要封罐或是其他用來裝載源質的容器，用來提供所需的魔素。 <BR>當一切就緒之後就能用施術工具輕觸盧恩方陣來開始注魔製程。 <BR>合成的第一階段會先從周遭的來源中汲取源質。若合成時因源質不足而停滯——會發生你不希望發生的事，後面會加以詳述。 <BR>當所需的源質都注入目標物件後，會開始徹底汲取其他物件的本質。當這步驟結束後注魔製程才算完成。 <LINE>注魔製程始終伴隨著風險。整個過程涉及將大量的能量強制擠進單一的物件中。往往會發生難以預料的狀況。 <BR>常見的狀況包含注魔材料被撞離基座，或是產生咒波，而更多的災難性事故也是時有所聞。 <BR>合成期間未解決的問題拖得愈久，例如源質匱乏或是材料掉落，發生事故的機會也會愈高。 <BR>可以透過一些手法來減少這些現象。首先，你希望整個注魔結構盡可能得對稱——留意基座擺放的位置，確保和祭壇另一側的其他基座維持平衡。你希望放置注魔材料時也能盡量得保持平衡。最後，你也可以在祭壇周圍均衡地放置一些超自然魔術的象徵物品（像是蠟燭、頭顱之類的物品）。這有助於降低不穩定性。 <IMG>thaumcraft:textures/research/research5.png:128:0:128:136:1</IMG>
 #
 research.INFUSIONSTABLE.title=注魔穩定化
-research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中所記載。 這類物品擺放超過 12 件甚至會阻礙注魔。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是將紅石直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
-research.INFUSIONSTABLE.stage.2=我將組裝好的裝置稱為穩定器，真貼切。 它能接收 RF 或 FE 形式的能量， 以產生干涉魔法陣來「柔和化」魔法物件與當地靈氣的交互作用。其效果範圍相當狹窄，所以必須將穩定器指向你想穩定化的目標。範圍大約是8格。 <BR>穩定器顯然對注魔方陣相當有效，而我相信以後還能發現更多用途。舉例來說，我想知道它對咒波造成的靈氣不穩定是否有影響？
+research.INFUSIONSTABLE.stage.1=事實證明注魔比我所預期更加不穩定。擺放超自然道具確實稍有緩和，但成效卻遠不如文獻中所記載。擺放愈多物件，效果就愈有限。 <BR>我需要更有效的方法來降低不穩定性。詭異的是我竟然認為可以從凡俗的科技中找到答案。 <BR>紅石這種凡俗的能量源干涉秘術的效果眾所皆知。當然，答案並不是直接將紅石丟進已經很不穩定的注魔祭壇中，但或許有方法能妥善駕馭這種干涉能力。
+research.INFUSIONSTABLE.stage.2=我將組裝好的裝置稱為穩定器，真貼切。 <BR>穩定器的核心是由一顆受魔素摧殘的紅石方塊所製成。成品就像某種針對不穩定性的磁鐵，吸取不安定的魔法能量並化為咒波釋出。雖然不盡理想，但畢竟處理咒波好過失去昂貴的素材。 <BR>穩定器裝設於祭壇附近時除了大幅提升注魔安定性外還有一項更重要的功能：漏電時通常會擊落甚至摧毀基座上的物品，而穩定器可以引導並抵銷電流。 <BR>遺憾的是穩定器的這項功能需要透過條件才能達成。你必須利用鑲嵌紅石將欲保護的基座連結到穩定器。擺放方式與一般的紅石相似，甚至與一般的紅石受到相同的限制。舉個例子，穩定器產生的保護電荷無法超過15格。基座本身也具備鑲嵌紅石傳遞保護電荷的功能。確實連接的基座底部會浮現盧恩符文。 <BR>當不穩定的電流擊中基座時，電流會沿著鑲嵌紅石導向最近的穩定器。這會導致穩定器的保護電荷暫時減弱，直到穩定器將不穩定的能量轉換為咒波釋放。我可能會希望多擺幾個穩定器，以避免其中一座穩定器過載時部分基座無法受到保護。 <BR>值得注意的是穩定器本身也被計入穩定值系統，所以我必須留意它們擺放位置的平衡。
 got.instability=我應該進一步研究注魔的不穩定性。
 #
 research.INFUSIONBOOST.title=注魔促進
@@ -1428,10 +1433,10 @@ research.INFUSIONENCHANTMENT.stage.2=我成功破解這個難題，現在應該�
 research.BOOTSTRAVELLER.title=旅人之靴
 research.BOOTSTRAVELLER.stage.1=我需要創造能讓我旅途輕鬆些的物品。我應該對運動力學多加測試，以找出改善的方法。
 research.BOOTSTRAVELLER.stage.2=我設計了一雙附有魔力的靴子以舒緩旅人的路途。 <BR>它可以使人跑得更快，跳得更高，落得更遠。 <BR>最後，它可以使你像魚一般破水前進。即使又慢又矬依舊算是魚。 <BR>這股力量還是需要來源——這雙靴子需要補充魔素來驅動它的功能。
-research.m_walker.text=走很多。
-research.m_runner.text=跑很多。
-research.m_swimmer.text=游很多。
-research.m_jumper.text=跳很多。
+research.m_walker.text=大量行走。
+research.m_runner.text=大量奔跑。
+research.m_swimmer.text=大量游泳。
+research.m_jumper.text=大量跳躍。
 #
 research.PAVINGSTONES.title=奧術路磚
 research.PAVINGSTONES.stage.1=奧術石本身並不具備魔法性質，但它就像法術的海綿。我應該能在上面施加任何類型的附魔。
@@ -1721,12 +1726,12 @@ research.SEALEMPTY.stage.2=這種印記作用與儲存相反。它會清空指�
 research.SEALEMPTY.stage.ADV=我現在能製作出高等版的印記，能一次篩選多種物品。它也能更妥善的控制篩選方式，但是需要更聰明的傀儡才能達成這顆印記指派的工作。 <BR>我可以選擇讓印記在篩選時忽略 NBT 或損壞值、或是利用礦物辭典、甚至能讓印記篩選來自相同模組的物品。 <BR>你也可以讓印記依列表順序一次只篩選一項物品。
 #
 research.SEALPROVIDE.title=控制印記：供給
-research.SEALPROVIDE.stage.1=I should design a refinement of the Empty seal that will only remove items that are specifically requested by other seals.
-research.SEALPROVIDE.stage.2=This seal is similar to the Empty seal, except it will only remove an item from the inventory if there is a specific need for it.<BR>Certain seals may request provisioning. If they require specific items for their tasks a secondary task will be created telling a nearby golem to retrieve those items from any inventories marked with a Provide seal.<BR>This task will use the requesting seals priority and the golem needs to meet the requirements for both the Provider seal and the requesting seal.<BR>The filter on the Provide seal is merely used to compare what items may be taken from the container. The filters (if any) on the requesting seal will determine the exact item taken.
+research.SEALPROVIDE.stage.1=我應該重新設計淨空印記，只移出其他印記所需要的特定物品。
+research.SEALPROVIDE.stage.2=這個印記與盡空印記類似，但只有在有特定需求時才會從中移出物品。 <BR>有些印記可以提出供應請求。它們會建立次要工作來指示附近的傀儡從任何標有供給印記的容器中取出這些物品。 <BR>這項工作優先度取決於需求印記，而傀儡必須同時滿足供給印記與需求印記要求的能力條件。 <BR>供給印記上的篩選器僅用於對照可從容器中取出的物品。需求印記上的篩選器（如果有）才是用來指定確定要取出的物品。
 #
 research.SEALHARVEST.title=控制印記：收成
-research.SEALHARVEST.stage.1=Farming is a menial task best performed by a golem and not a busy thaumaturge like myself.<BR>Designing a seal that will instruct golems to harvest crops will save me a lot of manual labor in the long run.
-research.SEALHARVEST.stage.2=This seal will search the designated area for any fully-grown crops or other harvestable plants. Once found, a golem will be dispatched to harvest the plant.<BR>If required, the seal will also attempt to replant the harvested crop as long as seeds (or similar items) are available. If the seed was previously planted on farmland and the soil has turned into dirt, the golem will also try to till the block.
+research.SEALHARVEST.stage.1=務農這種枯燥的工作不適合我這種忙碌的秘術師，最好交給傀儡來進行。 <BR>長遠看來設計一個印記來指示傀儡收成作物將使我省下不少勞力。
+research.SEALHARVEST.stage.2=這顆印記會掃描指定範圍內所有完全成熟或可供採收的作物，並派遣傀儡前往採收植株。 <BR>若要求供應，印記也會在有種子（或類似的物品）可用時重新種下作物。當原本有種植作物的耕地變成泥土，傀儡也會嘗試翻土。
 #
 research.SEALGUARD.title=控制印記：守衛
 research.SEALGUARD.stage.1=Though small, thaumaturgical golems should be perfectly capable of combat.<BR>Combat is quite a complex task, however, and I will need to carefully test the seal to avoid accidents.
@@ -1740,6 +1745,7 @@ research.SEALBUTCHER.stage.2=The butcher seal works much like a §5Guard§0 seal
 research.SEALBREAK.title=控制印記：方塊破壞者
 research.SEALBREAK.stage.1=Specially equipped and instructed golems should be capable of digging and breaking blocks. I just need to design the proper seal for that task.
 research.SEALBREAK.stage.2=This seal commands golems to break any blocks they find in the area.<BR>The hardness of a block determines how quickly it can be broken.<BR>It is possible to filter the type of blocks to be broken or ignored.<BR>It should be noted that due to factors like golem mobility, limited area, and speed, this seal probably will not make a very effective mining tool, though it could be used as such in a pinch.
+research.SEALBREAK.stage.ADV=I can now craft an advanced version of the seal that will allow you to filter more items at once and allow the golem to break blocks as if they are using Silk Touch.<BR>Golems will take longer to break block if Silk Touch is used. 
 #
 research.SEALLUMBER.title=控制印記：伐木工
 research.SEALLUMBER.stage.1=While the §5Block Breaker§0 seal can be used to chop down trees it is not particularly effective at the task. I should do something about that.
@@ -1784,7 +1790,7 @@ research.BASEELDRITCH.title=虛無之種
 research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
 research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
 #
-research.VOIDSIPHON.title=Void Siphon
+research.VOIDSIPHON.title=虛無虹吸管
 research.VOIDSIPHON.stage.1=Destroying a rift to get Void Seeds is highly impractical. I must find a better way.<BR>While most Crimson Cultist rantings are nonsense, they do make reference to drawing power from rifts. I believe it should be possible to siphon off some of the eldritch energy in rifts to form Void Seeds without destroying the rift outright.
 research.VOIDSIPHON.stage.2=I hate to admit it, but the Crimson Cultists might be on to something. I have managed to design a Void Siphon that slowly leeches energy from nearby rifts. This leeched energy will slowly form Void Seeds. The larger the rift is, the quicker this process occurs.<BR>Unfortunately this is not without consequence for the rift itself. The rift will become increasingly unstable and will slowly shrink as it's energy is leeched away. I must take care to not overuse them.<BR>A redstone signal will disable the Void Siphon.
 #
