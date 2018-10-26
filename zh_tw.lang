@@ -1774,12 +1774,12 @@ research.GOLEMFLYER.stage.2=從基礎砍掉傀儡的雙腿並在原處黏上奧�
 research.f_FLY.text=仔細檢查飛行生物。
 #
 research.GOLEMBREAKER.title=傀儡操作：方塊破壞
-research.GOLEMBREAKER.stage.1=I should increase the number of tools and abilities my golems have available to them. Maybe I could give them the ability to break blocks?
-research.GOLEMBREAKER.stage.2=By replacing a golem's arms with a set of powerful, diamond-tipped pneumatic grinders it will be able to break through all but the hardest materials.<BR>§9這項研究同時解鎖額外的傀儡零件。§0
+research.GOLEMBREAKER.stage.1=我應該增加傀儡可使用的工具。或許我可以給予它們破壞方塊的能力？
+research.GOLEMBREAKER.stage.2=用一組強力的氣動碎鑽砂輪機取代傀儡的手腕，傀儡將可以打穿除了基岩以外的所有方塊。 <BR>§9這項研究同時解鎖額外的傀儡零件。§0
 #
-research.GOLEMCOMBATADV.title=Improved Golem Combat
-research.GOLEMCOMBATADV.stage.1=I should design improved weapons and armor for my golems.
-research.GOLEMCOMBATADV.stage.2=You can now craft specialized golem weaponry and armor to make them much more effective in combat.<BR>§9這項研究同時解鎖額外的傀儡零件。§0
+research.GOLEMCOMBATADV.title=強化傀儡戰力
+research.GOLEMCOMBATADV.stage.1=我應該為我的傀儡設計更強的武器與裝甲。
+research.GOLEMCOMBATADV.stage.2=現在可以打造傀儡專用的武器與防具使它們更驍勇善戰。 <BR>§9這項研究同時解鎖額外的傀儡零件。§0
 #
 
 ##########################################
