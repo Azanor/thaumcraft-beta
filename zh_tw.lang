@@ -41,7 +41,7 @@ item.celestial_notes.moon_8.text=月相-盈凸月
 #
 item.amber.name=琥珀
 item.quicksilver.name=水銀
-item.crystal_essence.name=%s魔素結晶
+item.crystal_essence.name=%s 魔素結晶
 item.ingot.thaumium.name=靛鐵錠
 item.ingot.void.name=虛鋼錠
 item.ingot.brass.name=煉成黃銅錠
@@ -94,7 +94,7 @@ item.chunk.mutton.name=羊肉塊
 item.brain.name=殭屍腦袋
 item.triple_meat_treat.name=三層肉饌
 item.phial.empty.name=玻璃管型瓶
-item.phial.filled.name=%s源質管型瓶
+item.phial.filled.name=%s 源質管型瓶
 item.label.blank.name=空白標籤
 item.label.filled.name=標記標籤
 item.jar_brace.name=黃銅蓋箍
@@ -202,8 +202,8 @@ item.focus_pouch.name=核心腰包
 # Misc
 #
 item.creative_flux_sponge.name=咒波海綿
-item.turret.basic.name=自動十字弩
-item.turret.advanced.name=高等自動十字弩
+item.turret.basic.name=自動弩砲
+item.turret.advanced.name=高等自動弩砲
 item.turret.bore.name=奧術鑽掘機
 item.enchanted_placeholder.name=任意附魔物件
 item.enchanted_placeholder.text=必須擁有以下附魔：
@@ -535,8 +535,8 @@ entity.CultistPortalGreater.name=大型緋色傳送門
 entity.CultistPortalLesser.name=小型緋色傳送門
 entity.EldritchCrab.name=異象魔蟹
 entity.InhabitedZombie.name=蹣跚屍軀
-entity.TurretBasic.name=自動十字弩
-entity.TurretAdvanced.name=高等自動十字弩
+entity.TurretBasic.name=自動弩砲
+entity.TurretAdvanced.name=高等自動弩砲
 entity.FocusProjectile.name=核心投彈
 entity.FocusCloud.name=核心雲霧
 entity.FocusMine.name=核心地雷
@@ -1648,14 +1648,14 @@ research.VISBATTERY.title=魔素槽
 research.VISBATTERY.stage.1=自然界的魔素水晶就像飾魔素的「電池」。當環境中靈氣充裕時它會吸收靈氣，並在靈氣缺乏時釋出。然而這過程既緩慢又不可靠。 <BR>利用研究魔素水晶成長過程時學到的知識，我應該能自己製造出更加可靠的魔素儲存槽。
 research.VISBATTERY.stage.2=我成功地製造出了魔素槽。 <BR>若當地的魔素高於平常容量的95%，魔素槽會吸收魔素，並在靈氣降至75%以下時釋出。 <BR>這多少有些缺點。即使它遠比自然界的水晶更可靠，魔素槽依舊需要一些時間來反應靈氣的變化。另一個缺點在於容量。它只能儲存10點魔素。我試圖改善但結果相當慘烈。我想這只意味著投入實用所需要的數量更多。 <BR>紅石訊號不只能停止魔素槽作用，還會快速的將魔素槽中所有的魔素釋放回靈氣中。
 #
-research.BASICTURRET.title=自動十字弩
+research.BASICTURRET.title=自動弩砲
 research.BASICTURRET.stage.1=一再受到流浪怪物侵擾，使我開始考慮強化自宅警備。我應該設計一些自動裝置來防止非預期的外患。
-research.BASICTURRET.stage.2=我找到了給予十字弩自我意識的方法，使它成為一台簡單的自動砲台。 <BR>放置後會自動攻擊射程內的任何敵對怪物。遺憾的是我無法控制其有限的思維來篩選特定目標。 <BR>它的容量相當有限，但若在其下方放置一台朝上的投擲器就可以自動裝填其彈槽。 <BR>潛行時右鍵輕觸可以撿起弩砲。 <PAGE>砲台可以裝進礦車，並利用鐵軌下的投擲器進行裝填。 <BR>通過奧術觸發鐵軌可以切換砲台的狀態。啟動的奧術觸發鐵軌可以暫停弩砲運作，而未啟動的鐵軌則能讓砲台重新恢復運作。
+research.BASICTURRET.stage.2=我找到了給予十字弓自我意識的方法，使它成為一台簡單的自動砲台。 <BR>放置後會自動攻擊射程內的任何敵對怪物。遺憾的是我無法控制其有限的思維來篩選特定目標。 <BR>它的容量相當有限，但若在其下方放置一台朝上的投擲器就可以自動裝填其彈槽。 <BR>潛行時右鍵輕觸可以撿起弩砲。 <PAGE>砲台可以裝進礦車，並利用鐵軌下的投擲器進行裝填。 <BR>通過奧術觸發鐵軌可以切換砲台的狀態。啟動的奧術觸發鐵軌可以暫停弩砲運作，而未啟動的鐵軌則能讓砲台重新恢復運作。
 research.f_DISPENSER.text=做一些關於射擊物件的實驗。
 #
-research.ADVANCEDTURRET.title=高等自動十字弩
+research.ADVANCEDTURRET.title=高等自動弩砲
 research.ADVANCEDTURRET.stage.1=最近關於進階奧術中樞的研究成果使我能夠自動砲台進行一些必要的改進。
-research.ADVANCEDTURRET.stage.2=高等自動十字弩運作方式與基本款雷同，但加上了幾項顯著的改善。 <BR>額外的鐵板使它更加堅固，更複雜的裝填機關給予它更高的發射速度。 <BR>最後一點，可以指定其攻擊目標的類型。
+research.ADVANCEDTURRET.stage.2=高等自動弩砲運作方式與基本款雷同，但加上了幾項顯著的改善。 <BR>額外的鐵板使它更加堅固，更複雜的裝填機關給予它更高的發射速度。 <BR>最後一點，可以指定其攻擊目標的類型。
 #
 ##########################################
 # GOLEMANCY
@@ -1689,7 +1689,7 @@ research.MATSTUDTHAUMIUM.stage.1=靛鐵是一種如海綿般吸滿了魔力的�
 research.f_MATTHAUMIUM.text=對靛鐵進行實驗
 #
 research.MATSTUDVOID.title=材料研究：虛鋼
-research.MATSTUDVOID.stage.1=虛無鋼相對輕盈，但是過於柔軟，一般而言並不適合用於機械。幸運的是其可塑性與自我修復能力讓秘術師能跳脫框架，開啟更多的可能性。
+research.MATSTUDVOID.stage.1=虛鋼相對輕盈，但是過於柔軟，一般而言並不適合用於機械。幸運的是其可塑性與自我修復能力讓秘術師能跳脫框架，開啟更多的可能性。
 research.f_MATVOID.text=對虛鋼進行實驗 
 #
 research.MINDCLOCKWORK.title=發條中樞
@@ -1787,14 +1787,14 @@ research.GOLEMCOMBATADV.stage.2=現在可以打造傀儡專用的武器與防具
 ##########################################
 #
 research.BASEELDRITCH.title=虛無之種
-research.BASEELDRITCH.stage.1=The void seed I have discovered begs further study. I should study it further and perhaps discover a practical use for it.<BR>Currently it seems morphicly unstable - it's physical properties are constantly shifting and changing shape. Maybe binding it with something else will make it easier to manipulate. Metal perhaps?
-research.BASEELDRITCH.stage.2=My hand shakes as I write this. The strange substance I have investigated has opened strange new vistas in my mind.<BR>Before me I have formulas for creating a mysterious new metal, yet I do not remember writing them, nor does the handwriting look quite like mine.<BR>The metal they describe is a mass of contradictions. It is hard and unyielding, yet at the same time soft and easy to work. It will feel warm to the touch, almost alive and like living things it will slowly heal itself if damaged.<BR>Crafting mere physical tools from this seems almost... wrong.
+research.BASEELDRITCH.stage.1=我發現的這些虛無之種有深入研究的必要。進一步研究或許有辦法使它實用化。 <BR>目前它的型態似乎不大穩定——其物理性質經常改變，也沒有固定的形狀。或許將它融入其他物質會比較好處理。或許可以利用金屬？
+research.BASEELDRITCH.stage.2=我的雙手在顫抖。經過我仔細檢查，這種詭異的物質開啟了我心中詭異的全新視野。 <BR>在此之前，我曾寫下一種神祕的全新金屬合成公式，但我不記得寫過這種東西，甚至連字跡也不像是我寫的。 <BR>敘述中的金屬充滿各種矛盾。它堅固不屈，同時又柔軟易於加工。它溫暖的觸感彷彿擁有生命，而且如同生物般會在受損時緩緩復原。 <BR>用它來製作物理上的工具似乎... 不正確。
 #
 research.VOIDSIPHON.title=虛無虹吸管
 research.VOIDSIPHON.stage.1=Destroying a rift to get Void Seeds is highly impractical. I must find a better way.<BR>While most Crimson Cultist rantings are nonsense, they do make reference to drawing power from rifts. I believe it should be possible to siphon off some of the eldritch energy in rifts to form Void Seeds without destroying the rift outright.
 research.VOIDSIPHON.stage.2=I hate to admit it, but the Crimson Cultists might be on to something. I have managed to design a Void Siphon that slowly leeches energy from nearby rifts. This leeched energy will slowly form Void Seeds. The larger the rift is, the quicker this process occurs.<BR>Unfortunately this is not without consequence for the rift itself. The rift will become increasingly unstable and will slowly shrink as it's energy is leeched away. I must take care to not overuse them.<BR>A redstone signal will disable the Void Siphon.
 #
-research.VOIDSEERPEARL.title=Voidseer's Pearl
+research.VOIDSEERPEARL.title=虛空先知寶珠
 research.VOIDSEERPEARL.stage.1=In madness there is insight. Or so I have been told... I'm not sure by who, but it has the ring of truth about it.<BR>I have been having strange thoughts and ideas of late, but their significance and meaning is just outside my grasp. If I can focus my mind somehow I might be able to see... more.
 research.VOIDSEERPEARL.stage.2=When I hold this charm I get glimpses of what lies beyond. The meaning still eludes me, but I feel more connected to the aura and magic than I have ever felt before.<BR>While I have this charm equipped I will find vis much easier to manipulate.<BR>Oddly enough, the size of the bonus seems to be proportional to the amount of permanent warp I have suffered. What a strange coincidence.
 #
